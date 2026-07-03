@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getinfo360</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #FFCBA4;
+            --secondary: #D35400;
+            --accent: #2C3E50;
+            --light: #FFF9F5;
+            --dark: #1A1A1A;
+            --success: #27AE60;
+            --danger: #E74C3C;
+            --info: #3498DB;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--accent) 0%, #4c0fbd 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            
+            width: 100%;
+            
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            margin-right: 10px
+           
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: -4px;
+        }
+        
+        .logo-icon img {
+            width: 120px;
+            height: 60px;
+            
+            
+            padding: 5px;
+        }
+        
+        .logo-text h1 {
+            font-size: 1.8rem;
+            color: white;
+        }
+        
+        .logo-text p {
+            font-size: 0.9rem;
+            color: var(--primary);
+        }
+        
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-right: 20px;
+        }
+        
+        .mobile-menu {
+            
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: #FFF9F5;
+            margin-top: -5px;
+
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        nav ul::-webkit-scrollbar{
+            display: none;
+            
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s;
+            border-top: 1px solid #FFCBA4;
+            
+        }
+        
+        nav ul li a:hover {
+            background: rgba(255, 203, 164, 0.15);
+            color: var(--primary);
+        }
+        
+        nav ul li a.active {
+            color: var(--primary);
+            background: rgba(255, 203, 164, 0.1);
+        }
+
+        marquee{
+            background: rgba(0,0,0,0.5);
+            padding: 5px;
+            color: #fff;
+            margin-right: -15px;
+            margin-top: 6px;
+           
+        }
+        
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .page-header h1 span {
+            color: var(--primary);
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* News Layout */
+        .news-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            padding: 60px 0;
+           
+        }
+        
+        /* Main News Section */
+        .featured-news {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+        }
+        
+        .featured-image {
+            height: 400px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 8rem;
+        }
+        
+        .featured-content {
+            padding: 40px;
+        }
+        
+        .news-category {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 5px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .news-title {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+        
+        .news-meta {
+            display: flex;
+            gap: 20px;
+            color: #777;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+        
+        .news-meta i {
+            color: var(--secondary);
+            margin-right: 5px;
+        }
+        
+        .news-excerpt {
+            color: #555;
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--primary);
+            color: var(--accent);
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .read-more:hover {
+            background: var(--secondary);
+            color: white;
+            gap: 15px;
+        }
+        
+        /* News Grid */
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            height:300px;
+            width: 300px;
+            display: flex;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .card-image {
+            height: 100px;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-size: 3rem;
+        }
+        
+        .card-content {
+            padding: 25px;
+            display: flex;
+        }
+        
+        .card-category {
+            color: var(--secondary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .card-title {
+            font-size: 1.3rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .card-meta {
+            display: flex;
+            gap: 15px;
+            color: #777;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+        }
+        
+        .card-excerpt {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        /* Sidebar */
+        .news-sidebar {
+            position: sticky;
+            top: 100px;
+        }
+        
+        .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .widget-title {
+            color: var(--accent);
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .widget-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--secondary);
+        }
+        
+        /* Search Widget */
+        .search-box {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .search-box input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        .search-box input:focus {
+            border-color: var(--secondary);
+        }
+        
+        .search-box button {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 0 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .search-box button:hover {
+            background: #e67e22;
+        }
+        
+        /* Categories Widget */
+        .category-list {
+            list-style: none;
+        }
+        
+        .category-list li {
+            margin-bottom: 12px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 12px;
+        }
+        
+        .category-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .category-list a {
+            display: flex;
+            justify-content: space-between;
+            color: #555;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .category-list a:hover {
+            color: var(--secondary);
+        }
+        
+        .category-count {
+            background: var(--light);
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        
+        /* Recent Posts Widget */
+        .recent-post {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .recent-image img{
+            width: 80px;
+            height: 80px;
+            background: var(--primary);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            background-repeat: none;
+            background-size: cover;
+        }
+        
+        .recent-info h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        
+        .recent-info h4 a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .recent-info h4 a:hover {
+            color: var(--secondary);
+        }
+        
+        .recent-date {
+            color: #777;
+            font-size: 0.85rem;
+        }
+        
+        .recent-date i {
+            color: var(--secondary);
+            margin-right: 5px;
+        }
+        
+        /* Archives Widget */
+        .archive-list {
+            list-style: none;
+        }
+        
+        .archive-list li {
+            margin-bottom: 10px;
+        }
+        
+        .archive-list a {
+            color: #555;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .archive-list a:hover {
+            color: var(--secondary);
+        }
+        
+        /* Tags Widget */
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .tag {
+            background: var(--light);
+            color: var(--accent);
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        
+        .tag:hover {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 50px;
+        }
+        
+        .page-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: white;
+            border-radius: 5px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .page-link:hover {
+            background: var(--primary);
+        }
+        
+        .page-link.active {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .page-link.next {
+            width: auto;
+            padding: 0 20px;
+        }
+        
+        /* Newsletter Section */
+        .newsletter-section {
+            background: linear-gradient(135deg, var(--accent) 0%, #1a2632 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .newsletter-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-content h2 span {
+            color: var(--primary);
+        }
+        
+        .newsletter-content p {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .newsletter-content  {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+            gap: 10px;
+        }
+        
+        .newsletter-form input {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        .newsletter-form button {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 0 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .newsletter-form button:hover {
+            background: #e67e22;
+        }
+
+        .nc{
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            aspect-ratio: 16/10;
+            overflow: hidden;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("OIP.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+         .nc img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            
+        }
+        
+        
+        .con1{
+            position:absolute;
+           bottom: 30px;
+           left:30px;
+           right: 30px;
+           z-index: 2;
+        }
+        .con1 h2{
+            color: #fff;
+            font-size: clamp(24px, 5vw, 44px);
+            font-weight: 700;
+            line-height: 1.15;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0,0.4);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--accent);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            color: var(--primary);
+            margin-bottom: 25px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--primary);
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        a{
+            text-decoration: none;
+        }
+        .top1{
+            display: flex;
+            gap:20px;
+            
+        }
+
+         .dq1 p{
+             font-weight: 900;
+            font-style: italic;
+            text-align: center;
+            
+        }
+        .t1 h1{
+            font-family: arial;
+            font-size: 50px;
+             margin-top: -18px;
+             color: linear-gradient(135deg, var(--accent) 0%, #4c0fbd 100%);
+
+           
+        }
+        .t1{
+            background-color: #ddd;
+            padding: 15px 15px ;
+            border-radius: 50px;
+            height: 50px;
+            margin-left: -40px;
+            margin-top: -30px;
+            
+        }
+        .t2{
+            color: #fff;
+            font-size: 15px;
+        }
+        .dq1{
+            padding: 18px 18px;
+            border-radius: 10px;
+            background: rgba(0,0,0,0.5);
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+        }
+        .dq{
+            display: flex;
+            gap:20px;
+           
+        }
+        .hw h1{
+            font-size: 20px;
+        }
+        .hw{
+            background: #c4c3c3;
+            border-bottom: #D35400 1px solid;
+            padding: 10px 10px;
+        }
+        .down{
+            display: flex;
+            gap:5px;
+        }
+        .down img{
+            padding: 15px 15px ;
+            border-radius: 55px;
+            height: 110px;
+
+        }
+        .down h3{
+            margin-top: 30px;
+            color: #fff;
+            line-height: 18px;
+        }
+       
+        /* Responsive */
+        @media (max-width: 992px) {
+            .news-layout {
+                grid-template-columns: 1fr;
+                 margin-left:-30px;
+            }
+            
+            .news-sidebar {
+                position: static;
+            }
+            
+            .featured-image {
+                height: 300px;
+            }
+
+            .logo-icon img {
+            width: 90px;
+            height: 50px;
+            
+            
+            padding: 5px;
+        }
+            
+        }
+        
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+
+           .logo-icon img {
+            width: 90px;
+            height: 50px;
+            
+            
+            padding: 5px;
+        }
+            
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <img src="geti.png" alt="KUHIS Logo">
+                    </div>
+                    
+                </div>
+                
+                <div class="nav-right">
+                    <div class="mobile-menu" >
+                       <i class="fa-solid fa-circle-user" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <nav>
+                    <ul id="nav-menu">
+                        <li><a href="index.html"  class="active">Home</a></li>
+                        <li><a href="ano.html"> News</a></li>
+                        <li><a href="prefects.html">Politics</a></li>
+                        <li><a href="nsmq.html">Education</a></li>
+                        <li><a href="gallery.html">Health</a></li>
+                        <li><a href="news.html"> Sports</a></li>
+                        <li><a href="news.html"> Entertainment</a></li>
+                        <li><a href="news.html"> Articles</a></li>
+                        <li><a href="news.html"> Researchs</a></li>
+                    </ul>
+                </nav>
+                </div>
+                
+               
+    </header>
+    <br><br><br><br>
+    <div class="scroll">
+        <marquee>Headline: Accra flood displaces many</marquee>
+    </div>
+    <div class="container">
+        <div class="news-layout">
+            <!-- Main News Content -->
+             
+            <div class="main-news">
+                <div class="nc">
+                
+                <div class="overlay"></div>
+                <div class="con1">
+                 <a href="#"><h2> Flood leaves many residents in Accra displaced</h2></a>
+
+                </div>
+               </div>
+               
+               
+                    
+            
+                  <br>
+                <!-- News Grid -->
+                <div class="news-grid">
+                    <!-- News Card 1 -->
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <img src="MP.webp" alt="img">
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">South Africa Police confirms the death of a Ghanaian</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 2, 2026
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- News Card 2 -->
+                    <div class="recent-post">
+                        <div class="recent-image">
+                             <img src="haru.webp" alt="img">
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">Government Increases feeding grant for special schools</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 1, 2026
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dqo">
+                         <div class="hw">
+                            <h1>Daily Quote</h1>
+                        </div>
+                    <div class="dq">
+                       
+                        <div class="dq1">
+                        <div class="top1">
+                            <div class="t1">
+                                <h1>"</h1>
+
+                            </div>
+                            <div class="t2">
+                                <h3></h3>
+
+                            </div>
+                        </div>
+                        <div class="qo">
+                            <p>We must move beyond reacting to disaters and begin implementiong lasting solutions</p>
+
+                        </div>
+                        <div class="down">
+                            <div class="d1">
+                                <img src="pp.jpg" alt="img">
+
+                            </div>
+                            <div class="d2">
+                                <h3>Rev. Dr. Patrick Owusu</h3>
+                            </div>
+                        </div>
+                        </div>
+
+                        
+                        </div>
+
+                    </div>
+                    <div class="dc">
+                        <div class="hw">
+                            <h1>Art Speaks-Luc's Corner</h1>
+                        </div>
+                    </div>
+
+                </div>
+                   
+
+                <!-- Pagination
+                <div class="pagination">
+                    <a href="#" class="page-link"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link">4</a>
+                    <a href="#" class="page-link">5</a>
+                    <a href="#" class="page-link next">Next <i class="fas fa-chevron-right"></i></a>
+                </div> -->
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="news-sidebar">
+                <!-- Search Widget 
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Search News</h3>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search articles...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>-->
+
+                <!-- Categories Widget
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#">Academic News <span class="category-count">12</span></a></li>
+                        <li><a href="#">Sports <span class="category-count">8</span></a></li>
+                        <li><a href="#">Cultural Events <span class="category-count">6</span></a></li>
+                        <li><a href="#">Achievements <span class="category-count">10</span></a></li>
+                        <li><a href="#">Administration <span class="category-count">5</span></a></li>
+                        <li><a href="#">Alumni <span class="category-count">4</span></a></li>
+                    </ul>
+                </div> -->
+
+                <!-- Recent Posts Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Recent News</h3>
+                    
+                   <!-- <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">KUHIS NSMQ Team Qualifies for Quarter Finals</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> June 15, 2023
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">2023 WASSCE Candidates Excel</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> June 10, 2023
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">Speech & Prize Giving Day 2023</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> May 28, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">Inter-House Sports Competition</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> May 20, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">New Science Block Commissioned</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> May 5, 2023
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+                        <!-- Recent Articles Widget -->
+                 <div class="sidebar-widget">
+                    <h3 class="widget-title">Recent Articles</h3>
+                    
+                   <!-- <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">KUHIS NSMQ Team Qualifies for Quarter Finals</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> June 15, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">2023 WASSCE Candidates Excel</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> June 10, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">Speech & Prize Giving Day 2023</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> May 28, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">Inter-House Sports Competition</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> May 20, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <div class="recent-image">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="#">New Science Block Commissioned</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> May 5, 2023
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+
+
+                <!-- Archives Widget
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Archives</h3>
+                    <ul class="archive-list">
+                        <li><a href="#">June 2023 <span>8</span></a></li>
+                        <li><a href="#">May 2023 <span>12</span></a></li>
+                        <li><a href="#">April 2023 <span>10</span></a></li>
+                        <li><a href="#">March 2023 <span>7</span></a></li>
+                        <li><a href="#">February 2023 <span>5</span></a></li>
+                    </ul>
+                </div> -->
+
+                <!-- Tags Widget 
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Popular Tags</h3>
+                    <div class="tag-cloud">
+                        <a href="#" class="tag">NSMQ</a>
+                        <a href="#" class="tag">WASSCE</a>
+                        <a href="#" class="tag">Sports</a>
+                        <a href="#" class="tag">Science</a>
+                        <a href="#" class="tag">Mathematics</a>
+                        <a href="#" class="tag">Cultural</a>
+                        <a href="#" class="tag">Achievement</a>
+                        <a href="#" class="tag">Alumni</a>
+                        <a href="#" class="tag">Admissions</a>
+                    </div>
+                </div>-->
+            </aside>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@kumasihighschooldaries"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            
+        }
+
+        // Responsive menu handling
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 992) {
+                document.getElementById('nav-menu').style.display = 'flex';
+            } else {
+                document.getElementById('nav-menu').style.display = 'flex';
+                document.querySelector('.mobile-menu i').className = 'fas fa-circle-user';
+            }
+        });
+
+       
+        // Smooth scroll for read more links (demo)
+        document.querySelectorAll('.read-more').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('Full article page coming soon! This is a demo.');
+            });
+        });
+
+        // Category links (demo)
+        document.querySelectorAll('.category-list a, .archive-list a, .tag').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('Category filter feature coming soon!');
+            });
+        });
+    </script>
+
+
+   
+</html>
