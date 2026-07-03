@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Getinfo360</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -31,121 +34,113 @@
         }
         
         /* Header Styles */
-        header {
-            background: linear-gradient(135deg, var(--accent) 0%, #4c0fbd 100%);
-            color: white;
-            padding: 1rem 0;
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-            
-            width: 100%;
-            
-        }
-        
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 15px;
+       header {
+      background: linear-gradient(135deg, var(--accent) 0%, #4c0fbd 100%);
+      color: white;
+      padding: 1rem 0 0.7rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      width: 100%;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+        padding: 0 15px;
             margin-right: 10px
-           
-        }
-        
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-top: -4px;
-        }
-        
-        .logo-icon img {
-            width: 120px;
-            height: 60px;
-            
-            
-            padding: 5px;
-        }
-        
-        .logo-text h1 {
-            font-size: 1.8rem;
-            color: white;
-        }
-        
-        .logo-text p {
-            font-size: 0.9rem;
-            color: var(--primary);
-        }
-        
-        .nav-right {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-right: 20px;
-        }
-        
-        .mobile-menu {
-            
-            font-size: 1.8rem;
-            cursor: pointer;
-            color: #FFF9F5;
-            margin-top: -5px;
+    }
 
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 10px;
-            overflow-x: auto;
-            overflow-y: hidden;
-            white-space: nowrap;
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
+    
 
-        nav ul::-webkit-scrollbar{
-            display: none;
-            
-        }
-        
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: all 0.3s;
-            border-top: 1px solid #FFCBA4;
-            
-        }
-        
-        nav ul li a:hover {
-            background: rgba(255, 203, 164, 0.15);
-            color: var(--primary);
-        }
-        
-        nav ul li a.active {
-            color: var(--primary);
-            background: rgba(255, 203, 164, 0.1);
-        }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
 
-        marquee{
-            background: rgba(0,0,0,0.5);
-            padding: 5px;
-            color: #fff;
-            margin-right: -15px;
-            margin-top: 6px;
-           
-        }
-        
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-icon img {
+      width: 120px;
+      height: 60px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+    }
+
+    .logo-text h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: white;
+    }
+
+    .logo-text span {
+      color: var(--primary);
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .mobile-menu {
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 8px;
+      overflow-x: auto;
+      white-space: nowrap;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      padding: 0.5rem 0 0.2rem;
+    }
+    nav ul::-webkit-scrollbar { display: none; }
+
+    nav ul li a {
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 10px 18px;
+      border-radius: 10px;
+      transition: 0.25s;
+      border: 1px solid transparent;
+      font-size: 0.95rem;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+      background: rgba(255, 203, 164, 0.15);
+      color: var(--primary);
+      border-color: rgba(255, 203, 164, 0.25);
+    }
+    nav ul li a.active {
+      background: rgba(255, 203, 164, 0.2);
+      color: #fff;
+    }
+
+    marquee {
+      background: rgba(0,0,0,0.5);
+      padding: 6px 0;
+      color: #fff;
+      font-weight: 300;
+      letter-spacing: 0.3px;
+      margin-top: 1px;
+      
+    }
+
         /* Page Header */
         .page-header {
             background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
@@ -340,6 +335,7 @@
             padding: 30px;
             margin-bottom: 30px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+           
         }
         
         .widget-title {
@@ -615,7 +611,7 @@
             aspect-ratio: 16/10;
             overflow: hidden;
             border-radius: 5px;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("Assets\OIP.webp");
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("assets/OIP.webp");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -646,148 +642,413 @@
         }
         
         /* Footer */
-        footer {
-            background: var(--accent);
-            color: white;
-            padding: 60px 0 30px;
-        }
+       .footer {
+      background: #0b1a2f;          /* deep navy, trustworthy */
+      color: #eef3fc;
+      padding: 2.8rem 2rem 1.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .footer-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1.2fr 1.2fr;
+      gap: 2.5rem 2rem;
+    }
+
+    /* --- brand column --- */
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    .footer-brand .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-brand .logo i {
+      font-size: 2.2rem;
+      color: #5b8cff;
+      background: rgba(91, 140, 255, 0.12);
+      padding: 0.4rem;
+      border-radius: 14px;
+      transition: 0.2s;
+    }
+
+    .footer-brand .logo span {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+
+    .footer-brand .logo span i {
+      font-size: 1.6rem;
+      background: transparent;
+      padding: 0;
+      color: #7ba0ff;
+    }
+
+    .footer-brand .tagline {
+      font-size: 1rem;
+      line-height: 1.5;
+      opacity: 0.75;
+      max-width: 260px;
+      margin-top: 0.2rem;
+      font-weight: 300;
+      letter-spacing: 0.01em;
+      color: #c9d9f0;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-social a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      color: #d4e2fc;
+      font-size: 1.3rem;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      backdrop-filter: blur(2px);
+      border: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    .footer-social a:hover {
+      background: #2a6df4;
+      color: #ffffff;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 18px rgba(42, 109, 244, 0.35);
+      border-color: #2a6df4;
+    }
+
+    /* --- footer links (columns) --- */
+    .footer-links h4,
+    .footer-categories h4,
+    .footer-legal h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+      margin-bottom: 1.3rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .footer-links h4::after,
+    .footer-categories h4::after,
+    .footer-legal h4::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 28px;
+      height: 3px;
+      background: #3b7aff;
+      border-radius: 6px;
+    }
+
+    .footer-links ul,
+    .footer-categories ul,
+    .footer-legal ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+
+    .footer-links ul li a,
+    .footer-categories ul li a,
+    .footer-legal ul li a {
+      color: #c9d9f0;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 400;
+      transition: color 0.2s, transform 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer-links ul li a i,
+    .footer-categories ul li a i,
+    .footer-legal ul li a i {
+      font-size: 0.6rem;
+      opacity: 0.6;
+      color: #5b8cff;
+    }
+
+    .footer-links ul li a:hover,
+    .footer-categories ul li a:hover,
+    .footer-legal ul li a:hover {
+      color: #ffffff;
+      transform: translateX(4px);
+    }
+
+    .footer-links ul li a:hover i,
+    .footer-categories ul li a:hover i,
+    .footer-legal ul li a:hover i {
+      opacity: 1;
+    }
+
+    /* --- bottom bar --- */
+    .footer-bottom {
+      max-width: 1280px;
+      margin: 2rem auto 0;
+      padding-top: 1.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: #98b1d4;
+    }
+
+    .footer-bottom .copy {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer-bottom .copy i {
+      color: #5b8cff;
+      font-size: 0.8rem;
+    }
+
+    .footer-bottom .copy span {
+      font-weight: 500;
+      color: #c9d9f0;
+    }
+
+    .footer-bottom .legal-links {
+      display: flex;
+      gap: 1.8rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-bottom .legal-links a {
+      color: #98b1d4;
+      text-decoration: none;
+      transition: color 0.2s;
+      font-size: 0.85rem;
+      letter-spacing: 0.01em;
+    }
+
+    .footer-bottom .legal-links a:hover {
+      color: #ffffff;
+    }
+    footer p{
+        font-size:10px;
         
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-        
-        .footer-column h3 {
-            color: var(--primary);
-            margin-bottom: 25px;
-            font-size: 1.3rem;
-        }
-        
-        .footer-links {
-            list-style: none;
-        }
-        
-        .footer-links li {
-            margin-bottom: 12px;
-        }
-        
-        .footer-links a {
-            color: #ddd;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .footer-links a:hover {
-            color: var(--primary);
-        }
-        
-        .social-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-        }
-        
-        .social-links a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 50%;
-            color: white;
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-        
-        .social-links a:hover {
-            background: var(--primary);
-            color: var(--accent);
-            transform: translateY(-3px);
-        }
-        
-        .copyright {
-            text-align: center;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            color: #aaa;
-            font-size: 0.9rem;
-        }
+    }
+
+    /* --- responsive --- */
+    @media screen and (max-width: 900px) {
+      .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem 1.8rem;
+      }
+      .footer-brand {
+        grid-column: 1 / -1;
+      }
+      .footer-brand .tagline {
+        max-width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 550px) {
+      .footer {
+        padding: 2rem 1.2rem 1.5rem;
+      }
+      .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .footer-brand {
+        grid-column: 1;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+      }
+      .footer-bottom .legal-links {
+        gap: 1.2rem;
+      }
+      .page-content .hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+
+    /* small polish */
+    .footer i.fa-chevron-right {
+      font-size: 0.5rem;
+    }
         a{
             text-decoration: none;
         }
-        .top1{
+   
+
+
+          /* ---------- QUOTE SECTION (professional) ---------- */
+        .quote-section {
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem 0.5rem 1rem 1.5rem;
+            margin: 2rem 0 1.8rem;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.02);
+            border: 1px solid #f0ebe6;
+        }
+        .quote-header {
             display: flex;
-            gap:20px;
-            
-        }
-
-         .dq1 p{
-             font-weight: 900;
-            font-style: italic;
-            text-align: center;
-            
-        }
-        .t1 h1{
-            font-family: arial;
-            font-size: 50px;
-             margin-top: -18px;
-             color: linear-gradient(135deg, var(--accent) 0%, #4c0fbd 100%);
-
-           
-        }
-        .t1{
-            background-color: #ddd;
-            padding: 15px 15px ;
-            border-radius: 50px;
-            height: 50px;
-            margin-left: -40px;
-            margin-top: -30px;
-            
-        }
-        .t2{
-            color: #fff;
-            font-size: 15px;
-        }
-        .dq1{
-            padding: 18px 18px;
-            border-radius: 10px;
-            background: rgba(0,0,0,0.5);
-            margin-top: 20px;
-            margin-left: 20px;
-            height: 200px;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+            margin-bottom: 1rem;
+            padding-right: 1rem;
         }
-        .dq{
-            display: flex;
-            gap:20px;
-           
+        .quote-header h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #0f1a2b;
+            letter-spacing: -0.01em;
         }
-        .hw h1{
-            font-size: 20px;
-        }
-        .hw{
-            background: #c4c3c3;
-            border-bottom: #D35400 1px solid;
-            padding: 10px 10px;
-        }
-        .down{
-            display: flex;
-            gap:5px;
-        }
-        .down img{
-            padding: 15px 15px ;
-            border-radius: 55px;
-            height: 110px;
+        .quote-header a { color: #d35400; font-size: 0.9rem; font-weight: 500; }
+        .quote-header a i { margin-left: 4px; }
 
+       
+        .quote-item {
+            min-width: 280px;
+            max-width: 320px;
+            flex-shrink: 0;
+            background: #f6f3f0;
+            border-radius: 20px;
+            padding: 1.5rem 1.2rem 1rem;
+            scroll-snap-align: start;
+            border-left: 4px solid #d35400;
+            transition: 0.2s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
         }
-        .down h3{
-            margin-top: 30px;
-            color: #fff;
-            line-height: 18px;
+        .quote-item:first-child {
+            background: #0f1a2b;
+            color: white;
+            border-left-color: #ffcba4;
+        }
+        .quote-item:first-child .q-text { color: #f0ece6; }
+        .quote-item:first-child .q-author { color: #ffcba4; }
+
+        .q-text {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #1e2a3a;
+            margin-bottom: 0.6rem;
+            font-style: italic;
+        }
+        .q-text i { opacity: 0.5; margin-right: 4px; }
+        .q-author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 0.8rem;
+            font-weight: 500;
+        }
+        .q-author img {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: #ccc;
+        }
+        .q-author .name { font-size: 0.9rem; }
+
+         /* ---------- CARTOON SECTION (daily) ---------- */
+        .cartoon-section {
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem 0.5rem 1rem 1.5rem;
+            margin: 1.8rem 0 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.02);
+            border: 1px solid #f0ebe6;
+        }
+        .cartoon-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 1rem;
+            margin-bottom: 1rem;
+        }
+        .cartoon-header h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #0f1a2b;
+        }
+        .cartoon-header a { color: #d35400; font-size: 0.9rem; font-weight: 500; }
+        .cartoon-scroll {
+            display: flex;
+            gap: 1.5rem;
+            overflow-x: auto;
+            padding: 0.5rem 1rem 1.2rem 0.2rem;
+            scroll-snap-type: x mandatory;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .cartoon-scroll::-webkit-scrollbar { display: none; }
+
+        .cartoon-item {
+            min-width: 240px;
+            max-width: 260px;
+            flex-shrink: 0;
+            background: #fcf9f7;
+            border-radius: 20px;
+            overflow: hidden;
+            scroll-snap-align: start;
+            border: 1px solid #ece5df;
+            transition: 0.2s;
+        }
+        .cartoon-item:first-child {
+            border: 2px solid #d35400;
+            box-shadow: 0 8px 18px rgba(211,84,0,0.08);
+        }
+        .cartoon-img {
+            height: 160px;
+            background: #d9d0c8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #4a3f38;
+        }
+        .cartoon-item:first-child .cartoon-img {
+            background: #f0e0d0;
+        }
+        .cartoon-caption {
+            padding: 1rem 1rem 1.2rem;
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: #1e2a3a;
+            background: white;
+        }
+        .cartoon-caption span {
+            display: block;
+            font-weight: 400;
+            font-size: 0.8rem;
+            color: #777;
+            margin-top: 4px;
         }
        
         /* Responsive */
@@ -812,6 +1073,14 @@
             
             padding: 5px;
         }
+         .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: auto;
+        }
             
         }
         
@@ -829,11 +1098,18 @@
             }
 
            .logo-icon img {
-            width: 90px;
-            height: 50px;
-            
-            
-            padding: 5px;
+             width: 120px;
+      height: 60px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+        }
+         .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: auto;
         }
             
            
@@ -861,7 +1137,7 @@
                 <nav>
                     <ul id="nav-menu">
                         <li><a href="index.html"  class="active">Home</a></li>
-                        <li><a href="ano.html"> News</a></li>
+                        <li><a href="news.html"> News</a></li>
                         <li><a href="prefects.html">Politics</a></li>
                         <li><a href="nsmq.html">Education</a></li>
                         <li><a href="gallery.html">Health</a></li>
@@ -875,7 +1151,7 @@
                 
                
     </header>
-    <br><br><br><br>
+    
     <div class="scroll">
         <marquee>Headline: Accra flood displaces many</marquee>
     </div>
@@ -925,47 +1201,38 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dqo">
-                         <div class="hw">
-                            <h1>Daily Quote</h1>
-                        </div>
-                    <div class="dq">
-                       
-                        <div class="dq1">
-                        <div class="top1">
-                            <div class="t1">
-                                <h1>"</h1>
-
-                            </div>
-                            <div class="t2">
-                                <h3></h3>
-
-                            </div>
-                        </div>
-                        <div class="qo">
-                            <p>We must move beyond reacting to disaters and begin implementiong lasting solutions</p>
-
-                        </div>
-                        <div class="down">
-                            <div class="d1">
-                                <img src="Assets\pp.jpg" alt="img">
-
-                            </div>
-                            <div class="d2">
-                                <h3>Rev. Dr. Patrick Owusu</h3>
-                            </div>
-                        </div>
-                        </div>
-
-                        
-                        </div>
-
-                    </div>
-                    <div class="dc">
-                        <div class="hw">
-                            <h1>Art Speaks-Luc's Corner</h1>
+                     <div class="quote-section">
+                <div class="quote-header">
+                    <h3><i class="fa-solid fa-quote-left" style="color:#d35400; margin-right:8px;"></i>Daily Quote</h3>
+                    <a href="#">View all <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="quote-scroll">
+                    <!-- first quote (featured) -->
+                    <div class="quote-item">
+                        <div class="q-text"><i class="fa-solid fa-quote-left"></i> We must move beyond reacting to disasters and begin implementing lasting solutions.</div>
+                        <div class="q-author">
+                            <img src="Assets/pp.jpg" alt="Rev. Dr. Patrick Owusu">
+                            <span class="name">Rev. Dr. Patrick Owusu</span>
                         </div>
                     </div>
+                    </div>
+
+                    </div>
+                    
+ <!-- ========== DAILY CARTOON SECTION========== -->
+                     <div class="cartoon-section">
+                <div class="cartoon-header">
+                    <h3><i class="fa-regular fa-newspaper" style="color:#d35400; margin-right:8px;"></i>Art Speaks</h3>
+                    <a href="#">More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="cartoon-scroll">
+                    <!-- first cartoon (featured) -->
+                    <div class="cartoon-item">
+                        <div class="cartoon-img" style="background:#f0ddd0;">🎨</div>
+                           
+                        </div>
+                    </div>
+                </div>
 
                 </div>
                    
@@ -1010,19 +1277,19 @@
                 <div class="sidebar-widget">
                     <h3 class="widget-title">Recent News</h3>
                     
-                   <!-- <div class="recent-post">
+                   <div class="recent-post">
                         <div class="recent-image">
-                            <i class="fas fa-trophy"></i>
+                           <img src="Assets/Bg.jpg" alt="img">
                         </div>
                         <div class="recent-info">
-                            <h4><a href="#">KUHIS NSMQ Team Qualifies for Quarter Finals</a></h4>
+                            <h4><a href="#">GAF urges public to cooperate with security agencies in nationwide flood clean-up exercise</a></h4>
                             <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> June 15, 2023
+                                <i class="far fa-calendar-alt"></i> July 3, 2026
                             </div>
                         </div>
                     </div> 
 
-                    <div class="recent-post">
+                    <!-- <div class="recent-post">
                         <div class="recent-image">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
@@ -1074,19 +1341,19 @@
                  <div class="sidebar-widget">
                     <h3 class="widget-title">Recent Articles</h3>
                     
-                   <!-- <div class="recent-post">
+                    <div class="recent-post">
                         <div class="recent-image">
-                            <i class="fas fa-trophy"></i>
+                            <img src="Assets/fl.webp" alt="img">
                         </div>
                         <div class="recent-info">
-                            <h4><a href="#">KUHIS NSMQ Team Qualifies for Quarter Finals</a></h4>
+                            <h4><a href="#">Accra floods: An annual festival of floodwaters, floating plastics and official sympathies</a></h4>
                             <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> June 15, 2023
+                                <i class="far fa-calendar-alt"></i> July 2, 2026
                             </div>
                         </div>
                     </div>
 
-                    <div class="recent-post">
+                  <!--  <div class="recent-post">
                         <div class="recent-image">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
@@ -1168,21 +1435,81 @@
     </div>
 
     <!-- Newsletter Section -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-content">
-                <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="https://youtube.com/@kumasihighschooldaries"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                    
-            </div>
+   
+        <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- left column: brand & social -->
+      <div class="footer-brand">
+        <div class="logo">
+          
+          <span>Getinfo<span style="font-weight: 300; color: #7ba0ff;">360</span></span>
         </div>
-    </section>
+        <div class="tagline">
+          <i class="fas fa-quote-left" style="opacity: 0.5; margin-right: 4px;"></i> 
+          Real-time news, deep analysis, and stories that matter — from every corner of the world.
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="RSS"><i class="fas fa-rss"></i></a>
+        </div>
+      </div>
 
+      <!-- column: quick links -->
+      <div class="footer-links">
+        <h4>Quick</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> World</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Politics</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Business</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Tech</a></li>
+        </ul>
+      </div>
+
+      <!-- column: categories -->
+      <div class="footer-categories">
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Health</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Science</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Sports</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Culture</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Podcasts</a></li>
+        </ul>
+      </div>
+
+      <!-- column: legal / about -->
+      <div class="footer-legal">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Our team</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Press</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Ethics</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- bottom bar -->
+    <div class="footer-bottom">
+      <div class="copy">
+        <i class="far fa-copyright"></i> 2026 <span>Getinfo360</span><p>— all rights reserved</p>
+      </div>
+      <div class="legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+   <p>Developed by: Rankofsoft & TopCut</p> 
+  </footer>
+    
     <script>
         // Mobile menu toggle
         function toggleMobileMenu() {
