@@ -611,7 +611,7 @@
             aspect-ratio: 16/10;
             overflow: hidden;
             border-radius: 5px;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("Assets /OIP.webp");
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("/Assets/OIP.jpeg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -1178,7 +1178,7 @@
                     <!-- News Card 1 -->
                     <div class="recent-post">
                         <div class="recent-image">
-                            <img src="Assets\MP.webp" alt="img">
+                            <img src="/Assets/mu.jpeg" alt="img">
                         </div>
                         <div class="recent-info">
                             <h4><a href="#">South Africa Police confirms the death of a Ghanaian</a></h4>
@@ -1509,41 +1509,5 @@
     </div>
    <p>Developed by: Rankofsoft & TopCut</p> 
   </footer>
-    
-    <script>
-        // Mobile menu toggle
-        function toggleMobileMenu() {
-            
-        }
-
-        // Responsive menu handling
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 992) {
-                document.getElementById('nav-menu').style.display = 'flex';
-            } else {
-                document.getElementById('nav-menu').style.display = 'flex';
-                document.querySelector('.mobile-menu i').className = 'fas fa-circle-user';
-            }
-        });
-
-       
-        // Smooth scroll for read more links (demo)
-        document.querySelectorAll('.read-more').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                alert('Full article page coming soon! This is a demo.');
-            });
-        });
-
-        // Category links (demo)
-        document.querySelectorAll('.category-list a, .archive-list a, .tag').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                alert('Category filter feature coming soon!');
-            });
-        });
-    </script>
-
-
-   
+    <script src="src/index.js"></script>
 </html>
