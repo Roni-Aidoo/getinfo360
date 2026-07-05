@@ -382,7 +382,13 @@
             margin-bottom: 25px;
             position: relative;
             padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 1rem;
+            margin-bottom: 1rem;
         }
+        .widget-title a { color: #d35400; font-size: 0.9rem; font-weight: 500; }
         
         .widget-title::after {
             content: '';
@@ -1176,12 +1182,12 @@
                     <ul id="nav-menu">
                         <li><a href="index.html"  class="active">Home</a></li>
                         <li><a href="news.html"> News</a></li>
-                        <li><a href="prefects.html">Politics</a></li>
-                        <li><a href="nsmq.html">Education</a></li>
-                        <li><a href="gallery.html">Health</a></li>
+                        <li><a href="">Politics</a></li>
+                        <li><a href="">Education</a></li>
+                        <li><a href="">Health</a></li>
                         <li><a href="news.html"> Sports</a></li>
                         <li><a href="news.html"> Entertainment</a></li>
-                        <li><a href="news.html"> Articles</a></li>
+                        <li><a href="Articles.html"> Articles</a></li>
                         <li><a href="news.html"> Researchs</a></li>
                     </ul>
                 </nav>
@@ -1313,8 +1319,10 @@
 
                 <!-- Recent Posts Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="widget-title">Recent News</h3>
-                    
+                    <div class="widget-title">
+                    <h3 >Recent News</h3>
+                    <a href="news.html"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                    <div class="recent-post">
                         <div class="recent-image">
                            <img src="Assets/Bg.jpg" alt="img">
@@ -1377,7 +1385,10 @@
                 </div>
                         <!-- Recent Articles Widget -->
                  <div class="sidebar-widget">
-                    <h3 class="widget-title">Recent Articles</h3>
+                    <div class="widget-title">
+                    <h3 >Recent Articles</h3>
+                    <a href="Articles.html"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                     
                     <div class="recent-post">
                         <div class="recent-image">
