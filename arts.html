@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getinfo360</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+     <!-- Meta Description -->
+    <meta name="description"
+        content="Stay updated with the latest happenings through Written Articles from experts">
+
+    <!-- Keywords (Optional) -->
+    <meta name="keywords"
+        content="Treanding issues, Articles, Researchs, Others">
+
+    <!-- Author -->
+    <meta name="author" content="Getinfo360">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.getinfo360.com">
+
+    <!-- Open Graph (Facebook & LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Getinfo360 | Treanding issues, Articles & Updates">
+    <meta property="og:description"
+        content="Stay updated with the latest happenings through Written Articles from experts">
+    <meta property="og:image" content="https://www.getinfo360.com/Assets/logo.png">
+    <meta property="og:url" content="https://www.getinfo360.com">
+    <meta property="og:site_name" content="Getinfo360">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Getinfo360 | Treanding issues, Articles & Updates">
+    <meta name="twitter:description"
+        content="Stay updated with the latest happenings through Written Articles from experts">
+    <meta name="twitter:image" content="https://www.getinfo360.com/Assets/logo.png">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0d47a1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico">
+    </head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #FFCBA4;
+            --secondary: #D35400;
+            --accent: #2C3E50;
+            --light: #FFF9F5;
+            --dark: #1A1A1A;
+            --success: #27AE60;
+            --dropdown-bg: #ffffff;
+            --dropdown-hover: #f8f9fa;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+        
+        body.menu-open {
+            overflow: hidden;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--accent) 0%, #071b8d 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+              margin-right: 10px
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-icon img {
+           
+            width: 120px;
+            height: 60px;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            transition: transform 0.3s;
+        }
+        .con1 a{
+            text-decoration: none;
+        }
+        .logo-icon:hover img {
+            transform: scale(1.05);
+        }
+        
+        .logo-text h1 {
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+            color: white;
+        }
+        
+        .logo-text p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            color: var(--primary);
+            font-weight: 500;
+            margin-top: -10px;
+        }
+        
+        /* Navigation Styles */
+        nav {
+            position: relative;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+        
+        nav ul li {
+            position: relative;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        nav ul li a i.fa-chevron-down {
+            font-size: 0.8rem;
+            transition: transform 0.3s;
+        }
+        
+        nav ul li a:hover {
+            background: rgba(255, 203, 164, 0.15);
+            color: var(--primary);
+        }
+        
+        nav ul li a.active {
+            color: var(--primary);
+            background: rgba(255, 203, 164, 0.1);
+        }
+        
+        /* Desktop Dropdown Menu Styles */
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            min-width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            padding: 10px 0;
+            border-top: 3px solid var(--primary);
+        }
+        
+        .dropdown-menu.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .dropdown-menu li {
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .dropdown-menu li a {
+            color: var(--accent);
+            padding: 12px 20px;
+            width: 100%;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            white-space: nowrap;
+        }
+        
+        .dropdown-menu li a i {
+            color: var(--secondary);
+            font-size: 1rem;
+            width: 20px;
+        }
+        
+        .dropdown-menu li a:hover {
+            background: var(--light);
+            color: var(--secondary);
+            padding-left: 25px;
+        }
+        
+        .dropdown-menu li a.active {
+            background: var(--light);
+            color: var(--secondary);
+        }
+        
+        /* Right side navigation items */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--primary);
+            padding: 10px;
+            z-index: 1001;
+        }
+        .mobile-menu1 {
+            
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--primary);
+            padding: 10px;
+            z-index: 1001;
+        }
+        
+        .search-btn {
+            background: rgba(255, 203, 164, 0.1);
+            border: none;
+            color: var(--primary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .search-btn:hover {
+            background: var(--primary);
+            color: var(--accent);
+        }
+        .social-links {
+            display: none;
+            gap: 15px;
+            margin-top: 20px;
+        }
+         .social-links a {
+            display: flex;
+            align-items: center;
+          
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--primary);
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+       /* Page Header */
+        .page-header {
+            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url("al1.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .page-header h1 span {
+            color: var(--primary);
+        }
+        
+        /* Gallery Filters */
+        .gallery-filters {
+            padding: 40px 0;
+            background: white;
+        }
+        
+        .filter-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .filter-btn {
+            padding: 12px 30px;
+            background: var(--light);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--accent);
+            transition: all 0.3s;
+        }
+        
+        .filter-btn.active {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .filter-btn:hover:not(.active) {
+            background: var(--primary);
+        }
+        
+        /* Gallery Grid */
+        .gallery-section {
+            padding: 40px 0 80px;
+            background: var(--light);
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            aspect-ratio: 1;
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .gallery-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(44, 62, 80, 0.85);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+        
+        .gallery-item:hover .gallery-image img {
+            transform: scale(1.1);
+        }
+        
+        .gallery-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .gallery-category {
+            font-size: 0.9rem;
+            background: var(--secondary);
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+        
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .lightbox.active {
+            display: flex;
+        }
+        
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 80%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .lightbox-image {
+            width: 100%;
+            height: auto;
+            max-height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+        }
+        
+        .lightbox-image img {
+            max-width: 100%;
+            max-height: 75vh;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 3rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: transform 0.3s;
+        }
+        
+        .lightbox-close:hover {
+            transform: scale(1.2);
+        }
+        
+        .lightbox-caption {
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 30px;
+            border-radius: 8px;
+        }
+        
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            pointer-events: none;
+        }
+        
+        .lightbox-nav button {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            font-size: 2rem;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s;
+            pointer-events: auto;
+            backdrop-filter: blur(4px);
+        }
+        
+        .lightbox-nav button:hover {
+            background: var(--secondary);
+            transform: scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .gallery-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .lightbox-nav button {
+                width: 40px;
+                height: 40px;
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            .lightbox-content {
+                max-width: 95%;
+            }
+            .lightbox-nav button {
+                width: 35px;
+                height: 35px;
+                font-size: 1.2rem;
+            }
+        }
+        
+        
+        
+        
+        /* ===== FIXED MOBILE STYLES ===== */
+        @media (max-width: 992px) {
+            .header-content {
+                flex-wrap: wrap;
+            }
+            
+            nav {
+                order: 3;
+                width: 100%;
+                margin-top: 15px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 2px;
+               
+                
+                padding: 10px;
+                display: none;
+                max-height: 100vh;
+               
+            }
+            
+            nav ul.active {
+                display: flex;
+            }
+            
+            nav ul li {
+                width: 100%;
+                margin-bottom: 2px;
+            }
+            
+            nav ul li a {
+                padding: 15px;
+                justify-content: space-between;
+                
+                border-radius: 5px;
+            }
+            
+            /* FIXED: Mobile dropdown menus */
+            .dropdown-menu {
+                position: static !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                transform: none !important;
+                box-shadow: none;
+                background: transparent;
+                margin: 5px 0 5px 15px;
+                border-top: none;
+                min-width: auto;
+                display: none; /* Hidden by default */
+                transition: none;
+            }
+            
+            .dropdown-menu.show {
+                display: block !important;
+            }
+            
+            .dropdown-menu li {
+                margin: 2px 0;
+            }
+            
+            .dropdown-menu li a {
+                color: white;
+                padding: 12px 15px;
+                white-space: normal;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;
+            }
+            
+            .dropdown-menu li a i {
+                color: var(--primary);
+            }
+            
+            .dropdown-menu li a:hover {
+                background: rgba(255, 203, 164, 0.3);
+                color: var(--primary);
+            }
+            
+            .mobile-menu {
+                display: block;
+            }
+            
+            .nav-right {
+                order: 2;
+            }
+             .social-links {
+            display: block;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        }
+        
+        /* Additional fix for very small screens */
+        @media (max-width: 480px) {
+            .logo-text h1 {
+                font-size: 1.3rem;
+            }
+            
+            .logo-text p {
+                font-size: 0.7rem;
+            }
+            
+            .logo-icon img {
+                width: 100px;
+                height: 60px;
+            }
+             .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+    }
+        @media (max-width: 992px) {
+            .news-layout {
+                grid-template-columns: 1fr;
+                 margin-left:-30px;
+            }
+            
+            .news-sidebar {
+                position: static;
+            }
+            
+            .featured-image {
+                height: 300px;
+            }
+
+            .logo-icon img {
+            width: 90px;
+            height: 50px;
+            
+            
+            padding: 5px;
+        }
+         .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: auto;
+        }
+            
+        }
+        
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+
+           .logo-icon img {
+             width: 120px;
+      height: 60px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+        }
+         .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: auto;
+        }
+            
+         
+         
+        }
+
+        /* ---------- footer (consistent) ---------- */
+        .footer {
+            background: #0b1a2f;
+            color: #eef3fc;
+            padding: 2.8rem 2rem 1.8rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            margin-top: 2rem;
+        }
+        .footer-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1.2fr 1.2fr;
+            gap: 2.5rem 2rem;
+        }
+        .footer-brand .logo { display: flex; align-items: center; gap: 10px; }
+        .footer-brand .logo i { font-size: 2.2rem; color: #5b8cff; background: rgba(91,140,255,0.12); padding: 0.4rem; border-radius: 14px; }
+        .footer-brand .logo span { font-size: 1.9rem; font-weight: 700; color: #fff; }
+        .footer-brand .tagline { opacity: 0.75; max-width: 260px; font-weight: 300; color: #c9d9f0; }
+        .footer-social { display: flex; gap: 1rem; margin-top: 0.6rem; flex-wrap: wrap; }
+        .footer-social a { width: 42px; height: 42px; border-radius: 30px; background: rgba(255,255,255,0.05); color: #d4e2fc; font-size: 1.3rem; display: inline-flex; align-items: center; justify-content: center; transition: 0.25s; border: 1px solid rgba(255,255,255,0.03); }
+        .footer-social a:hover { background: #2a6df4; color: #fff; transform: translateY(-4px); box-shadow: 0 8px 18px rgba(42,109,244,0.35); }
+        .footer-links h4, .footer-categories h4, .footer-legal h4 { font-size: 1.1rem; font-weight: 600; color: #fff; margin-bottom: 1.3rem; position: relative; display: inline-block; }
+        .footer-links h4::after, .footer-categories h4::after, .footer-legal h4::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 28px; height: 3px; background: #3b7aff; border-radius: 6px; }
+        .footer-links ul, .footer-categories ul, .footer-legal ul { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+        .footer-links ul li a, .footer-categories ul li a, .footer-legal ul li a { color: #c9d9f0; text-decoration: none; font-size: 0.95rem; transition: 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+        .footer-links ul li a:hover, .footer-categories ul li a:hover, .footer-legal ul li a:hover { color: #fff; transform: translateX(4px); }
+        .footer-bottom { max-width: 1280px; margin: 2rem auto 0; padding-top: 1.8rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; font-size: 0.9rem; color: #98b1d4; }
+        .footer-bottom .copy { display: flex; align-items: center; gap: 6px; }
+        .footer-bottom .copy span { font-weight: 500; color: #c9d9f0; }
+        .footer-bottom .legal-links { display: flex; gap: 1.8rem; flex-wrap: wrap; }
+        .footer-bottom .legal-links a { color: #98b1d4; text-decoration: none; transition: 0.2s; font-size: 0.85rem; }
+        .footer-bottom .legal-links a:hover { color: #fff; }
+        footer p { font-size: 10px; opacity: 0.6; }
+        @media (max-width: 900px) { .footer-container { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
+        @media (max-width: 550px) { .footer-container { grid-template-columns: 1fr; } .footer-brand { grid-column: 1; } .footer-bottom { flex-direction: column; align-items: flex-start; gap: 0.8rem; } }
+        a { text-decoration: none; }
+        </style>
+        <body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <img src="Assets/geti.png" alt="img">
+                    </div>
+                   
+                </div>
+                
+               
+                
+                <nav>
+                    <ul id="nav-menu">
+                        <!-- Home -->
+                        <li>
+                            <a href="index.html" class="nav-link" onclick="setActive(this)">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        
+            <!-- Articles Dropdown -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'about-dropdown')">
+                                Articles<i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="about-dropdown">
+
+                                <li>
+                                    <a href="All articles.html" onclick="setActive(this)">
+                                        </i> All Articles
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="360.html" onclick="setActive(this)">
+                                        </i> 360 Echoes
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="ano.html" onclick="setActive(this)">
+                                         Junior Insight
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        
+                        <!-- Researchs -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'clubs-dropdown')">
+                               Researchs <!--i class="fas fa-chevron-down></i"-->
+                            </a>
+                            <!--<ul class="dropdown-menu" id="clubs-dropdown">
+                                <li>
+                                    <li>
+                                    <a href="prefects.html" onclick="setActive(this)">
+                                        <i class="fas fa-user-tie"></i> Prefects Council
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="nsmq.html" onclick="setActive(this)">
+                                        <i class="fas fa-trophy"></i> NSMQ Team
+                                    </a>
+
+                                </li>
+                                 <li>
+                                    <a href="Debate.html" onclick="setActive(this)">
+                                        <i class="fas fa-flask"></i> Debate Club
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="clubs.html" onclick="setActive(this)">
+                                        <i class="fas fa-users"></i> Others
+                                    </a>
+                                </li>
+                               
+                                    
+                                
+                            </ul>-->
+                        </li>
+                        
+                        <!-- News & Events with Dropdown -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'news-dropdown')">
+                               Treanding Issues <!--i class="fas fa-chevron-down"></i-->
+                            </a>
+                            <!--<ul class="dropdown-menu" id="news-dropdown">
+                                <li>
+                                    <a href="news.html" onclick="setActive(this)">
+                                        <i class="fas fa-newspaper"></i> Latest News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news.html" onclick="setActive(this)">
+                                        <i class="fas fa-calendar-alt"></i> Upcoming Events
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="gallery.html" onclick="setActive(this)">
+                                        <i class="fas fa-images"></i> Photo Gallery
+                                    </a>
+                                </li>
+                                
+                            </ul>-->
+                        </li>
+                        
+                        <!-- Admissions CTA -->
+                        <li>
+                           <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    
+                        </li>
+                    </ul>
+                </nav>
+                 <div class="nav-right">
+                    <button class="search-btn" onclick="toggleSearch()">
+                        <i class="fas fa-search" style="color:white;"></i>
+                    </button>
+                    <div class="mobile-menu1" id="user" onclick="toggleSignin()">
+                       <a href="Signin.html"> <i class="fa-solid fa-circle-user" style="color:white;"></i></a>
+                    </div>
+                    <div class="mobile-menu" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars" style="color:white;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<br><br><br>
+    <section class="page-header">
+        <div class="container">
+            <h1>Art <span>Speaks</span></h1>
+            <p>Page were expert artist Share ideas and infomations through their arts</p>
+        </div>
+    </section>
+
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <!--<button class="filter-btn" data-filter="academic">Academic</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>-->
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Academic Category 
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="DM6.png" alt="Luv FM Debate">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Luv FM Debate</h3>
+                        <span class="gallery-category">Academic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="NS1.jpg" alt="NSMQ Team">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">NSMQ Team</h3>
+                        <span class="gallery-category">Academic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="NS3.jpg" alt="NSMQ Competition">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">NSMQ Competition</h3>
+                        <span class="gallery-category">Academic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="SL.jpg" alt="Science Lab Practical">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Science Lab Practical</h3>
+                        <span class="gallery-category">Academic</span>
+                    </div>
+                </div>
+                -->
+                <!-- Sports Category 
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <img src="2.jpg" alt="Football Team">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Football Team</h3>
+                        <span class="gallery-category">Sports</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <img src="6.jpg" alt="Football Star">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Football Star</h3>
+                        <span class="gallery-category">Sports</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <img src="4.jpg" alt="Athletics Competition">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Athletics Competition</h3>
+                        <span class="gallery-category">Sports</span>
+                    </div>
+                </div>-->
+                
+                <!-- Events Category 
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <img src="al.jpg" alt="Anniversary Launch">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Anniversary Launch</h3>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <img src="b6.jpeg" alt="Anniversary Climax">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Anniversary Climax</h3>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <img src="OS1.jpg" alt="Old Students at Anniversary">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Old Students at Anniversary</h3>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                </div>-->
+                
+                <!-- Campus Category 
+                <div class="gallery-item" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="bs1.jpg" alt="School Administration Block">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">School Administration Block</h3>
+                        <span class="gallery-category">Campus</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="gn.jpg" alt="GNPC Block">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">GNPC Block</h3>
+                        <span class="gallery-category">Campus</span>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-nav">
+            <button onclick="changeImage(-1)"><i class="fas fa-chevron-left"></i></button>
+            <button onclick="changeImage(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="lightbox-content">
+            <div class="lightbox-image" id="lightboxImage">
+                <img id="lightboxImg" src="" alt="Gallery Image">
+            </div>
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo"><span>Getinfo<span style="font-weight:300;color:#7ba0ff;">360</span></span></div>
+                <div class="tagline"><i class="fas fa-quote-left" style="opacity:0.5;margin-right:4px;"></i> Real-time news, deep analysis, and stories that matter — from every corner of the world.</div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick</h4>
+                <ul><li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li><li><a href="#"><i class="fas fa-chevron-right"></i> Treanding</a></li><li><a href="#"><i class="fas fa-chevron-right"></i> Articles</a></li><li><a href="#"><i class="fas fa-chevron-right"></i> Research</a></li></ul>
+            </div>
+            <div class="footer-categories">
+                <h4>Articles</h4>
+                <ul><li><a href="#"><i class="fas fa-chevron-right"></i>360Echoes</a></li><li><a href="#"><i class="fas fa-chevron-right"></i>Junior Insight</a></li></ul>
+            </div>
+            <div class="footer-legal">
+                <h4>About</h4>
+                <ul><li><a href="#"><i class="fas fa-chevron-right"></i> Our team</a></li><li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li><li><a href="#"><i class="fas fa-chevron-right"></i> Press</a></li><li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li></ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copy"><i class="far fa-copyright"></i> 2026 <span>Getinfo360</span><p>— all rights reserved</p></div>
+            <div class="legal-links"><a href="#">Developed by: Rankofsoft & TopCut</a><a href="#">Terms of Service</a><a href="#"></a><a href="#"></a></div>
+        </div>
+        
+    </footer>
+
+            <script>
+        
+        
+        // Toggle dropdown menu 
+        function toggleDropdown(event, dropdownId) {
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const dropdown = document.getElementById(dropdownId);
+            const chevron = event.currentTarget.querySelector('i.fa-chevron-down');
+            
+            // Close all other dropdowns first
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                if (menu.id !== dropdownId && menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                    // Reset chevron for the closed dropdown
+                    const parentLink = menu.closest('.dropdown')?.querySelector('.nav-link i.fa-chevron-down');
+                    if (parentLink) {
+                        parentLink.style.transform = 'rotate(0)';
+                    }
+                }
+            });
+            
+            // Toggle current dropdown
+            dropdown.classList.toggle('show');
+            
+            // Rotate chevron icon
+            if (chevron) {
+                chevron.style.transform = dropdown.classList.contains('show') ? 'rotate(180deg)' : 'rotate(0)';
+            }
+        }
+
+        // Toggle mobile menu 
+        function toggleMobileMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            const mobileIcon = document.querySelector('.mobile-menu i');
+            
+            navMenu.classList.toggle('active');
+            
+            // Change icon based on menu state
+            if (navMenu.classList.contains('active')) {
+                mobileIcon.className = 'fas fa-times';
+                document.body.classList.add('menu-open');
+            } else {
+                mobileIcon.className = 'fas fa-bars';
+                document.body.classList.remove('menu-open');
+                
+                // Close all dropdowns when closing mobile menu
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+                
+                // Reset all chevrons
+                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
+                    chevron.style.transform = 'rotate(0)';
+                });
+            }
+        }
+
+        // Set active link based on current page
+        function setActive(element) {
+            // Remove active class from all nav links
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Add active class to clicked link
+            if (element) {
+                element.classList.add('active');
+            }
+            
+            // On mobile, close menu after clicking a link
+            if (window.innerWidth <= 992) {
+                const navMenu = document.getElementById('nav-menu');
+                const mobileIcon = document.querySelector('.mobile-menu i');
+                
+                navMenu.classList.remove('active');
+                mobileIcon.className = 'fas fa-bars';
+                document.body.classList.remove('menu-open');
+                
+                // Close all dropdowns
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+                
+                // Reset all chevrons
+                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
+                    chevron.style.transform = 'rotate(0)';
+                });
+            }
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.dropdown') && !event.target.closest('.mobile-menu')) {
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+                
+                // Reset chevron rotations
+                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
+                    chevron.style.transform = 'rotate(0)';
+                });
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 992) {
+                // Reset mobile menu on desktop
+                const navMenu = document.getElementById('nav-menu');
+                const mobileIcon = document.querySelector('.mobile-menu i');
+                
+                navMenu.classList.remove('active');
+                mobileIcon.className = 'fas fa-bars';
+                document.body.classList.remove('menu-open');
+                
+                // Don't close dropdowns on desktop resize - they work differently
+            } else {
+                // On mobile, ensure dropdowns are properly styled
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    if (menu.classList.contains('show')) {
+                        menu.style.display = 'block';
+                    }
+                });
+            }
+        });
+
+        // Set active link based on current page URL
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            const currentHash = window.location.hash;
+            
+            document.querySelectorAll('.nav-link').forEach(link => {
+                const linkHref = link.getAttribute('href');
+                
+                // Check if this link matches current page
+                if (linkHref === currentPage || 
+                    (currentPage === 'index.html' && linkHref === 'index.html') ||
+                    (currentHash && linkHref === currentHash)) {
+                    link.classList.add('active');
+                }
+                
+                // Also check parent dropdown items
+                if (link.closest('.dropdown-menu')) {
+                    if (linkHref === currentPage) {
+                        const parentDropdown = link.closest('.dropdown');
+                        if (parentDropdown) {
+                            const parentLink = parentDropdown.querySelector('.nav-link');
+                            if (parentLink) {
+                                parentLink.classList.add('active');
+                            }
+                        }
+                    }
+                }
+            });
+        });
+
+        // Search functionality
+        function toggleSearch() {
+            alert('Search feature coming soon!');
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                this.reset();
+            });
+        }
+
+        // Sticky header background on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.backgroundColor = 'rgba(44, 62, 80, 0.95)';
+            } else {
+                header.style.backgroundColor = '';
+            }
+        });
+
+         // ===== GALLERY FUNCTIONALITY =====
+        
+        // Gallery filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                galleryItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // ===== FIXED LIGHTBOX FUNCTIONALITY =====
+        let currentImageIndex = 0;
+        let currentImages = [];
+
+        function openLightbox(index) {
+            const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+            currentImages = visibleItems;
+            
+            if (currentImages.length === 0) return;
+            
+            currentImageIndex = index;
+            
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            updateLightboxImage();
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function changeImage(direction) {
+            currentImageIndex += direction;
+            if (currentImageIndex >= currentImages.length) currentImageIndex = 0;
+            if (currentImageIndex < 0) currentImageIndex = currentImages.length - 1;
+            updateLightboxImage();
+        }
+
+        function updateLightboxImage() {
+            const item = currentImages[currentImageIndex];
+            const imgElement = item.querySelector('.gallery-image img');
+            const title = item.querySelector('.gallery-title').textContent;
+            const category = item.querySelector('.gallery-category').textContent;
+            
+            const lightboxImg = document.getElementById('lightboxImg');
+            const caption = document.getElementById('lightboxCaption');
+            
+            if (imgElement) {
+                lightboxImg.src = imgElement.src;
+                lightboxImg.alt = imgElement.alt || title;
+            }
+            
+            caption.textContent = `${title} - ${category}`;
+        }
+
+        // Add click event to gallery items
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const visibleItems = Array.from(galleryItems).filter(i => i.style.display !== 'none');
+                const actualIndex = visibleItems.indexOf(item);
+                if (actualIndex !== -1) {
+                    openLightbox(actualIndex);
+                }
+            });
+        });
+
+        // Keyboard navigation for lightbox
+        document.addEventListener('keydown', (e) => {
+            if (!document.getElementById('lightbox').classList.contains('active')) return;
+            
+            if (e.key === 'ArrowLeft') changeImage(-1);
+            if (e.key === 'ArrowRight') changeImage(1);
+            if (e.key === 'Escape') closeLightbox();
+        });
+
+        // Close lightbox when clicking on background
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
+        

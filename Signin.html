@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getinfo360 Signin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico">
+    </head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #FFCBA4;
+            --secondary: #D35400;
+            --accent: #2C3E50;
+            --light: #FFF9F5;
+            --dark: #1A1A1A;
+            --success: #27AE60;
+            --dropdown-bg: #ffffff;
+            --dropdown-hover: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #f6f2ee;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+        
+        body.menu-open {
+            overflow: hidden;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--accent) 0%, #071b8d 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+              margin-right: 10px
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-icon img {
+           
+            width: 100px;
+            height: 60px;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            transition: transform 0.3s;
+        }
+        .con1 a{
+            text-decoration: none;
+        }
+        .logo-icon:hover img {
+            transform: scale(1.05);
+        }
+        
+        .logo-text h1 {
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+            color: white;
+        }
+        
+        .logo-text p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            color: var(--primary);
+            font-weight: 500;
+            margin-top: -10px;
+        }
+        
+        /* Navigation Styles */
+        nav {
+            position: relative;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+        
+        nav ul li {
+            position: relative;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        nav ul li a i.fa-chevron-down {
+            font-size: 0.8rem;
+            transition: transform 0.3s;
+        }
+        
+        nav ul li a:hover {
+            background: rgba(255, 203, 164, 0.15);
+            color: var(--primary);
+        }
+        
+        nav ul li a.active {
+            color: var(--primary);
+            background: rgba(255, 203, 164, 0.1);
+        }
+        
+        /* Desktop Dropdown Menu Styles */
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            min-width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            padding: 10px 0;
+            border-top: 3px solid var(--primary);
+        }
+        
+        .dropdown-menu.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .dropdown-menu li {
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .dropdown-menu li a {
+            color: var(--accent);
+            padding: 12px 20px;
+            width: 100%;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            white-space: nowrap;
+        }
+        
+        .dropdown-menu li a i {
+            color: var(--secondary);
+            font-size: 1rem;
+            width: 20px;
+        }
+        
+        .dropdown-menu li a:hover {
+            background: var(--light);
+            color: var(--secondary);
+            padding-left: 25px;
+        }
+        
+        .dropdown-menu li a.active {
+            background: var(--light);
+            color: var(--secondary);
+        }
+        
+        /* Right side navigation items */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--primary);
+            padding: 10px;
+            z-index: 1001;
+        }
+        .mobile-menu1 {
+            
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--primary);
+            padding: 10px;
+            z-index: 1001;
+        }
+        
+        .search-btn {
+            background: rgba(255, 203, 164, 0.1);
+            border: none;
+            color: var(--primary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .search-btn:hover {
+            background: var(--primary);
+            color: var(--accent);
+        }
+        .social-links {
+            display: none;
+            gap: 15px;
+            margin-top: 20px;
+        }
+         .social-links a {
+            display: flex;
+            align-items: center;
+          
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--primary);
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+
+         /* ---------- card ---------- */
+        .auth-card {
+            background: #ffffff;
+            max-width: 440px;
+            width: 100%;
+            border-radius: 40px;
+            padding: 2.8rem 2.4rem 2.8rem;
+            box-shadow: 0 24px 48px -12px rgba(0,0,0,0.08);
+            border: 1px solid #eee7e1;
+            transition: 0.2s;
+            
+            margin-top: 70px;
+        }
+
+        .auth-card .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 1.8rem;
+        }
+        .auth-card .brand i {
+            font-size: 2.2rem;
+            color: #d35400;
+            background: #f5ede7;
+            padding: 0.5rem;
+            border-radius: 18px;
+        }
+        .auth-card .brand h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1e1e2a;
+        }
+        .auth-card .brand h1 span {
+            color: #d35400;
+        }
+
+        .auth-card .sub {
+            color: #5a5a6a;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        /* ---------- tabs ---------- */
+        .tab-bar {
+            display: flex;
+            gap: 4px;
+            background: #f3ede8;
+            border-radius: 60px;
+            padding: 4px;
+            margin-bottom: 2rem;
+        }
+        .tab-btn {
+            flex: 1;
+            border: 0;
+            background: transparent;
+            padding: 10px 0;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #4a4a5a;
+            cursor: pointer;
+            transition: 0.2s;
+            font-family: inherit;
+        }
+        .tab-btn.active {
+            background: white;
+            color: #1e1e2a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+        .tab-btn:hover:not(.active) {
+            color: #1e1e2a;
+        }
+
+        /* ---------- form groups ---------- */
+        .form-group {
+            margin-bottom: 1.4rem;
+        }
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: #2c3e50;
+            margin-bottom: 6px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 20px;
+            border: 1px solid #ddd2c8;
+            font-family: inherit;
+            font-size: 0.95rem;
+            background: #fcf9f7;
+            transition: 0.2s;
+            outline: none;
+        }
+        .form-group input:focus {
+            border-color: #d35400;
+            box-shadow: 0 0 0 4px rgba(211,84,0,0.06);
+            background: white;
+        }
+        .form-group input::placeholder {
+            color: #b0a69b;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 14px;
+        }
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        /* ---------- submit button ---------- */
+        .btn-submit {
+            width: 100%;
+            padding: 14px;
+            border: 0;
+            border-radius: 60px;
+            background: #d35400;
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.2s;
+            font-family: inherit;
+            margin-top: 0.6rem;
+            box-shadow: 0 4px 14px rgba(211,84,0,0.18);
+        }
+        .btn-submit:hover {
+            background: #b84a00;
+            transform: scale(1.01);
+        }
+
+        /* ---------- social sign in ---------- */
+        .social-divider {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin: 1.8rem 0 1.4rem;
+            color: #8a8a9a;
+            font-size: 0.85rem;
+        }
+        .social-divider::before,
+        .social-divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #e6ddd6;
+        }
+
+        .social-btn {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd2c8;
+            border-radius: 60px;
+            background: white;
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: #1e1e2a;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-family: inherit;
+        }
+        .social-btn i {
+            font-size: 1.4rem;
+            color: #ea4335;
+        }
+        .social-btn:hover {
+            background: #f9f5f1;
+            border-color: #c0b4a8;
+        }
+
+        /* ---------- toggle between login & signup ---------- */
+        .toggle-text {
+            text-align: center;
+            margin-top: 1.8rem;
+            color: #5a5a6a;
+            font-size: 0.9rem;
+        }
+        .toggle-text a {
+            color: #d35400;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .toggle-text a:hover {
+            text-decoration: underline;
+        }
+
+        /* ---------- hidden state ---------- */
+        .form-panel {
+            display: none;
+        }
+        .form-panel.active {
+            display: block;
+            animation: fadeIn 0.25s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ---------- responsive ---------- */
+        @media (max-width: 480px) {
+            .auth-card {
+                padding: 2rem 1.5rem;
+            }
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+        
+       
+        /* ===== FIXED MOBILE STYLES ===== */
+        @media (max-width: 992px) {
+            .header-content {
+                flex-wrap: wrap;
+            }
+            
+            nav {
+                order: 3;
+                width: 100%;
+                margin-top: 15px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 2px;
+               
+                
+                padding: 10px;
+                display: none;
+                max-height: 100vh;
+               
+            }
+            
+            nav ul.active {
+                display: flex;
+            }
+            
+            nav ul li {
+                width: 100%;
+                margin-bottom: 2px;
+            }
+            
+            nav ul li a {
+                padding: 15px;
+                justify-content: space-between;
+                
+                border-radius: 5px;
+            }
+            
+            /* FIXED: Mobile dropdown menus */
+            .dropdown-menu {
+                position: static !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                transform: none !important;
+                box-shadow: none;
+                background: transparent;
+                margin: 5px 0 5px 15px;
+                border-top: none;
+                min-width: auto;
+                display: none; /* Hidden by default */
+                transition: none;
+            }
+            
+            .dropdown-menu.show {
+                display: block !important;
+            }
+            
+            .dropdown-menu li {
+                margin: 2px 0;
+            }
+            
+            .dropdown-menu li a {
+                color: white;
+                padding: 12px 15px;
+                white-space: normal;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;
+            }
+            
+            .dropdown-menu li a i {
+                color: var(--primary);
+            }
+            
+            .dropdown-menu li a:hover {
+                background: rgba(255, 203, 164, 0.3);
+                color: var(--primary);
+            }
+            
+            .mobile-menu {
+                display: block;
+            }
+            
+            .nav-right {
+                order: 2;
+            }
+             .social-links {
+            display: block;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        }
+        
+        /* Additional fix for very small screens */
+        @media (max-width: 480px) {
+            .logo-text h1 {
+                font-size: 1.3rem;
+            }
+            
+            .logo-text p {
+                font-size: 0.7rem;
+            }
+            
+            .logo-icon img {
+                width: 100px;
+                height: 60px;
+            }
+             .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+    }
+        @media (max-width: 992px) {
+            .news-layout {
+                grid-template-columns: 1fr;
+                 margin-left:-30px;
+            }
+            
+            .news-sidebar {
+                position: static;
+            }
+            
+            .featured-image {
+                height: 300px;
+            }
+
+            .logo-icon img {
+            width: 90px;
+            height: 50px;
+            
+            
+            padding: 5px;
+        }
+         .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: auto;
+        }
+            
+        }
+        
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+
+           .logo-icon img {
+             width: 120px;
+      height: 60px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+        }
+         .sidebar-widget {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: auto;
+        }
+            
+         
+         
+        }
+        </style>
+        <body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                       <img src="Assets/geti.png" alt="img">
+                    </div>
+                   
+                </div>
+                
+               
+                
+                <nav>
+                    <ul id="nav-menu">
+                        <!-- Home -->
+                        <li>
+                            <a href="index.html" class="nav-link" onclick="setActive(this)">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        
+            <!-- Articles Dropdown -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'about-dropdown')">
+                                Articles<i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="about-dropdown">
+                                <li>
+                                    <a href="All articles.html" onclick="setActive(this)">
+                                        </i> All Articles
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="an.html" onclick="setActive(this)">
+                                        </i> 360 Echoes
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="ano.html" onclick="setActive(this)">
+                                         Junior Insight
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        
+                        <!-- Researchs -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'clubs-dropdown')">
+                               Researchs <!--i class="fas fa-chevron-down></i"-->
+                            </a>
+                            <!--<ul class="dropdown-menu" id="clubs-dropdown">
+                                <li>
+                                    <li>
+                                    <a href="prefects.html" onclick="setActive(this)">
+                                        <i class="fas fa-user-tie"></i> Prefects Council
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="nsmq.html" onclick="setActive(this)">
+                                        <i class="fas fa-trophy"></i> NSMQ Team
+                                    </a>
+
+                                </li>
+                                 <li>
+                                    <a href="Debate.html" onclick="setActive(this)">
+                                        <i class="fas fa-flask"></i> Debate Club
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="clubs.html" onclick="setActive(this)">
+                                        <i class="fas fa-users"></i> Others
+                                    </a>
+                                </li>
+                               
+                                    
+                                
+                            </ul>-->
+                        </li>
+                        
+                        <!-- News & Events with Dropdown -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'news-dropdown')">
+                               Treanding Issues <!--i class="fas fa-chevron-down"></i-->
+                            </a>
+                            <!--<ul class="dropdown-menu" id="news-dropdown">
+                                <li>
+                                    <a href="news.html" onclick="setActive(this)">
+                                        <i class="fas fa-newspaper"></i> Latest News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news.html" onclick="setActive(this)">
+                                        <i class="fas fa-calendar-alt"></i> Upcoming Events
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="gallery.html" onclick="setActive(this)">
+                                        <i class="fas fa-images"></i> Photo Gallery
+                                    </a>
+                                </li>
+                                
+                            </ul>-->
+                        </li>
+                        
+                        <!-- Admissions CTA -->
+                        <li>
+                           <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    
+                        </li>
+                    </ul>
+                </nav>
+                 <div class="nav-right">
+                    <button class="search-btn" onclick="toggleSearch()">
+                        <i class="fas fa-search" style="color:white;"></i>
+                    </button>
+                    <div class="mobile-menu1" id="user" onclick="toggleSignin()">
+                        <i class="fa-solid fa-circle-user" style="color:white;"></i>
+                    </div>
+                    <div class="mobile-menu" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars" style="color:white;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<br><br><br><br><br><br>
+     
+         <div class="auth-card">
+            <div class="hold">
+        <!-- brand -->
+        <div class="brand">
+            
+            <h1>Getinfo<span>360</span></h1>
+        </div>
+        <p class="sub">Welcome back — or join the conversation.</p>
+
+        <!-- tab bar -->
+        <div class="tab-bar" id="tabBar">
+            <button class="tab-btn active" data-tab="login">Log in</button>
+            <button class="tab-btn" data-tab="signup">Sign up</button>
+        </div>
+
+        <!-- ========== LOGIN PANEL ========== -->
+        <div class="form-panel active" id="loginPanel">
+            <form id="loginForm" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="loginEmail">Email address</label>
+                    <input type="email" id="loginEmail" placeholder="you@example.com" required />
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="••••••••" required />
+                </div>
+                <button type="submit" class="btn-submit"><i class="fas fa-arrow-right-to-bracket"></i> Log in</button>
+            </form>
+
+            <!-- social -->
+            <div class="social-divider">or continue with</div>
+            <button class="social-btn" id="googleLoginBtn">
+                <i class="fab fa-google"></i> Sign in with Google
+            </button>
+
+            <div class="toggle-text">
+                Don't have an account? <a id="switchToSignup">Sign up</a>
+            </div>
+        </div>
+
+        <!-- ========== SIGNUP PANEL ========== -->
+        <div class="form-panel" id="signupPanel">
+            <form id="signupForm" onsubmit="return false;">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="signupUsername">Username</label>
+                        <input type="text" id="signupUsername" placeholder="johndoe" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email</label>
+                        <input type="email" id="signupEmail" placeholder="you@example.com" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" placeholder="Create a strong password" required />
+                </div>
+                <button type="submit" class="btn-submit"><i class="fas fa-user-plus"></i> Create account</button>
+            </form>
+
+            <!-- social -->
+            <div class="social-divider">or sign up with</div>
+            <button class="social-btn" id="googleSignupBtn">
+                <i class="fab fa-google"></i> Sign up with Google
+            </button>
+
+            <div class="toggle-text">
+                Already have an account? <a id="switchToLogin">Log in</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    
+            <script>
+         (function() {
+            // ----- DOM refs -----
+            const tabBar = document.getElementById('tabBar');
+            const loginPanel = document.getElementById('loginPanel');
+            const signupPanel = document.getElementById('signupPanel');
+            const switchToSignup = document.getElementById('switchToSignup');
+            const switchToLogin = document.getElementById('switchToLogin');
+
+            // ----- tab switching -----
+            function setActiveTab(tab) {
+                // update buttons
+                document.querySelectorAll('.tab-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.tab === tab);
+                });
+                // update panels
+                loginPanel.classList.toggle('active', tab === 'login');
+                signupPanel.classList.toggle('active', tab === 'signup');
+            }
+
+            tabBar.addEventListener('click', (e) => {
+                const btn = e.target.closest('.tab-btn');
+                if (!btn) return;
+                setActiveTab(btn.dataset.tab);
+            });
+
+            switchToSignup.addEventListener('click', () => setActiveTab('signup'));
+            switchToLogin.addEventListener('click', () => setActiveTab('login'));
+
+            // ----- form submissions (demo) -----
+            document.getElementById('loginForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = document.getElementById('loginEmail').value.trim();
+                const pass = document.getElementById('loginPassword').value.trim();
+                if (!email || !pass) {
+                    alert('Please fill in both fields.');
+                    return;
+                }
+                alert(`✅ Login attempt (demo)\nEmail: ${email}\nPassword: ${'•'.repeat(pass.length)}`);
+                // In production: send to server / Supabase
+            });
+
+            document.getElementById('signupForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const username = document.getElementById('signupUsername').value.trim();
+                const email = document.getElementById('signupEmail').value.trim();
+                const pass = document.getElementById('signupPassword').value.trim();
+                if (!username || !email || !pass) {
+                    alert('Please fill in all fields.');
+                    return;
+                }
+                alert(`✅ Sign-up attempt (demo)\nUsername: ${username}\nEmail: ${email}\nPassword: ${'•'.repeat(pass.length)}`);
+            });
+
+            // ----- Google sign-in / sign-up (demo) -----
+            document.getElementById('googleLoginBtn').addEventListener('click', function() {
+                alert('🔐 Google sign-in (demo) — redirect to OAuth flow.');
+            });
+            document.getElementById('googleSignupBtn').addEventListener('click', function() {
+                alert('🔐 Google sign-up (demo) — redirect to OAuth flow.');
+            });
+
+        })();
+        
+        // Toggle dropdown menu 
+        function toggleDropdown(event, dropdownId) {
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const dropdown = document.getElementById(dropdownId);
+            const chevron = event.currentTarget.querySelector('i.fa-chevron-down');
+            
+            // Close all other dropdowns first
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                if (menu.id !== dropdownId && menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                    // Reset chevron for the closed dropdown
+                    const parentLink = menu.closest('.dropdown')?.querySelector('.nav-link i.fa-chevron-down');
+                    if (parentLink) {
+                        parentLink.style.transform = 'rotate(0)';
+                    }
+                }
+            });
+            
+            // Toggle current dropdown
+            dropdown.classList.toggle('show');
+            
+            // Rotate chevron icon
+            if (chevron) {
+                chevron.style.transform = dropdown.classList.contains('show') ? 'rotate(180deg)' : 'rotate(0)';
+            }
+        }
+
+        // Toggle mobile menu 
+        function toggleMobileMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            const mobileIcon = document.querySelector('.mobile-menu i');
+            
+            navMenu.classList.toggle('active');
+            
+            // Change icon based on menu state
+            if (navMenu.classList.contains('active')) {
+                mobileIcon.className = 'fas fa-times';
+                document.body.classList.add('menu-open');
+            } else {
+                mobileIcon.className = 'fas fa-bars';
+                document.body.classList.remove('menu-open');
+                
+                // Close all dropdowns when closing mobile menu
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+                
+                // Reset all chevrons
+                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
+                    chevron.style.transform = 'rotate(0)';
+                });
+            }
+        }
+
+        // Set active link based on current page
+        function setActive(element) {
+            // Remove active class from all nav links
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Add active class to clicked link
+            if (element) {
+                element.classList.add('active');
+            }
+            
+            // On mobile, close menu after clicking a link
+            if (window.innerWidth <= 992) {
+                const navMenu = document.getElementById('nav-menu');
+                const mobileIcon = document.querySelector('.mobile-menu i');
+                
+                navMenu.classList.remove('active');
+                mobileIcon.className = 'fas fa-bars';
+                document.body.classList.remove('menu-open');
+                
+                // Close all dropdowns
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+                
+                // Reset all chevrons
+                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
+                    chevron.style.transform = 'rotate(0)';
+                });
+            }
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.dropdown') && !event.target.closest('.mobile-menu')) {
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+                
+                // Reset chevron rotations
+                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
+                    chevron.style.transform = 'rotate(0)';
+                });
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 992) {
+                // Reset mobile menu on desktop
+                const navMenu = document.getElementById('nav-menu');
+                const mobileIcon = document.querySelector('.mobile-menu i');
+                
+                navMenu.classList.remove('active');
+                mobileIcon.className = 'fas fa-bars';
+                document.body.classList.remove('menu-open');
+                
+                // Don't close dropdowns on desktop resize - they work differently
+            } else {
+                // On mobile, ensure dropdowns are properly styled
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    if (menu.classList.contains('show')) {
+                        menu.style.display = 'block';
+                    }
+                });
+            }
+        });
+
+        // Set active link based on current page URL
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            const currentHash = window.location.hash;
+            
+            document.querySelectorAll('.nav-link').forEach(link => {
+                const linkHref = link.getAttribute('href');
+                
+                // Check if this link matches current page
+                if (linkHref === currentPage || 
+                    (currentPage === 'index.html' && linkHref === 'index.html') ||
+                    (currentHash && linkHref === currentHash)) {
+                    link.classList.add('active');
+                }
+                
+                // Also check parent dropdown items
+                if (link.closest('.dropdown-menu')) {
+                    if (linkHref === currentPage) {
+                        const parentDropdown = link.closest('.dropdown');
+                        if (parentDropdown) {
+                            const parentLink = parentDropdown.querySelector('.nav-link');
+                            if (parentLink) {
+                                parentLink.classList.add('active');
+                            }
+                        }
+                    }
+                }
+            });
+        });
+
+        // Search functionality
+        function toggleSearch() {
+            alert('Search feature coming soon!');
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                this.reset();
+            });
+        }
+
+        // Sticky header background on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.backgroundColor = 'rgba(44, 62, 80, 0.95)';
+            } else {
+                header.style.backgroundColor = '';
+            }
+        });
+
+        // Ghana flag animation
+        const ghanaFlag = document.querySelector('.ghana-flag');
+        if (ghanaFlag) {
+            ghanaFlag.addEventListener('mouseover', function() {
+                this.style.transform = 'scale(1.1)';
+            });
+            
+            ghanaFlag.addEventListener('mouseout', function() {
+                this.style.transform = 'scale(1)';
+            });
+        }
+    </script>
+</body>
+</html>
+        
