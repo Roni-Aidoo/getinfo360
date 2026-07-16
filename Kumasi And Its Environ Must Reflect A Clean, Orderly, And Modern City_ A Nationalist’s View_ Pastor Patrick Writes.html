@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getinfo360 Treanding News</title>
+    <title>Kumasi And Its Environs Must Reflect A Clean, Orderly, And Modern City: A Nationalist’s View"</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,7 +97,6 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 15px;
-              margin-right: 10px
         }
         
         .header-content {
@@ -114,7 +113,6 @@
         }
         
         .logo-icon img {
-           
             width: 120px;
             height: 60px;
             align-items: center;
@@ -679,25 +677,30 @@
         .sidebar-widget {
             background: white;
             border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 25px;
+            margin-bottom: 25px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-           
         }
         
         .widget-title {
             color: var(--accent);
-            font-size: 1.3rem;
-            margin-bottom: 25px;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
             position: relative;
             padding-bottom: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-right: 1rem;
-            margin-bottom: 1rem;
         }
-        .widget-title a { color: #d35400; font-size: 0.9rem; font-weight: 500; }
+        .dim a { 
+            color: #d35400; 
+            font-size: 0.9rem; 
+            font-weight: 500; 
+            text-decoration: none;
+        }
+        .widget-title a:hover {
+            text-decoration: underline;
+        }
         
         .widget-title::after {
             content: '';
@@ -709,39 +712,57 @@
             background: var(--secondary);
         }
         
-        /* Search Widget */
-        .search-box {
+        /* Recent Posts Widget */
+        .recent-post {
             display: flex;
-            gap: 10px;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0ebe6;
+        }
+        .recent-post:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
         }
         
-        .search-box input {
-            flex: 1;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            outline: none;
+        .recent-image {
+            flex-shrink: 0;
+        }
+        .recent-image img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+            background: var(--primary);
         }
         
-        .search-box input:focus {
-            border-color: var(--secondary);
+        .recent-info h4 {
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            line-height: 1.3;
         }
         
-        .search-box button {
-            background: var(--secondary);
-            color: white;
-            border: none;
-            padding: 0 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
+        .recent-info h4 a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s;
         }
         
-        .search-box button:hover {
-            background: #e67e22;
+        .recent-info h4 a:hover {
+            color: var(--secondary);
         }
         
-        /* Categories Widget */
+        .recent-date {
+            color: #777;
+            font-size: 0.8rem;
+        }
+        
+        .recent-date i {
+            color: var(--secondary);
+            margin-right: 5px;
+        }
+        
         .category-list {
             list-style: none;
         }
@@ -775,73 +796,6 @@
             font-size: 0.85rem;
         }
         
-        /* Recent Posts Widget */
-        .recent-post {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .recent-image img{
-            width: 80px;
-            height: 80px;
-            background: var(--primary);
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--accent);
-            font-size: 1.5rem;
-            flex-shrink: 0;
-            background-repeat: none;
-            background-size: cover;
-        }
-        
-        .recent-info h4 {
-            font-size: 1rem;
-            margin-bottom: 5px;
-        }
-        
-        .recent-info h4 a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-        
-        .recent-info h4 a:hover {
-            color: var(--secondary);
-        }
-        
-        .recent-date {
-            color: #777;
-            font-size: 0.85rem;
-        }
-        
-        .recent-date i {
-            color: var(--secondary);
-            margin-right: 5px;
-        }
-        
-        /* Archives Widget */
-        .archive-list {
-            list-style: none;
-        }
-        
-        .archive-list li {
-            margin-bottom: 10px;
-        }
-        
-        .archive-list a {
-            color: #555;
-            text-decoration: none;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .archive-list a:hover {
-            color: var(--secondary);
-        }
-        
-        /* Tags Widget */
         .tag-cloud {
             display: flex;
             flex-wrap: wrap;
@@ -863,101 +817,7 @@
             color: white;
         }
         
-        /* Pagination */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 50px;
-        }
-        
-        .page-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 45px;
-            height: 45px;
-            background: white;
-            border-radius: 5px;
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        
-        .page-link:hover {
-            background: var(--primary);
-        }
-        
-        .page-link.active {
-            background: var(--secondary);
-            color: white;
-        }
-        
-        .page-link.next {
-            width: auto;
-            padding: 0 20px;
-        }
-        
-        /* Newsletter Section */
-        .newsletter-section {
-            background: linear-gradient(135deg, var(--accent) 0%, #1a2632 100%);
-            color: white;
-            padding: 80px 0;
-            text-align: center;
-        }
-        
-        .newsletter-content h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        
-        .newsletter-content h2 span {
-            color: var(--primary);
-        }
-        
-        .newsletter-content p {
-            margin-bottom: 30px;
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        .newsletter-content  {
-           display: flex;
-           align-items: center;
-           justify-content: center;
-        }
-        
-        .newsletter-form {
-            display: flex;
-            max-width: 500px;
-            margin: 0 auto;
-            gap: 10px;
-        }
-        
-        .newsletter-form input {
-            flex: 1;
-            padding: 15px;
-            border: none;
-            border-radius: 5px;
-            outline: none;
-        }
-        
-        .newsletter-form button {
-            background: var(--secondary);
-            color: white;
-            border: none;
-            padding: 0 30px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-        
-        .newsletter-form button:hover {
-            background: #e67e22;
-        }
-
-        .nc{
+        .nc {
             position: relative;
             width: 100%;
             max-width: 600px;
@@ -968,508 +828,37 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-           
         }
-         .nc img{
+        
+        .nc img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
-            
         }
         
-        
-        .con1{
-            position:absolute;
-           bottom: 30px;
-           left:30px;
-           right: 30px;
-           z-index: 2;
-        }
-        .con1 h2{
-            color: #fff;
-            font-size: clamp(24px, 5vw, 44px);
-            font-weight: 700;
-            line-height: 1.15;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0,0.4);
-        }
-        .news-layout {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 40px;
-            padding: 60px 0;
-           
-        }
-        
-        /* Main News Section */
-        .featured-news {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            margin-bottom: 40px;
-        }
-        
-        .featured-image {
-            height: 400px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 8rem;
-        }
-        
-        .featured-content {
-            padding: 40px;
-        }
-        
-        .news-category {
-            display: inline-block;
-            background: var(--secondary);
-            color: white;
-            padding: 5px 20px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            margin-bottom: 15px;
-        }
-        
-        .news-title {
-            font-size: 2rem;
-            color: var(--accent);
-            margin-bottom: 15px;
-        }
-        
-        .news-meta {
-            display: flex;
-            gap: 20px;
-            color: #777;
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-        }
-        
-        .news-meta i {
-            color: var(--secondary);
-            margin-right: 5px;
-        }
-        
-        .news-excerpt {
-            color: #555;
-            margin-bottom: 25px;
-            font-size: 1.1rem;
-            line-height: 1.8;
-        }
-        
-        .read-more {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: var(--primary);
-            color: var(--accent);
-            padding: 12px 30px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        a{
-            text-decoration: none;
-        }
-        
-        .read-more:hover {
-            background: var(--secondary);
-            color: white;
-            gap: 15px;
-        }
-        
-        /* News Grid */
-        .news-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-            margin-bottom: 40px;
-        }
-        
-        .news-card {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            transition: transform 0.3s;
-            height:300px;
-            width: 300px;
-            display: flex;
-        }
-        
-        .news-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-        }
-        
-        .card-image {
-            height: 100px;
-            background: var(--primary);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--accent);
-            font-size: 3rem;
-        }
-        
-        .card-content {
-            padding: 25px;
-            display: flex;
-        }
-        
-        .card-category {
-            color: var(--secondary);
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-            display: block;
-        }
-        
-        .card-title {
-            font-size: 1.3rem;
-            color: var(--accent);
-            margin-bottom: 10px;
-            line-height: 1.4;
-        }
-        
-        .card-meta {
-            display: flex;
-            gap: 15px;
-            color: #777;
-            font-size: 0.85rem;
-            margin-bottom: 15px;
-        }
-        
-        .card-excerpt {
-            color: #666;
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-            line-height: 1.6;
-        }
-        
-        /* Sidebar */
-        .news-sidebar {
-            position: sticky;
-            top: 100px;
-        }
-        
-        .sidebar-widget {
-            background: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-           
-        }
-        
-        .widget-title {
-            color: var(--accent);
-            font-size: 1.3rem;
-            margin-bottom: 25px;
-            position: relative;
-            padding-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-right: 1rem;
-            margin-bottom: 1rem;
-        }
-        .widget-title a { color: #d35400; font-size: 0.9rem; font-weight: 500; }
-        
-        .widget-title::after {
-            content: '';
+        .con1 {
             position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background: var(--secondary);
+            bottom: 30px;
+            left: 30px;
+            right: 30px;
+            z-index: 2;
         }
-        
-        /* Search Widget */
-        .search-box {
-            display: flex;
-            gap: 10px;
-        }
-        
-        .search-box input {
-            flex: 1;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            outline: none;
-        }
-        
-        .search-box input:focus {
-            border-color: var(--secondary);
-        }
-        
-        .search-box button {
-            background: var(--secondary);
-            color: white;
-            border: none;
-            padding: 0 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        
-        .search-box button:hover {
-            background: #e67e22;
-        }
-        
-        /* Categories Widget */
-        .category-list {
-            list-style: none;
-        }
-        
-        .category-list li {
-            margin-bottom: 12px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 12px;
-        }
-        
-        .category-list li:last-child {
-            border-bottom: none;
-        }
-        
-        .category-list a {
-            display: flex;
-            justify-content: space-between;
-            color: #555;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .category-list a:hover {
-            color: var(--secondary);
-        }
-        
-        .category-count {
-            background: var(--light);
-            padding: 3px 10px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-        }
-        
-        /* Recent Posts Widget */
-        .recent-post {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .recent-image img{
-            width: 80px;
-            height: 80px;
-            background: var(--primary);
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--accent);
-            font-size: 1.5rem;
-            flex-shrink: 0;
-            background-repeat: none;
-            background-size: cover;
-        }
-        
-        .recent-info h4 {
-            font-size: 1rem;
-            margin-bottom: 5px;
-        }
-        
-        .recent-info h4 a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-        
-        .recent-info h4 a:hover {
-            color: var(--secondary);
-        }
-        
-        .recent-date {
-            color: #777;
-            font-size: 0.85rem;
-        }
-        
-        .recent-date i {
-            color: var(--secondary);
-            margin-right: 5px;
-        }
-        
-        /* Archives Widget */
-        .archive-list {
-            list-style: none;
-        }
-        
-        .archive-list li {
-            margin-bottom: 10px;
-        }
-        
-        .archive-list a {
-            color: #555;
-            text-decoration: none;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .archive-list a:hover {
-            color: var(--secondary);
-        }
-        
-        /* Tags Widget */
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        
-        .tag {
-            background: var(--light);
-            color: var(--accent);
-            padding: 8px 15px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: all 0.3s;
-        }
-        
-        .tag:hover {
-            background: var(--secondary);
-            color: white;
-        }
-        
-        /* Pagination */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 50px;
-        }
-        
-        .page-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 45px;
-            height: 45px;
-            background: white;
-            border-radius: 5px;
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        
-        .page-link:hover {
-            background: var(--primary);
-        }
-        
-        .page-link.active {
-            background: var(--secondary);
-            color: white;
-        }
-        
-        .page-link.next {
-            width: auto;
-            padding: 0 20px;
-        }
-        
-        /* Newsletter Section */
-        .newsletter-section {
-            background: linear-gradient(135deg, var(--accent) 0%, #1a2632 100%);
-            color: white;
-            padding: 80px 0;
-            text-align: center;
-        }
-        
-        .newsletter-content h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        
-        .newsletter-content h2 span {
-            color: var(--primary);
-        }
-        
-        .newsletter-content p {
-            margin-bottom: 30px;
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        .newsletter-content  {
-           display: flex;
-           align-items: center;
-           justify-content: center;
-        }
-        
-        .newsletter-form {
-            display: flex;
-            max-width: 500px;
-            margin: 0 auto;
-            gap: 10px;
-        }
-        
-        .newsletter-form input {
-            flex: 1;
-            padding: 15px;
-            border: none;
-            border-radius: 5px;
-            outline: none;
-        }
-        
-        .newsletter-form button {
-            background: var(--secondary);
-            color: white;
-            border: none;
-            padding: 0 30px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-        
-        .newsletter-form button:hover {
-            background: #e67e22;
-        }
-
-        
-         .nc img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            
-        }
-        
-        
-        .con1{
-            position:absolute;
-           bottom: 30px;
-           left:30px;
-           right: 30px;
-           z-index: 2;
-        }
-        .con1 h2{
+        .con1 h2 {
             color: #fff;
             font-size: clamp(24px, 5vw, 44px);
             font-weight: 700;
             line-height: 1.15;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0,0.4);
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
         }
-/* --- FEATURED ARTICLE: hero with overlay --- */
+        
+        /* Featured Article with overlay */
         .featured-article {
             border-radius: 28px;
             overflow: hidden;
             position: relative;
             min-height: 320px;
-            background: #2c3e50; /* fallback */
+            background: #2c3e50;
             box-shadow: 0 6px 24px rgba(0,0,0,0.06);
             border: 1px solid #f0ebe6;
         }
@@ -1500,9 +889,8 @@
             justify-content: flex-end;
             min-height: 320px;
         }
-        .card-body a{
+        .card-body a {
             color: #000;
-           
         }
 
         .featured-article .card-body .author-tag {
@@ -1571,7 +959,7 @@
             gap: 14px;
         }
 
-        /* --- small article cards (flex row) --- */
+        /* Small article cards */
         .articles-flex {
             display: flex;
             flex-wrap: wrap;
@@ -1652,104 +1040,9 @@
         }
         .article-card .card-body .read-link:hover { gap: 12px; }
 
-        /* ---------- sidebar ---------- */
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            position: sticky;
-            top: 100px;
-        }
-        .sidebar-widget {
-            background: white;
-            border-radius: 24px;
-            padding: 1.8rem 1.6rem;
-            border: 1px solid #f0ebe6;
-            box-shadow: 0 4px 14px rgba(0,0,0,0.02);
-        }
-        .widget-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: var(--accent);
-            margin-bottom: 1.5rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .widget-title i { color: var(--secondary); }
-
-        .contributor-list {
-            list-style: none;
-        }
-        .contributor-list li {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            padding: 12px 0;
-            border-bottom: 1px solid #f0ebe6;
-        }
-        .contributor-list li:last-child { border-bottom: 0; }
-        .contributor-list .avatar {
-            width: 48px;
-            height: 48px;
-            background: #ddd2c8;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.4rem;
-            color: #4a3f38;
-            flex-shrink: 0;
-        }
-        .contributor-list .info .name {
-            font-weight: 600;
-            color: var(--accent);
-        }
-        .contributor-list .info .role {
-            font-size: 0.8rem;
-            color: #6b6b7a;
-        }
-
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .tag-cloud .tag {
-            background: var(--light);
-            padding: 6px 18px;
-            border-radius: 40px;
-            font-size: 0.85rem;
-            color: var(--accent);
-            border: 1px solid #e6ddd6;
+        a {
             text-decoration: none;
-            transition: 0.2s;
         }
-        .tag-cloud .tag:hover {
-            background: var(--secondary);
-            color: white;
-            border-color: var(--secondary);
-        }
-
-        /* ---------- responsive ---------- */
-        @media (max-width: 1024px) {
-            .articles-grid { grid-template-columns: 1fr; }
-            .sidebar { position: static; }
-            .article-card { flex: 1 1 100%; }
-            .featured-article .card-body { padding: 2rem; min-height: 260px; }
-            .featured-article .card-body h2 { font-size: 2rem; }
-        }
-        @media (max-width: 680px) {
-            .filter-bar { border-radius: 28px; padding: 1rem 1.2rem; }
-            .filter-btn { padding: 6px 16px; font-size: 0.8rem; }
-            .page-hero h1 { font-size: 2rem; }
-            .featured-article .card-body { padding: 1.5rem; min-height: 220px; }
-            .featured-article .card-body h2 { font-size: 1.5rem; }
-            .featured-article .card-body .excerpt { font-size: 0.95rem; }
-            .logo-icon img { width: 90px; height: 45px; }
-            .article-card { flex: 1 1 100%; }
-        }
-        
         
         /* ===== FIXED MOBILE STYLES ===== */
         @media (max-width: 992px) {
@@ -1766,12 +1059,9 @@
             nav ul {
                 flex-direction: column;
                 gap: 2px;
-               
-                
                 padding: 10px;
                 display: none;
                 max-height: 100vh;
-               
             }
             
             nav ul.active {
@@ -1786,11 +1076,9 @@
             nav ul li a {
                 padding: 15px;
                 justify-content: space-between;
-                
                 border-radius: 5px;
             }
             
-            /* FIXED: Mobile dropdown menus */
             .dropdown-menu {
                 position: static !important;
                 opacity: 1 !important;
@@ -1801,7 +1089,7 @@
                 margin: 5px 0 5px 15px;
                 border-top: none;
                 min-width: auto;
-                display: none; /* Hidden by default */
+                display: none;
                 transition: none;
             }
             
@@ -1837,15 +1125,22 @@
             .nav-right {
                 order: 2;
             }
-             .social-links {
-            display: block;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
+            .social-links {
+                display: block;
+                gap: 15px;
+                margin-top: 20px;
+            }
+            
+            .news-layout {
+                grid-template-columns: 1fr;
+                padding: 30px 0;
+            }
+            
+            .news-sidebar {
+                position: static;
+            }
         }
         
-        /* Additional fix for very small screens */
         @media (max-width: 480px) {
             .logo-text h1 {
                 font-size: 1.3rem;
@@ -1859,42 +1154,15 @@
                 width: 100px;
                 height: 60px;
             }
-             .social-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-        }
-    }
-        @media (max-width: 992px) {
-            .news-layout {
-                grid-template-columns: 1fr;
-                 margin-left:-30px;
+            .social-links {
+                display: flex;
+                gap: 15px;
+                margin-top: 20px;
             }
             
-            .news-sidebar {
-                position: static;
+            .sidebar-widget {
+                padding: 20px;
             }
-            
-            .featured-image {
-                height: 300px;
-            }
-
-            .logo-icon img {
-            width: 90px;
-            height: 50px;
-            
-            
-            padding: 5px;
-        }
-         .sidebar-widget {
-            background: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            width: auto;
-        }
-            
         }
         
         @media (max-width: 768px) {
@@ -1909,27 +1177,19 @@
             .page-header h1 {
                 font-size: 2.2rem;
             }
-
-           .logo-icon img {
-             width: 120px;
-      height: 60px;
-      object-fit: contain;
-      
-        }
-         .sidebar-widget {
-            background: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            width: auto;
-        }
             
-         
-         
+            .logo-icon img {
+                width: 120px;
+                height: 60px;
+                object-fit: contain;
+            }
+            
+            .sidebar-widget {
+                padding: 20px;
+            }
         }
 
-        /* ---------- footer (consistent) ---------- */
+        /* Footer */
         .footer {
             background: #0b1a2f;
             color: #eef3fc;
@@ -1965,135 +1225,79 @@
         footer p { font-size: 10px; opacity: 0.6; }
         @media (max-width: 900px) { .footer-container { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
         @media (max-width: 550px) { .footer-container { grid-template-columns: 1fr; } .footer-brand { grid-column: 1; } .footer-bottom { flex-direction: column; align-items: flex-start; gap: 0.8rem; } }
-        a { text-decoration: none; }
-        </style>
-        <body>
+    </style>
+</head>
+<body>
     <!-- Header & Navigation -->
     <header>
         <div class="container">
             <div class="header-content">
                 <div class="logo">
                     <div class="logo-icon">
-                       <img src="Assets/geti.png" alt="img">
+                        <img src="Assets/geti.png" alt="img">
                     </div>
-                   
                 </div>
-                
-               
                 
                 <nav>
                     <ul id="nav-menu">
-                        <!-- Home -->
                         <li>
                             <a href="index.html" class="nav-link" onclick="setActive(this)">
                                 <i class="fas fa-home"></i> Home
                             </a>
                         </li>
                         
-            <!-- Articles Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'about-dropdown')">
                                 Articles<i class="fas fa-chevron-down"></i>
                             </a>
                             <ul class="dropdown-menu" id="about-dropdown">
-
                                 <li>
                                     <a href="All articles.html" onclick="setActive(this)">
-                                        </i> All Articles
+                                        All Articles
                                     </a>
                                 </li>
                                 <li>
                                     <a href="360.html" onclick="setActive(this)">
-                                        </i> 360 Echoes
+                                        360 Echoes
                                     </a>
                                 </li>
                                 <li>
                                     <a href="Junior Insight.html" onclick="setActive(this)">
-                                         Junior Insight
+                                        Junior Insight
                                     </a>
                                 </li>
-                                
                             </ul>
                         </li>
                         
-                        <!-- Researchs -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'clubs-dropdown')">
-                               Researchs <!--i class="fas fa-chevron-down></i"-->
+                                Researchs
                             </a>
-                            <!--<ul class="dropdown-menu" id="clubs-dropdown">
-                                <li>
-                                    <li>
-                                    <a href="prefects.html" onclick="setActive(this)">
-                                        <i class="fas fa-user-tie"></i> Prefects Council
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="nsmq.html" onclick="setActive(this)">
-                                        <i class="fas fa-trophy"></i> NSMQ Team
-                                    </a>
-
-                                </li>
-                                 <li>
-                                    <a href="Debate.html" onclick="setActive(this)">
-                                        <i class="fas fa-flask"></i> Debate Club
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="clubs.html" onclick="setActive(this)">
-                                        <i class="fas fa-users"></i> Others
-                                    </a>
-                                </li>
-                               
-                                    
-                                
-                            </ul>-->
                         </li>
                         
-                        <!-- News & Events with Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="nav-link" onclick="toggleDropdown(event, 'news-dropdown')">
-                               Treanding Issues <!--i class="fas fa-chevron-down"></i-->
+                                Treanding Issues
                             </a>
-                            <!--<ul class="dropdown-menu" id="news-dropdown">
-                                <li>
-                                    <a href="news.html" onclick="setActive(this)">
-                                        <i class="fas fa-newspaper"></i> Latest News
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="news.html" onclick="setActive(this)">
-                                        <i class="fas fa-calendar-alt"></i> Upcoming Events
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html" onclick="setActive(this)">
-                                        <i class="fas fa-images"></i> Photo Gallery
-                                    </a>
-                                </li>
-                                
-                            </ul>-->
                         </li>
                         
-                        <!-- Admissions CTA -->
                         <li>
-                           <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                    
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
                         </li>
                     </ul>
                 </nav>
-                 <div class="nav-right">
+                <div class="nav-right">
                     <button class="search-btn" onclick="toggleSearch()">
                         <i class="fas fa-search" style="color:white;"></i>
                     </button>
                     <div class="mobile-menu1" id="user" onclick="toggleSignin()">
-                       <a href="Signin.html"> <i class="fa-solid fa-circle-user" style="color:white;"></i></a>
+                        <a href="Signin.html"> <i class="fa-solid fa-circle-user" style="color:white;"></i></a>
                     </div>
                     <div class="mobile-menu" onclick="toggleMobileMenu()">
                         <i class="fas fa-bars" style="color:white;"></i>
@@ -2102,163 +1306,105 @@
             </div>
         </div>
     </header>
-<br><br><br><br><br>
- 
-     <div class="container">
-        <main class="main-article">
-                    <div class="article-header">
-                        <div class="breadcrumb">
-                            <a href="index.html"><i class="fas fa-home"></i> Home</a> 
-                            <i class="fas fa-chevron-right" style="font-size:0.6rem; margin:0 6px; color:#bbb;"></i>
-                            <a href="360.html">Articles</a>
-                            <i class="fas fa-chevron-right" style="font-size:0.6rem; margin:0 6px; color:#bbb;"></i>
-                            <span style="color:#7a7a8a;">National</span>
-                        </div>
-                        <!--span class="category-badge"><i class="fas fa-leaf"></i> Climate & Environment</span-->
-                        <h1>Kumasi And Its Environs Must Reflect A Clean, Orderly, And Modern City: A Nationalist’s View</h1>
-                        <div class="article-meta">
-                            <span class="author"><i class="fas fa-user-pen"></i>Rev. Dr. Patrick Owusu</span>
-                            <span><i class="far fa-calendar-alt"></i> July 11, 2026</span>
-                            <span><i class="far fa-clock"></i> 5 min read</span>
-                            <span><i class="fas fa-tag"></i> Environment</span>
-                        </div>
+
+    <br><br><br><br><br>
+
+    <!-- MAIN CONTENT WITH SIDEBAR -->
+    <div class="container">
+        <div class="news-layout">
+            <!-- Main Article Column -->
+            <main class="main-article">
+                <div class="article-header">
+                    <div class="breadcrumb">
+                        <a href="index.html"><i class="fas fa-home"></i> Home</a> 
+                        <i class="fas fa-chevron-right" style="font-size:0.6rem; margin:0 6px; color:#bbb;"></i>
+                        <a href="360.html">Articles</a>
+                        <i class="fas fa-chevron-right" style="font-size:0.6rem; margin:0 6px; color:#bbb;"></i>
+                        <span style="color:#7a7a8a;">National</span>
                     </div>
-
-                    <div class="article-featured-img">
-                        <img src="Assets/pp.jpg" alt="Rev. Dr. Patrick Owusu">
-                        <div class="img-caption"><i class="fas fa-camera"></i> Rev. Dr. Patrick Owusu</div>
+                    <h1>Kumasi And Its Environs Must Reflect A Clean, Orderly, And Modern City: A Nationalist's View</h1>
+                    <div class="article-meta">
+                        <span class="author"><i class="fas fa-user-pen"></i> Rev. Dr. Patrick Owusu</span>
+                        <span><i class="far fa-calendar-alt"></i> July 11, 2026</span>
+                        <span><i class="far fa-clock"></i> 5 min read</span>
+                        <span><i class="fas fa-tag"></i> Environment</span>
                     </div>
-
-                    <div class="article-body">
-                        <p><strong>As a nationalist, I write with an open and objective mind,</strong>always reflecting on the prosperity and long term advancement of our nation. My concern is not merely to criticise, but to contribute meaningfully to the ongoing discourse on national development and civic responsibility.
-                        I firmly believe that the path to a developing and resilient economy lies in the active involvement of citizens, without excessive reliance on partisan politics. True progress is achieved when individuals rise above political divisions and work collectively towards a shared national vision.
-                       Development must be people- centred and inclusive. It should result in visible improvements in infrastructure, sanitation, and economic opportunities that directly impact the daily lives of ordinary citizens. 
-For this reason, I support policies and initiatives that deliver practical benefits, irrespective of political affiliation.
-Respectfully, I draw the attention of the Regional Minister, the Mayor of Kumasi, the various District Chief Executives, Assembly Members, and Unit Committees across the Kumasi Metropolis and its environs to this pressing matter.
-I know the rich efforts you are all putting in to make the city better. However, your leadership remains crucial in shaping the future of our city and beyond.Kumasi, once celebrated as the Garden City of West Africa, deserves to reflect that distinguished reputation not only in name but in reality.
-
- The current condition of CERTAIN PARTS of the metropolis falls short of this historic identity, and urgent steps must be taken to restore its former glory.
-
-The beauty, order, and cleanliness of our communities would be greatly enhanced if ROADSIDE TRADING and UNAUTHORISED STRUCTURES along major roads were addressed within a reasonable and well planned framework.
-
-                    </p>
-
-                       
-
-                        
-
-                        <blockquote>
-                            "A CLEAN ENVIRONMENT IS NOT A LUXURY BUT A NECESSITY FOR HEALTHY AND DIGNIFIED LIVING "
-                            <cite>— Dr. Patrick Owusu</cite>
-                        </blockquote>
-
-                        
-                        <p>For many years, concerns have been raised regarding the LIVELIHOODS of INDIVIDUALS who depend on roadside trading. While these concerns are VALID and DESERVE EMPATHY, EFFECTIVE LEADERSHIP OFTEN REQUIRES BOLD and SOMETIMES DIFFICULT DECISIONS that prioritise the collective good over individual convenience. 
-
-PUBLIC SAFETY, SANITATION, and the free flow of traffic must take precedence.
-
-In my considered view, all sellers and owners of unauthorised roadside structures should be formally served with notices to vacate highways, principal streets, and other busy roads within our communities. This process must be guided by law, fairness, and clarity.
-
-Equally important, ALTERNATIVE and WELL DESIGNATED TRADING AREAS should be developed to accommodate these traders. Such spaces would provide a more organised, safe, and lawful environment for their economic activities, while preserving the orderliness of our roads.
-
-Until firm and decisive actions are taken, filth, plastic waste, and congestion will continue to undermine efforts towards proper sanitation. These conditions pose serious health risks and diminish the attractiveness of Kumasi to investors, visitors, and residents alike.
-
-It is evident that many developed nations have achieved remarkable progress by enforcing standards of cleanliness, discipline, and urban order. 
-
-There is no justification for our inability to do the same. With strong leadership and consistent enforcement, Kumasi and the Ashanti Region can be repositioned as clean, healthy, and attractive destinations for living and investment.
-
-Critical areas such as the SANTASI stretch to the OBUASI Road, SOFOLINE to ABUAKWA, the ATONSU STRETCH, SEWUA Junction, ESRESO ROAD through to the ADAGYA SECTION, the Suame environs to Offinso, Krofrom, Tafo, and other similar locations require urgent intervention.
-
-I write with deep passion and respectfully urge all District Chief Executives to take a closer look at these areas, especially ATONSU ROAD( HIGH SCHOOL/ S-LINE JUNCTIONS), ESRESO COMMUNITY, the ADAGYA SECTION, and the towns leading towards the lake roads. In fact, you need to visit these sections. Total eyesore!!!
-
-Sometimes, in the evening, one wonders if some road sections have become market centres. Ah!!! Truth must be told. Let's not hide them. Indeed, if we love our communities, urgent environmental decisions should be taken without any further delay. 
-
-Many of these road sections are engulfed in filth originating from unauthorised roadside structures. When INDIVIDUALS TAKE THE LAW INTO THEIR OWN HANDS, it breeds DISORDER and DEEPENS CONFUSION WITHIN THE CITY.
-
-Addressing these concerns will significantly improve sanitation, enhance traffic flow, and restore the overall visual appeal of the city.
-
-Restoring order in these locations will not only improve environmental cleanliness but will also strengthen public confidence in local governance. A well organised city reflects disciplined leadership and responsible citizenship.
-
-TRADITIONAL AUTHORITIES, particularly CHIEFS within the respective communities, must be actively involved in enforcing clearly defined boundaries and maintaining agreed standards.
-
-Their participation will promote community ownership, strengthen compliance, and ensure the long term sustainability of these interventions.
-
-In addition, the median sections of our roads, which are often overgrown with weeds and bushes, should be cleared regularly. 
-
-Proper maintenance of these areas will improve visibility for motorists, reduce the risk of accidents, and contribute significantly to the overall cleanliness and beauty of our urban spaces.
-
-If we HESITATE TO TAKE BOLD AND NECESSARY DECISIONS out of fear of public reaction or political consequences, we risk stagnation.
-
-A better country cannot be built on hesitation; it requires courage, vision, and a willingness to act in the best interest of all.
-.</p>
-
-<h2>Conclusion</h2>
-<p>I present these reflections not as criticism but as an expression of deep concern and genuine love for our city, region, and nation. My intention is to support constructive dialogue and inspire meaningful action.
-
-As a nationalist, I believe that leadership is most effective when it listens attentively to the voices of the people and responds with urgency, courage, and compassion. The strength of leadership lies in its ability to act decisively while remaining inclusive.
-
-The Ashanti Region is endowed with immense potential, a rich cultural heritage, and resilient people. With continued dedication, firm leadership, and inclusive governance, this region can truly embody the pride and excellence for which it is renowned.
-
-I remain hopeful that these concerns and recommendations will be considered in the spirit in which they are offered, that is, for the collective progress and well being of our people. Thoughtful action today will secure a better tomorrow.
-
-May our leadership continue to inspire confidence, unity, and sustainable development as we work together to build a cleaner, safer, and more prosperous Ashanti Region for both present and future generations.
-
-Let this be the moment we choose discipline over disorder, structure over chaos, and progress over complacency. The RESPONSIBILITY rests with all of us, and the TIME TO ACT IS NOW.
-</p>
-
-                                           </div>
-        </main>
-     </div>
-                    </div>
-                    
                 </div>
-                   
 
-                <!-- Pagination
-                <div class="pagination">
-                    <a href="#" class="page-link"><i class="fas fa-chevron-left"></i></a>
-                    <a href="#" class="page-link active">1</a>
-                    <a href="#" class="page-link">2</a>
-                    <a href="#" class="page-link">3</a>
-                    <a href="#" class="page-link">4</a>
-                    <a href="#" class="page-link">5</a>
-                    <a href="#" class="page-link next">Next <i class="fas fa-chevron-right"></i></a>
-                </div> -->
-            </div>
+                <div class="article-featured-img">
+                    <img src="Assets/pp.jpg" alt="Rev. Dr. Patrick Owusu">
+                    <div class="img-caption"><i class="fas fa-camera"></i> Rev. Dr. Patrick Owusu</div>
+                </div>
 
-            <!-- Sidebar -->
+                <div class="article-body">
+                    <p><strong>As a nationalist, I write with an open and objective mind,</strong> always reflecting on the prosperity and long term advancement of our nation. My concern is not merely to criticise, but to contribute meaningfully to the ongoing discourse on national development and civic responsibility.</p>
+
+                    <p>I firmly believe that the path to a developing and resilient economy lies in the active involvement of citizens, without excessive reliance on partisan politics. True progress is achieved when individuals rise above political divisions and work collectively towards a shared national vision.</p>
+
+                    <p>Development must be people-centred and inclusive. It should result in visible improvements in infrastructure, sanitation, and economic opportunities that directly impact the daily lives of ordinary citizens. For this reason, I support policies and initiatives that deliver practical benefits, irrespective of political affiliation.</p>
+
+                    <p>Respectfully, I draw the attention of the Regional Minister, the Mayor of Kumasi, the various District Chief Executives, Assembly Members, and Unit Committees across the Kumasi Metropolis and its environs to this pressing matter.</p>
+
+                    <p>I know the rich efforts you are all putting in to make the city better. However, your leadership remains crucial in shaping the future of our city and beyond. Kumasi, once celebrated as the Garden City of West Africa, deserves to reflect that distinguished reputation not only in name but in reality.</p>
+
+                    <blockquote>
+                        "A CLEAN ENVIRONMENT IS NOT A LUXURY BUT A NECESSITY FOR HEALTHY AND DIGNIFIED LIVING"
+                        <cite>— Dr. Patrick Owusu</cite>
+                    </blockquote>
+
+                    <p>For many years, concerns have been raised regarding the LIVELIHOODS of INDIVIDUALS who depend on roadside trading. While these concerns are VALID and DESERVE EMPATHY, EFFECTIVE LEADERSHIP OFTEN REQUIRES BOLD and SOMETIMES DIFFICULT DECISIONS that prioritise the collective good over individual convenience.</p>
+
+                    <p>PUBLIC SAFETY, SANITATION, and the free flow of traffic must take precedence. In my considered view, all sellers and owners of unauthorised roadside structures should be formally served with notices to vacate highways, principal streets, and other busy roads within our communities. This process must be guided by law, fairness, and clarity.</p>
+
+                    <p>Equally important, ALTERNATIVE and WELL DESIGNATED TRADING AREAS should be developed to accommodate these traders. Such spaces would provide a more organised, safe, and lawful environment for their economic activities, while preserving the orderliness of our roads.</p>
+
+                    <p>Until firm and decisive actions are taken, filth, plastic waste, and congestion will continue to undermine efforts towards proper sanitation. These conditions pose serious health risks and diminish the attractiveness of Kumasi to investors, visitors, and residents alike.</p>
+
+                    <p>It is evident that many developed nations have achieved remarkable progress by enforcing standards of cleanliness, discipline, and urban order. There is no justification for our inability to do the same. With strong leadership and consistent enforcement, Kumasi and the Ashanti Region can be repositioned as clean, healthy, and attractive destinations for living and investment.</p>
+
+                    <p>Critical areas such as the SANTASI stretch to the OBUASI Road, SOFOLINE to ABUAKWA, the ATONSU STRETCH, SEWUA Junction, ESRESO ROAD through to the ADAGYA SECTION, the Suame environs to Offinso, Krofrom, Tafo, and other similar locations require urgent intervention.</p>
+
+                    <p>I write with deep passion and respectfully urge all District Chief Executives to take a closer look at these areas, especially ATONSU ROAD (HIGH SCHOOL/S-LINE JUNCTIONS), ESRESO COMMUNITY, the ADAGYA SECTION, and the towns leading towards the lake roads. In fact, you need to visit these sections. Total eyesore!!!</p>
+
+                    <p>Sometimes, in the evening, one wonders if some road sections have become market centres. Ah!!! Truth must be told. Let's not hide them. Indeed, if we love our communities, urgent environmental decisions should be taken without any further delay.</p>
+
+                    <p>Many of these road sections are engulfed in filth originating from unauthorised roadside structures. When INDIVIDUALS TAKE THE LAW INTO THEIR OWN HANDS, it breeds DISORDER and DEEPENS CONFUSION WITHIN THE CITY.</p>
+
+                    <p>Addressing these concerns will significantly improve sanitation, enhance traffic flow, and restore the overall visual appeal of the city. Restoring order in these locations will not only improve environmental cleanliness but will also strengthen public confidence in local governance. A well organised city reflects disciplined leadership and responsible citizenship.</p>
+
+                    <p>TRADITIONAL AUTHORITIES, particularly CHIEFS within the respective communities, must be actively involved in enforcing clearly defined boundaries and maintaining agreed standards. Their participation will promote community ownership, strengthen compliance, and ensure the long term sustainability of these interventions.</p>
+
+                    <p>In addition, the median sections of our roads, which are often overgrown with weeds and bushes, should be cleared regularly. Proper maintenance of these areas will improve visibility for motorists, reduce the risk of accidents, and contribute significantly to the overall cleanliness and beauty of our urban spaces.</p>
+
+                    <p>If we HESITATE TO TAKE BOLD AND NECESSARY DECISIONS out of fear of public reaction or political consequences, we risk stagnation. A better country cannot be built on hesitation; it requires courage, vision, and a willingness to act in the best interest of all.</p>
+
+                    <h2>Conclusion</h2>
+                    <p>I present these reflections not as criticism but as an expression of deep concern and genuine love for our city, region, and nation. My intention is to support constructive dialogue and inspire meaningful action.</p>
+
+                    <p>As a nationalist, I believe that leadership is most effective when it listens attentively to the voices of the people and responds with urgency, courage, and compassion. The strength of leadership lies in its ability to act decisively while remaining inclusive.</p>
+
+                    <p>The Ashanti Region is endowed with immense potential, a rich cultural heritage, and resilient people. With continued dedication, firm leadership, and inclusive governance, this region can truly embody the pride and excellence for which it is renowned.</p>
+
+                    <p>I remain hopeful that these concerns and recommendations will be considered in the spirit in which they are offered, that is, for the collective progress and well being of our people. Thoughtful action today will secure a better tomorrow.</p>
+
+                    <p>May our leadership continue to inspire confidence, unity, and sustainable development as we work together to build a cleaner, safer, and more prosperous Ashanti Region for both present and future generations.</p>
+
+                    <p>Let this be the moment we choose discipline over disorder, structure over chaos, and progress over complacency. The RESPONSIBILITY rests with all of us, and the TIME TO ACT IS NOW.</p>
+                </div>
+            </main>
+
+            <!-- Sidebar Column -->
             <aside class="news-sidebar">
-                <!-- Search Widget 
-                <div class="sidebar-widget">
-                    <h3 class="widget-title">Search News</h3>
-                    <div class="search-box">
-                        <input type="text" placeholder="Search articles...">
-                        <button><i class="fas fa-search"></i></button>
-                    </div>
-                </div>-->
-
-                <!-- Categories Widget
-                <div class="sidebar-widget">
-                    <h3 class="widget-title">Categories</h3>
-                    <ul class="category-list">
-                        <li><a href="#">Academic News <span class="category-count">12</span></a></li>
-                        <li><a href="#">Sports <span class="category-count">8</span></a></li>
-                        <li><a href="#">Cultural Events <span class="category-count">6</span></a></li>
-                        <li><a href="#">Achievements <span class="category-count">10</span></a></li>
-                        <li><a href="#">Administration <span class="category-count">5</span></a></li>
-                        <li><a href="#">Alumni <span class="category-count">4</span></a></li>
-                    </ul>
-                </div> -->
-
-                <!-- Recent Posts Widget
+                <!-- Recent News Widget -->
                 <div class="sidebar-widget">
                     <div class="widget-title">
-                    <h3 >Recent News</h3>
-                    
+                        <h3>Recent News</h3>
+                        
                     </div>
-                   <div class="recent-post">
+                    
+                    <div class="recent-post">
                         <div class="recent-image">
-                           <img src="Assets/cleanup.jpg" alt="img">
+                            <img src="Assets/cleanup.jpg" alt="Clean up exercise">
                         </div>
                         <div class="recent-info">
                             <h4><a href="#">Ghana Embarks on a two-day Clean Up exercise</a></h4>
@@ -2266,160 +1412,33 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
                                 <i class="far fa-calendar-alt"></i> July 11, 2026
                             </div>
                         </div>
-                    </div> 
-
-                     <div class="recent-post">
-                        <div class="recent-image">
-                            <img src="Assets/arrested abu.jpg" alt="img">
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">All you need to know about Abutrica's Extradiction</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> June 11, 2026
-                            </div>
-                        </div>
-                    </div> 
-
-                   <!-- <div class="recent-post">
-                        <div class="recent-image">
-                            <i class="fas fa-calendar-check"></i>
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">Speech & Prize Giving Day 2023</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> May 28, 2023
-                            </div>
-                        </div>
                     </div>
 
                     <div class="recent-post">
                         <div class="recent-image">
-                            <i class="fas fa-futbol"></i>
+                            <img src="Assets/arrested abu.jpg" alt="Abutrica Extradiction">
                         </div>
                         <div class="recent-info">
-                            <h4><a href="#">Inter-House Sports Competition</a></h4>
+                            <h4><a href="All you need to know about Abutrica's Extradition.html">All you need to know about Abutrica's Extradiction</a></h4>
                             <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> May 20, 2023
+                                <i class="far fa-calendar-alt"></i> July 10, 2026
                             </div>
                         </div>
                     </div>
-
-                    <div class="recent-post">
-                        <div class="recent-image">
-                            <i class="fas fa-school"></i>
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">New Science Block Commissioned</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> May 5, 2023
-                            </div>
-                        </div>
-                    </div>-->
-                </div>
-                        <!-- Recent Articles Widget -->
-                <!-- <div class="sidebar-widget">
-                    <div class="widget-title">
-                    <h3 >Recent Junior Insight</h3>
-                    
-                    </div>
-                    
-                    <div class="recent-post">
-                        <div class="recent-image">
-                            <img src="Assets/fl.webp" alt="img">
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">Accra floods: An annual festival of floodwaters, floating plastics and official sympathies</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> July 2, 2026
-                            </div>
-                        </div>
-                    </div>
-
-                  <!--  <div class="recent-post">
-                        <div class="recent-image">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">2023 WASSCE Candidates Excel</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> June 10, 2023
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="recent-post">
-                        <div class="recent-image">
-                            <i class="fas fa-calendar-check"></i>
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">Speech & Prize Giving Day 2023</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> May 28, 2023
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="recent-post">
-                        <div class="recent-image">
-                            <i class="fas fa-futbol"></i>
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">Inter-House Sports Competition</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> May 20, 2023
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="recent-post">
-                        <div class="recent-image">
-                            <i class="fas fa-school"></i>
-                        </div>
-                        <div class="recent-info">
-                            <h4><a href="#">New Science Block Commissioned</a></h4>
-                            <div class="recent-date">
-                                <i class="far fa-calendar-alt"></i> May 5, 2023
-                            </div>
-                        </div>
-                    </div>-->
+                    <div class="dim">
+                   <a href="index.html#side">Click to view more <i class="fas fa-arrow-right"></i></a>
+                   </div>
                 </div>
 
-
-                <!-- Archives Widget
-                <div class="sidebar-widget">
-                    <h3 class="widget-title">Archives</h3>
-                    <ul class="archive-list">
-                        <li><a href="#">June 2023 <span>8</span></a></li>
-                        <li><a href="#">May 2023 <span>12</span></a></li>
-                        <li><a href="#">April 2023 <span>10</span></a></li>
-                        <li><a href="#">March 2023 <span>7</span></a></li>
-                        <li><a href="#">February 2023 <span>5</span></a></li>
-                    </ul>
-                </div> -->
-
-                <!-- Tags Widget 
-                <div class="sidebar-widget">
-                    <h3 class="widget-title">Popular Tags</h3>
-                    <div class="tag-cloud">
-                        <a href="#" class="tag">NSMQ</a>
-                        <a href="#" class="tag">WASSCE</a>
-                        <a href="#" class="tag">Sports</a>
-                        <a href="#" class="tag">Science</a>
-                        <a href="#" class="tag">Mathematics</a>
-                        <a href="#" class="tag">Cultural</a>
-                        <a href="#" class="tag">Achievement</a>
-                        <a href="#" class="tag">Alumni</a>
-                        <a href="#" class="tag">Admissions</a>
-                    </div>
-                </div>-->
             </aside>
         </div>
     </div>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-brand">
-                <div class="logo"><span>Getinfo<span style="font-weight:300;color:#7ba0ff;">360</span></span></div>
+                <div class="logo"><span>Getinfo<span style="font-weight:300;color:#7ba0ff;">Online</span></span></div>
                 <div class="tagline"><i class="fas fa-quote-left" style="opacity:0.5;margin-right:4px;"></i> Real-time news, deep analysis, and stories that matter — from every corner of the world.</div>
                 <div class="footer-social">
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -2444,14 +1463,11 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
         </div>
         <div class="footer-bottom">
             <div class="copy"><i class="far fa-copyright"></i> 2026 <span>Getinfo360</span><p>— all rights reserved</p></div>
-            <div class="legal-links"><a href="#">Developed by: Rankofsoft & TopCut</a><a href="#">Terms of Service</a><a href="#"></a><a href="#"></a></div>
+            <div class="legal-links"><a href="#">Developed by: Rankofsoft & TopCut</a></div>
         </div>
-        
     </footer>
 
-            <script>
-        
-        
+    <script>
         // Toggle dropdown menu 
         function toggleDropdown(event, dropdownId) {
             event.preventDefault();
@@ -2460,11 +1476,9 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
             const dropdown = document.getElementById(dropdownId);
             const chevron = event.currentTarget.querySelector('i.fa-chevron-down');
             
-            // Close all other dropdowns first
             document.querySelectorAll('.dropdown-menu').forEach(menu => {
                 if (menu.id !== dropdownId && menu.classList.contains('show')) {
                     menu.classList.remove('show');
-                    // Reset chevron for the closed dropdown
                     const parentLink = menu.closest('.dropdown')?.querySelector('.nav-link i.fa-chevron-down');
                     if (parentLink) {
                         parentLink.style.transform = 'rotate(0)';
@@ -2472,10 +1486,8 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
                 }
             });
             
-            // Toggle current dropdown
             dropdown.classList.toggle('show');
             
-            // Rotate chevron icon
             if (chevron) {
                 chevron.style.transform = dropdown.classList.contains('show') ? 'rotate(180deg)' : 'rotate(0)';
             }
@@ -2488,7 +1500,6 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
             
             navMenu.classList.toggle('active');
             
-            // Change icon based on menu state
             if (navMenu.classList.contains('active')) {
                 mobileIcon.className = 'fas fa-times';
                 document.body.classList.add('menu-open');
@@ -2496,31 +1507,25 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
                 mobileIcon.className = 'fas fa-bars';
                 document.body.classList.remove('menu-open');
                 
-                // Close all dropdowns when closing mobile menu
                 document.querySelectorAll('.dropdown-menu').forEach(menu => {
                     menu.classList.remove('show');
                 });
                 
-                // Reset all chevrons
                 document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
                     chevron.style.transform = 'rotate(0)';
                 });
             }
         }
 
-        // Set active link based on current page
         function setActive(element) {
-            // Remove active class from all nav links
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.classList.remove('active');
             });
             
-            // Add active class to clicked link
             if (element) {
                 element.classList.add('active');
             }
             
-            // On mobile, close menu after clicking a link
             if (window.innerWidth <= 992) {
                 const navMenu = document.getElementById('nav-menu');
                 const mobileIcon = document.querySelector('.mobile-menu i');
@@ -2529,140 +1534,57 @@ Let this be the moment we choose discipline over disorder, structure over chaos,
                 mobileIcon.className = 'fas fa-bars';
                 document.body.classList.remove('menu-open');
                 
-                // Close all dropdowns
                 document.querySelectorAll('.dropdown-menu').forEach(menu => {
                     menu.classList.remove('show');
                 });
                 
-                // Reset all chevrons
                 document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
                     chevron.style.transform = 'rotate(0)';
                 });
             }
         }
 
-        // Close dropdowns when clicking outside
         document.addEventListener('click', function(event) {
             if (!event.target.closest('.dropdown') && !event.target.closest('.mobile-menu')) {
                 document.querySelectorAll('.dropdown-menu').forEach(menu => {
                     menu.classList.remove('show');
                 });
                 
-                // Reset chevron rotations
                 document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
                     chevron.style.transform = 'rotate(0)';
                 });
             }
         });
 
-        // Handle window resize
         window.addEventListener('resize', function() {
             if (window.innerWidth > 992) {
-                // Reset mobile menu on desktop
                 const navMenu = document.getElementById('nav-menu');
                 const mobileIcon = document.querySelector('.mobile-menu i');
                 
                 navMenu.classList.remove('active');
                 mobileIcon.className = 'fas fa-bars';
                 document.body.classList.remove('menu-open');
-                
-                // Don't close dropdowns on desktop resize - they work differently
-            } else {
-                // On mobile, ensure dropdowns are properly styled
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    if (menu.classList.contains('show')) {
-                        menu.style.display = 'block';
-                    }
-                });
             }
         });
 
-        // Set active link based on current page URL
         document.addEventListener('DOMContentLoaded', function() {
             const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-            const currentHash = window.location.hash;
             
             document.querySelectorAll('.nav-link').forEach(link => {
                 const linkHref = link.getAttribute('href');
-                
-                // Check if this link matches current page
-                if (linkHref === currentPage || 
-                    (currentPage === 'index.html' && linkHref === 'index.html') ||
-                    (currentHash && linkHref === currentHash)) {
+                if (linkHref === currentPage) {
                     link.classList.add('active');
-                }
-                
-                // Also check parent dropdown items
-                if (link.closest('.dropdown-menu')) {
-                    if (linkHref === currentPage) {
-                        const parentDropdown = link.closest('.dropdown');
-                        if (parentDropdown) {
-                            const parentLink = parentDropdown.querySelector('.nav-link');
-                            if (parentLink) {
-                                parentLink.classList.add('active');
-                            }
-                        }
-                    }
                 }
             });
         });
 
-        // Search functionality
         function toggleSearch() {
             alert('Search feature coming soon!');
         }
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                if (this.getAttribute('href') !== '#') {
-                    e.preventDefault();
-                    
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    
-                    if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                }
-            });
-        });
-
-        // Form submission
-        const contactForm = document.getElementById('contactForm');
-        if (contactForm) {
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Thank you for your message! We will get back to you soon.');
-                this.reset();
-            });
-        }
-
-        // Sticky header background on scroll
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            if (window.scrollY > 100) {
-                header.style.backgroundColor = 'rgba(44, 62, 80, 0.95)';
-            } else {
-                header.style.backgroundColor = '';
-            }
-        });
-
-        // Ghana flag animation
-        const ghanaFlag = document.querySelector('.ghana-flag');
-        if (ghanaFlag) {
-            ghanaFlag.addEventListener('mouseover', function() {
-                this.style.transform = 'scale(1.1)';
-            });
-            
-            ghanaFlag.addEventListener('mouseout', function() {
-                this.style.transform = 'scale(1)';
-            });
+        function toggleSignin() {
+            // Redirect to sign in page
         }
     </script>
 </body>
 </html>
-        
