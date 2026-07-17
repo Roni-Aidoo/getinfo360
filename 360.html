@@ -188,8 +188,9 @@
             border-bottom: 1px solid var(--border-soft);
         }
         .page-hero img{
-            height: 70px;
+            height: 50px;
             width: auto;
+            margin-top: 20px;
             
             
            
@@ -900,9 +901,9 @@
         
         /* News Grid */
         .news-grid {
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
+            gap: 5px;
             margin-bottom: 40px;
         }
         
@@ -1408,7 +1409,7 @@
         .articles-flex {
             display: flex;
             flex-wrap: wrap;
-            gap: 24px;
+            gap: 5px;
             margin-top: 4px;
         }
 
@@ -1420,9 +1421,15 @@
             box-shadow: 0 4px 14px rgba(0,0,0,0.02);
             transition: 0.2s;
             flex: 1 1 calc(50% - 12px);
-            min-width: 230px;
+            min-width: 150px;
             display: flex;
+            width: 150px;
             flex-direction: column;
+        }
+
+        .article-card h4 {
+            font-size: 12px;
+            
         }
         .article-card:hover { box-shadow: 0 12px 30px rgba(0,0,0,0.04); }
         .article-card .card-img-sm {
@@ -1451,7 +1458,7 @@
             margin-bottom: 8px;
         }
         .article-card .card-body h3 {
-            font-size: 1.2rem;
+            font-size: 10px;
             font-weight: 600;
             color: var(--accent);
             margin-bottom: 6px;
@@ -1733,6 +1740,7 @@
         @media (max-width: 768px) {
             .news-grid {
                 grid-template-columns: 1fr;
+                
             }
             
             .newsletter-form {
@@ -1963,13 +1971,45 @@
                   <br>
                 <!-- News Grid -->
                 <div class="news-grid">
-                    <!-- News Card 1 -->
+                     <!-- News Card 1 -->
+                    <div class="article-card">
+                        <div class="card-img-sm">
+                            <img src="Assets/YA.jpg" alt="img">
+                        </div>
+                        <div class="card-body">
+                            <h4><a href="BEYOND THE HEADLINES.html">BEYOND THE HEADLINES: THE UNTOLD STORY OF THE LATE YAA NAA ABUBAKARI MAHAMMA II</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 16, 2026
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- News Card 1 -->
+                    <div class="article-card">
+                        <div class="card-img-sm">
+                            <img src="Assets/99.jpg" alt="img">
+                        </div>
+                        <div class="card-body">
+                            <h4><a href="POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVES.html">Politics, The Edged Centre Of The Ghanaian</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 16, 2026
+                            </div>
+
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+                 <div class="news-grid">
+
+                 <!-- News Card 1 -->
                     <div class="article-card">
                         <div class="card-img-sm">
                             <img src="Assets/ASH.jpg" alt="img">
                         </div>
                         <div class="card-body">
-                            <h4><a href="#">About Nana Yaa Akyaa II,  the new Asantehemaa</a></h4>
+                            <h4><a href="#"> A New Era: About Nana Yaa Akyaa II,  the new Asantehemaa</a></h4>
                             <div class="recent-date">
                                 <i class="far fa-calendar-alt"></i> July 13, 2026
                             </div>
@@ -1983,15 +2023,13 @@
                              <img src="Assets\pp.jpg" alt="img">
                         </div>
                         <div class="card-body">
-                            <h4><a href="" >Kumasi And Its Environs Must Reflect A ...</a></a></h4>
+                            <h4><a href="Kumasi And Its Environ Must Reflect A Clean, Orderly, And Modern City_ A Nationalist’s View_ Pastor Patrick Writes.html" >Kumasi And Its Environ Must Reflect A Clean, Orderly, And Modern City A Nationalist’s View </a></a></h4>
                             <div class="recent-date">
                                 <i class="far fa-calendar-alt"></i> July 11, 2026
                             </div>
                         </div>
                     </div>
-                    
-                </div>
-                   
+                 </div>
 
                 <!-- Pagination
                 <div class="pagination">
@@ -2035,12 +2073,56 @@
                     <h3 >Recent 360Echoes</h3>
                     
                     </div>
+                    <div class="recent-post">
+                        <div class="recent-image">
+                           <img src="Assets/99.jpg" alt="img">
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVES.html">POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVE</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 16, 2026
+                            </div>
+                        </div>
+                    </div> 
+                     <div class="recent-post">
+                        <div class="recent-image">
+                           <img src="Assets/YA.jpg" alt="img">
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="BEYOND THE HEADLINES.html".html">BEYOND THE HEADLINES: THE UNTOLD STORY OF THE LATE YAA NAA ABUBAKARI MAHAMMA II</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 16, 2026
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="recent-post">
+                        <div class="recent-image">
+                           <img src="Assets/pp1.jpg" alt="img">
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="BEHIND THE SCENES OF GREATNESS.html".html">Behind The Scenes Of Greateness</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 15, 2026
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="recent-post">
+                        <div class="recent-image">
+                           <img src="Assets/ASH.jpg" alt="img">
+                        </div>
+                        <div class="recent-info">
+                            <h4><a href="About Nana Yaa Akyaa II, the new Asantehemaa.html">A New Era: About Nana Yaa Akyaa II, the new Asantehemaa</a></h4>
+                            <div class="recent-date">
+                                <i class="far fa-calendar-alt"></i> July 11, 2026
+                            </div>
+                        </div>
+                    </div> 
                    <div class="recent-post">
                         <div class="recent-image">
                            <img src="Assets/pp.jpg" alt="img">
                         </div>
                         <div class="recent-info">
-                            <h4><a href="#"></a></h4>
+                            <h4><a href="Kumasi And Its Environ Must Reflect A Clean, Orderly, And Modern City_ A Nationalist’s View_ Pastor Patrick Writes.html">Kumasi And Its Environ Must Reflect A Clean, Orderly, And Modern City A Nationalist’s View</a></h4>
                             <div class="recent-date">
                                 <i class="far fa-calendar-alt"></i> July 11, 2026
                             </div>
