@@ -1,0 +1,1906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All is Well | Getinfo Stories</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <meta name="description" content="Once there was a small town that the neighbouring towns thought the people residing there would not amount to nothing. The inhabitants were rejected and no one saw the need to improve upon their living conditions. People were ailing and dying and no one was able to take seed.">
+
+
+  <meta name="keywords" content=" ">
+  <meta name="author" content="Getinfo Online">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.getinfoonline.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="All Is Well">
+  <meta property="og:description" content="Once there was a small town that the neighbouring towns thought the people residing there would not amount to nothing. The inhabitants were rejected and no one saw the need to improve upon their living conditions. People were ailing and dying and no one was able to take seed.">
+  <meta property="og:image" content="https://www.getinfoonline.com/Assets/JB1.png">
+  <meta property="og:url" content="https://www.getinfoonline.com">
+  <meta property="og:site_name" content="Getinfoonline">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="All Is Well">
+<meta name=" twitter:description" content="Once there was a small town that the neighbouring towns thought the people residing there would not amount to nothing. The inhabitants were rejected and no one saw the need to improve upon their living conditions. People were ailing and dying and no one was able to take seed.">
+  <meta name="twitter:image" content="https://www.getinfoonline.com/JB1.png">
+  <meta name="theme-color" content="#0F3D2E">
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    /* ============================================================
+   GETINFO ONLINE — App shell redesign
+   Palette:  ink #0E1116 · paper #F1F2EC · brand teal #0F3D2E
+             gold #D6A339 · ember #B03A2E · line #E1E1D6
+   Type:     Fraunces (display) / Public Sans (body) / IBM Plex Mono (meta)
+   ============================================================ */
+
+    :root {
+      --ink: #0E1116;
+      --ink-soft: #5B6472;
+      --paper: #F1F2EC;
+      --surface: #FFFFFF;
+      --brand: #1f0c70;
+      --brand-light: #E7F0EA;
+      --gold: #D6A339;
+      --ember: #f88b0f;
+      --line: #E1E1D6;
+      --shadow: 0 10px 30px -12px rgba(14, 17, 22, 0.18);
+      --shadow-lg: 0 24px 60px -20px rgba(14, 17, 22, 0.28);
+      --radius: 18px;
+      --radius-sm: 12px;
+      --header-h: 64px;
+      --tabbar-h: 66px;
+      --font-display: 'Fraunces', serif;
+      --font-body: 'Public Sans', sans-serif;
+      --font-mono: 'IBM Plex Mono', monospace;
+    }
+
+    [data-theme="dark"] {
+      --ink: #F1F2EC;
+      --ink-soft: #A9B0BC;
+      --paper: #0B0D11;
+      --surface: #14171D;
+      --brand: #1f0c70;
+      --brand-light: #122019;
+      --gold: #E8BE5C;
+      --ember: #f88b0f;
+      --line: #23262E;
+      --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.5);
+      --shadow-lg: 0 24px 60px -20px rgba(0, 0, 0, 0.6);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      transition: background .35s ease, color .35s ease;
+      padding-top: var(--header-h);
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    button {
+      font-family: inherit;
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .appbar img {
+      width: 200px;
+    }
+
+    @media(prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.001ms !important;
+        transition-duration: 0.001ms !important;
+      }
+    }
+
+    /* ---------- reveal on scroll ---------- */
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ================= TOP APP BAR ================= */
+    header.appbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-h);
+      background: var(--surface);
+      border-bottom: 1px solid var(--line);
+      z-index: 1000;
+      transition: box-shadow .3s ease, background .35s ease;
+    }
+
+    header.appbar.scrolled {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .appbar-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-mark .mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--brand);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    .brand-mark .word {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-mark .word span {
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    nav.desktop-nav {
+      display: flex;
+    }
+
+    nav.desktop-nav ul {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    nav.desktop-nav>ul>li {
+      position: relative;
+    }
+
+    nav.desktop-nav a.top-link {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      color: var(--ink-soft);
+      transition: background .2s ease, color .2s ease;
+    }
+
+    nav.desktop-nav a.top-link:hover,
+    nav.desktop-nav a.top-link.active {
+      background: var(--brand-light);
+      color: var(--brand);
+    }
+
+    [data-theme="dark"] nav.desktop-nav a.top-link:hover,
+    [data-theme="dark"] nav.desktop-nav a.top-link.active {
+      color: var(--brand);
+    }
+
+    .top-link i.fa-chevron-down {
+      font-size: 0.65rem;
+      transition: transform .25s ease;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      background: var(--surface);
+      min-width: 230px;
+      border-radius: 14px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--line);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-8px);
+      transition: all .25s ease;
+      padding: 8px;
+      z-index: 1000;
+    }
+
+    .dropdown-menu.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .dropdown-menu li a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 9px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--ink);
+    }
+
+    .dropdown-menu li a:hover {
+      background: var(--brand-light);
+      color: var(--brand);
+    }
+
+    .appbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .icon-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-soft);
+      transition: background .2s ease, color .2s ease, transform .15s ease;
+    }
+
+    .icon-btn:hover {
+      background: var(--brand-light);
+      color: var(--brand);
+    }
+
+    .icon-btn:active {
+      transform: scale(0.92);
+    }
+
+    .mobile-menu {
+      display: none;
+    }
+
+    /* ================= LIVE TICKER (signature element) ================= */
+    .ticker {
+      position: fixed;
+      top: var(--header-h);
+      left: 0;
+      width: 100%;
+      z-index: 900;
+      background: var(--brand);
+      color: #fff;
+      overflow: hidden;
+      height: 38px;
+      display: flex;
+      align-items: center;
+    }
+
+    .ticker .tag {
+      flex-shrink: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0 14px;
+      background: var(--ember);
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 600;
+      z-index: 2;
+    }
+
+    .ticker .tag .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #fff;
+      animation: blink 1.4s infinite;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.25;
+      }
+    }
+
+    .ticker-track-wrap {
+      overflow: hidden;
+      flex: 1;
+    }
+
+    .ticker-track {
+      display: flex;
+      gap: 48px;
+      white-space: nowrap;
+      width: max-content;
+      animation: scroll-ticker 32s linear infinite;
+      padding-left: 100%;
+    }
+
+    .ticker-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll-ticker {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    .ticker-track a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      opacity: 0.95;
+    }
+
+    .ticker-track a:hover {
+      text-decoration: underline;
+    }
+
+    /* ================= CATEGORY CHIP RAIL ================= */
+    .chip-rail-wrap {
+      position: sticky;
+      top: calc(var(--header-h) + 0px);
+      z-index: 800;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+      padding: 12px 0;
+    }
+
+    .chip-rail {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 0 4px;
+    }
+
+    .chip-rail::-webkit-scrollbar {
+      display: none;
+    }
+
+    .chip {
+      flex-shrink: 0;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink-soft);
+      background: var(--surface);
+      border: 1px solid var(--line);
+      transition: all .2s ease;
+    }
+
+    .chip:hover {
+      border-color: var(--brand);
+      color: var(--brand);
+    }
+
+    .chip.active {
+      background: var(--brand);
+      color: #fff;
+      border-color: var(--brand);
+    }
+
+    /* ================= LAYOUT ================= */
+    main {
+      padding-top: 26px;
+      padding-bottom: 60px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      gap: 12px;
+    }
+
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ember);
+      font-weight: 600;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .section-head h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .see-all {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--brand);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .see-all i {
+      font-size: 0.75rem;
+      transition: transform .2s ease;
+    }
+
+    .see-all:hover i {
+      transform: translateX(3px);
+    }
+
+    /* ---------- HERO (dual headline) ---------- */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 18px;
+      margin-bottom: 36px;
+    }
+
+    .hero {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      background: linear-gradient(160deg, var(--brand), #06231A);
+      height: 460px;
+    }
+
+    .hero.hero-secondary {
+      height: 460px;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(180deg, rgba(10, 15, 14, 0.15) 20%, rgba(6, 9, 8, 0.92) 100%), url("Assets/YA.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+
+    .hero-secondary .hero-bg {
+      background-image: linear-gradient(180deg, rgba(10, 15, 14, 0.1) 25%, rgba(6, 9, 8, 0.9) 100%), url("Assets/99.jpg");
+    }
+
+    .hero-content {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 34px 34px 30px;
+      z-index: 2;
+    }
+
+    .hero-secondary .hero-content {
+      padding: 24px 24px 22px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--gold);
+      color: #241802;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+
+    .hero-badge.badge-alt {
+      background: #fff;
+      color: var(--brand);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      color: #fff;
+      font-weight: 700;
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      line-height: 1.15;
+      max-width: 760px;
+      letter-spacing: -0.01em;
+    }
+
+    .hero-secondary h1 {
+      font-size: clamp(1.2rem, 2.6vw, 1.6rem);
+      max-width: none;
+    }
+
+    .hero-meta {
+      display: flex;
+      gap: 18px;
+      margin-top: 16px;
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.85rem;
+      font-family: var(--font-mono);
+      flex-wrap: wrap;
+    }
+
+    .hero-secondary .hero-meta {
+      margin-top: 12px;
+      font-size: 0.78rem;
+    }
+
+    .hero-meta span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* ---------- FEED GRID ---------- */
+    .feed-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-bottom: 44px;
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      transition: transform .3s ease, box-shadow .3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .card-img {
+      aspect-ratio: 16/10;
+      overflow: hidden;
+      background: var(--brand-light);
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .5s ease;
+    }
+
+    .card:hover .card-img img {
+      transform: scale(1.06);
+    }
+
+    .card-body {
+      padding: 18px 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+
+    .card-cat {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--brand);
+      font-weight: 600;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 1.08rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    .card-foot {
+      margin-top: auto;
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.78rem;
+      color: var(--ink-soft);
+      font-family: var(--font-mono);
+    }
+
+    /* ---------- TRENDING NUMBERED LIST (sidebar content, merged inline) ---------- */
+    .trending-panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 44px;
+    }
+
+    .trend-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .trend-row:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .trend-row:first-child {
+      padding-top: 0;
+    }
+
+    .trend-num {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--line);
+      width: 36px;
+      flex-shrink: 0;
+    }
+
+    [data-theme="dark"] .trend-num {
+      color: #2A2E37;
+    }
+
+    .trend-thumb {
+      width: 64px;
+      height: 64px;
+      border-radius: 10px;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: var(--brand-light);
+    }
+
+    .trend-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .trend-info h4 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    .trend-info .trend-date {
+      font-size: 0.75rem;
+      color: var(--ink-soft);
+      margin-top: 4px;
+      font-family: var(--font-mono);
+    }
+
+    /* ---------- QUOTE RAIL ---------- */
+    .rail-section {
+      margin-bottom: 44px;
+    }
+
+    .hscroll {
+      display: flex;
+      gap: 16px;
+      overflow-x: auto;
+      padding: 4px 4px 14px;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      cursor: grab;
+    }
+
+    .hscroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hscroll.dragging {
+      cursor: grabbing;
+    }
+
+    .quote-card {
+      min-width: 300px;
+      max-width: 320px;
+      flex-shrink: 0;
+      scroll-snap-align: start;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .quote-card:first-child {
+      background: var(--brand);
+      color: #fff;
+      border-color: var(--brand);
+    }
+
+    .quote-card i.quote-icon {
+      color: var(--gold);
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .quote-card p.q-text {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-style: italic;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .q-author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .q-author img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .q-author .name {
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    /* ---------- ART / CARTOON RAIL ---------- */
+    .art-card {
+      min-width: 280px;
+      max-width: 280px;
+      flex-shrink: 0;
+      scroll-snap-align: start;
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .art-img {
+      aspect-ratio: 4/3;
+      overflow: hidden;
+    }
+
+    .art-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter {
+      background: var(--brand);
+      border-radius: var(--radius);
+      padding: 48px 34px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .newsletter::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 20% 20%, rgba(214, 163, 57, 0.25), transparent 55%);
+    }
+
+    .newsletter h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .newsletter h2 span {
+      color: var(--gold);
+    }
+
+    .newsletter p {
+      opacity: 0.85;
+      margin-bottom: 26px;
+      position: relative;
+    }
+
+    .newsletter-form {
+      display: flex;
+      max-width: 440px;
+      margin: 0 auto;
+      gap: 8px;
+      position: relative;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      padding: 13px 16px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      font-family: var(--font-body);
+    }
+
+    .newsletter-form button {
+      background: var(--gold);
+      color: #241802;
+      font-weight: 700;
+      padding: 0 22px;
+      border-radius: 10px;
+      transition: transform .15s ease, background .2s ease;
+    }
+
+    .newsletter-form button:hover {
+      background: #c99529;
+    }
+
+    .newsletter-form button:active {
+      transform: scale(0.96);
+    }
+
+    /* ================= FOOTER ================= */
+    footer.footer {
+      background: var(--ink);
+      color: #EEF3FC;
+      padding: 52px 0 26px;
+      margin-top: 20px;
+    }
+
+    [data-theme="dark"] footer.footer {
+      background: #07090C;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1.2fr 1.2fr;
+      gap: 36px;
+    }
+
+    .footer-brand .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .footer-brand .logo .mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+      background: var(--brand);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-weight: 700;
+    }
+
+    .footer-brand .logo span {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .footer-brand .logo span em {
+      font-style: normal;
+      color: var(--gold);
+      font-weight: 400;
+    }
+
+    .footer-brand .tagline {
+      opacity: 0.7;
+      max-width: 260px;
+      font-size: 0.9rem;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+
+    .footer-social a {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.06);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .2s ease;
+    }
+
+    .footer-social a:hover {
+      background: var(--brand);
+      transform: translateY(-3px);
+    }
+
+    .footer-col h4 {
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+      font-weight: 700;
+    }
+
+    .footer-col ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-col ul a {
+      font-size: 0.88rem;
+      opacity: 0.75;
+      transition: .2s ease;
+    }
+
+    .footer-col ul a:hover {
+      opacity: 1;
+      color: var(--gold);
+    }
+
+    .footer-bottom {
+      max-width: 1180px;
+      margin: 34px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 0.82rem;
+      opacity: 0.65;
+    }
+
+    /* ================= MOBILE BOTTOM TAB BAR (real app feature) ================= */
+    .tabbar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: var(--tabbar-h);
+      background: var(--surface);
+      border-top: 1px solid var(--line);
+      z-index: 1000;
+      padding-bottom: env(safe-area-inset-bottom);
+      box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .tabbar ul {
+      display: flex;
+      height: 100%;
+    }
+
+    .tabbar li {
+      flex: 1;
+    }
+
+    .tabbar a {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      color: var(--ink-soft);
+      font-size: 0.68rem;
+      font-weight: 600;
+      transition: color .2s ease;
+    }
+
+    .tabbar a i {
+      font-size: 1.1rem;
+    }
+
+    .tabbar a.active {
+      color: var(--brand);
+    }
+
+    .tabbar a .fab-circle {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--brand);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -22px;
+      box-shadow: 0 6px 16px rgba(15, 61, 46, 0.4);
+    }
+
+    /* ================= MOBILE DRAWER NAV ================= */
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: min(320px, 84%);
+      background: var(--surface);
+      z-index: 1200;
+      transform: translateX(100%);
+      transition: transform .35s cubic-bezier(.4, 0, .2, 1);
+      padding: 24px;
+      overflow-y: auto;
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .drawer.open {
+      transform: translateX(0);
+    }
+
+    .drawer-scrim {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1100;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .3s ease;
+    }
+
+    .drawer-scrim.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .drawer-close {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+
+    .drawer ul li a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 4px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .drawer .drawer-sub {
+      padding-left: 14px;
+    }
+
+    .drawer .drawer-sub li a {
+      font-weight: 500;
+      font-size: 0.92rem;
+      color: var(--ink-soft);
+      border-bottom: none;
+      padding: 10px 4px;
+    }
+
+    .drawer-social {
+      display: flex;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .drawer-social a {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--brand-light);
+      color: var(--brand);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ================= SEARCH OVERLAY ================= */
+    .search-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--paper);
+      z-index: 1300;
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-12px);
+      transition: all .25s ease;
+    }
+
+    .search-overlay.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .search-overlay .search-top {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .search-overlay input {
+      flex: 1;
+      padding: 16px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      font-size: 1.05rem;
+      outline: none;
+      color: var(--ink);
+    }
+
+    .search-overlay input:focus {
+      border-color: var(--brand);
+    }
+
+    .search-hint {
+      margin-top: 20px;
+      color: var(--ink-soft);
+      font-size: 0.9rem;
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media (max-width:992px) {
+      nav.desktop-nav {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: flex;
+      }
+
+      .feed-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero,
+      .hero.hero-secondary {
+        height: 340px;
+      }
+
+      .footer-container {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-brand {
+        grid-column: 1/-1;
+      }
+
+      body {
+        padding-bottom: calc(var(--tabbar-h) + 12px);
+      }
+
+      .tabbar {
+        display: block;
+      }
+
+      .chip-rail-wrap {
+        top: calc(var(--header-h) + 0px);
+      }
+    }
+
+    @media (max-width:550px) {
+      .footer-container {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero {
+        aspect-ratio: 4/5;
+        max-height: none;
+      }
+    }
+
+    /* ---------- PAGE HERO BANNER ---------- */
+    .page-hero {
+      padding: 34px 0 24px;
+    }
+
+    .page-hero .eyebrow {
+      margin-bottom: 8px;
+    }
+
+    .page-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .page-hero p {
+      color: var(--ink-soft);
+      max-width: 640px;
+      margin-top: 10px;
+      font-size: 1.02rem;
+    }
+
+    /* ---------- LISTING LAYOUT ---------- */
+    .listing-layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+      padding-bottom: 60px;
+    }
+
+    .listing-feed {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+
+    /* ---------- BREADCRUMB ---------- */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: var(--ink-soft);
+      margin: 24px 0 18px;
+    }
+
+    .breadcrumb a {
+      color: var(--brand);
+      font-weight: 600;
+    }
+
+    .breadcrumb i {
+      font-size: 0.6rem;
+      opacity: 0.6;
+    }
+
+    /* ---------- ARTICLE HEADER ---------- */
+    .article-header {
+      margin-bottom: 24px;
+    }
+
+    .article-header .category-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--brand-light);
+      color: var(--brand);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 999px;
+    }
+
+    .article-header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 4vw, 2.3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin: 14px 0 16px;
+    }
+
+    .article-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      color: var(--ink-soft);
+      font-size: 0.88rem;
+      font-family: var(--font-mono);
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .article-meta span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .article-meta i {
+      color: var(--ember);
+    }
+
+    .article-meta .author {
+      color: var(--ink);
+      font-weight: 700;
+      font-family: var(--font-body);
+    }
+
+    .article-featured-img {
+      margin: 24px 0 30px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .article-featured-img img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+
+    .article-featured-img .img-caption {
+      padding: 10px 16px;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      background: var(--surface);
+      border-top: 1px solid var(--line);
+      font-family: var(--font-mono);
+    }
+
+    .article-body {
+      font-size: 1.08rem;
+      line-height: 1.85;
+      color: var(--ink);
+      max-width: 74ch;
+    }
+
+    .article-body p {
+      margin-bottom: 1.4rem;
+    }
+
+    .article-body p:first-of-type {
+      font-size: 1.15rem;
+    }
+
+    .article-body h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 2rem 0 1rem;
+    }
+
+    .article-body blockquote {
+      border-left: 4px solid var(--ember);
+      padding: 0.9rem 1.6rem;
+      margin: 1.8rem 0;
+      background: var(--brand-light);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-family: var(--font-display);
+      font-style: italic;
+      color: var(--ink);
+    }
+
+    .article-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 2rem;
+      padding-top: 1.6rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .article-tags .tag {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      font-weight: 600;
+      transition: all .2s ease;
+    }
+
+    .article-tags .tag:hover {
+      background: var(--brand);
+      color: #fff;
+      border-color: var(--brand);
+    }
+
+    .article-share {
+      display: flex;
+      gap: 10px;
+      margin-top: 1.6rem;
+    }
+
+    .article-share a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      color: var(--ink-soft);
+      transition: all .2s ease;
+    }
+
+    .article-share a:hover {
+      background: var(--brand);
+      color: #fff;
+      border-color: var(--brand);
+    }
+
+    /* ---------- ARTICLE SIDEBAR PANEL ---------- */
+    .side-panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+
+    .side-panel h3 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      margin-bottom: 16px;
+    }
+
+    .side-more {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--brand);
+      margin-top: 14px;
+    }
+
+    @media (max-width:992px) {
+
+      .listing-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ================= APP BAR ================= -->
+  <header class="appbar" id="appbar">
+    <div class="container appbar-inner">
+      <a href="index.html" class="brand-mark">
+        <img src="Assets/GETORI.png" alt="img">
+      </a>
+
+      <nav class="desktop-nav">
+        <ul id="nav-menu-desktop">
+          <li><a href="index.html" class="top-link" onclick="setActive(this)"><i class="fas fa-house"></i> Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="top-link" onclick="toggleDropdown(event,'about-dropdown')">Articles <i
+                class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu" id="about-dropdown">
+              <li><a href="All articles.html">All Articles</a></li>
+              <li><a href="360.html">360 Echoes</a></li>
+              <li><a href="ano.html">Junior Insight</a></li>
+            </ul>
+          </li>
+          <li><a href="Treanding.html" class="top-link">Trending Issues</a></li>
+        </ul>
+      </nav>
+
+      <div class="appbar-actions">
+        <button class="icon-btn" onclick="toggleSearch()" aria-label="Search"><i class="fas fa-search"></i></button>
+        <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" id="theme-toggle"><i
+            class="fas fa-moon"></i></button>
+        <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-circle-user"></i></a>
+        <button class="icon-btn mobile-menu" onclick="toggleDrawer()" aria-label="Menu"><i
+            class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= LIVE TICKER ================= -->
+  <!--div class="ticker">
+  <div class="tag"><span class="dot"></span> Trending</div>
+  <div class="ticker-track-wrap">
+    <div class="ticker-track">
+      <a href="POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVES.html">Politics, the edged centre of Ghanaian lives</a>
+      <a href="All you need to Know About Abutrica's Extradition.html">All you need to know about Abutrica's extradition</a>
+      <a href="Dennis Miracles Aboagye Makes His Mark for National Communications Director Position in NPP.html">Dennis Miracles Aboagye makes his mark in NPP race</a>
+      <a href="About Nana Yaa Akyaa II, the new Asantehemaa.html">A new era: Nana Yaa Akyaa II, the new Asantehemaa</a>
+      <a href="#">Ghana embarks on a two-day cleanup exercise</a>
+      <a href="POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVES.html">Politics, the edged centre of Ghanaian lives</a>
+      <a href="All you need to Know About Abutrica's Extradition.html">All you need to know about Abutrica's extradition</a>
+      <a href="Dennis Miracles Aboagye Makes His Mark for National Communications Director Position in NPP.html">Dennis Miracles Aboagye makes his mark in NPP race</a>
+    </div>
+  </div>
+</div-->
+
+  <!-- ================= CATEGORY CHIPS ================= -->
+  <div class="chip-rail-wrap">
+    <div class="container">
+      <div class="chip-rail">
+        <a class="chip" href="index.html">Home</a>
+        <a class="chip" href="All articles.html">All Articles</a>
+        <a class="chip" href="360.html">360 Echoes</a>
+        <a class="chip" href="ano.html">Junior Insight</a>
+        <a class="chip" href="Treanding.html">Trending Issues</a>
+         <a class="chip active" href="stories.html">Stories</a>
+        <a class="chip" href="arts.html">Art Speaks</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <div class="breadcrumb reveal">
+      <a href="index.html"><i class="fas fa-house"></i> Home</a>
+      <i class="fas fa-chevron-right"></i>
+      <a href="stories.html">Stories</a>
+      <i class="fas fa-chevron-right"></i>
+      <span></span>
+    </div>
+
+    <div class="listing-layout">
+      <article>
+        <div class="article-header reveal">
+          <span class="category-badge">Stories</span>
+          <h1>All is Well: The Mystery Girl</h1>
+          <div class="article-meta">
+            <span class="author"><i class="fas fa-user-pen"></i>Jennifer Agyei</span>
+            <span><i class="far fa-calendar-alt"></i> July 20, 2026</span>
+            <span><i class="far fa-clock"></i> 18 min read</span>
+            <span><i class="fas fa-tag"></i>Story</span>
+          </div>
+        </div>
+
+        <!--div class="article-featured-img reveal">
+          <img src="Assets/Mir.jpg" alt="img">
+          <div class="img-caption"><i class="fas fa-camera"></i>Web</div>
+        </div-->
+
+        <div class="article-body reveal">
+          <p><strong>Once there was a small town that the neighbouring towns thought the people residing there would not amount to nothing. The inhabitants were 
+            rejected and no one saw the need to improve upon their living conditions. People were ailing and dying and no one was able to take seed.
+            </strong> They thought all hope was lost. Then at dawn, they heard the cry of a newborn baby. Everybody rushed to the house where the baby was born with much joy and anticipation. 
+“It has been years since we heard a cry of a newborn baby”. An elderly woman said.
+To them, this newborn baby was a mystery.
+The newborn baby was a beautiful girl. She had in her hand a piece of paper which she had gripped tightly. The inhabitants saw the inscription boldly written on it and everyone wondered what it was or meant.
+The father of the newborn baby brought it out and read it aloud to the hearing of all and sundry saying “All is well”.
+Everyone shed tears of joy.
+“Finally we have something to hold on to”. Said the baby’s grandmother. 
+
+
+            <br><br>
+           One by one they went into their homes rejoicing.
+The baby girl grew up so fast. She was a source of motivation and encouragement to the inhabitants.  She soon grew up to be a young girl with a lot of aspirations and expectations for her town. She yearned to be educated and thus informed her parents but they were adamant since no one in the town had ever been to school.
+She told them in order to take a bold step in life, you need to make sacrifices. She bade them bye and set off to a faraway town where she would work and enroll in an educational institution.
+
+          </p>
+          <p>Years passed by and the family as well as the inhabitants had not heard from her. Everyone thought either she is dead or had forgotten about them. Her parents went to enquire about their beloved daughter but to no avail.
+The father went to his daughter's room and brought out the piece of paper that she held in her hands when she was born.
+“All is well”. He read to himself.
+“Is this the end? If it is then I do not accept”. He said.As he made his way into the room, he heard someone call him father. 
+He turned to see and surprisingly his daughter was standing beside her car and smiling.
+</p>
+
+<p>He called his wife to come and see their daughter. She danced all the way to where her child was. They hugged each other  in tears. Soon news reached the inhabitants that the mystery girl has returned. They rushed to the young girl father’s compound to see things for themselves.
+They were mesmerized when they saw her since they could not believe the transformation. She narrated to them all that had happened. She told them she met a grown and rich woman who took her in and saw her through school.
+</p>
+<p>She made it known to them that she had not forgotten about them but was planning on what to do for the town. She brought out a plan indicating her intentions. The plan showed schools, social amenities, recreational centres, parks, farmlands among others.
+She also handed over envelopes with sum of money to them and instructed them to use it wisely.
+She told them in months and years to come, their town will be amongst the wealthiest towns and people from all walks of life will come and enquire about their success. They made merry throughout the night.
+The birth of the baby girl opened avenues for everyone to take seed. Soon, there were a lot of newborn babies.
+There was decline in death rate, growth escalated and the town was filled with much joy and happiness.
+Indeed, this was a new beginning for them.
+</p>
+<p1>&copy;2026 | getinfoonline</p1>
+
+          <!--blockquote>
+                        "Yaa Naa Abubakari Mahamma ll will be remembered as the monarch who
+                        helped heal a kingdom scarred by years of conflict. His ascension restored
+                        peace to the people of Dagbon, while his leadership strengthened the
+                        authority and dignity of the Yendi skin."
+                        <cite>— </cite>
+                    </blockquote-->
+          <!--div class="article-tags">
+            <span class="tag">Abutrica</span>
+            <span class="tag">Trending</span>
+            <span class="tag">Ghana</span>
+            <span class="tag">Society</span>
+          </div-->
+
+          <div class="article-share">
+            <a href="#" aria-label="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Copy link"><i class="fas fa-link"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <aside>
+        <div class="side-panel reveal">
+          <h3>More Stories</h3>
+          <!--div class="recent-post" style="display:flex;gap:14px;margin-bottom:16px;">
+          <div class="trend-thumb"><img src="Assets/arrested abu.jpg" alt="Abutrica extradition"></div>
+          <div class="trend-info"><h4><a href="All you need to Know About Abutrica's Extradition.html">All You Need To Know About Abutrica's Extradition</a></h4><div class="trend-date">July 11, 2026</div></div>
+        </div>
+        <div class="recent-post" style="display:flex;gap:14px;">
+          <div class="trend-thumb"><img src="Assets/cleanup.jpg" alt="Ghana cleanup exercise"></div>
+          <div class="trend-info"><h4><a href="#">Ghana Embarks On A Two-Day Cleanup Exercise</a></h4><div class="trend-date">July 11, 2026</div></div>
+        </div-->
+          <a class="side-more" href="stories.html">More articles <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </aside>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo"><span class="mark">G</span><span>Getinfo<em>Online</em></span></div>
+        <p class="tagline">Real-time news, deep analysis, and stories that matter — from every corner of the world.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fas fa-rss"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Treanding.html">Trending</a></li>
+          <li><a href="All articles.html">Articles</a></li>
+          <li><a href="#">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Articles</h4>
+        <ul>
+          <li><a href="360.html">360 Echoes</a></li>
+          <li><a href="ano.html">Junior Insight</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div><i class="far fa-copyright"></i> 2026 Getinfo360 — all rights reserved</div>
+      <div>Developed by: Rankofsoft &amp; TopCut</div>
+    </div>
+  </footer>
+
+  <!-- ================= MOBILE BOTTOM TAB BAR ================= -->
+  <nav class="tabbar" id="tabbar">
+    <ul>
+      <li><a href="Treanding.html" onclick="setTab(this)"><i class="fas fa-fire"></i> Trending</a></li>
+      <li><a href="Stories.html" onclick="setTab(this)"><i class="fas fa-book"></i> Stories</a></li>
+
+      <li><a href="index.html"><span class="fab-circle"><i class="fas fa-house"></i></span></a></li>
+      <li><a href="360.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i> Articles</a></li>
+      <li><a href="Signin.html" onclick="setTab(this)"><i class="fa-solid fa-circle-user"></i> Profile</a></li>
+    </ul>
+  </nav>
+
+  <!-- ================= MOBILE DRAWER ================= -->
+  <div class="drawer-scrim" id="drawer-scrim" onclick="toggleDrawer()"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-close"><button class="icon-btn" onclick="toggleDrawer()"><i class="fas fa-xmark"></i></button>
+    </div>
+    <ul>
+      <li><a href="index.html"><span><i class="fas fa-house"
+              style="margin-right:10px;color:var(--brand)"></i>Home</span></a></li>
+      <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper"
+              style="margin-right:10px;color:var(--brand)"></i>Articles</span><i class="fas fa-chevron-down"></i></a>
+        <ul class="drawer-sub" id="drawer-sub" style="display:none;">
+          <li><a href="All articles.html">All Articles</a></li>
+          <li><a href="360.html">360 Echoes</a></li>
+          <li><a href="ano.html">Junior Insight</a></li>
+        </ul>
+      </li>
+      <li><a href="Treanding.html"><span><i class="fas fa-fire"
+              style="margin-right:10px;color:var(--brand)"></i>Trending Issues</span></a></li>
+      <li><a href="Signin.html"><span><i class="fa-solid fa-circle-user"
+              style="margin-right:10px;color:var(--brand)"></i>Sign in</span></a></li>
+    </ul>
+    <div class="drawer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </aside>
+
+  <!-- ================= SEARCH OVERLAY ================= -->
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-top">
+      <button class="icon-btn" onclick="toggleSearch()"><i class="fas fa-arrow-left"></i></button>
+      <input type="text" placeholder="Search articles, topics, people…" id="search-input">
+    </div>
+    <p class="search-hint">Try "Abutrica", "Asantehemaa", or "Kumasi cleanup"</p>
+  </div>
+
+
+  <script>
+    /* ---------- theme toggle ---------- */
+    const themeToggle = document.getElementById('theme-toggle');
+    function applyTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
+      themeToggle.innerHTML = t === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+      try { localStorage.setItem('getinfo-theme', t); } catch (e) { }
+    }
+    (function initTheme() {
+      let saved;
+      try { saved = localStorage.getItem('getinfo-theme'); } catch (e) { }
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+    })();
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    }
+
+    /* ---------- desktop dropdown ---------- */
+    function toggleDropdown(event, id) {
+      event.preventDefault(); event.stopPropagation();
+      const dd = document.getElementById(id);
+      document.querySelectorAll('.dropdown-menu').forEach(m => { if (m.id !== id) m.classList.remove('show'); });
+      dd.classList.toggle('show');
+    }
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.dropdown')) {
+        document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('show'));
+      }
+    });
+    function setActive(el) {
+      document.querySelectorAll('.top-link').forEach(l => l.classList.remove('active'));
+      el.classList.add('active');
+    }
+
+    /* ---------- mobile drawer ---------- */
+    function toggleDrawer() {
+      document.getElementById('drawer').classList.toggle('open');
+      document.getElementById('drawer-scrim').classList.toggle('show');
+      document.body.classList.toggle('menu-open');
+    }
+    function toggleDrawerSub(e) {
+      e.preventDefault();
+      const sub = document.getElementById('drawer-sub');
+      sub.style.display = sub.style.display === 'none' ? 'block' : 'none';
+    }
+
+    /* ---------- bottom tab active state ---------- */
+    function setTab(el) {
+      document.querySelectorAll('.tabbar a').forEach(a => a.classList.remove('active'));
+      el.classList.add('active');
+    }
+
+    /* ---------- search overlay ---------- */
+    function toggleSearch() {
+      const ov = document.getElementById('search-overlay');
+      ov.classList.toggle('show');
+      if (ov.classList.contains('show')) setTimeout(() => document.getElementById('search-input').focus(), 200);
+    }
+
+    /* ---------- sticky header shadow ---------- */
+    const appbar = document.getElementById('appbar');
+    window.addEventListener('scroll', () => {
+      appbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    /* ---------- drag-to-scroll horizontal rails ---------- */
+    document.querySelectorAll('.hscroll').forEach(rail => {
+      let isDown = false, startX, scrollLeft;
+      rail.addEventListener('mousedown', e => {
+        isDown = true; rail.classList.add('dragging');
+        startX = e.pageX - rail.offsetLeft; scrollLeft = rail.scrollLeft;
+      });
+      ['mouseleave', 'mouseup'].forEach(evt => rail.addEventListener(evt, () => { isDown = false; rail.classList.remove('dragging'); }));
+      rail.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - rail.offsetLeft;
+        rail.scrollLeft = scrollLeft - (x - startX) * 1.3;
+      });
+    });
+
+    /* ---------- scroll reveal ---------- */
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) { entry.target.classList.add('in'); io.unobserve(entry.target); }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    /* ---------- set active nav/tab on load based on URL ---------- */
+    document.addEventListener('DOMContentLoaded', () => {
+      const page = window.location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('.top-link, .tabbar a').forEach(l => {
+        if (l.getAttribute('href') === page) l.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
