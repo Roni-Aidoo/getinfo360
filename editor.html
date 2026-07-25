@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Article Data Editor | Getinfo Online</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --ink:#0E1116;
+  --ink-soft:#5B6472;
+  --paper:#F1F2EC;
+  --surface:#FFFFFF;
+  --brand:#1f0c70;
+  --brand-light:#E7F0EA;
+  --gold:#D6A339;
+  --ember:#f88b0f;
+  --line:#E1E1D6;
+  --shadow: 0 10px 30px -12px rgba(14,17,22,0.18);
+  --shadow-lg: 0 24px 60px -20px rgba(14,17,22,0.28);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --font-display:'Fraunces', serif;
+  --font-body:'Public Sans', sans-serif;
+  --font-mono:'IBM Plex Mono', monospace;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:var(--font-body);
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;}
+button{font-family:inherit;border:none;cursor:pointer;}
+input, textarea, select{ font-family:inherit; }
+
+.topbar{
+  background:var(--surface); border-bottom:1px solid var(--line);
+  padding:16px 0; position:sticky; top:0; z-index:50;
+}
+.topbar-inner{
+  width:94%; max-width:900px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+}
+.brand{ display:flex; align-items:center; gap:10px; }
+.brand .mark{
+  width:34px; height:34px; border-radius:9px; background:var(--brand); color:#fff;
+  display:flex; align-items:center; justify-content:center; font-family:var(--font-display); font-weight:700;
+}
+.brand h1{ font-family:var(--font-display); font-size:1.15rem; font-weight:700; }
+.brand p{ font-size:0.78rem; color:var(--ink-soft); font-family:var(--font-mono); }
+
+.toolbar-actions{ display:flex; gap:8px; flex-wrap:wrap; }
+.btn{
+  display:inline-flex; align-items:center; gap:7px;
+  padding:9px 16px; border-radius:999px; font-size:0.84rem; font-weight:600;
+  transition:all .15s ease;
+}
+.btn-ghost{ background:var(--brand-light); color:var(--brand); }
+.btn-ghost:hover{ background:#dce8e1; }
+.btn-primary{ background:var(--brand); color:#fff; }
+.btn-primary:hover{ background:#160a52; }
+.btn-danger{ background:#fdeceb; color:#b03a2e; }
+.btn-danger:hover{ background:#fbdad7; }
+.btn-lg{ padding:14px 26px; font-size:0.95rem; }
+.btn:disabled{ opacity:0.6; cursor:not-allowed; }
+
+.layout{
+  width:94%; max-width:900px; margin:26px auto 90px;
+}
+
+.panel{
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  box-shadow:var(--shadow); padding:24px; margin-bottom:20px;
+}
+.panel h2{
+  font-family:var(--font-display); font-size:1.15rem; margin-bottom:4px;
+}
+.panel .panel-sub{ font-size:0.82rem; color:var(--ink-soft); margin-bottom:18px; }
+
+.field{ margin-bottom:16px; }
+.field label{
+  display:block; font-size:0.78rem; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.04em; color:var(--ink-soft); margin-bottom:6px; font-family:var(--font-mono);
+}
+.field input[type="text"], .field input[type="date"], .field input[type="password"], .field textarea, .field select{
+  width:100%; padding:11px 13px; border-radius:var(--radius-sm); border:1px solid var(--line);
+  background:var(--paper); font-size:0.94rem; color:var(--ink); outline:none;
+  transition:border-color .15s ease, background .15s ease;
+}
+.field input[type="text"]:focus, .field input[type="date"]:focus, .field input[type="password"]:focus, .field textarea:focus, .field select:focus{
+  border-color:var(--brand); background:var(--surface);
+}
+.field textarea{ resize:vertical; min-height:64px; line-height:1.5; }
+.field-row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.field-hint{ font-size:0.76rem; color:var(--ink-soft); margin-top:5px; }
+
+.slug-row{ display:flex; gap:8px; }
+.slug-row input{ flex:1; }
+.mini-btn{
+  flex-shrink:0; padding:0 14px; border-radius:var(--radius-sm);
+  background:var(--brand-light); color:var(--brand); font-size:0.78rem; font-weight:700;
+  white-space:nowrap;
+}
+.mini-btn:hover{ background:#dce8e1; }
+
+.tag-chips{ display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+.tag-chip{
+  background:var(--brand-light); color:var(--brand); font-size:0.76rem; font-weight:600;
+  padding:4px 12px; border-radius:999px; font-family:var(--font-mono);
+}
+
+/* ---------- DATE PICKER ROW ---------- */
+.date-row{ display:flex; gap:8px; }
+.date-row input[type="date"]{ flex:1; }
+
+/* ---------- IMAGE PICKER ---------- */
+.image-picker{
+  border:2px dashed var(--line); border-radius:var(--radius-sm); padding:16px;
+  display:flex; align-items:center; gap:14px; background:var(--paper);
+  transition:border-color .15s ease;
+}
+.image-picker.has-image{ border-style:solid; }
+.image-preview{
+  width:76px; height:76px; border-radius:8px; overflow:hidden; flex-shrink:0;
+  background:var(--brand-light); display:flex; align-items:center; justify-content:center;
+  color:var(--ink-soft); font-size:1.3rem;
+}
+.image-preview img{ width:100%; height:100%; object-fit:cover; }
+.image-picker-info{ flex:1; min-width:0; }
+.image-picker-info .fname{ font-size:0.86rem; font-weight:600; word-break:break-all; }
+.image-picker-info .fhint{ font-size:0.76rem; color:var(--ink-soft); margin-top:2px; }
+.image-picker-btns{ display:flex; flex-direction:column; gap:6px; }
+.file-input-hidden{ display:none; }
+.image-path-field{ margin-top:10px; }
+
+/* ---------- BODY BLOCKS ---------- */
+.blocks-wrap{ display:flex; flex-direction:column; gap:12px; margin-bottom:14px; }
+.block-row{
+  border:1px solid var(--line); border-radius:var(--radius-sm); padding:12px; background:var(--paper);
+}
+.block-head{ display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+.block-type{
+  font-family:var(--font-mono); font-size:0.72rem; font-weight:700; text-transform:uppercase;
+  padding:4px 10px; border-radius:999px; letter-spacing:0.04em;
+}
+.block-type.paragraph{ background:#eef0ff; color:#3730a3; }
+.block-type.heading{ background:#fef3e2; color:#b45309; }
+.block-type.quote{ background:#fdeceb; color:#b03a2e; }
+.block-controls{ margin-left:auto; display:flex; gap:4px; }
+.icon-mini{
+  width:28px; height:28px; border-radius:8px; display:flex; align-items:center; justify-content:center;
+  background:var(--surface); border:1px solid var(--line); color:var(--ink-soft); font-size:0.78rem;
+  transition:all .15s ease;
+}
+.icon-mini:hover{ background:var(--brand-light); color:var(--brand); }
+.icon-mini.danger:hover{ background:#fdeceb; color:#b03a2e; }
+.block-row textarea{ min-height:52px; }
+.add-block-row{ display:flex; gap:8px; flex-wrap:wrap; }
+.add-block-row .btn{ font-size:0.8rem; padding:8px 14px; }
+
+/* ---------- GENERATE CTA ---------- */
+.generate-cta{
+  display:flex; justify-content:center; margin-top:8px;
+}
+
+/* ---------- MODAL ---------- */
+.modal-scrim{
+  position:fixed; inset:0; background:rgba(14,17,22,0.55); z-index:2000;
+  display:flex; align-items:center; justify-content:center; padding:24px;
+  opacity:0; visibility:hidden; transition:opacity .2s ease;
+}
+.modal-scrim.show{ opacity:1; visibility:visible; }
+.modal{
+  background:var(--surface); border-radius:var(--radius); box-shadow:var(--shadow-lg);
+  width:100%; max-width:760px; max-height:86vh; display:flex; flex-direction:column;
+  transform:translateY(14px); transition:transform .2s ease;
+}
+.modal-scrim.show .modal{ transform:translateY(0); }
+.modal-head{
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:20px 24px; border-bottom:1px solid var(--line);
+}
+.modal-head h2{ font-family:var(--font-display); font-size:1.2rem; }
+.modal-head .copy-status{
+  font-size:0.78rem; font-weight:700; color:var(--brand); opacity:0; transition:opacity .2s ease;
+  font-family:var(--font-mono);
+}
+.modal-head .copy-status.show{ opacity:1; }
+.modal-body{ padding:20px 24px; overflow-y:auto; }
+pre.code-out{
+  background:#0E1116; color:#E8EAED; border-radius:var(--radius-sm);
+  padding:18px; font-family:var(--font-mono); font-size:0.82rem; line-height:1.65;
+  overflow-x:auto; white-space:pre;
+}
+.modal-instructions{
+  margin-top:16px; background:var(--brand-light); border-radius:var(--radius-sm);
+  padding:14px 16px; font-size:0.84rem; color:var(--brand);
+}
+.modal-instructions strong{ display:block; margin-bottom:4px; }
+.modal-foot{
+  display:flex; justify-content:flex-end; gap:10px; padding:16px 24px; border-top:1px solid var(--line);
+}
+
+/* ---------- LOGIN GATE ---------- */
+#loginScreen{
+  min-height:100vh; display:flex; align-items:center; justify-content:center;
+  padding:24px; background:var(--paper);
+}
+.login-card{
+  width:100%; max-width:380px; background:var(--surface); border:1px solid var(--line);
+  border-radius:var(--radius); box-shadow:var(--shadow-lg); padding:32px 28px;
+}
+.login-card .brand{ justify-content:center; margin-bottom:6px; }
+.login-card .login-title{
+  font-family:var(--font-display); font-size:1.3rem; font-weight:700; text-align:center; margin-top:14px;
+}
+.login-card .login-sub{
+  font-size:0.85rem; color:var(--ink-soft); text-align:center; margin-top:6px; margin-bottom:22px;
+}
+.login-field{ margin-bottom:14px; }
+.login-field label{
+  display:block; font-size:0.78rem; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.04em; color:var(--ink-soft); margin-bottom:6px; font-family:var(--font-mono);
+}
+.login-field .input-wrap{ position:relative; }
+.login-field input{
+  width:100%; padding:11px 13px; border-radius:var(--radius-sm); border:1px solid var(--line);
+  background:var(--paper); font-size:0.94rem; color:var(--ink); outline:none;
+  transition:border-color .15s ease, background .15s ease;
+}
+.login-field input:focus{ border-color:var(--brand); background:var(--surface); }
+.login-field .toggle-pw{
+  position:absolute; right:10px; top:50%; transform:translateY(-50%);
+  color:var(--ink-soft); font-size:0.85rem; background:none; padding:4px;
+}
+.login-field .toggle-pw:hover{ color:var(--brand); }
+.login-error{
+  display:none; align-items:center; gap:8px; background:#fdeceb; color:#b03a2e;
+  border-radius:var(--radius-sm); padding:10px 12px; font-size:0.82rem; margin-bottom:14px;
+  font-weight:600;
+}
+.login-error.show{ display:flex; }
+.login-card .btn-primary{ width:100%; justify-content:center; padding:12px; }
+.login-shake{ animation: shake .38s ease; }
+@keyframes shake{
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+.hidden{ display:none !important; }
+
+@media (max-width:640px){
+  .field-row{ grid-template-columns:1fr; }
+  .image-picker{ flex-direction:column; align-items:flex-start; }
+}
+</style>
+</head>
+<body>
+
+<!-- ================= LOGIN GATE ================= -->
+<div id="loginScreen">
+  <div class="login-card" id="loginCard">
+    <div class="brand">
+      <div class="mark">G</div>
+    </div>
+    <h2 class="login-title">Article Data Editor</h2>
+    <p class="login-sub">Sign in to load and use the editor.</p>
+
+    <div class="login-error" id="loginError">
+      <i class="fas fa-triangle-exclamation"></i>
+      <span>Incorrect username or password.</span>
+    </div>
+
+    <form id="loginForm">
+      <div class="login-field">
+        <label for="login-username">Username</label>
+        <input type="text" id="login-username" autocomplete="username" required>
+      </div>
+      <div class="login-field">
+        <label for="login-password">Password</label>
+        <div class="input-wrap">
+          <input type="password" id="login-password" autocomplete="current-password" required>
+          <button type="button" class="toggle-pw" id="togglePwBtn" title="Show/hide password"><i class="fas fa-eye"></i></button>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" id="loginSubmitBtn"><i class="fas fa-lock-open"></i> Sign In</button>
+    </form>
+  </div>
+</div>
+
+<!-- ================= EDITOR APP (hidden until signed in) ================= -->
+<div id="appContent" class="hidden">
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="mark">G</div>
+        <div>
+          <h1>Article Data Editor</h1>
+          <p>Fill in the fields → generate a ready-to-paste ARTICLES entry</p>
+        </div>
+      </div>
+      <div class="toolbar-actions">
+        <button class="btn btn-ghost" id="loadExampleBtn"><i class="fas fa-flask"></i> Load Example</button>
+        <button class="btn btn-danger" id="clearAllBtn"><i class="fas fa-trash"></i> Clear All</button>
+        <button class="btn btn-ghost" id="logoutBtn"><i class="fas fa-right-from-bracket"></i> Sign Out</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="panel">
+      <h2>Article Details</h2>
+      <p class="panel-sub">Every field here maps directly to a property in the data object.</p>
+
+      <div class="field">
+        <label for="f-title">Title</label>
+        <input type="text" id="f-title" placeholder="Beyond The Headlines: The Untold Story Of The Late Yaa Naa Abubakari Mahamma II">
+      </div>
+
+      <div class="field">
+        <label for="f-slug">Slug</label>
+        <div class="slug-row">
+          <input type="text" id="f-slug" placeholder="beyond-the-headlines">
+          <button class="mini-btn" id="genSlugBtn" type="button">Generate from title</button>
+        </div>
+        <p class="field-hint">This is what goes in the URL: article.html?slug=your-slug</p>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-category">Category</label>
+          <input type="text" id="f-category" placeholder="Biographical Article">
+        </div>
+        <div class="field">
+          <label for="f-author">Author</label>
+          <input type="text" id="f-author" placeholder="Bismark Donkor Mensah">
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-date-picker">Date</label>
+          <div class="date-row">
+            <input type="date" id="f-date-picker">
+            <button class="mini-btn" id="useTodayBtn" type="button">Today</button>
+          </div>
+          <p class="field-hint" id="datePreview">Pick a date, or click "Today" to fill it automatically.</p>
+          <input type="hidden" id="f-date">
+        </div>
+        <div class="field">
+          <label for="f-readtime">Read Time</label>
+          <div class="slug-row">
+            <input type="text" id="f-readtime" placeholder="4 min read">
+            <button class="mini-btn" id="genReadTimeBtn" type="button">Estimate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Image</label>
+        <div class="image-picker" id="imagePicker">
+          <div class="image-preview" id="imagePreview"><i class="fas fa-image"></i></div>
+          <div class="image-picker-info">
+            <div class="fname" id="imageFileName">No image selected</div>
+            <div class="fhint">Pick a photo from your computer — the preview and path fill in automatically.</div>
+          </div>
+          <div class="image-picker-btns">
+            <button class="btn btn-ghost" id="pickImageBtn" type="button"><i class="fas fa-upload"></i> Select Photo</button>
+            <input type="file" accept="image/*" class="file-input-hidden" id="imageFileInput">
+          </div>
+        </div>
+        <div class="field image-path-field">
+          <label for="f-image">Image Path (used in the code)</label>
+          <input type="text" id="f-image" placeholder="Assets/YA.jpg">
+          <p class="field-hint">Auto-filled from the photo you pick — edit it if the file will live somewhere else in your Assets folder.</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-imagecaption">Image Caption</label>
+        <input type="text" id="f-imagecaption" placeholder="Web">
+      </div>
+
+      <div class="field">
+        <label for="f-excerpt">Excerpt</label>
+        <textarea id="f-excerpt" placeholder="A closer look at the life, reign, and legacy of the late Yaa Naa — beyond what the headlines told us."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="f-tags">Tags <span style="font-weight:500;text-transform:none;">(comma-separated)</span></label>
+        <input type="text" id="f-tags" placeholder="Feature, Culture, Northern Region">
+        <div class="tag-chips" id="tagChips"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Body</h2>
+      <p class="panel-sub">Each block becomes one array item. Headings render as &lt;h2&gt;, quotes as a blockquote — no need to type the ## or &gt; prefix yourself.</p>
+
+      <div class="blocks-wrap" id="blocksWrap"></div>
+
+      <div class="add-block-row">
+        <button class="btn btn-ghost" data-add="paragraph" type="button"><i class="fas fa-paragraph"></i> Add Paragraph</button>
+        <button class="btn btn-ghost" data-add="heading" type="button"><i class="fas fa-heading"></i> Add Heading</button>
+        <button class="btn btn-ghost" data-add="quote" type="button"><i class="fas fa-quote-left"></i> Add Quote</button>
+      </div>
+    </div>
+
+    <div class="generate-cta">
+      <button class="btn btn-primary btn-lg" id="generateBtn"><i class="fas fa-code"></i> Generate Code</button>
+    </div>
+
+  </div>
+
+  <!-- ================= MODAL ================= -->
+  <div class="modal-scrim" id="modalScrim">
+    <div class="modal">
+      <div class="modal-head">
+        <h2>Generated Code</h2>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="copy-status" id="copyStatus">Copied!</span>
+          <button class="btn btn-primary" id="copyBtn"><i class="fas fa-copy"></i> Copy</button>
+          <button class="icon-mini" id="closeModalBtn" title="Close"><i class="fas fa-xmark"></i></button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <pre class="code-out" id="codeOut"></pre>
+        <div class="modal-instructions">
+          <strong>How to use this</strong>
+          Paste the block above into the <code>ARTICLES</code> array inside <code>articles-data.js</code> — anywhere between the square brackets, as its own entry followed by a comma.
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn btn-ghost" id="backToEditBtn">Back to Editing</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Credentials: defines the global USERS array checked at login -->
+<script src="auth-data.js"></script>
+
+<script>
+/* ============================================================
+   LOGIN GATE
+   ============================================================ */
+const SESSION_KEY = 'ade-authed';
+
+const loginScreen = document.getElementById('loginScreen');
+const appContent = document.getElementById('appContent');
+const loginForm = document.getElementById('loginForm');
+const loginError = document.getElementById('loginError');
+const loginCard = document.getElementById('loginCard');
+const loginUsername = document.getElementById('login-username');
+const loginPassword = document.getElementById('login-password');
+const togglePwBtn = document.getElementById('togglePwBtn');
+const loginSubmitBtn = document.getElementById('loginSubmitBtn');
+
+function showApp(){
+  loginScreen.classList.add('hidden');
+  appContent.classList.remove('hidden');
+}
+function showLogin(){
+  appContent.classList.add('hidden');
+  loginScreen.classList.remove('hidden');
+}
+
+// Stay signed in for the rest of this browser tab/session.
+try{
+  if(sessionStorage.getItem(SESSION_KEY) === 'true'){
+    showApp();
+  }
+}catch(e){ /* sessionStorage unavailable — will just show login every time */ }
+
+togglePwBtn.addEventListener('click', ()=>{
+  const isPw = loginPassword.type === 'password';
+  loginPassword.type = isPw ? 'text' : 'password';
+  togglePwBtn.innerHTML = isPw ? '<i class="fas fa-eye-slash"></i>' : '<i class="fas fa-eye"></i>';
+});
+
+loginForm.addEventListener('submit', (e)=>{
+  e.preventDefault();
+
+  const enteredUser = loginUsername.value.trim();
+  const enteredPass = loginPassword.value;
+
+  if(typeof USERS === 'undefined' || !Array.isArray(USERS)){
+    loginError.querySelector('span').textContent = 'Login data failed to load (auth-data.js missing).';
+    loginError.classList.add('show');
+    return;
+  }
+
+  const match = USERS.some(u => u.username === enteredUser && u.password === enteredPass);
+
+  if(match){
+    loginError.classList.remove('show');
+    try{ sessionStorage.setItem(SESSION_KEY, 'true'); }catch(e){}
+    loginPassword.value = '';
+    showApp();
+  } else {
+    loginError.classList.add('show');
+    loginCard.classList.remove('login-shake');
+    void loginCard.offsetWidth; // restart animation
+    loginCard.classList.add('login-shake');
+    loginPassword.value = '';
+    loginPassword.focus();
+  }
+});
+
+document.getElementById('logoutBtn').addEventListener('click', ()=>{
+  try{ sessionStorage.removeItem(SESSION_KEY); }catch(e){}
+  loginUsername.value = '';
+  loginPassword.value = '';
+  showLogin();
+});
+
+/* ============================================================
+   EDITOR APP LOGIC (unchanged from the original tool)
+   ============================================================ */
+
+/* ---------------- body blocks ---------------- */
+let blockId = 0;
+function addBlock(type, text){
+  blockId++;
+  const wrap = document.getElementById('blocksWrap');
+  const row = document.createElement('div');
+  row.className = 'block-row';
+  row.dataset.id = blockId;
+  row.dataset.type = type;
+
+  const icons = { paragraph: 'fa-paragraph', heading: 'fa-heading', quote: 'fa-quote-left' };
+  const labels = { paragraph: 'Paragraph', heading: 'Heading', quote: 'Quote' };
+
+  row.innerHTML = `
+    <div class="block-head">
+      <span class="block-type ${type}"><i class="fas ${icons[type]}"></i> ${labels[type]}</span>
+      <div class="block-controls">
+        <button class="icon-mini" data-action="up" type="button" title="Move up"><i class="fas fa-arrow-up"></i></button>
+        <button class="icon-mini" data-action="down" type="button" title="Move down"><i class="fas fa-arrow-down"></i></button>
+        <button class="icon-mini danger" data-action="remove" type="button" title="Remove"><i class="fas fa-xmark"></i></button>
+      </div>
+    </div>
+    <textarea placeholder="${type === 'quote' ? 'Type the quote text (no need for quotation marks)…' : type === 'heading' ? 'Section heading text…' : 'Paragraph text…'}"></textarea>
+  `;
+  wrap.appendChild(row);
+  if(text) row.querySelector('textarea').value = text;
+}
+
+document.querySelectorAll('[data-add]').forEach(btn=>{
+  btn.addEventListener('click', ()=> addBlock(btn.dataset.add, ''));
+});
+
+document.getElementById('blocksWrap').addEventListener('click', (e)=>{
+  const btn = e.target.closest('[data-action]');
+  if(!btn) return;
+  const row = btn.closest('.block-row');
+  const action = btn.dataset.action;
+  if(action === 'remove'){
+    row.remove();
+  } else if(action === 'up' && row.previousElementSibling){
+    row.parentNode.insertBefore(row, row.previousElementSibling);
+  } else if(action === 'down' && row.nextElementSibling){
+    row.parentNode.insertBefore(row.nextElementSibling, row);
+  }
+});
+
+/* ---------------- tag chips ---------------- */
+const tagsInput = document.getElementById('f-tags');
+function renderTagChips(){
+  const chips = document.getElementById('tagChips');
+  const tags = tagsInput.value.split(',').map(t=>t.trim()).filter(Boolean);
+  chips.innerHTML = tags.map(t=>`<span class="tag-chip">${escapeHTML(t)}</span>`).join('');
+}
+tagsInput.addEventListener('input', renderTagChips);
+
+/* ---------------- slug generation ---------------- */
+function slugify(str){
+  return str.toLowerCase()
+    .replace(/'/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 80);
+}
+document.getElementById('genSlugBtn').addEventListener('click', ()=>{
+  const title = document.getElementById('f-title').value;
+  document.getElementById('f-slug').value = slugify(title);
+});
+
+/* ---------------- date handling ---------------- */
+const datePicker = document.getElementById('f-date-picker');
+const dateHidden = document.getElementById('f-date');
+const datePreview = document.getElementById('datePreview');
+
+function formatDate(isoStr){
+  if(!isoStr) return '';
+  const [y, m, d] = isoStr.split('-').map(Number);
+  const dt = new Date(y, m - 1, d);
+  return dt.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+function toISODate(dt){
+  const y = dt.getFullYear();
+  const m = String(dt.getMonth() + 1).padStart(2, '0');
+  const d = String(dt.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+datePicker.addEventListener('change', ()=>{
+  const formatted = formatDate(datePicker.value);
+  dateHidden.value = formatted;
+  datePreview.textContent = formatted ? `Will be saved as: "${formatted}"` : 'Pick a date, or click "Today" to fill it automatically.';
+});
+document.getElementById('useTodayBtn').addEventListener('click', ()=>{
+  const today = new Date();
+  datePicker.value = toISODate(today);
+  datePicker.dispatchEvent(new Event('change'));
+});
+
+/* ---------------- image picker ---------------- */
+const imageFileInput = document.getElementById('imageFileInput');
+const imagePathField = document.getElementById('f-image');
+const imagePreview = document.getElementById('imagePreview');
+const imageFileName = document.getElementById('imageFileName');
+const imagePicker = document.getElementById('imagePicker');
+
+document.getElementById('pickImageBtn').addEventListener('click', ()=> imageFileInput.click());
+
+imageFileInput.addEventListener('change', ()=>{
+  const file = imageFileInput.files[0];
+  if(!file) return;
+  const url = URL.createObjectURL(file);
+  imagePreview.innerHTML = `<img src="${url}" alt="preview">`;
+  imageFileName.textContent = file.name;
+  imagePicker.classList.add('has-image');
+  imagePathField.value = `Assets/${file.name}`;
+});
+
+/* ---------------- read time estimate ---------------- */
+document.getElementById('genReadTimeBtn').addEventListener('click', ()=>{
+  const rows = document.querySelectorAll('#blocksWrap .block-row textarea');
+  let words = 0;
+  rows.forEach(t => { words += (t.value.trim().split(/\s+/).filter(Boolean).length); });
+  const minutes = Math.max(1, Math.round(words / 200));
+  document.getElementById('f-readtime').value = `${minutes} min read`;
+});
+
+/* ---------------- escaping ---------------- */
+function escapeHTML(str){
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+function escStr(str){
+  return String(str || '')
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"')
+    .replace(/\r?\n/g, '\\n');
+}
+
+/* ---------------- code generation (on demand) ---------------- */
+function generate(){
+  const title = document.getElementById('f-title').value.trim();
+  const slug = document.getElementById('f-slug').value.trim();
+  const category = document.getElementById('f-category').value.trim();
+  const author = document.getElementById('f-author').value.trim();
+  const date = dateHidden.value.trim();
+  const readTime = document.getElementById('f-readtime').value.trim();
+  const image = imagePathField.value.trim();
+  const imageCaption = document.getElementById('f-imagecaption').value.trim();
+  const excerpt = document.getElementById('f-excerpt').value.trim();
+  const tags = tagsInput.value.split(',').map(t=>t.trim()).filter(Boolean);
+
+  const blockRows = document.querySelectorAll('#blocksWrap .block-row');
+  const bodyLines = [];
+  blockRows.forEach(row=>{
+    const type = row.dataset.type;
+    const text = row.querySelector('textarea').value.trim();
+    if(!text) return;
+    let prefixed = text;
+    if(type === 'heading') prefixed = '## ' + text;
+    if(type === 'quote') prefixed = '> ' + text;
+    bodyLines.push(prefixed);
+  });
+
+  const tagsCode = tags.map(t => `"${escStr(t)}"`).join(', ');
+  const bodyCode = bodyLines.map(b => `      "${escStr(b)}"`).join(',\n');
+
+  const code =
+`  {
+    slug: "${escStr(slug)}",
+    title: "${escStr(title)}",
+    category: "${escStr(category)}",
+    author: "${escStr(author)}",
+    date: "${escStr(date)}",
+    readTime: "${escStr(readTime)}",
+    image: "${escStr(image)}",
+    imageCaption: "${escStr(imageCaption)}",
+    excerpt: "${escStr(excerpt)}",
+    tags: [${tagsCode}],
+    body: [
+${bodyCode || '      ""'}
+    ]
+  },`;
+
+  document.getElementById('codeOut').textContent = code;
+}
+
+/* ---------------- modal open/close ---------------- */
+const modalScrim = document.getElementById('modalScrim');
+document.getElementById('generateBtn').addEventListener('click', ()=>{
+  generate();
+  modalScrim.classList.add('show');
+});
+function closeModal(){ modalScrim.classList.remove('show'); }
+document.getElementById('closeModalBtn').addEventListener('click', closeModal);
+document.getElementById('backToEditBtn').addEventListener('click', closeModal);
+modalScrim.addEventListener('click', (e)=>{ if(e.target === modalScrim) closeModal(); });
+document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeModal(); });
+
+/* ---------------- copy ---------------- */
+document.getElementById('copyBtn').addEventListener('click', async ()=>{
+  const code = document.getElementById('codeOut').textContent;
+  try{
+    await navigator.clipboard.writeText(code);
+    const status = document.getElementById('copyStatus');
+    status.classList.add('show');
+    setTimeout(()=>status.classList.remove('show'), 1600);
+  }catch(e){
+    alert('Could not copy automatically — select the code manually and copy.');
+  }
+});
+
+/* ---------------- load example / clear ---------------- */
+function loadExample(){
+  document.getElementById('f-title').value = "Beyond The Headlines: The Untold Story Of The Late Yaa Naa Abubakari Mahamma II";
+  document.getElementById('f-slug').value = "beyond-the-headlines";
+  document.getElementById('f-category').value = "Biographical Article";
+  document.getElementById('f-author').value = "Bismark Donkor Mensah";
+
+  datePicker.value = "2026-07-12";
+  datePicker.dispatchEvent(new Event('change'));
+
+  document.getElementById('f-readtime').value = "4 min read";
+  imagePathField.value = "Assets/YA.jpg";
+  document.getElementById('f-imagecaption').value = "Web";
+  document.getElementById('f-excerpt').value = "A closer look at the life, reign, and legacy of the late Yaa Naa — beyond what the headlines told us.";
+  tagsInput.value = "Feature, Culture, Northern Region";
+  renderTagChips();
+
+  document.getElementById('blocksWrap').innerHTML = '';
+  addBlock('paragraph', "The death of Yaa Naa Abubakari Mahamma II marks the end of a significant chapter in the history of the Dagbon Kingdom. His reign symbolized reconciliation, stability and the revival of one Ghana's most revered traditional institutions after years of conflict. Though he is no more, his legacy is likely to remain an important part of Dagbon's history for generations.");
+  addBlock('heading', "What History Reveals About Yaa Naa Abubakari Mahamma II");
+  addBlock('paragraph', "As far as his story still remains, Yaa Naa Abubakari Mahamma II, born Abubakari Mahamma, was a zealous member of the Andani Royal Family Gate and the son of Yaa Naa Mahamma II. Before ascending to the highest traditional office in Dagbon, he served as the chief of Kpunkpono and later as the Yoo Naa (chief of Savelugu), one of the prestigious skins from which a Yaa Naa can be selected. He was also known as a successful farmer and an accomplished horseman.");
+  addBlock('quote', "He was a bridge, not a wall, one elder close to the palace remembered. That is the part of his story people outside the region rarely got to see.");
+  addBlock('paragraph', "As Northern Ghana continues to navigate its own path forward, the late Yaa Naa's approach — patient, deliberate, rooted in tradition — remains a reference point for those who succeed him.");
+}
+
+document.getElementById('loadExampleBtn').addEventListener('click', loadExample);
+document.getElementById('clearAllBtn').addEventListener('click', ()=>{
+  document.getElementById('f-title').value = '';
+  document.getElementById('f-slug').value = '';
+  document.getElementById('f-category').value = '';
+  document.getElementById('f-author').value = '';
+  datePicker.value = '';
+  dateHidden.value = '';
+  datePreview.textContent = 'Pick a date, or click "Today" to fill it automatically.';
+  document.getElementById('f-readtime').value = '';
+  imagePathField.value = '';
+  imagePreview.innerHTML = '<i class="fas fa-image"></i>';
+  imageFileName.textContent = 'No image selected';
+  imagePicker.classList.remove('has-image');
+  document.getElementById('f-imagecaption').value = '';
+  document.getElementById('f-excerpt').value = '';
+  tagsInput.value = '';
+  renderTagChips();
+  document.getElementById('blocksWrap').innerHTML = '';
+  addBlock('paragraph', '');
+});
+
+/* ---------------- init ---------------- */
+addBlock('paragraph', '');
+</script>
+
+</body>
+</html>
