@@ -476,6 +476,21 @@ footer.footer{
 }
 .search-overlay input:focus{ border-color:var(--brand); }
 .search-hint{ margin-top:20px; color:var(--ink-soft); font-size:0.9rem; }
+.search-hint.hidden{ display:none; }
+.search-results{ flex:1; overflow-y:auto; margin-top:16px; }
+.search-result-item{
+  display:flex; align-items:center; gap:14px; padding:14px 16px;
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm);
+  margin-bottom:10px; transition:all .2s ease;
+}
+.search-result-item:hover{ border-color:var(--brand); transform:translateY(-2px); box-shadow:var(--shadow); }
+.search-result-item img{ width:56px; height:56px; border-radius:8px; object-fit:cover; flex-shrink:0; background:var(--brand-light); }
+.search-result-cat{
+  font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase;
+  letter-spacing:0.08em; color:var(--brand); font-weight:600;
+}
+.search-result-title{ font-size:0.95rem; font-weight:600; margin-top:4px; }
+.search-empty{ padding:40px 20px; text-align:center; color:var(--ink-soft); }
 
 /* ================= RESPONSIVE ================= */
 @media (max-width:992px){
@@ -783,6 +798,7 @@ footer.footer{
     <button class="icon-btn" onclick="toggleSearch()"><i class="fas fa-arrow-left"></i></button>
     <input type="text" placeholder="Search articles, topics, people…" id="search-input">
   </div>
+  <div class="search-results" id="search-results"></div>
   <p class="search-hint">Try "Abutrica", "Asantehemaa", or "Kumasi cleanup"</p>
 </div>
 
@@ -959,7 +975,89 @@ function setTab(el){
 function toggleSearch(){
   const ov = document.getElementById('search-overlay');
   ov.classList.toggle('show');
-  if(ov.classList.contains('show')) setTimeout(()=>document.getElementById('search-input').focus(), 200);
+  if(ov.classList.contains('show')){
+    const input = document.getElementById('search-input');
+    if(input){
+      setTimeout(()=>input.focus(), 200);
+      input.value = '';
+      const resultsWrap = document.getElementById('search-results');
+      if(resultsWrap) resultsWrap.innerHTML = '';
+      const hint = document.querySelector('.search-hint');
+      if(hint) hint.classList.remove('hidden');
+    }
+  }
+}
+
+function performSearch(term){
+  const resultsWrap = document.getElementById('search-results');
+  const hint = document.querySelector('.search-hint');
+  if(!resultsWrap) return;
+
+  if(!term || term.trim() === ''){
+    resultsWrap.innerHTML = '';
+    if(hint) hint.classList.remove('hidden');
+    return;
+  }
+
+  if(hint) hint.classList.add('hidden');
+
+  const q = term.toLowerCase().trim();
+  const results = [];
+
+  if(typeof ARTICLES !== 'undefined'){
+    ARTICLES.forEach(a => {
+      const match = a.title.toLowerCase().includes(q) ||
+                    a.category.toLowerCase().includes(q) ||
+                    (a.tags && a.tags.some(t => t.toLowerCase().includes(q))) ||
+                    (a.excerpt && a.excerpt.toLowerCase().includes(q));
+      if(match) results.push({...a, _source: 'article'});
+    });
+  }
+
+  if(typeof TRENDING !== 'undefined'){
+    TRENDING.forEach(t => {
+      const match = t.title.toLowerCase().includes(q) ||
+                    t.category.toLowerCase().includes(q);
+      if(match) results.push({...t, _source: 'trend'});
+    });
+  }
+
+  if(typeof STORIES !== 'undefined'){
+    STORIES.forEach(s => {
+      const match = s.title.toLowerCase().includes(q) ||
+                    s.category.toLowerCase().includes(q);
+      if(match) results.push({...s, _source: 'story'});
+    });
+  }
+
+  if(results.length === 0){
+    resultsWrap.innerHTML = '<div class="search-empty">No results found.</div>';
+    return;
+  }
+
+  resultsWrap.innerHTML = results.map(r => {
+    let href = '';
+    if(r._source === 'article') href = `article.html?slug=${encodeURIComponent(r.slug)}`;
+    else if(r._source === 'trend') href = `trend.html?slug=${encodeURIComponent(r.slug)}`;
+    else if(r._source === 'story') href = `Stories.html`;
+
+    return `
+      <a class="search-result-item" href="${href}">
+        <img src="${r.image}" alt="">
+        <div>
+          <span class="search-result-cat">${escapeHtml(r.category)}</span>
+          <div class="search-result-title">${escapeHtml(r.title)}</div>
+        </div>
+      </a>
+    `;
+  }).join('');
+}
+
+const searchInput = document.getElementById('search-input');
+if(searchInput){
+  searchInput.addEventListener('input', () => {
+    performSearch(searchInput.value);
+  });
 }
 
 /* ---------- sticky header shadow ---------- */
