@@ -14,9 +14,10 @@
         href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
         rel="stylesheet" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico">
-</head>
+     <!-- Favicon -->
+     <link rel="icon" href="/favicon.ico">
+     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+ </head>
 
 <style>
     :root {
@@ -882,19 +883,12 @@
                         <label for="loginEmail">Email address</label>
                         <input type="email" id="loginEmail" placeholder="you@example.com" required />
                     </div>
-                    <div class="form-group">
-                        <label for="loginPassword">Password</label>
-                        <input type="password" id="loginPassword" placeholder="••••••••" required />
+                    <div class="form-group" id="loginOtpGroup" style="display:none;">
+                        <label for="loginOtp">Enter code from email</label>
+                        <input type="text" id="loginOtp" placeholder="123456" />
                     </div>
-                    <button type="submit" class="btn-submit"><i class="fas fa-arrow-right-to-bracket"></i> Log
-                        in</button>
+                    <button type="submit" class="btn-submit" id="loginBtn">Send login code</button>
                 </form>
-
-                <!-- social -->
-                <div class="social-divider">or continue with</div>
-                <button class="social-btn" id="googleLoginBtn">
-                    <i class="fab fa-google"></i> Sign in with Google
-                </button>
 
                 <div class="toggle-text">
                     Don't have an account? <a id="switchToSignup">Sign up</a>
@@ -914,18 +908,12 @@
                             <input type="email" id="signupEmail" placeholder="you@example.com" required />
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="signupPassword">Password</label>
-                        <input type="password" id="signupPassword" placeholder="Create a strong password" required />
+                    <div class="form-group" id="signupOtpGroup" style="display:none;">
+                        <label for="signupOtp">Enter code from email</label>
+                        <input type="text" id="signupOtp" placeholder="123456" />
                     </div>
-                    <button type="submit" class="btn-submit"><i class="fas fa-user-plus"></i> Create account</button>
+                    <button type="submit" class="btn-submit" id="signupBtn">Create account</button>
                 </form>
-
-                <!-- social -->
-                <div class="social-divider">or sign up with</div>
-                <button class="social-btn" id="googleSignupBtn">
-                    <i class="fab fa-google"></i> Sign up with Google
-                </button>
 
                 <div class="toggle-text">
                     Already have an account? <a id="switchToLogin">Log in</a>
@@ -957,6 +945,29 @@
 
 
     <script>
+        // ---------- Supabase init ----------
+        const SUPABASE_URL = 'https://nrgyqpujjfkkcfyljvgc.supabase.co';
+        const SUPABASE_ANON_KEY = 'sb_publishable_HfO1WcUv47_M4fFnCalYtw_kqPfbYq4';
+        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        // Handle Supabase email redirect / OTP callback
+        (async () => {
+            const hash = window.location.hash;
+            if (hash && hash.includes('access_token')) {
+                const params = new URLSearchParams(hash.substring(1));
+                const access_token = params.get('access_token');
+                const refresh_token = params.get('refresh_token');
+                if (access_token && refresh_token) {
+                    const { error } = await sb.auth.setSession({ access_token, refresh_token });
+                    if (!error) {
+                        window.location.replace('index.html');
+                        return;
+                    }
+                }
+                window.location.hash = '';
+            }
+        })();
+
         /* ---------- theme toggle ---------- */
         const themeToggle = document.getElementById('theme-toggle');
         function applyTheme(t) {
@@ -1070,37 +1081,97 @@
             switchToSignup.addEventListener('click', () => setActiveTab('signup'));
             switchToLogin.addEventListener('click', () => setActiveTab('login'));
 
-            // ----- form submissions (demo) -----
-            document.getElementById('loginForm').addEventListener('submit', function (e) {
+            // ----- form submissions (passwordless OTP) -----
+            let pendingEmail = '';
+
+            document.getElementById('loginForm').addEventListener('submit', async function (e) {
                 e.preventDefault();
                 const email = document.getElementById('loginEmail').value.trim();
-                const pass = document.getElementById('loginPassword').value.trim();
-                if (!email || !pass) {
-                    alert('Please fill in both fields.');
+                const otp = document.getElementById('loginOtp').value.trim();
+                const otpGroup = document.getElementById('loginOtpGroup');
+                const btn = document.getElementById('loginBtn');
+
+                if (!email) {
+                    alert('Please enter your email.');
                     return;
                 }
-                alert(`✅ Login attempt (demo)\nEmail: ${email}\nPassword: ${'•'.repeat(pass.length)}`);
-                // In production: send to server / Supabase
+
+                if (!otpGroup.style.display || otpGroup.style.display === 'none') {
+                    // Step 1: send OTP
+                    const { error } = await sb.auth.signInWithOtp({ email });
+                    if (error) {
+                        alert('Could not send login code: ' + error.message);
+                        return;
+                    }
+                    pendingEmail = email;
+                    otpGroup.style.display = 'block';
+                    btn.textContent = 'Verify code';
+                } else {
+                    // Step 2: verify OTP
+                    if (!otp) {
+                        alert('Please enter the code.');
+                        return;
+                    }
+                    const { data, error } = await sb.auth.verifyOtp({
+                        email,
+                        token: otp,
+                        type: 'email'
+                    });
+                    if (error) {
+                        alert('Invalid code: ' + error.message);
+                    } else {
+                        const userName = data.user?.user_metadata?.username || 'User';
+                        try { localStorage.setItem('getinfo-username', userName); } catch (e) {}
+                        window.location.href = 'index.html';
+                    }
+                }
             });
 
-            document.getElementById('signupForm').addEventListener('submit', function (e) {
+            document.getElementById('signupForm').addEventListener('submit', async function (e) {
                 e.preventDefault();
                 const username = document.getElementById('signupUsername').value.trim();
                 const email = document.getElementById('signupEmail').value.trim();
-                const pass = document.getElementById('signupPassword').value.trim();
-                if (!username || !email || !pass) {
+                const otp = document.getElementById('signupOtp').value.trim();
+                const otpGroup = document.getElementById('signupOtpGroup');
+                const btn = document.getElementById('signupBtn');
+
+                if (!username || !email) {
                     alert('Please fill in all fields.');
                     return;
                 }
-                alert(`✅ Sign-up attempt (demo)\nUsername: ${username}\nEmail: ${email}\nPassword: ${'•'.repeat(pass.length)}`);
-            });
 
-            // ----- Google sign-in / sign-up (demo) -----
-            document.getElementById('googleLoginBtn').addEventListener('click', function () {
-                alert('🔐 Google sign-in (demo) — redirect to OAuth flow.');
-            });
-            document.getElementById('googleSignupBtn').addEventListener('click', function () {
-                alert('🔐 Google sign-up (demo) — redirect to OAuth flow.');
+                if (!otpGroup.style.display || otpGroup.style.display === 'none') {
+                    // Step 1: send OTP and create account
+                    const { error } = await sb.auth.signInWithOtp({
+                        email,
+                        options: { data: { username } }
+                    });
+                    if (error) {
+                        alert('Could not create account: ' + error.message);
+                        return;
+                    }
+                    pendingEmail = email;
+                    otpGroup.style.display = 'block';
+                    btn.textContent = 'Verify code';
+                } else {
+                    // Step 2: verify OTP
+                    if (!otp) {
+                        alert('Please enter the code.');
+                        return;
+                    }
+                    const { data, error } = await sb.auth.verifyOtp({
+                        email,
+                        token: otp,
+                        type: 'email'
+                    });
+                    if (error) {
+                        alert('Invalid code: ' + error.message);
+                    } else {
+                        const userName = data.user?.user_metadata?.username || username;
+                        try { localStorage.setItem('getinfo-username', userName); } catch (e) {}
+                        window.location.href = 'index.html';
+                    }
+                }
             });
 
         })();
@@ -1315,6 +1386,14 @@
                 this.style.transform = 'scale(1)';
             });
         }
+
+        // Supabase session check
+        document.addEventListener('DOMContentLoaded', async () => {
+            const { data: { session } } = await sb.auth.getSession();
+            if (session) {
+                window.location.href = 'index.html';
+            }
+        });
     </script>
 </body>
 

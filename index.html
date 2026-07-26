@@ -558,7 +558,26 @@ footer.footer{
     <div class="appbar-actions">
       <button class="icon-btn" onclick="toggleSearch()" aria-label="Search"><i class="fas fa-search"></i></button>
       <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" id="theme-toggle"><i class="fas fa-moon"></i></button>
-      <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-circle-user"></i></a>
+        <a href="Signin.html" class="icon-btn" aria-label="Sign in" id="header-auth-btn"><i class="fa-solid fa-circle-user"></i></a>
+        <script>
+            (function() {
+                const authBtn = document.getElementById('header-auth-btn');
+                if (!authBtn) return;
+                try {
+                    const name = localStorage.getItem('getinfo-username');
+                    if (name) {
+                        authBtn.innerHTML = `<span style="font-size:0.78rem;font-weight:700;color:var(--brand);max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${name}</span>`;
+                        authBtn.href = '#';
+                        authBtn.onclick = function(e) {
+                            e.preventDefault();
+                            localStorage.removeItem('getinfo-username');
+                            window.location.reload();
+                        };
+                        authBtn.setAttribute('aria-label', 'Log out');
+                    }
+                } catch (e) {}
+            })();
+        </script>
       <button class="icon-btn mobile-menu" onclick="toggleDrawer()" aria-label="Menu"><i class="fas fa-bars"></i></button>
     </div>
   </div>
