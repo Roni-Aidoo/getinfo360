@@ -642,7 +642,7 @@ imageFileInput.addEventListener('change', ()=>{
   imagePreview.innerHTML = `<img src="${url}" alt="preview">`;
   imageFileName.textContent = file.name;
   imagePicker.classList.add('has-image');
-  imagePathField.value = `Assets/${file.name}`;
+  imagePathField.value = `/Assets/${file.name}`;
 });
 
 /* ---------------- read time estimate ---------------- */
