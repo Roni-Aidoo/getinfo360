@@ -15,7 +15,7 @@ const TRENDING = [
     author: "Getinfo",
     date: "July 27, 2026",
     readTime: "1 min read",
-    image: "Assets/727202644658-8cs1wjivup-mg.jpeg",
+    image: "/Assets/727202644658-8cs1wjivup-mg.jpeg",
     imageCaption: "Web",
     excerpt: "Sulemana Abdul Samed, widely known as Awuche—a Hausa word meaning \"Let's Go\"—has died at the age of 33.",
     tags: ["Ghana", "Tallest Man"],
