@@ -8,6 +8,25 @@
    ============================================================ */
 
 const TRENDING = [
+     {
+    slug: "sulemana-abdul-samed-ghanas-tallest-man-dies-at-33",
+    title: "Sulemana Abdul Samed, Ghana's Tallest Man, Dies at 33",
+    category: "News",
+    author: "Getinfo",
+    date: "July 27, 2026",
+    readTime: "1 min read",
+    image: "Assets/727202644658-8cs1wjivup-mg.jpeg",
+    imageCaption: "Web",
+    excerpt: "Sulemana Abdul Samed, widely known as Awuche—a Hausa word meaning \"Let's Go\"—has died at the age of 33.",
+    tags: ["Ghana", "Tallest Man"],
+    body: [
+      "Sulemana Abdul Samed, widely known as Awuche—a Hausa word meaning \"Let's Go\"—has died at the age of 33. Regarded as Ghana's tallest man, Abdul Samed passed away on 27 July 2026 after living for years with acromegaly, a rare hormonal disorder caused by the excessive production of growth hormone.",
+      "Born in 1994 in Ghana's Northern Region, Abdul Samed's extraordinary height brought him national and international attention. In 2022, his story gained widespread recognition after BBC journalist Favour Nunoo visited him following reports that he stood at an astonishing 9 feet 6 inches (289.56 cm). Due to the lack of appropriate measuring equipment at the local hospital, his exact height could not be officially confirmed. During the visit, Nunoo used a 16-foot measuring tape and recorded his height at 7 feet 4 inches (223.52 cm), noting that his full height could not be accurately verified.",
+      "Despite the physical challenges associated with acromegaly, Abdul Samed remained determined to live a fulfilling life. He received treatment for his condition while pursuing everyday activities, including attending school and working as both a farmer and a mechanic. He often expressed his hope of one day getting married and raising a family.",
+      "Beyond his remarkable stature, Abdul Samed became a symbol of resilience and courage. He used the attention surrounding his condition to educate the public about acromegaly and to advocate for greater awareness and understanding of the difficulties faced by people living with the disorder.",
+      "His passing marks the end of a life that inspired many through perseverance, humility, and a commitment to raising awareness about a rare medical condition. He will be remembered not only as Ghana's tallest man but also as a courageous advocate who turned personal challenges into a source of education and hope for others."
+    ]
+  },
     {
     slug: "full-document-on-the-midyear-fiscal-policy-review",
     title: "Full Document On the Midyear Fiscal Policy Review",
