@@ -139,6 +139,79 @@ function applyMeta($, item, cfg) {
   $('title').first().text(`${title} | Getinfo Online`);
 }
 
+/**
+ * Figures out how many folders deep the generated files sit, based on
+ * urlPathPrefix (e.g. '/articles/' → 1 level deep), so we know how many
+ * "../" to prepend to relative links.
+ */
+function depthFromPrefix(urlPathPrefix) {
+  return urlPathPrefix.split('/').filter(Boolean).length;
+}
+
+function isRewritableUrl(url) {
+  if (!url) return false;
+  return !(
+    /^([a-z][a-z0-9+.-]*:)?\/\//i.test(url) || // http://, https://, // protocol-relative
+    url.startsWith('/') ||                     // already root-relative
+    url.startsWith('#') ||                     // in-page anchor
+    url.startsWith('mailto:') ||
+    url.startsWith('javascript:') ||
+    url.startsWith('data:')
+  );
+}
+
+/**
+ * Rewrites every relative src/href/CSS-url() reference in the loaded
+ * template so it still resolves correctly once the file has been moved
+ * one or more folders deeper (e.g. into /articles/). External URLs,
+ * root-relative paths ("/..."), and anchors are left untouched.
+ */
+function rewriteRelativePaths($, prefix) {
+  if (!prefix) return; // nothing to do if the output sits at site root
+
+  $('[src]').each((_, el) => {
+    const $el = $(el);
+    const val = $el.attr('src');
+    if (isRewritableUrl(val)) $el.attr('src', prefix + val);
+  });
+
+  $('link[href]').each((_, el) => {
+    const $el = $(el);
+    const val = $el.attr('href');
+    if (isRewritableUrl(val)) $el.attr('href', prefix + val);
+  });
+
+  $('a[href]').each((_, el) => {
+    const $el = $(el);
+    const val = $el.attr('href');
+    if (isRewritableUrl(val)) $el.attr('href', prefix + val);
+  });
+
+  // Inline style="background-image:url(...)" attributes
+  $('[style]').each((_, el) => {
+    const $el = $(el);
+    const style = $el.attr('style');
+    if (style && style.includes('url(')) {
+      const newStyle = style.replace(/url\((['"]?)([^'")]+)\1\)/g, (m, quote, url) => {
+        return isRewritableUrl(url) ? `url(${quote}${prefix}${url}${quote})` : m;
+      });
+      $el.attr('style', newStyle);
+    }
+  });
+
+  // <style>...</style> blocks in <head> (e.g. .hero-bg { background-image:url(...) })
+  $('style').each((_, el) => {
+    const $el = $(el);
+    const css = $el.html();
+    if (css && css.includes('url(')) {
+      const newCss = css.replace(/url\((['"]?)([^'")]+)\1\)/g, (m, quote, url) => {
+        return isRewritableUrl(url) ? `url(${quote}${prefix}${url}${quote})` : m;
+      });
+      $el.html(newCss);
+    }
+  });
+}
+
 // ============================================================
 // Main build
 // ============================================================
@@ -155,11 +228,15 @@ function buildPageSet(cfg) {
   const outDir = path.resolve(process.cwd(), cfg.outputDir);
   fs.mkdirSync(outDir, { recursive: true });
 
+  const depth = depthFromPrefix(cfg.urlPathPrefix);
+  const relPrefix = '../'.repeat(depth);
+
   let count = 0;
   for (const item of items) {
     if (!item.slug) continue;
 
     const $ = cheerio.load(templateHtml, { decodeEntities: false });
+    rewriteRelativePaths($, relPrefix);
     applyMeta($, item, cfg);
 
     const outPath = path.join(outDir, `${item.slug}.html`);
