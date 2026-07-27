@@ -234,32 +234,33 @@ main{ padding-top:26px; padding-bottom:60px; }
 .listing-feed{ display:flex; flex-direction:column; gap:36px; }
 @media (max-width:992px){ .listing-layout{ grid-template-columns:1fr; } }
 
-/* ---------- HERO (dual headline) ---------- */
-.hero-grid{
-  display:grid; grid-template-columns:1.6fr 1fr; gap:18px; margin-bottom:30px;
-}
-.hero{
+/* ---------- HERO SLIDESHOW ---------- */
+.hero-slideshow{
   position:relative; border-radius:var(--radius); overflow:hidden;
   box-shadow:var(--shadow-lg);
   background:linear-gradient(160deg, var(--brand), #06231A);
   height:460px;
-  max-width:600px ;
-  min-width: 600px;
+  margin-bottom:30px;
 }
-.hero.hero-secondary{ height:460px; }
-.hero-bg{
+.hero-slide{
   position:absolute; inset:0;
-  background-image: linear-gradient(180deg, rgba(10,15,14,0.15) 20%, rgba(6,9,8,0.92) 100%), url("Assets/ai.jpg");
+  opacity:0; visibility:hidden;
+  transition:opacity .7s ease, visibility 0s linear .7s;
+  z-index:1;
+}
+.hero-slide.active{
+  opacity:1; visibility:visible; z-index:2;
+  transition:opacity .7s ease, visibility 0s linear 0s;
+}
+.hero-slide .hero-bg{
+  position:absolute; inset:0;
+  background-image: linear-gradient(180deg, rgba(10,15,14,0.15) 20%, rgba(6,9,8,0.92) 100%), var(--slide-img);
   background-position:center; background-size:cover;
 }
-.hero-secondary .hero-bg{
-  background-image: linear-gradient(180deg, rgba(10,15,14,0.1) 25%, rgba(6,9,8,0.9) 100%), url("Assets/99.jpg");
-}
-.hero-content{
+.hero-slide .hero-content{
   position:absolute; left:0; right:0; bottom:0; padding:34px 34px 30px;
   z-index:2;
 }
-.hero-secondary .hero-content{ padding:24px 24px 22px; }
 .hero-badge{
   display:inline-flex; align-items:center; gap:8px;
   background:var(--gold); color:#241802; font-weight:700; font-size:0.72rem;
@@ -267,18 +268,39 @@ main{ padding-top:26px; padding-bottom:60px; }
   margin-bottom:16px;
 }
 .hero-badge.badge-alt{ background:#fff; color:var(--brand); }
-.hero h1{
+.hero-slide h1{
   font-family:var(--font-display); color:#fff; font-weight:700;
   font-size:clamp(1.5rem, 4vw, 2.5rem); line-height:1.15; max-width:760px;
   letter-spacing:-0.01em;
 }
-.hero-secondary h1{ font-size:clamp(1.2rem, 2.6vw, 1.6rem); max-width:none; }
 .hero-meta{
   display:flex; gap:18px; margin-top:16px; color:rgba(255,255,255,0.75);
   font-size:0.85rem; font-family:var(--font-mono); flex-wrap:wrap;
 }
-.hero-secondary .hero-meta{ margin-top:12px; font-size:0.78rem; }
 .hero-meta span{ display:flex; align-items:center; gap:6px; }
+
+/* hero slideshow controls */
+.hero-dots{
+  position:absolute; right:24px; bottom:24px; z-index:3;
+  display:flex; align-items:center; gap:8px;
+}
+.hero-dot{
+  width:8px; height:8px; border-radius:999px; background:rgba(255,255,255,0.4);
+  cursor:pointer; transition:all .25s ease; border:none; padding:0;
+}
+.hero-dot:hover{ background:rgba(255,255,255,0.7); }
+.hero-dot.active{ width:26px; background:var(--gold); }
+.hero-arrow{
+  position:absolute; top:50%; transform:translateY(-50%); z-index:3;
+  width:38px; height:38px; border-radius:50%;
+  background:rgba(255,255,255,0.14); color:#fff;
+  display:flex; align-items:center; justify-content:center;
+  backdrop-filter:blur(4px); transition:background .2s ease;
+}
+.hero-arrow:hover{ background:rgba(255,255,255,0.28); }
+.hero-arrow.prev{ left:18px; }
+.hero-arrow.next{ right:18px; }
+@media (max-width:600px){ .hero-arrow{ display:none; } }
 
 /* ---------- FEED GRID ---------- */
 .feed-grid{
@@ -498,31 +520,17 @@ footer.footer{
   nav.desktop-nav{ display:none; }
   .mobile-menu{ display:flex; }
   .feed-grid{ grid-template-columns:1fr; }
-  .hero-grid{ grid-template-columns:1fr; }
-  .hero, .hero.hero-secondary{ height:340px; }
+  .hero-slideshow{ height:340px; }
   .footer-container{ grid-template-columns:1fr 1fr; }
   .footer-brand{ grid-column:1/-1; }
   body{ padding-bottom:calc(var(--tabbar-h) + 12px); }
   .tabbar{ display:block; }
   .chip-rail-wrap{ top:calc(var(--header-h) + 38px); }
-  .hero{
-  position:relative; border-radius:var(--radius); overflow:hidden;
-  box-shadow:var(--shadow-lg);
-  background:linear-gradient(160deg, var(--brand), #06231A);
-  height:460px;
-  max-width:400px ;
-  min-width: 500px;
-}
-.hero{
- 
-  max-width:400px ;
-  min-width: 320px;
-}
 }
 @media (max-width:550px){
   .footer-container{ grid-template-columns:1fr; }
   .footer-bottom{ flex-direction:column; align-items:flex-start; }
-  .hero{ aspect-ratio:4/5; max-height:none; }
+  .hero-slideshow{ aspect-ratio:4/5; height:auto; }
 }
 .scroll{
   width: 350px;
@@ -612,21 +620,13 @@ footer.footer{
    <div class="listing-layout">
      <div class="listing-feed">
 
-  <!-- ================= HERO (dual headline) ================= -->
-  <div class="hero-grid reveal">
-    <a href="article.html?slug=the-impact-of-ai-on-the-economy-of-ghana" class="hero">
-      <div class="hero-bg"></div>
-      <div class="hero-content">
-        <span class="hero-badge"><i class="fa-solid fa-star"></i> Feature <Article></Article></span>
-        <h1>The Impact Of AI On The Economy Of Ghana</h1>
-        <div class="hero-meta">
-          <span><i class="far fa-calendar-alt"></i> July 2026</span>
-          <span><i class="far fa-clock"></i> 4 min read</span>
-        </div>
-      </div>
-    </a>
-
-   
+  <!-- ================= HERO SLIDESHOW ================= -->
+  <!-- Slides are injected by JS: slide 1 = first TRENDING item, slide 2 = first ARTICLES item, slide 3 = first STORIES item -->
+  <div class="hero-slideshow reveal" id="hero-slideshow">
+    <div id="hero-slides"></div>
+    <button class="hero-arrow prev" id="hero-prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+    <button class="hero-arrow next" id="hero-next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+    <div class="hero-dots" id="hero-dots"></div>
   </div>
 
   <!-- ================= LATEST FEED ================= -->
@@ -654,24 +654,8 @@ footer.footer{
       </div>
     </div>
     <div class="qu">
-    <div class="hscroll reveal" id="quote-rail">
-      <div class="quote-card">
-        <i class="fa-solid fa-quote-left quote-icon"></i>
-        <p class="q-text">To play a Hero, you have to play right so that you don't lose</p>
-        <div class="q-author">
-          <img src="Assets/LOG.jpg" alt="Rev. Dr. Patrick Owusu">
-          <span class="name">Miss Jennifer Agyei</span>
-        </div>
-      </div>
-      <div class="quote-card">
-        <i class="fa-solid fa-quote-left quote-icon"></i>
-        <p class="q-text">We must move beyond reacting to disasters and begin implementing lasting solutions.</p>
-        <div class="q-author">
-          <img src="Assets/pp.jpg" alt="Rev. Dr. Patrick Owusu">
-          <span class="name">Rev. Dr. Patrick Owusu</span>
-        </div>
-        </div>
-      </div>
+    <!-- Filled by JS from QUOTES in quote-art-data.js -->
+    <div class="hscroll reveal" id="quote-rail"></div>
     </div>
   </section>
 
@@ -685,15 +669,8 @@ footer.footer{
       </div>
       <a href="arts.html" class="see-all">More <i class="fas fa-arrow-right"></i></a>
     </div>
-    <div class="hscroll reveal" id="art-rail">
-     
-      <div class="art-card">
-        <div class="art-img"><img src="Assets/art2.jpg" alt="Daily cartoon"></div>
-      </div>
-      <div class="art-card">
-        <div class="art-img"><img src="Assets/ABUI1.jpg" alt="Daily cartoon"></div>
-      </div>
-    </div>
+    <!-- Filled by JS from ARTS in quote-art-data.js -->
+    <div class="hscroll reveal" id="art-rail"></div>
     </div>
   </section>
   </div>
@@ -826,6 +803,7 @@ footer.footer{
 <script src="articles-data.js"></script>
 <script src="trend-data.js"></script>
 <script src="Stories-data.js"></script>
+<script src="quote-art-data.js"></script>
 <script>
 
 function escapeHtml(str){
@@ -849,6 +827,116 @@ function renderTicker(){
   track.innerHTML = items.map(item => `
     <a href="/trends/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>
   `).join('');
+}
+
+/* ============================================================
+   RENDER: HERO SLIDESHOW
+   Slide 1 = first entry in TRENDING (trend-data.js)
+   Slide 2 = first entry in ARTICLES (articles-data.js)
+   Slide 3 = first entry in STORIES (Stories-data.js)
+   Auto-rotates, with dots + arrows for manual control.
+   ============================================================ */
+let heroTimer = null;
+let heroIndex = 0;
+
+function renderHeroSlideshow(){
+  const slidesWrap = document.getElementById('hero-slides');
+  const dotsWrap = document.getElementById('hero-dots');
+  if(!slidesWrap || !dotsWrap) return;
+
+  const slides = [];
+
+  if(typeof TRENDING !== 'undefined' && TRENDING.length){
+    const t = TRENDING[0];
+    slides.push({
+      href: `/trends/${encodeURIComponent(t.slug)}.html`,
+      image: t.image,
+      badge: t.category || 'Trending',
+      title: t.title,
+      date: t.date
+    });
+  }
+
+  if(typeof ARTICLES !== 'undefined' && ARTICLES.length){
+    const a = ARTICLES[0];
+    slides.push({
+      href: `articles/${encodeURIComponent(a.slug)}.html`,
+      image: a.image,
+      badge: a.category || 'Feature Article',
+      title: a.title,
+      date: a.date
+    });
+  }
+
+  if(typeof STORIES !== 'undefined' && STORIES.length){
+    const s = STORIES[0];
+    slides.push({
+      href: `Stories.html`,
+      image: s.image,
+      badge: s.category || 'Story',
+      title: s.title,
+      date: s.date
+    });
+  }
+
+  if(slides.length === 0) return;
+
+  slidesWrap.innerHTML = slides.map((s, i) => `
+    <a class="hero-slide${i === 0 ? ' active' : ''}" data-index="${i}" href="${s.href}">
+      <div class="hero-bg" style="--slide-img:url('${s.image}')"></div>
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fa-solid fa-star"></i> ${escapeHtml(s.badge)}</span>
+        <h1>${escapeHtml(s.title)}</h1>
+        <div class="hero-meta">
+          <span><i class="far fa-calendar-alt"></i> ${escapeHtml(s.date || '')}</span>
+        </div>
+      </div>
+    </a>
+  `).join('');
+
+  dotsWrap.innerHTML = slides.map((s, i) => `
+    <button class="hero-dot${i === 0 ? ' active' : ''}" data-index="${i}" aria-label="Slide ${i + 1}"></button>
+  `).join('');
+
+  heroIndex = 0;
+  wireHeroSlideshow(slides.length);
+  startHeroAutoplay(slides.length);
+}
+
+function goToHeroSlide(index, total){
+  const slideEls = document.querySelectorAll('.hero-slide');
+  const dotEls = document.querySelectorAll('.hero-dot');
+  heroIndex = (index + total) % total;
+
+  slideEls.forEach(el => el.classList.toggle('active', Number(el.dataset.index) === heroIndex));
+  dotEls.forEach(el => el.classList.toggle('active', Number(el.dataset.index) === heroIndex));
+}
+
+function startHeroAutoplay(total){
+  if(heroTimer) clearInterval(heroTimer);
+  if(total <= 1) return;
+  heroTimer = setInterval(() => goToHeroSlide(heroIndex + 1, total), 6000);
+}
+
+function wireHeroSlideshow(total){
+  document.querySelectorAll('.hero-dot').forEach(dot => {
+    dot.addEventListener('click', (e) => {
+      e.preventDefault(); e.stopPropagation();
+      goToHeroSlide(Number(dot.dataset.index), total);
+      startHeroAutoplay(total);
+    });
+  });
+
+  const prevBtn = document.getElementById('hero-prev');
+  const nextBtn = document.getElementById('hero-next');
+  if(prevBtn) prevBtn.onclick = () => { goToHeroSlide(heroIndex - 1, total); startHeroAutoplay(total); };
+  if(nextBtn) nextBtn.onclick = () => { goToHeroSlide(heroIndex + 1, total); startHeroAutoplay(total); };
+
+  const wrap = document.getElementById('hero-slideshow');
+  if(wrap){
+    wrap.addEventListener('mouseenter', () => { if(heroTimer) clearInterval(heroTimer); });
+    wrap.addEventListener('mouseleave', () => startHeroAutoplay(total));
+  }
 }
 
 /* ============================================================
@@ -931,10 +1019,56 @@ function renderTrendingPanel(){
   `).join('');
 }
 
+/* ============================================================
+   RENDER: "Daily Quote" rail — pulled from QUOTES in quote-art-data.js
+   ============================================================ */
+function renderQuoteRail(){
+  const wrap = document.getElementById('quote-rail');
+  if(!wrap || typeof QUOTES === 'undefined') return;
+
+  if(QUOTES.length === 0){
+    wrap.innerHTML = '';
+    return;
+  }
+
+  wrap.innerHTML = QUOTES.map(q => `
+    <div class="quote-card">
+      <i class="fa-solid fa-quote-left quote-icon"></i>
+      <p class="q-text">${escapeHtml(q.text)}</p>
+      <div class="q-author">
+        <img src="${q.image}" alt="${escapeHtml(q.name)}">
+        <span class="name">${escapeHtml(q.name)}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ============================================================
+   RENDER: "Art Speaks" rail — pulled from ARTS in quote-art-data.js
+   ============================================================ */
+function renderArtRail(){
+  const wrap = document.getElementById('art-rail');
+  if(!wrap || typeof ARTS === 'undefined') return;
+
+  if(ARTS.length === 0){
+    wrap.innerHTML = '';
+    return;
+  }
+
+  wrap.innerHTML = ARTS.map(art => `
+    <div class="art-card">
+      <div class="art-img"><img src="${art.image}" alt="${escapeHtml(art.alt || 'Daily cartoon')}"></div>
+    </div>
+  `).join('');
+}
+
 /* Render as soon as the DOM (and data files) are ready, before search/reveal wiring below */
 renderTicker();
+renderHeroSlideshow();
 renderFeedGrid();
 renderTrendingPanel();
+renderQuoteRail();
+renderArtRail();
 
 
 
