@@ -16,7 +16,7 @@ const ARTICLES = [
     author: "Jesse Mabery",
     date: "July 25, 2026",
     readTime: "3 min read",
-    image: "Assets/ai.jpg",
+    image: "/Assets/ai.jpg",
     imageCaption: "Web",
     excerpt: "AI, a menace or boon, the economy of Ghana has faced some significant impacts of AI, typically in the Ghana Education sector, to ignite the spirit of innovation in the Ghanaian youth.",
     tags: ["AI", "Midyear Budget", "Ghana", "Opinion"],
@@ -39,7 +39,7 @@ const ARTICLES = [
     author: "Bismark Donkor Mensah",
     date: "July 12, 2026",
     readTime: "4 min read",
-    image: "Assets/YA.jpg",
+    image: "/Assets/YA.jpg",
     imageCaption: "Web",
     excerpt: "A closer look at the life, reign, and legacy of the late Yaa Naa — beyond what the headlines told us.",
     tags: ["Feature", "Culture", "Northern Region"],
@@ -65,7 +65,7 @@ const ARTICLES = [
     author: "Jesse Mabery",
     date: "July 16, 2026",
     readTime: "1 min read",
-    image: "Assets/99.jpg",
+    image: "/Assets/99.jpg",
     imageCaption: "Web",
     excerpt: "Politics, a shining face but a chaotic background. Politics makes people believe is its savior but leaves them full of regrets. Politics is the very thing bringing us down. What say you?",
     tags: ["Polictics", "Opinion"],
@@ -83,7 +83,7 @@ const ARTICLES = [
     author: "Bismark Donkor Mensah",
     date: "July 13, 2026",
     readTime: "2 mins",
-    image: "Assets/ASH.jpg",
+    image: "/Assets/ASH.jpg",
     imageCaption: "Mahyia Palace",
     excerpt: "The Queen mothers in our traditional council marks a significant and unforgettable joy to\n              many of her citizens",
     tags: ["Asante", "Culture", "Asantehemaa"],
@@ -107,7 +107,7 @@ const ARTICLES = [
     author: "Rev. Dr. Patrick Owusu",
     date: "July 12, 2026",
     readTime: "4 mins",
-    image: "Assets/pp1.jpg",
+    image: "/Assets/pp1.jpg",
     imageCaption: "Rev. Dr. Patrick owusu",
     excerpt: "Life has a way of hiding its greatest battles behind the curtains.",
     tags: ["Life", "Pastor Patrick"],
@@ -130,7 +130,7 @@ const ARTICLES = [
     author: "Rev. Dr. Patrick Owusu",
     date: "July 11, 2026",
     readTime: "5 min read",
-    image: "Assets/pp.jpg",
+    image: "/Assets/pp.jpg",
     imageCaption: "Dr. Patrick Owusu",
     excerpt: "As a nationalist, I write with an open and objective mind, always reflecting on the prosperity and long term advancement of our nation.",
     tags: ["Environment", "Ghana", "Flood", "Pastor Patrick"],
@@ -165,3 +165,5 @@ function getOtherArticles(excludeSlug, limit = 2){
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = ARTICLES;
 }
+typeof ARTICLES
+ARTICLES.map(a => a.slug)

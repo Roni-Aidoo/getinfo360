@@ -592,7 +592,7 @@ function renderHero(){
 
   // Build as a proper two-pane head-book (cover + info), wrapped in a single link
   hero.innerHTML = `
-    <a href="Story.html?slug=${encodeURIComponent(book.slug)}" style="display:contents;">
+    <a href="/stories/${encodeURIComponent(book.slug)}.html" style="display:contents;">
       <div class="head-book-cover" style="background-image:linear-gradient(180deg, rgba(10,15,14,0.05) 0%, rgba(6,9,8,0.35) 100%), url('${book.image}');"></div>
       <div class="head-book-info">
         <span class="hb-badge"><i class="fa-solid fa-feather"></i> Book Of The Season</span>
@@ -620,7 +620,7 @@ function renderListingFeed(){
   const items = STORIES.slice(1, 5);
 
   grid.innerHTML = items.map(article => `
-    <a class="card" href="Story.html?slug=${encodeURIComponent(article.slug)}">
+    <a class="card" href="/stories/${encodeURIComponent(article.slug)}.html">
       <div class="card-img"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="card-body">
         <span class="card-cat">${escapeHtml(article.category)}</span>
@@ -644,7 +644,7 @@ function renderTrendingPanel(){
   }
 
   wrap.innerHTML = STORIES.map((article, i) => `
-    <a class="trend-row" href="Story.html?slug=${encodeURIComponent(article.slug)}">
+    <a class="trend-row" href="/stories/${encodeURIComponent(article.slug)}.html">
       <span class="trend-num">${String(i + 1).padStart(2,'0')}</span>
       <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="trend-info">

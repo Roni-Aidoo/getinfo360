@@ -517,8 +517,10 @@ function renderArticle(){
   const params = new URLSearchParams(window.location.search);
   if (params.get('slug')) return params.get('slug');
 
-  const match = window.location.pathname.match(/([^\/]+)\.html$/);
+  // Matches both "/articles/some-slug.html" and "/articles/some-slug"
+  const match = window.location.pathname.match(/([^\/]+?)(?:\.html)?\/?$/);
   return match ? match[1] : null;
+
 }
 
 const slug = getSlugFromURL();
@@ -555,7 +557,7 @@ const slug = getSlugFromURL();
     <div class="recent-post">
       <div class="trend-thumb"></div>
       <div class="trend-info">
-        <h4><a href="article.html?slug=${encodeURIComponent(a.slug)}">${escapeHTML(a.title)}</a></h4>
+        <h4><a href="/stories/${encodeURIComponent(a.slug)}.html">${escapeHTML(a.title)}</a></h4>
         <div class="trend-date">${a.date}</div>
       </div>
     </div>

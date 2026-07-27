@@ -15,7 +15,7 @@ const STORIES = [
     author: "Jennifer Agyei",
     date: "July 20, 2026",
     readTime: "4 min read",
-    image: "Assets/JB1.png",
+    image: "/Assets/JB1.png",
     excerpt: "A Story about the girl who changed the story of his people",
     tags: ["Story", "Hope", "Jenni's Corner"],
     body: [

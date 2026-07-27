@@ -847,7 +847,7 @@ function renderTicker(){
   const items = TRENDING.slice(0, 4);
 
   track.innerHTML = items.map(item => `
-    <a href="trend.html?slug=${encodeURIComponent(item.slug)}">${escapeHtml(item.title)}</a>
+    <a href="/trends/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>
   `).join('');
 }
 
@@ -878,7 +878,7 @@ function renderFeedGrid(){
   if(typeof ARTICLES !== 'undefined'){
     ARTICLES.slice(1, 3).forEach(a => {
       cards.push(buildCard(
-        `article.html?slug=${encodeURIComponent(a.slug)}`,
+        `articles/${encodeURIComponent(a.slug)}.html`,
         a.image, a.title, a.category, a.title, a.date
       ));
     });
@@ -887,7 +887,7 @@ function renderFeedGrid(){
   if(typeof TRENDING !== 'undefined'){
     TRENDING.slice(0, 1).forEach(t => {
       cards.push(buildCard(
-        `trend.html?slug=${encodeURIComponent(t.slug)}`,
+        `/trends/${encodeURIComponent(t.slug)}.html`,
         t.image, t.title, t.category, t.title, t.date
       ));
     });
@@ -920,7 +920,7 @@ function renderTrendingPanel(){
   }
 
   wrap.innerHTML = items.map((item, i) => `
-    <a class="trend-row" href="trend.html?slug=${encodeURIComponent(item.slug)}">
+    <a class="trend-row" href="/trends/${encodeURIComponent(item.slug)}.html">
       <span class="trend-num">${String(i + 1).padStart(2,'0')}</span>
       <div class="trend-thumb"><img src="${item.image}" alt="${escapeHtml(item.title)}"></div>
       <div class="trend-info">

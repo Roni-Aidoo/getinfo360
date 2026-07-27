@@ -471,7 +471,7 @@ function renderHero(){
   const article = TRENDING[0];
 
   hero.innerHTML = `
-    <a href="trend.html?slug=${encodeURIComponent(article.slug)}" style="position:absolute; inset:0; display:block;">
+    <a href="/trends/${encodeURIComponent(article.slug)}.html" style="position:absolute; inset:0; display:block;">
       <div class="hero-bg" style="background-image: linear-gradient(180deg, rgba(10,15,14,0.1) 25%, rgba(6,9,8,0.9) 100%), url('${article.image}');"></div>
       <div class="hero-content">
         <span class="hero-badge"><i class="fa-solid fa-fire"></i> ${escapeHtml(article.category)}</span>
@@ -492,7 +492,7 @@ function renderListingFeed(){
   const items = TRENDING.slice(1, 5);
 
   grid.innerHTML = items.map(article => `
-    <a class="card" href="trend.html?slug=${encodeURIComponent(article.slug)}">
+    <a class="card" href="/trends/${encodeURIComponent(article.slug)}.html">
       <div class="card-img"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="card-body">
         <span class="card-cat">${escapeHtml(article.category)}</span>
@@ -516,7 +516,7 @@ function renderTrendingPanel(){
   }
 
   wrap.innerHTML = TRENDING.map((article, i) => `
-    <a class="trend-row" href="trend.html?slug=${encodeURIComponent(article.slug)}">
+    <a class="trend-row" href="/trends/${encodeURIComponent(article.slug)}.html">
       <span class="trend-num">${String(i + 1).padStart(2,'0')}</span>
       <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="trend-info">
