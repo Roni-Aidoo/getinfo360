@@ -11,6 +11,19 @@
 <meta id="page-description" name="description" content="Getinfo Online article.">
 <meta name="theme-color" content="#0F3D2E">
 <link rel="icon" href="/favicon.ico">
+
+<title id="meta-title">Getinfo Online</title>
+<meta name="description" id="meta-description" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" id="meta-og-title" content="">
+<meta property="og:description" id="meta-og-description" content="">
+<meta property="og:image" id="meta-og-image" content="">
+<meta property="og:url" id="meta-og-url" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" id="meta-twitter-title" content="">
+<meta name="twitter:description" id="meta-twitter-description" content="">
+<meta name="twitter:image" id="meta-twitter-image" content="">
+<link rel="canonical" id="meta-canonical" href="">
 <style>
 
 /* ============================================================
@@ -504,8 +517,15 @@ function renderBody(bodyArray){
 }
 
 function renderArticle(){
+ function getSlugFromURL() {
   const params = new URLSearchParams(window.location.search);
-  const slug = params.get('slug');
+  if (params.get('slug')) return params.get('slug');
+
+  const match = window.location.pathname.match(/([^\/]+)\.html$/);
+  return match ? match[1] : null;
+}
+
+const slug = getSlugFromURL();
   const article = slug ? getArticleBySlug(slug) : null;
 
   if(!article){

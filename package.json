@@ -1,0 +1,12 @@
+{
+  "name": "getinfo-meta-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build-time generator for per-article social/SEO meta tags.",
+  "scripts": {
+    "build:meta": "node generate-meta.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

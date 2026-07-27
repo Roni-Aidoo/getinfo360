@@ -40,3 +40,6 @@ function getArticleBySlug(slug){
 function getOtherArticles(excludeSlug, limit = 4){
   return STORIES.filter(a => a.slug !== excludeSlug).slice(0, limit);
 }
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = STORIES;
+}

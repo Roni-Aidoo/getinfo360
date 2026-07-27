@@ -162,3 +162,6 @@ function getArticleBySlug(slug){
 function getOtherArticles(excludeSlug, limit = 2){
   return ARTICLES.filter(a => a.slug !== excludeSlug).slice(0, limit);
 }
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = ARTICLES;
+}
