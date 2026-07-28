@@ -9,6 +9,26 @@
 
 const TRENDING = [
      {
+    slug: "ics-heads-to-supreme-court-to-push-enforcement-of-ban-on-dog-and-cat-meat-consum",
+    title: "ICS Heads to Supreme Court to Push Enforcement of Ban on Dog and Cat Meat Consumption",
+    category: "Trending",
+    author: "Newsroom",
+    date: "July 28, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Screenshot_20260728-175513.jpg",
+    imageCaption: "Web",
+    excerpt: "The Institute of Community Sustainability (ICS) has announced plans to petition the Supreme Court to compel the enforcement of laws prohibiting the slaughter and consumption of dogs and cats in Ghana.",
+    tags: ["ICS", "Ghana", "Supreme Court"],
+    body: [
+      "The Institute of Community Sustainability (ICS) has announced plans to petition the Supreme Court to compel the enforcement of laws prohibiting the slaughter and consumption of dogs and cats in Ghana.",
+      "In a statement issued on Tuesday, July 28, the organisation said it intends to seek a legal interpretation and enforcement of Section 303 of the Criminal Offences Act (Act 29), as amended by the Criminal Code (Amendment) Act, 1998 (Act 554), which it says outlaws the unlawful killing and consumption of the two companion animals.\n\nAccording to the Institute, despite the existing legal provisions, the practice of slaughtering dogs and cats for meat continues in some parts of the country, prompting the organisation to seek judicial intervention.",
+      "ICS argued that dogs and cats are companion animals that deserve protection, noting that they play important roles in many households and should not be subjected to cruelty for human consumption.\n\nThe organisation also raised concerns about the potential public health implications of the practice, warning that the unregulated handling and slaughter of the animals could expose people to zoonotic diseases, including rabies.",
+      "It further noted that, unlike livestock such as cattle, goats, pigs, poultry and fish, Ghana has no recognised or regulated farms for breeding dogs and cats for consumption. This, it said, raises concerns that animals entering the trade may have been stolen or acquired through illegal means.\n\nExecutive Director of ICS, Eric Jerry Aidoo, popularly known as Chairman Jerry, said the organisation's legal action is intended to protect companion animals and ensure compliance with the country's laws.",
+      "He called on the Supreme Court to uphold the legislation and direct the appropriate state institutions to enforce the provisions governing the protection of dogs and cats.",
+      "The Institute said the planned court action forms part of its broader campaign to promote animal welfare, encourage adherence to the law and strengthen environmental sustainability initiatives across the country."
+    ]
+  },
+     {
     slug: "sulemana-abdul-samed-ghanas-tallest-man-dies-at-33",
     title: "Sulemana Abdul Samed, Ghana's Tallest Man, Dies at 33",
     category: "News",
