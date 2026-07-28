@@ -8,6 +8,11 @@
 
 /* Each quote needs: text, image (author photo), name (author) */
 const QUOTES = [
+   {
+    text: "Remember, instructions go to those who utilse them well, not those who trivialise them",
+    image: "Assets/LOG.jpg",
+    name: "Pastor Prince Octhere Danso"
+  },
   {
     text: "To play a Hero, you have to play right so that you don't lose",
     image: "Assets/LOG.jpg",
