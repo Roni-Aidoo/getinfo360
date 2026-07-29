@@ -24,7 +24,7 @@ const TRENDING = [
       "According to GRIDCo, the incident occurred at approximately 3:11 a.m., triggering the simultaneous shutdown of several power generation plants connected to the national grid. The disruption affected electricity supply in several parts of the country.\nIn a statement, the company said it immediately activated its emergency system restoration procedures, with engineers and system operators working around the clock in collaboration with other stakeholders in the power sector to restore electricity to affected areas as quickly and safely as possible.",
       "GRIDCo also disclosed that a comprehensive technical investigation is underway to establish the exact cause of the disturbance.",
       "> \"Our engineers and system operators are working continuously, in close collaboration with power sector stakeholders, to restore power within the shortest possible time without compromising safety,\" the company stated.",
-      "<div class=\"EV\"><img src=\"Assets/EV2.jpg\" alt=\"letter\"></div> <br> <br><br>",
+      "<div class=\"EV\"><img src=\"/Assets/EV2.jpg\" alt=\"letter\"></div> <br> <br><br>",
       "The transmission company apologised to customers for the inconvenience caused and expressed appreciation for the public's patience and understanding as restoration efforts continue.\n\nGRIDCo assured the public that additional updates would be provided as investigations progress and more information becomes available."
     ]
   },
