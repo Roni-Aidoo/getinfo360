@@ -27,6 +27,10 @@ const QUOTES = [
 
 /* Each art entry needs: image. caption/alt are optional. */
 const ARTS = [
+   {
+    image: "Assets/Art4.jpg",
+    alt: "Deputy AG on ORALCASES"
+  },
   {
     image: "Assets/art2.jpg",
     alt: "Daily cartoon"
