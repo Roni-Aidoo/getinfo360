@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>getinfo Online Signin</title>
+    <title>Subscribe to Getinfo Online</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -298,8 +298,6 @@
         display: none;
     }
 
-
-
     .social-links {
         display: none;
         gap: 15px;
@@ -309,7 +307,6 @@
     .social-links a {
         display: flex;
         align-items: center;
-
         justify-content: center;
         width: 40px;
         height: 40px;
@@ -336,73 +333,65 @@
         box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.08);
         border: 1px solid #eee7e1;
         transition: 0.2s;
-
-        margin-top: 70px;
+        margin: 70px auto 40px;
     }
 
     .auth-card .brand {
         display: flex;
         align-items: center;
         gap: 12px;
-        margin-bottom: 1.8rem;
+        margin-bottom: 0.6rem;
     }
 
-    .auth-card .brand i {
-        font-size: 2.2rem;
-        color: #d35400;
-        background: #f5ede7;
-        padding: 0.5rem;
-        border-radius: 18px;
+    .auth-card .brand-icon {
+        font-size: 1.7rem;
+        color: var(--brand);
+        background: var(--brand-light);
+        padding: 0.6rem;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .auth-card .brand h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         font-weight: 700;
         color: #1e1e2a;
     }
 
     .auth-card .brand h1 span {
-        color: #d35400;
+        color: var(--brand);
     }
 
     .auth-card .sub {
         color: #5a5a6a;
         font-size: 0.95rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
     }
 
-    /* ---------- tabs ---------- */
-    .tab-bar {
-        display: flex;
-        gap: 4px;
-        background: #f3ede8;
-        border-radius: 60px;
-        padding: 4px;
-        margin-bottom: 2rem;
-    }
-
-    .tab-btn {
-        flex: 1;
-        border: 0;
-        background: transparent;
-        padding: 10px 0;
-        border-radius: 40px;
+    /* ---------- form message (error / info) ---------- */
+    .form-message {
+        display: none;
+        padding: 12px 14px;
+        border-radius: 14px;
+        font-size: 0.86rem;
         font-weight: 600;
-        font-size: 0.95rem;
-        color: #4a4a5a;
-        cursor: pointer;
-        transition: 0.2s;
-        font-family: inherit;
+        margin-bottom: 1.2rem;
     }
 
-    .tab-btn.active {
-        background: white;
-        color: #1e1e2a;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    .form-message.show {
+        display: block;
     }
 
-    .tab-btn:hover:not(.active) {
-        color: #1e1e2a;
+    .form-message.error {
+        background: #fdeceb;
+        color: #b03a2e;
+    }
+
+    .form-message.info {
+        background: #fff8e1;
+        color: #8a6d1f;
     }
 
     /* ---------- form groups ---------- */
@@ -431,22 +420,13 @@
     }
 
     .form-group input:focus {
-        border-color: #d35400;
-        box-shadow: 0 0 0 4px rgba(211, 84, 0, 0.06);
+        border-color: var(--brand);
+        box-shadow: 0 0 0 4px rgba(31, 12, 112, 0.08);
         background: white;
     }
 
     .form-group input::placeholder {
         color: #b0a69b;
-    }
-
-    .form-row {
-        display: flex;
-        gap: 14px;
-    }
-
-    .form-row .form-group {
-        flex: 1;
     }
 
     /* ---------- submit button ---------- */
@@ -455,7 +435,7 @@
         padding: 14px;
         border: 0;
         border-radius: 60px;
-        background: #d35400;
+        background: var(--brand);
         color: white;
         font-weight: 600;
         font-size: 1rem;
@@ -463,296 +443,75 @@
         transition: 0.2s;
         font-family: inherit;
         margin-top: 0.6rem;
-        box-shadow: 0 4px 14px rgba(211, 84, 0, 0.18);
+        box-shadow: 0 4px 14px rgba(31, 12, 112, 0.22);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     }
 
-    .btn-submit:hover {
-        background: #b84a00;
+    .btn-submit:hover:not(:disabled) {
+        background: #160a52;
         transform: scale(1.01);
     }
 
-    /* ---------- social sign in ---------- */
-    .social-divider {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        margin: 1.8rem 0 1.4rem;
+    .btn-submit:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+
+    .subscribe-note {
+        text-align: center;
+        margin-top: 1.6rem;
         color: #8a8a9a;
         font-size: 0.85rem;
     }
 
-    .social-divider::before,
-    .social-divider::after {
-        content: '';
-        flex: 1;
-        height: 1px;
-        background: #e6ddd6;
-    }
-
-    .social-btn {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ddd2c8;
-        border-radius: 60px;
-        background: white;
-        font-weight: 500;
-        font-size: 0.95rem;
-        color: #1e1e2a;
-        cursor: pointer;
-        transition: 0.2s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 12px;
-        font-family: inherit;
-    }
-
-    .social-btn i {
-        font-size: 1.4rem;
-        color: #ea4335;
-    }
-
-    .social-btn:hover {
-        background: #f9f5f1;
-        border-color: #c0b4a8;
-    }
-
-    /* ---------- toggle between login & signup ---------- */
-    .toggle-text {
+    /* ---------- success state ---------- */
+    .success-state {
         text-align: center;
-        margin-top: 1.8rem;
-        color: #5a5a6a;
-        font-size: 0.9rem;
+        padding: 10px 0 4px;
     }
 
-    .toggle-text a {
-        color: #d35400;
-        font-weight: 600;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    .toggle-text a:hover {
-        text-decoration: underline;
-    }
-
-    /* ---------- hidden state ---------- */
-    .form-panel {
-        display: none;
-    }
-
-    .form-panel.active {
+    .success-state .success-icon {
+        font-size: 2.6rem;
+        color: #2e7d32;
+        margin-bottom: 14px;
         display: block;
-        animation: fadeIn 0.25s ease;
     }
 
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(6px);
-        }
+    .success-state h2 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        font-weight: 700;
+        color: #1e1e2a;
+    }
 
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+    .success-state p {
+        color: #5a5a6a;
+        font-size: 0.95rem;
+        margin-bottom: 22px;
+    }
+
+    .success-state a.back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+        color: var(--brand);
+        font-size: 0.92rem;
+    }
+
+    .hidden {
+        display: none !important;
     }
 
     /* ---------- responsive ---------- */
     @media (max-width: 480px) {
         .auth-card {
             padding: 2rem 1.5rem;
+            margin: 50px auto 30px;
         }
-
-        .form-row {
-            flex-direction: column;
-            gap: 0;
-        }
-    }
-
-
-    /* ===== FIXED MOBILE STYLES ===== */
-    @media (max-width: 992px) {
-        .header-content {
-            flex-wrap: wrap;
-        }
-
-        nav {
-            order: 3;
-            width: 100%;
-            margin-top: 15px;
-        }
-
-        nav ul {
-            flex-direction: column;
-            gap: 2px;
-
-
-            padding: 10px;
-            display: none;
-            max-height: 100vh;
-
-        }
-
-        nav ul.active {
-            display: flex;
-        }
-
-        nav ul li {
-            width: 100%;
-            margin-bottom: 2px;
-        }
-
-        nav ul li a {
-            padding: 15px;
-            justify-content: space-between;
-
-            border-radius: 5px;
-        }
-
-        /* FIXED: Mobile dropdown menus */
-        .dropdown-menu {
-            position: static !important;
-            opacity: 1 !important;
-            visibility: visible !important;
-            transform: none !important;
-            box-shadow: none;
-            background: transparent;
-            margin: 5px 0 5px 15px;
-            border-top: none;
-            min-width: auto;
-            display: none;
-            /* Hidden by default */
-            transition: none;
-        }
-
-        .dropdown-menu.show {
-            display: block !important;
-        }
-
-        .dropdown-menu li {
-            margin: 2px 0;
-        }
-
-        .dropdown-menu li a {
-            color: white;
-            padding: 12px 15px;
-            white-space: normal;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 5px;
-        }
-
-        .dropdown-menu li a i {
-            color: var(--primary);
-        }
-
-        .dropdown-menu li a:hover {
-            background: rgba(255, 203, 164, 0.3);
-            color: var(--primary);
-        }
-
-        .mobile-menu {
-            display: block;
-        }
-
-        .nav-right {
-            order: 2;
-        }
-
-        .social-links {
-            display: block;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-    }
-
-    /* Additional fix for very small screens */
-    @media (max-width: 480px) {
-        .logo-text h1 {
-            font-size: 1.3rem;
-        }
-
-        .logo-text p {
-            font-size: 0.7rem;
-        }
-
-        .logo-icon img {
-            width: 100px;
-            height: 60px;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-        }
-    }
-
-    @media (max-width: 992px) {
-        .news-layout {
-            grid-template-columns: 1fr;
-            margin-left: -30px;
-        }
-
-        .news-sidebar {
-            position: static;
-        }
-
-        .featured-image {
-            height: 300px;
-        }
-
-        .logo-icon img {
-            width: 90px;
-            height: 50px;
-
-
-            padding: 5px;
-        }
-
-        .sidebar-widget {
-            background: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            width: auto;
-        }
-
-    }
-
-    @media (max-width: 768px) {
-        .news-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .newsletter-form {
-            flex-direction: column;
-        }
-
-        .page-header h1 {
-            font-size: 2.2rem;
-        }
-
-        .logo-icon img {
-            width: 120px;
-            height: 60px;
-            object-fit: contain;
-            filter: brightness(0) invert(1);
-        }
-
-        .sidebar-widget {
-            background: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            width: auto;
-        }
-
-
-
     }
 
     @media (max-width:992px) {
@@ -764,33 +523,8 @@
             display: flex;
         }
 
-        .feed-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .hero-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .hero,
-        .hero.hero-secondary {
-            height: 340px;
-        }
-
-        .footer-container {
-            grid-template-columns: 1fr 1fr;
-        }
-
-        .footer-brand {
-            grid-column: 1/-1;
-        }
-
         body {
             padding-bottom: calc(var(--tabbar-h) + 12px);
-        }
-
-        .tabbar {
-            display: block;
         }
 
         .chip-rail-wrap {
@@ -798,28 +532,50 @@
         }
     }
 
-   
-.drawer{
-  position:fixed; top:0; right:0; height:100%; width:min(320px,84%);
-  background:var(--surface); z-index:1200; transform:translateX(100%);
-  transition:transform .35s cubic-bezier(.4,0,.2,1); padding:24px; overflow-y:auto;
-  box-shadow:-10px 0 30px rgba(0,0,0,0.2);
-}
-.drawer.open{ transform:translateX(0); }
-.drawer-scrim{
-  position:fixed; inset:0; background:rgba(0,0,0,0.4); z-index:1100;
-  opacity:0; visibility:hidden; transition:opacity .3s ease;
-}
-.drawer-scrim.show{ opacity:1; visibility:visible; }
-.drawer-close{ display:flex; justify-content:flex-end; margin-bottom:20px; }
-.drawer ul li a{
-  display:flex; align-items:center; justify-content:space-between; padding:14px 4px;
-  font-weight:600; border-bottom:1px solid var(--line);
-}
-.drawer .drawer-sub{ padding-left:14px; }
-.drawer .drawer-sub li a{ font-weight:500; font-size:0.92rem; color:var(--ink-soft); border-bottom:none; padding:10px 4px; }
-.drawer-social{ display:flex; gap:10px; margin-top:24px; }
-.drawer-social a{ width:38px; height:38px; border-radius:10px; background:var(--brand-light); color:var(--brand); display:flex; align-items:center; justify-content:center; }
+    /* ================= MOBILE BOTTOM TAB BAR ================= */
+    .tabbar{
+        display:none; position:fixed; bottom:0; left:0; width:100%; height:var(--tabbar-h);
+        background:var(--surface); border-top:1px solid var(--line); z-index:1000;
+        padding-bottom:env(safe-area-inset-bottom); box-shadow:0 -6px 20px rgba(0,0,0,0.06);
+    }
+    .tabbar ul{ display:flex; height:100%; }
+    .tabbar li{ flex:1; }
+    .tabbar a{
+        height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center;
+        gap:3px; color:var(--ink-soft); font-size:0.68rem; font-weight:600; transition:color .2s ease;
+    }
+    .tabbar a i{ font-size:1.1rem; }
+    .tabbar a.active{ color:var(--brand); }
+    .tabbar a .fab-circle{
+        width:44px; height:44px; border-radius:50%; background:var(--brand); color:#fff;
+        display:flex; align-items:center; justify-content:center; margin-top:-22px;
+        box-shadow:0 6px 16px rgba(15,61,46,0.4);
+    }
+    @media (max-width:992px){
+        .tabbar{ display:block; }
+    }
+
+    .drawer{
+      position:fixed; top:0; right:0; height:100%; width:min(320px,84%);
+      background:var(--surface); z-index:1200; transform:translateX(100%);
+      transition:transform .35s cubic-bezier(.4,0,.2,1); padding:24px; overflow-y:auto;
+      box-shadow:-10px 0 30px rgba(0,0,0,0.2);
+    }
+    .drawer.open{ transform:translateX(0); }
+    .drawer-scrim{
+      position:fixed; inset:0; background:rgba(0,0,0,0.4); z-index:1100;
+      opacity:0; visibility:hidden; transition:opacity .3s ease;
+    }
+    .drawer-scrim.show{ opacity:1; visibility:visible; }
+    .drawer-close{ display:flex; justify-content:flex-end; margin-bottom:20px; }
+    .drawer ul li a{
+      display:flex; align-items:center; justify-content:space-between; padding:14px 4px;
+      font-weight:600; border-bottom:1px solid var(--line);
+    }
+    .drawer .drawer-sub{ padding-left:14px; }
+    .drawer .drawer-sub li a{ font-weight:500; font-size:0.92rem; color:var(--ink-soft); border-bottom:none; padding:10px 4px; }
+    .drawer-social{ display:flex; gap:10px; margin-top:24px; }
+    .drawer-social a{ width:38px; height:38px; border-radius:10px; background:var(--brand-light); color:var(--brand); display:flex; align-items:center; justify-content:center; }
 
 </style>
 
@@ -841,7 +597,7 @@
                                 class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu" id="about-dropdown">
                             <li><a href="360.html">360 Echoes</a></li>
-                                            </ul>
+                        </ul>
                     </li>
                     <li><a href="Treanding.html" class="top-link">Trending Issues</a></li>
                 </ul>
@@ -852,121 +608,89 @@
                         class="fas fa-search"></i></button>
                 <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" id="theme-toggle"><i
                         class="fas fa-moon"></i></button>
-                <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-circle-user"></i></a>
+                <a href="Signin.html" class="icon-btn" aria-label="Subscribe"><i class="fa-solid fa-envelope"></i></a>
                 <button class="icon-btn mobile-menu" onclick="toggleDrawer()" aria-label="Menu"><i
                         class="fas fa-bars"></i></button>
             </div>
         </div>
     </header>
 
-
-
     <div class="auth-card">
-        <div class="hold">
-            <!-- brand -->
+        <!-- ========== SUBSCRIBE FORM ========== -->
+        <div id="subscribeView">
             <div class="brand">
-
+                <span class="brand-icon"><i class="fa-solid fa-envelope-open-text"></i></span>
                 <h1>Getinfo<span> Online</span></h1>
             </div>
-            <p class="sub">Welcome back — or join the conversation.</p>
+            <p class="sub">Subscribe to get trending issues, articles, and stories delivered straight to your inbox.</p>
 
-            <!-- tab bar -->
-            <div class="tab-bar" id="tabBar">
-                <button class="tab-btn active" data-tab="login">Log in</button>
-                <button class="tab-btn" data-tab="signup">Sign up</button>
-            </div>
+            <div class="form-message" id="subscribeMsg"></div>
 
-            <!-- ========== LOGIN PANEL ========== -->
-            <div class="form-panel active" id="loginPanel">
-                <form id="loginForm" onsubmit="return false;">
-                    <div class="form-group">
-                        <label for="loginEmail">Email address</label>
-                        <input type="email" id="loginEmail" placeholder="you@example.com" required />
-                    </div>
-                    <div class="form-group" id="loginOtpGroup" style="display:none;">
-                        <label for="loginOtp">Enter code from email</label>
-                        <input type="text" id="loginOtp" placeholder="123456" />
-                    </div>
-                    <button type="submit" class="btn-submit" id="loginBtn">Send login code</button>
-                </form>
-
-                <div class="toggle-text">
-                    Don't have an account? <a id="switchToSignup">Sign up</a>
+            <form id="subscribeForm" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="subUsername">Username</label>
+                    <input type="text" id="subUsername" placeholder="Your name" required autocomplete="name" />
                 </div>
-            </div>
-
-            <!-- ========== SIGNUP PANEL ========== -->
-            <div class="form-panel" id="signupPanel">
-                <form id="signupForm" onsubmit="return false;">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="signupUsername">Username</label>
-                            <input type="text" id="signupUsername" placeholder="johndoe" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="signupEmail">Email</label>
-                            <input type="email" id="signupEmail" placeholder="you@example.com" required />
-                        </div>
-                    </div>
-                    <div class="form-group" id="signupOtpGroup" style="display:none;">
-                        <label for="signupOtp">Enter code from email</label>
-                        <input type="text" id="signupOtp" placeholder="123456" />
-                    </div>
-                    <button type="submit" class="btn-submit" id="signupBtn">Create account</button>
-                </form>
-
-                <div class="toggle-text">
-                    Already have an account? <a id="switchToLogin">Log in</a>
+                <div class="form-group">
+                    <label for="subEmail">Email address</label>
+                    <input type="email" id="subEmail" placeholder="you@example.com" required autocomplete="email" />
                 </div>
-            </div>
+                <button type="submit" class="btn-submit" id="subscribeBtn">
+                    <i class="fa-solid fa-paper-plane"></i> Subscribe
+                </button>
+            </form>
+
+            <p class="subscribe-note">No spam, ever. Unsubscribe anytime.</p>
+        </div>
+
+        <!-- ========== SUCCESS STATE ========== -->
+        <div id="subscribeSuccess" class="success-state hidden">
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <h2>You're subscribed!</h2>
+            <p>Thanks for joining, <span id="successName">friend</span> — watch your inbox for our next update.</p>
+            <a class="back-link" href="index.html"><i class="fas fa-arrow-left"></i> Back to Getinfo Online</a>
         </div>
     </div>
-    <!-- ================= MOBILE DRAWER ================= -->
-<div class="drawer-scrim" id="drawer-scrim" onclick="toggleDrawer()"></div>
-<aside class="drawer" id="drawer">
-  <div class="drawer-close"><button class="icon-btn" onclick="toggleDrawer()"><i class="fas fa-xmark"></i></button></div>
-  <ul>
-    <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brand)"></i>Home</span></a></li>
-    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brand)"></i>Articles</span><i class="fas fa-chevron-down"></i></a>
-      <ul class="drawer-sub" id="drawer-sub" style="display:none;">
-        <li><a href="360.html">360 Echoes</a></li>
-      </ul>
-    </li>
-    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brand)"></i>Trending Issues</span></a></li>
-    <li><a href="Signin.html"><span><i class="fa-solid fa-circle-user" style="margin-right:10px;color:var(--brand)"></i>Sign in</span></a></li>
-  </ul>
-  <div class="drawer-social">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-youtube"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
-  </div>
 
+    <!-- ================= MOBILE BOTTOM TAB BAR ================= -->
+    <nav class="tabbar" id="tabbar">
+        <ul>
+            <li><a href="Treanding.html" onclick="setTab(this)"><i class="fas fa-fire"></i> Trending</a></li>
+            <li><a href="Stories.html" onclick="setTab(this)"><i class="fas fa-book"></i> Stories</a></li>
+            <li><a href="index.html"><span class="fab-circle"><i class="fas fa-house"></i></span></a></li>
+            <li><a href="360.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i> Articles</a></li>
+            <li><a href="Signin.html" class="active" onclick="setTab(this)"><i class="fa-solid fa-envelope"></i> Subscribe</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= MOBILE DRAWER ================= -->
+    <div class="drawer-scrim" id="drawer-scrim" onclick="toggleDrawer()"></div>
+    <aside class="drawer" id="drawer">
+        <div class="drawer-close"><button class="icon-btn" onclick="toggleDrawer()"><i class="fas fa-xmark"></i></button></div>
+        <ul>
+            <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brand)"></i>Home</span></a></li>
+            <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brand)"></i>Articles</span><i class="fas fa-chevron-down"></i></a>
+                <ul class="drawer-sub" id="drawer-sub" style="display:none;">
+                    <li><a href="360.html">360 Echoes</a></li>
+                </ul>
+            </li>
+            <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brand)"></i>Trending Issues</span></a></li>
+            <li><a href="Signin.html"><span><i class="fa-solid fa-envelope" style="margin-right:10px;color:var(--brand)"></i>Subscribe</span></a></li>
+        </ul>
+        <div class="drawer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </aside>
 
     <script>
         // ---------- Supabase init ----------
         const SUPABASE_URL = 'https://nrgyqpujjfkkcfyljvgc.supabase.co';
         const SUPABASE_ANON_KEY = 'sb_publishable_HfO1WcUv47_M4fFnCalYtw_kqPfbYq4';
         const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
-        // Handle Supabase email redirect / OTP callback
-        (async () => {
-            const hash = window.location.hash;
-            if (hash && hash.includes('access_token')) {
-                const params = new URLSearchParams(hash.substring(1));
-                const access_token = params.get('access_token');
-                const refresh_token = params.get('refresh_token');
-                if (access_token && refresh_token) {
-                    const { error } = await sb.auth.setSession({ access_token, refresh_token });
-                    if (!error) {
-                        window.location.replace('index.html');
-                        return;
-                    }
-                }
-                window.location.hash = '';
-            }
-        })();
 
         /* ---------- theme toggle ---------- */
         const themeToggle = document.getElementById('theme-toggle');
@@ -1003,6 +727,12 @@
             el.classList.add('active');
         }
 
+        /* ---------- bottom tab active state ---------- */
+        function setTab(el) {
+            document.querySelectorAll('.tabbar a').forEach(a => a.classList.remove('active'));
+            el.classList.add('active');
+        }
+
         /* ---------- mobile drawer ---------- */
         function toggleDrawer() {
             document.getElementById('drawer').classList.toggle('open');
@@ -1014,26 +744,11 @@
             const sub = document.getElementById('drawer-sub');
             sub.style.display = sub.style.display === 'none' ? 'block' : 'none';
         }
+
         /* ---------- sticky header shadow ---------- */
         const appbar = document.getElementById('appbar');
         window.addEventListener('scroll', () => {
             appbar.classList.toggle('scrolled', window.scrollY > 20);
-        });
-
-        /* ---------- drag-to-scroll horizontal rails ---------- */
-        document.querySelectorAll('.hscroll').forEach(rail => {
-            let isDown = false, startX, scrollLeft;
-            rail.addEventListener('mousedown', e => {
-                isDown = true; rail.classList.add('dragging');
-                startX = e.pageX - rail.offsetLeft; scrollLeft = rail.scrollLeft;
-            });
-            ['mouseleave', 'mouseup'].forEach(evt => rail.addEventListener(evt, () => { isDown = false; rail.classList.remove('dragging'); }));
-            rail.addEventListener('mousemove', e => {
-                if (!isDown) return;
-                e.preventDefault();
-                const x = e.pageX - rail.offsetLeft;
-                rail.scrollLeft = scrollLeft - (x - startX) * 1.3;
-            });
         });
 
         /* ---------- scroll reveal ---------- */
@@ -1044,7 +759,7 @@
         }, { threshold: 0.12 });
         document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-        /* ---------- set active nav/tab on load based on URL ---------- */
+        /* ---------- set active nav link based on URL ---------- */
         document.addEventListener('DOMContentLoaded', () => {
             const page = window.location.pathname.split('/').pop() || 'index.html';
             document.querySelectorAll('.top-link, .tabbar a').forEach(l => {
@@ -1052,347 +767,64 @@
             });
         });
 
-
-        (function () {
-            // ----- DOM refs -----
-            const tabBar = document.getElementById('tabBar');
-            const loginPanel = document.getElementById('loginPanel');
-            const signupPanel = document.getElementById('signupPanel');
-            const switchToSignup = document.getElementById('switchToSignup');
-            const switchToLogin = document.getElementById('switchToLogin');
-
-            // ----- tab switching -----
-            function setActiveTab(tab) {
-                // update buttons
-                document.querySelectorAll('.tab-btn').forEach(btn => {
-                    btn.classList.toggle('active', btn.dataset.tab === tab);
-                });
-                // update panels
-                loginPanel.classList.toggle('active', tab === 'login');
-                signupPanel.classList.toggle('active', tab === 'signup');
-            }
-
-            tabBar.addEventListener('click', (e) => {
-                const btn = e.target.closest('.tab-btn');
-                if (!btn) return;
-                setActiveTab(btn.dataset.tab);
-            });
-
-            switchToSignup.addEventListener('click', () => setActiveTab('signup'));
-            switchToLogin.addEventListener('click', () => setActiveTab('login'));
-
-            // ----- form submissions (passwordless OTP) -----
-            let pendingEmail = '';
-
-            document.getElementById('loginForm').addEventListener('submit', async function (e) {
-                e.preventDefault();
-                const email = document.getElementById('loginEmail').value.trim();
-                const otp = document.getElementById('loginOtp').value.trim();
-                const otpGroup = document.getElementById('loginOtpGroup');
-                const btn = document.getElementById('loginBtn');
-
-                if (!email) {
-                    alert('Please enter your email.');
-                    return;
-                }
-
-                if (!otpGroup.style.display || otpGroup.style.display === 'none') {
-                    // Step 1: send OTP
-                    const { error } = await sb.auth.signInWithOtp({ email });
-                    if (error) {
-                        alert('Could not send login code: ' + error.message);
-                        return;
-                    }
-                    pendingEmail = email;
-                    otpGroup.style.display = 'block';
-                    btn.textContent = 'Verify code';
-                } else {
-                    // Step 2: verify OTP
-                    if (!otp) {
-                        alert('Please enter the code.');
-                        return;
-                    }
-                    const { data, error } = await sb.auth.verifyOtp({
-                        email,
-                        token: otp,
-                        type: 'email'
-                    });
-                    if (error) {
-                        alert('Invalid code: ' + error.message);
-                    } else {
-                        const userName = data.user?.user_metadata?.username || 'User';
-                        try { localStorage.setItem('getinfo-username', userName); } catch (e) {}
-                        window.location.href = 'index.html';
-                    }
-                }
-            });
-
-            document.getElementById('signupForm').addEventListener('submit', async function (e) {
-                e.preventDefault();
-                const username = document.getElementById('signupUsername').value.trim();
-                const email = document.getElementById('signupEmail').value.trim();
-                const otp = document.getElementById('signupOtp').value.trim();
-                const otpGroup = document.getElementById('signupOtpGroup');
-                const btn = document.getElementById('signupBtn');
-
-                if (!username || !email) {
-                    alert('Please fill in all fields.');
-                    return;
-                }
-
-                if (!otpGroup.style.display || otpGroup.style.display === 'none') {
-                    // Step 1: send OTP and create account
-                    const { error } = await sb.auth.signInWithOtp({
-                        email,
-                        options: { data: { username } }
-                    });
-                    if (error) {
-                        alert('Could not create account: ' + error.message);
-                        return;
-                    }
-                    pendingEmail = email;
-                    otpGroup.style.display = 'block';
-                    btn.textContent = 'Verify code';
-                } else {
-                    // Step 2: verify OTP
-                    if (!otp) {
-                        alert('Please enter the code.');
-                        return;
-                    }
-                    const { data, error } = await sb.auth.verifyOtp({
-                        email,
-                        token: otp,
-                        type: 'email'
-                    });
-                    if (error) {
-                        alert('Invalid code: ' + error.message);
-                    } else {
-                        const userName = data.user?.user_metadata?.username || username;
-                        try { localStorage.setItem('getinfo-username', userName); } catch (e) {}
-                        window.location.href = 'index.html';
-                    }
-                }
-            });
-
-        })();
-
-        // Toggle dropdown menu 
-        function toggleDropdown(event, dropdownId) {
-            event.preventDefault();
-            event.stopPropagation();
-
-            const dropdown = document.getElementById(dropdownId);
-            const chevron = event.currentTarget.querySelector('i.fa-chevron-down');
-
-            // Close all other dropdowns first
-            document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                if (menu.id !== dropdownId && menu.classList.contains('show')) {
-                    menu.classList.remove('show');
-                    // Reset chevron for the closed dropdown
-                    const parentLink = menu.closest('.dropdown')?.querySelector('.nav-link i.fa-chevron-down');
-                    if (parentLink) {
-                        parentLink.style.transform = 'rotate(0)';
-                    }
-                }
-            });
-
-            // Toggle current dropdown
-            dropdown.classList.toggle('show');
-
-            // Rotate chevron icon
-            if (chevron) {
-                chevron.style.transform = dropdown.classList.contains('show') ? 'rotate(180deg)' : 'rotate(0)';
-            }
-        }
-
-        // Toggle mobile menu 
-        function toggleMobileMenu() {
-            const navMenu = document.getElementById('nav-menu');
-            const mobileIcon = document.querySelector('.mobile-menu i');
-
-            navMenu.classList.toggle('active');
-
-            // Change icon based on menu state
-            if (navMenu.classList.contains('active')) {
-                mobileIcon.className = 'fas fa-times';
-                document.body.classList.add('menu-open');
-            } else {
-                mobileIcon.className = 'fas fa-bars';
-                document.body.classList.remove('menu-open');
-
-                // Close all dropdowns when closing mobile menu
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    menu.classList.remove('show');
-                });
-
-                // Reset all chevrons
-                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
-                    chevron.style.transform = 'rotate(0)';
-                });
-            }
-        }
-
-        // Set active link based on current page
-        function setActive(element) {
-            // Remove active class from all nav links
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.classList.remove('active');
-            });
-
-            // Add active class to clicked link
-            if (element) {
-                element.classList.add('active');
-            }
-
-            // On mobile, close menu after clicking a link
-            if (window.innerWidth <= 992) {
-                const navMenu = document.getElementById('nav-menu');
-                const mobileIcon = document.querySelector('.mobile-menu i');
-
-                navMenu.classList.remove('active');
-                mobileIcon.className = 'fas fa-bars';
-                document.body.classList.remove('menu-open');
-
-                // Close all dropdowns
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    menu.classList.remove('show');
-                });
-
-                // Reset all chevrons
-                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
-                    chevron.style.transform = 'rotate(0)';
-                });
-            }
-        }
-
-        // Close dropdowns when clicking outside
-        document.addEventListener('click', function (event) {
-            if (!event.target.closest('.dropdown') && !event.target.closest('.mobile-menu')) {
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    menu.classList.remove('show');
-                });
-
-                // Reset chevron rotations
-                document.querySelectorAll('.fa-chevron-down').forEach(chevron => {
-                    chevron.style.transform = 'rotate(0)';
-                });
-            }
-        });
-
-        // Handle window resize
-        window.addEventListener('resize', function () {
-            if (window.innerWidth > 992) {
-                // Reset mobile menu on desktop
-                const navMenu = document.getElementById('nav-menu');
-                const mobileIcon = document.querySelector('.mobile-menu i');
-
-                navMenu.classList.remove('active');
-                mobileIcon.className = 'fas fa-bars';
-                document.body.classList.remove('menu-open');
-
-                // Don't close dropdowns on desktop resize - they work differently
-            } else {
-                // On mobile, ensure dropdowns are properly styled
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    if (menu.classList.contains('show')) {
-                        menu.style.display = 'block';
-                    }
-                });
-            }
-        });
-
-        // Set active link based on current page URL
-        document.addEventListener('DOMContentLoaded', function () {
-            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-            const currentHash = window.location.hash;
-
-            document.querySelectorAll('.nav-link').forEach(link => {
-                const linkHref = link.getAttribute('href');
-
-                // Check if this link matches current page
-                if (linkHref === currentPage ||
-                    (currentPage === 'index.html' && linkHref === 'index.html') ||
-                    (currentHash && linkHref === currentHash)) {
-                    link.classList.add('active');
-                }
-
-                // Also check parent dropdown items
-                if (link.closest('.dropdown-menu')) {
-                    if (linkHref === currentPage) {
-                        const parentDropdown = link.closest('.dropdown');
-                        if (parentDropdown) {
-                            const parentLink = parentDropdown.querySelector('.nav-link');
-                            if (parentLink) {
-                                parentLink.classList.add('active');
-                            }
-                        }
-                    }
-                }
-            });
-        });
-
-        // Search functionality
+        // Search functionality placeholder
         function toggleSearch() {
             alert('Search feature coming soon!');
         }
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                if (this.getAttribute('href') !== '#') {
-                    e.preventDefault();
+        /* ============================================================
+           NEWSLETTER SUBSCRIBE
+           Requires a `subscribers` table in Supabase with an insert
+           policy open to the anon role. See setup notes provided
+           alongside this file.
+           ============================================================ */
+        function showMessage(text, type) {
+            const msg = document.getElementById('subscribeMsg');
+            msg.textContent = text;
+            msg.className = 'form-message show ' + type;
+        }
+        function clearMessage() {
+            const msg = document.getElementById('subscribeMsg');
+            msg.className = 'form-message';
+            msg.textContent = '';
+        }
 
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
+        document.getElementById('subscribeForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            clearMessage();
 
-                    if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
+            const username = document.getElementById('subUsername').value.trim();
+            const email = document.getElementById('subEmail').value.trim();
+            const btn = document.getElementById('subscribeBtn');
+
+            if (!username || !email) {
+                showMessage('Please fill in both fields.', 'error');
+                return;
+            }
+
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Subscribing…';
+
+            const { error } = await sb.from('subscribers').insert({
+                username: username,
+                email: email
+            });
+
+            if (error) {
+                // Postgres unique-violation code, in case `email` has a UNIQUE constraint
+                if (error.code === '23505' || /duplicate/i.test(error.message || '')) {
+                    showMessage("You're already subscribed with this email — thanks for being here!", 'info');
+                } else {
+                    showMessage('Something went wrong: ' + error.message, 'error');
                 }
-            });
-        });
-
-        // Form submission
-        const contactForm = document.getElementById('contactForm');
-        if (contactForm) {
-            contactForm.addEventListener('submit', function (e) {
-                e.preventDefault();
-                alert('Thank you for your message! We will get back to you soon.');
-                this.reset();
-            });
-        }
-
-        // Sticky header background on scroll
-        window.addEventListener('scroll', function () {
-            const header = document.querySelector('header');
-            if (window.scrollY > 100) {
-                header.style.backgroundColor = 'rgba(44, 62, 80, 0.95)';
-            } else {
-                header.style.backgroundColor = '';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Subscribe';
+                return;
             }
-        });
 
-        // Ghana flag animation
-        const ghanaFlag = document.querySelector('.ghana-flag');
-        if (ghanaFlag) {
-            ghanaFlag.addEventListener('mouseover', function () {
-                this.style.transform = 'scale(1.1)';
-            });
-
-            ghanaFlag.addEventListener('mouseout', function () {
-                this.style.transform = 'scale(1)';
-            });
-        }
-
-        // Supabase session check
-        document.addEventListener('DOMContentLoaded', async () => {
-            const { data: { session } } = await sb.auth.getSession();
-            if (session) {
-                window.location.href = 'index.html';
-            }
+            document.getElementById('successName').textContent = username;
+            document.getElementById('subscribeView').classList.add('hidden');
+            document.getElementById('subscribeSuccess').classList.remove('hidden');
         });
     </script>
 </body>
