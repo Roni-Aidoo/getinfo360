@@ -9,6 +9,24 @@
 
 const TRENDING = [
      {
+    slug: "2026-bece-results-released-as-waec-cancels-withholds-some-candidates-results",
+    title: "2026 BECE Results Released as WAEC Cancels, Withholds Some Candidates' Results",
+    category: "Education",
+    author: "Newsroom",
+    date: "July 29, 2026",
+    readTime: "1 min read",
+    image: "/Assets/88316678.295.jpg",
+    imageCaption: "Web",
+    excerpt: "The West African Examinations Council (WAEC) has released the provisional results of candidates who sat for the 2026 Basic Education Certificate Examination (BECE) for School Candidates.",
+    tags: ["WAEC", "BECE", "Ghana"],
+    body: [
+      "The West African Examinations Council (WAEC) has released the provisional results of candidates who sat for the 2026 Basic Education Certificate Examination (BECE) for School Candidates.\nA total of 620,243 candidates from 20,789 schools sat the examination, with 3,601 candidates absent.",
+      "Following investigations into examination malpractice, WAEC cancelled the subject results of 496 candidates and the entire results of 105 candidates. It also withheld the subject results of 119 candidates, the entire results of 48 candidates, and the subject results of 2,722 candidates from 229 schools pending further investigations. The Council said the withheld results will either be released or cancelled by August 31, 2026.",
+      "<div class=\"EV\"><img src=\"/Assets/We1.jpg</div><br>\n<div class=\"EV\"><img src=\"/Assets/We2.jpg</div><br><br><br><br>",
+      "Candidates with cancelled or withheld results have been advised to check their status through WAEC's irregularity portal. The Council also warned the public against fraudsters who claim they can upgrade examination results for a fee, stressing that all WAEC results are secure and can be authenticated."
+    ]
+  },
+     {
     slug: "major-power-outage-hits-parts-of-ghana-after-national-grid-disturbance",
     title: "Major Power Outage Hits Parts of Ghana After National Grid Disturbance",
     category: "National",
