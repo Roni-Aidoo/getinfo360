@@ -9,6 +9,26 @@
 
 const TRENDING = [
      {
+    slug: "major-power-outage-hits-parts-of-ghana-after-national-grid-disturbance",
+    title: "Major Power Outage Hits Parts of Ghana After National Grid Disturbance",
+    category: "National",
+    author: "Newsroom",
+    date: "July 29, 2026",
+    readTime: "1 min read",
+    image: "/Assets/images.jpeg",
+    imageCaption: "Web",
+    excerpt: "Parts of Ghana experienced widespread power outages in the early hours of Wednesday, July 29, after a major disturbance affected the country's National Interconnected Transmission System, the Ghana Grid Company Limited (GRIDCo) has announced.",
+    tags: ["Ghana", "GRiDCO", "Nationwide Blackout"],
+    body: [
+      "Parts of Ghana experienced widespread power outages in the early hours of Wednesday, July 29, after a major disturbance affected the country's National Interconnected Transmission System, the Ghana Grid Company Limited (GRIDCo) has announced.",
+      "According to GRIDCo, the incident occurred at approximately 3:11 a.m., triggering the simultaneous shutdown of several power generation plants connected to the national grid. The disruption affected electricity supply in several parts of the country.\nIn a statement, the company said it immediately activated its emergency system restoration procedures, with engineers and system operators working around the clock in collaboration with other stakeholders in the power sector to restore electricity to affected areas as quickly and safely as possible.",
+      "GRIDCo also disclosed that a comprehensive technical investigation is underway to establish the exact cause of the disturbance.",
+      "> \"Our engineers and system operators are working continuously, in close collaboration with power sector stakeholders, to restore power within the shortest possible time without compromising safety,\" the company stated.",
+      "<div class=\"EV\"><img src=\"Assets/EV2.jpg\" alt=\"img\"></div>",
+      "The transmission company apologised to customers for the inconvenience caused and expressed appreciation for the public's patience and understanding as restoration efforts continue.\n\nGRIDCo assured the public that additional updates would be provided as investigations progress and more information becomes available."
+    ]
+  },
+     {
     slug: "wontumis-legal-team-files-appeal-against-20-year-illegal-mining-sentence",
     title: "Wontumi's Legal Team Files Appeal Against 20-Year Illegal Mining Sentence",
     category: "News",
