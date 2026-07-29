@@ -8,6 +8,25 @@
    ============================================================ */
 
 const ARTICLES = [
+     {
+    slug: "be-discerning",
+    title: "BE DISCERNING!",
+    category: "Life",
+    author: "Rev. Dr. Patrick Owusu",
+    date: "July 29, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Screenshot_20260729-123308.jpg",
+    imageCaption: "@Pastor Patrick",
+    excerpt: "Social media is filled with people promoting all kinds of CONTENT, PRODUCTS, and IDEAS, MANY of which are designed to distract you from your true purpose and, more importantly, from your relationship with God.",
+    tags: ["Life", "Christianity", "Pastor Patrick"],
+    body: [
+      "Social media is filled with people promoting all kinds of CONTENT, PRODUCTS, and IDEAS, MANY of which are designed to distract you from your true purpose and, more importantly, from your relationship with God. You must be discerning enough to know which advertisements deserve your attention, which videos are worth watching and learning from, and which ones you should avoid entirely.",
+      "With the rise of artificial intelligence(AI), countless short videos are being created every day. While some are educational and inspiring, many are saturated with LUST, IMMORALITY, DECEPTION, and VALUES that UNDERMINE godly living. Such content has the potential to destroy marriages, damage healthy relationships, weaken family bonds, and gradually reshape people's thinking in destructive ways.",
+      "If you FAIL to exercise DISCERNMENT, the ideas and philosophies promoted by those with harmful intentions can corrupt your mind and poison your inner life. Before long, they will divert your focus, weaken your convictions, and lead you away from the dreams, purpose, and calling God has placed upon your life.\n\nRemember that NOT EVERYTHING TRENDING is BENEFICIAL, and not everything POPULAR is PROFITABLE. Guard your heart and mind carefully. Be intentional about the voices you listen to, the people you follow, and the content you consume. Every message you repeatedly entertain has the power either to build your character or to erode it.",
+      "Keep yourself far from the devices of the evil one, and let discipline, wisdom, and the Word of God shape the direction of your life. Develop the habit of filtering everything through the lens of truth before accepting it. A discerning mind is one of the greatest safeguards against deception, and a disciplined life is one of the strongest foundations for lasting success and spiritual growth.",
+      "Be careful what you feed your MIND today, because what enters your mind will eventually shape your character, determine your decisions, and define your destiny."
+    ]
+  },
    {
     slug: "decendants",
     title: "Decendants",
