@@ -22,7 +22,8 @@ const TRENDING = [
     body: [
       "The West African Examinations Council (WAEC) has released the provisional results of candidates who sat for the 2026 Basic Education Certificate Examination (BECE) for School Candidates.\nA total of 620,243 candidates from 20,789 schools sat the examination, with 3,601 candidates absent.",
       "Following investigations into examination malpractice, WAEC cancelled the subject results of 496 candidates and the entire results of 105 candidates. It also withheld the subject results of 119 candidates, the entire results of 48 candidates, and the subject results of 2,722 candidates from 229 schools pending further investigations. The Council said the withheld results will either be released or cancelled by August 31, 2026.",
-      "<div class=\"EV\"><img src=\"/Assets/We1.jpg</div><br>\n<div class=\"EV\"><img src=\"/Assets/We2.jpg</div><br><br><br><br>",
+      "<div class=\"EV\"><img src=\"/Assets/We1.jpg\" alt=\"letter1\" ></div><br>",
+      "<div class=\"EV\"><img src=\"/Assets/We2.jpg\" alt=\"letter2\"></div><br><br><br><br>",
       "Candidates with cancelled or withheld results have been advised to check their status through WAEC's irregularity portal. The Council also warned the public against fraudsters who claim they can upgrade examination results for a fee, stressing that all WAEC results are secure and can be authenticated."
     ]
   },
