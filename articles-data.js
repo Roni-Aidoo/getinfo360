@@ -29,7 +29,7 @@ const ARTICLES = [
   },
    {
     slug: "the-provision-of-schools-lead-in-unemployment",
-    title: "THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT",
+    title: "THE PROVISION OF SCHOOLS LEADS TO UNEMPLOYMENT",
     category: "Article",
     author: "Jesse Mabery",
     date: "July 30, 2026",
