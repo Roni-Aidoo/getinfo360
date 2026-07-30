@@ -9,6 +9,26 @@
 
 const TRENDING = [
      {
+    slug: "despite-injunction-and-clarifications-funeral-rites-for-prof-emeritus-apostle-kw",
+    title: "Despite Injunction and Clarifications, Funeral Rites for Prof. Emeritus Apostle Kwadwo Safo Kantanka Go Ahead Amid Family Dispute",
+    category: "News",
+    author: "Newsroom",
+    date: "July 30, 2026",
+    readTime: "2 min read",
+    image: "/Assets/FB_IMG_1785405526865.jpg",
+    imageCaption: "Ghana Web",
+    excerpt: "Funeral activities for the late Ghanaian inventor, industrialist and founder of the Kristo Asafo Mission, Prof. Emeritus Apostle Kwadwo Safo Kantanka, have commenced despite an interim court injunction and several public statements calling for the suspension of the burial.",
+    tags: ["Sarfo Funeral", "Ghana"],
+    body: [
+      "Funeral activities for the late Ghanaian inventor, industrialist and founder of the Kristo Asafo Mission, Prof. Emeritus Apostle Kwadwo Safo Kantanka, have commenced despite an interim court injunction and several public statements calling for the suspension of the burial.",
+      "On Thursday, July 30, mourners and sympathisers gathered at Gomoa Mpota in the Central Region, where former Dome-Kwabenya MP, Sarah Adwoa Safo, proceeded with funeral arrangements she had earlier announced.",
+      "The development follows days of heightened tension within the Safo family over who has the legal authority to organise the final funeral rites of the late religious leader.\nAn Accra High Court on Wednesday granted a 10-day interim injunction restraining Adwoa Safo from continuing with the planned funeral and burial after an application filed by the Kristo Asafo Mission. The injunction was sought pending the determination of issues relating to the administration of the late Apostle's estate and the organisation of his burial.",
+      "Despite the court order, Adwoa Safo had maintained that the funeral would proceed as scheduled. She argued in earlier media interviews that all necessary consultations had been completed and urged the public to disregard reports suggesting the ceremony had been cancelled.",
+      "The Kristo Asafo Mission also issued a directive to its members not to attend the funeral announced by Adwoa Safo, insisting that no official funeral date had been sanctioned and that discussions regarding the final burial arrangements were still ongoing.\nThe dispute has sparked widespread public interest, with conflicting announcements from family members and church leadership creating uncertainty over the official funeral programme for the late Apostle.",
+      "Prof. Emeritus Apostle Kwadwo Safo Kantanka, who passed away in September 2025, is widely celebrated for establishing the Kristo Asafo Mission and the Kantanka Group, including Kantanka Automobile, one of Ghana's leading indigenous vehicle manufacturers. He is remembered for championing local innovation, industrialisation and technological advancement in Ghana. \nAs events continue to unfold, attention is expected to remain on the legal proceedings and any further directives from the court regarding the burial of one of Ghana's most influential inventors and religious leaders."
+    ]
+  },
+     {
     slug: "2026-bece-results-released-as-waec-cancels-withholds-some-candidates-results",
     title: "2026 BECE Results Released as WAEC Cancels, Withholds Some Candidates' Results",
     category: "Education",
