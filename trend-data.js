@@ -28,6 +28,27 @@ const TRENDING = [
     ]
   },
      {
+    slug: "ministry-of-health-temporarily-closes-techiman-krobo-nursing-training-college-ov",
+    title: "Ministry of Health Temporarily Closes Techiman Krobo Nursing Training College Over Student Unrest",
+    category: "Education",
+    author: "Newsroom",
+    date: "July 29, 2026",
+    readTime: "1 min read",
+    image: "/Assets/image-3662.png",
+    imageCaption: "Web",
+    excerpt: "The Ministry of Health has announced the immediate temporary closure of the Nursing Training College at Techiman Krobo in the Bono East Region following sustained student unrest and a breakdown in discipline on campus.",
+    tags: ["Krobo Nursing", "Education", "Ghana"],
+    body: [
+      "The Ministry of Health has announced the immediate temporary closure of the Nursing Training College at Techiman Krobo in the Bono East Region following sustained student unrest and a breakdown in discipline on campus.",
+      "In a press release issued on Wednesday, July 29, 2026, the Ministry said the decision was taken after several interventions failed to restore calm and order at the institution. According to the statement, despite numerous meetings, counselling sessions and appeals involving key stakeholders, including the Regional Security Council (REGSEC), some students continued to engage in actions that disrupted academic activities and threatened the peace, safety and orderly administration of the college",
+      "The Ministry explained that the temporary closure is intended to restore calm, protect lives and property, and allow the appropriate authorities to assess the situation before determining the necessary steps towards reopening the institution under conducive condition",
+      "As part of the directive, all students were ordered to vacate the campus peacefully and return to their respective homes by 5:00 p.m. on Wednesday, July 29, 2026. Parents and guardians were also advised to make the necessary arrangements for their wards.",
+      "<div class=\"EV\"></div>",
+      "The Ministry assured students, parents, staff and the general public that every effort would be made to resolve the situation promptly. It added that the reopening date would be communicated through official channels once conditions are deemed safe for academic activities to resume.",
+      "The closure follows reports of prolonged tensions on campus, with authorities indicating that previous efforts to address the concerns through dialogue and mediation were unsuccessful. The Ministry has appealed to all stakeholders to cooperate as it works to restore a safe, peaceful and disciplined learning environment at the college"
+    ]
+  },
+     {
     slug: "asantehene-did-not-set-prof-kwadwo-safo-kantankas-funeral-date-family-clarifies",
     title: "Asantehene Did Not Set Prof. Kwadwo Safo Kantanka's Funeral Date, Family Clarifies",
     category: "News",
