@@ -28,6 +28,25 @@ const TRENDING = [
     ]
   },
      {
+    slug: "asantehene-did-not-set-prof-kwadwo-safo-kantankas-funeral-date-family-clarifies",
+    title: "Asantehene Did Not Set Prof. Kwadwo Safo Kantanka's Funeral Date, Family Clarifies",
+    category: "News",
+    author: "Newsroom",
+    date: "July 29, 2026",
+    readTime: "1 min read",
+    image: "/Assets/apostle.jpg",
+    imageCaption: "Web",
+    excerpt: "The family of the late Apostle Prof. Emeritus Engineer Kwadwo Safo Kantanka has clarified that the Asantehene, Otumfuo Osei Tutu II, did not determine the date for the renowned inventor's funeral, contrary to claims circulating on social media and other platforms.",
+    tags: ["Sarfo Kantanka", "Ghana"],
+    body: [
+      "The family of the late Apostle Prof. Emeritus Engineer Kwadwo Safo Kantanka has clarified that the Asantehene, Otumfuo Osei Tutu II, did not determine the date for the renowned inventor's funeral, contrary to claims circulating on social media and other platforms.",
+      "The clarification comes amid widespread discussions following reports suggesting that the Asantehene had fixed the funeral date for the founder of the Kristo Asafo Mission.\nSpeaking on Opemsuo Radio, broadcaster Agyemang Freduah explained that under Asante tradition, the Asantehene does not set funeral dates for deceased persons, regardless of their prominence.",
+      "According to him, when a distinguished individual passes away, the bereaved family first informs the Asantehene as a mark of respect. Once the family concludes consultations and agrees on a suitable date, they formally invite the Asantehene to attend the funeral.\nHe stressed that it is therefore inaccurate to suggest that the Asantehene personally fixed the funeral date for the late Prof. Emeritus Apostle Kwadwo Safo Kantanka.",
+      "His comments follow an earlier statement from the Kantanka family urging the public to disregard unauthorised funeral posters and reports announcing burial dates. The family indicated that consultations regarding the final funeral arrangements were still ongoing and that an official programme would be communicated through the appropriate channels.\nThe clarification has helped address public misconceptions about the role of the Asantehene in funeral arrangements, particularly for prominent personalities.",
+      "Prof. Emeritus Apostle Kwadwo Safo Kantanka, founder of the Kristo Asafo Mission and Kantanka Automobile, was widely recognised for his contributions to engineering, innovation, industrialisation and religious leadership in Ghana. His final funeral arrangements are expected to be announced by the family once all customary and administrative processes have been completed."
+    ]
+  },
+     {
     slug: "major-power-outage-hits-parts-of-ghana-after-national-grid-disturbance",
     title: "Major Power Outage Hits Parts of Ghana After National Grid Disturbance",
     category: "National",
