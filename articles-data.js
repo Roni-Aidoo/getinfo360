@@ -28,6 +28,25 @@ const ARTICLES = [
     ]
   },
    {
+    slug: "the-provision-of-schools-lead-in-unemployment",
+    title: "THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT",
+    category: "Article",
+    author: "Jesse Mabery",
+    date: "",
+    readTime: "",
+    image: "",
+    imageCaption: "",
+    excerpt: "Education is one of the major things Ghana strives for its citizens to have. A Quality Education, we call it, for every citizen.",
+    tags: ["Education", "Youth", "Quality", "Unemployment", "2026 Mid-Year Fiscal Policy", "Pragya", "STARR-J", "US$300 million", "NRSA", "STEM", "TVET", "Schools", "SHS", "GSS", "Students", "School leaders", "Teachers", "Double-Track System"],
+    body: [
+      "Education is one of the major things Ghana strives for its citizens to have. A Quality Education, we call it, for every citizen.",
+      "During the 2026 Mid-Year Fiscal Policy Review, it was announced by Dr. Cassiel Ato Forson, Minister for Finance, in the Parliament of Ghana that a US$300 million World Bank funded initiative, aimed at the Project - Secondary Education Transformation for Access, Relevance, and Results for Jobs (STARR-J) touched on ten (10) additional schools to be built in ten (10) regions of Ghana only to reach this goal; Quality Education. Some complain that after all the hard work the Government of Ghana is putting in to provide quality education, unemployment is consistently rising. Citizens complain, that after school is done; after completing all the schooling one has to go through formally to get a job, they aren't any to take up the numerous people being produced by the schools.",
+      "According to reports from the Ghana Statistical Service (GSS), Unemployment has risen. The youth unemployment rate from ages 15–35 reached 21.9%. Also, It has been observed by the citizens of Ghana, that the more the youth graduates, the higher the Unemployment rate in the country. The report also clarifies that the overall national average unemployment rate stands at 12.8% to 13.0% and Nearly 1.9 million young Ghanaians are currently classified as NEET (Not in Education, Employment, or Training).",
+      "The Ghanaian Youth now venture into business like Transportation; where they take up the Bolt business and other online transportation businesses. Some also, take up the local transportation businesses where they engage in being “Trotro\" and “Aboboyaa\" Drivers. Reports from the National Road Safety Authority (NRSA) released in February 2026, states an increase in accidents involving tricycles, popularly known as “Pragya\" and “Aboboyaa\" across Ghana. The haphazard driving of “Aboboyaa\" and “Pragya\" drivers due to their inadequate training causes accidents, all for the desperate need of fending for themselves; to provide for their basic necessities.",
+      "The works and the efforts of the Government for Quality Education have not been in vain. The projects are designed to benefit an estimated 2.3 million students, 100,000 teachers, and 2,000 school leaders by Eliminating the Double-Track System, Improving the Science, Technology, Engineering, and Mathematics (STEM), and Technical and Vocational Education and Training (TVET) Access, but where does the Ghanaian youth go for employment after schooling."
+    ]
+  },
+   {
     slug: "decendants",
     title: "Decendants",
     category: "Article",
