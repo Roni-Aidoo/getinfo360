@@ -1,7 +1,9 @@
 /**
  * generate-meta.js
  * ------------------------------------------------------------
- * Build-time static page generator for social/SEO meta tags.
+ * Build-time static page generator for social/SEO meta tags,
+ * PLUS an auto-generated sitemap.xml built from the exact same
+ * pages this script produces.
  *
  * WHAT IT DOES
  * For every entry in ARTICLES / STORIES / TRENDING, this makes a
@@ -16,11 +18,17 @@
  * keeps working exactly as before for real visitors — this script
  * only touches the <head> meta tags.
  *
+ * It then writes a single sitemap.xml at the project root, listing:
+ *   - your fixed static pages (home, trending, articles, etc.)
+ *   - every dynamic page it just generated above
+ * The sitemap is built from whatever actually got generated, so it
+ * never links to a page this run failed to produce.
+ *
  * HOW TO RUN
  *   1. npm install cheerio        (a tiny, safe HTML parser/editor)
  *   2. node generate-meta.js
  *   3. Deploy the generated folders (articles/, stories/, trends/)
- *      alongside the rest of your site.
+ *      and the new sitemap.xml alongside the rest of your site.
  *
  * Re-run this any time your data files change, or wire it into a
  * GitHub Action / npm "build" script so it runs automatically.
@@ -45,6 +53,8 @@ const PAGES = [
     outputDir: 'trends',
     urlPathPrefix: '/trends/',
     ogType: 'article',
+    sitemapChangefreq: 'weekly',
+    sitemapPriority: '0.7',
   },
   {
     // 360 Echoes articles
@@ -54,6 +64,8 @@ const PAGES = [
     outputDir: 'articles',
     urlPathPrefix: '/articles/',
     ogType: 'article',
+    sitemapChangefreq: 'weekly',
+    sitemapPriority: '0.7',
   },
   {
     // Stories & Books
@@ -63,7 +75,21 @@ const PAGES = [
     outputDir: 'stories',
     urlPathPrefix: '/stories/',
     ogType: 'book',
+    sitemapChangefreq: 'monthly',
+    sitemapPriority: '0.6',
   },
+];
+
+// Fixed, non-generated pages that should also appear in the sitemap.
+// Edit this list any time you add/remove a static page on the site.
+const STATIC_PAGES = [
+  { path: '/', changefreq: 'daily', priority: '1.0' },
+  { path: '/Treanding.html', changefreq: 'hourly', priority: '0.9' },
+  { path: '/360.html', changefreq: 'daily', priority: '0.8' },
+  { path: '/Stories.html', changefreq: 'daily', priority: '0.7' },
+  { path: '/arts.html', changefreq: 'weekly', priority: '0.6' },
+  { path: '/ano.html', changefreq: 'weekly', priority: '0.6' },
+  { path: '/Signin.html', changefreq: 'monthly', priority: '0.3' },
 ];
 
 // ============================================================
@@ -111,6 +137,24 @@ function absoluteUrl(maybeRelativePath) {
 function truncate(str, max) {
   if (!str) return '';
   return str.length > max ? str.slice(0, max - 1).trim() + '…' : str;
+}
+
+/** "July 29, 2026" -> "2026-07-29". Returns null if the date can't be parsed. */
+function toISODate(dateStr) {
+  if (!dateStr) return null;
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return null;
+  return d.toISOString().slice(0, 10);
+}
+
+/** Escape text so it's safe to place inside XML element content/attributes. */
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 /** Apply one item's data onto a loaded template's <head> tags, by id. */
@@ -213,6 +257,45 @@ function rewriteRelativePaths($, prefix) {
 }
 
 // ============================================================
+// Sitemap
+// ============================================================
+
+// Filled in as buildPageSet() successfully writes each file, so the
+// sitemap only ever lists pages that genuinely exist on disk.
+const sitemapEntries = [];
+
+function buildSitemap() {
+  const entries = [
+    ...STATIC_PAGES.map(p => ({
+      loc: `${SITE_BASE_URL}${p.path}`,
+      lastmod: null,
+      changefreq: p.changefreq,
+      priority: p.priority,
+    })),
+    ...sitemapEntries,
+  ];
+
+  const body = entries
+    .map(u => {
+      let xml = `  <url>\n    <loc>${escapeXml(u.loc)}</loc>\n`;
+      if (u.lastmod) xml += `    <lastmod>${u.lastmod}</lastmod>\n`;
+      if (u.changefreq) xml += `    <changefreq>${u.changefreq}</changefreq>\n`;
+      if (u.priority) xml += `    <priority>${u.priority}</priority>\n`;
+      xml += `  </url>`;
+      return xml;
+    })
+    .join('\n');
+
+  const xmlDoc =
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+
+  const outPath = path.resolve(process.cwd(), 'sitemap.xml');
+  fs.writeFileSync(outPath, xmlDoc, 'utf8');
+  console.log(`✅ sitemap.xml: ${entries.length} URL(s) → ${outPath}`);
+}
+
+// ============================================================
 // Main build
 // ============================================================
 function buildPageSet(cfg) {
@@ -242,6 +325,13 @@ function buildPageSet(cfg) {
     const outPath = path.join(outDir, `${item.slug}.html`);
     fs.writeFileSync(outPath, $.html(), 'utf8');
     count++;
+
+    sitemapEntries.push({
+      loc: `${SITE_BASE_URL}${cfg.urlPathPrefix}${item.slug}.html`,
+      lastmod: toISODate(item.date),
+      changefreq: cfg.sitemapChangefreq || 'weekly',
+      priority: cfg.sitemapPriority || '0.6',
+    });
   }
 
   console.log(`✅ ${cfg.dataVarName}: generated ${count} file(s) in /${cfg.outputDir}`);
@@ -255,5 +345,12 @@ for (const cfg of PAGES) {
   }
 }
 
-console.log('\nDone. Deploy the generated folders alongside your existing site.');
+try {
+  buildSitemap();
+} catch (err) {
+  console.error('❌ Failed building sitemap.xml:', err.message);
+}
+
+console.log('\nDone. Deploy the generated folders, plus sitemap.xml, alongside your existing site.');
 console.log('Share links like: ' + SITE_BASE_URL + '/articles/your-slug.html');
+console.log('Submit the sitemap at: ' + SITE_BASE_URL + '/sitemap.xml');
