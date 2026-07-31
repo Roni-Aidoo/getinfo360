@@ -8,6 +8,25 @@
    ============================================================ */
 
 const ARTICLES = [
+    {
+    slug: "art-deserves-better-a-call-to-restore-ghanas-creative-heritage",
+    title: "Art Deserves Better: A Call to Restore Ghana's Creative Heritage",
+    category: "Arts",
+    author: "Nyamekye Yaw Opoku",
+    date: "July 31, 2026",
+    readTime: "3 min read",
+    image: "/Assets/ArtIm.jpeg",
+    imageCaption: "Web",
+    excerpt: "Art, there’s the saying that art is life. Art captures the hidden beauty of life. Art is like breath, drawn in after a still morning breeze from the rich drenched mountains, refreshing to the soul, appealing to the eyes, and captivating to the heart",
+    tags: ["Ghana", "Arts"],
+    body: [
+      "Art, there’s the saying that art is life. Art captures the hidden beauty of life. Art is like breath, drawn in after a still morning breeze from the rich drenched mountains, refreshing to the soul, appealing to the eyes, and captivating to the heart. Such appellations make us think that that the artisan must be living in heaven, with head over the cloud but can that be true about art students in both high schools and universities across Ghana! Over the years, it’s noticed that across high schools and universities, the most underdeveloped and easily forgotten department happens to be the Art department. Often left to fend for themselves and occasionally, if by the grace of God, handed the scrapes and coins left after a project, which has no care for the art, is made. This has made the Art sector feel so irrelevant.",
+      "Parents don’t want their wards to study any course that deals with art, people with talent and desire for art are afraid to pursue such dreams, even those pursuing such dreams are often being discouraged with questions like, ‘there’s nothing great gotten from pursuing such cause’. \nWhy should that be so! Art used to be the cradle of life, a sign of power and supremacy, intelligence, craftmanship and pride. Historically speaking, before the advent of formal education through which STEM has come to take the stage, our ancestors could boost various artworks which were expressed in various from through of cravings on drums, embroidery on cloths like the Adinkra Symbols, goldsmithing of which even modern-day technology cannot reciprocate or comprehend how such artistic work were made in that primitive times.",
+      "Ghana boost of people like Ibrahim Mahama, El Anatsui, Albade Glover, Betty Acquah, who true art has changed the narrative of things across the world. Their achievements are a testament to the fact that, even though they came from an underprivileged department where all odds where against them, they still found a way to achieve success and put their artworks on stage. Think of this, if they were able to do this with odds stacked against them, how much more can Ghana benefit if the country gives as much as attention they give to STEM to the art department. The results will be mind boggling. A department which was once frowned upon by the many will be the gold mine attracting millions.",
+      "Let us all Ghanaians stand and advocate for the Art department and industry. Let’s motivate our people in such fields giving them the encouragement and the support they need. Let’s give as much focus as we give to the other sectors to the art industry through effective competition, upgrading art studios with the necessary tools and equipments, giving scholarships and the necessary academic materials to build interest and desire in the hearts of people, re-orient the minds and the thought patterns of people through public education.",
+      "Let us all come together and help revive and rekindle our art industry and the hearts of people in it."
+    ]
+  },
      {
     slug: "be-discerning",
     title: "BE DISCERNING!",

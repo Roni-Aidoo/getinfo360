@@ -2,8 +2,9 @@
  * generate-meta.js
  * ------------------------------------------------------------
  * Build-time static page generator for social/SEO meta tags,
- * PLUS an auto-generated sitemap.xml built from the exact same
- * pages this script produces.
+ * PLUS an auto-generated sitemap.xml AND a Google News sitemap
+ * (news-sitemap.xml), all built from the exact same pages this
+ * script produces.
  *
  * WHAT IT DOES
  * For every entry in ARTICLES / STORIES / TRENDING, this makes a
@@ -18,20 +19,32 @@
  * keeps working exactly as before for real visitors — this script
  * only touches the <head> meta tags.
  *
- * It then writes a single sitemap.xml at the project root, listing:
- *   - your fixed static pages (home, trending, articles, etc.)
- *   - every dynamic page it just generated above
- * The sitemap is built from whatever actually got generated, so it
- * never links to a page this run failed to produce.
+ * It then writes:
+ *   - sitemap.xml — your fixed static pages + every dynamic page
+ *     generated above. Built from whatever actually got generated,
+ *     so it never links to a page this run failed to produce.
+ *   - news-sitemap.xml — a Google News sitemap
+ *     (https://www.google.com/schemas/sitemap-news/0.9) covering
+ *     only the page types you flag as news content, and — per
+ *     Google's rules — only items published within the last 48
+ *     hours. Google News ignores/penalizes sitemaps stuffed with
+ *     older content, so older items are filtered out automatically.
  *
  * HOW TO RUN
  *   1. npm install cheerio        (a tiny, safe HTML parser/editor)
  *   2. node generate-meta.js
  *   3. Deploy the generated folders (articles/, stories/, trends/)
- *      and the new sitemap.xml alongside the rest of your site.
+ *      and the new sitemap.xml / news-sitemap.xml alongside the
+ *      rest of your site.
+ *   4. Submit both sitemap.xml and news-sitemap.xml in Google
+ *      Search Console (news-sitemap.xml only matters if your site
+ *      is approved in Google News / News Publisher Center).
  *
  * Re-run this any time your data files change, or wire it into a
  * GitHub Action / npm "build" script so it runs automatically.
+ * (For a real news sitemap to stay useful you generally want this
+ * running frequently — e.g. every 15–30 min — since it only ever
+ * contains the last 48 hours of content.)
  * ------------------------------------------------------------
  */
 
@@ -44,6 +57,20 @@ const cheerio = require('cheerio'); // npm install cheerio
 // ============================================================
 const SITE_BASE_URL = 'https://getinfoonline.com'; // no trailing slash
 
+// Google News settings. Only used for page types with
+// `includeInNewsSitemap: true` below.
+const NEWS_SITEMAP = {
+  enabled: true,
+  outputFile: 'news-sitemap.xml',
+  publicationName: 'Getinfo Online',
+  // BCP-47 language code, e.g. 'en', 'en-US', 'fr'
+  language: 'en',
+  // Google News only wants articles published in roughly the last
+  // 48 hours. Items older than this are silently left out of
+  // news-sitemap.xml (they still appear fine in the normal sitemap.xml).
+  maxAgeHours: 48,
+};
+
 const PAGES = [
   {
     // Trending Issues
@@ -55,6 +82,7 @@ const PAGES = [
     ogType: 'article',
     sitemapChangefreq: 'weekly',
     sitemapPriority: '0.7',
+    includeInNewsSitemap: true,
   },
   {
     // 360 Echoes articles
@@ -66,6 +94,7 @@ const PAGES = [
     ogType: 'article',
     sitemapChangefreq: 'weekly',
     sitemapPriority: '0.7',
+    includeInNewsSitemap: true,
   },
   {
     // Stories & Books
@@ -77,6 +106,8 @@ const PAGES = [
     ogType: 'book',
     sitemapChangefreq: 'monthly',
     sitemapPriority: '0.6',
+    // Books/stories aren't "news" content — leave out of news-sitemap.xml
+    includeInNewsSitemap: false,
   },
 ];
 
@@ -145,6 +176,23 @@ function toISODate(dateStr) {
   const d = new Date(dateStr);
   if (isNaN(d.getTime())) return null;
   return d.toISOString().slice(0, 10);
+}
+
+/**
+ * Parses item.date into a real Date object, or null if it can't be parsed.
+ * Used for both the news-sitemap 48-hour filter and the full
+ * publication_date timestamp Google News wants.
+ */
+function parseItemDate(dateStr) {
+  if (!dateStr) return null;
+  const d = new Date(dateStr);
+  return isNaN(d.getTime()) ? null : d;
+}
+
+/** Full W3C datetime (e.g. 2026-07-29T00:00:00.000Z) for <news:publication_date>. */
+function toISODateTime(dateStr) {
+  const d = parseItemDate(dateStr);
+  return d ? d.toISOString() : null;
 }
 
 /** Escape text so it's safe to place inside XML element content/attributes. */
@@ -257,12 +305,13 @@ function rewriteRelativePaths($, prefix) {
 }
 
 // ============================================================
-// Sitemap
+// Sitemaps
 // ============================================================
 
 // Filled in as buildPageSet() successfully writes each file, so the
-// sitemap only ever lists pages that genuinely exist on disk.
+// sitemaps only ever list pages that genuinely exist on disk.
 const sitemapEntries = [];
+const newsSitemapEntries = [];
 
 function buildSitemap() {
   const entries = [
@@ -293,6 +342,55 @@ function buildSitemap() {
   const outPath = path.resolve(process.cwd(), 'sitemap.xml');
   fs.writeFileSync(outPath, xmlDoc, 'utf8');
   console.log(`✅ sitemap.xml: ${entries.length} URL(s) → ${outPath}`);
+}
+
+/**
+ * Builds news-sitemap.xml per the Google News sitemap protocol:
+ * https://www.google.com/schemas/sitemap-news/0.9
+ * Only includes items from page types flagged `includeInNewsSitemap: true`
+ * AND published within NEWS_SITEMAP.maxAgeHours (Google ignores/penalizes
+ * older entries in a news sitemap, so we filter proactively).
+ */
+function buildNewsSitemap() {
+  if (!NEWS_SITEMAP.enabled) return;
+
+  const cutoff = Date.now() - NEWS_SITEMAP.maxAgeHours * 60 * 60 * 1000;
+  const fresh = newsSitemapEntries.filter(e => e.publishedAtMs >= cutoff);
+
+  const body = fresh
+    .map(u => {
+      return (
+        `  <url>\n` +
+        `    <loc>${escapeXml(u.loc)}</loc>\n` +
+        `    <news:news>\n` +
+        `      <news:publication>\n` +
+        `        <news:name>${escapeXml(NEWS_SITEMAP.publicationName)}</news:name>\n` +
+        `        <news:language>${escapeXml(NEWS_SITEMAP.language)}</news:language>\n` +
+        `      </news:publication>\n` +
+        `      <news:publication_date>${u.publicationDate}</news:publication_date>\n` +
+        `      <news:title>${escapeXml(u.title)}</news:title>\n` +
+        `    </news:news>\n` +
+        `  </url>`
+      );
+    })
+    .join('\n');
+
+  const xmlDoc =
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n` +
+    `        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n` +
+    `${body}\n</urlset>\n`;
+
+  const outPath = path.resolve(process.cwd(), NEWS_SITEMAP.outputFile);
+  fs.writeFileSync(outPath, xmlDoc, 'utf8');
+
+  const skipped = newsSitemapEntries.length - fresh.length;
+  console.log(
+    `✅ ${NEWS_SITEMAP.outputFile}: ${fresh.length} URL(s) → ${outPath}` +
+      (skipped > 0
+        ? ` (${skipped} older item(s) excluded — outside the ${NEWS_SITEMAP.maxAgeHours}h window)`
+        : '')
+  );
 }
 
 // ============================================================
@@ -326,12 +424,30 @@ function buildPageSet(cfg) {
     fs.writeFileSync(outPath, $.html(), 'utf8');
     count++;
 
+    const loc = `${SITE_BASE_URL}${cfg.urlPathPrefix}${item.slug}.html`;
+
     sitemapEntries.push({
-      loc: `${SITE_BASE_URL}${cfg.urlPathPrefix}${item.slug}.html`,
+      loc,
       lastmod: toISODate(item.date),
       changefreq: cfg.sitemapChangefreq || 'weekly',
       priority: cfg.sitemapPriority || '0.6',
     });
+
+    if (cfg.includeInNewsSitemap && NEWS_SITEMAP.enabled) {
+      const publishedAt = parseItemDate(item.date);
+      if (!publishedAt) {
+        console.warn(
+          `⚠️  "${item.slug}" has no parseable date — skipped from news-sitemap.xml (needs item.date).`
+        );
+      } else {
+        newsSitemapEntries.push({
+          loc,
+          title: item.title || 'Getinfo Online',
+          publicationDate: toISODateTime(item.date),
+          publishedAtMs: publishedAt.getTime(),
+        });
+      }
+    }
   }
 
   console.log(`✅ ${cfg.dataVarName}: generated ${count} file(s) in /${cfg.outputDir}`);
@@ -351,6 +467,17 @@ try {
   console.error('❌ Failed building sitemap.xml:', err.message);
 }
 
-console.log('\nDone. Deploy the generated folders, plus sitemap.xml, alongside your existing site.');
+try {
+  buildNewsSitemap();
+} catch (err) {
+  console.error(`❌ Failed building ${NEWS_SITEMAP.outputFile}:`, err.message);
+}
+
+console.log('\nDone. Deploy the generated folders, plus sitemap.xml' +
+  (NEWS_SITEMAP.enabled ? ` and ${NEWS_SITEMAP.outputFile}` : '') +
+  ', alongside your existing site.');
 console.log('Share links like: ' + SITE_BASE_URL + '/articles/your-slug.html');
 console.log('Submit the sitemap at: ' + SITE_BASE_URL + '/sitemap.xml');
+if (NEWS_SITEMAP.enabled) {
+  console.log('Submit the news sitemap at: ' + SITE_BASE_URL + '/' + NEWS_SITEMAP.outputFile);
+}
