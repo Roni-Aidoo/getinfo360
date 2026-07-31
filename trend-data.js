@@ -8,6 +8,27 @@
    ============================================================ */
 
 const TRENDING = [
+    {
+    slug: "ahafo-ano-south-east-mp-apologises-for-i-will-marry-you-when-you-grow-up-remark-",
+    title: "Ahafo Ano South East MP Apologises for 'I Will Marry You When You Grow Up' Remark to Schoolgirl",
+    category: "National",
+    author: "Newsroom",
+    date: "July 31, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Ahafo ano south east mp.jpeg",
+    imageCaption: "Web",
+    excerpt: "The Member of Parliament for Ahafo Ano South East, Yakubu Mohammed, has publicly apologised after a comment he made to a schoolgirl during a visit to a school in his constituency sparked widespread public criticism.",
+    tags: ["Ghana", "Ahafo Ano South-East MP", "Parliament"],
+    body: [
+      "The Member of Parliament for Ahafo Ano South East, Yakubu Mohammed, has publicly apologised after a comment he made to a schoolgirl during a visit to a school in his constituency sparked widespread public criticism.",
+      "The controversy erupted after a video of the interaction surfaced on social media, showing the MP engaging with pupils during what appeared to be a school event. In the video, he was heard telling one of the girls, \"I will marry you when you grow up,\" a remark that quickly drew backlash from Ghanaians, child rights advocates and social media users, many of whom described it as inappropriate.",
+      "Reacting to the criticism, Mr. Mohammed issued an unreserved apology, saying the comment was intended as a light-hearted joke and did not reflect any improper intention. He acknowledged, however, that the statement was inappropriate and accepted responsibility for the offence and discomfort it caused.",
+      "> \"I sincerely apologise to the young girl, her parents, the school authorities, my constituents and the general public. I deeply regret my choice of words and understand why many people found the comment unacceptable,\" he said.",
+      "The MP reaffirmed his commitment to protecting the rights and dignity of children, stressing that he has always supported initiatives aimed at improving education and the welfare of young people in his constituency. He assured the public that the incident had served as an important lesson and pledged to exercise greater care in his public engagements.",
+      "The incident has reignited conversations about the responsibility of public officials when interacting with children. Child protection advocates have urged political leaders and other public figures to maintain professional boundaries and use language that safeguards the dignity and well-being of minors at all times.\n\nWhile some members of the public have accepted the MP's apology, others say the incident underscores the need for greater awareness on child protection and appropriate conduct by persons in positions of authority.",
+      "The apology comes amid continued discussions on social media, where many users have called on public office holders to be more mindful of their words and actions, particularly when engaging with children in educational settings."
+    ]
+  },
      {
     slug: "government-unveils-week-long-programme-to-honour-victims-of-2025-military-helico",
     title: "Government Unveils Week-Long Programme to Honour Victims of 2025 Military Helicopter Crash",
