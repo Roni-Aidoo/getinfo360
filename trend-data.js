@@ -9,6 +9,28 @@
 
 const TRENDING = [
      {
+    slug: "government-unveils-week-long-programme-to-honour-victims-of-2025-military-helico",
+    title: "Government Unveils Week-Long Programme to Honour Victims of 2025 Military Helicopter Crash",
+    category: "National",
+    author: "Newsroom",
+    date: "July 31, 2026",
+    readTime: "2 min read",
+    image: "/Assets/file_000000008890820a923291d417487cf5.png",
+    imageCaption: "Web",
+    excerpt: "The Government of Ghana has announced a week-long programme of commemorative activities to mark the first anniversary of the tragic Ghana Air Force helicopter crash that claimed the lives of eight senior government officials and military personnel.",
+    tags: ["Ghana", "2025 helicopter crash", "State mourns"],
+    body: [
+      "The Government of Ghana has announced a week-long programme of commemorative activities to mark the first anniversary of the tragic Ghana Air Force helicopter crash that claimed the lives of eight senior government officials and military personnel.",
+      "The observance, scheduled to take place from July 30 to August 7, 2026, is aimed at honouring the memory, dedication and selfless service of the victims, who died in the line of duty on August 6, 2025.",
+      "Announcing the programme on Thursday, July 30, Minister for Government Communications and Presidential Spokesperson, Felix Kwakye Ofosu, said the activities have been put together in collaboration with the Ministry of Defence, the bereaved families, alumni associations and other stakeholders.",
+      "The commemorative programme commenced with the presentation of the government's support package to the families of the deceased, reaffirming the state's commitment to standing by them.\nAs part of the activities, the Ministry of Defence, in partnership with the Pope John Senior High School and Minor Seminary Old Boys Association (POJOBA), will organise the Dr. Edward Omane Boamah Memorial Lecture on Tuesday, August 4, at Burma Hall in Accra. The lecture will celebrate the life and enduring legacy of the late Defence Minister, whose distinguished career in public service touched many lives.",
+      "A national interfaith memorial service will also be held to bring together government officials, members of the security services, religious leaders, family members and the general public to pray for the souls of the departed and reflect on their immense contributions to national development.\nIn honour of the fallen officials, the government will further unveil a cenotaph to serve as a permanent symbol of their sacrifice and unwavering commitment to Ghana.",
+      "The week-long observance will climax on Saturday, August 7, with the \"Service to the Soul\" Nationwide Blood Donation Exercise. The initiative will take place simultaneously at district, regional and teaching hospitals, the 37 Military Hospital and other designated health facilities across the country to support healthcare delivery while paying tribute to the deceased.\nGovernment described the anniversary as a solemn moment of national remembrance and called on Ghanaians to participate in the activities to honour the memory of the eight individuals who lost their lives while serving the nation.",
+      "The victims included the late Defence Minister, Dr. Edward Omane Boamah; Minister for Environment, Science, Technology and Innovation, Ibrahim Murtala Muhammed; Acting Deputy National Security Coordinator, Alhaji Limuna Muniru Mohammed; National Vice Chairman of the National Democratic Congress (NDC), Dr. Samuel Sarpong; former parliamentary candidate Samuel Aboagye; and three Ghana Air Force personnel.\nThe eight were on an official assignment when their Ghana Air Force helicopter crashed in the Adansi area of the Ashanti Region on August 6, 2025, claiming all lives on board.",
+      "As the nation prepares to commemorate the tragedy, the government says the week-long programme will not only honour the memory of the deceased but also celebrate their patriotism, dedication and invaluable service to Ghana."
+    ]
+  },
+     {
     slug: "despite-injunction-and-clarifications-funeral-rites-for-prof-emeritus-apostle-kw",
     title: "Despite Injunction and Clarifications, Funeral Rites for Prof. Emeritus Apostle Kwadwo Safo Kantanka Go Ahead Amid Family Dispute",
     category: "News",
