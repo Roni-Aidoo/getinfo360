@@ -280,6 +280,23 @@ main{ padding-top:26px; padding-bottom:60px; }
 .trend-info .trend-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
 .trend-empty{ padding:20px 4px; color:var(--ink-soft); font-size:0.9rem; }
 
+.trend-pagination{
+  display:flex; align-items:center; justify-content:center; gap:6px;
+  margin-top:16px; padding-top:16px; border-top:1px solid var(--line);
+  flex-wrap:wrap;
+}
+.trend-page-btn{
+  min-width:32px; height:32px; padding:0 8px; border-radius:8px;
+  border:1px solid var(--line); background:var(--surface); color:var(--ink-soft);
+  font-size:0.82rem; font-weight:600; font-family:var(--font-mono);
+  display:flex; align-items:center; justify-content:center;
+  transition:border-color .2s ease, color .2s ease, background .2s ease;
+}
+.trend-page-btn:hover:not(:disabled){ border-color:var(--brand); color:var(--brand); }
+.trend-page-btn.active{ background:var(--brand); border-color:var(--brand); color:#fff; }
+.trend-page-btn:disabled{ opacity:0.35; cursor:default; }
+.trend-page-ellipsis{ color:var(--ink-soft); font-size:0.82rem; padding:0 2px; font-family:var(--font-mono); }
+
 /* ================= FOOTER ================= */
 footer.footer{
   background:var(--ink); color:#EEF3FC; padding:52px 0 26px;
@@ -484,6 +501,9 @@ footer.footer{
 
         <!-- Populated dynamically from STORIES by renderTrendingPanel() -->
         <div id="trend-rows"></div>
+
+        <!-- Pagination controls, populated dynamically by renderTrendPagination() -->
+        <div class="trend-pagination" id="trend-pagination"></div>
       </div>
     </aside>
   </div>
@@ -632,20 +652,31 @@ function renderListingFeed(){
 }
 
 /* ============================================================
-   RENDER: trending panel — all articles from STORIES
+   RENDER: trending panel — paginated list from STORIES
    ============================================================ */
-function renderTrendingPanel(){
+const TREND_PAGE_SIZE = 6; // how many rows to show per page in the sidebar
+let trendCurrentPage = 1;
+
+function renderTrendingPanel(page){
   const wrap = document.getElementById('trend-rows');
+  const pagWrap = document.getElementById('trend-pagination');
   if(!wrap || typeof STORIES === 'undefined') return;
 
   if(STORIES.length === 0){
     wrap.innerHTML = `<div class="trend-empty">No articles yet.</div>`;
+    if(pagWrap) pagWrap.innerHTML = '';
     return;
   }
 
-  wrap.innerHTML = STORIES.map((article, i) => `
+  const totalPages = Math.max(1, Math.ceil(STORIES.length / TREND_PAGE_SIZE));
+  trendCurrentPage = Math.min(Math.max(1, page || trendCurrentPage), totalPages);
+
+  const start = (trendCurrentPage - 1) * TREND_PAGE_SIZE;
+  const items = STORIES.slice(start, start + TREND_PAGE_SIZE);
+
+  wrap.innerHTML = items.map((article, i) => `
     <a class="trend-row" href="/stories/${encodeURIComponent(article.slug)}.html">
-      <span class="trend-num">${String(i + 1).padStart(2,'0')}</span>
+      <span class="trend-num">${String(start + i + 1).padStart(2,'0')}</span>
       <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="trend-info">
         <h4 class="name">${escapeHtml(article.title)}</h4>
@@ -653,6 +684,51 @@ function renderTrendingPanel(){
       </div>
     </a>
   `).join('');
+
+  renderTrendPagination(totalPages);
+}
+
+/** Builds the numbered 1,2,3… pagination row, with prev/next arrows and ellipses for long lists. */
+function renderTrendPagination(totalPages){
+  const pagWrap = document.getElementById('trend-pagination');
+  if(!pagWrap) return;
+
+  if(totalPages <= 1){ pagWrap.innerHTML = ''; return; }
+
+  let html = `<button class="trend-page-btn" ${trendCurrentPage === 1 ? 'disabled' : ''} onclick="goToTrendPage(${trendCurrentPage - 1})" aria-label="Previous page"><i class="fas fa-chevron-left"></i></button>`;
+
+  getTrendPaginationRange(trendCurrentPage, totalPages).forEach(p => {
+    if(p === '...'){
+      html += `<span class="trend-page-ellipsis">…</span>`;
+    } else {
+      html += `<button class="trend-page-btn ${p === trendCurrentPage ? 'active' : ''}" onclick="goToTrendPage(${p})" aria-label="Page ${p}">${p}</button>`;
+    }
+  });
+
+  html += `<button class="trend-page-btn" ${trendCurrentPage === totalPages ? 'disabled' : ''} onclick="goToTrendPage(${trendCurrentPage + 1})" aria-label="Next page"><i class="fas fa-chevron-right"></i></button>`;
+
+  pagWrap.innerHTML = html;
+}
+
+/** Returns e.g. [1,'...',4,5,6,'...',12] so long lists don't dump 30 page buttons in the sidebar. */
+function getTrendPaginationRange(current, total){
+  const delta = 1;
+  const range = [];
+  for(let i = 1; i <= total; i++){
+    if(i === 1 || i === total || (i >= current - delta && i <= current + delta)){
+      range.push(i);
+    } else if(range[range.length - 1] !== '...'){
+      range.push('...');
+    }
+  }
+  return range;
+}
+
+function goToTrendPage(page){
+  const totalPages = Math.max(1, Math.ceil(STORIES.length / TREND_PAGE_SIZE));
+  if(page < 1 || page > totalPages) return;
+  renderTrendingPanel(page);
+  document.getElementById('recent-books-panel').scrollIntoView({ behavior:'smooth', block:'nearest' });
 }
 
 function escapeHtml(str){
@@ -667,21 +743,44 @@ function escapeHtml(str){
 /* Render as soon as the DOM (and STORIES) are ready, before search/reveal wiring below */
 renderHero();
 renderListingFeed();
-renderTrendingPanel();
+renderTrendingPanel(1);
 
   const searchInput = document.getElementById('search-input');
 
   searchInput.addEventListener('input', () => {
-    const searchTerm = searchInput.value.toLowerCase();
-    const cards = document.querySelectorAll('#trend-rows .trend-row');
-    cards.forEach(card => {
-      const name = card.querySelector('.name').textContent.toLowerCase();
-      if (name.includes(searchTerm)) {
-        card.classList.remove('hidden');
-      } else {
-        card.classList.add('hidden');
-      }
-    });
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    const pagWrap = document.getElementById('trend-pagination');
+    const wrap = document.getElementById('trend-rows');
+
+    // Empty search box: go back to the normal paginated view
+    if(searchTerm === ''){
+      renderTrendingPanel(trendCurrentPage);
+      return;
+    }
+
+    // While searching, match against the FULL list (not just the current
+    // page) and hide pagination, since results aren't paginated.
+    if(pagWrap) pagWrap.innerHTML = '';
+
+    const matches = STORIES
+      .map((article, idx) => ({ article, idx }))
+      .filter(({ article }) => article.title.toLowerCase().includes(searchTerm));
+
+    if(matches.length === 0){
+      wrap.innerHTML = `<div class="trend-empty">No matching stories found.</div>`;
+      return;
+    }
+
+    wrap.innerHTML = matches.map(({ article, idx }) => `
+      <a class="trend-row" href="/stories/${encodeURIComponent(article.slug)}.html">
+        <span class="trend-num">${String(idx + 1).padStart(2,'0')}</span>
+        <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
+        <div class="trend-info">
+          <h4 class="name">${escapeHtml(article.title)}</h4>
+          <div class="trend-date">${escapeHtml(article.date)}</div>
+        </div>
+      </a>
+    `).join('');
   });
 
 /* ---------- theme toggle ---------- */
