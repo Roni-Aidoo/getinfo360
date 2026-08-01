@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://getinfoonline.com/sitemap.xml
+Sitemap: https://getinfoonline.com/news-sitemap.xml
