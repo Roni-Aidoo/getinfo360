@@ -9,6 +9,46 @@
 
 const TRENDING = [
     {
+    slug: "eldest-son-of-late-ya-na-enskinned-as-dagbon-regent",
+    title: "Eldest Son of Late Ya-Na Enskinned as Dagbon Regent",
+    category: "National",
+    author: "Newsroom",
+    date: "August 1, 2026",
+    readTime: "2 min read",
+    image: "/Assets/regent1.jpg",
+    imageCaption: "Web",
+    excerpt: "Yendi, Ghana – August 1, 2026 – The Dagbon Kingdom has entered a crucial phase in its traditional succession process following the enskinment of Kampakuya Naa Yakubu Abukari II, the eldest son of the late Ya-Na Abukari II, as Regent of Dagbon.",
+    tags: ["Ghana", "Dagbon Regent", "Northern Region"],
+    body: [
+      "Yendi, Ghana – August 1, 2026 – The Dagbon Kingdom has entered a crucial phase in its traditional succession process following the enskinment of Kampakuya Naa Yakubu Abukari II, the eldest son of the late Ya-Na Abukari II, as Regent of Dagbon.",
+      "The solemn ceremony took place at the Gbewaa Palace in Yendi, where kingmakers officially installed the new Regent to oversee the affairs of the kingdom during the transition period leading to the selection and enskinment of a new Ya-Na.",
+      "Under Dagbon customary law, the title of Kampakuya Naa is reserved for the first son of a deceased Ya-Na. As Regent, Kampakuya Naa Yakubu Abukari II assumes responsibility for safeguarding the throne, supervising the final funeral rites of the late monarch, maintaining peace and stability, and working with the Dagbon Traditional Council throughout the succession process.\n\nThe ceremony attracted a large gathering of traditional rulers, government officials, religious leaders, diplomats, and residents from across the country. President John Dramani Mahama, former Vice President Dr. Mahamudu Bawumia, ministers of state, and other dignitaries attended to pay their respects to the late Ya-Na and witness the installation of the Regent.",
+      "In his acceptance remarks, Kampakuya Naa Yakubu Abukari II pledged to uphold the peace, unity, and traditions that defined his late father's reign. He assured the people of Dagbon that the customary succession process would be conducted in accordance with established traditions while preserving harmony between the royal gates.\n\nPresident Mahama paid tribute to the late Ya-Na Abukari II, describing him as a visionary traditional ruler whose leadership strengthened peace, reconciliation, and development in Dagbon. He urged all stakeholders to remain united and allow the succession process to proceed peacefully in line with custom. The President also reaffirmed the government's commitment to supporting the completion of the Gbewaa Palace and other development initiatives started during the late Ya-Na's reign.",
+      "The late Ya-Na Abukari II passed away in South Africa in July 2026 while receiving medical treatment. His burial and the installation of the Regent form part of the traditional processes that precede the selection of a new Overlord of Dagbon.",
+      "The enskinment of Kampakuya Naa Yakubu Abukari II marks a significant milestone in the history of the Dagbon Kingdom, with many expressing hope that the peace and unity restored in recent years will continue throughout the transition to a new Ya-Na."
+    ]
+  },
+    {
+    slug: "prof-christian-agyare-sworn-in-as-13th-vice-chancellor-of-knust",
+    title: "Prof. Christian Agyare Sworn In as 13th Vice-Chancellor of KNUST",
+    category: "Education",
+    author: "Newsroom",
+    date: "August 1, 2026",
+    readTime: "2 min read",
+    image: "/Assets/images1.jpg",
+    imageCaption: "Web",
+    excerpt: "Kumasi, Ghana – August 1, 2026 – Professor Christian Agyare has officially been sworn in as the 13th Vice-Chancellor of the Kwame Nkrumah University of Science and Technology (KNUST), marking the beginning of a new chapter in the leadership of one of Africa's premier science and technology institutions.",
+    tags: ["Ghana", "KNUST", "Prof. Christian Agyare", "13th Vice-Chancellor"],
+    body: [
+      "Kumasi, Ghana – August 1, 2026 – Professor Christian Agyare has officially been sworn in as the 13th Vice-Chancellor of the Kwame Nkrumah University of Science and Technology (KNUST), marking the beginning of a new chapter in the leadership of one of Africa's premier science and technology institutions.",
+      "The investiture ceremony was held on Saturday, August 1, 2026, at the Great Hall of KNUST and was chaired by the Chancellor of the University, Otumfuo Osei Tutu II, the Asantehene. The event brought together government officials, traditional leaders, members of the university community, alumni, academics, students, and distinguished guests from across Ghana and beyond to witness the historic occasion.",
+      "Prof. Agyare succeeds Professor Rita Akosua Dickson, whose tenure as Vice-Chancellor ended on July 31, 2026. His appointment follows approval by the KNUST Governing Council at its 292nd Special Meeting in May this year, with a four-year term running from August 1, 2026, to July 31, 2030.\n\nA distinguished professor of Pharmaceutical Microbiology and Natural Products, Prof. Agyare has served KNUST in various leadership capacities over the past two decades, including as Provost of the College of Health Sciences. His academic career has been characterized by groundbreaking research, institutional leadership, and contributions to pharmaceutical sciences both locally and internationally.",
+      "During the ceremony, the new Vice-Chancellor pledged to build on the university's achievements by promoting academic excellence, research innovation, digital transformation, entrepreneurship, and stronger collaborations with industry and international partners. He also emphasized the need to enhance student welfare, strengthen governance, and maintain KNUST's position as a globally competitive institution.\n\nHis assumption of office comes at a crucial time for higher education in Ghana, as universities seek innovative approaches to research funding, technological advancement, and expanding access to quality education while maintaining academic standards.",
+      "The KNUST community has expressed optimism that Prof. Agyare's wealth of experience in academia, research, and administration will further elevate the university's reputation as a centre of excellence in science, technology, and innovation.",
+      "Professor Christian Agyare becomes the 13th Vice-Chancellor in the university's history since KNUST was established in 1951, and is expected to lead the institution through its next phase of growth and global engagement."
+    ]
+  },
+    {
     slug: "ahafo-ano-south-east-mp-apologises-for-i-will-marry-you-when-you-grow-up-remark-",
     title: "Ahafo Ano South East MP Apologises for 'I Will Marry You When You Grow Up' Remark to Schoolgirl",
     category: "National",
