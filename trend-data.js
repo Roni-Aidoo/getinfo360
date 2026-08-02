@@ -9,6 +9,42 @@
 
 const TRENDING = [
     {
+    slug: "fuel-prices-go-up-in-ghana-as-petrol-diesel-and-lpg-record-fresh-hikes",
+    title: "Fuel Prices Go Up in Ghana as Petrol, Diesel and LPG Record Fresh Hikes",
+    category: "Business",
+    author: "Newsroom",
+    date: "August 2, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-08-02 at 20.04.15.jpeg",
+    imageCaption: "Web",
+    excerpt: "Fuel prices have increased across Ghana from August 1, 2026, with petrol, diesel and LPG recording significant hikes. Here's what is driving the latest adjustments.",
+    tags: ["Fuel prices Ghana", "petrol price Ghana", "diesel price Ghana", "LPG prices", "National Petroleum Authority", "COMAC", "Ghana fuel increase."],
+    body: [
+      "Ghana – August 2, 2026 – Consumers across Ghana are facing higher fuel costs after Oil Marketing Companies (OMCs) implemented fresh pump price increases under the first pricing window of August.",
+      "The adjustments, which took effect on August 1, have seen petrol, diesel and liquefied petroleum gas (LPG) prices rise across the country, adding to concerns over the cost of living and the potential impact on transportation and commodity prices.\n\nUnder the revised pricing, the price floor for petrol has increased to GH¢14.53 per litre, while diesel now has a price floor of GH¢16.97 per litre. LPG has also risen to GH¢11.06 per kilogram, according to the latest petroleum pricing data.",
+      "The Chamber of Oil Marketing Companies (COMAC) had projected the increases, attributing them to rising international crude oil prices, higher finished petroleum product prices on the global market and the depreciation of the Ghana cedi against the US dollar.\n\nThe latest fuel price adjustments are expected to place additional financial pressure on motorists, commercial transport operators and businesses that depend heavily on fuel for their operations. Analysts warn that the increases could trigger higher transport fares and contribute to rising prices of goods and services if the trend persists.",
+      "Energy experts say future fuel prices will depend on movements in the international oil market, exchange rate stability and domestic petroleum pricing policies.\n\nConsumers have meanwhile called for measures to cushion the impact of the rising fuel costs as households continue to grapple with increasing living expenses."
+    ]
+  },
+    {
+    slug: "president-mahama-commissions-revamped-tema-oil-refinery-to-boost-ghanas-energy-s",
+    title: "President Mahama Commissions Revamped Tema Oil Refinery to Boost Ghana's Energy Security",
+    category: "National",
+    author: "Newsroom",
+    date: "August 1, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-08-02 at 20.14.34.jpeg",
+    imageCaption: "Presidency",
+    excerpt: "President John Dramani Mahama has commissioned the revamped Tema Oil Refinery, describing it as a major step towards energy security, job creation and industrial growth.",
+    tags: ["Tema Oil Refinery", "TOR", "President Mahama", "Ghana energy sector", "refinery commissioning", "petroleum industry Ghana."],
+    body: [
+      "Tema, Ghana – August 2, 2026 – President John Dramani Mahama has officially commissioned the refurbished Tema Oil Refinery (TOR), describing the project as a landmark achievement in Ghana's drive to strengthen its energy sector and reduce dependence on imported refined petroleum products.\n\nSpeaking at the commissioning ceremony, the President said the revival of the refinery demonstrates that state-owned enterprises can thrive when they are managed efficiently, transparently and without undue political interference.",
+      "He noted that the government is committed to ensuring that TOR operates on sound commercial principles to guarantee long-term sustainability and profitability while supporting national development.\n\nAccording to President Mahama, the refinery will enhance Ghana's energy security, increase local refining capacity, create employment opportunities and strengthen the country's downstream petroleum industry.",
+      "The Tema Oil Refinery has for years struggled with operational and financial challenges, limiting its ability to refine crude oil consistently. Its return to operation is expected to improve the reliability of fuel supply and reduce the country's dependence on imported refined petroleum products.\n\nIndustry stakeholders have welcomed the commissioning, describing it as an important step towards restoring confidence in Ghana's energy sector and supporting the country's broader industrialisation agenda.",
+      "While analysts say the refinery's immediate impact on pump prices may be limited, they believe sustained operations could improve fuel supply stability and help cushion the country against future external supply shocks."
+    ]
+  },
+    {
     slug: "eldest-son-of-late-ya-na-enskinned-as-dagbon-regent",
     title: "Eldest Son of Late Ya-Na Enskinned as Dagbon Regent",
     category: "National",

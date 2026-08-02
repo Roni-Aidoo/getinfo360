@@ -356,6 +356,23 @@ main{ padding-top:26px; padding-bottom:60px; }
 .trend-info h4{ font-size:0.95rem; font-weight:600; line-height:1.35; }
 .trend-info .trend-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
 .trend-empty{ padding:20px 4px; color:var(--ink-soft); font-size:0.9rem; }
+/* ---------- Trending grid (image-card style) ---------- */
+.trend-grid{
+  display:grid; grid-template-columns:repeat(2,1fr); gap:18px;
+}
+.trend-card{ display:block; }
+.trend-card-img{
+  aspect-ratio:4/3; border-radius:12px; overflow:hidden;
+  margin-bottom:10px; background:var(--brand-light);
+}
+.trend-card-img img{
+  width:100%; height:100%; object-fit:cover; transition:transform .4s ease;
+}
+.trend-card:hover .trend-card-img img{ transform:scale(1.05); }
+.trend-card-title{
+  font-family:var(--font-body); font-size:0.92rem; font-weight:600;
+  line-height:1.35; color:var(--ink);
+}
 
 /* ---------- QUOTE RAIL ---------- */
 .rail-section{ margin-bottom:44px; }
@@ -691,7 +708,7 @@ footer.footer{
     </div>
 
     <div class="trending-panel reveal">
-      <div id="trend-rows"></div>
+      <div class="trend-grid" id="trend-rows"></div>
     </div>
   </section>
     </aside>
@@ -1007,14 +1024,10 @@ function renderTrendingPanel(){
     return;
   }
 
-  wrap.innerHTML = items.map((item, i) => `
-    <a class="trend-row" href="/trends/${encodeURIComponent(item.slug)}.html">
-      <span class="trend-num">${String(i + 1).padStart(2,'0')}</span>
-      <div class="trend-thumb"><img src="${item.image}" alt="${escapeHtml(item.title)}"></div>
-      <div class="trend-info">
-        <h4 class="name">${escapeHtml(item.title)}</h4>
-        <div class="trend-date">${escapeHtml(item.date)}</div>
-      </div>
+  wrap.innerHTML = items.map(item => `
+    <a class="trend-card" href="/trends/${encodeURIComponent(item.slug)}.html">
+      <div class="trend-card-img"><img src="${item.image}" alt="${escapeHtml(item.title)}"></div>
+      <h4 class="trend-card-title">${escapeHtml(item.title)}</h4>
     </a>
   `).join('');
 }

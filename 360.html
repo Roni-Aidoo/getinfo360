@@ -202,16 +202,17 @@ main{ padding-top:26px; padding-bottom:60px; }
   background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
   padding:24px; box-shadow:var(--shadow); margin-bottom:44px;
 }
-.trend-row{ display:flex; align-items:center; gap:16px; padding:14px 0; border-bottom:1px solid var(--line); }
-.trend-row:last-child{ border-bottom:none; padding-bottom:0; }
-.trend-row:first-child{ padding-top:0; }
-.trend-num{ font-family:var(--font-display); font-weight:700; font-size:1.6rem; color:var(--line); width:36px; flex-shrink:0; }
-[data-theme="dark"] .trend-num{ color:#2A2E37; }
-.trend-thumb{ width:64px; height:64px; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
+#trend-rows{
+  display:grid; grid-template-columns:repeat(2,1fr); gap:16px;
+}
+.trend-row{
+  display:flex; flex-direction:column; gap:10px;
+}
+.trend-thumb{ width:100%; aspect-ratio:4/3; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
 .trend-thumb img{ width:100%; height:100%; object-fit:cover; }
-.trend-info h4{ font-size:0.95rem; font-weight:600; line-height:1.35; }
-.trend-info .trend-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
-.trend-empty{ padding:20px 4px; color:var(--ink-soft); font-size:0.9rem; }
+.trend-info h4{ font-size:0.92rem; font-weight:700; line-height:1.35; }
+.trend-info .trend-date{ font-size:0.72rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
+.trend-empty{ grid-column:1/-1; padding:20px 4px; color:var(--ink-soft); font-size:0.9rem; }
 
 .trend-pagination{
   display:flex; align-items:center; justify-content:center; gap:6px;
@@ -550,7 +551,6 @@ function renderTrendingPanel(page){
 
   wrap.innerHTML = items.map((article, i) => `
     <a class="trend-row" href="/articles/${encodeURIComponent(article.slug)}.html">
-      <span class="trend-num">${String(start + i + 1).padStart(2,'0')}</span>
       <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="trend-info">
         <h4 class="name">${escapeHtml(article.title)}</h4>
@@ -647,7 +647,6 @@ renderTrendingPanel(1);
 
       wrap.innerHTML = matches.map(({ article, idx }) => `
         <a class="trend-row" href="/articles/${encodeURIComponent(article.slug)}.html">
-          <span class="trend-num">${String(idx + 1).padStart(2,'0')}</span>
           <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
           <div class="trend-info">
             <h4 class="name">${escapeHtml(article.title)}</h4>
