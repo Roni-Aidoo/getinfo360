@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/trends/bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T00:00:00.000Z</news:publication_date>
+      <news:title>Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/trends/high-court-freezes-dennis-miracles-aboagyes-bank-accounts-and-properties-over-al.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T00:00:00.000Z</news:publication_date>
+      <news:title>High Court Freezes Dennis Miracles Aboagye&apos;s Bank Accounts and Properties Over Alleged GH¢55 Million Financial Irregularities</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/trends/president-mahama-orders-gh-2-per-litre-diesel-price-reduction-to-ease-cost-of-li.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T00:00:00.000Z</news:publication_date>
+      <news:title>President Mahama Orders GH¢2 Per Litre Diesel Price Reduction to Ease Cost of Living</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/trends/fuel-prices-go-up-in-ghana-as-petrol-diesel-and-lpg-record-fresh-hikes.html</loc>
     <news:news>
       <news:publication>
@@ -10,39 +43,6 @@
       </news:publication>
       <news:publication_date>2026-08-02T00:00:00.000Z</news:publication_date>
       <news:title>Fuel Prices Go Up in Ghana as Petrol, Diesel and LPG Record Fresh Hikes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/president-mahama-commissions-revamped-tema-oil-refinery-to-boost-ghanas-energy-s.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T00:00:00.000Z</news:publication_date>
-      <news:title>President Mahama Commissions Revamped Tema Oil Refinery to Boost Ghana&apos;s Energy Security</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/eldest-son-of-late-ya-na-enskinned-as-dagbon-regent.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T00:00:00.000Z</news:publication_date>
-      <news:title>Eldest Son of Late Ya-Na Enskinned as Dagbon Regent</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/prof-christian-agyare-sworn-in-as-13th-vice-chancellor-of-knust.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T00:00:00.000Z</news:publication_date>
-      <news:title>Prof. Christian Agyare Sworn In as 13th Vice-Chancellor of KNUST</news:title>
     </news:news>
   </url>
 </urlset>

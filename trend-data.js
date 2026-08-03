@@ -9,6 +9,65 @@
 
 const TRENDING = [
     {
+    slug: "bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga",
+    title: "Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use",
+    category: "Business",
+    author: "Newsroom",
+    date: "August 3, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Screenshot_20260803-174115.jpg",
+    imageCaption: "Web",
+    excerpt: "Accra, Ghana – August 3, 2026 — The Bank of Ghana (BoG) has issued a fresh warning to the public against dealing with 20 digital loan applications operating illegally in the country without the required licence or authorisation from the central bank.",
+    tags: ["Bank of Ghana", "loan applications"],
+    body: [
+      "Accra, Ghana – August 3, 2026 — The Bank of Ghana (BoG) has issued a fresh warning to the public against dealing with 20 digital loan applications operating illegally in the country without the required licence or authorisation from the central bank.",
+      "In Notice No. BG/GOV/SEC/2026/25, dated August 3, 2026, the Bank said it had observed the continued operation of several digital credit service providers offering loans through mobile applications despite lacking approval to operate under Ghana's financial laws.",
+      "The central bank explained that the activities of these entities contravene the Directive for Digital Credit Service Providers in Ghana, introduced in September 2025, as well as other applicable regulatory requirements governing digital lending services.",
+      "The affected applications are Adamfo Loan, Agyapacredit, Amanfi Loan, Arco Cash, Aya Lend, Bucks Now, CediGo, CGrab, DumboCash, FCash, GH Loans, GH Loans Pro, Hasty Credit, Newgry Money Tree, Omanpesa, PoPoCedi, Ready Money, Sika Tap, Sikapa Loan, and Zigwe Loan.\nAccording to the Bank of Ghana, the operations of these unlicensed loan providers pose significant risks to consumers, including breaches of customer data privacy, violations of consumer protection standards, and non-compliance with established financial regulations.\nThe Bank stressed that it will continue collaborating with relevant state institutions to identify, investigate, and take enforcement action against illegal digital lenders in order to safeguard consumers and maintain the integrity and stability of Ghana's financial system.",
+       "<div class=\"EV\"><img src=\"/Assets/BV1.jpg\" alt=\"letter1\" ></div><br><br><br><br>",
+      "<div class=\"EV\"><img src=\"/Assets/BV2.jpg\" alt=\"letter2\"></div><br><br><br><br>",
+      "It also cautioned banks, Specialised Deposit-Taking Institutions (SDIs), and Payment Service Providers (PSPs) against facilitating transactions or providing services to any unlicensed digital loan provider.\nThe Bank further encouraged members of the public who become aware of the activities of illegal digital lenders to report them to its Fintech and Innovation Department for investigation.\nThe notice, signed by Aimee Vyda Quashie (Ms.), Secretary of the Bank of Ghana, forms part of the central bank's ongoing efforts to strengthen regulation of Ghana's fast-growing digital lending sector and ensure that only licensed institutions provide financial services to the public.",
+      "The latest action reinforces the Bank of Ghana's commitment to protecting consumers from unregulated lenders while promoting a secure, transparent, and accountable digital financial ecosystem."
+    ]
+  },
+    {
+    slug: "high-court-freezes-dennis-miracles-aboagyes-bank-accounts-and-properties-over-al",
+    title: "High Court Freezes Dennis Miracles Aboagye's Bank Accounts and Properties Over Alleged GH¢55 Million Financial Irregularities",
+    category: "National",
+    author: "Newsroom",
+    date: "August 3, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Mir.jpg",
+    imageCaption: "Web",
+    excerpt: "The High Court in Accra has ordered the freezing of five bank accounts and four landed properties belonging to former Executive Secretary of the Inter-Ministerial Coordinating Committee on Decentralisation (IMCCoD), Dennis \"Miracles\" Edward Aboagye, as investigations into alleged financial irregularities continue.",
+    tags: ["High Court", "Miracles", "EOCO"],
+    body: [
+      "The High Court in Accra has ordered the freezing of five bank accounts and four landed properties belonging to former Executive Secretary of the Inter-Ministerial Coordinating Committee on Decentralisation (IMCCoD), Dennis \"Miracles\" Edward Aboagye, as investigations into alleged financial irregularities continue.",
+      "The order, secured by the Economic and Organised Crime Office (EOCO), is intended to preserve the assets while investigators probe the alleged misappropriation and procurement-related irregularities involving approximately GH¢55 million during Mr Aboagye's tenure at the IMCCoD.",
+      "Under the court's directive, the affected bank accounts cannot be accessed or used for any financial transactions until further notice. Likewise, the four landed properties covered by the preservation order cannot be sold, transferred, mortgaged or otherwise disposed of pending the outcome of the investigations or any subsequent court orders.",
+      "EOCO maintains that the preservation order is a standard legal measure designed to prevent the movement or disposal of assets that could become relevant evidence in the ongoing investigation. The agency stressed that the court's order does not amount to a declaration of guilt but serves to protect the integrity of the investigative process.\n\nThe latest development follows Mr Aboagye's arrest by EOCO in July after he arrived at the Kotoka International Airport. The anti-corruption agency questioned him over suspected procurement breaches and financial irregularities allegedly committed during his time at the IMCCoD.\n\nFollowing his arrest, the former government official was granted bail in the sum of GH¢50 million with three sureties. He has since been cooperating with investigators while maintaining his innocence.\n\nMr Aboagye has consistently denied any wrongdoing, describing the allegations against him as unfounded. He has also rejected claims linking him to the alleged GH¢55 million financial loss, insisting that he acted lawfully throughout his tenure in public office.",
+      "The High Court's preservation order also extends to certain assets linked to former IMCCoD accountant Gerald Appiah and Hillside Piggery and Meat Processing Limited, as EOCO broadens its investigations into the transactions under scrutiny."
+    ]
+  },
+    {
+    slug: "president-mahama-orders-gh-2-per-litre-diesel-price-reduction-to-ease-cost-of-li",
+    title: "President Mahama Orders GH¢2 Per Litre Diesel Price Reduction to Ease Cost of Living",
+    category: "Business",
+    author: "Newsroom",
+    date: "August 3, 2026",
+    readTime: "2 min read",
+    image: "/Assets/JM1.jfif",
+    imageCaption: "Web",
+    excerpt: "August 3, 2026 — President John Dramani Mahama has directed an immediate GH¢2.00 reduction in the regulatory margin on diesel for a period of one month in a move aimed at easing the financial burden on Ghanaians amid rising fuel prices.",
+    tags: ["Fuel Prices", "President", "Petrol", "Diesel"],
+    body: [
+      "August 3, 2026 — President John Dramani Mahama has directed an immediate GH¢2.00 reduction in the regulatory margin on diesel for a period of one month in a move aimed at easing the financial burden on Ghanaians amid rising fuel prices.",
+      "The directive, announced in a statement issued by the Presidency on Monday, August 3, follows a Cabinet decision and builds on the government's successful fuel price intervention introduced in April 2026.\nAccording to the statement signed by Felix Kwakye Ofosu, MP, Spokesperson to the President and Minister for Government Communications, the reduction will take effect from Tuesday, August 4, 2026, and will remain in force for one month unless reviewed by the government.\nThe Presidency explained that the temporary intervention is intended to cushion consumers from the impact of increasing fuel prices, prevent transport fare hikes, contain inflationary pressures, and reduce the pass-through effect of higher fuel costs on the general cost of living.\nThe government noted that lowering the regulatory margin on diesel forms part of broader efforts to protect households and businesses while sustaining Ghana's ongoing economic recovery.\nDiesel is the primary fuel used by commercial transport operators, heavy-duty vehicles, industries, and many businesses. As a result, the reduction is expected to provide relief to transport operators and businesses whose operating costs have risen following recent increases in petroleum prices. Consumers could also benefit if transport operators pass the reduction on through lower or stable transport fares.",
+      "<div class=\"EV\"><img src=\"/Assets/PV1.jpg\" alt=\"letter1\" ></div><br><br><br><br>",
+      "The announcement comes at a time when concerns over fuel prices and inflation continue to dominate public discourse. In recent weeks, increases in the prices of petroleum products have heightened fears of rising transportation costs and higher prices for goods and services.\nGovernment assured the public that it will continue to monitor developments in the international energy market and implement additional policy measures where necessary to safeguard the interests of Ghanaians.\nThe one-month intervention is expected to serve as a temporary relief measure while authorities assess global oil market trends and their impact on the domestic economy."
+    ]
+  },
+    {
     slug: "fuel-prices-go-up-in-ghana-as-petrol-diesel-and-lpg-record-fresh-hikes",
     title: "Fuel Prices Go Up in Ghana as Petrol, Diesel and LPG Record Fresh Hikes",
     category: "Business",
