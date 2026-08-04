@@ -8,6 +8,26 @@
    ============================================================ */
 
 const STORIES = [
+    {
+    slug: "behind-the-smile",
+    title: "Behind the Smile",
+    category: "Poem",
+    author: "Jennifer Agyei",
+    date: "August 3, 2026",
+    readTime: "1 min read",
+    image: "/Assets/behinds.jfif",
+    imageCaption: "Web",
+    excerpt: "Behind the Smile were agonies of pains and hurts from the past.",
+    tags: ["Literature", "Poem", "Jenni's Corner"],
+    body: [
+      "1. Behind the Smile \n   were agonies of pains \n    and hurts from the past.",
+      "2. The pains He so\n    desired to get away from,\n    lingered near like a baby \n    who is so attached to the mother.",
+      "3. Behind that hidden smile\n    were His woes which He could not share.\n    Always was He wearing a smile.\n    His smile which brings comfort to others\n    but no one knew His pains.",
+      "4. He had to live with them \n    as each day passes.\n    But not until He found his real love.\n    Who brought his smiles alive.\n    This time with so much love and warmth.",
+      "5. Behind the smile now \n    was peace, love and comfort.\n    He could smile freely now,\n    without any pains, hurts or woes.\n    Cos He has found His first love.",
+      "6. He did not need to think \n    about the aftermath of\n    His smiles anymore.\n    Cos behind that smile was LOVE"
+    ]
+  },
   {
     slug: "All-is-well-the-Mystery-Girl",
     title: "All is Well: The Mystery Girl",

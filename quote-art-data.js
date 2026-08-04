@@ -8,6 +8,7 @@
 
 /* Each quote needs: text, image (author photo), name (author) */
 const QUOTES = [
+  
    {
     text: "Remember, instructions go to those who utilse them well, not those who trivialise them",
     image: "Assets/LOG.jpg",
