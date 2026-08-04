@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <meta name="description" content="In-depth analysis, opinions, and longform stories from our team of writers and contributors.">
 <meta name="theme-color" content="#0F3D2E">
 <link rel="icon" href="/favicon.ico">
@@ -29,7 +29,7 @@
   --radius-sm: 12px;
   --header-h: 64px;
   --tabbar-h: 66px;
-  --font-display:'Fraunces', serif;
+  --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
   --font-mono:'IBM Plex Mono', monospace;
 }
@@ -172,9 +172,9 @@ main{ padding-top:26px; padding-bottom:60px; }
   margin-bottom:16px;
 }
 .hero h1{
-  font-family:var(--font-display); color:#fff; font-weight:700;
-  font-size:clamp(1.5rem, 4vw, 2.5rem); line-height:1.15; max-width:760px;
-  letter-spacing:-0.01em;
+  font-family:var(--font-display); color:#fff; font-weight:800;
+  font-size:clamp(1.5rem, 4vw, 2.5rem); line-height:1.12; max-width:760px;
+  letter-spacing:-0.02em;
 }
 .hero-meta{ display:flex; gap:18px; margin-top:16px; color:rgba(255,255,255,0.75); font-size:0.85rem; font-family:var(--font-mono); flex-wrap:wrap; }
 .hero-meta span{ display:flex; align-items:center; gap:6px; }
@@ -306,7 +306,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 
 .page-hero{ padding:34px 0 24px; }
 .page-hero .eyebrow{ margin-bottom:8px; }
-.page-hero h1{ font-family:var(--font-display); font-size:clamp(1.8rem,4vw,2.6rem); font-weight:700; letter-spacing:-0.01em; }
+.page-hero h1{ font-family:var(--font-display); font-size:clamp(1.8rem,4vw,2.6rem); font-weight:800; letter-spacing:-0.02em; }
 .page-hero p{ color:var(--ink-soft); max-width:640px; margin-top:10px; font-size:1.02rem; }
 
 .listing-layout{ display:grid; grid-template-columns:2fr 1fr; gap:40px; padding-bottom:60px; }
@@ -342,7 +342,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <div class="appbar-actions">
       <button class="icon-btn" onclick="toggleSearch()" aria-label="Search"><i class="fas fa-search"></i></button>
       <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" id="theme-toggle"><i class="fas fa-moon"></i></button>
-      <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-enveloper"></i></a>
+      <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-envelope"></i></a>
       <button class="icon-btn mobile-menu" onclick="toggleDrawer()" aria-label="Menu"><i class="fas fa-bars"></i></button>
     </div>
   </div>

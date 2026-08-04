@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
 
 <meta name="theme-color" content="#0F3D2E">
 <link rel="icon" href="/favicon.ico">
@@ -46,7 +47,7 @@
   --radius-sm: 12px;
   --header-h: 64px;
   --tabbar-h: 66px;
-  --font-display:'Fraunces', serif;
+  --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
   --font-mono:'IBM Plex Mono', monospace;
 }
@@ -393,7 +394,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
       <div class="side-panel reveal">
         <h3>More From Getinfo</h3>
         <div id="art-related"></div>
-        <a class="side-more" href="360.html">More articles <i class="fas fa-arrow-right"></i></a>
+        <a class="side-more" href="Treanding.html">More articles <i class="fas fa-arrow-right"></i></a>
       </div>
     </aside>
   </div>
@@ -558,7 +559,7 @@ const slug = getSlugFromURL();
   const tagsWrap = document.getElementById('art-tags');
   tagsWrap.innerHTML = (article.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');
 
-  const related = getOtherArticles(article.slug, 2);
+  const related = getOtherArticles(article.slug, 6);
   const relatedWrap = document.getElementById('art-related');
   relatedWrap.innerHTML = related.map(a => `
     <div class="recent-post">
