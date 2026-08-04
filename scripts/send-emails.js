@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { Resend } from 'resend';
 
-// Initialize clients using environment variables
 const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -9,10 +8,10 @@ const supabase = createClient(
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 async function main() {
-  // 1. Fetch subscribers from Supabase
+  // 1. Fetch subscribers from Supabase using your exact column names
   const { data: subscribers, error } = await supabase
     .from('subscribers')
-    .select('email, name, username');
+    .select('email, username');
 
   if (error) {
     console.error('Error fetching subscribers:', error);
@@ -28,9 +27,9 @@ async function main() {
 
   // 2. Send email via Resend
   const { data, error: sendError } = await resend.emails.send({
-    from: 'getinfo360online@gmail.com',
+    from: 'onboarding@resend.dev',
     to: emails,
-    subject: 'New News!',
+    subject: 'New Update!',
     html: '<p>Hello! We just deployed a new update to our site.</p>',
   });
 
