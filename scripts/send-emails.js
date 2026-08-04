@@ -27,7 +27,7 @@ async function main() {
 
   // 2. Send email via Resend
   const { data, error: sendError } = await resend.emails.send({
-    from: 'onboarding@resend.dev',
+    from: 'updates@getinfoonline.com',
     to: emails,
     subject: 'New Update!',
     html: '<p>Hello! We just deployed a new update to our site.</p>',
