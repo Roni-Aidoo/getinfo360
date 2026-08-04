@@ -9,6 +9,26 @@
 
 const TRENDING = [
     {
+    slug: "nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink",
+    title: "NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream",
+    category: "National",
+    author: "Newsroom",
+    date: "August 4, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Screenshot_20260804-165309.jpg",
+    imageCaption: "Web",
+    excerpt: "KOFORIDUA, Ghana — The Narcotics Control Commission (NACOC) has arrested ten students of Koforidua Technical University (KTU) for allegedly producing and distributing cannabis-infused drinks and ice cream during the university's Students' Representative Council (SRC) Hall Week celebrations.",
+    tags: ["KTU", "NACOC"],
+    body: [
+      "KOFORIDUA, Ghana — The Narcotics Control Commission (NACOC) has arrested ten students of Koforidua Technical University (KTU) for allegedly producing and distributing cannabis-infused drinks and ice cream during the university's Students' Representative Council (SRC) Hall Week celebrations.",
+      "The arrests followed an intelligence-led operation conducted by NACOC after officers received information that food and beverages suspected to contain cannabis were being sold to students and patrons attending activities on campus. The operation, carried out between July 31 and August 1, led to the apprehension of the suspects and the seizure of several suspected narcotic-laced products.\n\nAccording to NACOC, the suspected ringleader, Priscilla Tetteh, 23, was arrested together with nine other students believed to have played various roles in the production, packaging and distribution of the products. The Commission said the group allegedly operated an organised network that supplied cannabis-infused consumables during the event.",
+      "Items recovered during the operation included suspected cannabis, cannabis-infused \"abele\" ice cream, pineapple juice, sobolo, fresh palm wine and other beverages. Preliminary field tests conducted by investigators reportedly indicated the presence of cannabis in a number of the seized products. The exhibits have been retained as part of ongoing investigations.",
+      "NACOC described the operation as part of its intensified efforts to combat the growing misuse and commercialisation of narcotic substances among young people. The Commission expressed concern over the increasing trend of individuals disguising controlled substances in food and beverages, warning that such practices pose serious health and safety risks to unsuspecting consumers.\n\nThe Commission reminded the public that the possession, production, sale and distribution of narcotic substances without lawful authority remain offences under Ghana's narcotics laws. It cautioned that anyone found engaging in such activities would be arrested and prosecuted.",
+      "NACOC also appealed to university authorities, student leaders, parents and the public to support efforts to curb drug abuse by reporting suspicious activities. It stressed that educational institutions should remain safe environments that promote learning rather than centres for illicit drug activities.\n\nThe ten suspects are currently in NACOC custody and are assisting with investigations. They are expected to be processed for court in accordance with the law once investigations are concluded.",
+      "The latest arrests underscore NACOC's resolve to intensify intelligence-led operations across the country as part of efforts to dismantle drug trafficking networks and prevent the spread of illicit substances, particularly among the youth."
+    ]
+  },
+    {
     slug: "bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga",
     title: "Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use",
     category: "Business",
