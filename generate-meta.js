@@ -1,53 +1,3 @@
-/**
- * generate-meta.js
- * ------------------------------------------------------------
- * Build-time static page generator for social/SEO meta tags,
- * PLUS an auto-generated sitemap.xml AND a Google News sitemap
- * (news-sitemap.xml), all built from the exact same pages this
- * script produces.
- *
- * WHAT IT DOES
- * For every entry in ARTICLES / STORIES / TRENDING, this makes a
- * real, physical HTML file (e.g. articles/beyond-the-headlines.html)
- * that is a copy of your template page but with the <title> and
- * Open Graph / Twitter meta tags replaced with that item's real
- * title, excerpt, and image — written directly into the HTML text,
- * not injected by JavaScript. That's what makes it visible to
- * Facebook/Twitter/WhatsApp/Slack/etc. crawlers, which don't run JS.
- *
- * Your existing page JS (slug lookup, rendering the body, etc.)
- * keeps working exactly as before for real visitors — this script
- * only touches the <head> meta tags.
- *
- * It then writes:
- *   - sitemap.xml — your fixed static pages + every dynamic page
- *     generated above. Built from whatever actually got generated,
- *     so it never links to a page this run failed to produce.
- *   - news-sitemap.xml — a Google News sitemap
- *     (https://www.google.com/schemas/sitemap-news/0.9) covering
- *     only the page types you flag as news content, and — per
- *     Google's rules — only items published within the last 48
- *     hours. Google News ignores/penalizes sitemaps stuffed with
- *     older content, so older items are filtered out automatically.
- *
- * HOW TO RUN
- *   1. npm install cheerio        (a tiny, safe HTML parser/editor)
- *   2. node generate-meta.js
- *   3. Deploy the generated folders (articles/, stories/, trends/)
- *      and the new sitemap.xml / news-sitemap.xml alongside the
- *      rest of your site.
- *   4. Submit both sitemap.xml and news-sitemap.xml in Google
- *      Search Console (news-sitemap.xml only matters if your site
- *      is approved in Google News / News Publisher Center).
- *
- * Re-run this any time your data files change, or wire it into a
- * GitHub Action / npm "build" script so it runs automatically.
- * (For a real news sitemap to stay useful you generally want this
- * running frequently — e.g. every 15–30 min — since it only ever
- * contains the last 48 hours of content.)
- * ------------------------------------------------------------
- */
-
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio'); // npm install cheerio
@@ -122,6 +72,15 @@ const STATIC_PAGES = [
   { path: '/ano.html', changefreq: 'weekly', priority: '0.6' },
   { path: '/Signin.html', changefreq: 'monthly', priority: '0.3' },
 ];
+
+// Where the newsletter sender script lives, and what it's called.
+// generate-meta.js (re)writes this file on every run so it's always
+// present and never has to be created/edited by hand.
+const NEWSLETTER = {
+  enabled: true,
+  outputDir: 'scripts',
+  outputFile: 'send-emails.js',
+};
 
 // ============================================================
 // Helpers
@@ -394,6 +353,100 @@ function buildNewsSitemap() {
 }
 
 // ============================================================
+// Newsletter sender script (scripts/send-emails.js)
+// ------------------------------------------------------------
+// Written fresh on every generate-meta.js run so it's always
+// present and in sync. It depends on two small helper modules —
+// scripts/lib/load-content-data.js and scripts/newsletter-template.js
+// — which must already exist in the scripts/ folder (they hold the
+// reusable data-loading + HTML-building logic and don't need to be
+// regenerated on every run).
+// ============================================================
+function buildSendEmailsScriptSource() {
+  return `import { createClient } from '@supabase/supabase-js';
+import { Resend } from 'resend';
+import { loadDataArray } from './lib/load-content-data.js';
+import { generateNewsletterHTML } from './newsletter-template.js';
+
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+// Pulls the newest N items out of a data file (e.g. trend-data.js's
+// TRENDING array), newest first — same file generate-meta.js reads.
+function getRecent(dataFile, varName, limit) {
+  const items = loadDataArray(dataFile, varName);
+  return items
+    .filter((item) => item.slug)
+    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+    .slice(0, limit);
+}
+
+async function main() {
+  // 1. Fetch subscribers from Supabase using your exact column names
+  const { data: subscribers, error } = await supabase
+    .from('subscribers')
+    .select('email, username');
+
+  if (error) {
+    console.error('Error fetching subscribers:', error);
+    process.exit(1);
+  }
+
+  if (!subscribers || subscribers.length === 0) {
+    console.log('No subscribers found.');
+    return;
+  }
+
+  const emails = subscribers.map((sub) => sub.email);
+
+  // 2. Send email via Resend
+  const { data, error: sendError } = await resend.emails.send({
+    from: 'Getinfo Online <updates@getinfoonline.com>',
+    to: emails,
+    subject: 'New Update!',
+    html: generateNewsletterHTML({
+      trends: getRecent('trend-data.js', 'TRENDING', 5),
+      articles: getRecent('articles-data.js', 'ARTICLES', 3),
+    }),
+  });
+
+  if (sendError) {
+    console.error('Error sending emails:', sendError);
+    process.exit(1);
+  }
+
+  console.log('Emails sent successfully:', data);
+}
+
+main();
+`;
+}
+
+function writeSendEmailsScript() {
+  if (!NEWSLETTER.enabled) return;
+
+  const outDir = path.resolve(process.cwd(), NEWSLETTER.outputDir);
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const libPath = path.join(outDir, 'lib', 'load-content-data.js');
+  const templatePath = path.join(outDir, 'newsletter-template.js');
+  if (!fs.existsSync(libPath) || !fs.existsSync(templatePath)) {
+    console.warn(
+      `⚠️  scripts/send-emails.js depends on scripts/lib/load-content-data.js and ` +
+      `scripts/newsletter-template.js — one or both are missing. The file will still ` +
+      `be written, but won't run until those are in place.`
+    );
+  }
+
+  const outPath = path.join(outDir, NEWSLETTER.outputFile);
+  fs.writeFileSync(outPath, buildSendEmailsScriptSource(), 'utf8');
+  console.log(`✅ ${NEWSLETTER.outputDir}/${NEWSLETTER.outputFile} generated → ${outPath}`);
+}
+
+// ============================================================
 // Main build
 // ============================================================
 function buildPageSet(cfg) {
@@ -473,6 +526,12 @@ try {
   console.error(`❌ Failed building ${NEWS_SITEMAP.outputFile}:`, err.message);
 }
 
+try {
+  writeSendEmailsScript();
+} catch (err) {
+  console.error(`❌ Failed generating ${NEWSLETTER.outputDir}/${NEWSLETTER.outputFile}:`, err.message);
+}
+
 console.log('\nDone. Deploy the generated folders, plus sitemap.xml' +
   (NEWS_SITEMAP.enabled ? ` and ${NEWS_SITEMAP.outputFile}` : '') +
   ', alongside your existing site.');
@@ -480,4 +539,7 @@ console.log('Share links like: ' + SITE_BASE_URL + '/articles/your-slug.html');
 console.log('Submit the sitemap at: ' + SITE_BASE_URL + '/sitemap.xml');
 if (NEWS_SITEMAP.enabled) {
   console.log('Submit the news sitemap at: ' + SITE_BASE_URL + '/' + NEWS_SITEMAP.outputFile);
+}
+if (NEWSLETTER.enabled) {
+  console.log('Send the newsletter with: node ' + NEWSLETTER.outputDir + '/' + NEWSLETTER.outputFile);
 }
