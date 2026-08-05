@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T00:00:00.000Z</news:publication_date>
+      <news:title>Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/trends/nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink.html</loc>
     <news:news>
       <news:publication>
@@ -10,39 +21,6 @@
       </news:publication>
       <news:publication_date>2026-08-04T00:00:00.000Z</news:publication_date>
       <news:title>NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03T00:00:00.000Z</news:publication_date>
-      <news:title>Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/high-court-freezes-dennis-miracles-aboagyes-bank-accounts-and-properties-over-al.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03T00:00:00.000Z</news:publication_date>
-      <news:title>High Court Freezes Dennis Miracles Aboagye&apos;s Bank Accounts and Properties Over Alleged GH¢55 Million Financial Irregularities</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/president-mahama-orders-gh-2-per-litre-diesel-price-reduction-to-ease-cost-of-li.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03T00:00:00.000Z</news:publication_date>
-      <news:title>President Mahama Orders GH¢2 Per Litre Diesel Price Reduction to Ease Cost of Living</news:title>
     </news:news>
   </url>
 </urlset>

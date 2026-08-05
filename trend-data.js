@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi",
+    title: "Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School",
+    category: "News",
+    author: "Newsroom",
+    date: "August 5, 2026",
+    readTime: "2 min read",
+    image: "/Assets/WhatsApp Image 2026-08-05 at 13.53.201.jpg",
+    imageCaption: "Web",
+    excerpt: "The Headmaster of Obuasi Senior High Technical School (Obuasi SecTech), Abdulai Zakaria, is receiving treatment at the Komfo Anokye Teaching Hospital after he was allegedly assaulted by a group of students during violent disturbances on the school campus.",
+    tags: ["Mr. Abdulai Zakaria", "Obuasi Senior High Technical School (Obuasi SecTech)", "Headmaster"],
+    body: [
+      "The Headmaster of Obuasi Senior High Technical School (Obuasi SecTech), Abdulai Zakaria, is receiving treatment at the Komfo Anokye Teaching Hospital after he was allegedly assaulted by a group of students during violent disturbances on the school campus.\n\nThe incident reportedly occurred after rumours circulated among students alleging that a fetus had been buried on the school premises. Although the claims remain unverified and have not been confirmed by the authorities, the rumours are believed to have triggered unrest that escalated into an attack on the headmaster.",
+      "Eyewitness accounts indicate that an angry mob of students confronted the headmaster, with the situation quickly turning violent. Mr. Zakaria sustained serious injuries, including reported head trauma and a suspected skull fracture, before he was rushed to the Komfo Anokye Teaching Hospital in Kumasi for emergency medical treatment.\n\nFollowing the incident, the Ghana Police Service arrested six students to assist with investigations into the assault and the disturbances that occurred on campus.",
+      "In response to the violence, the Obuasi Municipal Security Council (MUSEC) ordered the indefinite closure of the school to safeguard students, staff and school property while investigations continue. Students have been directed to vacate the campus until further notice.\n\nAuthorities have urged the public to refrain from spreading unverified information regarding the alleged burial of a fetus, stressing that investigations are ongoing and that the facts surrounding the incident have not yet been established.",
+      "The Ghana Education Service and the Ghana Police Service are expected to conduct separate investigations into both the assault on the headmaster and the allegations that sparked the unrest.\n\nThe incident has generated widespread concern among education stakeholders, who have condemned the violence and called for calm while investigators work to establish the full circumstances surrounding the case.",
+      "Further updates are expected as officials provide more information on the headmaster's condition and the progress of the investigations."
+    ]
+  },
+    {
     slug: "nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink",
     title: "NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream",
     category: "National",
