@@ -30,7 +30,7 @@ async function main() {
     from: 'updates@getinfoonline.com',
     to: emails,
     subject: 'New Update!',
-    html: '<p>Hello! We just deployed a new update to our site.</p>',
+    html: '<p>Hello, You will be recieving newsletters soon from Getinfo Online. Watch Out</p>',
   });
 
   if (sendError) {

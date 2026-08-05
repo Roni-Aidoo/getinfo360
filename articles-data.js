@@ -8,6 +8,24 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "toxic-workplaces",
+    title: "TOXIC WORKPLACES",
+    category: "Article",
+    author: "Jesse Mabery",
+    date: "August 5, 2026",
+    readTime: "1 min read",
+    image: "/Assets/images12.png",
+    imageCaption: "Web",
+    excerpt: "A view backed with evidence on behavior of Organizations in Ghana.",
+    tags: ["Toxic", "Workplace", "Ghana", "Harrasment", "Psychological hazards", "Human Resource", "The Chartered Institute of Human Resource Management Ghana (CIHRM)", "Brain drain", "Ghanaian Youth", "Employment", "Employees", "Management", "Businesses", "Skilled Graduates", "Public service", "Psychological safety", "Organizations", "Productivity", "Health"],
+    body: [
+      "The Chartered Institute of Human Resource Management, Ghana (CIHRM), in partnership with HRP Consult and Data Insight Group, published a nationwide employee satisfaction survey revealing a negative Employee Net Promoter Score (eNPS) of -20. Female employees reported significantly lower satisfaction (eNPS of -26) compared to male employees (eNPS of -12).",
+      "Researchers linked this gap to systemic biases, inequitable treatment, and a lack of supportive structures for female staff.\nThe Chartered Institute of Human Resource Management, Ghana (CIHRM), initiated a nationwide HR interventions to address workplace culture, leadership accountability, and psychological safety.",
+      "Analysts noted that severe workplace toxicity is a cause of \"brain drain,\" forcing skilled young graduates out of public service or out of the country entirely. The report of hostility clothed as Toughening up; “Ani3 den\" has made skilled young graduates not satisfied with what they thought the workplace would be. They would rather keep their skills and perform where their skills are not seen as arrogance,  than be told “You are not ready\" all the time. Toxic workplaces have been a major concern in Ghana recently.",
+      "The Human resource bodies and health advocates across Ghana have urged employers to treat psychosocial hazards\nsuch as burnout, harassment, and toxic management as urgent by emphasizing that psychological safety is a fundamental drive for workers' health and organizational productivity."
+    ]
+  },
     {
     slug: "art-deserves-better-a-call-to-restore-ghanas-creative-heritage",
     title: "Art Deserves Better: A Call to Restore Ghana's Creative Heritage",
@@ -47,8 +65,8 @@ const ARTICLES = [
     ]
   },
    {
-    slug: "the-provision-of-schools-leads-to-unemployment",
-    title: "THE PROVISION OF SCHOOLS LEADS TO UNEMPLOYMENT",
+    slug: "the-provision-of-schools-lead-in-unemployment",
+    title: "THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT",
     category: "Article",
     author: "Jesse Mabery",
     date: "July 30, 2026",
