@@ -39,7 +39,7 @@ async function main() {
 
   // 2. Send email via Resend
   const { data, error: sendError } = await resend.emails.send({
-    from: 'Getinfo Online',
+    from: 'updates@getinfoonline.com',
     to: emails,
     subject: 'New Update!',
     html: generateNewsletterHTML({
