@@ -75,11 +75,14 @@ const STATIC_PAGES = [
 
 // Where the newsletter sender script lives, and what it's called.
 // generate-meta.js (re)writes this file on every run so it's always
-// present and never has to be created/edited by hand.
+// present, in sync, and self-contained (no extra module files to
+// resolve at send time — the HTML is baked in as a plain string).
 const NEWSLETTER = {
   enabled: true,
   outputDir: 'scripts',
   outputFile: 'send-emails.js',
+  trendLimit: 5,
+  articleLimit: 3,
 };
 
 // ============================================================
@@ -154,7 +157,7 @@ function toISODateTime(dateStr) {
   return d ? d.toISOString() : null;
 }
 
-/** Escape text so it's safe to place inside XML element content/attributes. */
+/** Escape text so it's safe to place inside XML/HTML element content/attributes. */
 function escapeXml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -353,36 +356,203 @@ function buildNewsSitemap() {
 }
 
 // ============================================================
+// Newsletter HTML (baked directly into scripts/send-emails.js)
+// ------------------------------------------------------------
+// Builds a plain HTML string from the same TRENDING/ARTICLES data
+// PAGES already knows how to load, then writes it straight into the
+// `html:` field of send-emails.js as a literal string. Nothing in
+// send-emails.js is imported at send-time — it's fully self-contained,
+// so it doesn't depend on any other files existing in scripts/.
+// ============================================================
+
+function getPageConfig(dataVarName) {
+  return PAGES.find((p) => p.dataVarName === dataVarName);
+}
+
+function itemUrl(cfg, item) {
+  return `${SITE_BASE_URL}${cfg.urlPathPrefix}${item.slug}.html`;
+}
+
+/** Newest-first, limited, slug-having items for a given PAGES config. */
+function recentItems(cfg, limit) {
+  const items = loadDataArray(cfg.dataFile, cfg.dataVarName);
+  return items
+    .filter((item) => item.slug)
+    .sort((a, b) => (parseItemDate(b.date)?.getTime() || 0) - (parseItemDate(a.date)?.getTime() || 0))
+    .slice(0, limit);
+}
+
+function renderTrendRow(item, cfg) {
+  const title = escapeXml(item.title || 'Untitled trend');
+  const summary = escapeXml(truncate(item.excerpt || '', 100));
+  const url = itemUrl(cfg, item);
+
+  return `
+  <tr>
+    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
+      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">${title}</p>
+      ${summary ? `<p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">${summary}</p>` : ''}
+      <a href="${url}" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
+    </td>
+  </tr>`;
+}
+
+function renderArticleCard(item, cfg) {
+  const title = escapeXml(item.title || 'Untitled');
+  const excerpt = escapeXml(truncate(item.excerpt || '', 160));
+  const image = absoluteUrl(item.image);
+  const url = itemUrl(cfg, item);
+
+  return `
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="${escapeXml(image)}" alt="${title}" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">${title}</p>
+        ${excerpt ? `<p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">${excerpt}</p>` : ''}
+        <a href="${url}"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>`;
+}
+
+function renderAdSlot() {
+  return `
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+         style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
+    <tr>
+      <td style="padding:20px;text-align:center;">
+        <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
+        <a href="${SITE_BASE_URL}/advertise" style="text-decoration:none;">
+          <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
+          <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
+        </a>
+      </td>
+    </tr>
+  </table>`;
+}
+
+function sectionHeader(label) {
+  return `
+  <tr>
+    <td style="padding:0 0 10px 0;">
+      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">${escapeXml(label)}</p>
+    </td>
+  </tr>`;
+}
+
+/**
+ * @returns {{ html: string, trendCount: number, articleCount: number }}
+ */
+function buildNewsletterHtml() {
+  const cfgTrend = getPageConfig('TRENDING');
+  const cfgArticles = getPageConfig('ARTICLES');
+
+  const trending = cfgTrend ? recentItems(cfgTrend, NEWSLETTER.trendLimit) : [];
+  const articles = cfgArticles ? recentItems(cfgArticles, NEWSLETTER.articleLimit) : [];
+
+  const trendSection = trending.length
+    ? `
+    <tr>${sectionHeader('Trending Now')}</tr>
+    <tr>
+      <td>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          ${trending.map((item) => renderTrendRow(item, cfgTrend)).join('')}
+        </table>
+      </td>
+    </tr>` : '';
+
+  const articlesSection = articles.length
+    ? `
+    <tr>${sectionHeader('Latest Articles')}</tr>
+    <tr>
+      <td>
+        ${articles.map((item) => renderArticleCard(item, cfgArticles)).join('')}
+      </td>
+    </tr>` : '';
+
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>This Week's Update</title>
+</head>
+<body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f4f5;padding:24px 0;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0"
+               style="width:600px;max-width:100%;background:#ffffff;border-radius:10px;overflow:hidden;">
+
+          <tr>
+            <td style="padding:24px 28px;background:#111111;">
+              <p style="margin:0;font-size:20px;font-weight:800;color:#ffffff;">Get Info Online</p>
+              <p style="margin:4px 0 0 0;font-size:12px;color:#aaaaaa;">This Week's Update</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:28px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="padding-bottom:18px;">
+                    <p style="margin:0;font-size:15px;color:#333333;">Hey there,</p>
+                    <p style="margin:6px 0 0 0;font-size:14px;color:#666666;">Here's what's new — full stories are on the site.</p>
+                  </td>
+                </tr>
+
+                ${trendSection}
+                <tr><td>${renderAdSlot()}</td></tr>
+                ${articlesSection}
+
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px 28px;background:#fafafa;border-top:1px solid #eeeeee;">
+              <p style="margin:0 0 6px 0;font-size:12px;color:#999999;">You're receiving this because you subscribed at ${escapeXml(SITE_BASE_URL.replace(/^https?:\/\//, ''))}.</p>
+              <p style="margin:0;font-size:12px;"><a href="${SITE_BASE_URL}/unsubscribe" style="color:#999999;text-decoration:underline;">Unsubscribe</a></p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
+
+  return { html, trendCount: trending.length, articleCount: articles.length };
+}
+
+// ============================================================
 // Newsletter sender script (scripts/send-emails.js)
 // ------------------------------------------------------------
-// Written fresh on every generate-meta.js run so it's always
-// present and in sync. It depends on two small helper modules —
-// scripts/lib/load-content-data.js and scripts/newsletter-template.js
-// — which must already exist in the scripts/ folder (they hold the
-// reusable data-loading + HTML-building logic and don't need to be
-// regenerated on every run).
+// Written fresh on every generate-meta.js run. Structurally
+// identical to your original script — only the `html:` value
+// changes, baked in as a plain string (no imports, no runtime
+// file reads at send time).
 // ============================================================
-function buildSendEmailsScriptSource() {
+function buildSendEmailsScriptSource(htmlContent) {
+  const htmlLiteral = JSON.stringify(htmlContent);
+
   return `import { createClient } from '@supabase/supabase-js';
 import { Resend } from 'resend';
-import { loadDataArray } from './lib/load-content-data.js';
-import { generateNewsletterHTML } from './newsletter-template.js';
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_SERVICE_ROLE_KEY
 );
 const resend = new Resend(process.env.RESEND_API_KEY);
-
-// Pulls the newest N items out of a data file (e.g. trend-data.js's
-// TRENDING array), newest first — same file generate-meta.js reads.
-function getRecent(dataFile, varName, limit) {
-  const items = loadDataArray(dataFile, varName);
-  return items
-    .filter((item) => item.slug)
-    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
-    .slice(0, limit);
-}
 
 async function main() {
   // 1. Fetch subscribers from Supabase using your exact column names
@@ -404,13 +574,10 @@ async function main() {
 
   // 2. Send email via Resend
   const { data, error: sendError } = await resend.emails.send({
-    from: 'Getinfo Online <updates@getinfoonline.com>',
+    from: 'updates@getinfoonline.com',
     to: emails,
     subject: 'New Update!',
-    html: generateNewsletterHTML({
-      trends: getRecent('trend-data.js', 'TRENDING', 5),
-      articles: getRecent('articles-data.js', 'ARTICLES', 3),
-    }),
+    html: ${htmlLiteral},
   });
 
   if (sendError) {
@@ -431,19 +598,26 @@ function writeSendEmailsScript() {
   const outDir = path.resolve(process.cwd(), NEWSLETTER.outputDir);
   fs.mkdirSync(outDir, { recursive: true });
 
-  const libPath = path.join(outDir, 'lib', 'load-content-data.js');
-  const templatePath = path.join(outDir, 'newsletter-template.js');
-  if (!fs.existsSync(libPath) || !fs.existsSync(templatePath)) {
-    console.warn(
-      `⚠️  scripts/send-emails.js depends on scripts/lib/load-content-data.js and ` +
-      `scripts/newsletter-template.js — one or both are missing. The file will still ` +
-      `be written, but won't run until those are in place.`
+  let htmlContent;
+  let counts = { trendCount: 0, articleCount: 0 };
+  try {
+    const built = buildNewsletterHtml();
+    htmlContent = built.html;
+    counts = built;
+  } catch (err) {
+    console.error(
+      '❌ Failed building newsletter HTML — writing send-emails.js with a placeholder instead:',
+      err.message
     );
+    htmlContent = '<p>Hello, You will be recieving newsletters soon from Getinfo Online. Watch Out</p>';
   }
 
   const outPath = path.join(outDir, NEWSLETTER.outputFile);
-  fs.writeFileSync(outPath, buildSendEmailsScriptSource(), 'utf8');
-  console.log(`✅ ${NEWSLETTER.outputDir}/${NEWSLETTER.outputFile} generated → ${outPath}`);
+  fs.writeFileSync(outPath, buildSendEmailsScriptSource(htmlContent), 'utf8');
+  console.log(
+    `✅ ${NEWSLETTER.outputDir}/${NEWSLETTER.outputFile} generated ` +
+    `(${counts.trendCount} trend(s), ${counts.articleCount} article(s)) → ${outPath}`
+  );
 }
 
 // ============================================================
