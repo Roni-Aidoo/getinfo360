@@ -98,7 +98,57 @@ async function main() {
       </td>
     </tr>
   </table>
-
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-05 at 13.53.201.jpg" alt="Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Headmaster of Obuasi Senior High Technical School (Obuasi SecTech), Abdulai Zakaria, is receiving treatment at the Komfo Anokye Teaching Hospital after he…</p>
+        <a href="https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/Screenshot_20260804-165309.jpg" alt="NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">KOFORIDUA, Ghana — The Narcotics Control Commission (NACOC) has arrested ten students of Koforidua Technical University (KTU) for allegedly producing and distr…</p>
+        <a href="https://getinfoonline.com/trends/nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/Screenshot_20260803-174115.jpg" alt="Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Accra, Ghana – August 3, 2026 — The Bank of Ghana (BoG) has issued a fresh warning to the public against dealing with 20 digital loan applications operating il…</p>
+        <a href="https://getinfoonline.com/trends/bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
       </td>
     </tr>
                 <tr><td>
@@ -124,7 +174,57 @@ async function main() {
     <tr>
       <td>
         
- 
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/images12.png" alt="TOXIC WORKPLACES" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">TOXIC WORKPLACES</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A view backed with evidence on behavior of Organizations in Ghana.</p>
+        <a href="https://getinfoonline.com/articles/toxic-workplaces.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/ArtIm.jpeg" alt="Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Art, there’s the saying that art is life. Art captures the hidden beauty of life. Art is like breath, drawn in after a still morning breeze from the rich drenc…</p>
+        <a href="https://getinfoonline.com/articles/art-deserves-better-a-call-to-restore-ghanas-creative-heritage.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/SHS-placement.jpg" alt="THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Education is one of the major things Ghana strives for its citizens to have. A Quality Education, we call it, for every citizen.</p>
+        <a href="https://getinfoonline.com/articles/the-provision-of-schools-lead-in-unemployment.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
       </td>
     </tr>
 
