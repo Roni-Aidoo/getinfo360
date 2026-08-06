@@ -36,6 +36,18 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/trends/ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/trends/protect-democracy-demonstration-thousands-march-in-accra-as-npp-protests-alleged.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -238,6 +250,12 @@
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/stories/midnight-gold.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://getinfoonline.com/stories/behind-the-smile.html</loc>

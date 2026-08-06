@@ -55,52 +55,50 @@ async function main() {
                 </tr>
 
                 
-    <tr>
+    
   <tr>
     <td style="padding:0 0 10px 0;">
       <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Trending Now</p>
     </td>
-  </tr></tr>
+  </tr>
     <tr>
       <td>
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-          
-  <tr>
-    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
-      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School</p>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">The Headmaster of Obuasi Senior High Technical School (Obuasi SecTech), Abdulai Zakaria, is receivi…</p>
-      <a href="https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
-      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream</p>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">KOFORIDUA, Ghana — The Narcotics Control Commission (NACOC) has arrested ten students of Koforidua…</p>
-      <a href="https://getinfoonline.com/trends/nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink.html" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
-      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use</p>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">Accra, Ghana – August 3, 2026 — The Bank of Ghana (BoG) has issued a fresh warning to the public ag…</p>
-      <a href="https://getinfoonline.com/trends/bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga.html" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
-      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">High Court Freezes Dennis Miracles Aboagye&apos;s Bank Accounts and Properties Over Alleged GH¢55 Million Financial Irregularities</p>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">The High Court in Accra has ordered the freezing of five bank accounts and four landed properties b…</p>
-      <a href="https://getinfoonline.com/trends/high-court-freezes-dennis-miracles-aboagyes-bank-accounts-and-properties-over-al.html" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
-      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">President Mahama Orders GH¢2 Per Litre Diesel Price Reduction to Ease Cost of Living</p>
-      <p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">August 3, 2026 — President John Dramani Mahama has directed an immediate GH¢2.00 reduction in the r…</p>
-      <a href="https://getinfoonline.com/trends/president-mahama-orders-gh-2-per-litre-diesel-price-reduction-to-ease-cost-of-li.html" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
-    </td>
-  </tr>
-        </table>
+        
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/heroes.jfif" alt="Ghana marks one year since the August 6 military helicopter tragedy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana marks one year since the August 6 military helicopter tragedy</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana commemorates the first anniversary of the August 6 military helicopter crash with a national memorial service, honouring eight fallen heroes.</p>
+        <a href="https://getinfoonline.com/trends/ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/demonpop.jfif" alt="Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana&apos;s Democracy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana&apos;s Democracy</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Thousands of NPP supporters marched in Accra during the Protect Democracy Demonstration, calling for an end to alleged selective justice and threats to Ghana&apos;s…</p>
+        <a href="https://getinfoonline.com/trends/protect-democracy-demonstration-thousands-march-in-accra-as-npp-protests-alleged.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+
       </td>
     </tr>
                 <tr><td>
@@ -117,66 +115,16 @@ async function main() {
     </tr>
   </table></td></tr>
                 
-    <tr>
+    
   <tr>
     <td style="padding:0 0 10px 0;">
       <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
     </td>
-  </tr></tr>
+  </tr>
     <tr>
       <td>
         
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/images12.png" alt="TOXIC WORKPLACES" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">TOXIC WORKPLACES</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A view backed with evidence on behavior of Organizations in Ghana.</p>
-        <a href="https://getinfoonline.com/articles/toxic-workplaces.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/ArtIm.jpeg" alt="Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Art, there’s the saying that art is life. Art captures the hidden beauty of life. Art is like breath, drawn in after a still morning breeze from the rich drenc…</p>
-        <a href="https://getinfoonline.com/articles/art-deserves-better-a-call-to-restore-ghanas-creative-heritage.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/SHS-placement.jpg" alt="THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Education is one of the major things Ghana strives for its citizens to have. A Quality Education, we call it, for every citizen.</p>
-        <a href="https://getinfoonline.com/articles/the-provision-of-schools-lead-in-unemployment.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+ 
       </td>
     </tr>
 

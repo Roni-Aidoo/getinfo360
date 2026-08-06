@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/trends/ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
+      <news:title>Ghana marks one year since the August 6 military helicopter tragedy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/trends/protect-democracy-demonstration-thousands-march-in-accra-as-npp-protests-alleged.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
+      <news:title>Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana&apos;s Democracy</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html</loc>
     <news:news>
       <news:publication>
@@ -10,17 +32,6 @@
       </news:publication>
       <news:publication_date>2026-08-05T00:00:00.000Z</news:publication_date>
       <news:title>Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T00:00:00.000Z</news:publication_date>
-      <news:title>NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream</news:title>
     </news:news>
   </url>
   <url>

@@ -382,21 +382,6 @@ function recentItems(cfg, limit) {
     .slice(0, limit);
 }
 
-function renderTrendRow(item, cfg) {
-  const title = escapeXml(item.title || 'Untitled trend');
-  const summary = escapeXml(truncate(item.excerpt || '', 100));
-  const url = itemUrl(cfg, item);
-
-  return `
-  <tr>
-    <td style="padding:14px 0;border-bottom:1px solid #eaeaea;">
-      <p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:#111111;line-height:1.35;">${title}</p>
-      ${summary ? `<p style="margin:0 0 8px 0;font-size:13px;color:#555555;line-height:1.5;">${summary}</p>` : ''}
-      <a href="${url}" style="font-size:13px;font-weight:600;color:#2563eb;text-decoration:none;">Continue Reading &#8594;</a>
-    </td>
-  </tr>`;
-}
-
 function renderArticleCard(item, cfg) {
   const title = escapeXml(item.title || 'Untitled');
   const excerpt = escapeXml(truncate(item.excerpt || '', 160));
@@ -460,18 +445,16 @@ function buildNewsletterHtml() {
 
   const trendSection = trending.length
     ? `
-    <tr>${sectionHeader('Trending Now')}</tr>
+    ${sectionHeader('Trending Now')}
     <tr>
       <td>
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-          ${trending.map((item) => renderTrendRow(item, cfgTrend)).join('')}
-        </table>
+        ${trending.map((item) => renderArticleCard(item, cfgTrend)).join('')}
       </td>
     </tr>` : '';
 
   const articlesSection = articles.length
     ? `
-    <tr>${sectionHeader('Latest Articles')}</tr>
+    ${sectionHeader('Latest Articles')}
     <tr>
       <td>
         ${articles.map((item) => renderArticleCard(item, cfgArticles)).join('')}
@@ -537,13 +520,24 @@ function buildNewsletterHtml() {
 // ============================================================
 // Newsletter sender script (scripts/send-emails.js)
 // ------------------------------------------------------------
-// Written fresh on every generate-meta.js run. Structurally
-// identical to your original script — only the `html:` value
-// changes, baked in as a plain string (no imports, no runtime
-// file reads at send time).
+// Written fresh on every generate-meta.js run. No imports besides
+// supabase-js/resend, no runtime file reads at send time — the
+// generated HTML is baked straight into an `emailHtml` template
+// literal. Sends one individual email per subscriber (Promise.all)
+// instead of one email with everyone in `to`, so no subscriber ever
+// sees another subscriber's address.
 // ============================================================
+
+/** Escape characters that would break out of a `...` template literal. */
+function escapeForTemplateLiteral(str) {
+  return String(str)
+    .replace(/\\/g, '\\\\')
+    .replace(/`/g, '\\`')
+    .replace(/\$\{/g, '\\${');
+}
+
 function buildSendEmailsScriptSource(htmlContent) {
-  const htmlLiteral = JSON.stringify(htmlContent);
+  const htmlLiteral = escapeForTemplateLiteral(htmlContent);
 
   return `import { createClient } from '@supabase/supabase-js';
 import { Resend } from 'resend';
@@ -570,22 +564,25 @@ async function main() {
     return;
   }
 
-  const emails = subscribers.map((sub) => sub.email);
+  const emailHtml = \`${htmlLiteral}\`;
 
-  // 2. Send email via Resend
-  const { data, error: sendError } = await resend.emails.send({
-    from: 'updates@getinfoonline.com',
-    to: emails,
-    subject: 'New Update!',
-    html: ${htmlLiteral},
-  });
+  // 2. Send individual emails via Resend to protect privacy
+  const emailPromises = subscribers.map((sub) =>
+    resend.emails.send({
+      from: 'GetInfo <GetInfo@getinfoonline.com>',
+      to: sub.email,
+      subject: "This Week's Update - Get Info Online",
+      html: emailHtml,
+    })
+  );
 
-  if (sendError) {
+  try {
+    const results = await Promise.all(emailPromises);
+    console.log('All emails dispatched successfully:', results);
+  } catch (sendError) {
     console.error('Error sending emails:', sendError);
     process.exit(1);
   }
-
-  console.log('Emails sent successfully:', data);
 }
 
 main();

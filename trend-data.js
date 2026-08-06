@@ -9,6 +9,52 @@
 
 const TRENDING = [
     {
+    slug: "ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy",
+    title: "Ghana marks one year since the August 6 military helicopter tragedy",
+    category: "National",
+    author: "Newsroom",
+    date: "August 6, 2026",
+    readTime: "3 min read",
+    image: "/Assets/heroes.jfif",
+    imageCaption: "Web",
+    excerpt: "Ghana commemorates the first anniversary of the August 6 military helicopter crash with a national memorial service, honouring eight fallen heroes.",
+    tags: ["Ghana August 6 military helicopter tragedy"],
+    body: [
+      "Ghana has marked the first anniversary of the tragic August 6 military helicopter crash that claimed the lives of eight distinguished public servants and military officers, with a solemn national memorial service honouring their sacrifice and reaffirming the nation's commitment to preserving their legacy.",
+      "The memorial service, held at the University of Professional Studies, Accra (UPSA), brought together President John Dramani Mahama, Vice President Professor Naana Jane Opoku-Agyemang, ministers of state, Members of Parliament, senior military officers, religious leaders, traditional authorities, members of the diplomatic corps, bereaved families, and hundreds of Ghanaians.\n\nThe ceremony formed part of a week-long national programme instituted by the Government of Ghana to commemorate one of the country's worst military aviation disasters in recent history.",
+      "## Remembering the August 6 Military Helicopter Crash",
+      "On August 6, 2025, a Ghana Armed Forces Harbin Z-9 helicopter crashed in the Adansi Akrofuom District of the Ashanti Region while transporting senior government officials and military personnel on official duty from Accra to Kumasi.\n\nThe accident claimed the lives of all eight people on board, sending shockwaves across Ghana and prompting an outpouring of grief from citizens, political leaders, and the international community.\n\nThe tragedy remains one of the darkest moments in Ghana's recent history, highlighting the risks faced by public servants and security personnel in the discharge of their national duties.",
+      "## President Mahama Pays Tribute to Fallen Heroes",
+      "<div class=\"EV\"><img src=\"/Assets/pres1.jfif\" alt=\"letter1\" ></div><br><br>",
+      "Addressing mourners during the memorial service, President John Dramani Mahama described the deceased as patriots who dedicated their lives to serving Ghana.\n\nHe urged Ghanaians to celebrate and appreciate individuals who devote themselves to national service while they are still alive, stressing that their sacrifices should never be forgotten.\n\nThe President also assured the bereaved families of government's continued support, noting that the nation would forever remain indebted to the men and women who lost their lives in the line of duty.",
+      "## Emotional Tributes from Families",
+      "The memorial service was marked by emotional moments as relatives of the victims paid tribute to their loved ones.\n\nOne of the most touching moments came when Awura Adjoa Kumi Kyere, widow of late Flying Officer Manaen Twum Ampadu, encouraged other grieving families to remain hopeful despite their immense loss.\n\nShe said faith and resilience had carried her family through the difficult year following the tragedy and urged fellow bereaved families to continue drawing strength from one another.",
+      "## A Nation United in Remembrance",
+      "Across Ghana, many citizens observed moments of reflection in honour of the eight individuals who lost their lives.\n\nThe anniversary served as a reminder of the dedication, courage, and patriotism demonstrated by public servants and members of the Ghana Armed Forces who continue to serve under demanding and often dangerous conditions.\n\nAs wreaths were laid and prayers offered, the nation reaffirmed its commitment to ensuring that the sacrifices of the fallen heroes remain a lasting part of Ghana's history.\n\nWith the first anniversary now observed, the August 6 military helicopter tragedy continues to stand as a solemn reminder of the price of public service and the importance of supporting those who dedicate their lives to the nation."
+    ]
+  },
+    {
+    slug: "protect-democracy-demonstration-thousands-march-in-accra-as-npp-protests-alleged",
+    title: "Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana's Democracy",
+    category: "National",
+    author: "Newsroom",
+    date: "August 6, 2026",
+    readTime: "3 min read",
+    image: "/Assets/demonpop.jfif",
+    imageCaption: "Web",
+    excerpt: "Thousands of NPP supporters marched in Accra during the Protect Democracy Demonstration, calling for an end to alleged selective justice and threats to Ghana's democracy.",
+    tags: ["Protect Democracy Demonstration Ghana"],
+    body: [
+      "Thousands of supporters of the opposition New Patriotic Party (NPP), joined by members of several allied political parties and civil society groups, poured onto the streets of Accra on Thursday for the Protect Democracy Demonstration, a nationwide protest aimed at drawing attention to what organisers described as growing threats to Ghana's democratic institutions and the rule of law.\n\nThe demonstration, organised under the theme \"Democracy Under Attack,\" brought together party executives, Members of Parliament, former ministers, constituency executives, youth groups and supporters from across the country. The protest began at Obra Spot at Kwame Nkrumah Circle, moved through the principal streets of the capital under heavy police escort, and concluded at the Jubilee House, where organisers presented a petition to the Presidency.\n\nThe march was characterised by chants, patriotic songs and placards bearing messages including \"Protect Our Democracy,\" \"Justice Must Be Fair,\" \"Stop Political Intimidation,\" and \"Respect the Rule of Law.\" Protesters maintained that the demonstration was intended to safeguard Ghana's democratic values rather than promote partisan interests.",
+      "Addressing supporters before the procession commenced, the NPP's National Organiser, Henry Nana Boakye, popularly known as Nana B, said the protest was motivated by what the party believes are persistent attacks on democratic governance and constitutional institutions.\n\nAccording to him, the demonstration sought to highlight concerns over alleged political persecution, selective application of justice, abuse of state power and attempts to intimidate political opponents.\n\nHe argued that the independence of institutions such as the judiciary, security services and other constitutional bodies must be protected to preserve public confidence in Ghana's democracy.",
+      "> The purpose of today's demonstration is to remind every Ghanaian that democracy must be protected at all times. No government should be allowed to weaken the institutions that guarantee justice, fairness and accountability, he said.",
+      "The demonstration attracted the participation of leaders and supporters from several opposition political parties, including the Liberal Party of Ghana (LPG), National Democratic Party (NDP), People's National Party (PNP), Ghana Union Movement (GUM) and other political groups.\n\nThe broad coalition, organisers said, reflected growing concerns among sections of the political class about the need to strengthen constitutional governance and ensure equal treatment under the law.\n\nSeveral Members of Parliament and former government officials also participated, describing the march as a constitutional exercise aimed at defending democratic freedoms guaranteed under the 1992 Constitution.",
+      "At the conclusion of the march, leaders of the demonstration presented a petition to representatives of the Presidency outlining a number of demands.\n\nAmong the issues raised were calls for the protection of judicial independence, adherence to the rule of law, respect for constitutional processes, an end to alleged politically motivated prosecutions and greater accountability within state institutions.\n\nThe organisers urged government to address their concerns through dialogue and institutional reforms, arguing that strong democratic institutions are essential for Ghana's continued political stability.",
+      "## Demonstration Coincides With National Day of Remembrance",
+      "Thursday's protest coincided with the first anniversary of the August 6, 2025 military helicopter tragedy, which claimed the lives of eight senior government officials and military personnel.\n\nDespite calls from some quarters for the demonstration to be postponed out of respect for the national memorial, organisers maintained that both events could proceed peacefully and independently. They argued that exercising the constitutional right to peaceful assembly did not diminish the significance of the nation's remembrance activities."
+    ]
+  },
+    {
     slug: "headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi",
     title: "Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School",
     category: "News",

@@ -9,6 +9,35 @@
 
 const STORIES = [
     {
+    slug: "midnight-gold",
+    title: "MIDNIGHT GOLD",
+    category: "Poem",
+    author: "Amani Emmanuel Kwarteng",
+    date: "August 6, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-08-05 at 18.26.33.jpeg",
+    imageCaption: "Web",
+    excerpt: "Are you afraid of the mirror or the shade\nWishing the skin of your father would fade\nWho told you the sun was better than the moon?\nWho told you the night needed mercy for noon?",
+    tags: ["Poem", "Midnight Gold"],
+    body: [
+      "Are you afraid of the mirror or the shade\nWishing the skin of your father would fade\nWho told you the sun was better than the moon?\nWho told you the night needed mercy for noon?",
+      "They put the poison in a pretty little jar\nPromising to make you a yellow born star",
+      "They say scrub away the cocoa, scrub away the earth,",
+      "They want you to forget what your melanin is worth.",
+      ".But listen to me closer, let me tell you what I see.",
+      "I see the beginning of all history",
+      "You want to trade the ebony for the sand?\nYou want to erase the footsteps of the land? Stop!!!!!!!",
+      "Look at the sky when the stars come out to play.\nThey can only shine when the sun goes away.",
+      "The darker the canvas, the brighter the paint.\n\nDon't turn a goddess into a saint",
+      "They sell you the cream to burn off the night.\nBut a diamond is dark before it sees the light.",
+      "Don't wash night away.",
+      "You are midnight gold",
+      "You are the story that the ancients told",
+      "Oh my ebony queen",
+      "You are the deepest thing I have ever seen."
+    ]
+  },
+    {
     slug: "behind-the-smile",
     title: "Behind the Smile",
     category: "Poem",
