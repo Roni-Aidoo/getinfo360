@@ -67,6 +67,40 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/senep.jfif" alt="Senegal Court Jails Three TikTok Influencers for Insulting President Faye" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Senegal Court Jails Three TikTok Influencers for Insulting President Faye</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A court in Senegal has sentenced three TikTok influencers to prison after finding them guilty of insulting President Bassirou Diomaye Faye through videos poste…</p>
+        <a href="https://getinfoonline.com/trends/senegal-court-jails-three-tiktok-influencers-for-insulting-president-faye.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/bernard-antwi-boasiako-chairman-wontumi-e1784556580862 (1).png" alt="Chairman Wontumi Asks High Court for Bail Pending Appeal Against Conviction" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Chairman Wontumi Asks High Court for Bail Pending Appeal Against Conviction</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Lawyers for the Ashanti Regional Chairman of the New Patriotic Party (NPP), Bernard Antwi Boasiako, popularly known as Chairman Wontumi, have filed an applicat…</p>
+        <a href="https://getinfoonline.com/trends/chairman-wontumi-asks-high-court-for-bail-pending-appeal-against-conviction.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/heroes.jfif" alt="Ghana marks one year since the August 6 military helicopter tragedy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -109,40 +143,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Headmaster of Obuasi Senior High Technical School (Obuasi SecTech), Abdulai Zakaria, is receiving treatment at the Komfo Anokye Teaching Hospital after he…</p>
         <a href="https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Screenshot_20260804-165309.jpg" alt="NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NACOC Arrests 10 KTU Students Over Alleged Trafficking of Cannabis-Infused Drinks and Ice Cream</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">KOFORIDUA, Ghana — The Narcotics Control Commission (NACOC) has arrested ten students of Koforidua Technical University (KTU) for allegedly producing and distr…</p>
-        <a href="https://getinfoonline.com/trends/nacoc-arrests-10-ktu-students-over-alleged-trafficking-of-cannabis-infused-drink.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Screenshot_20260803-174115.jpg" alt="Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Bank of Ghana Publishes List of 20 Unlicensed Digital Loan Apps, Warns Public Against Their Use</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Accra, Ghana – August 3, 2026 — The Bank of Ghana (BoG) has issued a fresh warning to the public against dealing with 20 digital loan applications operating il…</p>
-        <a href="https://getinfoonline.com/trends/bank-of-ghana-publishes-list-of-20-unlicensed-digital-loan-apps-warns-public-aga.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

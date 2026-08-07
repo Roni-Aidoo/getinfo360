@@ -9,6 +9,46 @@
 
 const TRENDING = [
     {
+    slug: "senegal-court-jails-three-tiktok-influencers-for-insulting-president-faye",
+    title: "Senegal Court Jails Three TikTok Influencers for Insulting President Faye",
+    category: "International",
+    author: "Newsroom",
+    date: "August 7, 2026",
+    readTime: "2 min read",
+    image: "/Assets/senep.jfif",
+    imageCaption: "Web",
+    excerpt: "A court in Senegal has sentenced three TikTok influencers to prison after finding them guilty of insulting President Bassirou Diomaye Faye through videos posted on the social media platform TikTok, in a case that has reignited debate over freedom of expression in the West African nation.",
+    tags: ["International News", "President Bassirou Diomaye Faye", "Senegal"],
+    body: [
+      "A court in Senegal has sentenced three TikTok influencers to prison after finding them guilty of insulting President Bassirou Diomaye Faye through videos posted on the social media platform TikTok, in a case that has reignited debate over freedom of expression in the West African nation.",
+      "The three content creators, all affiliated with the online media platform Feenal Digital, were convicted over videos that prosecutors said contained offensive remarks directed at President Faye.\n\nThe court sentenced Mandoumbe Diop, popularly known as Lamignou Darou, to three months in prison without suspension, making him the most heavily punished among the trio. Diop is the most prominent of the three influencers, boasting more than 500,000 followers on TikTok, where his political commentary regularly attracts tens of thousands of views.",
+      "The two other influencers, Magueye Diaw (known as Oustaz Thiep) and Moustapha Ndiaye (known as Ndiaye Touba), were each sentenced to two months in prison. In addition to their jail terms, both were fined 500,000 CFA francs (approximately US$800) by the court.",
+      "Defence lawyer Abdy Nar Ndiaye criticized the ruling, arguing that the videos were intended as comedy and satire rather than criminal insults. He maintained that the content should have been protected as a form of free expression and did not warrant imprisonment.\n\nThe case comes at a politically sensitive time in Senegal following tensions between President Faye and former Prime Minister Ousmane Sonko, once close political allies. Some observers have described Feenal Digital as sympathetic to Sonko's political movement, although the platform says its mission is to promote government and private-sector activities.",
+      "The convictions have sparked criticism from free speech advocates, who argue that criminal penalties for online expression could undermine democratic freedoms and discourage political commentary on social media. Others, however, contend that public officials should be protected from defamatory and abusive content published online.",
+      "The ruling is expected to fuel further debate over the balance between protecting freedom of expression and enforcing laws against insults directed at public officials in Senegal, as governments across Africa continue to grapple with regulating digital platforms and online political discourse."
+    ]
+  },
+    {
+    slug: "chairman-wontumi-asks-high-court-for-bail-pending-appeal-against-conviction",
+    title: "Chairman Wontumi Asks High Court for Bail Pending Appeal Against Conviction",
+    category: "National",
+    author: "Newsroom",
+    date: "August 7, 2026",
+    readTime: "2 min read",
+    image: "/Assets/bernard-antwi-boasiako-chairman-wontumi-e1784556580862 (1).png",
+    imageCaption: "Web",
+    excerpt: "Lawyers for the Ashanti Regional Chairman of the New Patriotic Party (NPP), Bernard Antwi Boasiako, popularly known as Chairman Wontumi, have filed an application at the High Court seeking bail pending the hearing and determination of his appeal against a 20-year prison sentence.",
+    tags: ["Chairman Wontumi", "ORAL"],
+    body: [
+      "Lawyers for the Ashanti Regional Chairman of the New Patriotic Party (NPP), Bernard Antwi Boasiako, popularly known as Chairman Wontumi, have filed an application at the High Court seeking bail pending the hearing and determination of his appeal against a 20-year prison sentence.",
+      "The application comes barely days after Wontumi was convicted and sentenced by the High Court in a case involving illegal mining-related offences. He is currently serving his sentence at the Nsawam Medium Security Prison while awaiting the outcome of the legal processes initiated by his defence team.",
+      "In the motion filed before the Criminal Division of the High Court, Wontumi's lawyers argue that their client has substantial grounds of appeal with a high likelihood of success. They contend that the appeal raises serious legal and factual issues that merit careful consideration by the appellate court.\nThe defence is also urging the court to exercise its discretionary powers to grant bail, insisting that Wontumi poses no flight risk and has demonstrated his willingness to comply with all judicial proceedings throughout the trial. According to the application, he is prepared to satisfy any conditions the court may impose if granted temporary release.",
+      "The motion was filed pursuant to the relevant provisions of Ghana's Criminal and Other Offences (Procedure) Act and the Courts Act, which empower the High Court to grant bail to convicted persons in appropriate circumstances while their appeals are pending.\nLegal experts note that bail pending appeal is not granted automatically. The court must be satisfied that the appeal presents arguable grounds with a realistic prospect of success or that there are exceptional circumstances warranting the applicant's release pending the final determination of the appeal.\nThe bail application has been scheduled to be heard on August 19, 2026. Should the court grant the request, Chairman Wontumi will be released on bail under conditions to be determined by the court until the Court of Appeal delivers its judgment.",
+      "<div class=\"EV\"><img src=\"/Assets/Wo1.jpeg\" alt=\"letter1\" ></div><br><br><br><br>",
+      "The case continues to generate widespread public and political interest, given Wontumi's influential position within the opposition New Patriotic Party. His conviction has sparked intense debate across the political landscape, with supporters expressing confidence that the appeal will overturn the judgment, while others insist the judicial process should be allowed to run its course.\nThe outcome of the bail application is expected to be closely watched, as it will determine whether the outspoken politician remains in custody or is temporarily released while pursuing his appeal against the conviction and sentence."
+    ]
+  },
+    {
     slug: "ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy",
     title: "Ghana marks one year since the August 6 military helicopter tragedy",
     category: "National",
@@ -25,7 +65,7 @@ const TRENDING = [
       "## Remembering the August 6 Military Helicopter Crash",
       "On August 6, 2025, a Ghana Armed Forces Harbin Z-9 helicopter crashed in the Adansi Akrofuom District of the Ashanti Region while transporting senior government officials and military personnel on official duty from Accra to Kumasi.\n\nThe accident claimed the lives of all eight people on board, sending shockwaves across Ghana and prompting an outpouring of grief from citizens, political leaders, and the international community.\n\nThe tragedy remains one of the darkest moments in Ghana's recent history, highlighting the risks faced by public servants and security personnel in the discharge of their national duties.",
       "## President Mahama Pays Tribute to Fallen Heroes",
-      "<div class=\"EV\"><img src=\"/Assets/pres1.jfif\" alt=\"letter1\" ></div><br><br>",
+      "<div class=\"EV\"><img src=\"/Assets/pres1.jfif\" alt=\"letter1\" ></div><br>",
       "Addressing mourners during the memorial service, President John Dramani Mahama described the deceased as patriots who dedicated their lives to serving Ghana.\n\nHe urged Ghanaians to celebrate and appreciate individuals who devote themselves to national service while they are still alive, stressing that their sacrifices should never be forgotten.\n\nThe President also assured the bereaved families of government's continued support, noting that the nation would forever remain indebted to the men and women who lost their lives in the line of duty.",
       "## Emotional Tributes from Families",
       "The memorial service was marked by emotional moments as relatives of the victims paid tribute to their loved ones.\n\nOne of the most touching moments came when Awura Adjoa Kumi Kyere, widow of late Flying Officer Manaen Twum Ampadu, encouraged other grieving families to remain hopeful despite their immense loss.\n\nShe said faith and resilience had carried her family through the difficult year following the tragedy and urged fellow bereaved families to continue drawing strength from one another.",
