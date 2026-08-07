@@ -67,88 +67,21 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/senep.jfif" alt="Senegal Court Jails Three TikTok Influencers for Insulting President Faye" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/zenator.jpg" alt="Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Senegal Court Jails Three TikTok Influencers for Insulting President Faye</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A court in Senegal has sentenced three TikTok influencers to prison after finding them guilty of insulting President Bassirou Diomaye Faye through videos poste…</p>
-        <a href="https://getinfoonline.com/trends/senegal-court-jails-three-tiktok-influencers-for-insulting-president-faye.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has nominated Dr. Zanetor Agyeman-Rawlings, the Member of Parliament for Klottey Korle, as Minister for Environment, Science, Tec…</p>
+        <a href="https://getinfoonline.com/trends/dr-zanetor-agyeman-rawlings-nominated-as-minister-for-environment-science-techno.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/bernard-antwi-boasiako-chairman-wontumi-e1784556580862 (1).png" alt="Chairman Wontumi Asks High Court for Bail Pending Appeal Against Conviction" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Chairman Wontumi Asks High Court for Bail Pending Appeal Against Conviction</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Lawyers for the Ashanti Regional Chairman of the New Patriotic Party (NPP), Bernard Antwi Boasiako, popularly known as Chairman Wontumi, have filed an applicat…</p>
-        <a href="https://getinfoonline.com/trends/chairman-wontumi-asks-high-court-for-bail-pending-appeal-against-conviction.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/heroes.jfif" alt="Ghana marks one year since the August 6 military helicopter tragedy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana marks one year since the August 6 military helicopter tragedy</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana commemorates the first anniversary of the August 6 military helicopter crash with a national memorial service, honouring eight fallen heroes.</p>
-        <a href="https://getinfoonline.com/trends/ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/demonpop.jfif" alt="Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana&apos;s Democracy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana&apos;s Democracy</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Thousands of NPP supporters marched in Accra during the Protect Democracy Demonstration, calling for an end to alleged selective justice and threats to Ghana&apos;s…</p>
-        <a href="https://getinfoonline.com/trends/protect-democracy-demonstration-thousands-march-in-accra-as-npp-protests-alleged.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-05 at 13.53.201.jpg" alt="Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Headmaster Hospitalised After Alleged Mob Attack by Students at Obuasi Senior High Technical School</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Headmaster of Obuasi Senior High Technical School (Obuasi SecTech), Abdulai Zakaria, is receiving treatment at the Komfo Anokye Teaching Hospital after he…</p>
-        <a href="https://getinfoonline.com/trends/headmaster-hospitalised-after-alleged-mob-attack-by-students-at-obuasi-senior-hi.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+ 
       </td>
     </tr>
                 <tr><td>
@@ -174,57 +107,7 @@ async function main() {
     <tr>
       <td>
         
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/images12.png" alt="TOXIC WORKPLACES" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">TOXIC WORKPLACES</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A view backed with evidence on behavior of Organizations in Ghana.</p>
-        <a href="https://getinfoonline.com/articles/toxic-workplaces.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/ArtIm.jpeg" alt="Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Art, there’s the saying that art is life. Art captures the hidden beauty of life. Art is like breath, drawn in after a still morning breeze from the rich drenc…</p>
-        <a href="https://getinfoonline.com/articles/art-deserves-better-a-call-to-restore-ghanas-creative-heritage.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/SHS-placement.jpg" alt="THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE PROVISION OF SCHOOLS LEAD IN UNEMPLOYMENT</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Education is one of the major things Ghana strives for its citizens to have. A Quality Education, we call it, for every citizen.</p>
-        <a href="https://getinfoonline.com/articles/the-provision-of-schools-lead-in-unemployment.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+  
       </td>
     </tr>
 

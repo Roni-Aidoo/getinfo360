@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "dr-zanetor-agyeman-rawlings-nominated-as-minister-for-environment-science-techno",
+    title: "Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation",
+    category: "national",
+    author: "Newsroom",
+    date: "August 7, 2026",
+    readTime: "1 min read",
+    image: "/Assets/zenator.jpg",
+    imageCaption: "Web",
+    excerpt: "President John Dramani Mahama has nominated Dr. Zanetor Agyeman-Rawlings, the Member of Parliament for Klottey Korle, as Minister for Environment, Science, Technology and Innovation (MESTI) as part of a ministerial reshuffle announced on Friday, August 7, 2026.",
+    tags: ["Dr. Zanetor Agyeman-Rawlings", "Ghana", "Minister for Environment", "Science", "Technology and Innovation (MESTI)"],
+    body: [
+      "Minister for Environment, Science, Technology and Innovation (MESTI)",
+      "Dr. Zanetor Agyeman-Rawlings, a medical doctor and legislator, has represented the Klottey Korle Constituency since 2017. She is widely known for her advocacy on environmental sustainability, public health, climate resilience, scientific innovation, and youth empowerment.\n\nHer nomination follows months of public speculation over who would be appointed to lead the ministry after the death of the late Minister for Environment, Science and Technology, Dr. Ibrahim Murtala Mohammed, in the August 6, 2025 military helicopter crash.",
+      "Throughout her parliamentary career, Dr. Zanetor has served on the Environment, Science and Technology Committee, where she has contributed to debates on environmental protection, flooding, climate change, and sustainable development. Her background in medicine and longstanding interest in environmental issues have positioned her as a strong candidate for the portfolio.\n\nThe reshuffle also saw President Mahama reassign Kenneth Gilbert Adjei to serve as Minister for Defence-designate, Ahmed Ibrahim to the Ministry of Works, Housing and Water Resources, and nominate Mahama Ayariga as Minister for Local Government, Chieftaincy and Religious Affairs.",
+      "If approved by Parliament, Dr. Zanetor Agyeman-Rawlings will be responsible for leading Ghana's efforts in environmental management, scientific research, technological innovation, climate policy, and sustainable development, areas regarded as critical to the country's future growth and resilience.",
+      "Her nomination has been welcomed by many political observers, who view her scientific background, legislative experience, and environmental advocacy as assets that could strengthen the ministry's work in addressing Ghana's environmental and technological challenges."
+    ]
+  },
+    {
     slug: "senegal-court-jails-three-tiktok-influencers-for-insulting-president-faye",
     title: "Senegal Court Jails Three TikTok Influencers for Insulting President Faye",
     category: "International",
