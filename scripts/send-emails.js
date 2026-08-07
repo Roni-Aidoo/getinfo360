@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/zenator.jpg" alt="Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/james agalga.jfif" alt="James Agalga Named Majority Leader Following Parliamentary Leadership Reshuffle" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has nominated Dr. Zanetor Agyeman-Rawlings, the Member of Parliament for Klottey Korle, as Minister for Environment, Science, Tec…</p>
-        <a href="https://getinfoonline.com/trends/dr-zanetor-agyeman-rawlings-nominated-as-minister-for-environment-science-techno.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">James Agalga Named Majority Leader Following Parliamentary Leadership Reshuffle</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama and the National Democratic Congress (NDC) parliamentary leadership have announced the appointment of James Agalga, Member of Par…</p>
+        <a href="https://getinfoonline.com/trends/james-agalga-named-majority-leader-following-parliamentary-leadership-reshuffle.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -99,14 +99,6 @@ async function main() {
   </table></td></tr>
                 
     
-  <tr>
-    <td style="padding:0 0 10px 0;">
-      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
-    </td>
-  </tr>
-    <tr>
-      <td>
-        
   
       </td>
     </tr>

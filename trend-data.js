@@ -9,6 +9,24 @@
 
 const TRENDING = [
     {
+    slug: "james-agalga-named-majority-leader-following-parliamentary-leadership-reshuffle",
+    title: "James Agalga Named Majority Leader Following Parliamentary Leadership Reshuffle",
+    category: "Politics",
+    author: "Newsroom",
+    date: "August 7, 2026",
+    readTime: "1 min read",
+    image: "/Assets/james agalga.jfif",
+    imageCaption: "Web",
+    excerpt: "President John Dramani Mahama and the National Democratic Congress (NDC) parliamentary leadership have announced the appointment of James Agalga, Member of Parliament for Builsa North, as the new Majority Leader in Parliament.",
+    tags: ["James Agalga", "National Democratic Congress (NDC)", "Majority Leader"],
+    body: [
+      "President John Dramani Mahama and the National Democratic Congress (NDC) parliamentary leadership have announced the appointment of James Agalga, Member of Parliament for Builsa North, as the new Majority Leader in Parliament.\n\nThe appointment follows a reshuffle in the Majority leadership after the nomination of former Majority Leader, Mahama Ayariga, to serve as Minister for Local Government, Chieftaincy and Religious Affairs. The move forms part of a broader reorganisation of both the Executive and Parliament aimed at ensuring continuity in government business.",
+      "James Agalga, a lawyer and seasoned legislator, has represented the people of Builsa North in Parliament since 2013. He previously served as Deputy Minister for the Interior under President Mahama's first administration and has chaired Parliament's Defence and Interior Committee, where he has played a key role in national security oversight and legislative affairs.\n\nHis elevation to the position of Majority Leader places him at the helm of the government's legislative agenda in Parliament. In his new role, Agalga will be responsible for coordinating government business in the House, leading the Majority Caucus, and steering the passage of key bills and policies.",
+      "Political observers expect the experienced lawmaker to leverage his extensive parliamentary experience and legal background to strengthen collaboration between the Executive and the Legislature as the Mahama administration continues implementing its policy agenda.\n\nThe appointment comes amid a series of high-profile changes announced by the Presidency, including the nomination of Dr. Zanetor Agyeman-Rawlings as Minister for Environment, Science, Technology and Innovation and other ministerial reassignments.",
+      "Further announcements on adjustments to the Majority leadership team and parliamentary committee leadership are expected in the coming days as Parliament prepares to consider the President's latest ministerial nominations."
+    ]
+  },
+    {
     slug: "dr-zanetor-agyeman-rawlings-nominated-as-minister-for-environment-science-techno",
     title: "Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation",
     category: "national",
