@@ -8,6 +8,31 @@
    ============================================================ */
 
 const ARTICLES = [
+    {
+    slug: "too-shocking-twins-with-different-date-of-birth-explained",
+    title: "Too Shocking: Twins with Different Date of Birth Explained",
+    category: "Research",
+    author: "Info Desk",
+    date: "August 8, 2026",
+    readTime: "3 min read",
+    image: "/Assets/twins.jfif",
+    imageCaption: "Web",
+    excerpt: "The idea of twins having different dates of birth may sound strange at first. After all, twins are babies who develop in the same pregnancy and are delivered during the same birth process. So, how can two people who are twins have different birthdays?",
+    tags: ["twins", "Biological Research"],
+    body: [
+      "The idea of twins having different dates of birth may sound strange at first. After all, twins are babies who develop in the same pregnancy and are delivered during the same birth process. So, how can two people who are twins have different birthdays?",
+      "Imagine a mother gives birth to the first twin at exactly 11:57 p.m. on August 8. Three minutes later, at 12:00 a.m., the second twin is delivered. Although the two babies may be separated by only a few minutes, the calendar has changed. The first child was born on August 8, while the second was born on August 9.",
+      "According to a report by Braley Dodson published on myfox8.com,Souli Morris was born at 12:02 a.m. at Yale New Haven Hospital, becoming the hospital’s first baby of 2024. But she’s still younger than her brother, Seven, who was born at 11:59 p.m. It’s unknown exactly how close he was born to midnight, according to the hospital, because births are only recorded in minutes. The brother and sister — both weighing six pounds, nine ounces — were welcomed by Mykel and Aliyah Kiyomi Morris, of Hamden. Every year, there are about 120,000 twin births, USA Today reports. The chance of twins having different birth years, like Souli and Seven Morris, is about 1 in 2 million, according to Natividad Medical Center.",
+      "In such a situation, the twins can legitimately have different dates of birth. The fact that they are twins does not require them to have identical calendar dates. What matters is the actual time and date at which each child was born.",
+      "This discussion becomes even more interesting when we consider the recent development involving Nigerian musician Peter Okoye, popularly known as Mr P, one half of the former P-Square duo.\n\nOn April 20, 2026, Peter announced that he was officially changing the date on which he celebrates his birthday. He said November 18 was no longer his birthday celebration date and that he would instead celebrate his birthday on November 30.",
+      "<b>But What About P-Square's Peter Okoye?</b>",
+      "<div class=\"EV\"><img src=\"/Assets/p square.jfif\" alt=\"letter1\" ></div><br>",
+      "Reports noted that Peter had traditionally shared November 18 as his birthday with his twin brother, Paul Okoye, popularly known as Rudeboy. Peter described the decision as a personal decision, but did not, in the announcement, provide a detailed explanation for why he selected November 30. And this is where the conversation becomes ambiguous.There is an important distinction between changing the date on which one celebrates a birthday and changing one's actual date of birth. A person can decide to celebrate their birthday on another day for personal, cultural, religious, family or other reasons. That does not necessarily mean the person's historical birth record has changed.",
+      "In Peter Okoye's case, the available reports describe his announcement as a change in his birthday celebration date, while some reports and online references have described it more broadly as a change of his birth date. The distinction matters.",
+      "This makes the subject particularly interesting because many people assume that twins must share everything concerning their birth, including their birthday. In reality, the calendar does not recognise the relationship between the two babies. Midnight changes the date regardless of whether the person being born is a twin, a single baby, or one of several babies.",
+      "The answer, however, may be simpler than many people think: time."
+    ]
+  },
   {
     slug: "toxic-workplaces",
     title: "TOXIC WORKPLACES",

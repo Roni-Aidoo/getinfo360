@@ -9,6 +9,28 @@
 
 const TRENDING = [
     {
+    slug: "nadmo-warns-north-east-residents-ahead-of-bagre-dam-spillage",
+    title: "NADMO Warns North East Residents Ahead of Bagre Dam Spillage",
+    category: "National",
+    author: "Newsroom",
+    date: "August 8, 2026",
+    readTime: "2 min read",
+    image: "/Assets/dam.jfif",
+    imageCaption: "Web",
+    excerpt: "The National Disaster Management Organisation (NADMO) has urged residents in flood-prone communities across the North East Region to take precautionary measures ahead of the planned spillage of the Bagre Dam in Burkina Faso.",
+    tags: ["National Disaster Management Organisation (NADMO)", "North East Region"],
+    body: [
+      "The National Disaster Management Organisation (NADMO) has urged residents in flood-prone communities across the North East Region to take precautionary measures ahead of the planned spillage of the Bagre Dam in Burkina Faso.",
+      "According to the North East Regional Office of NADMO, authorities managing the Bagre Dam have officially notified Ghana that the spillage is scheduled to commence on Tuesday, August 11, 2026.\n\nThe development is expected to increase the volume of water flowing downstream into Ghana through the White Volta River and its tributaries, raising concerns about possible flooding in vulnerable communities.\n\nIn a public alert, NADMO warned that the increased water flow could cause river levels to rise and potentially inundate communities situated along riverbanks, waterways and low-lying areas.",
+      "Residents living in areas considered vulnerable have therefore been advised to relocate to safer locations before floodwaters reach their communities. NADMO also cautioned against engaging in activities within river channels and floodplains.",
+      "> “Do not farm, fish, graze animals, or undertake any activity within river channels and floodplains,” the organisation cautioned.",
+      
+      "Residents have further been encouraged to move valuable belongings, food supplies, livestock and farming equipment away from areas that could be affected by the rising water levels.\n\nFarmers cultivating land along riverbanks have also been advised to harvest their crops early, where necessary, before the dam spillage begins.\n\nNADMO has additionally warned residents against attempting to cross flooded roads, rivers, streams or bridges, stressing the need for the public to follow safety instructions from NADMO, the security services, district assemblies and other relevant authorities.",
+      "As part of preventive measures, district NADMO offices throughout the North East Region have been directed to intensify public education and community sensitisation, particularly in communities located along the White Volta and other flood-prone waterways.\n\nThe organisation said it is closely monitoring the situation and will continue to provide updates to the public as developments unfold.",
+      "Residents in vulnerable communities have been encouraged to remain alert and take the necessary precautions to protect lives, property and livelihoods ahead of the expected increase in water levels."
+    ]
+  },
+    {
     slug: "james-agalga-named-majority-leader-following-parliamentary-leadership-reshuffle",
     title: "James Agalga Named Majority Leader Following Parliamentary Leadership Reshuffle",
     category: "Politics",

@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/trends/nadmo-warns-north-east-residents-ahead-of-bagre-dam-spillage.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T00:00:00.000Z</news:publication_date>
+      <news:title>NADMO Warns North East Residents Ahead of Bagre Dam Spillage</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/trends/james-agalga-named-majority-leader-following-parliamentary-leadership-reshuffle.html</loc>
     <news:news>
       <news:publication>
@@ -46,25 +57,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://getinfoonline.com/trends/ghana-marks-one-year-since-the-august-6-military-helicopter-tragedy.html</loc>
+    <loc>https://getinfoonline.com/articles/too-shocking-twins-with-different-date-of-birth-explained.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
-      <news:title>Ghana marks one year since the August 6 military helicopter tragedy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/protect-democracy-demonstration-thousands-march-in-accra-as-npp-protests-alleged.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
-      <news:title>Protect Democracy Demonstration: Thousands March in Accra as NPP Protests Alleged Threats to Ghana&apos;s Democracy</news:title>
+      <news:publication_date>2026-08-08T00:00:00.000Z</news:publication_date>
+      <news:title>Too Shocking: Twins with Different Date of Birth Explained</news:title>
     </news:news>
   </url>
 </urlset>
