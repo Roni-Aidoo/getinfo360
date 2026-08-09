@@ -8,6 +8,26 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "the-abuse-of-the-right-to-freedom-of-speech",
+    title: "THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH",
+    category: "Article",
+    author: "Jesse Mabery",
+    date: "August 9, 2026",
+    readTime: "2 min read",
+    image: "/Assets/fs.png",
+    imageCaption: "Web",
+    excerpt: "Freedom of Speech is a fundamental human right allowing individuals to articulate their opinions, beliefs, and thoughts without fear of government retaliation.",
+    tags: [ "free Speech", "Ghana", "Peace", "Media",  "Statutory Law", "Constitution",  "Insult", "Ghanaian Citizens", "Leaders", "Abuse of Right"],
+    body: [
+      "Freedom of Speech is a fundamental human right allowing individuals to articulate their opinions, beliefs, and thoughts without fear of government retaliation. In Article 21 of Ghana's 1992 Constitution, the Constitution guarantees fundamental freedom of speech and expression to its citizens.",
+      "Ghanaian citizens have abused this right through using constitutional rights as a shield to insult. The Right to Freedom of Speech is used abusively by Ghanaians to “get back\" at Government officials, the use of Social media platforms and live radio talk to attack the leaders of the country. While Article 21 of Ghana’s 1992 Constitution guarantees freedom of speech and expression, the boundary between responsible conduct and irresponsible conduct remains heavily at large.",
+      "The Right to Freedom of Speech is used to make insults, which is not morally upright. It creates a negative atmosphere and rising unease among the Ghanaian citizens. The concern of abusive speech freely spoken and seen on these platforms and discussed among public spaces is alarming. The consistent saying - “)mo ny3 hwee\" is easily said among the Ghanaian citizens; an evidential and existing notion in every Ghanaian citizen mind due to the consistent abuse of the Right to Freedom of Speech, because some Ghanaian citizens tend to mouth out any immoral talk which addresses the Government's inability to do what the Ghanaian citizens want, essentially speaking out the Notion - “)mo ny3 hwee\". . .",
+      "The subject of Civic responsibility and respect for Individual dignity is what Traditional rulers and Government officials want the Ghanaian citizens to adopt. This is so because abusing the Right to Freedom of Speech through Insults and Misconduct harms Social cohesion.",
+      "The Media Foundation for West Africa (MFWA), along with legal experts, argue that while targeted insults are distasteful, personal grievances or reputation damage should be resolved through civil defamation suits. The National Media Commission (NMC), the National Peace Council (NPC), and civil society groups host national stakeholders' forums which focus on educating the public on constitutional boundaries, digital media literacy, ethical journalism and responsible public commentary.",
+      "The Statutory Laws in Ghana addressing abusive speech, include; the Criminal Offences Act (Act 29) Section 207 addressing threatening, abuse or insulting in public spaces, The Electronic Communications Act Section 208 also addresses the Publication of False News to spark public alarm or breach of peace. These Statutory Laws, together with the Media bodies and the National Peace Council seek to reduce the abuse of the Right to Freedom of Speech in Ghana."
+    ]
+  },
     {
     slug: "too-shocking-twins-with-different-date-of-birth-explained",
     title: "Too Shocking: Twins with Different Date of Birth Explained",

@@ -64,91 +64,7 @@ async function main() {
     <tr>
       <td>
         
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/sj.jpg" alt="Ghana’s Deputy Ambassador to Saudi Arabia Sanni Jajah Dies" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana’s Deputy Ambassador to Saudi Arabia Sanni Jajah Dies</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s diplomatic community has been thrown into mourning following the death of Sanni Jajah, Ghana’s Deputy Head of Mission and Deputy Ambassador to the King…</p>
-        <a href="https://getinfoonline.com/trends/ghana-s-deputy-ambassador-to-saudi-arabia-sanni-jajah-dies.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/dam.jfif" alt="NADMO Warns North East Residents Ahead of Bagre Dam Spillage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NADMO Warns North East Residents Ahead of Bagre Dam Spillage</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The National Disaster Management Organisation (NADMO) has urged residents in flood-prone communities across the North East Region to take precautionary measure…</p>
-        <a href="https://getinfoonline.com/trends/nadmo-warns-north-east-residents-ahead-of-bagre-dam-spillage.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/james agalga.jfif" alt="James Agalga Named Majority Leader Following Parliamentary Leadership Reshuffle" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">James Agalga Named Majority Leader Following Parliamentary Leadership Reshuffle</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama and the National Democratic Congress (NDC) parliamentary leadership have announced the appointment of James Agalga, Member of Par…</p>
-        <a href="https://getinfoonline.com/trends/james-agalga-named-majority-leader-following-parliamentary-leadership-reshuffle.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/zenator.jpg" alt="Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Dr. Zanetor Agyeman-Rawlings Nominated as Minister for Environment, Science, Technology and Innovation</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has nominated Dr. Zanetor Agyeman-Rawlings, the Member of Parliament for Klottey Korle, as Minister for Environment, Science, Tec…</p>
-        <a href="https://getinfoonline.com/trends/dr-zanetor-agyeman-rawlings-nominated-as-minister-for-environment-science-techno.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/senep.jfif" alt="Senegal Court Jails Three TikTok Influencers for Insulting President Faye" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Senegal Court Jails Three TikTok Influencers for Insulting President Faye</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A court in Senegal has sentenced three TikTok influencers to prison after finding them guilty of insulting President Bassirou Diomaye Faye through videos poste…</p>
-        <a href="https://getinfoonline.com/trends/senegal-court-jails-three-tiktok-influencers-for-insulting-president-faye.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+  
       </td>
     </tr>
                 <tr><td>
@@ -177,54 +93,21 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/twins.jfif" alt="Too Shocking: Twins with Different Date of Birth Explained" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/fs.png" alt="THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Too Shocking: Twins with Different Date of Birth Explained</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The idea of twins having different dates of birth may sound strange at first. After all, twins are babies who develop in the same pregnancy and are delivered d…</p>
-        <a href="https://getinfoonline.com/articles/too-shocking-twins-with-different-date-of-birth-explained.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Freedom of Speech is a fundamental human right allowing individuals to articulate their opinions, beliefs, and thoughts without fear of government retaliation.</p>
+        <a href="https://getinfoonline.com/articles/the-abuse-of-the-right-to-freedom-of-speech.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/images12.png" alt="TOXIC WORKPLACES" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">TOXIC WORKPLACES</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A view backed with evidence on behavior of Organizations in Ghana.</p>
-        <a href="https://getinfoonline.com/articles/toxic-workplaces.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/ArtIm.jpeg" alt="Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Art Deserves Better: A Call to Restore Ghana&apos;s Creative Heritage</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Art, there’s the saying that art is life. Art captures the hidden beauty of life. Art is like breath, drawn in after a still morning breeze from the rich drenc…</p>
-        <a href="https://getinfoonline.com/articles/art-deserves-better-a-call-to-restore-ghanas-creative-heritage.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+ 
       </td>
     </tr>
 
