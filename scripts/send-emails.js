@@ -67,21 +67,22 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/dam.jfif" alt="NADMO Warns North East Residents Ahead of Bagre Dam Spillage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/sj.jpg" alt="Ghana’s Deputy Ambassador to Saudi Arabia Sanni Jajah Dies" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NADMO Warns North East Residents Ahead of Bagre Dam Spillage</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The National Disaster Management Organisation (NADMO) has urged residents in flood-prone communities across the North East Region to take precautionary measure…</p>
-        <a href="https://getinfoonline.com/trends/nadmo-warns-north-east-residents-ahead-of-bagre-dam-spillage.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana’s Deputy Ambassador to Saudi Arabia Sanni Jajah Dies</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s diplomatic community has been thrown into mourning following the death of Sanni Jajah, Ghana’s Deputy Head of Mission and Deputy Ambassador to the King…</p>
+        <a href="https://getinfoonline.com/trends/ghana-s-deputy-ambassador-to-saudi-arabia-sanni-jajah-dies.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
-       </td>
+  
+      </td>
     </tr>
                 <tr><td>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
@@ -98,32 +99,9 @@ async function main() {
   </table></td></tr>
                 
     
-  <tr>
-    <td style="padding:0 0 10px 0;">
-      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
-    </td>
-  </tr>
-    <tr>
-      <td>
-        
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/twins.jfif" alt="Too Shocking: Twins with Different Date of Birth Explained" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+  
+
       </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Too Shocking: Twins with Different Date of Birth Explained</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The idea of twins having different dates of birth may sound strange at first. After all, twins are babies who develop in the same pregnancy and are delivered d…</p>
-        <a href="https://getinfoonline.com/articles/too-shocking-twins-with-different-date-of-birth-explained.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-    </td>
     </tr>
 
               </table>

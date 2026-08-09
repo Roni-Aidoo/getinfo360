@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "ghana-s-deputy-ambassador-to-saudi-arabia-sanni-jajah-dies",
+    title: "Ghana’s Deputy Ambassador to Saudi Arabia Sanni Jajah Dies",
+    category: "National",
+    author: "Newsroom",
+    date: "August 9, 2026",
+    readTime: "1 min read",
+    image: "/Assets/sj.jpg",
+    imageCaption: "Web",
+    excerpt: "Ghana’s diplomatic community has been thrown into mourning following the death of Sanni Jajah, Ghana’s Deputy Head of Mission and Deputy Ambassador to the Kingdom of Saudi Arabia.",
+    tags: ["Sanni Jajah", "Diplomatic", "Ghana’s Deputy Head of Mission and Deputy Ambassador"],
+    body: [
+      "Ghana’s diplomatic community has been thrown into mourning following the death of Sanni Jajah, Ghana’s Deputy Head of Mission and Deputy Ambassador to the Kingdom of Saudi Arabia.",
+      "Mr Jajah’s death was confirmed by his relative, Yussif Issaka Jajah, the Member of Parliament for Ayawaso North, who announced the sad news. Reports indicate that the diplomat passed away on Saturday, August 8, 2026.\n\nSanni Jajah was serving at Ghana’s diplomatic mission in Riyadh, where he worked alongside Ghana’s Ambassador to Saudi Arabia, Alhaji Said Sinare.",
+      "The announcement of his death has generated sorrow among family members, colleagues and associates, with tributes expected to follow as news of his passing spreads.\n\nYussif Jajah described the death as a significant loss to the family and appealed to the public to keep the bereaved family in their thoughts and prayers as they come to terms with the loss.",
+      "Details surrounding the cause of death have not been publicly disclosed, while funeral arrangements are expected to be announced by the family at a later date.\n\nThe passing of Sanni Jajah comes as a loss to Ghana’s diplomatic service, particularly at a time when Ghana maintains important diplomatic, economic and religious ties with Saudi Arabia.",
+      "Further official information on his funeral arrangements and other details concerning his passing is expected to be communicated by the family and relevant authorities."
+    ]
+  },
+    {
     slug: "nadmo-warns-north-east-residents-ahead-of-bagre-dam-spillage",
     title: "NADMO Warns North East Residents Ahead of Bagre Dam Spillage",
     category: "National",
