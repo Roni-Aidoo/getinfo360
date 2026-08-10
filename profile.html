@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Profile — Getinfo Online</title>
+<link rel="Shortcut icon" type="x-icon" href="Assets/g.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="robots" content="index, follow">
+
+<style>
+:root{
+  --ink:#0E1116; --ink-soft:#5B6472; --paper:#F1F2EC; --surface:#FFFFFF;
+  --brand:#1f0c70; --brand-light:#E7F0EA; --gold:#D6A339; --ember:#f88b0f; --line:#E1E1D6;
+  --shadow: 0 10px 30px -12px rgba(14,17,22,0.18); --shadow-lg: 0 24px 60px -20px rgba(14,17,22,0.28);
+  --radius: 18px; --radius-sm: 12px; --header-h: 64px; --tabbar-h: 66px;
+  --font-display:'Montserrat', sans-serif; --font-body:'Public Sans', sans-serif; --font-mono:'IBM Plex Mono', monospace;
+}
+[data-theme="dark"]{
+  --ink:#F1F2EC; --ink-soft:#A9B0BC; --paper:#0B0D11; --surface:#14171D;
+  --brand:#1f0c70; --brand-light:#122019; --gold:#E8BE5C; --ember:#E06A54; --line:#23262E;
+  --shadow: 0 10px 30px -12px rgba(0,0,0,0.5); --shadow-lg: 0 24px 60px -20px rgba(0,0,0,0.6);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{ font-family:var(--font-body); background:var(--paper); color:var(--ink); line-height:1.55; -webkit-font-smoothing:antialiased; padding-top:var(--header-h); }
+body.menu-open{overflow:hidden;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}
+button{font-family:inherit;border:none;background:none;cursor:pointer;color:inherit;}
+ul{list-style:none;}
+.container{width:95%;max-width:1160px;margin:0 auto;}
+
+/* ---- appbar / ticker / chip-rail (shared) ---- */
+header.appbar{ position:fixed; top:0; left:0; width:100%; height:var(--header-h); background:var(--surface); border-bottom:1px solid var(--line); z-index:1000; }
+header.appbar.scrolled{ box-shadow:0 4px 20px rgba(0,0,0,0.06); }
+.appbar-inner{ height:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.brand-mark img{ width:200px; }
+nav.desktop-nav{ display:flex; }
+nav.desktop-nav ul{ display:flex; align-items:center; gap:4px; }
+nav.desktop-nav a.top-link{ display:flex; align-items:center; gap:6px; padding:9px 14px; border-radius:999px; font-weight:600; font-size:0.92rem; color:var(--ink-soft); }
+nav.desktop-nav a.top-link:hover, nav.desktop-nav a.top-link.active{ background:var(--brand-light); color:var(--brand); }
+.appbar-actions{ display:flex; align-items:center; gap:6px; }
+.icon-btn{ width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--ink-soft); }
+.icon-btn:hover{ background:var(--brand-light); color:var(--brand); }
+.mobile-menu{ display:none; }
+.ticker{ position:fixed; top:var(--header-h); left:0; width:100%; z-index:900; background:var(--brand); color:#fff; overflow:hidden; height:38px; display:flex; align-items:center; }
+.ticker .tag{ flex-shrink:0; height:100%; display:flex; align-items:center; gap:6px; padding:0 14px; background:var(--ember); font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; font-weight:600; }
+.ticker .tag .dot{ width:6px; height:6px; border-radius:50%; background:#fff; animation:blink 1.4s infinite; }
+@keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:0.25;} }
+.ticker-track-wrap{ overflow:hidden; flex:1; }
+.ticker-track{ display:flex; gap:48px; white-space:nowrap; width:max-content; animation:scroll-ticker 32s linear infinite; padding-left:100%; }
+@keyframes scroll-ticker{ from{ transform:translateX(0);} to{ transform:translateX(-100%);} }
+.ticker-track a{ font-size:0.82rem; font-weight:500; opacity:0.95; }
+main{ padding-top:36px; padding-bottom:60px; }
+
+/* ---- back link ---- */
+.back-link{ display:inline-flex; align-items:center; gap:8px; font-size:0.85rem; font-weight:600; color:var(--ink-soft); margin-bottom:22px; }
+.back-link:hover{ color:var(--brand); }
+
+/* ---- profile header ---- */
+.profile-header{ display:flex; align-items:center; gap:22px; flex-wrap:wrap; padding-bottom:30px; border-bottom:1px solid var(--line); margin-bottom:36px; }
+.profile-avatar{ width:96px; height:96px; border-radius:20px; background:var(--brand-light); color:var(--brand); display:flex; align-items:center; justify-content:center; font-family:var(--font-display); font-weight:800; font-size:2rem; flex-shrink:0; overflow:hidden; box-shadow:var(--shadow); }
+.profile-avatar img{ width:100%; height:100%; object-fit:cover; }
+.profile-id .p-cat{ font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--ember); font-weight:700; margin-bottom:6px; display:block; }
+.profile-id h1{ font-family:var(--font-display); font-size:clamp(1.6rem,3.6vw,2.3rem); font-weight:800; letter-spacing:-0.02em; }
+.profile-id .p-role{ color:var(--ink-soft); margin-top:4px; font-weight:600; }
+.profile-id .p-bio{ margin-top:12px; max-width:600px; color:var(--ink-soft); font-size:0.92rem; }
+.profile-stat{ margin-left:auto; text-align:center; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm); padding:14px 24px; box-shadow:var(--shadow); }
+.profile-stat .num{ font-family:var(--font-display); font-size:1.7rem; font-weight:800; color:var(--brand); }
+.profile-stat .lbl{ font-size:0.72rem; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.06em; font-family:var(--font-mono); }
+
+/* ---- work sections ---- */
+.work-section{ margin-bottom:44px; }
+.work-section-head{ display:flex; align-items:baseline; gap:12px; margin-bottom:18px; }
+.work-section-head h2{ font-family:var(--font-display); font-size:1.15rem; font-weight:800; text-transform:uppercase; letter-spacing:0.06em; }
+.work-section-head .count{ font-family:var(--font-mono); font-size:0.78rem; color:var(--ink-soft); }
+.work-section-head::after{ content:''; flex:1; height:1px; background:var(--line); }
+
+.work-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+@media (max-width:900px){ .work-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:560px){ .work-grid{ grid-template-columns:1fr; } }
+
+.card{ background:var(--surface); border-radius:var(--radius); overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); transition:transform .3s ease, box-shadow .3s ease; display:flex; flex-direction:column; }
+.card:hover{ transform:translateY(-6px); box-shadow:var(--shadow-lg); }
+.card-img{ aspect-ratio:16/10; overflow:hidden; background:var(--brand-light); }
+.card-img img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+.card:hover .card-img img{ transform:scale(1.06); }
+.card-body{ padding:16px 16px 18px; display:flex; flex-direction:column; gap:8px; flex:1; }
+.card-cat{ font-family:var(--font-mono); font-size:0.66rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--brand); font-weight:600; }
+.card-title{ font-family:var(--font-display); font-size:1rem; font-weight:600; line-height:1.35; }
+.card-foot{ margin-top:auto; padding-top:8px; display:flex; align-items:center; gap:10px; font-size:0.76rem; color:var(--ink-soft); font-family:var(--font-mono); }
+
+.empty-state{ background:var(--surface); border:1px dashed var(--line); border-radius:var(--radius); padding:44px 24px; text-align:center; color:var(--ink-soft); }
+.empty-state i{ font-size:1.6rem; color:var(--gold); margin-bottom:10px; display:block; }
+
+/* ---- footer (trimmed shared) ---- */
+footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin-top:20px; }
+[data-theme="dark"] footer.footer{ background:#07090C; }
+.footer-container{ display:grid; grid-template-columns:2fr 1fr 1.2fr 1.2fr; gap:36px; }
+.footer-brand .logo span{ font-family:var(--font-display); font-size:1.4rem; font-weight:700; }
+.footer-brand .logo span em{ font-style:normal; color:var(--gold); font-weight:400; }
+.footer-brand .tagline{ opacity:0.7; max-width:260px; font-size:0.9rem; }
+.footer-social{ display:flex; gap:10px; margin-top:18px; flex-wrap:wrap; }
+.footer-social a{ width:38px; height:38px; border-radius:10px; background:rgba(255,255,255,0.06); display:flex; align-items:center; justify-content:center; }
+.footer-col h4{ font-size:0.95rem; margin-bottom:16px; font-weight:700; }
+.footer-col ul{ display:flex; flex-direction:column; gap:10px; }
+.footer-col ul a{ font-size:0.88rem; opacity:0.75; }
+.footer-bottom{ max-width:1180px; margin:34px auto 0; padding-top:20px; border-top:1px solid rgba(255,255,255,0.08); display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; font-size:0.82rem; opacity:0.65; }
+@media (max-width:550px){ .footer-container{ grid-template-columns:1fr; } .footer-bottom{ flex-direction:column; align-items:flex-start; } }
+
+.tabbar{ display:none; position:fixed; bottom:0; left:0; width:100%; height:var(--tabbar-h); background:var(--surface); border-top:1px solid var(--line); z-index:1000; padding-bottom:env(safe-area-inset-bottom); }
+.tabbar ul{ display:flex; height:100%; }
+.tabbar li{ flex:1; }
+.tabbar a{ height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px; color:var(--ink-soft); font-size:0.68rem; font-weight:600; }
+.tabbar a i{ font-size:1.1rem; }
+.tabbar a .fab-circle{ width:44px; height:44px; border-radius:50%; background:var(--brand); color:#fff; display:flex; align-items:center; justify-content:center; margin-top:-22px; box-shadow:0 6px 16px rgba(15,61,46,0.4); }
+@media (max-width:992px){ nav.desktop-nav{ display:none; } .mobile-menu{ display:flex; } body{ padding-bottom:calc(var(--tabbar-h) + 12px); } .tabbar{ display:block; } .profile-stat{ margin-left:0; } }
+</style>
+</head>
+<body>
+
+<header class="appbar" id="appbar">
+  <div class="container appbar-inner">
+    <a href="index.html" class="brand-mark"><img src="Assets/GETORI.png" alt="Getinfo Online"></a>
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="index.html" class="top-link"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="360.html" class="top-link">Articles</a></li>
+        <li><a href="Treanding.html" class="top-link">Trending Issues</a></li>
+        <li><a href="team.html" class="top-link">Our Team</a></li>
+      </ul>
+    </nav>
+    <div class="appbar-actions">
+      <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" id="theme-toggle"><i class="fas fa-moon"></i></button>
+      <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</header>
+
+<div class="ticker">
+  <div class="tag"><span class="dot"></span> Trending</div>
+  <div class="ticker-track-wrap"><div class="ticker-track" id="ticker-track"></div></div>
+</div>
+
+<main class="container">
+  <a class="back-link" href="team.html"><i class="fas fa-arrow-left"></i> Back to Our Team</a>
+
+  <div id="profile-root"></div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-brand">
+      <div class="logo"><span>Getinfo<em>Online</em></span></div>
+      <p class="tagline">Real-time news, deep analysis, and stories that matter — from every corner of the world.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Quick</h4><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Treanding.html">Trending</a></li>
+      <li><a href="360.html">Articles</a></li>
+      <li><a href="team.html">Our Team</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Articles</h4><ul><li><a href="360.html">360 Echoes</a></li></ul></div>
+    <div class="footer-col"><h4>About</h4><ul>
+      <li><a href="team.html">Our team</a></li>
+      <li><a href="editor.html">Press</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <div><i class="far fa-copyright"></i> 2026 Getinfo Online — all rights reserved</div>
+    <div>Developed by: Rankofsoft &amp; TopCut</div>
+  </div>
+</footer>
+
+<nav class="tabbar" id="tabbar">
+  <ul>
+     <li><a href="Treanding.html" onclick="setTab(this)"><i class="fas fa-fire"></i> Trending</a></li>
+    <li><a href="Stories.html"  onclick="setTab(this)"><i class="fas fa-book"></i> Stories</a></li>
+    <li><a href="index.html"><span class="fab-circle"><i class="fas fa-house"></i></span></a></li>
+    <li><a href="360.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i> Articles</a></li>
+    <li><a href="Signin.html" onclick="setTab(this)"><i class="fa-solid fa-envelope"></i>Subscribe</a></li>
+  </ul>
+</nav>
+
+<script src="articles-data.js"></script>
+<script src="trend-data.js"></script>
+<script src="Stories-data.js"></script>
+<script src="team-data.js"></script>
+<script>
+function escapeHtml(str){
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function norm(s){ return String(s||'').trim().toLowerCase(); }
+function initials(name){
+  const parts = String(name).trim().split(/\s+/).filter(Boolean);
+  if(parts.length === 0) return '?';
+  if(parts.length === 1) return parts[0].charAt(0).toUpperCase();
+  return (parts[0].charAt(0) + parts[parts.length-1].charAt(0)).toUpperCase();
+}
+
+function buildCard(href, image, title, category, date, readTime){
+  return `
+    <a class="card" href="${href}">
+      <div class="card-img"><img src="${image}" alt="${escapeHtml(title)}"></div>
+      <div class="card-body">
+        <span class="card-cat">${escapeHtml(category)}</span>
+        <h3 class="card-title">${escapeHtml(title)}</h3>
+        <div class="card-foot"><i class="far fa-calendar-alt"></i> ${escapeHtml(date)} ${readTime ? '· ' + escapeHtml(readTime) : ''}</div>
+      </div>
+    </a>
+  `;
+}
+
+function workSection(title, iconClass, items){
+  if(items.length === 0) return '';
+  return `
+    <section class="work-section">
+      <div class="work-section-head">
+        <h2><i class="${iconClass}"></i> ${escapeHtml(title)}</h2>
+        <span class="count">${items.length}</span>
+      </div>
+      <div class="work-grid">${items.join('')}</div>
+    </section>
+  `;
+}
+
+function renderProfile(){
+  const root = document.getElementById('profile-root');
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get('name') || '';
+  const member = (typeof TEAM !== 'undefined') ? (getTeamMemberByName ? getTeamMemberByName(name) : TEAM.find(m => norm(m.name) === norm(name))) : null;
+
+  if(!name || !member){
+    root.innerHTML = `
+      <div class="empty-state">
+        <i class="fas fa-user-slash"></i>
+        <h3>We couldn't find that team member.</h3>
+        <p style="margin-top:8px;">Check the link, or head back to the team page to pick someone.</p>
+      </div>
+    `;
+    document.getElementById('page-title').textContent = 'Profile not found — Getinfo Online';
+    return;
+  }
+
+  document.getElementById('page-title').textContent = `${member.name} — Getinfo Online`;
+
+  const target = norm(member.name);
+  const articleCards = (typeof ARTICLES !== 'undefined' ? ARTICLES : [])
+    .filter(a => norm(a.author) === target)
+    .map(a => buildCard(`articles/${encodeURIComponent(a.slug)}.html`, a.image, a.title, a.category, a.date, a.readTime));
+
+  const trendCards = (typeof TRENDING !== 'undefined' ? TRENDING : [])
+    .filter(t => norm(t.author) === target)
+    .map(t => buildCard(`/trends/${encodeURIComponent(t.slug)}.html`, t.image, t.title, t.category, t.date, t.readTime));
+
+  const storyCards = (typeof STORIES !== 'undefined' ? STORIES : [])
+    .filter(s => norm(s.author) === target)
+    .map(s => buildCard(
+      s.slug ? `Stories.html?slug=${encodeURIComponent(s.slug)}` : `Stories.html`,
+      s.image, s.title, s.category, s.date, s.readTime
+    ));
+
+  const totalWorks = articleCards.length + trendCards.length + storyCards.length;
+
+  const avatar = member.image
+    ? `<img src="${member.image}" alt="${escapeHtml(member.name)}">`
+    : initials(member.name);
+
+  root.innerHTML = `
+    <div class="profile-header">
+      <div class="profile-avatar">${avatar}</div>
+      <div class="profile-id">
+        <span class="p-cat">${escapeHtml(member.category || 'Team')}</span>
+        <h1>${escapeHtml(member.name)}</h1>
+        <div class="p-role">${escapeHtml(member.role || '')}</div>
+        ${member.bio ? `<p class="p-bio">${escapeHtml(member.bio)}</p>` : ''}
+      </div>
+      <div class="profile-stat">
+        <div class="num">${totalWorks}</div>
+        <div class="lbl">Published</div>
+      </div>
+    </div>
+
+    ${totalWorks === 0 ? `
+      <div class="empty-state">
+        <i class="fas fa-pen-nib"></i>
+        <h3>No published work yet under this byline.</h3>
+        <p style="margin-top:8px;">Once an article, trend piece or story credits "${escapeHtml(member.name)}" as the author, it'll show up here automatically.</p>
+      </div>
+    ` : `
+      ${workSection('Articles', 'fas fa-newspaper', articleCards)}
+      ${workSection('Trending Issues', 'fas fa-fire', trendCards)}
+      ${workSection('Stories', 'fas fa-book', storyCards)}
+    `}
+  `;
+}
+
+function renderTicker(){
+  const track = document.getElementById('ticker-track');
+  if(!track || typeof TRENDING === 'undefined') return;
+  track.innerHTML = TRENDING.slice(0,4).map(item =>
+    `<a href="/trends/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>`
+  ).join('');
+}
+
+renderTicker();
+renderProfile();
+
+const themeToggle = document.getElementById('theme-toggle');
+function applyTheme(t){
+  document.documentElement.setAttribute('data-theme', t);
+  themeToggle.innerHTML = t === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+  try{ localStorage.setItem('getinfo-theme', t); }catch(e){}
+}
+(function initTheme(){
+  let saved; try{ saved = localStorage.getItem('getinfo-theme'); }catch(e){}
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+})();
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme');
+  applyTheme(current === 'dark' ? 'light' : 'dark');
+}
+
+const appbar = document.getElementById('appbar');
+window.addEventListener('scroll', ()=>{ appbar.classList.toggle('scrolled', window.scrollY > 20); });
+</script>
+</body>
+</html>
