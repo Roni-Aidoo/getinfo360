@@ -441,7 +441,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <div class="footer-col">
       <h4>About</h4>
       <ul>
-        <li><a href="#">Our team</a></li>
+        <li><a href="../team.html">Our team</a></li>
         <li><a href="#">Careers</a></li>
         <li><a href="#">Press</a></li>
         <li><a href="#">Contact</a></li>
@@ -549,13 +549,16 @@ const slug = getSlugFromURL();
   document.getElementById('art-category').textContent = article.category;
   document.getElementById('art-category-2').textContent = article.category;
   document.getElementById('art-title').textContent = article.title;
-  document.getElementById('art-author').textContent = article.author;
+ 
   document.getElementById('art-date').textContent = article.date;
   document.getElementById('art-readtime').textContent = article.readTime;
   document.getElementById('art-image').src = article.image;
   document.getElementById('art-image').alt = article.title;
   document.getElementById('art-caption').textContent = article.imageCaption || 'Getinfo Online';
   document.getElementById('art-body').innerHTML = renderBody(article.body);
+
+  const maker = document.getElementById('art-author');
+maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.author)}">${escapeHTML(article.author)}</a>`;
 
   const tagsWrap = document.getElementById('art-tags');
   tagsWrap.innerHTML = (article.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');

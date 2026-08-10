@@ -304,6 +304,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 <script src="trend-data.js"></script>
 <script src="Stories-data.js"></script>
 <script src="team-data.js"></script>
+<script src="quote-art-data.js"></script>
 <script>
 function escapeHtml(str){
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
@@ -323,7 +324,8 @@ function countWorksFor(name){
   let count = 0;
   [typeof ARTICLES !== 'undefined' ? ARTICLES : [],
    typeof TRENDING !== 'undefined' ? TRENDING : [],
-   typeof STORIES !== 'undefined' ? STORIES : []
+   typeof STORIES !== 'undefined' ? STORIES : [],
+   typeof ARTS !== 'undefined' ? STORIES : []
   ].forEach(list => {
     list.forEach(item => { if(norm(item.author) === target) count++; });
   });

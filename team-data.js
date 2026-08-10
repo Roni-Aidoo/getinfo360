@@ -23,7 +23,7 @@ const TEAM = [
     role: "Editorial Desk",
     category: "Editors",
     image: "",
-    bio: "The Getinfo Online info desk — verifying, editing and publishing breaking national and international coverage."
+    bio: "The Getinfo Online info desk — verifying, editing and publishing breaking national and international coverage handled by Aidoo Roni"
   },
 
 
@@ -40,7 +40,7 @@ const TEAM = [
     role: "Team Writer",
     category: "Writer",
     image: "",
-    bio: ""
+    bio: "Jesse is an experienced writer with highly rated works. contact: mabery510@gmail.com"
   },
   {
     name: "Nyamekye Yaw Opoku",
@@ -54,7 +54,14 @@ const TEAM = [
     role: "Team Artist",
     category: "Reporters",
     image: "",
-    bio: ""
+    bio: "His works are Shown at the Arts Section. Kindly visit to view his artworks"
+  },
+ {
+    name: "Jennifer Agyei",
+    role: "Team Writer",
+    category: "Storytellers and Poets",
+    image: "",
+    bio: " Miss Jennifer is an expert storyteller and poet with great works. contact:  agyeiakos22@gmail.com "
   },
  
 
@@ -65,6 +72,20 @@ const TEAM = [
     category: "Contributors",
     image: "",
     bio: ""
+  },
+   {
+    name: "Nathaniel Mensah",
+    role: "Team Developer",
+    category: "Technical Team",
+    image: "",
+    bio: "Nathaniel Mensah is a Developer with brand TOPCUT"
+  },
+   {
+    name: "Roni Aidoo",
+    role: "Team Developer",
+    category: "Technical Team",
+    image: "",
+    bio: "Roni Aidoo is a Developer with brand Rankofsoft"
   },
   
 ];
