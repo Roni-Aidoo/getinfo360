@@ -8,6 +8,11 @@
 
 /* Each quote needs: text, image (author photo), name (author) */
 const QUOTES = [
+   {
+    text: "Sometimes the will of God hurts, so that when you succeed, you will realize that your success is never your making.",
+    image: "Assets/LOG.jpg",
+    name: "Rev. Isaac Ofosu Manu (OMI)"
+  },
   
    {
     text: "Remember, instructions go to those who utilse them well, not those who trivialise them",
