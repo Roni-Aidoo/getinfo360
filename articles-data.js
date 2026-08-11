@@ -75,6 +75,7 @@ const ARTICLES = [
     slug: "art-deserves-better-a-call-to-restore-ghanas-creative-heritage",
     title: "Art Deserves Better: A Call to Restore Ghana's Creative Heritage",
     category: "Arts",
+    region:"Ghana",
     author: "Nyamekye Yaw Opoku",
     date: "July 31, 2026",
     readTime: "3 min read",

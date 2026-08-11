@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "npa-deputy-ceo-dr-dramani-bukari-reportedly-dead",
+    title: "NPA Deputy CEO Dr Dramani Bukari Reportedly Dead",
+    category: "News",
+    author: "Info Desk",
+    date: "August 11, 2026",
+    readTime: "1 min read",
+    image: "/Assets/bm.jfif",
+    imageCaption: "Web",
+    excerpt: "Dr Dramani Bukari Ecomog, a Deputy Chief Executive Officer (CEO) of the National Petroleum Authority (NPA), has reportedly died in London.",
+    tags: ["Dr Dramani Bukari Ecomog", "Deputy Chief Executive Officer (CEO)", "Ghana"],
+    body: [
+      "Dr Dramani Bukari Ecomog, a Deputy Chief Executive Officer (CEO) of the National Petroleum Authority (NPA), has reportedly died in London.\n\nDr Bukari is said to have passed away after a short illness. His death has come as a shock to colleagues and associates within Ghana’s petroleum sector, where he served in a senior leadership capacity.",
+      "Until his death, Dr Bukari was one of the officials supporting the leadership of the NPA, the regulatory body responsible for overseeing Ghana’s downstream petroleum industry.\n\nHe was actively involved in initiatives aimed at strengthening the petroleum downstream sector and improving its contribution to Ghana’s economic development.\n\nIn recent months, Dr Bukari participated in engagements with stakeholders in the petroleum industry, including discussions on the implementation of the government’s 24-hour economy policy within the downstream petroleum sector.",
+      "He also chaired the steering committee for the NPA’s Downstream Petroleum Centre of Excellence, an initiative intended to enhance professional training, technical capacity and knowledge development within the petroleum industry.\n\nHis death is therefore expected to be felt across the petroleum sector, particularly among colleagues and industry stakeholders who worked closely with him.\n\nDetails about the circumstances surrounding his death and funeral arrangements are yet to be fully announced.",
+      "Tributes are expected to pour in from colleagues, friends, industry stakeholders and other associates as news of his passing spreads.\n\nDr Dramani Bukari Ecomog’s death represents a loss to Ghana’s petroleum industry and public service.",
+      "GetInfo Online extends its deepest condolences to his family, friends, colleagues and loved ones. May his soul rest in perfect peace."
+    ]
+  },
+    {
     slug: "ghana-secures-chinese-support-to-renovate-and-modernise-national-theatre",
     title: "Ghana Secures Chinese Support to Renovate and Modernise National Theatre",
     category: "National",

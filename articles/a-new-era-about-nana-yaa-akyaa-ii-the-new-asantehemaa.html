@@ -208,6 +208,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 /* ---------- SIDEBAR ---------- */
 .side-panel{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow); margin-bottom:24px; }
 .side-panel h3{ font-family:var(--font-display); font-size:1.15rem; margin-bottom:16px; }
+.side-panel h3 .region-label{ display:block; font-size:0.75rem; font-weight:500; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); text-transform:none; letter-spacing:0; }
 .side-more{ display:flex; align-items:center; gap:6px; font-size:0.85rem; font-weight:600; color:var(--brand); margin-top:14px; }
 .trend-thumb{ width:64px; height:64px; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
 .trend-thumb img{ width:100%; height:100%; object-fit:cover; }
@@ -403,6 +404,15 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     </article>
 
     <aside>
+      <!-- Location-aware suggestions: hidden until we successfully detect a region and find matches -->
+      <div class="side-panel reveal" id="region-panel" style="display:none;">
+        <h3><i class="fas fa-location-dot" style="color:var(--ember)"></i> Close to Home
+          <span class="region-label" id="region-label"></span>
+        </h3>
+        <div id="art-region-related"></div>
+        <a class="side-more" href="../Treanding.html">More local stories <i class="fas fa-arrow-right"></i></a>
+      </div>
+
       <div class="side-panel reveal">
         <h3>More From Getinfo</h3>
         <div id="art-related"></div>
@@ -588,8 +598,120 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   `).join('');
 
   document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+
+  /* Kick off location-based suggestions once the main article has rendered.
+     This never blocks or delays the article itself — it fills in after. */
+  initRegionSuggestions(article);
 }
 renderArticle();
+
+/* ================================================================
+   REGION-AWARE "CLOSE TO HOME" SUGGESTIONS
+   ------------------------------------------------------------------
+   Detects the reader's approximate location (via IP lookup, no
+   permission prompt needed) and surfaces articles tied to their
+   country/city/region — e.g. a reader in Accra sees Ghana / West
+   Africa stories pinned alongside the normal "More From Getinfo"
+   related list.
+
+   DATA MODEL:
+   For best precision, add a `region` (and optionally `country`)
+   field to each article object in articles-data.js, e.g.:
+     { slug:"...", title:"...", region:"Ghana", ... }
+   or tag articles with location terms in `tags`, e.g. ["Ghana","Accra"].
+
+   If you add a `getArticlesByRegion(needles, excludeSlug, limit)`
+   helper to articles-data.js, it will be used automatically.
+   Otherwise this falls back to scanning tags/category/region/
+   country/location fields on whatever article list is exposed
+   globally (getAllArticles(), articlesData, or articles).
+   ================================================================ */
+
+/* Optional shorthand so common country codes also match broader
+   region terms — extend this as you cover more countries. */
+const REGION_ALIASES = {
+  'GH': ['ghana', 'accra', 'kumasi', 'west africa', 'ghanaian'],
+  'NG': ['nigeria', 'lagos', 'abuja', 'west africa', 'nigerian'],
+  'KE': ['kenya', 'nairobi', 'east africa', 'kenyan'],
+  'ZA': ['south africa', 'johannesburg', 'cape town', 'southern africa']
+};
+
+async function detectUserRegion(){
+  try{
+    const res = await fetch('https://ipapi.co/json/');
+    if(!res.ok) throw new Error('geo lookup failed');
+    const data = await res.json();
+    if(data.error) throw new Error(data.reason || 'geo lookup error');
+    return {
+      country: data.country_name || null,
+      countryCode: data.country_code || null,
+      city: data.city || null,
+      region: data.region || null
+    };
+  }catch(e){
+    return null; // fail silently — panel just won't show
+  }
+}
+
+function findRegionArticles(loc, excludeSlug, limit){
+  if(!loc) return [];
+
+  const needles = [loc.country, loc.city, loc.region, ...(REGION_ALIASES[loc.countryCode] || [])]
+    .filter(Boolean)
+    .map(s => s.toLowerCase());
+
+  if(!needles.length) return [];
+
+  // Prefer a dedicated helper defined in articles-data.js, if present
+  if(typeof getArticlesByRegion === 'function'){
+    try{
+      const result = getArticlesByRegion(needles, excludeSlug, limit);
+      if(Array.isArray(result)) return result;
+    }catch(e){ /* fall through to generic scan below */ }
+  }
+
+  const pool = (typeof getAllArticles === 'function') ? getAllArticles()
+             : (typeof articlesData !== 'undefined') ? articlesData
+             : (typeof articles !== 'undefined') ? articles
+             : [];
+
+  return pool
+    .filter(a => a.slug !== excludeSlug)
+    .filter(a => {
+      const haystack = [a.region, a.country, a.location, a.category, ...(a.tags || [])]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      return needles.some(n => haystack.includes(n));
+    })
+    .slice(0, limit);
+}
+
+async function initRegionSuggestions(article){
+  const loc = await detectUserRegion();
+  const matches = findRegionArticles(loc, article.slug, 4);
+  if(!matches.length) return; // nothing relevant — leave panel hidden
+
+  const panel = document.getElementById('region-panel');
+  const label = document.getElementById('region-label');
+  const wrap = document.getElementById('art-region-related');
+
+  const where = loc.city ? `${loc.city}, ${loc.country}` : loc.country;
+  label.textContent = `Because you're in ${where}`;
+
+  wrap.innerHTML = matches.map(a => `
+    <div class="recent-post">
+      <div class="trend-thumb"><img src="${a.image}" alt="${escapeHTML(a.title)}"></div>
+      <div class="trend-info">
+        <h4><a href="/articles/${encodeURIComponent(a.slug)}.html">${escapeHTML(a.title)}</a></h4>
+        <div class="trend-date">${a.date}</div>
+      </div>
+    </div>
+  `).join('');
+
+  panel.style.display = 'block';
+  panel.classList.add('in');
+}
 
 function copyLink(e){
   e.preventDefault();
@@ -652,7 +774,6 @@ window.addEventListener('scroll', ()=>{
   appbar.classList.toggle('scrolled', window.scrollY > 20);
 });
 </script>
-
 
 
 </body></html>

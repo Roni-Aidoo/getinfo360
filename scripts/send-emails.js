@@ -67,20 +67,46 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="" alt="" />
+        <img src="https://getinfoonline.com/Assets/bm.jfif" alt="NPA Deputy CEO Dr Dramani Bukari Reportedly Dead" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">QUOTE FOR THE NIGHT</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">All great things are hard and it requires hard work and discipline</p>
-        <a href="https://getinfoonline.com"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPA Deputy CEO Dr Dramani Bukari Reportedly Dead</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dr Dramani Bukari Ecomog, a Deputy Chief Executive Officer (CEO) of the National Petroleum Authority (NPA), has reportedly died in London.</p>
+        <a href="https://getinfoonline.com/trends/npa-deputy-ceo-dr-dramani-bukari-reportedly-dead.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
+
+      </td>
+    </tr>
+                <tr><td>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+         style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
+    <tr>
+      <td style="padding:20px;text-align:center;">
+        <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
+        <a href="https://getinfoonline.com/advertise" style="text-decoration:none;">
+          <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
+          <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
+        </a>
+      </td>
+    </tr>
+  </table></td></tr>
+                
+    
+  <tr>
+    <td style="padding:0 0 10px 0;">
+      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
+    </td>
+  </tr>
+    <tr>
+      <td>
+        
  
       </td>
     </tr>
@@ -108,7 +134,7 @@ async function main() {
     resend.emails.send({
       from: 'GetInfo <GetInfo@getinfoonline.com>',
       to: sub.email,
-      subject: "Quote For the Night - Get Info Online",
+      subject: "Today's Update - Get Info Online",
       html: emailHtml,
     })
   );
