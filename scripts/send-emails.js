@@ -115,7 +115,40 @@ async function main() {
       </td>
     </tr>
   </table>
-  
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/bm.jfif" alt="NPA Deputy CEO Dr Dramani Bukari Reportedly Dead" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPA Deputy CEO Dr Dramani Bukari Reportedly Dead</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dr Dramani Bukari Ecomog, a Deputy Chief Executive Officer (CEO) of the National Petroleum Authority (NPA), has reportedly died in London.</p>
+        <a href="https://getinfoonline.com/trends/npa-deputy-ceo-dr-dramani-bukari-reportedly-dead.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/nt.jfif" alt="Ghana Secures Chinese Support to Renovate and Modernise National Theatre" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Secures Chinese Support to Renovate and Modernise National Theatre</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana is set to embark on a major renovation and modernisation of the National Theatre in Accra with support from the Government of the People’s Republic of Ch…</p>
+        <a href="https://getinfoonline.com/trends/ghana-secures-chinese-support-to-renovate-and-modernise-national-theatre.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
       </td>
     </tr>
                 <tr><td>
@@ -124,7 +157,7 @@ async function main() {
     <tr>
       <td style="padding:20px;text-align:center;">
         <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
-        <a href="https://getinfoonline.com/advertise" style="text-decoration:none;">
+        <a href="mailto:getinfo360online@gmail.com" style="text-decoration:none;">
           <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
           <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
         </a>
@@ -141,7 +174,57 @@ async function main() {
     <tr>
       <td>
         
-  
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/fs.png" alt="THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Freedom of Speech is a fundamental human right allowing individuals to articulate their opinions, beliefs, and thoughts without fear of government retaliation.</p>
+        <a href="https://getinfoonline.com/articles/the-abuse-of-the-right-to-freedom-of-speech.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/twins.jfif" alt="Too Shocking: Twins with Different Date of Birth Explained" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Too Shocking: Twins with Different Date of Birth Explained</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The idea of twins having different dates of birth may sound strange at first. After all, twins are babies who develop in the same pregnancy and are delivered d…</p>
+        <a href="https://getinfoonline.com/articles/too-shocking-twins-with-different-date-of-birth-explained.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/images12.png" alt="TOXIC WORKPLACES" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">TOXIC WORKPLACES</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A view backed with evidence on behavior of Organizations in Ghana.</p>
+        <a href="https://getinfoonline.com/articles/toxic-workplaces.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
       </td>
     </tr>
 
