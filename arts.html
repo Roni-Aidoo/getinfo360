@@ -4,27 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="Shortcut icon" type="x-icon" href="Assets/g.png">
-<title>Getinfo Online| Arts</title>
+<title id="meta-title">Getinfo Online| Arts</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<meta name="description" content="">
+<meta name="description" id="meta-description" content="">
 <meta name="keywords" content="Treanding issues, Articles, Researchs, Others">
 <meta name="author" content="Getinfo Online">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.getinfoonline.com">
+<link rel="canonical" id="meta-canonical" href="https://www.getinfoonline.com">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Getinfo360 | Arts">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://www.getinfoonline.com/Assets/g.png">
-<meta property="og:url" content="https://www.getinfoonline.com">
+<meta property="og:title" id="meta-og-title" content="Getinfo360 | Arts">
+<meta property="og:description" id="meta-og-description" content="">
+<meta property="og:image" id="meta-og-image" content="https://www.getinfoonline.com/Assets/g.png">
+<meta property="og:url" id="meta-og-url" content="https://www.getinfoonline.com">
 <meta property="og:site_name" content="Getinfoonline">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Getinfo Online| Arts">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://www.getinfo360.com/Assets/g.png">
+<meta name="twitter:title" id="meta-twitter-title" content="Getinfo Online| Arts">
+<meta name="twitter:description" id="meta-twitter-description" content="">
+<meta name="twitter:image" id="meta-twitter-image" content="https://www.getinfo360.com/Assets/g.png">
 <meta name="theme-color" content="#0F3D2E">
 <link rel="icon" href="/favicon.ico">
 
@@ -164,31 +164,6 @@ nav.desktop-nav a.top-link:hover, nav.desktop-nav a.top-link.active{
 .icon-btn:active{ transform:scale(0.92); }
 .mobile-menu{ display:none; }
 
-/* ================= LIVE TICKER (signature element) ================= */
-.ticker{
-  position:fixed; top:var(--header-h); left:0; width:100%; z-index:900;
-  background:var(--brand); color:#fff; overflow:hidden;
-  height:38px; display:flex; align-items:center;
-}
-.ticker .tag{
-  flex-shrink:0; height:100%; display:flex; align-items:center; gap:6px;
-  padding:0 14px; background:var(--ember);
-  font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase;
-  font-weight:600; z-index:2;
-}
-.ticker .tag .dot{ width:6px; height:6px; border-radius:50%; background:#fff; animation:blink 1.4s infinite; }
-@keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:0.25;} }
-.ticker-track-wrap{ overflow:hidden; flex:1; }
-.ticker-track{
-  display:flex; gap:48px; white-space:nowrap; width:max-content;
-  animation:scroll-ticker 32s linear infinite;
-  padding-left:100%;
-}
-.ticker-track:hover{ animation-play-state:paused; }
-@keyframes scroll-ticker{ from{ transform:translateX(0);} to{ transform:translateX(-100%);} }
-.ticker-track a{ font-size:0.82rem; font-weight:500; opacity:0.95; }
-.ticker-track a:hover{ text-decoration:underline; }
-
 /* ================= CATEGORY CHIP RAIL ================= */
 .chip-rail-wrap{
   position:sticky; top:calc(var(--header-h) +0px); z-index:800;
@@ -212,180 +187,8 @@ nav.desktop-nav a.top-link:hover, nav.desktop-nav a.top-link.active{
 /* ================= LAYOUT ================= */
 main{ padding-top:26px; padding-bottom:60px; }
 
-.section-head{
-  display:flex; align-items:flex-end; justify-content:space-between;
-  margin-bottom:20px; gap:12px;
-}
-.eyebrow{
-  font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.12em;
-  text-transform:uppercase; color:var(--ember); font-weight:600; margin-bottom:6px; display:block;
-}
-.section-head h2{
-  font-family:var(--font-display); font-size:1.6rem; font-weight:700; letter-spacing:-0.01em;
-}
-.see-all{
-  font-size:0.85rem; font-weight:600; color:var(--brand);
-  display:flex; align-items:center; gap:6px; white-space:nowrap;
-}
-.see-all i{ font-size:0.75rem; transition:transform .2s ease; }
-.see-all:hover i{ transform:translateX(3px); }
-
 .listing-layout{ display:grid; grid-template-columns:2fr 1fr; gap:40px; padding-bottom:60px; }
-.listing-feed{ display:flex; flex-direction:column; gap:36px; }
 @media (max-width:992px){ .listing-layout{ grid-template-columns:1fr; } }
-
-/* ---------- HERO (dual headline) ---------- */
-.hero-grid{
-  display:grid; grid-template-columns:1.6fr 1fr; gap:18px; margin-bottom:36px;
-}
-.hero{
-  position:relative; border-radius:var(--radius); overflow:hidden;
-  box-shadow:var(--shadow-lg);
-  background:linear-gradient(160deg, var(--brand), #06231A);
-  height:460px;
-  max-width:600px ;
-  min-width: 600px;
-}
-.hero.hero-secondary{ height:460px; }
-.hero-bg{
-  position:absolute; inset:0;
-  background-image: linear-gradient(180deg, rgba(10,15,14,0.15) 20%, rgba(6,9,8,0.92) 100%), url("Assets/YA.jpg");
-  background-position:center; background-size:cover;
-}
-.hero-secondary .hero-bg{
-  background-image: linear-gradient(180deg, rgba(10,15,14,0.1) 25%, rgba(6,9,8,0.9) 100%), url("Assets/99.jpg");
-}
-.hero-content{
-  position:absolute; left:0; right:0; bottom:0; padding:34px 34px 30px;
-  z-index:2;
-}
-.hero-secondary .hero-content{ padding:24px 24px 22px; }
-.hero-badge{
-  display:inline-flex; align-items:center; gap:8px;
-  background:var(--gold); color:#241802; font-weight:700; font-size:0.72rem;
-  letter-spacing:0.06em; text-transform:uppercase; padding:6px 14px; border-radius:999px;
-  margin-bottom:16px;
-}
-.hero-badge.badge-alt{ background:#fff; color:var(--brand); }
-.hero h1{
-  font-family:var(--font-display); color:#fff; font-weight:700;
-  font-size:clamp(1.5rem, 4vw, 2.5rem); line-height:1.15; max-width:760px;
-  letter-spacing:-0.01em;
-}
-.hero-secondary h1{ font-size:clamp(1.2rem, 2.6vw, 1.6rem); max-width:none; }
-.hero-meta{
-  display:flex; gap:18px; margin-top:16px; color:rgba(255,255,255,0.75);
-  font-size:0.85rem; font-family:var(--font-mono); flex-wrap:wrap;
-}
-.hero-secondary .hero-meta{ margin-top:12px; font-size:0.78rem; }
-.hero-meta span{ display:flex; align-items:center; gap:6px; }
-
-/* ---------- FEED GRID ---------- */
-.feed-grid{
-  display:grid; grid-template-columns:repeat(2,1fr); gap:18px; margin-bottom:44px;
-}
-.card{
-  background:var(--surface); border-radius:var(--radius); overflow:hidden;
-  border:1px solid var(--line); box-shadow:var(--shadow);
-  transition:transform .3s ease, box-shadow .3s ease;
-  display:flex; flex-direction:column;
-}
-.card:hover{ transform:translateY(-6px); box-shadow:var(--shadow-lg); }
-.card-img{ aspect-ratio:16/10; overflow:hidden; background:var(--brand-light); }
-.card-img img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
-.card:hover .card-img img{ transform:scale(1.06); }
-.card-body{ padding:18px 18px 20px; display:flex; flex-direction:column; gap:8px; flex:1; }
-.card-cat{
-  font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase;
-  letter-spacing:0.08em; color:var(--brand); font-weight:600;
-}
-.card-title{
-  font-family:var(--font-display); font-size:1.08rem; font-weight:600; line-height:1.35;
-}
-.card-foot{
-  margin-top:auto; padding-top:10px; display:flex; align-items:center; gap:10px;
-  font-size:0.78rem; color:var(--ink-soft); font-family:var(--font-mono);
-}
-.some{
-  display: grid; 
-  grid-template-columns:2fr 1fr; gap:40px; padding-bottom:60px;
-}
-@media (max-width:992px){ .some{ grid-template-columns:1fr; } }
-
-
-/* ---------- TRENDING NUMBERED LIST (sidebar content, merged inline) ---------- */
-.trending-panel{
-  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
-  padding:24px; box-shadow:var(--shadow); margin-bottom:44px;
-}
-.trend-row{
-  display:flex; align-items:center; gap:16px; padding:14px 0;
-  border-bottom:1px solid var(--line);
-}
-.trend-row:last-child{ border-bottom:none; padding-bottom:0; }
-.trend-row:first-child{ padding-top:0; }
-.trend-num{
-  font-family:var(--font-display); font-weight:700; font-size:1.6rem;
-  color:var(--line); width:36px; flex-shrink:0;
-}
-[data-theme="dark"] .trend-num{ color:#2A2E37; }
-.trend-thumb{ width:64px; height:64px; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
-.trend-thumb img{ width:100%; height:100%; object-fit:cover; }
-.trend-info h4{ font-size:0.95rem; font-weight:600; line-height:1.35; }
-.trend-info .trend-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
-
-/* ---------- QUOTE RAIL ---------- */
-.rail-section{ margin-bottom:44px; }
-.hscroll{
-  display:flex; gap:16px; overflow-x:auto; padding:4px 4px 14px; scroll-snap-type:x mandatory;
-  scrollbar-width:none; cursor:grab;
-}
-.hscroll::-webkit-scrollbar{ display:none; }
-.hscroll.dragging{ cursor:grabbing; }
-
-.quote-card{
-  min-width:300px; max-width:320px; flex-shrink:0; scroll-snap-align:start;
-  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
-  padding:24px; box-shadow:var(--shadow);
-}
-.quote-card:first-child{ background:var(--brand); color:#fff; border-color:var(--brand); }
-.quote-card i.quote-icon{ color:var(--gold); font-size:1.3rem; margin-bottom:12px; display:block; }
-.quote-card p.q-text{ font-family:var(--font-display); font-size:1.05rem; font-style:italic; line-height:1.5; margin-bottom:18px; }
-.q-author{ display:flex; align-items:center; gap:10px; }
-.q-author img{ width:36px; height:36px; border-radius:50%; object-fit:cover; }
-.q-author .name{ font-size:0.85rem; font-weight:700; }
-
-/* ---------- ART / CARTOON RAIL ---------- */
-.art-card{
-  min-width:280px; max-width:280px; flex-shrink:0; scroll-snap-align:start;
-  border-radius:var(--radius); overflow:hidden; background:var(--surface);
-  border:1px solid var(--line); box-shadow:var(--shadow);
-}
-.art-img{ aspect-ratio:4/3; overflow:hidden; }
-.art-img img{ width:100%; height:100%; object-fit:cover; }
-
-/* ---------- NEWSLETTER ---------- */
-.newsletter{
-  background:var(--brand); border-radius:var(--radius); padding:48px 34px;
-  text-align:center; color:#fff; margin-bottom:20px; position:relative; overflow:hidden;
-}
-.newsletter::before{
-  content:''; position:absolute; inset:0;
-  background:radial-gradient(circle at 20% 20%, rgba(214,163,57,0.25), transparent 55%);
-}
-.newsletter h2{ font-family:var(--font-display); font-size:clamp(1.5rem,3.5vw,2.1rem); margin-bottom:10px; position:relative; }
-.newsletter h2 span{ color:var(--gold); }
-.newsletter p{ opacity:0.85; margin-bottom:26px; position:relative; }
-.newsletter-form{ display:flex; max-width:440px; margin:0 auto; gap:8px; position:relative; }
-.newsletter-form input{
-  flex:1; padding:13px 16px; border-radius:10px; border:none; outline:none; font-family:var(--font-body);
-}
-.newsletter-form button{
-  background:var(--gold); color:#241802; font-weight:700; padding:0 22px; border-radius:10px;
-  transition:transform .15s ease, background .2s ease;
-}
-.newsletter-form button:hover{ background:#c99529; }
-.newsletter-form button:active{ transform:scale(0.96); }
 
 /* ================= FOOTER ================= */
 footer.footer{
@@ -481,27 +284,15 @@ footer.footer{
 @media (max-width:992px){
   nav.desktop-nav{ display:none; }
   .mobile-menu{ display:flex; }
-  .feed-grid{ grid-template-columns:1fr; }
-  .hero-grid{ grid-template-columns:1fr; }
-  .hero, .hero.hero-secondary{ height:340px; }
   .footer-container{ grid-template-columns:1fr 1fr; }
   .footer-brand{ grid-column:1/-1; }
   body{ padding-bottom:calc(var(--tabbar-h) + 12px); }
   .tabbar{ display:block; }
   .chip-rail-wrap{ top:calc(var(--header-h) + 0px); }
-  .hero{
-  position:relative; border-radius:var(--radius); overflow:hidden;
-  box-shadow:var(--shadow-lg);
-  background:linear-gradient(160deg, var(--brand), #06231A);
-  height:460px;
-  max-width:400px ;
-  min-width: 380px;
-}
 }
 @media (max-width:550px){
   .footer-container{ grid-template-columns:1fr; }
   .footer-bottom{ flex-direction:column; align-items:flex-start; }
-  .hero{ aspect-ratio:4/5; max-height:none; }
 }
 
   /* Page Header */
@@ -649,7 +440,7 @@ footer.footer{
         
         .lightbox-content {
             max-width: 90%;
-            max-height: 80%;
+            max-height: 85%;
             position: relative;
             display: flex;
             flex-direction: column;
@@ -659,7 +450,7 @@ footer.footer{
         .lightbox-image {
             width: 100%;
             height: auto;
-            max-height: 75vh;
+            max-height: 68vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -668,7 +459,7 @@ footer.footer{
         
         .lightbox-image img {
             max-width: 100%;
-            max-height: 75vh;
+            max-height: 68vh;
             object-fit: contain;
             border-radius: 8px;
         }
@@ -694,9 +485,45 @@ footer.footer{
             margin-top: 20px;
             font-size: 1.2rem;
             background: rgba(0,0,0,0.5);
-            padding: 10px 30px;
+            padding: 14px 24px;
             border-radius: 8px;
+            max-width: 640px;
         }
+
+        .lightbox-author {
+            display: block;
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            color: var(--gold);
+            margin-top: 6px;
+            letter-spacing: 0.04em;
+        }
+
+        .lightbox-share {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+        .lightbox-share .share-label{
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: rgba(255,255,255,0.6);
+            margin-right: 2px;
+        }
+        .lightbox-share button{
+            width: 38px; height: 38px; border-radius: 50%;
+            background: rgba(255,255,255,0.12);
+            color: #fff;
+            display: flex; align-items: center; justify-content: center;
+            transition: all .2s ease;
+            font-size: 0.9rem;
+        }
+        .lightbox-share button:hover{ background: var(--gold); color:#241802; transform: translateY(-2px); }
+        .lightbox-share button.copied{ background: var(--gold); color:#241802; }
         
         .lightbox-nav {
             position: absolute;
@@ -794,31 +621,12 @@ footer.footer{
   </div>
 </header>
 
-<!-- ================= LIVE TICKER ================= -->
-<!--div class="ticker">
-  <div class="tag"><span class="dot"></span> Trending</div>
-  <div class="ticker-track-wrap">
-    <div class="ticker-track">
-      <a href="POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVES.html">Politics, the edged centre of Ghanaian lives</a>
-      <a href="All you need to Know About Abutrica's Extradition.html">All you need to know about Abutrica's extradition</a>
-      <a href="Dennis Miracles Aboagye Makes His Mark for National Communications Director Position in NPP.html">Dennis Miracles Aboagye makes his mark in NPP race</a>
-      <a href="About Nana Yaa Akyaa II, the new Asantehemaa.html">A new era: Nana Yaa Akyaa II, the new Asantehemaa</a>
-      <a href="#">Ghana embarks on a two-day cleanup exercise</a>
-      <a href="POLITICS, THE EGDED CENTRE OF THE GHANAIAN LIVES.html">Politics, the edged centre of Ghanaian lives</a>
-      <a href="All you need to Know About Abutrica's Extradition.html">All you need to know about Abutrica's extradition</a>
-      <a href="Dennis Miracles Aboagye Makes His Mark for National Communications Director Position in NPP.html">Dennis Miracles Aboagye makes his mark in NPP race</a>
-    </div>
-  </div>
-</div-->
-
 <!-- ================= CATEGORY CHIPS ================= -->
 <div class="chip-rail-wrap">
   <div class="container">
     <div class="chip-rail">
       <a class="chip active" href="index.html">Home</a>
       <a class="chip" href="360.html">Articles</a>
-      
-      <!--a class="chip" href="ano.html">Junior Insight</a-->
       <a class="chip" href="Treanding.html">Trending Issues</a>
       <a class="chip" href="Stories.html">Stories</a>
       <a class="chip" href="arts.html">Art Speaks</a>
@@ -836,142 +644,8 @@ footer.footer{
 
     <section class="gallery-section">
         <div class="container">
-            <div class="gallery-grid" id="galleryGrid">
-                <!-- Academic Category -->
-               <div class="gallery-item" data-category="National">
-                    <div class="gallery-image">
-                        <img src="Assets/Art4.jpg" alt="Deputy AG on ORALInvestigation">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Deputy AG on ORALInvestigation</h3>
-                        <span class="gallery-category">National</span>
-                    </div>
-               </div>
-                  <div class="gallery-item" data-category="National">
-                    <div class="gallery-image">
-                        <img src="Assets/art2.jpg" alt="President pleads for Ken Ofi Atta to come back">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">President pleads for Ken Ofi Atta to come back</h3>
-                        <span class="gallery-category">National</span>
-                    </div>
-                </div>
-
-                <div class="gallery-item" data-category="National">
-                    <div class="gallery-image">
-                        <img src="Assets/ABUI1.jpg" alt="Abutrica arrest comic by Wilavis">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Abutrica arrest comic by Wilavis</h3>
-                        <span class="gallery-category">National</span>
-                    </div>
-                </div>
-                
-              
-                
-                <!-- <div class="gallery-item" data-category="academic">
-                    <div class="gallery-image">
-                        <img src="NS3.jpg" alt="NSMQ Competition">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">NSMQ Competition</h3>
-                        <span class="gallery-category">Academic</span>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="academic">
-                    <div class="gallery-image">
-                        <img src="SL.jpg" alt="Science Lab Practical">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Science Lab Practical</h3>
-                        <span class="gallery-category">Academic</span>
-                    </div>
-                </div>
-                -->
-                <!-- Sports Category 
-                <div class="gallery-item" data-category="sports">
-                    <div class="gallery-image">
-                        <img src="2.jpg" alt="Football Team">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Football Team</h3>
-                        <span class="gallery-category">Sports</span>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="sports">
-                    <div class="gallery-image">
-                        <img src="6.jpg" alt="Football Star">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Football Star</h3>
-                        <span class="gallery-category">Sports</span>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="sports">
-                    <div class="gallery-image">
-                        <img src="4.jpg" alt="Athletics Competition">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Athletics Competition</h3>
-                        <span class="gallery-category">Sports</span>
-                    </div>
-                </div>-->
-                
-                <!-- Events Category 
-                <div class="gallery-item" data-category="events">
-                    <div class="gallery-image">
-                        <img src="al.jpg" alt="Anniversary Launch">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Anniversary Launch</h3>
-                        <span class="gallery-category">Events</span>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="events">
-                    <div class="gallery-image">
-                        <img src="b6.jpeg" alt="Anniversary Climax">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Anniversary Climax</h3>
-                        <span class="gallery-category">Events</span>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="events">
-                    <div class="gallery-image">
-                        <img src="OS1.jpg" alt="Old Students at Anniversary">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Old Students at Anniversary</h3>
-                        <span class="gallery-category">Events</span>
-                    </div>
-                </div>-->
-                
-                <!-- Campus Category 
-                <div class="gallery-item" data-category="campus">
-                    <div class="gallery-image">
-                        <img src="bs1.jpg" alt="School Administration Block">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">School Administration Block</h3>
-                        <span class="gallery-category">Campus</span>
-                    </div>
-                </div>
-                
-                <div class="gallery-item" data-category="campus">
-                    <div class="gallery-image">
-                        <img src="gn.jpg" alt="GNPC Block">
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">GNPC Block</h3>
-                        <span class="gallery-category">Campus</span>
-                    </div>
-                </div>-->
-            </div>
+            <!-- Populated at runtime from ARTS in quote-art-data.js -->
+            <div class="gallery-grid" id="galleryGrid"></div>
         </div>
     </section>
        <section class="gallery-filters">
@@ -979,13 +653,10 @@ footer.footer{
           <p style="text-align: center;"> <strong>Disclaimer!</strong> These are cartoons and caricature published on Getinfo Online ment for satire and commentary only 
             and do not necessarily reflects views of Getinfo Online
           </p>
-            <div class="filter-buttons">
+            <div class="filter-buttons" id="filterButtons">
                 <button class="filter-btn active" data-filter="all">All Photos</button>
-                <!--<button class="filter-btn" data-filter="academic">Academic</button>
-                <button class="filter-btn" data-filter="sports">Sports</button>
-                <button class="filter-btn" data-filter="cultural">Cultural</button>
-                <button class="filter-btn" data-filter="events">Events</button>
-                <button class="filter-btn" data-filter="campus">Campus</button>-->
+                <!-- Additional category buttons are injected automatically if
+                     ARTS entries use more than one category -->
             </div>
         </div>
        </section>
@@ -1001,7 +672,18 @@ footer.footer{
             <div class="lightbox-image" id="lightboxImage">
                 <img id="lightboxImg" src="" alt="Gallery Image">
             </div>
-            <div class="lightbox-caption" id="lightboxCaption"></div>
+            <div class="lightbox-caption" id="lightboxCaption">
+              <span id="lightboxTitle"></span>
+              <span class="lightbox-author" id="lightboxAuthor"></span>
+              <div class="lightbox-share">
+                <span class="share-label">Share</span>
+                <button aria-label="Share on Facebook" onclick="shareArt('facebook')"><i class="fab fa-facebook-f"></i></button>
+                <button aria-label="Share on X" onclick="shareArt('x')"><i class="fab fa-x-twitter"></i></button>
+                <button aria-label="Share on WhatsApp" onclick="shareArt('whatsapp')"><i class="fab fa-whatsapp"></i></button>
+                <button aria-label="Copy image link" id="copy-art-link-btn" onclick="shareArt('copyImage')"><i class="fas fa-image"></i></button>
+                <button aria-label="Copy artwork link" id="copy-art-page-btn" onclick="shareArt('copyPage')"><i class="fas fa-link"></i></button>
+              </div>
+            </div>
         </div>
     </div>
 
@@ -1097,7 +779,15 @@ footer.footer{
   <p class="search-hint">Try "Abutrica", "Asantehemaa", or "Kumasi cleanup"</p>
 </div>
 
+<!-- Shared quote/art data -->
+<script src="quote-art-data.js"></script>
 <script>
+function escapeHTML(str){
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
 /* ---------- theme toggle ---------- */
 const themeToggle = document.getElementById('theme-toggle');
 function applyTheme(t){
@@ -1164,22 +854,6 @@ window.addEventListener('scroll', ()=>{
   appbar.classList.toggle('scrolled', window.scrollY > 20);
 });
 
-/* ---------- drag-to-scroll horizontal rails ---------- */
-document.querySelectorAll('.hscroll').forEach(rail=>{
-  let isDown=false, startX, scrollLeft;
-  rail.addEventListener('mousedown', e=>{
-    isDown=true; rail.classList.add('dragging');
-    startX = e.pageX - rail.offsetLeft; scrollLeft = rail.scrollLeft;
-  });
-  ['mouseleave','mouseup'].forEach(evt=>rail.addEventListener(evt, ()=>{ isDown=false; rail.classList.remove('dragging'); }));
-  rail.addEventListener('mousemove', e=>{
-    if(!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - rail.offsetLeft;
-    rail.scrollLeft = scrollLeft - (x - startX) * 1.3;
-  });
-});
-
 /* ---------- scroll reveal ---------- */
 const io = new IntersectionObserver((entries)=>{
   entries.forEach(entry=>{
@@ -1196,103 +870,190 @@ document.addEventListener('DOMContentLoaded', ()=>{
   });
 });
 
- // ===== GALLERY FUNCTIONALITY =====
-        
-        // Gallery filtering
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const galleryItems = document.querySelectorAll('.gallery-item');
+/* ============================================================
+   ART GALLERY — rendered from ARTS (quote-art-data.js)
+   ============================================================ */
+let currentImageIndex = 0;
+let currentImages = []; // the ART objects currently visible, in display order
 
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-                
-                const filterValue = button.getAttribute('data-filter');
-                
-                galleryItems.forEach(item => {
-                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-            });
-        });
+function renderGallery(filter){
+  const arts = (typeof getAllArts === 'function') ? getAllArts() : (typeof ARTS !== 'undefined' ? ARTS : []);
+  const grid = document.getElementById('galleryGrid');
 
-        // ===== FIXED LIGHTBOX FUNCTIONALITY =====
-        let currentImageIndex = 0;
-        let currentImages = [];
+  const visible = arts.filter(a => filter === 'all' || !filter || (a.category || 'National') === filter);
 
-        function openLightbox(index) {
-            const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
-            currentImages = visibleItems;
-            
-            if (currentImages.length === 0) return;
-            
-            currentImageIndex = index;
-            
-            const lightbox = document.getElementById('lightbox');
-            lightbox.classList.add('active');
-            document.body.style.overflow = 'hidden';
-            
-            updateLightboxImage();
-        }
+  grid.innerHTML = visible.map((a, i) => `
+    <div class="gallery-item" data-category="${escapeHTML(a.category || 'National')}" data-slug="${escapeHTML(a.slug || '')}" data-index="${i}">
+      <div class="gallery-image">
+        <img src="${a.image}" alt="${escapeHTML(a.alt || a.title || '')}">
+      </div>
+      <div class="gallery-overlay">
+        <h3 class="gallery-title">${escapeHTML(a.title || a.alt || '')}</h3>
+        <span class="gallery-category">${escapeHTML(a.category || 'National')}</span>
+      </div>
+    </div>
+  `).join('');
 
-        function closeLightbox() {
-            document.getElementById('lightbox').classList.remove('active');
-            document.body.style.overflow = '';
-        }
+  currentImages = visible;
 
-        function changeImage(direction) {
-            currentImageIndex += direction;
-            if (currentImageIndex >= currentImages.length) currentImageIndex = 0;
-            if (currentImageIndex < 0) currentImageIndex = currentImages.length - 1;
-            updateLightboxImage();
-        }
+  grid.querySelectorAll('.gallery-item').forEach(item=>{
+    item.addEventListener('click', ()=>{
+      const idx = parseInt(item.getAttribute('data-index'), 10);
+      openLightbox(idx);
+    });
+  });
+}
 
-        function updateLightboxImage() {
-            const item = currentImages[currentImageIndex];
-            const imgElement = item.querySelector('.gallery-image img');
-            const title = item.querySelector('.gallery-title').textContent;
-            const category = item.querySelector('.gallery-category').textContent;
-            
-            const lightboxImg = document.getElementById('lightboxImg');
-            const caption = document.getElementById('lightboxCaption');
-            
-            if (imgElement) {
-                lightboxImg.src = imgElement.src;
-                lightboxImg.alt = imgElement.alt || title;
-            }
-            
-            caption.textContent = `${title} - ${category}`;
-        }
+/* Build category filter buttons automatically if ARTS uses more than one category */
+function renderFilters(){
+  const arts = (typeof getAllArts === 'function') ? getAllArts() : (typeof ARTS !== 'undefined' ? ARTS : []);
+  const categories = [...new Set(arts.map(a => a.category || 'National'))];
+  const wrap = document.getElementById('filterButtons');
+  if(categories.length <= 1) return; // "All Photos" is enough
 
-        // Add click event to gallery items
-        galleryItems.forEach((item, index) => {
-            item.addEventListener('click', () => {
-                const visibleItems = Array.from(galleryItems).filter(i => i.style.display !== 'none');
-                const actualIndex = visibleItems.indexOf(item);
-                if (actualIndex !== -1) {
-                    openLightbox(actualIndex);
-                }
-            });
-        });
+  categories.forEach(cat=>{
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.setAttribute('data-filter', cat);
+    btn.textContent = cat;
+    wrap.appendChild(btn);
+  });
 
-        // Keyboard navigation for lightbox
-        document.addEventListener('keydown', (e) => {
-            if (!document.getElementById('lightbox').classList.contains('active')) return;
-            
-            if (e.key === 'ArrowLeft') changeImage(-1);
-            if (e.key === 'ArrowRight') changeImage(1);
-            if (e.key === 'Escape') closeLightbox();
-        });
+  wrap.querySelectorAll('.filter-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      wrap.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      renderGallery(btn.getAttribute('data-filter'));
+    });
+  });
+}
 
-        // Close lightbox when clicking on background
-        document.getElementById('lightbox').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeLightbox();
-            }
-        });
+/* ---------- lightbox ---------- */
+function openLightbox(index){
+  if(!currentImages.length) return;
+  currentImageIndex = index;
+
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  updateLightboxImage();
+}
+
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+
+  // drop the ?art= deep-link param when closing, without adding a history entry
+  const url = new URL(window.location.href);
+  if(url.searchParams.has('art')){
+    url.searchParams.delete('art');
+    history.replaceState(null, '', url.toString());
+  }
+}
+
+function changeImage(direction){
+  currentImageIndex += direction;
+  if(currentImageIndex >= currentImages.length) currentImageIndex = 0;
+  if(currentImageIndex < 0) currentImageIndex = currentImages.length - 1;
+  updateLightboxImage();
+}
+
+function updateLightboxImage(){
+  const art = currentImages[currentImageIndex];
+  if(!art) return;
+
+  document.getElementById('lightboxImg').src = art.image;
+  document.getElementById('lightboxImg').alt = art.alt || art.title || '';
+  document.getElementById('lightboxTitle').textContent = art.title || art.alt || '';
+  document.getElementById('lightboxAuthor').textContent = art.author ? `By ${art.author}` : '';
+
+  // update the URL to a shareable permalink for this specific artwork,
+  // without triggering a page reload or breaking back/forward
+  if(art.slug){
+    const url = new URL(window.location.href);
+    url.searchParams.set('art', art.slug);
+    history.replaceState(null, '', url.toString());
+
+    // best-effort: update page meta tags so anything that DOES render this
+    // page (rather than the raw image link) reflects the current artwork
+    document.getElementById('meta-title').textContent = `${art.title} | Getinfo Online Arts`;
+    document.getElementById('meta-og-title').setAttribute('content', art.title || '');
+    document.getElementById('meta-twitter-title').setAttribute('content', art.title || '');
+    const absoluteImg = new URL(art.image, window.location.href).toString();
+    document.getElementById('meta-og-image').setAttribute('content', absoluteImg);
+    document.getElementById('meta-twitter-image').setAttribute('content', absoluteImg);
+  }
+}
+
+/* ---------- sharing a specific artwork ---------- */
+function shareArt(mode){
+  const art = currentImages[currentImageIndex];
+  if(!art) return;
+
+  const pageUrl = new URL(window.location.href);
+  if(art.slug) pageUrl.searchParams.set('art', art.slug);
+  const permalink = pageUrl.toString();
+  const imageUrl = new URL(art.image, window.location.href).toString();
+  const title = art.title || art.alt || 'Getinfo Online — Art Speaks';
+
+  switch(mode){
+    case 'facebook':
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(permalink)}`, '_blank', 'noopener,noreferrer,width=600,height=520');
+      break;
+    case 'x':
+      window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(permalink)}&text=${encodeURIComponent(title)}`, '_blank', 'noopener,noreferrer,width=600,height=520');
+      break;
+    case 'whatsapp':
+      // pairing the caption with the raw image URL gives WhatsApp an inline
+      // image preview, since it recognizes the link as pointing to media
+      window.open(`https://wa.me/?text=${encodeURIComponent(title + ' ' + imageUrl)}`, '_blank', 'noopener,noreferrer');
+      break;
+    case 'copyImage': {
+      const btn = document.getElementById('copy-art-link-btn');
+      navigator.clipboard?.writeText(imageUrl).then(()=> flashCopied(btn)).catch(()=>{});
+      break;
+    }
+    case 'copyPage': {
+      const btn = document.getElementById('copy-art-page-btn');
+      navigator.clipboard?.writeText(permalink).then(()=> flashCopied(btn)).catch(()=>{});
+      break;
+    }
+  }
+}
+
+function flashCopied(btn){
+  if(!btn) return;
+  const original = btn.innerHTML;
+  btn.innerHTML = '<i class="fas fa-check"></i>';
+  btn.classList.add('copied');
+  setTimeout(()=>{ btn.innerHTML = original; btn.classList.remove('copied'); }, 1500);
+}
+
+/* Keyboard navigation for lightbox */
+document.addEventListener('keydown', (e) => {
+  if (!document.getElementById('lightbox').classList.contains('active')) return;
+  if (e.key === 'ArrowLeft') changeImage(-1);
+  if (e.key === 'ArrowRight') changeImage(1);
+  if (e.key === 'Escape') closeLightbox();
+});
+
+/* Close lightbox when clicking on background */
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) closeLightbox();
+});
+
+/* ---------- boot ---------- */
+renderGallery('all');
+renderFilters();
+
+/* deep-link support: arts.html?art=<slug> opens straight into that piece */
+(function openFromQueryString(){
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('art');
+  if(!slug) return;
+  const idx = currentImages.findIndex(a => a.slug === slug);
+  if(idx !== -1) openLightbox(idx);
+})();
 </script>
 </body>
 </html>
