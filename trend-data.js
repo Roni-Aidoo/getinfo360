@@ -9,6 +9,63 @@
 
 const TRENDING = [
     {
+    slug: "oil-prices-rise-as-u-s-iran-peace-deal-doubts-and-ship-attacks-raise-supply-fear",
+    title: "Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears",
+    category: "Business",
+    author: "Curtis Nkansah Bentum",
+    date: "August 12, 2026",
+    readTime: "2 min read",
+    image: "/Assets/oil.jfif",
+    imageCaption: "Web",
+    excerpt: "Oil prices rose on Wednesday, August 12, 2026, as growing doubts over a possible peace agreement between the United States and Iran, coupled with attacks on two vessels, heightened concerns about disruptions to global oil supplies.",
+    tags: ["Oil prices", "United States and Iran"],
+    body: [
+      "Oil prices rose on Wednesday, August 12, 2026, as growing doubts over a possible peace agreement between the United States and Iran, coupled with attacks on two vessels, heightened concerns about disruptions to global oil supplies.\n\nBrent crude, the international benchmark, rose by about 90 cents to $89.81 a barrel, while U.S. West Texas Intermediate (WTI) crude gained 88 cents to $84.08 a barrel in early trading.",
+      "The latest gains came as markets reacted to renewed uncertainty surrounding efforts to resolve the conflict between Washington and Tehran. Investors had hoped that progress towards a peace deal would lead to the reopening of the Strait of Hormuz, one of the world's most important oil-shipping routes.\n\nHowever, those expectations have weakened. Iran has indicated that the Strait of Hormuz will remain closed unless the United States accepts its demands for ending the conflict, including the unfreezing of Iranian assets. The uncertainty has raised fears that restrictions on shipping could persist and further disrupt crude supplies.",
+      "Ship attacks add to market concerns\n\nReports of attacks involving vessels near the Strait of Hormuz and the Bab el-Mandeb Strait have added another layer of uncertainty to the oil market.\n\nThe two waterways are strategically important for global energy transportation. The Strait of Hormuz in particular handles a significant share of international oil shipments, meaning prolonged disruption could place additional upward pressure on crude prices.\n\nShipping activity through Hormuz has already fallen dramatically, with reported vessel transits dropping to just eight compared with an estimated 125–140 daily transits before the conflict.\n\nU.S. crude inventories provide some relief\n\nDespite the geopolitical concerns, data from the American Petroleum Institute (API) showed that U.S. crude oil inventories increased by approximately 9.1 million barrels.",
+      "The unexpected buildup could potentially ease some concerns about tight supplies in the United States. However, traders are waiting for official inventory figures from the U.S. Energy Information Administration (EIA) before determining whether the increase represents a broader change in supply conditions.\n\nGasoline and distillate inventories, meanwhile, reportedly declined, creating a mixed picture of the U.S. petroleum market.\n\nMarket remains highly sensitive to Middle East developments\n\nOil traders are expected to continue closely monitoring developments between the United States and Iran, particularly any signs of progress towards reopening the Strait of Hormuz.",
+      "A successful diplomatic agreement and restoration of normal shipping could put downward pressure on oil prices. Conversely, further attacks on vessels or a prolonged closure of major shipping routes could push prices higher.\n\nThe latest movement highlights how strongly geopolitical developments continue to influence the global oil market, with traders balancing fears of supply disruptions against evidence of increasing inventories in the United States."
+    ]
+  },
+    {
+    slug: "private-citizen-sues-attorney-general-and-chief-justice-over-legal-vacation-prac",
+    title: "Private Citizen Sues Attorney-General and Chief Justice Over Legal Vacation Practice",
+    category: "National",
+    author: "Info Desk",
+    date: "August 12, 2026",
+    readTime: "2 min read",
+    image: "/Assets/aj.jpg",
+    imageCaption: "Web",
+    excerpt: "A private citizen, Elorm Kwami Gorni, has taken legal action against Attorney-General and Minister for Justice Dr. Dominic Ayine and Chief Justice Justice Paul Baffoe-Bonnie at the Supreme Court, challenging the constitutionality of Ghana’s annual legal vacation arrangement.",
+    tags: ["Elorm Kwami Gorni", "Attorney-General and Minister for Justice", "Ghana’s annual legal vacation"],
+    body: [
+      "A private citizen, Elorm Kwami Gorni, has taken legal action against Attorney-General and Minister for Justice Dr. Dominic Ayine and Chief Justice Justice Paul Baffoe-Bonnie at the Supreme Court, challenging the constitutionality of Ghana’s annual legal vacation arrangement.\n\nThe suit, filed at the Supreme Court, seeks to have the court examine the practice under which the Supreme Court and Court of Appeal suspend their regular sittings from August 1 to September 30 every year. Mr Gorni argues that the arrangement could undermine citizens’ constitutional right to timely access to justice.",
+      "According to reports on the case, Mr Gorni has invoked the original jurisdiction of the Supreme Court under Articles 2(1) and 130(1) of the 1992 Constitution. He is challenging, among other things, Rule 61(b) of the Court of Appeal Rules, 1997 (C.I. 19), and Rule 82 of the Supreme Court Rules, 1996 (C.I. 16), to the extent that they permit the suspension of sittings during the legal vacation.\n\nMr Gorni's argument is that completely suspending sittings at the two appellate courts for about two months can result in delays for litigants whose cases are pending before them. He contends that such delays may affect matters including appeals, constitutional cases, applications for stay of execution, interlocutory applications and judicial review proceedings.",
+      "He argues that the practice is inconsistent with several provisions of the Constitution, including Articles 19(1), 23, 33, 125 and 296. In particular, he maintains that citizens should be able to obtain a fair hearing within a reasonable time and that administrative arrangements affecting access to justice must be fair and reasonable.\n\nThe plaintiff is, however, not arguing that judges should be denied their annual leave. Instead, he is proposing alternative arrangements that could allow the appellate courts to continue functioning while judges take their required periods of rest.",
+      "Among the alternatives he wants considered are rotational sittings, vacation panels and staggered judicial leave. Such arrangements, he argues, could ensure that urgent and important cases continue to receive judicial attention throughout the year.\n\nThe situation differs from the arrangements at the High Court, where designated vacation courts continue to sit during the legal vacation to deal with specified urgent matters. Mr Gorni argues that a similar approach could be considered for the Supreme Court and Court of Appeal.",
+      "The case therefore places Ghana's longstanding legal vacation system before the country's highest court for constitutional scrutiny. Its eventual determination could have implications for the organisation of judicial work, access to the appellate courts and the broader administration of justice in Ghana.\n\nThe Supreme Court's decision will be closely watched, particularly because it could determine whether the existing legal vacation framework can continue in its present form or whether alternative arrangements will be required to ensure uninterrupted access to appellate justice."
+    ]
+  },
+    {
+    slug: "trump-secretly-switched-planes-after-nato-summit-over-security-threat",
+    title: "Trump Secretly Switched Planes After NATO Summit Over Security Threat",
+    category: "International",
+    author: "Info Desk",
+    date: "August 11, 2026",
+    readTime: "2 min read",
+    image: "/Assets/trump.jfif",
+    imageCaption: "Web",
+    excerpt: "US President Donald Trump has confirmed that he secretly switched planes while leaving Turkey following the NATO summit in July, saying the decision was made because of a potential security threat.",
+    tags: ["US President Donald Trump", "potential security threat", "US"],
+    body: [
+      "US President Donald Trump has confirmed that he secretly switched planes while leaving Turkey following the NATO summit in July, saying the decision was made because of a potential security threat.\n\nTrump said he followed instructions from the US Secret Service and military officials, who believed the aircraft he was originally scheduled to use faced a greater risk. The revelation has since raised questions about the nature of the threat and the extraordinary security measures taken to protect the president.",
+      "According to reports, Trump was discreetly moved from Air Force One to a smaller US military aircraft at Ankara airport. The transfer was reportedly carried out using a catering truck, allowing the president to leave without attracting attention.\n\nThe original aircraft was reportedly left to continue as a decoy, with members of the White House staff, security personnel and journalists still aboard. Trump later described the decision as a security precaution and said he regularly receives threats.\n\nUS media reports have linked the operation to concerns about a possible threat from Iran, although the full intelligence behind the decision has not been publicly disclosed. Reuters reported that the operation was organised by the Secret Service and military authorities after concerns about Trump's safety.",
+      "<div class=\"EV\"><img src=\"/Assets/te.jfif\" alt=\"letter1\" ></div><br><br><br><br><br><br>",
+      "The unusual operation took place against the backdrop of heightened tensions between Washington and Tehran. Reports said Iranian threats and the security situation in the region were among the factors considered by US officials.\n\nTrump, however, acknowledged that the alternative aircraft may itself have faced risks, but said he relied on the judgement of his security and military teams.\n\nThe revelation has attracted considerable attention because presidential movements are normally surrounded by extensive security arrangements, while the president's travelling press corps is usually kept informed of his movements.",
+      "The incident highlights the extraordinary lengths security agencies can take to protect a sitting US president when intelligence indicates a potential threat. It also underscores the continuing tensions between the United States and Iran and the security challenges facing American officials travelling abroad."
+    ]
+  },
+    {
     slug: "npa-deputy-ceo-dr-dramani-bukari-reportedly-dead",
     title: "NPA Deputy CEO Dr Dramani Bukari Reportedly Dead",
     category: "News",

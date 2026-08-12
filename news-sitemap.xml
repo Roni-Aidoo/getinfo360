@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/trends/oil-prices-rise-as-u-s-iran-peace-deal-doubts-and-ship-attacks-raise-supply-fear.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12T00:00:00.000Z</news:publication_date>
+      <news:title>Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/trends/private-citizen-sues-attorney-general-and-chief-justice-over-legal-vacation-prac.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12T00:00:00.000Z</news:publication_date>
+      <news:title>Private Citizen Sues Attorney-General and Chief Justice Over Legal Vacation Practice</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/trends/trump-secretly-switched-planes-after-nato-summit-over-security-threat.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T00:00:00.000Z</news:publication_date>
+      <news:title>Trump Secretly Switched Planes After NATO Summit Over Security Threat</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/trends/npa-deputy-ceo-dr-dramani-bukari-reportedly-dead.html</loc>
     <news:news>
       <news:publication>
@@ -10,28 +43,6 @@
       </news:publication>
       <news:publication_date>2026-08-11T00:00:00.000Z</news:publication_date>
       <news:title>NPA Deputy CEO Dr Dramani Bukari Reportedly Dead</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/ghana-secures-chinese-support-to-renovate-and-modernise-national-theatre.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
-      <news:title>Ghana Secures Chinese Support to Renovate and Modernise National Theatre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/trends/black-queens-bow-out-of-wafcon-after-2-1-defeat-to-malawi.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
-      <news:title>Black Queens Bow Out of WAFCON After 2–1 Defeat to Malawi</news:title>
     </news:news>
   </url>
 </urlset>

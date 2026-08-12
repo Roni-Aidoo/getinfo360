@@ -67,21 +67,55 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/bm.jfif" alt="NPA Deputy CEO Dr Dramani Bukari Reportedly Dead" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/oil.jfif" alt="Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPA Deputy CEO Dr Dramani Bukari Reportedly Dead</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dr Dramani Bukari Ecomog, a Deputy Chief Executive Officer (CEO) of the National Petroleum Authority (NPA), has reportedly died in London.</p>
-        <a href="https://getinfoonline.com/trends/npa-deputy-ceo-dr-dramani-bukari-reportedly-dead.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Oil prices rose on Wednesday, August 12, 2026, as growing doubts over a possible peace agreement between the United States and Iran, coupled with attacks on tw…</p>
+        <a href="https://getinfoonline.com/trends/oil-prices-rise-as-u-s-iran-peace-deal-doubts-and-ship-attacks-raise-supply-fear.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
-
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/aj.jpg" alt="Private Citizen Sues Attorney-General and Chief Justice Over Legal Vacation Practice" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Private Citizen Sues Attorney-General and Chief Justice Over Legal Vacation Practice</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A private citizen, Elorm Kwami Gorni, has taken legal action against Attorney-General and Minister for Justice Dr. Dominic Ayine and Chief Justice Justice Paul…</p>
+        <a href="https://getinfoonline.com/trends/private-citizen-sues-attorney-general-and-chief-justice-over-legal-vacation-prac.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/trump.jfif" alt="Trump Secretly Switched Planes After NATO Summit Over Security Threat" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Trump Secretly Switched Planes After NATO Summit Over Security Threat</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">US President Donald Trump has confirmed that he secretly switched planes while leaving Turkey following the NATO summit in July, saying the decision was made b…</p>
+        <a href="https://getinfoonline.com/trends/trump-secretly-switched-planes-after-nato-summit-over-security-threat.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  
       </td>
     </tr>
                 <tr><td>
@@ -107,7 +141,7 @@ async function main() {
     <tr>
       <td>
         
- 
+  
       </td>
     </tr>
 
@@ -134,7 +168,7 @@ async function main() {
     resend.emails.send({
       from: 'GetInfo <GetInfo@getinfoonline.com>',
       to: sub.email,
-      subject: "Today's Update - Get Info Online",
+      subject: "This Week's Update - Get Info Online",
       html: emailHtml,
     })
   );
