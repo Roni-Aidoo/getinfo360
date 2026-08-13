@@ -6,7 +6,7 @@
 <meta name="google-site-verification" content="wtYHcdjFAPCJEGka8BoMwVey4eOg3wPtQfDLr1FlmVY" />
 <meta name="google-adsense-account" content="ca-pub-6699341794407199">
 <link rel="Shortcut icon" type="x-icon" href="Assets/g.png">
-<title>Getinfo Online — Trending Issues, Articles & Analysis</title>
+<title>Getinfo Online — Trending News, Articles & Analysis</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,13 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.getinfoonline.com">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Getinfo Online | Trending issues, Articles & Updates">
+<meta property="og:title" content="Getinfo Online | Trending News, Articles & Updates">
 <meta property="og:description" content="Stay updated with the latest happenings through Written Articles from experts">
 <meta property="og:image" content="https://www.getinfoonline.com/Assets/GETORI.png">
 <meta property="og:url" content="https://www.getinfoonline.com">
 <meta property="og:site_name" content="Getinfoonline">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Getinfo Online| Trending issues, Articles & Updates">
+<meta name="twitter:title" content="Getinfo Online| Trending News, Articles & Updates">
 <meta name="twitter:description" content="Stay updated with the latest happenings through Written Articles from experts">
 <meta name="twitter:image" content="https://www.getinfoonline.com/Assets/GETORI.png">
 <meta name="theme-color" content="#0F3D2E">
@@ -835,7 +835,7 @@ function renderTicker(){
   const items = TRENDING.slice(0, 4);
 
   track.innerHTML = items.map(item => `
-    <a href="/trends/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>
+    <a href="/news/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>
   `).join('');
 }
 
@@ -859,7 +859,7 @@ function renderHeroSlideshow(){
   if(typeof TRENDING !== 'undefined' && TRENDING.length){
     const t = TRENDING[0];
     slides.push({
-      href: `/trends/${encodeURIComponent(t.slug)}.html`,
+      href: `/news/${encodeURIComponent(t.slug)}.html`,
       image: t.image,
       badge: t.category || 'Trending',
       title: t.title,
@@ -985,7 +985,7 @@ function renderFeedGrid(){
   if(typeof TRENDING !== 'undefined'){
     TRENDING.slice(1, 2).forEach(t => {
       cards.push(buildCard(
-        `/trends/${encodeURIComponent(t.slug)}.html`,
+        `/news/${encodeURIComponent(t.slug)}.html`,
         t.image, t.title, t.category, t.title, t.date
       ));
     });
@@ -1018,7 +1018,7 @@ function renderTrendingPanel(){
   }
 
   wrap.innerHTML = items.map((item, i) => `
-    <a class="trend-row" href="/trends/${encodeURIComponent(item.slug)}.html">
+    <a class="trend-row" href="/news/${encodeURIComponent(item.slug)}.html">
       <div class="trend-thumb"><img src="${item.image}" alt="${escapeHtml(item.title)}"></div>
       <div class="trend-info">
         <h4 class="name">${escapeHtml(item.title)}</h4>

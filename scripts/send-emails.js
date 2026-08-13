@@ -28,7 +28,7 @@ async function main() {
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Today's Review</title>
+<title>This Week's Update</title>
 </head>
 <body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f4f5;padding:24px 0;">
@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/oil.jfif" alt="Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/mus.jfif" alt="Religious Leaders Urged to Avoid Statements That Could Fuel Tension" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Oil prices rose on Wednesday, August 12, 2026, as growing doubts over a possible peace agreement between the United States and Iran, coupled with attacks on tw…</p>
-        <a href="https://getinfoonline.com/trends/oil-prices-rise-as-u-s-iran-peace-deal-doubts-and-ship-attacks-raise-supply-fear.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Religious Leaders Urged to Avoid Statements That Could Fuel Tension</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Zango Institute for Development has called for calm and restraint following recent statements and incidents that it says could heighten religious tension b…</p>
+        <a href="https://getinfoonline.com/news/religious-leaders-urged-to-avoid-statements-that-could-fuel-tension.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/aj.jpg" alt="Private Citizen Sues Attorney-General and Chief Justice Over Legal Vacation Practice" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Muslim man.jfif" alt="Police Arrest Man Captured Assaulting Suspect in Viral Video" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Private Citizen Sues Attorney-General and Chief Justice Over Legal Vacation Practice</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A private citizen, Elorm Kwami Gorni, has taken legal action against Attorney-General and Minister for Justice Dr. Dominic Ayine and Chief Justice Justice Paul…</p>
-        <a href="https://getinfoonline.com/trends/private-citizen-sues-attorney-general-and-chief-justice-over-legal-vacation-prac.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Police Arrest Man Captured Assaulting Suspect in Viral Video</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service has arrested 63-year-old Sibamay Zakaria, who was captured in a viral video allegedly assaulting a pastor who was already in police cu…</p>
+        <a href="https://getinfoonline.com/news/police-arrest-man-captured-assaulting-suspect-in-viral-video.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -101,14 +101,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/trump.jfif" alt="Trump Secretly Switched Planes After NATO Summit Over Security Threat" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/money.jfif" alt="Ghanaian Cedi Gains Ground Against US Dollar" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Trump Secretly Switched Planes After NATO Summit Over Security Threat</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">US President Donald Trump has confirmed that he secretly switched planes while leaving Turkey following the NATO summit in July, saying the decision was made b…</p>
-        <a href="https://getinfoonline.com/trends/trump-secretly-switched-planes-after-nato-summit-over-security-threat.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghanaian Cedi Gains Ground Against US Dollar</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi recorded further gains against the United States dollar on Thursday, August 13, 2026, strengthening on both the forex and interbank markets.</p>
+        <a href="https://getinfoonline.com/news/ghanaian-cedi-gains-ground-against-us-dollar.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -118,14 +118,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/bm.jfif" alt="NPA Deputy CEO Dr Dramani Bukari Reportedly Dead" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/coc1.jfif" alt="Cocoa Farmers Challenge New Land-Use Rules Under Cocoa Board Bill" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPA Deputy CEO Dr Dramani Bukari Reportedly Dead</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dr Dramani Bukari Ecomog, a Deputy Chief Executive Officer (CEO) of the National Petroleum Authority (NPA), has reportedly died in London.</p>
-        <a href="https://getinfoonline.com/trends/npa-deputy-ceo-dr-dramani-bukari-reportedly-dead.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Cocoa Farmers Challenge New Land-Use Rules Under Cocoa Board Bill</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghanaian cocoa farmers are raising concerns over provisions in the newly passed Ghana Cocoa Board Bill, 2026, particularly restrictions governing how cocoa far…</p>
+        <a href="https://getinfoonline.com/news/cocoa-farmers-challenge-new-land-use-rules-under-cocoa-board-bill.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -135,14 +135,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/nt.jfif" alt="Ghana Secures Chinese Support to Renovate and Modernise National Theatre" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/MOFA.jfif" alt="Ghana Rejects Claims of $18 Million Debt to South Africa Over Evacuation" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Secures Chinese Support to Renovate and Modernise National Theatre</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana is set to embark on a major renovation and modernisation of the National Theatre in Accra with support from the Government of the People’s Republic of Ch…</p>
-        <a href="https://getinfoonline.com/trends/ghana-secures-chinese-support-to-renovate-and-modernise-national-theatre.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Rejects Claims of $18 Million Debt to South Africa Over Evacuation</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Government of Ghana has rejected reports that it owes South Africa approximately $18 million for the evacuation of Ghanaian nationals from the country foll…</p>
+        <a href="https://getinfoonline.com/news/ghana-rejects-claims-of-18-million-debt-to-south-africa-over-evacuation.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -251,7 +251,7 @@ async function main() {
     resend.emails.send({
       from: 'GetInfo <GetInfo@getinfoonline.com>',
       to: sub.email,
-      subject: "Today's Review - Get Info Online",
+      subject: "This Week's Update - Get Info Online",
       html: emailHtml,
     })
   );

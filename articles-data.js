@@ -8,6 +8,7 @@
    ============================================================ */
 
 const ARTICLES = [
+ 
   {
     slug: "the-abuse-of-the-right-to-freedom-of-speech",
     title: "THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH",

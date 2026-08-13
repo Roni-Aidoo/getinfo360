@@ -9,6 +9,112 @@
 
 const TRENDING = [
     {
+    slug: "religious-leaders-urged-to-avoid-statements-that-could-fuel-tension",
+    title: "Religious Leaders Urged to Avoid Statements That Could Fuel Tension",
+    category: "National",
+    author: "Info Desk",
+    date: "August 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/mus.jfif",
+    imageCaption: "Web",
+    excerpt: "The Zango Institute for Development has called for calm and restraint following recent statements and incidents that it says could heighten religious tension between Muslims and Christians in Ghana.",
+    tags: ["Zango Institute for Development", "Muslims and Christians in Ghana"],
+    body: [
+      "<b>The Zango Institute for Development has called for calm and restraint following recent statements and incidents that it says could heighten religious tension between Muslims and Christians in Ghana.\n\nThe organisation has condemned what it described as religiously inciteful statements attributed to Apostle Yaw Junior Daniel Adjei and Imam Masud Abdullai.</b>",
+      "According to the Institute, inflammatory remarks have the potential to create misunderstanding, tension and division between Ghana's two major religious communities.\n\nThe call comes amid public discussions surrounding the alleged assault of a pastor while in police custody, an incident that has generated widespread reaction on social media.\n\nThe Institute has urged religious leaders and their followers to exercise restraint and resolve disagreements through dialogue and lawful channels.",
+      "It also stressed the importance of respecting Ghana's secular constitutional order and avoiding statements or actions that could threaten the peaceful coexistence of different religious communities.\n\nThe organisation's appeal comes at a time when authorities and civil society groups are calling for responsible public discourse, particularly on sensitive religious matters.",
+      "The Institute has therefore encouraged Muslims and Christians to reject provocation, promote mutual respect and allow the relevant authorities to investigate allegations and take appropriate legal action."
+    ]
+  },
+    {
+    slug: "police-arrest-man-captured-assaulting-suspect-in-viral-video",
+    title: "Police Arrest Man Captured Assaulting Suspect in Viral Video",
+    category: "Crime & Justice",
+    author: "Curtis Nkansah Bentum",
+    date: "August 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Muslim man.jfif",
+    imageCaption: "Ghana Police Service",
+    excerpt: "The Ghana Police Service has arrested 63-year-old Sibamay Zakaria, who was captured in a viral video allegedly assaulting a pastor who was already in police custody.",
+    tags: ["Sibamay Zakaria", "assaulted pastor", "Ghana"],
+    body: [
+      "<b>The Ghana Police Service has arrested 63-year-old Sibamay Zakaria, who was captured in a viral video allegedly assaulting a pastor who was already in police custody.\n\nThe video, which circulated widely on social media, sparked public concern and condemnation over the treatment of suspects in custody.</b>",
+      "According to reports, the pastor had been apprehended over an alleged comment concerning Prophet Mohammed when Zakaria was captured physically assaulting him.\n\nFollowing the widespread circulation of the video, the police launched efforts to identify and apprehend the man involved.\n\nHis arrest is expected to assist investigators in establishing the circumstances surrounding the incident and determining whether other individuals should face action.",
+      "The incident has also triggered broader concerns about the protection of suspects and the responsibility of both police officers and civilians to uphold the law.\n\nThe Interior Ministry has directed the Inspector-General of Police to investigate the incident and deal with officers and civilians found to have been involved in wrongdoing.",
+      "The development has renewed calls for suspects to be treated humanely and for allegations of wrongdoing to be handled through lawful procedures rather than physical assault."
+    ]
+  },
+    {
+    slug: "ghanaian-cedi-gains-ground-against-us-dollar",
+    title: "Ghanaian Cedi Gains Ground Against US Dollar",
+    category: "Business",
+    author: "Curtis Nkansah Bentum",
+    date: "August 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/money.jfif",
+    imageCaption: "Web",
+    excerpt: "The Ghanaian cedi recorded further gains against the United States dollar on Thursday, August 13, 2026, strengthening on both the forex and interbank markets.",
+    tags: ["Ghanaian cedi", "United States dollar", "Ghana"],
+    body: [
+      "<b>The Ghanaian cedi recorded further gains against the United States dollar on Thursday, August 13, 2026, strengthening on both the forex and interbank markets.\n\nReports indicate that the dollar was selling at about GH¢12.30 on the forex market, while the Bank of Ghana interbank rate stood at approximately GH¢11.36.</b>",
+      "The latest movement represents an improvement compared with the previous day's rates and adds to the recent strengthening trend of the local currency.\n\nThe performance of the cedi is being closely watched by businesses, importers, consumers and investors because movements in the exchange rate have a direct impact on the prices of imported goods and services.\n\nA stronger cedi can help reduce the local-currency cost of imports and ease some pressure on businesses that rely heavily on imported inputs.",
+      "However, exchange rates can fluctuate rapidly depending on foreign exchange supply, market demand and developments in Ghana's economy.\n\nThe latest appreciation will therefore be welcomed by businesses and consumers, although sustained stability will be important if the gains are to translate into broader economic benefits."
+    ]
+  },
+    {
+    slug: "cocoa-farmers-challenge-new-land-use-rules-under-cocoa-board-bill",
+    title: "Cocoa Farmers Challenge New Land-Use Rules Under Cocoa Board Bill",
+    category: "Business",
+    author: "Info Desk",
+    date: "August 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/coc1.jfif",
+    imageCaption: "Web",
+    excerpt: "Ghanaian cocoa farmers are raising concerns over provisions in the newly passed Ghana Cocoa Board Bill, 2026, particularly restrictions governing how cocoa farmland can be used.",
+    tags: ["cocoa farmers", "Ghna", "Ghana Cocoa Board Bill"],
+    body: [
+      "<b>Ghanaian cocoa farmers are raising concerns over provisions in the newly passed Ghana Cocoa Board Bill, 2026, particularly restrictions governing how cocoa farmland can be used.\n\nThe farmers argue that some provisions of the legislation could significantly affect their rights to determine how their land is used.</b>",
+      "One of the contentious provisions restricts the conversion of cocoa farms for other purposes without approval from the Ghana Cocoa Board (COCOBOD).\n\nFarmers and their representatives have therefore called for further consultations and a review of the provisions before the legislation receives presidential assent.\n\nThe debate has also attracted political attention, with critics arguing that certain clauses could infringe on farmers' property rights.",
+      "Supporters of the legislation, however, see the restrictions as part of efforts to protect Ghana's cocoa-growing areas and prevent the unnecessary destruction or conversion of productive cocoa farms.\n\nThe controversy comes at a critical time for Ghana's cocoa industry, which remains an important contributor to the country's economy and provides livelihoods for millions of people.",
+      "The farmers are calling on the government to engage stakeholders and address their concerns before the bill becomes law.\n\nThe outcome of the debate could have significant implications for land ownership, cocoa production and the future management of Ghana's cocoa sector."
+    ]
+  },
+    {
+    slug: "ghana-rejects-claims-of-18-million-debt-to-south-africa-over-evacuation",
+    title: "Ghana Rejects Claims of $18 Million Debt to South Africa Over Evacuation",
+    category: "National",
+    author: "Info Desk",
+    date: "August 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/MOFA.jfif",
+    imageCaption: "Ministry of Foreign Affairs",
+    excerpt: "The Government of Ghana has rejected reports that it owes South Africa approximately $18 million for the evacuation of Ghanaian nationals from the country following recent xenophobic attacks.",
+    tags: ["xenophobic attacks", "Ghana"],
+    body: [
+      "<b>The Government of Ghana has rejected reports that it owes South Africa approximately $18 million for the evacuation of Ghanaian nationals from the country following recent xenophobic attacks.\n\nThe Ministry of Foreign Affairs, in a statement issued on Thursday, August 13, 2026, said Ghana did not request financial or material assistance from the South African government to evacuate its citizens.</b>",
+      "According to the Ministry, Ghana fully funded the evacuation and reintegration of more than 1,600 Ghanaians affected by the situation in South Africa.\n\nThe clarification follows reports that South Africa was seeking reimbursement from several African countries for expenses associated with the evacuation of their nationals.\n\nGhana has, however, maintained that it does not fall among the countries expected to reimburse South Africa because it financed its own evacuation arrangements.",
+      "The government said it remains committed to protecting the welfare and safety of Ghanaians abroad and will continue to work with relevant authorities whenever the safety of its citizens is threatened.\n\nThe development has attracted considerable attention as Ghana and South Africa continue to navigate concerns surrounding the treatment and safety of foreign nationals in South Africa.",
+      "The Ministry has therefore sought to set the record straight and dispel reports suggesting that Ghana incurred an $18 million evacuation debt to South Africa."
+    ]
+  },
+    {
+    slug: "ofankor-crash-death-toll-rises-as-12-die-in-multiple-vehicle-collision",
+    title: "Ofankor Crash: Death Toll Rises as 12 Die in Multiple-Vehicle Collision",
+    category: "Accident",
+    author: "Info Desk",
+    date: "August 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/kO accident.jfif",
+    imageCaption: "Accident Scene | Web",
+    excerpt: "The death toll from a devastating multiple-vehicle crash at the Ofankor Barrier on the Accra–Nsawam Highway has risen to 12, with 22 others sustaining injuries.",
+    tags: ["Ofankor Barrier", "multiple-vehicle crash"],
+    body: [
+      "<b>The death toll from a devastating multiple-vehicle crash at the Ofankor Barrier on the Accra–Nsawam Highway has risen to 12, with 22 others sustaining injuries.\n\nThe accident occurred in the early hours of Thursday, August 13, 2026, between the Ofankor Barrier and the John Teye area.\n\nThe crash involved several vehicles and caused significant disruption to traffic on the busy highway. Emergency responders were deployed to the scene to rescue victims and manage the aftermath.</b>",
+      "The National Road Safety Authority has confirmed the updated casualty figures as investigations continue into the circumstances surrounding the crash.\n\nThe incident has once again raised concerns about road safety, particularly on major highways where heavy traffic, speeding and other risky driving practices can have devastating consequences.\n\nAuthorities are expected to investigate the cause of the collision and determine whether any road safety or traffic violations contributed to the tragedy.",
+      "Meanwhile, the public has been urged to exercise caution on the roads and avoid dangerous driving practices.\n\nThe crash has also prompted calls for the media and social media users to refrain from sharing graphic images and videos of victims, with former Information Minister Kojo Oppong Nkrumah urging responsible reporting out of respect for affected families."
+    ]
+  },
+    {
     slug: "oil-prices-rise-as-u-s-iran-peace-deal-doubts-and-ship-attacks-raise-supply-fear",
     title: "Oil Prices Rise as U.S.-Iran Peace Deal Doubts and Ship Attacks Raise Supply Fears",
     category: "Business",
