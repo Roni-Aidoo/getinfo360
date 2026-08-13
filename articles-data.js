@@ -8,6 +8,32 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "the-uprise-of-phone-based-cyber-fruad-in-ghana",
+    title: "THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA",
+    category: "Article",
+    author: "Jesse Mabery",
+    date: "August 13, 2026",
+    readTime: "3 min read",
+    image: "/Assets/phone.jfif",
+    imageCaption: "Web",
+    excerpt: "Phone-based cyber fraud remains a widespread issue in Ghana.\nSecurity Agencies such as the Cyber Security Authority (CSA) frequently issue warnings and has noticed patterns.",
+    tags: ["Ghana", "Cyber Security Authority (CSA)", "Criminal Investigations Department (CID)", "Cyber Scams", "Sextortion", "AI tools", "Ransom", "fabricated image"],
+    body: [
+      "Phone-based cyber fraud remains a widespread issue in Ghana.\nSecurity Agencies such as the Cyber Security Authority (CSA) frequently issue warnings and has noticed patterns.",
+      "First is the Unsolicited Video Call and Sextortion Scams. This is where scammers use social media video calls. When target receives this unexpected video call, they record the target's face and merges their face or edits them onto nude media using AI tools. When this is done, they then threaten to send these images or videos fabricated with their face to the media if a ransom is not paid immediately.",
+      "Secondly, Voice Impersonation. These are phone calls aiming to trick the target into giving up access to their personal funds through Fake agents. Fraudsters pretending to be calling from any of the Telecommunications (Telecel, MTN, or Bank Officials) who claim there is an issue with the target's account, SIM registration, or even an accidental money transfer.",
+      "Targets receive money where they are pressured or influenced to follow a prompt to return the money. The Target accepting the prompt triggers a withdrawal action and swoops up all their savings.",
+      "Aside these Fake Agents, there are also Emergency or Welfare Calls; where scammers call the target claiming to be a relative or a friend. Commonly using stories like they have been arrested and request money to be paid for bail or a relative has been involved in a serious accident and a huge sum of money has to be paid to defray the medical bills. All these have been classified as Voice Impersonations.",
+      "Operatives from the Cyber Security Authority (CSA) and the Criminal Investigations Department (CID) raided a residential enclave at Adom City Estate in Tema Community 25. Security forces arrested thirty-nine (39) suspects operating a structured cyber fraud syndicate out of a residential property, and dozens of phones, SIM boxes, and laptops were confiscated for forensic analysis.",
+      "The official advisory from the Cyber Security Authority (CSA) noted this raid was part of a broader national crackdown on organized cyber-enabled financial scams operating from residential hubs.",
+      "Also, the Tema Regional Police Command executed an operation targeting a syndicate compound in Mataheko-Afienya. The Police arrested 10 suspects. The operation revealed a ringleader who was trafficking young men into Ghana and forcing them to execute cyber scams and targeted fraud calls under control.",
+      "The Ghana Police Service raided target locations in Greater Accra suburbs including -(Teshie-Nungua, Bortianor-Ngleshie Amanfro, and Accra proper). The operation rescued dozens of individuals who had been lured to Ghana under false job offers and forced into phone, sextortion, and romance-related scam operations. The Police seized more than seventy laptops, hundreds of SIM cards, and specialized communication equipment used to target victims over call or messaging platforms.These Joint Intelligence operations were highlighted in official updates released by the Ghana Police Service and joint briefings held by the Criminal Investigations Department (CID) leadership and the Cyber Security Authority (CSA) in Accra.",
+      "The Protection practices given to the general public by the Cyber Security Authority (CSA) consists:\nFirstly, do not answer video calls from unknown numbers. If you do accidentally, you are to make sure you cover the front camera of your phone until you confirm who is calling.",
+      "Secondly, never share your Pin or OTPs, because no Telecom or Bank agent will ever call for your personal Pin or access to your personal funds. \nThirdly, do not approve unrequested prompts. Anyone who calls claiming they have accidentally sent money to your account, you are to tell them to contact the Telecom operator to officially reverse the action.",
+      "Lastly, the Cyber Security Authority (CSA) strongly advises the public to verify suspicious calls with their Telecom customer care lines, the toll-free helpline (292) or Official Bank line before making any money transfers. The Cyber Security Authority (CSA) has given its Hotline to call or send an SMS with 292 and a WhatsApp line with 0501603111 to the general public to report any Cyber fraud activity."
+    ]
+  },
  
   {
     slug: "the-abuse-of-the-right-to-freedom-of-speech",
