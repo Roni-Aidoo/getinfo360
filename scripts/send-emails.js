@@ -64,91 +64,7 @@ async function main() {
     <tr>
       <td>
         
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/mus.jfif" alt="Religious Leaders Urged to Avoid Statements That Could Fuel Tension" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Religious Leaders Urged to Avoid Statements That Could Fuel Tension</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Zango Institute for Development has called for calm and restraint following recent statements and incidents that it says could heighten religious tension b…</p>
-        <a href="https://getinfoonline.com/news/religious-leaders-urged-to-avoid-statements-that-could-fuel-tension.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Muslim man.jfif" alt="Police Arrest Man Captured Assaulting Suspect in Viral Video" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Police Arrest Man Captured Assaulting Suspect in Viral Video</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service has arrested 63-year-old Sibamay Zakaria, who was captured in a viral video allegedly assaulting a pastor who was already in police cu…</p>
-        <a href="https://getinfoonline.com/news/police-arrest-man-captured-assaulting-suspect-in-viral-video.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/money.jfif" alt="Ghanaian Cedi Gains Ground Against US Dollar" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghanaian Cedi Gains Ground Against US Dollar</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi recorded further gains against the United States dollar on Thursday, August 13, 2026, strengthening on both the forex and interbank markets.</p>
-        <a href="https://getinfoonline.com/news/ghanaian-cedi-gains-ground-against-us-dollar.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/coc1.jfif" alt="Cocoa Farmers Challenge New Land-Use Rules Under Cocoa Board Bill" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Cocoa Farmers Challenge New Land-Use Rules Under Cocoa Board Bill</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghanaian cocoa farmers are raising concerns over provisions in the newly passed Ghana Cocoa Board Bill, 2026, particularly restrictions governing how cocoa far…</p>
-        <a href="https://getinfoonline.com/news/cocoa-farmers-challenge-new-land-use-rules-under-cocoa-board-bill.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/MOFA.jfif" alt="Ghana Rejects Claims of $18 Million Debt to South Africa Over Evacuation" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Rejects Claims of $18 Million Debt to South Africa Over Evacuation</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Government of Ghana has rejected reports that it owes South Africa approximately $18 million for the evacuation of Ghanaian nationals from the country foll…</p>
-        <a href="https://getinfoonline.com/news/ghana-rejects-claims-of-18-million-debt-to-south-africa-over-evacuation.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+  
       </td>
     </tr>
                 <tr><td>
@@ -177,55 +93,21 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/phone.jfif" alt="THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/omi.jpeg" alt="A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Phone-based cyber fraud remains a widespread issue in Ghana.
-Security Agencies such as the Cyber Security Authority (CSA) frequently issue warnings and has not…</p>
-        <a href="https://getinfoonline.com/articles/the-uprise-of-phone-based-cyber-fruad-in-ghana.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">As the month of August brings its usual atmosphere of celebration and reflection, music and worship lovers are once again set to experience Worship Contagious,…</p>
+        <a href="https://getinfoonline.com/articles/a-decade-of-contagious-worship-about-omi-and-the-seraphim-music.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/fs.png" alt="THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Freedom of Speech is a fundamental human right allowing individuals to articulate their opinions, beliefs, and thoughts without fear of government retaliation.</p>
-        <a href="https://getinfoonline.com/articles/the-abuse-of-the-right-to-freedom-of-speech.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/twins.jfif" alt="Too Shocking: Twins with Different Date of Birth Explained" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Too Shocking: Twins with Different Date of Birth Explained</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The idea of twins having different dates of birth may sound strange at first. After all, twins are babies who develop in the same pregnancy and are delivered d…</p>
-        <a href="https://getinfoonline.com/articles/too-shocking-twins-with-different-date-of-birth-explained.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+  
       </td>
     </tr>
 

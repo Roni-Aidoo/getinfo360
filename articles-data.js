@@ -8,6 +8,26 @@
    ============================================================ */
 
 const ARTICLES = [
+    {
+    slug: "a-decade-of-contagious-worship-about-omi-and-the-seraphim-music",
+    title: "A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry",
+    category: "Entertainment",
+    author: "Rankof",
+    date: "August 14, 2026",
+    readTime: "1 min read",
+    image: "/Assets/omi.jpeg",
+    imageCaption: "Rev. Ofosu Manu Isaac (Omi)",
+    excerpt: "As the month of August brings its usual atmosphere of celebration and reflection, music and worship lovers are once again set to experience Worship Contagious, an annual music programme",
+    tags: ["Pastor Omi", "Seraphim Music Ministry", "Worship Contagious"],
+    body: [
+      "As the month of August brings its usual atmosphere of celebration and reflection, music and worship lovers are once again set to experience Worship Contagious, an annual music programme that seeks to bring people together through the power of music, praise and worship.",
+      "Omi and the Seraphim Music Ministry is a non-denominational music group established in 2012 by Reverend Ofosu Manu Isaac (OMI JASON) alongside students he taught at Saint Leo. Omi Jason (also known as Pastor Omi) is a Ghanaian gospel recording artist and songwriter from Kumasi, known for inspirational tracks like \"Omi Obi\" and \"Baba Nagoode\". The ministry originally began with a group of female students.",
+      "Over time, the ministry created an annual flagship program named Worship Contagious, which officially launched in 2017 and continues to run to this day. Through Worship Contagious, many have experienced miracles, spiritual breakthroughs, and healing in an atmosphere focused on inviting the Spirit of God into human affairs.",
+      "As an inclusive, non-denominational ministry, the team comprises singers, instrumentalists, media personnel, auditorium decorators, and event organizers. Beyond hosting their own programs, the group regularly ministers at churches, schools, and community gatherings of any size.",
+      "In addition to music and word ministry, the group incorporates health education and awareness into its outreach.",
+      "this year’s edition promises to be a memorable gathering filled with inspiring music, heartfelt worship and spiritual fellowship. The programme is scheduled for Sunday, August 16, 2026, at 4:00 p.m. at Joy Baptist Church, Santasi Fankyenebra.\nWorshippers, music enthusiasts and the general public are warmly invited to be part of this special occasion and experience an atmosphere where worship becomes truly contagious."
+    ]
+  },
   {
     slug: "the-uprise-of-phone-based-cyber-fruad-in-ghana",
     title: "THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA",
