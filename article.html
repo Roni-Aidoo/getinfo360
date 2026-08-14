@@ -181,8 +181,8 @@ main{ padding-top:26px; padding-bottom:60px; }
   padding:6px 14px; border-radius:999px;
 }
 .article-header h1{ font-family:var(--font-display); font-size:clamp(1.6rem,4vw,2.3rem); font-weight:700; line-height:1.2; letter-spacing:-0.01em; margin:14px 0 16px; }
-.article-meta{ display:flex; flex-wrap:wrap; gap:18px; color:var(--ink-soft); font-size:0.88rem; font-family:var(--font-mono); padding-bottom:20px; border-bottom:1px solid var(--line); }
-.article-meta span{ display:flex; align-items:center; gap:6px; }
+.article-meta{ display:flex; flex-wrap:wrap; gap:5px; color:var(--ink-soft); font-size:0.80rem; font-family:var(--font-mono); padding-bottom:20px; border-bottom:1px solid var(--line); }
+.article-meta span{ display:flex; align-items:center; gap:3px; }
 .article-meta i{ color:var(--ember); }
 .article-meta .author{ color:var(--ink); font-weight:700; font-family:var(--font-body); }
 
@@ -340,10 +340,10 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
         <li class="dropdown">
           <a href="javascript:void(0)" class="top-link" onclick="toggleDropdown(event,'about-dropdown')">Articles <i class="fas fa-chevron-down"></i></a>
           <ul class="dropdown-menu" id="about-dropdown">
-            <li><a href="360.html">360 Echoes</a></li>
+            <li><a href="360.html">Opinions</a></li>
           </ul>
         </li>
-        <li><a href="Treanding.html" class="top-link">Trending Issues</a></li>
+        <li><a href="Treanding.html" class="top-link">Trending News</a></li>
         <li><a href="Stories.html" class="top-link">Stories</a></li>
       </ul>
     </nav>
@@ -362,9 +362,9 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
   <div class="container">
     <div class="chip-rail">
       <a class="chip" href="index.html">Home</a>
-      <a class="chip" href="360.html">360 Echoes</a>
+      <a class="chip" href="360.html">Opinions</a>
       <a class="chip" href="ano.html">Junior Insight</a>
-      <a class="chip" href="Treanding.html">Trending Issues</a>
+      <a class="chip" href="Treanding.html">Trending News</a>
       <a class="chip" href="arts.html">Art Speaks</a>
     </div>
   </div>
@@ -375,9 +375,9 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
   <div class="breadcrumb reveal">
     <a href="index.html"><i class="fas fa-house"></i> Home</a>
     <i class="fas fa-chevron-right"></i>
-    <a href="360.html">Articles</a>
+    <a href="360.html">Opinions</a>
     <i class="fas fa-chevron-right"></i>
-    <span id="crumb-category">Article</span>
+    <span id="crumb-category">Opinion</span>
   </div>
 
   <!-- Populated version -->
@@ -388,9 +388,9 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
         <h1 id="art-title">Loading…</h1>
         <div class="article-meta">
           <span class="author">By: <span id="art-author">—</span></span>
-          <span><i class="far fa-calendar-alt"></i> <span id="art-date">—</span></span>
-          <span><i class="far fa-clock"></i> <span id="art-readtime">—</span></span>
-          <span><i class="fas fa-tag"></i> <span id="art-category-2">—</span></span>
+          <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
+          <span>|<span id="art-readtime">—</span></span>
+          
         </div>
         
       </div>
@@ -529,7 +529,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <li><a href="Treanding.html"><i class="fas fa-fire"></i> Trending</a></li>
     <li><a href="Stories.html"><i class="fas fa-book"></i> Stories</a></li>
     <li><a href="index.html"><span class="fab-circle"><i class="fas fa-house"></i></span></a></li>
-    <li><a href="360.html" class="active"><i class="fas fa-newspaper"></i> Articles</a></li>
+    <li><a href="360.html" class="active"><i class="fas fa-newspaper"></i> Opinions</a></li>
     <li><a href="Signin.html"><i class="fa-solid fa-envelope"></i> Subscribe</a></li>
   </ul>
 </nav>
@@ -617,7 +617,7 @@ const slug = getSlugFromURL();
 
   document.getElementById('crumb-category').textContent = article.category;
   document.getElementById('art-category').textContent = article.category;
-  document.getElementById('art-category-2').textContent = article.category;
+  
   document.getElementById('art-title').textContent = article.title;
   
   document.getElementById('art-date').textContent = article.date;

@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <meta name="description" content="Stay updated with the latest happenings through Written Articles from experts @ getinfo online">
-<meta name="keywords" content="Trending issues, Articles, Researchs, Others">
+<meta name="keywords" content="Trending News, Articles, Researchs, Others">
 <meta name="author" content="Getinfo Online">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.getinfoonline.com">
@@ -222,7 +222,7 @@ main{ padding-top:26px; padding-bottom:60px; }
   text-transform:uppercase; color:var(--ember); font-weight:600; margin-bottom:6px; display:block;
 }
 .section-head h2{
-  font-family:var(--font-display); font-size:1.6rem; font-weight:700; letter-spacing:-0.01em;
+  font-family:var(--font-display); font-size:1.4rem; font-weight:700; letter-spacing:-0.01em;
 }
 .see-all{
   font-size:0.85rem; font-weight:600; color:var(--brand);
@@ -344,6 +344,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 #trend-rows{
   display:grid; grid-template-columns:repeat(2,1fr); gap:16px;
 }
+
 .trend-row{
   display:flex; flex-direction:column; gap:10px;
 }
@@ -352,6 +353,21 @@ main{ padding-top:26px; padding-bottom:60px; }
 .trend-info h4{ font-size:0.92rem; font-weight:700; line-height:1.35; }
 .trend-info .trend-date{ font-size:0.72rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
 .trend-empty{ grid-column:1/-1; padding:20px 4px; color:var(--ink-soft); font-size:0.9rem; }
+
+.trending-panel1{
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:24px; box-shadow:var(--shadow); margin-bottom:44px;
+}
+.trend-row1{
+  display:flex; align-items:center; gap:16px; padding:14px 0;
+  border-bottom:1px solid var(--line);
+}
+.trend-row1:last-child{ border-bottom:none; padding-bottom:0; }
+.trend-row1:first-child{ padding-top:0; }
+.trend-thumb1{ width:64px; height:64px; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
+.trend-thumb1 img{ width:100%; height:100%; object-fit:cover; }
+.trend-info1 h4{ font-size:0.95rem; font-weight:600; line-height:1.35; }
+.trend-info1 .trend1-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
 
 /* ---------- QUOTE RAIL ---------- */
 .rail-section{ margin-bottom:44px; }
@@ -555,7 +571,7 @@ footer.footer{
             <li><a href="360.html">All Articles</a></li>
           </ul>
         </li>
-        <li><a href="Treanding.html" class="top-link">Trending Issues</a></li>
+        <li><a href="Treanding.html" class="top-link">Trending News</a></li>
         
       </ul>
     </nav>
@@ -602,10 +618,10 @@ footer.footer{
   <div class="container">
     <div class="chip-rail">
       <a class="chip active" href="index.html">Home</a>
-      <a class="chip" href="360.html">Articles</a>
+      <a class="chip" href="360.html">Opinions<a>
       
       <!--a class="chip" href="ano.html">Junior Insight</a-->
-      <a class="chip" href="Treanding.html">Trending Issues</a>
+      <a class="chip" href="Treanding.html">Trending News</a>
       <a class="chip" href="Stories.html">Stories</a>
       <a class="chip" href="arts.html">Art Speaks</a>
     </div>
@@ -630,7 +646,7 @@ footer.footer{
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Fresh off the desk</span>
-        <h2>Latest Articles</h2>
+        <h2>Latest News & Opinions</h2>
       </div>
       <a href="360.html" class="see-all">See all <i class="fas fa-arrow-right"></i></a>
     </div>
@@ -669,8 +685,21 @@ footer.footer{
     <div class="hscroll reveal" id="art-rail"></div>
     </div>
   </section>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+         style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
+    <tr>
+      <td style="padding:20px;text-align:center;">
+        <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
+        <a href="mailto:getinfo360online@gmail.com" style="text-decoration:none;">
+          <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
+          <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
+        </a>
+      </td>
+    </tr>
+  </table>
   </div>
   </div>
+  
   <!-- Sidebar -->
 
   
@@ -682,13 +711,13 @@ footer.footer{
     <div class="section-head reveal">
       <div>
         <br><br>
-        <span class="eyebrow">Ranked by reader interest</span>
-        <h2>Trending Now</h2>
+        
+        <h2>Trending News</h2>
       </div>
       <a href="Treanding.html" class="see-all">More <i class="fas fa-arrow-right"></i></a>
     </div>
 
-    <div class="trending-panel reveal">
+    <div class="trending-panel1">
       <div id="trend-rows"></div>
     </div>
   </section>
@@ -704,6 +733,18 @@ footer.footer{
       </td>
     </tr>
   </table>
+   <div class="section-head reveal">
+      <div>
+        <br><br>
+        
+        <h2>OPINIONS</h2>
+      </div>
+      <a href="360.html" class="see-all">More <i class="fas fa-arrow-right"></i></a>
+    </div>
+   <div class="trending-panel1 reveal">
+      <div id="trend-rowso"></div>
+    </div>
+
     </aside>
 
   <!-- ================= NEWSLETTER ================= -->
@@ -738,12 +779,12 @@ footer.footer{
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Treanding.html">Trending</a></li>
-        <li><a href="360.html">Articles</a></li>
+        <li><a href="360.html">Opinions</a></li>
         <li><a href="#">Research</a></li>
       </ul>
     </div>
     <div class="footer-col">
-      <h4>Articles</h4>
+      <h4>Opinions</h4>
       <ul>
         <li><a href="360.html">360 Echoes</a></li>
       </ul>
@@ -771,7 +812,7 @@ footer.footer{
     <li><a href="Stories.html"  onclick="setTab(this)"><i class="fas fa-book"></i> Stories</a></li>
     
     <li><a href="index.html"><span class="fab-circle"><i class="fas fa-house"></i></span></a></li>
-    <li><a href="360.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i> Articles</a></li>
+    <li><a href="360.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i>Opinions</a></li>
     <li><a href="Signin.html" onclick="setTab(this)"><i class="fa-solid fa-envelope"></i>Subscribe</a></li>
   </ul>
 </nav>
@@ -782,12 +823,12 @@ footer.footer{
   <div class="drawer-close"><button class="icon-btn" onclick="toggleDrawer()"><i class="fas fa-xmark"></i></button></div>
   <ul>
     <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brand)"></i>Home</span></a></li>
-    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brand)"></i>Articles</span><i class="fas fa-chevron-down"></i></a>
+    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brand)"></i>Opinions</span><i class="fas fa-chevron-down"></i></a>
       <ul class="drawer-sub" id="drawer-sub" style="display:none;">
         <li><a href="360.html">All Articles</a></li>
       </ul>
     </li>
-    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brand)"></i>Trending Issues</span></a></li>
+    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brand)"></i>Trending News</span></a></li>
     <li><a href="Signin.html"><span><i class="fa-solid fa-envelope" style="margin-right:10px;color:var(--brand)"></i>Subscribe</span></a></li>
   </ul>
   <div class="drawer-social">
@@ -961,7 +1002,7 @@ function buildCard(href, image, alt, category, title, date){
       <div class="card-body">
         <span class="card-cat">${escapeHtml(category)}</span>
         <h3 class="card-title">${escapeHtml(title)}</h3>
-        <div class="card-foot"><i class="far fa-calendar-alt"></i> ${escapeHtml(date)}</div>
+        
       </div>
     </a>
   `;
@@ -977,7 +1018,7 @@ function renderFeedGrid(){
     ARTICLES.slice(1, 3).forEach(a => {
       cards.push(buildCard(
         `articles/${encodeURIComponent(a.slug)}.html`,
-        a.image, a.title, a.category, a.title, a.date
+        a.image, a.title, a.category, a.title
       ));
     });
   }
@@ -986,7 +1027,7 @@ function renderFeedGrid(){
     TRENDING.slice(1, 2).forEach(t => {
       cards.push(buildCard(
         `/news/${encodeURIComponent(t.slug)}.html`,
-        t.image, t.title, t.category, t.title, t.date
+        t.image, t.title, t.category, t.title
       ));
     });
   }
@@ -995,7 +1036,7 @@ function renderFeedGrid(){
     STORIES.slice(1, 2).forEach(s => {
       cards.push(buildCard(
         `Stories.html`,
-        s.image, s.title, s.category, s.title, s.date
+        s.image, s.title, s.category, s.title
       ));
     });
   }
@@ -1010,7 +1051,7 @@ function renderTrendingPanel(){
   const wrap = document.getElementById('trend-rows');
   if(!wrap || typeof TRENDING === 'undefined') return;
 
-  const items = TRENDING.slice(2, 6);
+  const items = TRENDING.slice(2, 10);
 
   if(items.length === 0){
     wrap.innerHTML = `<div class="trend-empty">No trending stories yet.</div>`;
@@ -1023,6 +1064,28 @@ function renderTrendingPanel(){
       <div class="trend-info">
         <h4 class="name">${escapeHtml(item.title)}</h4>
         <div class="trend-date">${escapeHtml(item.date)}</div>
+      </div>
+    </a>
+  `).join('');
+}
+
+function renderArticlePanel(){
+  const wrapo = document.getElementById('trend-rowso');
+  if(!wrapo || typeof ARTICLES === 'undefined') return;
+
+  const items = ARTICLES.slice(3, 9);
+
+  if(items.length === 0){
+    wrapo.innerHTML = `<div class="trend-empty">No trending stories yet.</div>`;
+    return;
+  }
+
+  wrapo.innerHTML = items.map((item, i) => `
+    <a class="trend-row1" href="/articles/${encodeURIComponent(item.slug)}.html">
+      <div class="trend-thumb1"><img src="${item.image}" alt="${escapeHtml(item.title)}"></div>
+      <div class="trend-info1">
+        <h4 class="name">${escapeHtml(item.title)}</h4>
+        <div class="trend1-date">${escapeHtml(item.author)}</div>
       </div>
     </a>
   `).join('');
@@ -1076,6 +1139,7 @@ renderTicker();
 renderHeroSlideshow();
 renderFeedGrid();
 renderTrendingPanel();
+renderArticlePanel();
 renderQuoteRail();
 renderArtRail();
 

@@ -129,8 +129,8 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <nav class="desktop-nav">
       <ul>
         <li><a href="index.html" class="top-link"><i class="fas fa-house"></i> Home</a></li>
-        <li><a href="360.html" class="top-link">Articles</a></li>
-        <li><a href="Treanding.html" class="top-link">Trending Issues</a></li>
+        <li><a href="360.html" class="top-link">Opinions</a></li>
+        <li><a href="Treanding.html" class="top-link">Trending News</a></li>
         <li><a href="team.html" class="top-link">Our Team</a></li>
       </ul>
     </nav>
@@ -299,8 +299,8 @@ function renderProfile(){
         <p style="margin-top:8px;">Once an article, trend piece or story credits "${escapeHtml(member.name)}" as the author, it'll show up here automatically.</p>
       </div>
     ` : `
-      ${workSection('Articles', 'fas fa-newspaper', articleCards)}
-      ${workSection('Trending Issues', 'fas fa-fire', trendCards)}
+      ${workSection('Opinions', 'fas fa-newspaper', articleCards)}
+      ${workSection('Trending News', 'fas fa-fire', trendCards)}
       ${workSection('Stories', 'fas fa-book', storyCards)}
     `}
   `;
