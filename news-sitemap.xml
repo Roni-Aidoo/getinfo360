@@ -2,69 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://getinfoonline.com/news/religious-leaders-urged-to-avoid-statements-that-could-fuel-tension.html</loc>
+    <loc>https://getinfoonline.com/news/npp-regional-elections-party-begins-new-chapter-ahead-of-2028.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Religious Leaders Urged to Avoid Statements That Could Fuel Tension</news:title>
+      <news:publication_date>2026-08-15T00:00:00.000Z</news:publication_date>
+      <news:title>NPP Regional Elections: Party Begins New Chapter Ahead of 2028</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://getinfoonline.com/news/police-arrest-man-captured-assaulting-suspect-in-viral-video.html</loc>
+    <loc>https://getinfoonline.com/news/massive-crowds-long-queues-as-kfc-s-gh-15-promo-takes-ghana-by-storm.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Police Arrest Man Captured Assaulting Suspect in Viral Video</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/ghanaian-cedi-gains-ground-against-us-dollar.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Ghanaian Cedi Gains Ground Against US Dollar</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/cocoa-farmers-challenge-new-land-use-rules-under-cocoa-board-bill.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Cocoa Farmers Challenge New Land-Use Rules Under Cocoa Board Bill</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/ghana-rejects-claims-of-18-million-debt-to-south-africa-over-evacuation.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Ghana Rejects Claims of $18 Million Debt to South Africa Over Evacuation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/ofankor-crash-death-toll-rises-as-12-die-in-multiple-vehicle-collision.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Ofankor Crash: Death Toll Rises as 12 Die in Multiple-Vehicle Collision</news:title>
+      <news:publication_date>2026-08-15T00:00:00.000Z</news:publication_date>
+      <news:title>Massive Crowds, Long Queues as KFC’s GH¢15 Promo Takes Ghana by Storm</news:title>
     </news:news>
   </url>
   <url>
@@ -76,17 +32,6 @@
       </news:publication>
       <news:publication_date>2026-08-14T00:00:00.000Z</news:publication_date>
       <news:title>A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/the-uprise-of-phone-based-cyber-fruad-in-ghana.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA</news:title>
     </news:news>
   </url>
 </urlset>

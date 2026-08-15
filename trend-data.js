@@ -9,6 +9,63 @@
 
 const TRENDING = [
     {
+    slug: "npp-regional-elections-party-begins-new-chapter-ahead-of-2028",
+    title: "NPP Regional Elections: Party Begins New Chapter Ahead of 2028",
+    category: "Politics",
+    author: "Info Desk",
+    date: "August 15, 2026",
+    readTime: "2 min read",
+    image: "/Assets/NPPF.jfif",
+    imageCaption: "NPP's Flag",
+    excerpt: "The New Patriotic Party (NPP) has held its regional executive elections across Ghana as part of efforts to reorganise its structures, strengthen grassroots mobilisation and prepare for the 2028 general elections. The elections took place on Saturday, August 15, 2026, with delegates voting for executives who will oversee the party’s activities at the regional level.",
+    tags: ["The New Patriotic Party (NPP)", "regional executive elections"],
+    body: [
+      "The New Patriotic Party (NPP) has held its regional executive elections across Ghana as part of efforts to reorganise its structures, strengthen grassroots mobilisation and prepare for the 2028 general elections. The elections took place on Saturday, August 15, 2026, with delegates voting for executives who will oversee the party’s activities at the regional level.",
+      "The exercise forms part of a broader internal reorganisation following the NPP’s performance in the 2024 general elections. The new regional executives are expected to play a key role in rebuilding the party’s support base, improving coordination among constituency structures and mobilising members ahead of the next national elections.\n\nDelegates voted for several positions, including Regional Chairman, First and Second Vice Chairpersons, Secretary, Treasurer, Organiser, Women’s Organiser, Youth Organiser, Communications Officer and Nasara Organiser.",
+      "The elections were largely peaceful, with sorting and counting beginning after polls closed at 2:00 p.m. in several regions. Party officials and election committees were tasked with ensuring that the process followed the party’s approved guidelines and remained transparent and credible.",
+      "## Key Results",
+      "Several notable results have emerged from the regional contests.",
+      "In the Ashanti Region, Odeneho Kwaku Appiah was elected Regional Chairman, defeating former Minister Henry Kwabena Kokofu. He succeeds Bernard Antwi Boasiako, popularly known as Chairman Wontumi.",
+      "In Greater Accra, former Health Minister Dr Bernard Okoe-Boye secured the Regional Chairmanship with 490 votes, defeating Alfred Boye, who obtained 172 votes. His election comes as the NPP seeks to rebuild its fortunes in a region where it suffered significant losses in the 2024 parliamentary elections.",
+      "In the Central Region, Joseph Kobinah Esibu emerged victorious in the chairmanship contest with 278 votes, defeating Percy Dennis, who polled 161 votes.",
+      "In the North East Region, incumbent chairman Fusheini Nurudeen retained his position after polling 92 votes against Sulley Sambian’s 64 votes.",
+      "In the Bono Region, Kwame Baffoe, popularly known as Abronye DC, also retained his position as Regional Chairman after winning the contest.",
+      "## A Test of Unity and Reorganisation",
+      "Beyond the individual victories and defeats, the regional elections represent an important test for the NPP's ability to unite its members after a difficult electoral period.\n\nThe new executives will be expected to work with constituency and polling-station structures to reconnect with voters, address internal divisions and strengthen the party's grassroots presence.",
+      "With the 2028 general elections approaching, the effectiveness of the newly elected regional leadership could have a significant impact on the NPP's efforts to regain parliamentary seats and improve its national electoral fortunes.",
+      "The final picture will become clearer as results from all regions are officially collated and announced. For now, the regional elections mark another major step in the NPP's ongoing internal reorganisation and its attempt to build a stronger political structure for the future"
+    ]
+  },
+    {
+    slug: "massive-crowds-long-queues-as-kfc-s-gh-15-promo-takes-ghana-by-storm",
+    title: "Massive Crowds, Long Queues as KFC’s GH¢15 Promo Takes Ghana by Storm",
+    category: "Business",
+    author: "Info Desk",
+    date: "August 15, 2026",
+    readTime: "2 min read",
+    image: "/Assets/KFC.jpeg",
+    imageCaption: "Wilavis Arts Studio",
+    excerpt: "What was expected to be a simple anniversary promotion turned into a major talking point across Ghana on Saturday, August 15, 2026, as thousands of customers reportedly flocked to KFC outlets to take advantage of a special GH¢15 meal deal.",
+    tags: ["KFC", "GH¢15 meal deal"],
+    body: [
+      "What was expected to be a simple anniversary promotion turned into a major talking point across Ghana on Saturday, August 15, 2026, as thousands of customers reportedly flocked to KFC outlets to take advantage of a special GH¢15 meal deal.",
+      "The promotion forms part of KFC Ghana’s celebration of its 15th anniversary in the country, with the fast-food chain offering a meal consisting of one piece of chicken, tenders and small chips for just GH¢15. The attractive price drew unusually large crowds to branches across the country.",
+      "## Long queues and overcrowding",
+      "From the early hours of Saturday, customers began arriving at various KFC branches, with some reportedly joining queues as early as 6:00 a.m. Videos and photographs circulating on social media showed long lines of customers waiting outside several outlets.\n\nBranches in areas including Kasoa, Alajo and KNUST reportedly experienced particularly heavy patronage, with the number of customers at some locations creating congestion and making crowd control difficult.",
+      "Security personnel were seen at some outlets attempting to control the crowds as customers pushed to gain access to the restaurants.",
+      "## Chaotic scenes at some branches",
+      "While many customers were simply eager to enjoy the discounted meal, some locations reportedly witnessed tense scenes.",
+      "Social media videos alleged that students at the KNUST branch struggled to gain entry, with reports of injuries emerging online. At another location, a video circulating online appeared to show damage to glass amid the rush. These reports have generated significant discussion on social media, although individual claims circulating online should be treated with caution until independently verified.",
+      "The situation has sparked humorous as well as critical reactions from Ghanaians online, with many joking about the lengths people were prepared to go to secure a GH¢15 KFC meal.",
+      "For many customers, the opportunity to purchase a KFC meal for GH¢15 was too attractive to ignore. The promotion therefore became more than an anniversary campaign—it became one of the most talked-about happenings on Ghanaian social media on Saturday.",
+      "## A successful promotion, but a lesson in crowd management",
+       "<div class=\"EV\"><img src=\"/Assets/KFC1.jpeg\" alt=\"letter1\" ></div><br><br><br>",
+      "From a marketing perspective, the massive turnout demonstrates the strength of KFC’s brand and the ability of an attractive price promotion to generate enormous public interest.",
+      "However, the scenes also highlight the importance of adequate crowd-management measures when businesses anticipate exceptionally high demand. Ensuring orderly queues, sufficient security, clear communication and the safety of customers and staff should remain a priority during promotions of this scale.",
+      "As videos of the queues and incidents continue to circulate online, KFC’s GH¢15 anniversary promotion has undoubtedly become one of the biggest commercial talking points in Ghana today—showing just how far Ghanaians were willing to go for a discounted meal."
+    ]
+  },
+    {
     slug: "religious-leaders-urged-to-avoid-statements-that-could-fuel-tension",
     title: "Religious Leaders Urged to Avoid Statements That Could Fuel Tension",
     category: "National",
