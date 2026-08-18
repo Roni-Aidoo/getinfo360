@@ -8,6 +8,68 @@
    ============================================================ */
 
 const TRENDING = [
+  {
+    slug: "libido-heist-new-movie-promises-drama-emotion-and-entertainment",
+    title: "Libido Heist: New Movie Promises Collision of Dark comedy, Psychological Suspense and Dangerous Intimacy",
+    category: "Feature",
+    author: "William Kojo Agbeti",
+    date: "August 18, 2026",
+    readTime: "2 min read",
+    image: "/Assets/WhatsApp Image 2026-08-17 at 21.57.46.jpeg",
+    imageCaption: "credit: William Kojo Agbeti",
+    excerpt: "That unsettling possibility sits at the heart of LIBIDO HEIST, a new film written by filmmaker William Kojo Agbeti and developed under Motion Revolution Films, in partnership with Cinema Culture Society of Ghana and Organized Khaoz.",
+    tags: ["LIBIDO HEIST", "William Kojo Agbeti", "Motion Revolution Films", "Cinema Culture Society of Ghana", "Organized Khaoz."],
+    body: [
+      "<h3>A Date, A Stranger, and a Night Best Left Unexplained</h3>",
+      "What if the person you have been waiting to meet finally appeared at your door, and within minutes, you began to wonder whether opening that door was a mistake?",
+      "That unsettling possibility sits at the heart of LIBIDO HEIST, a new film written by filmmaker William Kojo Agbeti and developed under Motion Revolution Films, in partnership with Cinema Culture Society of Ghana and Organized Khaoz.",
+      "Set during the formative years of the internet, the film enters the private world of Kofi, a reserved thirty-seven-year-old man whose desire for companionship leads him into the unfamiliar territory of online dating.",
+      "Kofi is not searching for adventure. He is not a ladies’ man, nor is he particularly interested in becoming one. Beneath his awkwardness is something painfully ordinary: he simply does not want to be alone",
+      "<h3> One night, a conversation begins.On the other side is a mysterious woman.</h3>",
+      "Their communication develops through the peculiar intimacy of the early internet, a time when people could spend hours speaking to someone they had never seen, constructing entire personalities from nothing more than words on a computer screen.",
+      "<h3>That is almost everything audiences should know.</h3>",
+      "Because LIBIDO HEIST is built around what happens when expectation finally encounters reality. The film does not announce the danger immediately. It allows it to sit quietly beneath the comedy, almost invisible, while an apparently ordinary encounter gradually acquires a different meaning.\nAnd that is where LIBIDO HEIST becomes difficult to describe without ruining the experience.",
+      "Written by William Kojo Agbeti, LIBIDO HEIST promises a collision of dark comedy, psychological suspense and dangerous intimacy; a story in which an ordinary man’s search for companionship becomes something far stranger than the romantic adventure he imagined.",
+      "It begins with loneliness. Then comes a message. Then a woman. Then a knock at the door.\nAfter that, it is probably safer to say nothing more.",
+      "> <b>LIBIDO HEIST</b>\nYou may think you know what the title means. Wait until you see the film."
+    ]
+  },  
+   {
+    slug: "trump-threatens-military-action-against-oman-as-iran-deal-deadline-expires",
+    title: "Trump Threatens Military Action Against Oman as Iran Deal Deadline Expires",
+    category: "International",
+    author: "Source CNN",
+    date: "August 18, 2026",
+    readTime: "2 min read",
+    image: "/Assets/trump1.jfif",
+    imageCaption: "President Donald Trump",
+    excerpt: "US President Donald Trump has threatened military action against Oman, a longstanding US ally, accusing the Gulf state of potentially interfering with Washington’s efforts to secure an agreement with Iran and reopen the strategically important Strait of Hormuz.",
+    tags: ["US President Donald Trump", "Oman", "Strait of Hormuz"],
+    body: [
+      "US President Donald Trump has threatened military action against Oman, a longstanding US ally, accusing the Gulf state of potentially interfering with Washington’s efforts to secure an agreement with Iran and reopen the strategically important Strait of Hormuz.\n\nTrump made the remarks as a 60-day memorandum of understanding between the United States and Iran expired without a broader agreement being reached. The memorandum was intended to provide time for negotiations aimed at easing the conflict and addressing the situation around the Strait of Hormuz.",
+      "n an interview with Fox News, Trump warned that the United States could bomb Oman if it “gets in the way” of American efforts. He also maintained that Iran must agree to terms that prevent it from obtaining nuclear weapons, while rejecting the idea of extending the current negotiating framework.\n\nThe threat has raised particular concern because Oman has traditionally played an important diplomatic role between Washington and Tehran. Omani officials are currently working with Iran on arrangements intended to facilitate the resumption of shipping through the Strait of Hormuz, one of the world's most important energy corridors.",
+      "The Strait of Hormuz is critical to the global economy, with a significant share of the world's oil shipments passing through the waterway. Continued disruption has already contributed to concerns about energy supplies and higher oil prices.\n\nIran, meanwhile, has indicated that it could adopt a more aggressive military posture if diplomatic efforts with the United States fail. Tehran and Muscat have been discussing a possible arrangement for maritime navigation, but details of the proposed agreement remain limited.\n\nTrump's comments have also triggered concern in Washington. Democratic lawmakers are preparing a War Powers resolution aimed at restricting the president's ability to launch military action against Oman, highlighting the potential constitutional and diplomatic consequences of the threat.",
+      "With the 60-day deadline now expired, uncertainty over the future of US-Iran diplomacy, the safety of international shipping and the wider security situation in the Gulf has intensified. Any military confrontation involving Oman could further destabilise the region and place additional pressure on global energy markets."
+    ]
+  },
+  {
+    slug: "former-cambridge-professor-jason-arday-found-dead-amid-plagiarism-controversy",
+    title: "Former Cambridge Professor Jason Arday Found Dead Amid Plagiarism Controversy",
+    category: "International",
+    author: "Info Desk",
+    date: "August 15, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Jason Arday.jfif",
+    imageCaption: "Jason Arday",
+    excerpt: "Former University of Cambridge professor Jason Arday has been found dead in London, just days after resigning from his position amid allegations of plagiarism and questions surrounding claims about his academic and professional achievements.",
+    tags: ["Jason Arday", "Former University of Cambridge professor", "plagiarism"],
+    body: [
+      "<b>Former University of Cambridge professor Jason Arday has been found dead in London, just days after resigning from his position amid allegations of plagiarism and questions surrounding claims about his academic and professional achievements.\n\nThe 41-year-old was found unresponsive at an address in Battersea, south London, on Friday afternoon. Emergency services attended the scene, where he was pronounced dead.</b>",
+      "The Metropolitan Police said the death is being treated as unexpected but is not believed to be suspicious. His next of kin have been informed and are being supported by officers, while a report will be prepared for the coroner.\n\nArday had become the youngest Black professor at Cambridge when he was appointed in 2023. He served as a professor of sociology of education before stepping down from the university last week following a series of reports concerning alleged plagiarism in his PhD thesis and other disputed claims.",
+      "In his resignation letter, Arday said the criticism and public scrutiny had gone far beyond normal academic disagreement and had taken a profound toll on him and those close to him.\n\nHis death comes as the controversy surrounding his academic career was still developing. Cambridge had been examining concerns raised about his work, while further questions had emerged about some of the achievements he had previously claimed.",
+      "Arday's story had attracted considerable attention because of his rise from a challenging educational background to one of Britain's most prestigious universities. His death has now brought a tragic and unexpected turn to the controversy.\n\nAuthorities have not disclosed the cause of death, and investigations are continuing.\n\nThis is a developing story and further details are expected as the investigation progresses."
+    ]
+  },
     {
     slug: "npp-regional-elections-party-begins-new-chapter-ahead-of-2028",
     title: "NPP Regional Elections: Party Begins New Chapter Ahead of 2028",

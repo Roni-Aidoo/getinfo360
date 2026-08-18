@@ -67,6 +67,57 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-17 at 21.57.46.jpeg" alt="Libido Heist: New Movie Promises Collision of Dark comedy, Psychological Suspense and Dangerous Intimacy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Libido Heist: New Movie Promises Collision of Dark comedy, Psychological Suspense and Dangerous Intimacy</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">That unsettling possibility sits at the heart of LIBIDO HEIST, a new film written by filmmaker William Kojo Agbeti and developed under Motion Revolution Films,…</p>
+        <a href="https://getinfoonline.com/news/libido-heist-new-movie-promises-drama-emotion-and-entertainment.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/trump1.jfif" alt="Trump Threatens Military Action Against Oman as Iran Deal Deadline Expires" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Trump Threatens Military Action Against Oman as Iran Deal Deadline Expires</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">US President Donald Trump has threatened military action against Oman, a longstanding US ally, accusing the Gulf state of potentially interfering with Washingt…</p>
+        <a href="https://getinfoonline.com/news/trump-threatens-military-action-against-oman-as-iran-deal-deadline-expires.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/Jason Arday.jfif" alt="Former Cambridge Professor Jason Arday Found Dead Amid Plagiarism Controversy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Former Cambridge Professor Jason Arday Found Dead Amid Plagiarism Controversy</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Former University of Cambridge professor Jason Arday has been found dead in London, just days after resigning from his position amid allegations of plagiarism…</p>
+        <a href="https://getinfoonline.com/news/former-cambridge-professor-jason-arday-found-dead-amid-plagiarism-controversy.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/NPPF.jfif" alt="NPP Regional Elections: Party Begins New Chapter Ahead of 2028" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -92,57 +143,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Massive Crowds, Long Queues as KFC’s GH¢15 Promo Takes Ghana by Storm</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">What was expected to be a simple anniversary promotion turned into a major talking point across Ghana on Saturday, August 15, 2026, as thousands of customers r…</p>
         <a href="https://getinfoonline.com/news/massive-crowds-long-queues-as-kfc-s-gh-15-promo-takes-ghana-by-storm.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/mus.jfif" alt="Religious Leaders Urged to Avoid Statements That Could Fuel Tension" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Religious Leaders Urged to Avoid Statements That Could Fuel Tension</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Zango Institute for Development has called for calm and restraint following recent statements and incidents that it says could heighten religious tension b…</p>
-        <a href="https://getinfoonline.com/news/religious-leaders-urged-to-avoid-statements-that-could-fuel-tension.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Muslim man.jfif" alt="Police Arrest Man Captured Assaulting Suspect in Viral Video" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Police Arrest Man Captured Assaulting Suspect in Viral Video</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service has arrested 63-year-old Sibamay Zakaria, who was captured in a viral video allegedly assaulting a pastor who was already in police cu…</p>
-        <a href="https://getinfoonline.com/news/police-arrest-man-captured-assaulting-suspect-in-viral-video.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/money.jfif" alt="Ghanaian Cedi Gains Ground Against US Dollar" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghanaian Cedi Gains Ground Against US Dollar</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi recorded further gains against the United States dollar on Thursday, August 13, 2026, strengthening on both the forex and interbank markets.</p>
-        <a href="https://getinfoonline.com/news/ghanaian-cedi-gains-ground-against-us-dollar.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -177,6 +177,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-17 at 21.52.13.jpeg" alt="WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Life presents us with many challenges. At different stages of our journey, we may find ourselves battling health related issues, dealing with career crises, na…</p>
+        <a href="https://getinfoonline.com/articles/when-life-hurts-learning-to-live-with-pain-pressure-and-purpose.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/omi.jpeg" alt="A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -203,23 +220,6 @@ async function main() {
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Phone-based cyber fraud remains a widespread issue in Ghana.
 Security Agencies such as the Cyber Security Authority (CSA) frequently issue warnings and has not…</p>
         <a href="https://getinfoonline.com/articles/the-uprise-of-phone-based-cyber-fruad-in-ghana.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/fs.png" alt="THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE ABUSE OF THE RIGHT TO FREEDOM OF SPEECH</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Freedom of Speech is a fundamental human right allowing individuals to articulate their opinions, beliefs, and thoughts without fear of government retaliation.</p>
-        <a href="https://getinfoonline.com/articles/the-abuse-of-the-right-to-freedom-of-speech.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

@@ -8,6 +8,35 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "when-life-hurts-learning-to-live-with-pain-pressure-and-purpose",
+    title: "WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE",
+    category: "Life",
+    author: "Rev. Dr. Patrick Owusu",
+    date: "August 17, 2026",
+    readTime: "4 min read",
+    image: "/Assets/WhatsApp Image 2026-08-17 at 21.52.13.jpeg",
+    imageCaption: "Pastor Patrick Owusu",
+    excerpt: "Life presents us with many challenges. At different stages of our journey, we may find ourselves battling health related issues, dealing with career crises, navigating family difficulties, confronting personal struggles, or simply trying to make sense of life when things do not go as planned.",
+    tags: ["Pastor Patrick Owusu", "Jason Arday", "Life"],
+    body: [
+      "<b>Life presents us with many challenges. At different stages of our journey, we may find ourselves battling health related issues, dealing with career crises, navigating family difficulties, confronting personal struggles, or simply trying to make sense of life when things do not go as planned.</b>",
+      "The truth is that MANY PEOPLE ARE GOING THROUGH DIFFICULT THINGS SILENTLY. Behind the smiles, achievements, titles and social media posts are people carrying burdens that others may never see. Sometimes, the greatest challenge is not even the problem itself, but finding the right person to talk to about it. In moments of crisis, trusted people can be difficult to find.",
+      "The recent death of JASON ARDAY, the former Professor of Sociology of Education at the University of Cambridge, reminds us of the need to take emotional and psychological struggles seriously. Arday became Cambridge's youngest Black professor at the age of 37, after overcoming remarkable challenges in his early life.",
+      "His death at 41, following a period of intense public scrutiny and controversy, has prompted important conversations about mental health, pressure, public judgement and the human cost of carrying difficult experiences. We must be careful, however, not to reduce his death to a single explanation or assume what he was experiencing internally.",
+      "No matter what you are going through, there are good people you can talk to. You may need a trusted friend, a family member, a pastor, a counsellor, a mentor or a mental health professional. Asking for help is not a sign of weakness. Sometimes, strength is not found in pretending that everything is fine, but in having the courage to say, \"I am not okay, and I need someone to talk to.\"",
+      "Do not allow your pain to convince you that you are alone. Do not carry every burden by yourself. Pain can distort our thinking and make temporary situations appear permanent. When emotions become overwhelming, give yourself permission to pause, seek help and allow others to walk with you through the difficult season.",
+      "<h3>STOP WASTING YOUR EMOTIONAL ENERGY ON WHAT EVERYONE THINKS ABOUT YOU.</h3>",
+      "You cannot control every opinion, every accusation, every misunderstanding or every judgement. If you spend your entire life trying to satisfy everyone, you may eventually lose yourself in the process.",
+      "<h3>STOP SEEKING VALIDATION FROM PEOPLE</h3>",
+      "as the condition for feeling loved or valuable. Your worth should not depend entirely on applause, recognition, acceptance or public approval. People can celebrate you today and criticise you tomorrow. If your sense of worth is built entirely on the opinions of others, you will constantly live at the mercy of their changing opinions.",
+      "In this life, DO NOT LIVE MERELY TO IMPRESS EVERYONE. You will exhaust yourself. If your greatest ambition is to please everyone at the expense of being yourself, pursuing your purpose and doing what gives your life meaning, you may eventually discover that you have spent your life living for an audience that was never truly yours.",
+      "There will also be seasons when PEOPLE HURT YOU, misunderstand you, disappoint you or deliberately try to destroy your reputation. Do not allow their actions to turn you into someone you were never meant to become. Protect your heart without becoming bitter. Set boundaries without losing your humanity. Forgive where forgiveness is possible, but also learn from your experiences.",
+      "And while we are learning to deal with our own pain, we must also become more careful with the pain we cause others. Do not destroy people simply because doing so benefits you. Do not use another person's weakness as an opportunity for personal advantage. Behind every person is a story, a struggle and a life that may be far more complicated than you know.",
+      "Life is too precious to be wasted on unnecessary battles, endless comparisons and the desperate pursuit of human approval. You have only one life to live. Do not allow temporary pain to make you make a permanent decision. When life becomes heavy, reach out. When your heart becomes tired, rest. When you cannot see the way forward, allow someone trustworthy to walk with you until you can see again.",
+      "> Sometimes, THE STRONGEST THING YOU CAN DO IS ADMIT THAT YOU ARE HURTING AND ALLOW SOMEONE TO HELP YOU CARRY THE WEIGHT. Your pain is real, but it does not have to be the end of your story."
+    ]
+  },
     {
     slug: "a-decade-of-contagious-worship-about-omi-and-the-seraphim-music",
     title: "A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry",
