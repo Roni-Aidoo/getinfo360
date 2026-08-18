@@ -1024,7 +1024,7 @@ function renderFeedGrid(){
   }
 
   if(typeof TRENDING !== 'undefined'){
-    TRENDING.slice(1, 2).forEach(t => {
+    TRENDING.slice(1, 3).forEach(t => {
       cards.push(buildCard(
         `/news/${encodeURIComponent(t.slug)}.html`,
         t.image, t.title, t.category, t.title
@@ -1051,7 +1051,7 @@ function renderTrendingPanel(){
   const wrap = document.getElementById('trend-rows');
   if(!wrap || typeof TRENDING === 'undefined') return;
 
-  const items = TRENDING.slice(2, 10);
+  const items = TRENDING.slice(3, 11);
 
   if(items.length === 0){
     wrap.innerHTML = `<div class="trend-empty">No trending stories yet.</div>`;

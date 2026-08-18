@@ -177,6 +177,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-18 at 18.27.29.jpeg" alt="CHASING AN UNQUALIFIED MISSION" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">CHASING AN UNQUALIFIED MISSION</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Our world is full of countless people who are pursuing unworthy and destructive assignments in the name of success. Some are so desperate to make money that th…</p>
+        <a href="https://getinfoonline.com/articles/chasing-an-unqualified-mission.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-17 at 21.52.13.jpeg" alt="WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -202,24 +219,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">As the month of August brings its usual atmosphere of celebration and reflection, music and worship lovers are once again set to experience Worship Contagious,…</p>
         <a href="https://getinfoonline.com/articles/a-decade-of-contagious-worship-about-omi-and-the-seraphim-music.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/phone.jfif" alt="THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE UPRISE OF PHONE-BASED CYBER FRUAD IN GHANA</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Phone-based cyber fraud remains a widespread issue in Ghana.
-Security Agencies such as the Cyber Security Authority (CSA) frequently issue warnings and has not…</p>
-        <a href="https://getinfoonline.com/articles/the-uprise-of-phone-based-cyber-fruad-in-ghana.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
