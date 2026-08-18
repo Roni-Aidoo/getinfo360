@@ -390,7 +390,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
           <span class="author">By: <span id="art-author">—</span></span>
           <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
           <span>|<span id="art-readtime">—</span></span>
-          
+          <span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span>
         </div>
         
       </div>
@@ -642,8 +642,64 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   initRegionSuggestions(article);
 
   setupShareBar(article);
+
+  /* Kick off the view counter once the article is known. */
+  initViewCounter(article.slug);
 }
 renderArticle();
+
+/* ================================================================
+   VIEW COUNTER
+   ------------------------------------------------------------------
+   Uses CountAPI (https://countapi.xyz) — a free, no-auth, static-site
+   friendly hit counter. Each namespace/key pair keeps its own tally
+   server-side, so the number shown is a real cross-visitor count,
+   not just something stored in this browser.
+
+   - On first load in a given browser tab session, we call /hit/,
+     which atomically increments the count and returns the new total.
+   - On any subsequent render within the same tab session (e.g. the
+     user navigates back to the article again), we call /get/ instead
+     so re-renders don't inflate the count.
+   - If the network call fails (offline, ad-blocker, etc.) we fail
+     quietly and just hide the number rather than showing an error.
+   ================================================================ */
+const VIEW_COUNTER_NAMESPACE = 'getinfo-online-articles';
+
+async function initViewCounter(slug){
+  const el = document.getElementById('art-views');
+  if(!el || !slug) return;
+
+  const sessionKey = 'gio-viewed:' + slug;
+  const alreadyCountedThisSession = sessionStorage.getItem(sessionKey) === '1';
+
+  const endpoint = alreadyCountedThisSession
+    ? `https://api.countapi.xyz/get/${VIEW_COUNTER_NAMESPACE}/${encodeURIComponent(slug)}`
+    : `https://api.countapi.xyz/hit/${VIEW_COUNTER_NAMESPACE}/${encodeURIComponent(slug)}`;
+
+  try{
+    const res = await fetch(endpoint);
+    if(!res.ok) throw new Error('view counter request failed');
+    const data = await res.json();
+    const count = typeof data.value === 'number' ? data.value : null;
+    if(count === null) throw new Error('malformed view counter response');
+
+    el.textContent = formatViewCount(count);
+    if(!alreadyCountedThisSession){
+      sessionStorage.setItem(sessionKey, '1');
+    }
+  }catch(e){
+    // Fail quietly — drop the whole "views" span rather than show a broken "—"
+    const wrapper = el.closest('span');
+    if(wrapper) wrapper.style.display = 'none';
+  }
+}
+
+function formatViewCount(n){
+  if(n >= 1000000) return (n / 1000000).toFixed(n % 1000000 === 0 ? 0 : 1) + 'M';
+  if(n >= 1000) return (n / 1000).toFixed(n % 1000 === 0 ? 0 : 1) + 'K';
+  return String(n);
+}
 
 /* ================================================================
    SHARE BAR + "ADD AS PREFERRED SOURCE" (Google)
