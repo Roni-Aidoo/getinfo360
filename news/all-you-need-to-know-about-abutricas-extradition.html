@@ -380,7 +380,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
           <span class="author">By: <span id="art-author">—</span></span>
           <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
           <span>|<span id="art-readtime">—</span></span>
-           <span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span>
+           <!--span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span-->
         </div>
       </div>
 
@@ -533,7 +533,7 @@ function escapeHTML(str){
 function renderBody(bodyArray){
   return bodyArray.map(item=>{
     if(item.startsWith('## ')){
-      return `<h2>${item.slice(3)}</h2>`;
+      return `<h3>${item.slice(3)}</h3>`;
     }
     if(item.startsWith('> ')){
       return `<blockquote>${item.slice(2)}</blockquote>`;
@@ -583,7 +583,7 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   const tagsWrap = document.getElementById('art-tags');
   tagsWrap.innerHTML = (article.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');
 
-  const related = getOtherArticles(article.slug, 6);
+  const related = getOtherArticles(article.slug, 8);
   const relatedWrap = document.getElementById('art-related');
   relatedWrap.innerHTML = related.map(a => `
     <div class="recent-post">

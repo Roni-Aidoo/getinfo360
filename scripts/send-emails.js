@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-17 at 21.57.46.jpeg" alt="Libido Heist: New Movie Promises Collision of Dark comedy, Psychological Suspense and Dangerous Intimacy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Kofi Annan.jfif" alt="Ghana Remembers Kofi Annan Eight Years After His Death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Libido Heist: New Movie Promises Collision of Dark comedy, Psychological Suspense and Dangerous Intimacy</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">That unsettling possibility sits at the heart of LIBIDO HEIST, a new film written by filmmaker William Kojo Agbeti and developed under Motion Revolution Films,…</p>
-        <a href="https://getinfoonline.com/news/libido-heist-new-movie-promises-drama-emotion-and-entertainment.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Remembers Kofi Annan Eight Years After His Death</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana today remembers one of its most celebrated sons, former United Nations Secretary-General Kofi Annan, as the country marks eight years since his death.</p>
+        <a href="https://getinfoonline.com/news/ghana-remembers-kofi-annan-eight-years-after-his-death.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/trump1.jfif" alt="Trump Threatens Military Action Against Oman as Iran Deal Deadline Expires" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/fda.jfif" alt="FDA Warns Against Improper Use of Chemicals to Ripen Plantains" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Trump Threatens Military Action Against Oman as Iran Deal Deadline Expires</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">US President Donald Trump has threatened military action against Oman, a longstanding US ally, accusing the Gulf state of potentially interfering with Washingt…</p>
-        <a href="https://getinfoonline.com/news/trump-threatens-military-action-against-oman-as-iran-deal-deadline-expires.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">FDA Warns Against Improper Use of Chemicals to Ripen Plantains</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Food and Drugs Authority (FDA) has cautioned traders and the general public against the indiscriminate use of chemicals to accelerate the ripening of plant…</p>
+        <a href="https://getinfoonline.com/news/fda-warns-against-improper-use-of-chemicals-to-ripen-plantains.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -101,14 +101,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Jason Arday.jfif" alt="Former Cambridge Professor Jason Arday Found Dead Amid Plagiarism Controversy" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/MOFA1.jfif" alt="Ghana and Russia Sign Visa Waiver Agreement for Diplomatic and Service Passport Holders" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Former Cambridge Professor Jason Arday Found Dead Amid Plagiarism Controversy</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Former University of Cambridge professor Jason Arday has been found dead in London, just days after resigning from his position amid allegations of plagiarism…</p>
-        <a href="https://getinfoonline.com/news/former-cambridge-professor-jason-arday-found-dead-amid-plagiarism-controversy.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana and Russia Sign Visa Waiver Agreement for Diplomatic and Service Passport Holders</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana and Russia have signed a Visa Waiver Agreement allowing holders of diplomatic and service passports from both countries to travel between Ghana and Russi…</p>
+        <a href="https://getinfoonline.com/news/ghana-and-russia-sign-visa-waiver-agreement-for-diplomatic-and-service-passport-.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -118,14 +118,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/NPPF.jfif" alt="NPP Regional Elections: Party Begins New Chapter Ahead of 2028" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/c.d.jfif" alt="Cedi Strengthens Against the US Dollar" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP Regional Elections: Party Begins New Chapter Ahead of 2028</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The New Patriotic Party (NPP) has held its regional executive elections across Ghana as part of efforts to reorganise its structures, strengthen grassroots mob…</p>
-        <a href="https://getinfoonline.com/news/npp-regional-elections-party-begins-new-chapter-ahead-of-2028.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Cedi Strengthens Against the US Dollar</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi has recorded a significant appreciation against the United States dollar, strengthening further on the interbank foreign exchange market.</p>
+        <a href="https://getinfoonline.com/news/cedi-strengthens-against-the-us-dollar.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -135,14 +135,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/KFC.jpeg" alt="Massive Crowds, Long Queues as KFC’s GH¢15 Promo Takes Ghana by Storm" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/GES.jfif" alt="GES Debunks GH¢1,500 Free SHS Claim" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Massive Crowds, Long Queues as KFC’s GH¢15 Promo Takes Ghana by Storm</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">What was expected to be a simple anniversary promotion turned into a major talking point across Ghana on Saturday, August 15, 2026, as thousands of customers r…</p>
-        <a href="https://getinfoonline.com/news/massive-crowds-long-queues-as-kfc-s-gh-15-promo-takes-ghana-by-storm.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GES Debunks GH¢1,500 Free SHS Claim</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Education Service (GES) has dismissed a viral social media claim that the Free Senior High School (Free SHS) policy has been cancelled and that paren…</p>
+        <a href="https://getinfoonline.com/news/ges-debunks-gh-1-500-free-shs-claim.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

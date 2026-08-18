@@ -389,7 +389,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
           <span class="author">By: <span id="art-author">—</span></span>
           <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
           <span>|<span id="art-readtime">—</span></span>
-          <span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span>
+          <!--<span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span-->
         </div>
         
       </div>
@@ -571,7 +571,7 @@ function escapeHTML(str){
 function renderBody(bodyArray){
   return bodyArray.map(item=>{
     if(item.startsWith('## ')){
-      return `<h2>${item.slice(3)}</h2>`;
+      return `<h3>${item.slice(3)}</h3>`;
     }
     if(item.startsWith('> ')){
       return `<blockquote>${item.slice(2)}</blockquote>`;
@@ -622,7 +622,7 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   const tagsWrap = document.getElementById('art-tags');
   tagsWrap.innerHTML = (article.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');
 
-  const related = getOtherArticles(article.slug, 4);
+  const related = getOtherArticles(article.slug, 8);
   const relatedWrap = document.getElementById('art-related');
   relatedWrap.innerHTML = related.map(a => `
     <div class="recent-post">
@@ -647,22 +647,6 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
 }
 renderArticle();
 
-/* ================================================================
-   VIEW COUNTER
-   ------------------------------------------------------------------
-   Uses CountAPI (https://countapi.xyz) — a free, no-auth, static-site
-   friendly hit counter. Each namespace/key pair keeps its own tally
-   server-side, so the number shown is a real cross-visitor count,
-   not just something stored in this browser.
-
-   - On first load in a given browser tab session, we call /hit/,
-     which atomically increments the count and returns the new total.
-   - On any subsequent render within the same tab session (e.g. the
-     user navigates back to the article again), we call /get/ instead
-     so re-renders don't inflate the count.
-   - If the network call fails (offline, ad-blocker, etc.) we fail
-     quietly and just hide the number rather than showing an error.
-   ================================================================ */
 const VIEW_COUNTER_NAMESPACE = 'getinfo-online-articles';
 
 async function initViewCounter(slug){

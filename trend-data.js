@@ -8,6 +8,129 @@
    ============================================================ */
 
 const TRENDING = [
+    {
+    slug: "ghana-remembers-kofi-annan-eight-years-after-his-death",
+    title: "Ghana Remembers Kofi Annan Eight Years After His Death",
+    category: "National",
+    author: "Info Desk",
+    date: "August 18, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Kofi Annan.jfif",
+    imageCaption: "former United Nations Secretary-General Kofi Annan",
+    excerpt: "Ghana today remembers one of its most celebrated sons, former United Nations Secretary-General Kofi Annan, as the country marks eight years since his death.",
+    tags: ["former United Nations Secretary-General Kofi Annan", "Ghana", "United Nations"],
+    body: [
+      "<b>Ghana today remembers one of its most celebrated sons, former United Nations Secretary-General Kofi Annan, as the country marks eight years since his death.\n\nAnnan died on August 18, 2018, in Bern, Switzerland, at the age of 80, following a short illness. Eight years on, his legacy as a diplomat, peacemaker and advocate for human rights continues to resonate in Ghana and around the world.</b>",
+      "orn in Kumasi in 1938, Kofi Annan joined the United Nations system in 1962 and rose through various positions before becoming the organisation's seventh Secretary-General in 1997. He served two terms, leaving office in 2006.\n\nDuring his tenure, Annan championed international cooperation, peacekeeping, human rights and sustainable development. His leadership also coincided with major global initiatives, including the Millennium Summit and the development of the Millennium Development Goals.",
+      "In 2001, Annan and the United Nations were jointly awarded the Nobel Peace Prize for their work towards a better organised and more peaceful world. His diplomatic career also saw him involved in efforts to resolve conflicts and promote peace across different parts of the world.\n\nBeyond his time at the United Nations, Annan remained active in global affairs through the Kofi Annan Foundation and other initiatives focused on peace, democracy, development and good governance. The Foundation continues to promote many of the causes he championed during his lifetime.",
+      "For many Ghanaians, Annan's achievements remain a source of national pride. His rise from Kumasi to the highest diplomatic office at the United Nations placed Ghana prominently on the global stage.\n\nAs the eighth anniversary of his passing is observed, tributes continue to highlight Annan's commitment to dialogue, peace and human dignity. His life remains an example of how diplomacy, patience and international cooperation can be used to address some of the world's most difficult challenges.",
+      "Eight years after his passing, Kofi Annan's name remains firmly etched in Ghana's history and in the story of global diplomacy."
+    ]
+  },
+    {
+    slug: "fda-warns-against-improper-use-of-chemicals-to-ripen-plantains",
+    title: "FDA Warns Against Improper Use of Chemicals to Ripen Plantains",
+    category: "Health & Business",
+    author: "Info Desk",
+    date: "August 18, 2026",
+    readTime: "2 min read",
+    image: "/Assets/fda.jfif",
+    imageCaption: "Credit: Woezor tv",
+    excerpt: "The Food and Drugs Authority (FDA) has cautioned traders and the general public against the indiscriminate use of chemicals to accelerate the ripening of plantains and other fruits and vegetables.",
+    tags: ["Food and Drugs Authority (FDA)", "ripening of plantains"],
+    body: [
+      "The Food and Drugs Authority (FDA) has cautioned traders and the general public against the indiscriminate use of chemicals to accelerate the ripening of plantains and other fruits and vegetables.\n\nThe warning follows the circulation of a video on social media purportedly showing traders using chemicals to speed up the ripening of plantains at the Madina Market in Accra.",
+      "Following the concerns raised by the video, the FDA, in collaboration with the Environmental Health Unit of the La Nkwantanang-Madina Municipal Assembly, conducted investigations at the market.\n\nThe Authority's preliminary findings identified the product reportedly being used as Ethemax, a plant growth regulator containing Ethephon 480 g/L SL as its active ingredient. The product carries a “Harmful” hazard warning.",
+      "## FDA Warns Against Improper Application",
+      "The FDA explained that the concern is not simply the existence of a ripening product, but its unauthorised or improper use, including applying incorrect concentrations or using a chemical on crops for which it has not been approved.\n\nAccording to the Authority, improper application can result in unacceptable chemical residues on food and potentially compromise food safety.",
+      "The FDA has consequently initiated regulatory action against persons involved in the unauthorised sale, distribution or inappropriate use of the chemical.\n\nThe Authority has also indicated that it intends to educate traders on the correct use and dosage of approved ripening products, rather than impose an outright ban on all chemical-assisted ripening. Officials say the key concern is ensuring that any approved product is used strictly according to its instructions.",
+      "## Advice to Consumers",
+      "The FDA has urged consumers to purchase fruits and vegetables from trusted sources and to wash fresh produce thoroughly with potable water before consumption.\n\nThe public has also been encouraged to report suspected cases of unsafe food handling, storage or inappropriate chemical use to the FDA for investigation.\n\nThe Authority says it will continue its food-safety education and market-surveillance activities to ensure that fruits and vegetables sold to the public are handled safely.",
+      "The FDA's warning comes as a reminder to both traders and consumers that efforts to make fruits ripen faster must not compromise food safety and public health."
+    ]
+  },
+    {
+    slug: "ghana-and-russia-sign-visa-waiver-agreement-for-diplomatic-and-service-passport-",
+    title: "Ghana and Russia Sign Visa Waiver Agreement for Diplomatic and Service Passport Holders",
+    category: "National",
+    author: "Info Desk",
+    date: "August 18, 2026",
+    readTime: "2 min read",
+    image: "/Assets/MOFA1.jfif",
+    imageCaption: "Samuel Okudzeto Ablakwa. on left & Sergey Lavrov on right",
+    excerpt: "Ghana and Russia have signed a Visa Waiver Agreement allowing holders of diplomatic and service passports from both countries to travel between Ghana and Russia without obtaining visas.",
+    tags: ["Ghana and Russia", "Visa Waiver Agreement"],
+    body: [
+      "Ghana and Russia have signed a Visa Waiver Agreement allowing holders of diplomatic and service passports from both countries to travel between Ghana and Russia without obtaining visas.\n\nThe agreement was signed in Moscow on Tuesday, August 18, 2026, during a three-day official visit to Russia by Ghana’s Minister of Foreign Affairs, Samuel Okudzeto Ablakwa. The visit follows an invitation from Russian Foreign Minister Sergey Lavrov.",
+      "Mr Ablakwa described the agreement as historic, noting that it represents the first visa waiver arrangement between Ghana and Russia since the two countries established formal diplomatic relations in 1958.",
+      "## Who Does the Agreement Cover?",
+      "The visa waiver currently applies specifically to holders of diplomatic and service passports. It does not mean that ordinary Ghanaian passport holders can travel to Russia without a visa.",
+      "Russia’s official entry information currently lists Ghana as requiring visas for ordinary passport holders, underscoring the limited scope of the newly signed arrangement.",
+      "The agreement is expected to make official travel easier for government officials and strengthen diplomatic engagement between the two countries.",
+      "## More Visa Privileges Under Negotiation",
+      "According to the Foreign Affairs Minister, Ghana and Russia will continue discussions aimed at securing enhanced visa privileges for other categories of travellers.\n\nThe broader negotiations are expected to support increased trade, investment, tourism and people-to-people exchanges between Ghana and Russia.\n\nThe development forms part of Ghana’s efforts to deepen bilateral relations with Russia, with discussions also covering areas such as education, energy and other strategic sectors.",
+      "Russia has separately announced that it will double its annual scholarship allocation for Ghanaian students from 120 to 240, with priority areas including artificial intelligence, engineering, petroleum sciences and pharmaceuticals.\n\nThe visa waiver agreement therefore marks a significant step in Ghana-Russia relations, although ordinary passport holders will still need visas to travel between the two countries unless a broader agreement is reached in the future."
+    ]
+  },
+    {
+    slug: "cedi-strengthens-against-the-us-dollar",
+    title: "Cedi Strengthens Against the US Dollar",
+    category: "Business",
+    author: "Info Desk",
+    date: "August 18, 2026",
+    readTime: "1 min read",
+    image: "/Assets/c.d.jfif",
+    imageCaption: "5 cedis & A dollar",
+    excerpt: "The Ghanaian cedi has recorded a significant appreciation against the United States dollar, strengthening further on the interbank foreign exchange market.",
+    tags: ["Ghanaian cedi", "United States dollar", "interbank foreign exchange market"],
+    body: [
+      "The Ghanaian cedi has recorded a significant appreciation against the United States dollar, strengthening further on the interbank foreign exchange market.\n\nAccording to Bank of Ghana daily exchange-rate data, the cedi appreciated from an interbank buying rate of GH¢11.75 per US dollar on August 10, 2026, to GH¢10.94 on August 17. This represents an appreciation of approximately 6.9 per cent within one week.",
+      "The latest movement adds to the cedi's recent recovery, with improved foreign-exchange supply and stronger inflows helping to ease pressure on the local currency.\n\nOn Tuesday, August 18, the cedi was trading around GH¢10.99 to the dollar on the Bank of Ghana interbank market, while forex-bureau rates were higher, reflecting differences between the official interbank market and retail foreign-exchange market.",
+      "## What the appreciation means for Ghanaians",
+      "A stronger cedi could provide some relief to businesses and consumers who depend heavily on imported goods and services. Lower exchange-rate pressures can help reduce the cedi cost of imports, including fuel, machinery, raw materials and some consumer products.\n\nThe appreciation could also help moderate imported inflation and reduce the local-currency cost of servicing foreign-denominated obligations.",
+      "However, the sustainability of the cedi's gains will depend on continued foreign-exchange inflows, export earnings, economic conditions and developments in global currency markets.\n\nThe Bank of Ghana has previously highlighted strong export performance, particularly from gold, as well as improved external-sector conditions as important factors supporting Ghana's foreign-exchange position.",
+      "For now, the latest movement represents another positive development for the local currency and will be closely watched by businesses, investors and consumers across the country."
+    ]
+  },
+    {
+    slug: "ges-debunks-gh-1-500-free-shs-claim",
+    title: "GES Debunks GH¢1,500 Free SHS Claim",
+    category: "Education",
+    author: "Curtis Nkansah Bentum",
+    date: "August 18, 2026",
+    readTime: "1 min read",
+    image: "/Assets/GES.jfif",
+    imageCaption: "Logo of Ghana Education Service",
+    excerpt: "The Ghana Education Service (GES) has dismissed a viral social media claim that the Free Senior High School (Free SHS) policy has been cancelled and that parents and guardians are required to pay GH¢1,500 for chop boxes, trunks and other items.",
+    tags: ["Ghana Education Service (GES)", "Free Senior High School (Free SHS) policy", "GH¢1500 for chop boxes"],
+    body: [
+      "<b>The Ghana Education Service (GES) has dismissed a viral social media claim that the Free Senior High School (Free SHS) policy has been cancelled and that parents and guardians are required to pay GH¢1,500 for chop boxes, trunks and other items.\n\nIn a statement issued on Tuesday, August 18, 2026, the GES described the publication as false and urged parents, students and the general public to disregard it.</b>",
+      "According to the Service, management has not cancelled the Free SHS policy, while the Director-General has not issued any directive requiring parents or guardians to make payments for chop boxes, trunks or any other items.\n\nThe GES further clarified that the Director-General does not have the authority to cancel the national Free SHS policy.",
+      "The Service consequently cautioned parents, guardians and students against making payments to individuals based on the circulating social media claims.\n\nGES also urged the public to rely on information communicated through its authorised channels and warned media organisations and individuals against creating or circulating unverified information capable of causing anxiety and confusion among students and parents.",
+      "The clarification comes amid preparations for the next academic year, with the Service encouraging the public to verify education-related announcements before acting on them.",
+      "<b>GES's message is clear: Free SHS has not been cancelled, and parents should not pay anyone GH¢1,500 based on the viral claim.</b>"
+    ]
+  },
+    {
+    slug: "fire-guts-ict-laboratory-and-classroom-at-gushegu-nursing-college",
+    title: "Fire Guts ICT Laboratory and Classroom at Gushegu Nursing College",
+    category: "National",
+    author: "Info Desk",
+    date: "August 18, 2026",
+    readTime: "1 min read",
+    image: "/Assets/fire guts.jfif",
+    imageCaption: "ICT Laboratory and Classroom at Gushegu Nursing College",
+    excerpt: "Portions of the Gushegu Nursing and Midwifery Training College in the Northern Region have been gutted by fire, affecting the institution’s Information and Communication Technology (ICT) laboratory and an adjoining classroom.",
+    tags: ["Gushegu Nursing and Midwifery Training College", "Northern Region"],
+    body: [
+      "<b>Portions of the Gushegu Nursing and Midwifery Training College in the Northern Region have been gutted by fire, affecting the institution’s Information and Communication Technology (ICT) laboratory and an adjoining classroom.\n\nThe incident occurred in the early hours of Monday, August 17, 2026, prompting an emergency response from the Ghana National Fire Service (GNFS).</b>",
+      "According to the GNFS, firefighters from the Yendi Fire Station were dispatched at about 7:28 a.m. following a distress call. The team arrived at the college at approximately 8:12 a.m. and found the fire had engulfed the ICT laboratory and the adjoining classroom.",
+      "Firefighters successfully contained the blaze by 8:52 a.m., restricting it to the affected area, before completely extinguishing it at about 9:13 a.m. Their intervention prevented the fire from spreading to other parts of the institution and potentially causing more extensive damage.\n\nReports indicate that computers, furniture and other equipment in the ICT laboratory were destroyed in the incident.",
+      "The cause of the fire has not yet been established. The GNFS says investigations will be conducted to determine what triggered the outbreak.",
+      "The incident has renewed concerns about fire safety in educational institutions, particularly the need for regular inspection of electrical installations and the availability of functional firefighting equipment.",
+      "The GNFS has urged schools and other institutions to regularly inspect their electrical systems and ensure that fire safety equipment is readily available and functional. The Service also encouraged the public to report fire incidents promptly to allow firefighters to respond quickly and prevent fires from spreading."
+    ]
+  },
   {
     slug: "libido-heist-new-movie-promises-drama-emotion-and-entertainment",
     title: "Libido Heist: New Movie Promises Collision of Dark comedy, Psychological Suspense and Dangerous Intimacy",
@@ -30,7 +153,7 @@ const TRENDING = [
       "<h3>That is almost everything audiences should know.</h3>",
       "Because LIBIDO HEIST is built around what happens when expectation finally encounters reality. The film does not announce the danger immediately. It allows it to sit quietly beneath the comedy, almost invisible, while an apparently ordinary encounter gradually acquires a different meaning.\nAnd that is where LIBIDO HEIST becomes difficult to describe without ruining the experience.",
       "Written by William Kojo Agbeti, LIBIDO HEIST promises a collision of dark comedy, psychological suspense and dangerous intimacy; a story in which an ordinary man’s search for companionship becomes something far stranger than the romantic adventure he imagined.",
-      "It begins with loneliness. Then comes a message. Then a woman. Then a knock at the door.\nAfter that, it is probably safer to say nothing more.",
+      "It begins with loneliness. Then comes a message. Then a woman. Then a knock at the door.\nAfter that, it is probably safer to say nothing more. Anticipate for this amazing movie which may be premiered on the 14th of February 2027… Valentines day.",
       "> <b>LIBIDO HEIST</b>\nYou may think you know what the title means. Wait until you see the film."
     ]
   },  
