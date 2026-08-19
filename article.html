@@ -559,6 +559,10 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 <script src="articles-data.js"></script>
 
 <script>
+/* Worker URL for the view counter — declared up top so it's available
+   before renderArticle() (called below) triggers initViewCounter(). */
+const VIEW_COUNTER_BASE = 'https://rankofsoft.getinfo360online.workers.dev/';
+
 /* ---------- render article from URL ?slug=... ---------- */
 function escapeHTML(str){
   const div = document.createElement('div');
@@ -622,7 +626,7 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   const tagsWrap = document.getElementById('art-tags');
   tagsWrap.innerHTML = (article.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');
 
-  const related = getOtherArticles(article.slug, 8);
+  const related = getOtherArticles(article.slug, 4);
   const relatedWrap = document.getElementById('art-related');
   relatedWrap.innerHTML = related.map(a => `
     <div class="recent-post">
@@ -683,7 +687,6 @@ renderArticle();
      GET /hit/{slug}  -> increments and returns the count
      GET /get/{slug}  -> returns the count without incrementing
    ================================================================ */
-const VIEW_COUNTER_BASE = 'https://rankofsoft.getinfo360online.workers.dev/';
 
 async function initViewCounter(slug){
   const el = document.getElementById('art-views');
