@@ -415,7 +415,7 @@ function renderAdSlot() {
     <tr>
       <td style="padding:20px;text-align:center;">
         <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
-        <a href="mailto:getinfo360online@gmail.com" style="text-decoration:none;">
+        <a href="mailto:advertise@getinfoonline.com" style="text-decoration:none;">
           <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
           <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
         </a>

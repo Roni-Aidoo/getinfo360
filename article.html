@@ -389,7 +389,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
           <span class="author">By: <span id="art-author">—</span></span>
           <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
           <span>|<span id="art-readtime">—</span></span>
-          <!--<span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span-->
+          <span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span>
         </div>
         
       </div>
@@ -571,7 +571,7 @@ function escapeHTML(str){
 function renderBody(bodyArray){
   return bodyArray.map(item=>{
     if(item.startsWith('## ')){
-      return `<h3>${item.slice(3)}</h3>`;
+      return `<h2>${item.slice(3)}</h2>`;
     }
     if(item.startsWith('> ')){
       return `<blockquote>${item.slice(2)}</blockquote>`;
@@ -647,7 +647,43 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
 }
 renderArticle();
 
-const VIEW_COUNTER_NAMESPACE = 'getinfo-online-articles';
+/* ================================================================
+   VIEW COUNTER
+   ------------------------------------------------------------------
+   Self-hosted on a Cloudflare Worker + KV instead of the now-dead
+   api.countapi.xyz, so this doesn't silently break again the moment
+   some third-party free hobby API disappears.
+
+   Deploy the worker below (Cloudflare dashboard -> Workers & Pages ->
+   Create -> Worker, bind a KV namespace called VIEWS to it), then
+   replace VIEW_COUNTER_BASE with your worker's URL:
+
+     export default {
+       async fetch(request, env) {
+         const url = new URL(request.url);
+         const key = url.pathname.split('/').pop();
+         const headers = {
+           'Content-Type': 'application/json',
+           'Access-Control-Allow-Origin': '*',
+         };
+         if (!key) {
+           return new Response(JSON.stringify({ error: 'missing key' }), { status: 400, headers });
+         }
+         const isHit = url.pathname.startsWith('/hit/');
+         let value = parseInt(await env.VIEWS.get(key)) || 0;
+         if (isHit) {
+           value += 1;
+           await env.VIEWS.put(key, String(value));
+         }
+         return new Response(JSON.stringify({ key, value }), { headers });
+       }
+     };
+
+   Endpoints once deployed:
+     GET /hit/{slug}  -> increments and returns the count
+     GET /get/{slug}  -> returns the count without incrementing
+   ================================================================ */
+const VIEW_COUNTER_BASE = 'https://rankofsoft.getinfo360online.workers.dev/';
 
 async function initViewCounter(slug){
   const el = document.getElementById('art-views');
@@ -657,12 +693,17 @@ async function initViewCounter(slug){
   const alreadyCountedThisSession = sessionStorage.getItem(sessionKey) === '1';
 
   const endpoint = alreadyCountedThisSession
-    ? `https://api.countapi.xyz/get/${VIEW_COUNTER_NAMESPACE}/${encodeURIComponent(slug)}`
-    : `https://api.countapi.xyz/hit/${VIEW_COUNTER_NAMESPACE}/${encodeURIComponent(slug)}`;
+    ? `${VIEW_COUNTER_BASE}/get/${encodeURIComponent(slug)}`
+    : `${VIEW_COUNTER_BASE}/hit/${encodeURIComponent(slug)}`;
 
   try{
-    const res = await fetch(endpoint);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000); // don't hang forever if the worker is ever slow
+
+    const res = await fetch(endpoint, { signal: controller.signal });
+    clearTimeout(timeout);
     if(!res.ok) throw new Error('view counter request failed');
+
     const data = await res.json();
     const count = typeof data.value === 'number' ? data.value : null;
     if(count === null) throw new Error('malformed view counter response');
