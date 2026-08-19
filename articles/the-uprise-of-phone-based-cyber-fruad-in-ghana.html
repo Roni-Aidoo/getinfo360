@@ -627,7 +627,7 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   const tagsWrap = document.getElementById('art-tags');
   tagsWrap.innerHTML = (article.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('');
 
-  const related = getOtherArticles(article.slug, 4);
+  const related = getOtherArticles(article.slug, 8);
   const relatedWrap = document.getElementById('art-related');
   relatedWrap.innerHTML = related.map(a => `
     <div class="recent-post">
