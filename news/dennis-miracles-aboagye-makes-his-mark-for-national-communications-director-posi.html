@@ -597,8 +597,11 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
   `).join('');
 
   document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
-  setupShareBar(article);
-  initViewCounter(article.slug);
+
+  /* Run these independently so a failure in one (e.g. share bar wiring)
+     never blocks the other (the view counter) from running. */
+  try{ setupShareBar(article); }catch(e){ console.error('setupShareBar failed:', e); }
+  try{ initViewCounter(article.slug); }catch(e){ console.error('initViewCounter failed:', e); }
 }
 renderArticle();
 
@@ -645,11 +648,17 @@ function formatViewCount(n){
 function setupShareBar(article){
   // Google's official preferred-source deeplink only needs the bare domain
   const domain = window.location.hostname;
-  document.getElementById('google-pref-btn').href = `https://google.com/preferences/source?q=${encodeURIComponent(domain)}`;
+  const prefBtn = document.getElementById('google-pref-btn');
+  if(prefBtn){
+    prefBtn.href = `https://google.com/preferences/source?q=${encodeURIComponent(domain)}`;
+  }
 
-  // Load any locally-saved comments for this article (demo storage only —
-  // wire this to a real backend/API for persistence across devices)
-  renderComments(article.slug);
+  // This page has no comment panel in its HTML, so only render comments
+  // if a #comment-list element actually exists — otherwise skip quietly
+  // instead of throwing (which used to stop initViewCounter from ever running).
+  if(document.getElementById('comment-list')){
+    renderComments(article.slug);
+  }
 }
 
 function shareTo(network, e){
@@ -676,6 +685,20 @@ function shareTo(network, e){
   }
   window.open(shareUrl, '_blank', 'noopener,noreferrer,width=600,height=520');
 }
+
+function renderComments(slug){
+  let stored = [];
+  try{ stored = JSON.parse(localStorage.getItem('comments:' + slug) || '[]'); }catch(e){}
+  const list = document.getElementById('comment-list');
+  if(!list) return;
+  list.innerHTML = stored.map(c => `
+    <div class="comment-item">
+      <div>${escapeHTML(c.text)}</div>
+      <div class="comment-meta">${new Date(c.at).toLocaleString()}</div>
+    </div>
+  `).join('');
+}
+
 function copyLink(e){
   e.preventDefault();
   const btn = document.getElementById('copy-link-btn');
@@ -744,7 +767,6 @@ window.addEventListener('scroll', ()=>{
   appbar.classList.toggle('scrolled', window.scrollY > 20);
 });
 </script>
-
 
 
 </body></html>

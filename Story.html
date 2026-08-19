@@ -587,10 +587,8 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
 
   document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
 
-  setupShareBar(article);
-
-  /* Kick off the view counter once the article is known. */
-  initViewCounter(article.slug);
+  try{ setupShareBar(article); }catch(e){ console.error('setupShareBar failed:', e); }
+  try{ initViewCounter(article.slug); }catch(e){ console.error('initViewCounter failed:', e); }
 }
 renderArticle();
 
