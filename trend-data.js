@@ -9,6 +9,26 @@
 
 const TRENDING = [
     {
+    slug: "kessben-group-founder-stephen-kwabena-boateng-reportedly-dead",
+    title: "Kessben Group Founder Stephen Kwabena Boateng Reportedly Dead",
+    category: "National",
+    author: "Info Desk",
+    date: "August 20, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Screenshot_20260820-092428.jpg",
+    imageCaption: "Stephen Kwabena Boateng",
+    excerpt: "Ghana’s business community has been hit by the reported death of renowned businessman and entrepreneur Stephen Kwabena Boateng, popularly known as Kessben, on Thursday, August 20, 2026.",
+    tags: ["Kesben", "Stephen Kwabena Boateng"],
+    body: [
+      "Ghana’s business community has been hit by the reported death of renowned businessman and entrepreneur Stephen Kwabena Boateng, popularly known as Kessben, on Thursday, August 20, 2026.\n\nReports emerging from multiple Ghanaian news outlets indicate that the founder of the Kessben Group of Companies has passed away.",
+      "The news has generated shock and sadness, particularly in the Ashanti Region, where he was widely known for his business activities and contributions to the community.\n\nHowever, the cause of his reported death has not yet been disclosed, and no official statement from his family confirming the circumstances of his passing had been released at the time of publication.",
+      "Stephen Boateng, also known as Kwabena Kesse, was a prominent Ghanaian entrepreneur and trained lawyer who served as the Chief Executive Officer and Director of the Kessben Group of Companies.\n\nHis business interests extended across several sectors, while his educational legacy included the establishment of Kessben University College, which identifies him as its founder.",
+      "Kessben was also recognised for his involvement in Ghana's media and business landscape and had remained a notable figure in the country's entrepreneurial community for decades.\n\nAs news of his reported passing continues to spread, tributes have begun emerging online from individuals mourning the businessman and reflecting on his contribution to Ghana's private sector.",
+      "Getinfo Online will continue to monitor the situation and provide updates as further details, including an official confirmation and the cause of death, become available.",
+      "May his soul rest in peace."
+    ]
+  },
+    {
     slug: "goldbod-1-7bn-controversy-minority-demands-answers-as-sammy-gyamfi-rejects-loss-",
     title: "GoldBod $1.7bn Controversy: Minority Demands Answers as Sammy Gyamfi Rejects Loss Claim",
     category: "Business & National",

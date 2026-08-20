@@ -67,6 +67,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/Screenshot_20260820-092428.jpg" alt="Kessben Group Founder Stephen Kwabena Boateng Reportedly Dead" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Kessben Group Founder Stephen Kwabena Boateng Reportedly Dead</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s business community has been hit by the reported death of renowned businessman and entrepreneur Stephen Kwabena Boateng, popularly known as Kessben, on…</p>
+        <a href="https://getinfoonline.com/news/kessben-group-founder-stephen-kwabena-boateng-reportedly-dead.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/sammy gyamfi.jpg" alt="GoldBod $1.7bn Controversy: Minority Demands Answers as Sammy Gyamfi Rejects Loss Claim" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -127,23 +144,6 @@ of efforts to monitor funeral activities and…</p>
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Remembers Kofi Annan Eight Years After His Death</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana today remembers one of its most celebrated sons, former United Nations Secretary-General Kofi Annan, as the country marks eight years since his death.</p>
         <a href="https://getinfoonline.com/news/ghana-remembers-kofi-annan-eight-years-after-his-death.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/fda.jfif" alt="FDA Warns Against Improper Use of Chemicals to Ripen Plantains" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">FDA Warns Against Improper Use of Chemicals to Ripen Plantains</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Food and Drugs Authority (FDA) has cautioned traders and the general public against the indiscriminate use of chemicals to accelerate the ripening of plant…</p>
-        <a href="https://getinfoonline.com/news/fda-warns-against-improper-use-of-chemicals-to-ripen-plantains.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
