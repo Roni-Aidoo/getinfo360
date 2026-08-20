@@ -178,6 +178,23 @@ of efforts to monitor funeral activities and…</p>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/wil.png" alt="Wilavis: A Rising Star in the World of Art" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Wilavis: A Rising Star in the World of Art</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Wilavis is carving out a distinct identity in the art scene, transforming ideas and emotions into works that speak beyond words.</p>
+        <a href="https://getinfoonline.com/articles/wilavis-a-rising-star-in-the-world-of-art.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-18 at 18.27.29.jpeg" alt="CHASING AN UNQUALIFIED MISSION" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -203,23 +220,6 @@ of efforts to monitor funeral activities and…</p>
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Life presents us with many challenges. At different stages of our journey, we may find ourselves battling health related issues, dealing with career crises, na…</p>
         <a href="https://getinfoonline.com/articles/when-life-hurts-learning-to-live-with-pain-pressure-and-purpose.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/omi.jpeg" alt="A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">A Decade of Contagious Worship: About Omi And The Seraphim Music Ministry</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">As the month of August brings its usual atmosphere of celebration and reflection, music and worship lovers are once again set to experience Worship Contagious,…</p>
-        <a href="https://getinfoonline.com/articles/a-decade-of-contagious-worship-about-omi-and-the-seraphim-music.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
