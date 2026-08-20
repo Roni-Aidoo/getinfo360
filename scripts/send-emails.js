@@ -67,6 +67,58 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/sammy gyamfi.jpg" alt="GoldBod $1.7bn Controversy: Minority Demands Answers as Sammy Gyamfi Rejects Loss Claim" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GoldBod $1.7bn Controversy: Minority Demands Answers as Sammy Gyamfi Rejects Loss Claim</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A fresh political and economic controversy has erupted over the reported US$1.7 billion loss associated with Ghana’s Domestic Gold Purchase Programme (DGPP) in…</p>
+        <a href="https://getinfoonline.com/news/goldbod-1-7bn-controversy-minority-demands-answers-as-sammy-gyamfi-rejects-loss-.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/aboboyaa.jfif" alt="Ofankor Road Carnage: Calls Grow for ‘Aboboyas’ to Be Banned from Highways" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ofankor Road Carnage: Calls Grow for ‘Aboboyas’ to Be Banned from Highways</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Calls are mounting for stronger restrictions on the use of “aboboyas” (motorised tricycles) on major highways following the deadly road crash at Ofankor that h…</p>
+        <a href="https://getinfoonline.com/news/ofankor-road-carnage-calls-grow-for-aboboyas-to-be-banned-from-highways.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/funerale.png" alt="Mortuaries and Funeral Facilities Agency to Deploy ‘Funeral Police’ Nationwide to Prevent Corpse Abuse" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mortuaries and Funeral Facilities Agency to Deploy ‘Funeral Police’ Nationwide to Prevent Corpse Abuse</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Mortuaries and Funeral Facilities Agency (MOFFA) is set to deploy personnel across districts in Ghana as part 
+of efforts to monitor funeral activities and…</p>
+        <a href="https://getinfoonline.com/news/mortuaries-and-funeral-facilities-agency-to-deploy-funeral-police-nationwide-to-.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/Kofi Annan.jfif" alt="Ghana Remembers Kofi Annan Eight Years After His Death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -92,57 +144,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">FDA Warns Against Improper Use of Chemicals to Ripen Plantains</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Food and Drugs Authority (FDA) has cautioned traders and the general public against the indiscriminate use of chemicals to accelerate the ripening of plant…</p>
         <a href="https://getinfoonline.com/news/fda-warns-against-improper-use-of-chemicals-to-ripen-plantains.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/MOFA1.jfif" alt="Ghana and Russia Sign Visa Waiver Agreement for Diplomatic and Service Passport Holders" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana and Russia Sign Visa Waiver Agreement for Diplomatic and Service Passport Holders</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana and Russia have signed a Visa Waiver Agreement allowing holders of diplomatic and service passports from both countries to travel between Ghana and Russi…</p>
-        <a href="https://getinfoonline.com/news/ghana-and-russia-sign-visa-waiver-agreement-for-diplomatic-and-service-passport-.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/c.d.jfif" alt="Cedi Strengthens Against the US Dollar" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Cedi Strengthens Against the US Dollar</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi has recorded a significant appreciation against the United States dollar, strengthening further on the interbank foreign exchange market.</p>
-        <a href="https://getinfoonline.com/news/cedi-strengthens-against-the-us-dollar.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/GES.jfif" alt="GES Debunks GH¢1,500 Free SHS Claim" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GES Debunks GH¢1,500 Free SHS Claim</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Education Service (GES) has dismissed a viral social media claim that the Free Senior High School (Free SHS) policy has been cancelled and that paren…</p>
-        <a href="https://getinfoonline.com/news/ges-debunks-gh-1-500-free-shs-claim.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

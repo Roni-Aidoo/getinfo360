@@ -9,6 +9,61 @@
 
 const TRENDING = [
     {
+    slug: "goldbod-1-7bn-controversy-minority-demands-answers-as-sammy-gyamfi-rejects-loss-",
+    title: "GoldBod $1.7bn Controversy: Minority Demands Answers as Sammy Gyamfi Rejects Loss Claim",
+    category: "Business & National",
+    author: "Info Desk",
+    date: "August 20, 2026",
+    readTime: "2 min read",
+    image: "/Assets/sammy gyamfi.jpg",
+    imageCaption: "Lawyer Sammy Gyamfi, CEO, Gold Board",
+    excerpt: "A fresh political and economic controversy has erupted over the reported US$1.7 billion loss associated with Ghana’s Domestic Gold Purchase Programme (DGPP) in 2025, with the Minority in Parliament demanding accountability from the government and the Ghana Gold Board (GoldBod).",
+    tags: ["US$1.7 billion loss", "Ghana’s Domestic Gold Purchase Programme (DGPP)", "Ghana Gold Board (GoldBod)."],
+    body: [
+      "<b>A fresh political and economic controversy has erupted over the reported US$1.7 billion loss associated with Ghana’s Domestic Gold Purchase Programme (DGPP) in 2025, with the Minority in Parliament demanding accountability from the government and the Ghana Gold Board (GoldBod).\n\nThe controversy intensified on Wednesday, August 19, 2026, after GoldBod Chief Executive Officer Sammy Gyamfi rejected claims that GoldBod itself incurred the US$1.7 billion loss, describing the allegation as a “barefaced lie.”</b>",
+      "Mr Gyamfi explained that the figure cited in the latest International Monetary Fund (IMF) report relates to losses incurred by the Bank of Ghana (BoG) under the Domestic Gold Purchase Programme, rather than a loss recorded by GoldBod as an institution.\n\nAccording to him, GoldBod's audited accounts showed an operational surplus of GH¢907 million, while its overall surplus exceeded GH¢5.4 billion. He also said an external audit is currently examining the Domestic Gold Purchase Programme from its inception in 2021, with the findings expected in the third quarter of 2026.",
+      "The Minority, however, has rejected the explanation and insists that the reported loss must be accounted for regardless of which state institution recorded it.\n\nMinority Leader Alexander Afenyo-Markin argued that the US$1.7 billion figure represents public funds and therefore cannot simply be dismissed on the basis that the loss was recorded on the Bank of Ghana's balance sheet rather than GoldBod's.",
+      "He has consequently challenged GoldBod to provide a clearer account of the programme and explain how the reported losses arose.\n\nThe debate has also attracted economic commentary. Professor James Atta Peprah, former Dean of the School of Economics at the University of Cape Coast, has called for GoldBod to rely more on commercial financing for its gold purchases rather than Bank of Ghana financing. He argues that this could reduce the central bank's exposure to risks arising from GoldBod's operations.",
+      "The controversy is therefore centred not only on the US$1.7 billion figure, but also on who ultimately bears responsibility for the losses, how the Domestic Gold Purchase Programme is financed, and whether the wider economic benefits of the programme justify the costs.\n\nWith an independent audit underway, the findings could provide further clarity on the financial performance of the programme and the institutions involved."
+    ]
+  },
+    {
+    slug: "ofankor-road-carnage-calls-grow-for-aboboyas-to-be-banned-from-highways",
+    title: "Ofankor Road Carnage: Calls Grow for ‘Aboboyas’ to Be Banned from Highways",
+    category: "National",
+    author: "Info Desk",
+    date: "August 20, 2026",
+    readTime: "2 min read",
+    image: "/Assets/aboboyaa.jfif",
+    imageCaption: "tricycle(Aboboyaa)",
+    excerpt: "Calls are mounting for stronger restrictions on the use of “aboboyas” (motorised tricycles) on major highways following the deadly road crash at Ofankor that has renewed concerns about road safety in Ghana.",
+    tags: ["Road Safety", "Ofankor", "Ghana", "Aboboyaa"],
+    body: [
+      "Calls are mounting for stronger restrictions on the use of “aboboyas” (motorised tricycles) on major highways following the deadly road crash at Ofankor that has renewed concerns about road safety in Ghana.\n\nThe August 13 accident at the Ofankor Barrier on the Accra-Nsawam Highway resulted in multiple deaths and injuries, with the National Road Safety Authority (NRSA) indicating that a broken-down tricycle may have triggered the chain of events that led to the crash.\n\nThe tragedy has reignited calls for authorities to take decisive action against the use of tricycles on major highways, particularly where their presence may expose passengers and other road users to heightened risks.",
+      "Road safety stakeholders are now demanding tougher enforcement of existing regulations and measures to prevent potentially unsafe vehicles from operating on major highways. Former United Nations governance expert Professor Duah Agyemang described the Ofankor tragedy as a wake-up call for the government to take pragmatic steps to reduce road crashes.\n\nThe calls come amid growing public concern over road fatalities and the increasing presence of motorcycles and tricycles on busy roads.\n\nBeyond restrictions on aboboyas, stakeholders have also stressed the need for stronger enforcement of road traffic regulations, better vehicle maintenance, effective towing arrangements and greater driver discipline.\n\nThe Ofankor crash has consequently become a major talking point in Ghana's road safety debate, with calls for authorities to prevent similar tragedies rather than waiting for another fatal accident before taking action.\n\nFor many road safety advocates, the immediate priority is to ensure that commercial vehicles operating on major highways meet safety requirements and that broken-down vehicles are promptly removed from active traffic lanes.",
+      "The renewed calls for restrictions on aboboyas are therefore expected to intensify the discussion over how Ghana can balance the economic importance of tricycle transport with the need to protect lives on the country's major roads."
+    ]
+  },
+    {
+    slug: "mortuaries-and-funeral-facilities-agency-to-deploy-funeral-police-nationwide-to-",
+    title: "Mortuaries and Funeral Facilities Agency to Deploy ‘Funeral Police’ Nationwide to Prevent Corpse Abuse",
+    category: "National",
+    author: "Info Desk",
+    date: "August 19, 2026",
+    readTime: "1 min read",
+    image: "/Assets/funerale.png",
+    imageCaption: "A burial Session",
+    excerpt: "The Mortuaries and Funeral Facilities Agency (MOFFA) is set to deploy personnel across districts in Ghana as part \nof efforts to monitor funeral activities and prevent the mistreatment and abuse of corpses.",
+    tags: ["Mortuaries and Funeral Facilities Agency (MOFFA)", "abuse of corpses", "Ghana"],
+    body: [
+      "The Mortuaries and Funeral Facilities Agency (MOFFA) is set to deploy personnel across districts in Ghana as part \n\nof efforts to monitor funeral activities and prevent the mistreatment and abuse of corpses.\n\nThe initiative, popularly described as the deployment of “funeral police,” is expected to strengthen oversight of activities involving the handling, preservation and burial of deceased persons.",
+      "According to reports, the personnel will be stationed across the country to monitor funeral practices and ensure that the dignity of the deceased is respected throughout the funeral process.\n\nThe move comes amid concerns over practices that may compromise the dignity of dead bodies and cause additional distress to bereaved families. MOFFA’s intervention is therefore expected to \n\nprovide stronger supervision within the mortuary and funeral sector.",
+      "The agency’s nationwide presence is also expected to improve compliance with standards governing mortuaries, funeral facilities and the handling of corpses.\n\nFor many Ghanaian families, funerals are an important cultural and social institution. The proper treatment of the deceased is consequently regarded as an essential part of giving families a dignified farewell to their loved ones.",
+      "The planned deployment is expected to complement existing regulatory measures and help ensure that funeral service providers adhere to appropriate standards.\n\nMOFFA’s initiative has attracted public \n\nattention, with many viewing the proposed “funeral police” as an unusual but potentially important step towards protecting the dignity of deceased persons and safeguarding grieving families.",
+      "The agency’s nationwide monitoring is expected to become an important part of efforts to improve standards in Ghana’s mortuary and funeral industry."
+    ]
+  },
+    {
     slug: "ghana-remembers-kofi-annan-eight-years-after-his-death",
     title: "Ghana Remembers Kofi Annan Eight Years After His Death",
     category: "National",
