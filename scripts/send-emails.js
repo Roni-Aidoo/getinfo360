@@ -67,6 +67,40 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/kojo.jfif" alt="Supreme Court Dismisses Oppong Nkrumah’s Injunction Application" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Supreme Court Dismisses Oppong Nkrumah’s Injunction Application</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Supreme Court of Ghana has dismissed an injunction application filed by Ofoase-Ayirebi Member of Parliament, Kojo Oppong Nkrumah, seeking to halt selected…</p>
+        <a href="https://getinfoonline.com/news/supreme-court-dismisses-oppong-nkrumah-s-injunction-application.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/r1.jpg" alt="The Clash Of Private Hostel Owners And The Government Over Student Hostel Pricing." width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">The Clash Of Private Hostel Owners And The Government Over Student Hostel Pricing.</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">There is a major ongoing development in Ghana regarding rent and accommodation. A clash over student hostel pricing and Regulations as of mid-August 2026.</p>
+        <a href="https://getinfoonline.com/news/the-clash-of-private-hostel-owners-and-the-government-over-student-hostel-pricin.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/Screenshot_20260820-092428.jpg" alt="Kessben Group Founder Stephen Kwabena Boateng Reportedly Dead" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -109,41 +143,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ofankor Road Carnage: Calls Grow for ‘Aboboyas’ to Be Banned from Highways</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Calls are mounting for stronger restrictions on the use of “aboboyas” (motorised tricycles) on major highways following the deadly road crash at Ofankor that h…</p>
         <a href="https://getinfoonline.com/news/ofankor-road-carnage-calls-grow-for-aboboyas-to-be-banned-from-highways.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/funerale.png" alt="Mortuaries and Funeral Facilities Agency to Deploy ‘Funeral Police’ Nationwide to Prevent Corpse Abuse" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mortuaries and Funeral Facilities Agency to Deploy ‘Funeral Police’ Nationwide to Prevent Corpse Abuse</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Mortuaries and Funeral Facilities Agency (MOFFA) is set to deploy personnel across districts in Ghana as part 
-of efforts to monitor funeral activities and…</p>
-        <a href="https://getinfoonline.com/news/mortuaries-and-funeral-facilities-agency-to-deploy-funeral-police-nationwide-to-.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Kofi Annan.jfif" alt="Ghana Remembers Kofi Annan Eight Years After His Death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Remembers Kofi Annan Eight Years After His Death</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana today remembers one of its most celebrated sons, former United Nations Secretary-General Kofi Annan, as the country marks eight years since his death.</p>
-        <a href="https://getinfoonline.com/news/ghana-remembers-kofi-annan-eight-years-after-his-death.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

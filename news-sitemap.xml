@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/supreme-court-dismisses-oppong-nkrumah-s-injunction-application.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-21T00:00:00.000Z</news:publication_date>
+      <news:title>Supreme Court Dismisses Oppong Nkrumah’s Injunction Application</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/the-clash-of-private-hostel-owners-and-the-government-over-student-hostel-pricin.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20T00:00:00.000Z</news:publication_date>
+      <news:title>The Clash Of Private Hostel Owners And The Government Over Student Hostel Pricing.</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/kessben-group-founder-stephen-kwabena-boateng-reportedly-dead.html</loc>
     <news:news>
       <news:publication>
@@ -32,17 +54,6 @@
       </news:publication>
       <news:publication_date>2026-08-20T00:00:00.000Z</news:publication_date>
       <news:title>Ofankor Road Carnage: Calls Grow for ‘Aboboyas’ to Be Banned from Highways</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/mortuaries-and-funeral-facilities-agency-to-deploy-funeral-police-nationwide-to-.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-19T00:00:00.000Z</news:publication_date>
-      <news:title>Mortuaries and Funeral Facilities Agency to Deploy ‘Funeral Police’ Nationwide to Prevent Corpse Abuse</news:title>
     </news:news>
   </url>
   <url>

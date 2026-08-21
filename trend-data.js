@@ -9,6 +9,52 @@
 
 const TRENDING = [
     {
+    slug: "supreme-court-dismisses-oppong-nkrumah-s-injunction-application",
+    title: "Supreme Court Dismisses Oppong Nkrumah’s Injunction Application",
+    category: "National",
+    author: "Info Desk",
+    date: "August 21, 2026",
+    readTime: "2 min read",
+    image: "/Assets/kojo.jfif",
+    imageCaption: "Hon. Kojo Oppong Nkrumah",
+    excerpt: "The Supreme Court of Ghana has dismissed an injunction application filed by Ofoase-Ayirebi Member of Parliament, Kojo Oppong Nkrumah, seeking to halt selected criminal trials at the High Court during the ongoing legal vacation.",
+    tags: ["Hon. Kojo Oppong Nkrumah", "injunction application", "legal vacation"],
+    body: [
+      "<b>The Supreme Court of Ghana has dismissed an injunction application filed by Ofoase-Ayirebi Member of Parliament, Kojo Oppong Nkrumah, seeking to halt selected criminal trials at the High Court during the ongoing legal vacation.\n\nThe ruling was delivered on Friday, August 21, 2026, by Justice Gabriel Scott Pwamang, sitting as a single judge of the Supreme Court. The Court held that Mr Oppong Nkrumah had not established a sufficiently strong case to justify the granting of an interlocutory injunction.</b>",
+      "Ghana's legal vacation runs from August 1 to September 30, although certain courts may continue sitting to deal with specified matters under authorised arrangements.",
+      "Hon. Oppong Nkrumah had challenged the constitutionality of the Chief Justice's decision, arguing that the selective continuation of criminal trials during the vacation raised concerns about equality, fairness and the exercise of discretionary powers.",
+      "His lawyers also argued that continuing some trials could prejudice accused persons, particularly where their lawyers might be unavailable during the legal vacation. They maintained that proceedings could cause harm that might be difficult to remedy if the Chief Justice's directive was later found to be unconstitutional.",
+      "The State, represented by Deputy Attorney-General Dr Justice Srem-Sai, opposed the application.\n\nThe State argued that Oppong Nkrumah had failed to demonstrate the requirements necessary for an interlocutory injunction, including the likelihood of irreparable harm.\n\nIt further argued that the Chief Justice's warrant does not dictate how individual High Court judges should manage cases. Decisions on adjournments and the conduct of individual proceedings remain within the discretion of the respective judges.\n\nThe State also maintained that there is no general prohibition against High Court criminal trials being conducted during the legal vacation.",
+      "The Supreme Court's dismissal of the injunction does not bring the wider constitutional case to an end.\n\nOppong Nkrumah's substantive challenge to the validity of the Chief Justice's warrants remains pending before the Supreme Court. This means the Court is yet to make a final determination on the broader constitutional questions raised by the MP.",
+      "Following the ruling, Oppong Nkrumah indicated that he was considering seeking a review of the decision after obtaining and studying the certified copy of the ruling.\n\nFor now, the Supreme Court's decision means the affected High Court criminal trials can continue during the legal vacation while the substantive constitutional challenge remains before the Court."
+    ]
+  },
+  {
+    slug: "the-clash-of-private-hostel-owners-and-the-government-over-student-hostel-pricin",
+    title: "The Clash Of Private Hostel Owners And The Government Over Student Hostel Pricing.",
+    category: "Education & Housing",
+    author: "Jesse Mabery",
+    date: "August 20, 2026",
+    readTime: "3 min read",
+     image: "/Assets/r1.jpg",
+    imageCaption: "",
+    excerpt: "There is a major ongoing development in Ghana regarding rent and accommodation. A clash over student hostel pricing and Regulations as of mid-August 2026.",
+    tags: ["Student Hostel Pricing", "Government of Ghana", "KNUST", "Ghana Tourism Authority (GTA)", "Rent Act of 1963", "Rent Commissioner", "Koforidua Technical University", "Hostel Owners", "Rent Control Department", "Accommodation fees"],
+    body: [
+      "There is a major ongoing development in Ghana regarding rent and accommodation. A clash over student hostel pricing and Regulations as of mid-August 2026.\n​The core issue involves the Rent Control Department attempting to regulate and freeze accommodation fees for private student hostels, a move that has sparked strong pushback from hostel owners and support from student groups.",
+      "The Acting Rent Commissioner, Frederick Opoku, has initiated inspections of student hostels across the country, including areas around Koforidua Technical University and Sunyani. The department issued a directive, placing a temporary halt on any proposed increases in accommodation fees for the 2026/2027 academic year, so they bring in valuers to assess the right rental charges. They are also targeting unregistered facilities and infrastructures that have been illegally converted into student housing.",
+      "Private hostel operators, particularly the KNUST Hostel Owners Association led by Dr. Akwasi Owusu-Bi, are strongly challenging the legal basis of this crackdown. They argue that purpose-built student hostels do not fall under standard tenancy laws governed by the Rent Act of 1963, but instead, operate under licensing laws regulated by the Ghana Tourism Authority (GTA). They warn that enforcing price caps could discourage private investment and trigger a severe student housing crisis.",
+      "The Rent Act,1963 (Act 220), the Act regulating tenant-landlord relationships, rental rates, and evictions in Ghana. It establishes regulatory oversight through the Rent Control Department and specialized Rent Magistrates. Under Section 36 of Act 220, \"premises\", is broadly defined as\n​\"Any building, structure, stall or other erection or part thereof, moveable or otherwise, which is the subject of a separate letting... and land, outbuildings and appurtenances let together with the premises at a single rent.\" A dwelling given at a rate that includes payment for board or attendance; example - full-service hotel rooms or guest houses is explicitly  excluded from this definition and Buildings where the Government acts as landlord and rents to public servants by virtue of employment, or properties where the lease grants unbuilt land, are generally exempt.",
+      "Provisions of Act 220 include Advance Rent Restrictions. Landlords are prohibited from demanding or receiving more than six (6) months' advance rent for a tenancy agreement.",
+      "Another Provision in the Act is the Assessment of Recoverable Rent. Rents cannot be increased arbitrarily. Either party can apply to a Rent Officer to assess and fix the \"recoverable rent\" based on property value, local rates, maintenance expenses, and market comparisons.",
+      "Furthermore, in the Act, there is Protection against illegal Evictions. A landlord cannot forcibly eject a tenant, lock them out, or turn off utilities without a formal court order from a Rent Magistrate.",
+      "Statutory Tenancy Protection is if a fixed-term lease expires but the tenant remains on the property, they automatically become a statutory tenant and retain rights against arbitrary ejection until legal proceedings dictate otherwise.",
+      "Hostel owners, rely on the Tourism Act, 2011 (Act 817), alongside its subsidiary Tourism (Accommodation and Catering Enterprises) Regulations. \n​Hostel operators argue that purpose-built student hostels are commercial hospitality establishments rather than standard residential tenancies governed by the Rent Act of 1963.",
+      "The Tourism Act, 2011 (Act 817) under Section 25 and 26 of Act 817, the Ghana Tourism Authority (GTA) is legally mandated to register, inspect, classify, and license all \"tourism enterprises\" and accommodation facilities in Ghana. The Act explicitly lists hostels alongside hotels, guest houses, lodges, and serviced apartments as commercial accommodation.",
+      "The Key arguement - Hostel owners assert that because they must obtain an annual GTA Operating License, pay tourism levies, undergo safety hygiene standard inspections, and register as commercial hospitality providers, their business model is commercial rather than residential, therefore do not fall under the Act or legal basis that the Rent Control Department attempts to regulate and freeze accommodation fees for private student hostels."
+    ]
+  },
+    {
     slug: "kessben-group-founder-stephen-kwabena-boateng-reportedly-dead",
     title: "Kessben Group Founder Stephen Kwabena Boateng Reportedly Dead",
     category: "National",
