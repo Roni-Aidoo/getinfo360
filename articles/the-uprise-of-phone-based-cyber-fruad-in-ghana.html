@@ -234,7 +234,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 .comment-item .comment-meta{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
 
 /* ---------- SIDEBAR ---------- */
-.side-panel{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow); margin-bottom:24px; }
+.side-panel{ background:var(--surface); border-radius:var(--radius); padding:22px;  margin-bottom:24px; }
 .side-panel h3{ font-family:var(--font-display); font-size:1.15rem; margin-bottom:16px; }
 .side-panel h3 .region-label{ display:block; font-size:0.75rem; font-weight:500; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); text-transform:none; letter-spacing:0; }
 .side-more{ display:flex; align-items:center; gap:6px; font-size:0.85rem; font-weight:600; color:var(--brand); margin-top:14px; }
@@ -245,6 +245,14 @@ main{ padding-top:26px; padding-bottom:60px; }
 .trend-info .trend-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
 .recent-post{ display:flex; gap:14px; margin-bottom:16px; }
 .recent-post:last-child{ margin-bottom:0; }
+.side-panel h3{
+  font-family:var(--font-display);
+  font-size:1.15rem;
+  font-weight:800;
+  margin-bottom:16px;
+  padding-bottom:10px;
+  border-bottom:2px solid var(--ink);
+}
 
 /* ---------- NOT FOUND STATE ---------- */
 .not-found{ text-align:center; padding:80px 20px; }
@@ -387,7 +395,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
         <span class="category-badge" id="art-category">Category</span>
         <h1 id="art-title">Loading…</h1>
         <div class="article-meta">
-          <span class="author">By: <span id="art-author">—</span></span>
+          <span class="author">By:<span id="art-author">—</span></span>
           <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
           <span>|<span id="art-readtime">—</span></span>
           <span><i class="far fa-eye"></i> <span id="art-views">—</span> views</span>
@@ -450,7 +458,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
       </div>
 
       <div class="side-panel reveal">
-        <h3>Related Stories</h3>
+        <h3>Related Articles</h3>
         <div id="art-related"></div>
         <a class="side-more" href="../360.html">More articles <i class="fas fa-arrow-right"></i></a>
        
@@ -576,7 +584,7 @@ function escapeHTML(str){
 function renderBody(bodyArray){
   return bodyArray.map(item=>{
     if(item.startsWith('## ')){
-      return `<h2>${item.slice(3)}</h2>`;
+      return `<h3>${item.slice(3)}</h3>`;
     }
     if(item.startsWith('> ')){
       return `<blockquote>${item.slice(2)}</blockquote>`;
