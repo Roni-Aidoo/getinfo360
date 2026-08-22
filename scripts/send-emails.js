@@ -177,6 +177,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/Morning-Routine.webp" alt="Nurse Ann&apos;s Diary: Early Morning Healthy Tips You Probably Never Knew" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Nurse Ann&apos;s Diary: Early Morning Healthy Tips You Probably Never Knew</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">In today’s busy world, many of us wake up already thinking about the day’s responsibilities. From rushing to prepare the children for school, catching an early…</p>
+        <a href="https://getinfoonline.com/articles/nurse-anns-diary-early-morning-healthy-tips-you-probably-never-knew.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/wil.png" alt="Wilavis: A Rising Star in the World of Art" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -202,23 +219,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">CHASING AN UNQUALIFIED MISSION</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Our world is full of countless people who are pursuing unworthy and destructive assignments in the name of success. Some are so desperate to make money that th…</p>
         <a href="https://getinfoonline.com/articles/chasing-an-unqualified-mission.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-17 at 21.52.13.jpeg" alt="WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">WHEN LIFE HURTS: LEARNING TO LIVE WITH PAIN, PRESSURE AND PURPOSE</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Life presents us with many challenges. At different stages of our journey, we may find ourselves battling health related issues, dealing with career crises, na…</p>
-        <a href="https://getinfoonline.com/articles/when-life-hurts-learning-to-live-with-pain-pressure-and-purpose.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
