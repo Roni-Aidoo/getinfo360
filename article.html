@@ -753,6 +753,7 @@ function shareTo(network, e){
   e.preventDefault();
   const url = window.location.href;
   const title = document.getElementById('art-title').textContent || document.title;
+  const excerpt = document.getElementById('meta-description').getAttribute('content') || title;
   let shareUrl;
 
   switch(network){
@@ -763,7 +764,7 @@ function shareTo(network, e){
       shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`;
       break;
     case 'whatsapp':
-      shareUrl = `https://wa.me/?text=${encodeURIComponent(title + ' ' + url)}`;
+      shareUrl = `https://wa.me/?text=${encodeURIComponent(excerpt + ' ' + url)}`;
       break;
     case 'linkedin':
       shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
@@ -773,7 +774,6 @@ function shareTo(network, e){
   }
   window.open(shareUrl, '_blank', 'noopener,noreferrer,width=600,height=520');
 }
-
 function toggleComments(){
   document.getElementById('comment-panel').classList.toggle('open');
 }

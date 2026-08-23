@@ -36,6 +36,18 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/news/china-postpones-chang-e-7-moon-mission-in-search-for-water-ice.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/belgian-car-salesman-becomes-prince-at-26-after-dna-test-confirms-royal-lineage.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/supreme-court-dismisses-oppong-nkrumah-s-injunction-application.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -392,6 +404,12 @@
   <url>
     <loc>https://getinfoonline.com/news/all-you-need-to-know-about-abutricas-extradition.html</loc>
     <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/be-patriotic.html</loc>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

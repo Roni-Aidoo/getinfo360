@@ -9,6 +9,48 @@
 
 const TRENDING = [
     {
+    slug: "china-postpones-chang-e-7-moon-mission-in-search-for-water-ice",
+    title: "China Postpones Chang’e-7 Moon Mission in Search for Water Ice",
+    category: "International",
+    author: "CNN News Source",
+    date: "August 23, 2026",
+    readTime: "2 min read",
+    image: "/Assets/china.jpg",
+    imageCaption: "Credit: CNN ",
+    excerpt: "China has postponed the launch of its ambitious Chang’e-7 lunar mission, which was designed to search for water ice at the Moon’s south pole, one of the most strategically important regions in the growing international race to explore the Moon.",
+    tags: ["China", "Chang’e-7 lunar mission", "Science"],
+    body: [
+      "<b>China has postponed the launch of its ambitious Chang’e-7 lunar mission, which was designed to search for water ice at the Moon’s south pole, one of the most strategically important regions in the growing international race to explore the Moon.</b>",
+      "The mission was scheduled to launch during a window in August 2026, but China’s space authorities announced that it would not take place during the planned window this year. The announcement followed an assessment that the mission did not meet the required launch conditions. A new launch date has not yet been officially confirmed.",
+      "Chang’e-7 is one of China’s most ambitious robotic lunar missions. It is designed to investigate the Moon’s south pole, particularly areas around permanently shadowed craters where scientists believe water ice could have survived for billions of years.\n\nThe mission is expected to use a combination of an orbiter, lander, rover and a small hopping probe to study the lunar surface and search for signs of water ice. The hopping probe is particularly important because it is designed to explore difficult areas that conventional rovers may not be able to reach.",
+      "Finding significant amounts of lunar water could have enormous implications for future space exploration.\n\nWater could potentially be used not only for drinking but also separated into hydrogen and oxygen, which could provide fuel and support future human missions. This makes the Moon’s south pole a major target for both scientific research and future lunar settlements.\n\nChina is not alone in its interest. The United States and other space powers are also developing missions aimed at exploring the lunar south pole and determining how useful its resources could be for future human activity.",
+      "The postponement comes as China and the United States pursue increasingly ambitious plans for the Moon.\n\nChina has announced plans to send astronauts to the lunar surface before 2030, while NASA's Artemis programme is working toward establishing a sustained human presence around and eventually on the Moon. The findings from Chang’e-7 could therefore play an important role in China’s longer-term lunar ambitions.",
+      "Although the delay is a setback, it does not signal the end of the mission. Chinese authorities have not provided a definitive new launch date, and reports suggest the mission could potentially move into 2027 depending on launch conditions and scheduling.",
+      "For now, the Moon’s south pole remains one of the most closely watched destinations in space exploration, with the discovery and use of water ice potentially shaping the future of humanity’s presence beyond Earth."
+    ]
+  },
+    {
+    slug: "belgian-car-salesman-becomes-prince-at-26-after-dna-test-confirms-royal-lineage",
+    title: "Belgian Car Salesman Becomes Prince at 26 After DNA Test Confirms Royal Lineage",
+    category: "International",
+    author: "CNN News Source",
+    date: "August 23, 2026",
+    readTime: "2 min read",
+    image: "/Assets/prince.jpg",
+    imageCaption: "Clément Vandenkerckhove",
+    excerpt: "A 26-year-old Belgian former car salesman has unexpectedly become a prince after being formally recognised as the son of Prince Laurent, the younger brother of Belgium’s King Philippe.",
+    tags: ["Belgian former car salesman", "Prince Laurent", "Belgium’s King Philippe"],
+    body: [
+      "<b>A 26-year-old Belgian former car salesman has unexpectedly become a prince after being formally recognised as the son of Prince Laurent, the younger brother of Belgium’s King Philippe.\n\nClément Vandenkerckhove was legally recognised as Prince Laurent’s son following a DNA test that reportedly showed a 99.5 per cent match, confirming his biological connection to the Belgian royal family. The recognition was completed quietly at a town hall ceremony about six months ago, with details only becoming public this week.</b>",
+      "Vandenkerckhove was born in August 2000 to Belgian singer and former model Iris Vandenkerckhove, popularly known as Wendy Van Wanten. His mother had reportedly been in a relationship with Prince Laurent in the 1990s, before Laurent married Princess Claire in 2003.",
+      "For much of his childhood, Vandenkerckhove did not know the identity of his biological father. His mother reportedly revealed to him that Prince Laurent was his father when he was 16. Four years later, he contacted the prince, eventually leading to a DNA test that confirmed their biological relationship.",
+      "The recognition now gives Vandenkerckhove equal inheritance rights to Prince Laurent’s private estate alongside Laurent’s three other children — Princess Louise and twins Prince Nicolas and Prince Aymeric.\n\nHowever, his new royal status does not mean he will enjoy all the privileges associated with senior members of the Belgian monarchy. He will not receive a state-funded royal allowance, is not expected to perform official royal duties and has no place in the line of succession to the Belgian throne.",
+      "Despite his new title, Vandenkerckhove has indicated that he may continue using his mother’s surname rather than adopting the royal Saxe-Coburg name. He has reportedly expressed pride in the Vandenkerckhove family name and the role his mother played in raising him.\n\nHis story has attracted significant attention because of its remarkable transformation — from working in the car industry to officially becoming a member of Belgium’s royal family at the age of 26.",
+      "The development also echoes the story of Princess Delphine, another member of the Belgian royal family who gained royal status after being legally recognised as the daughter of former King Albert II in 2020.",
+      "For Vandenkerckhove, however, the royal title appears to be only one part of a much more personal development: establishing a relationship with a father whose identity remained a secret for much of his early life."
+    ]
+  },
+    {
     slug: "supreme-court-dismisses-oppong-nkrumah-s-injunction-application",
     title: "Supreme Court Dismisses Oppong Nkrumah’s Injunction Application",
     category: "National",

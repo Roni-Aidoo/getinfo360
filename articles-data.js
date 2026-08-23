@@ -9,6 +9,33 @@
 
 const ARTICLES = [
     {
+    slug: "be-patriotic",
+    title: "BE PATRIOTIC!",
+    category: "National",
+    author: "Rev. Dr. Patrick Owusu",
+    date: "August 23, 2026",
+    readTime: "2 min read",
+    image: "/Assets/WhatsApp Image 2026-08-23 at 21.03.04.jpeg",
+    imageCaption: "Credit: Rev. Dr. Patrick Owusu",
+    excerpt: "Nations that achieve remarkable progress across all sectors of society are those that have firmly anchored themselves in patriotism.",
+    tags: ["Pastor Patrick Owusu", "patriotism", "Ghana"],
+     body: [
+      "<b>Nations that achieve remarkable progress across all sectors of society are those that have firmly anchored themselves in patriotism. Their success is not accidental, but the result of a deep sense of national pride and responsibility shared among their citizens. Such countries thrive because their people are committed to a collective vision that places the nation above personal interest.\n</b>",
+      "In my view, patriotism is the genuine love for one’s country, expressed through a willingness to give one’s very best towards its growth and development. It rises above the narrow lens of party politics and focuses instead on what benefits the nation as a whole.",
+      "A patriotic citizen acts not out of bias, but out of a sincere desire to see the country prosper.",
+      "Patriotism also involves WISHING ANY SITTING GOVERNMENT well while OFFERING CONSTRUCTIVE CRITICISM WHERE NECESSARY.",
+      "> True patriots do not merely complain; they PROVIDE THOUGHTFUL SUGGESTIONS THAT HELP LEADERS BECOME MORE EFFECTIVE and ACCOUNTABLE. In doing so, they contribute meaningfully to good governance and national development.",
+      "Furthermore, patriotism requires turning away from social vices and pursuing honest means of livelihood. It is about securing decent employment, paying taxes faithfully, and contributing to the well-being of one’s family and society. Such actions strengthen the economic foundation of the nation and promote stability.",
+      "In addition, patriotism means refusing to engage in destructive behaviours that harm the community. It is not following SOCIAL MISCREANTS to VANDALISE PUBLIC PROPERTY, such as CUTTING WIRES meant for STREET LIGHTING and plunging communities into darkness.",
+      "## A patriotic individual protects and preserves what benefits the collective good.",
+      "To me, patriotism also involves thinking about the FUTURE of the NATION. It means refusing to associate with individuals who destroy markets or set fire to places of national importance. Such actions do not only damage property but also undermine the progress and security of the country.",
+      "Patriotism is equally reflected in personal discipline and respect for public spaces. It means REFRAINING from INDECENT ACTS SUCH AS URINATING BY THE ROADSIDE. It also involves maintaining CLEANLINESS by AVOIDING LITTERING and properly disposing of waste, rather than THROWING REFUSE into GUTTERS and POLLUTING THE ENVIRONMENT.",
+      "<b>Wise </b>citizens understand that their actions today shape the future of the next generation. Therefore, they act responsibly, knowing that a clean, safe, and orderly environment benefits everyone.",
+      "Patriotism, in this sense, becomes a legacy we build for those who will come after us.\n\nEach day, let us ask ourselves what we can contribute to make Ghana a better nation. Our focus should not be on advancing political interests, but on promoting national development and unity.",
+      "When every citizen embraces this mindset, the nation will undoubtedly move forward."
+    ]
+  },
+    {
     slug: "nurse-anns-diary-early-morning-healthy-tips-you-probably-never-knew",
     title: "Nurse Ann's Diary: Early Morning Healthy Tips You Probably Never Knew",
     category: "Health",
