@@ -9,6 +9,27 @@
 
 const TRENDING = [
     {
+    slug: "afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion",
+    title: "Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims",
+    category: "National",
+    author: "Info Desk",
+    date: "August 24, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-08-24 at 19.24.37.jpeg",
+    imageCaption: "Lawyer Sammy Gyamfi & Lawyer Alexander Afenyo-Markin",
+    excerpt: "Minority Leader in Parliament, Alexander Afenyo-Markin, has initiated legal action against Ghana Gold Board (GoldBod) Chief Executive Officer, Sammy Gyamfi, over statements he describes as false and defamatory.",
+    tags: ["Minority Leader in Parliament", "Alexander Afenyo-Markin", "Ghana Gold Board (GoldBod) Chief Executive Officer", "Sammy Gyamfi"],
+    body: [
+      "<b>Minority Leader in Parliament, Alexander Afenyo-Markin, has initiated legal action against Ghana Gold Board (GoldBod) Chief Executive Officer, Sammy Gyamfi, over statements he describes as false and defamatory.\n\nThe Effutu Member of Parliament announced the legal action on the floor of Parliament on Monday, August 24, 2026, following an escalating public dispute between the two politicians.</b>",
+      "The controversy centres on allegations that Afenyo-Markin attempted to extort money from Sammy Gyamfi. Gyamfi has described the Minority Leader as an “extortionist” in the course of a public dispute over the operations of GoldBod and concerns surrounding a reported US$1.7 billion loss recorded by the Bank of Ghana in 2025 under the gold purchase programme.",
+      "Afenyo-Markin has strongly rejected the allegations and has now turned to the courts, arguing that the claims have damaged his reputation.\n\nAccording to reports on the writ, the case names Sammy Gyamfi and the Multimedia Group Limited before the Accra High Court. A separate action at the Achimota Circuit Court involves Eric Adjei and Peace FM.",
+      "The legal action therefore brings four defendants into the dispute—Sammy Gyamfi, an NDC official identified in reports as Eric Adjei, and two media organisations accused of publishing or broadcasting the statements at the centre of the controversy.",
+      "The dispute has generated significant political debate, particularly because the allegations involve senior public officials and relate to claims of attempted financial demands and the use of public commentary to pressure political opponents.",
+      "Afenyo-Markin has maintained that the allegations against him must be properly substantiated. The development also places the focus on the courts to determine whether the statements complained of were defamatory and whether the defendants can establish any lawful defence.",
+      "The case is expected to attract considerable public attention as both sides prepare to present their respective positions before the courts."
+    ]
+  },
+    {
     slug: "china-postpones-chang-e-7-moon-mission-in-search-for-water-ice",
     title: "China Postpones Chang’e-7 Moon Mission in Search for Water Ice",
     category: "International",

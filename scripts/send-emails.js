@@ -67,6 +67,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-24 at 19.24.37.jpeg" alt="Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Minority Leader in Parliament, Alexander Afenyo-Markin, has initiated legal action against Ghana Gold Board (GoldBod) Chief Executive Officer, Sammy Gyamfi, ov…</p>
+        <a href="https://getinfoonline.com/news/afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/china.jpg" alt="China Postpones Chang’e-7 Moon Mission in Search for Water Ice" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -92,23 +109,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Belgian Car Salesman Becomes Prince at 26 After DNA Test Confirms Royal Lineage</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A 26-year-old Belgian former car salesman has unexpectedly become a prince after being formally recognised as the son of Prince Laurent, the younger brother of…</p>
         <a href="https://getinfoonline.com/news/belgian-car-salesman-becomes-prince-at-26-after-dna-test-confirms-royal-lineage.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/kojo.jfif" alt="Supreme Court Dismisses Oppong Nkrumah’s Injunction Application" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Supreme Court Dismisses Oppong Nkrumah’s Injunction Application</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Supreme Court of Ghana has dismissed an injunction application filed by Ofoase-Ayirebi Member of Parliament, Kojo Oppong Nkrumah, seeking to halt selected…</p>
-        <a href="https://getinfoonline.com/news/supreme-court-dismisses-oppong-nkrumah-s-injunction-application.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-23 at 21.03.04.jpeg" alt="BE PATRIOTIC!" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/galamsey.jfif" alt="Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">BE PATRIOTIC!</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Nations that achieve remarkable progress across all sectors of society are those that have firmly anchored themselves in patriotism.</p>
-        <a href="https://getinfoonline.com/articles/be-patriotic.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Illegal mining, popularly known in Ghana as galamsey, has become one of the country&apos;s most pressing environmental and socio-economic challenges. In the Ahafo R…</p>
+        <a href="https://getinfoonline.com/articles/ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -160,14 +160,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Morning-Routine.webp" alt="Nurse Ann&apos;s Diary: Early Morning Healthy Tips You Probably Never Knew" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-23 at 21.03.04.jpeg" alt="BE PATRIOTIC!" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Nurse Ann&apos;s Diary: Early Morning Healthy Tips You Probably Never Knew</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">In today’s busy world, many of us wake up already thinking about the day’s responsibilities. From rushing to prepare the children for school, catching an early…</p>
-        <a href="https://getinfoonline.com/articles/nurse-anns-diary-early-morning-healthy-tips-you-probably-never-knew.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">BE PATRIOTIC!</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Nations that achieve remarkable progress across all sectors of society are those that have firmly anchored themselves in patriotism.</p>
+        <a href="https://getinfoonline.com/articles/be-patriotic.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

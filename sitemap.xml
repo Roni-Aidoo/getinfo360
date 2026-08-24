@@ -36,6 +36,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/news/afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/china-postpones-chang-e-7-moon-mission-in-search-for-water-ice.html</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,6 +410,12 @@
   <url>
     <loc>https://getinfoonline.com/news/all-you-need-to-know-about-abutricas-extradition.html</loc>
     <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

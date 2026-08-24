@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24T00:00:00.000Z</news:publication_date>
+      <news:title>Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/china-postpones-chang-e-7-moon-mission-in-search-for-water-ice.html</loc>
     <news:news>
       <news:publication>
@@ -24,6 +35,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://getinfoonline.com/articles/ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24T00:00:00.000Z</news:publication_date>
+      <news:title>Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/articles/be-patriotic.html</loc>
     <news:news>
       <news:publication>
@@ -32,17 +54,6 @@
       </news:publication>
       <news:publication_date>2026-08-23T00:00:00.000Z</news:publication_date>
       <news:title>BE PATRIOTIC!</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/nurse-anns-diary-early-morning-healthy-tips-you-probably-never-knew.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-22T00:00:00.000Z</news:publication_date>
-      <news:title>Nurse Ann&apos;s Diary: Early Morning Healthy Tips You Probably Never Knew</news:title>
     </news:news>
   </url>
 </urlset>
