@@ -67,6 +67,40 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/nacoc.jfif" alt="Seven Arrested in Intelligence-Led Narcotics Operations in Ashanti Region" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Seven Arrested in Intelligence-Led Narcotics Operations in Ashanti Region</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Inspector-General of Police (IGP) Special Operations Team (SOT) has arrested seven persons in separate intelligence-led operations targeting suspected narc…</p>
+        <a href="https://getinfoonline.com/news/seven-arrested-in-intelligence-led-narcotics-operations-in-ashanti-region.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/GES.jfif" alt="GES Activates WAEC Portal for 2026 School Placement Exercise" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GES Activates WAEC Portal for 2026 School Placement Exercise</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Education Service (GES) has announced the activation of the West African Examinations Council (WAEC) portal for the online capturing and uploading of…</p>
+        <a href="https://getinfoonline.com/news/ges-activates-waec-portal-for-2026-school-placement-exercise.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-24 at 19.24.37.jpeg" alt="Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -75,40 +109,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Minority Leader in Parliament, Alexander Afenyo-Markin, has initiated legal action against Ghana Gold Board (GoldBod) Chief Executive Officer, Sammy Gyamfi, ov…</p>
         <a href="https://getinfoonline.com/news/afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/china.jpg" alt="China Postpones Chang’e-7 Moon Mission in Search for Water Ice" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">China Postpones Chang’e-7 Moon Mission in Search for Water Ice</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">China has postponed the launch of its ambitious Chang’e-7 lunar mission, which was designed to search for water ice at the Moon’s south pole, one of the most s…</p>
-        <a href="https://getinfoonline.com/news/china-postpones-chang-e-7-moon-mission-in-search-for-water-ice.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/prince.jpg" alt="Belgian Car Salesman Becomes Prince at 26 After DNA Test Confirms Royal Lineage" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Belgian Car Salesman Becomes Prince at 26 After DNA Test Confirms Royal Lineage</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A 26-year-old Belgian former car salesman has unexpectedly become a prince after being formally recognised as the son of Prince Laurent, the younger brother of…</p>
-        <a href="https://getinfoonline.com/news/belgian-car-salesman-becomes-prince-at-26-after-dna-test-confirms-royal-lineage.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

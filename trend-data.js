@@ -9,6 +9,47 @@
 
 const TRENDING = [
     {
+    slug: "seven-arrested-in-intelligence-led-narcotics-operations-in-ashanti-region",
+    title: "Seven Arrested in Intelligence-Led Narcotics Operations in Ashanti Region",
+    category: "Crime",
+    author: "Info Desk",
+    date: "August 25, 2026",
+    readTime: "1 min read",
+    image: "/Assets/nacoc.jfif",
+    imageCaption: "Credit: Ghana Police Service",
+    excerpt: "The Inspector-General of Police (IGP) Special Operations Team (SOT) has arrested seven persons in separate intelligence-led operations targeting suspected narcotics-related activities in the Ashanti Region.",
+    tags: ["Inspector-General of Police (IGP)", "Special Operations Team (SOT)", "seven persons", "narcotics-related activities", "Ashanti Region."],
+    body: [
+      "<b>The Inspector-General of Police (IGP) Special Operations Team (SOT) has arrested seven persons in separate intelligence-led operations targeting suspected narcotics-related activities in the Ashanti Region.</b>",
+      "The operations were conducted on Thursday, August 20, 2026, at Ejisu, Abrepo Junction and Atimatim, following intelligence gathered by the Police on suspected narcotics activities in the areas.\n\nAt Ejisu, the Police arrested 43-year-old Nana Kwadwo Adu and 48-year-old Nana Kwame Fella.",
+      "Four other suspects — 23-year-old Stephanie Anokye, 20-year-old Roland Anokye, 30-year-old Gideon Owusu and 27-year-old Grace Fosua — were arrested at Abrepo Junction.\n\nAt Atimatim, the team arrested 27-year-old Kofi Opoku, who the Police said was suspected of peddling narcotic substances and had allegedly evaded arrest on previous occasions.",
+      "During the operations, the Police recovered quantities of pill pouches containing dried leaves suspected to be narcotic substances. Officers also seized quantities of Tramaking 225mg and 250mg, Royal 255mg and Rophynol 100mg.",
+      "A total of 860 Tramadol tablets and capsules suspected to be unregistered drugs were also recovered, alongside an unspecified amount of Ghanaian currency.\n\nThe seven suspects are currently in Police custody and are assisting with investigations.",
+      "According to the Police, the investigations will focus on determining the source of the suspected substances, establishing the extent of the suspects’ alleged involvement and identifying other persons who may be connected to the activities.",
+      "The Ashanti Regional Police Command has urged the public to continue providing credible information to assist security agencies in tackling narcotics-related activities and other criminal offences in the region."
+    ]
+  },
+    {
+    slug: "ges-activates-waec-portal-for-2026-school-placement-exercise",
+    title: "GES Activates WAEC Portal for 2026 School Placement Exercise",
+    category: "Education",
+    author: "Info Desk",
+    date: "August 25, 2026",
+    readTime: "2 min read",
+    image: "/Assets/GES.jfif",
+    imageCaption: "Logo of the Ghana Education Service",
+    excerpt: "The Ghana Education Service (GES) has announced the activation of the West African Examinations Council (WAEC) portal for the online capturing and uploading of candidates’ school selection data ahead of the 2026 Computerised School Selection and Placement System (CSSPS) exercise.",
+    tags: ["Ghana Education Service (GES)", "West African Examinations Council (WAEC)", "online capturing and uploading of candidates’ school selection", "Computerised School Selection", "Placement System (CSSPS) exercise"],
+    body: [
+      "<b>The Ghana Education Service (GES) has announced the activation of the West African Examinations Council (WAEC) portal for the online capturing and uploading of candidates’ school selection data ahead of the 2026 Computerised School Selection and Placement System (CSSPS) exercise.</b>",
+      "According to the GES, the portal opened on Monday, August 24, 2026, and will remain available until Thursday, August 27, 2026, for Heads of Junior High Schools (JHSs) to submit the school choices of eligible candidates.\n\nThe exercise forms part of preparations for the placement of 2026 BECE candidates into Senior High Schools, Senior High Technical Schools and other participating institutions under the CSSPS.",
+      "GES has directed headteachers who have not yet completed the uploading of candidates’ school choices on the CSSPS portal for pre-testing to do so and subsequently capture and upload the relevant data on the WAEC portal within the stipulated period.\n\nThe Service has also highlighted a feature of the WAEC portal that allows the same school identification number and password to be used simultaneously on multiple computers. This, according to GES, will enable schools with large numbers of candidates to work on the data concurrently and help speed up the process.",
+      "Metro, Municipal and District Directors of Education, together with Examination Coordinators, have been tasked to closely supervise the exercise and ensure that the information of all eligible candidates is properly captured, verified and submitted before the deadline. Regional Directors have also been instructed to communicate the directive to all relevant schools and ensure compliance.",
+      "The GES has stressed the importance of completing the exercise within the four-day window, as the accurate submission of candidates’ school choices is a key step toward the successful implementation of the 2026 placement exercise.",
+      "The latest development comes after changes to the school selection process for 2026, including an increase in the number of schools candidates are expected to select from seven to eight."
+    ]
+  },
+    {
     slug: "afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion",
     title: "Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims",
     category: "National",
