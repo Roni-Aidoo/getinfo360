@@ -9,6 +9,27 @@
 
 const TRENDING = [
     {
+    slug: "legendary-country-music-icon-dolly-parton-dies-at-80",
+    title: "Legendary Country Music Icon Dolly Parton Dies at 80",
+    category: "International",
+    author: "Info Desk",
+    date: "August 25, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Dolly Patron.jfif",
+    imageCaption: "Dolly Parton",
+    excerpt: "Legendary American country music singer, songwriter, actress and philanthropist Dolly Parton has died at the age of 80.",
+    tags: ["Dolly Parton", "American Singer"],
+    body: [
+      "<b>Legendary American country music singer, songwriter, actress and philanthropist Dolly Parton has died at the age of 80.\n\nParton passed away peacefully in Nashville, Tennessee, on Tuesday, August 25, 2026, according to a statement from her publicist and an announcement by her family.</b>",
+      "The death of the beloved music icon marks the end of a remarkable career that spanned more than six decades. Parton rose from humble beginnings in rural Tennessee to become one of the most celebrated and influential figures in country music.",
+      "She was renowned for timeless songs including “Jolene,” “I Will Always Love You,” “9 to 5,” and “Coat of Many Colors.” Her songwriting became a defining part of her legacy, with her works recorded and performed by artists around the world. Whitney Houston’s hugely successful version of “I Will Always Love You” further cemented Parton’s reputation as an exceptional songwriter.",
+      "Beyond music, Parton enjoyed a successful acting career, appearing in films including 9 to 5 and Steel Magnolias. She also became a successful businesswoman and philanthropist, most notably through Dollywood and her Imagination Library literacy initiative, which has provided millions of books to children.",
+      "Throughout her career, Parton received numerous honours, including multiple Grammy Awards and induction into the Country Music Hall of Fame. Her distinctive voice, songwriting talent, humour and generosity made her a cultural icon whose influence extended far beyond country music.",
+      "Her passing has sparked an outpouring of tributes from fellow musicians, actors and public figures, many of whom have remembered her for her extraordinary talent, kindness and lasting contribution to music and society.",
+      "Dolly Parton leaves behind a musical legacy that has touched generations. Her songs, films and charitable work are expected to continue inspiring audiences around the world for years to come."
+    ]
+  },
+    {
     slug: "seven-arrested-in-intelligence-led-narcotics-operations-in-ashanti-region",
     title: "Seven Arrested in Intelligence-Led Narcotics Operations in Ashanti Region",
     category: "Crime",
