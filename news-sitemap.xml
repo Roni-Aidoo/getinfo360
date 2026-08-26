@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/government-declines-mtn-s-gh-20-million-offer-for-ghanaian-victims-of-south-afri.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26T00:00:00.000Z</news:publication_date>
+      <news:title>Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/legendary-country-music-icon-dolly-parton-dies-at-80.html</loc>
     <news:news>
       <news:publication>
@@ -32,28 +43,6 @@
       </news:publication>
       <news:publication_date>2026-08-25T00:00:00.000Z</news:publication_date>
       <news:title>GES Activates WAEC Portal for 2026 School Placement Exercise</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/afenyo-markin-sues-sammy-gyamfi-ndc-official-and-two-media-houses-over-extortion.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24T00:00:00.000Z</news:publication_date>
-      <news:title>Afenyo-Markin Sues Sammy Gyamfi, NDC Official and Two Media Houses Over ‘Extortionist’ Claims</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24T00:00:00.000Z</news:publication_date>
-      <news:title>Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth</news:title>
     </news:news>
   </url>
 </urlset>

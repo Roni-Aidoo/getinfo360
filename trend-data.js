@@ -9,6 +9,28 @@
 
 const TRENDING = [
     {
+    slug: "government-declines-mtn-s-gh-20-million-offer-for-ghanaian-victims-of-south-afri",
+    title: "Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks",
+    category: "National",
+    author: "Info Desk",
+    date: "August 26, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Samuel-Okudzeto-Ablakwa-Foreign-Minister.jpg",
+    imageCaption: "Hon. Samuel Okudzeto Ablakwa -Foreign-Minister.",
+    excerpt: "The Government of Ghana has respectfully declined a GH¢20 million support offer from MTN Ghana intended to assist Ghanaians affected by recent xenophobic attacks in South Africa.",
+    tags: ["GH¢20 million support offer", "MTN Ghana", "xenophobic attacks", "South Africa"],
+    body: [
+      "<b>The Government of Ghana has respectfully declined a GH¢20 million support offer from MTN Ghana intended to assist Ghanaians affected by recent xenophobic attacks in South Africa.</b>",
+      "The Ministry of Foreign Affairs, in a statement issued on Wednesday, August 26, 2026, said the government appreciated MTN’s gesture but had already made adequate financial arrangements to support the evacuation and reintegration of affected Ghanaian nationals.",
+      "> “The Government of Ghana commends MTN for the offer, however, we respectfully decline,” the Ministry stated.",
+      "The GH¢20 million commitment was announced by MTN Ghana Board Chairman, Dr Ishmael Yamson, as part of efforts to help Ghanaian returnees rebuild their livelihoods after fleeing xenophobic violence in South Africa.\n\nAccording to Dr Yamson, the initiative was intended to go beyond immediate relief and provide longer-term assistance to help affected Ghanaians restart their lives and businesses. MTN had initially set aside GH¢10 million but later doubled the amount to GH¢20 million after assessing the scale of the situation.",
+      "The Ministry of Foreign Affairs said the government’s decision had already been communicated to Dr Yamson and the Chief Executive Officer of MTN Ghana during their meeting with Foreign Affairs Minister Samuel Okudzeto Ablakwa on August 14, 2026.\n\nThe government has been undertaking an evacuation exercise for Ghanaians affected by the violence, with more than 1,000 nationals evacuated from South Africa. It has also introduced financial support measures to facilitate the reintegration of returnees into Ghanaian society.",
+      "The Ministry further assured the public that the government remained committed to providing humanitarian and financial support to Ghanaians brought back from harm’s way. It also indicated that details of expenditure related to the evacuation exercise would be made available after the exercise is completed.",
+      "The decision to decline MTN’s offer comes as Ghana continues to address the humanitarian consequences of renewed xenophobic attacks in South Africa, which have forced several Ghanaian nationals to return home."
+    ]
+  },
+
+    {
     slug: "legendary-country-music-icon-dolly-parton-dies-at-80",
     title: "Legendary Country Music Icon Dolly Parton Dies at 80",
     category: "International",
