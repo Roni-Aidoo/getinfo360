@@ -67,6 +67,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/20260826_154724.jpg" alt="Veteran Ghanaian Actress Grace Nortey Dies at 89" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Veteran Ghanaian Actress Grace Nortey Dies at 89</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s entertainment industry has been thrown into mourning following the reported death of veteran actress Grace Nortey.</p>
+        <a href="https://getinfoonline.com/news/veteran-ghanaian-actress-grace-nortey-dies-at-89.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/Samuel-Okudzeto-Ablakwa-Foreign-Minister.jpg" alt="Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -92,23 +109,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Legendary Country Music Icon Dolly Parton Dies at 80</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Legendary American country music singer, songwriter, actress and philanthropist Dolly Parton has died at the age of 80.</p>
         <a href="https://getinfoonline.com/news/legendary-country-music-icon-dolly-parton-dies-at-80.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/nacoc.jfif" alt="Seven Arrested in Intelligence-Led Narcotics Operations in Ashanti Region" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Seven Arrested in Intelligence-Led Narcotics Operations in Ashanti Region</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Inspector-General of Police (IGP) Special Operations Team (SOT) has arrested seven persons in separate intelligence-led operations targeting suspected narc…</p>
-        <a href="https://getinfoonline.com/news/seven-arrested-in-intelligence-led-narcotics-operations-in-ashanti-region.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

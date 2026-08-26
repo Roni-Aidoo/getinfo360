@@ -9,6 +9,27 @@
 
 const TRENDING = [
     {
+    slug: "veteran-ghanaian-actress-grace-nortey-dies-at-89",
+    title: "Veteran Ghanaian Actress Grace Nortey Dies at 89",
+    category: "National",
+    author: "Info Desk",
+    date: "August 26, 2026",
+    readTime: "1 min read",
+    image: "/Assets/20260826_154724.jpg",
+    imageCaption: "Madam Grace Nortey",
+    excerpt: "Ghana’s entertainment industry has been thrown into mourning following the reported death of veteran actress Grace Nortey.",
+    tags: ["Grace Nortey", "entertainment industry"],
+    body: [
+      "<b>Ghana’s entertainment industry has been thrown into mourning following the reported death of veteran actress Grace Nortey.\n\nThe celebrated actress reportedly passed away at the University of Ghana Medical Centre (UGMC) in the early hours of Wednesday, August 26, 2026. She was 89 years old.</b>",
+      "Born on February 1, 1937, Grace Nortey built a remarkable career spanning more than five decades, becoming one of the respected figures in Ghanaian theatre, television and film.\n\nShe was particularly known for portraying strong-willed, outspoken and authoritative maternal characters. Her performances often tackled issues surrounding social injustice, traditional practices, patriarchy and family struggles, earning her a special place among Ghana’s veteran performers.",
+      "Nortey featured in several notable productions, including Matters of the Heart, Sinking Sands, Ties That Bind and the internationally acclaimed 2015 film Beasts of No Nation.",
+      "Her contribution to Ghana’s creative arts industry earned her several honours, including a Lifetime Achievement Award at the Black Star International Film Festival and other industry recognitions.",
+      "In February 2026, Grace Nortey celebrated her 89th birthday, with images of the veteran actress resurfacing online and attracting warm reactions from fans who praised her contribution to Ghanaian cinema.\n\nShe is survived by five children, including actress Sheila Nortey, who followed in her mother's footsteps into the acting profession.",
+      "The reported passing of Grace Nortey marks the loss of one of the pioneering figures whose work helped shape Ghana’s film and theatre landscape. Her memorable performances and decades of dedication to the arts will remain part of the country’s entertainment history.",
+      "May her soul rest in peace."
+    ]
+  },
+    {
     slug: "government-declines-mtn-s-gh-20-million-offer-for-ghanaian-victims-of-south-afri",
     title: "Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks",
     category: "National",
