@@ -8,6 +8,27 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "the-toll-on-ghanaian-parents-worried-about-the-opening-of-the-portal-for-shs-pla",
+    title: "The Toll On Ghanaian Parents: Worried About The Opening Of The Portal For Shs Placement.",
+    category: "Article",
+    author: "Jesse Mabery",
+    date: "August 26, 2026",
+    readTime: "2 min read",
+    image: "/Assets/SHS-placement.jpg",
+    imageCaption: "",
+    excerpt: "The surprising anxiety of Ghanaian parents and Ghanaian wards...",
+    tags: ["Ghana Education Service (GES)", "WAEC", "Ghana", "Senior High schools (SHS)", "Placement Portal", "Computerised School Selection and Placement System (CSSPS)", "Basic Education Certificate Examination (BECE)"],
+    body: [
+      "The surprising anxiety of Ghanaian parents and Ghanaian wards stem from a few core issues:",
+      "Firstly, Tight Deadlines, the Ghana Education Service (GES) require all candidate data. Parents and School Authorities often express concerns about brief time frames to do what is required. As a result, the Ghana Education Service end up having errors in the candidate data-entry for school selection. The Senior High School placement process is managed jointly via West African Examination Council (WAEC) and the Computerised School Selection and Placement System (CSSPS). This Computerised School Selection and Placement System (CSSPS) also uses these errors in the candidate data to make out the school selection and placement of each candidate. This creates intense fear for Ghanaian Parents and their wards.",
+      "Secondly, the change in the selection process. The change from selecting schools before taking the Basic Education Certificate Examination (BECE) to selecting schools after the examination has left parents confused; everything hangs in the performance of their wards. And school authorities concerns about short periods causing errors in the candidate data leaves Ghanaian parents and their wards at crossroads.",
+      "Thirdly, adding to the confusion of Ghanaian parents about school selection, the experience in server downtime, slow loading speeds and error messages of the Portal as experienced in the past leaves them uneasy. The previous placement cycles such as 2025, Ghana Education Service (GES) had to briefly suspend and reactivate the portal to fix technical glitches.",
+      "Lastly, Ghanaian parents receive information from third parties who claim can manipulate the results of their wards no matter the circumstances, to place them in schools; erasing their doubts of their wards being among the unplaced students. In addition, these third parties not only claim to take their wards from the unplaced students, but also to place their wards in the Category “A” Schools in return for a fee. Authorities frequently warn Ghanaians to avoid such claims, and looking at the above issues, some Ghanaian parents are actually hang up on fear enough to get enticed by these claims and accept to pay the required fee.",
+      "To address these issues, Ghana Education Service (GES) has instructed headteachers to utilize concurrent multi-computer logins using their school ID to speed up data uploading.",
+      "Also, local education directors have been tasked with monitoring the upload exercise to resolve errors before final placement matching begins. A swift but study order is being put in place to ensure fair results and matching placement of schools for Ghanaian wards."
+    ]
+  },
     {
     slug: "ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi",
     title: "Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth",

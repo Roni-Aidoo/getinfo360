@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/galamsey.jfif" alt="Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/SHS-placement.jpg" alt="THE TOLL ON GHANAIAN PARENTS: WORRIED ABOUT THE OPENING OF THE PORTAL FOR SHS PLACEMENT." width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Illegal mining, popularly known in Ghana as galamsey, has become one of the country&apos;s most pressing environmental and socio-economic challenges. In the Ahafo R…</p>
-        <a href="https://getinfoonline.com/articles/ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE TOLL ON GHANAIAN PARENTS: WORRIED ABOUT THE OPENING OF THE PORTAL FOR SHS PLACEMENT.</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The surprising anxiety of Ghanaian parents and Ghanaian wards...</p>
+        <a href="https://getinfoonline.com/articles/the-toll-on-ghanaian-parents-worried-about-the-opening-of-the-portal-for-shs-pla.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -160,14 +160,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-23 at 21.03.04.jpeg" alt="BE PATRIOTIC!" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/galamsey.jfif" alt="Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">BE PATRIOTIC!</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Nations that achieve remarkable progress across all sectors of society are those that have firmly anchored themselves in patriotism.</p>
-        <a href="https://getinfoonline.com/articles/be-patriotic.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ahafo’s Galamsey Crisis: How Illegal Mining Is Threatening The Future Of The Region’s Youth</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Illegal mining, popularly known in Ghana as galamsey, has become one of the country&apos;s most pressing environmental and socio-economic challenges. In the Ahafo R…</p>
+        <a href="https://getinfoonline.com/articles/ahafo-s-galamsey-crisis-how-illegal-mining-is-threatening-the-future-of-the-regi.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
