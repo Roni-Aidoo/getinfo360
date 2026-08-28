@@ -67,6 +67,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/nepal.jfif" alt="Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A catastrophic flash flood disaster along the Nepal-Tibet border has killed hundreds of people and left more than a thousand others missing, as rescue teams co…</p>
+        <a href="https://getinfoonline.com/news/nepal-tibet-flash-floods-leave-hundreds-dead-and-thousands-missing.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/20260826_154724.jpg" alt="Veteran Ghanaian Actress Grace Nortey Dies at 89" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -75,40 +92,6 @@ async function main() {
         <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Veteran Ghanaian Actress Grace Nortey Dies at 89</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s entertainment industry has been thrown into mourning following the reported death of veteran actress Grace Nortey.</p>
         <a href="https://getinfoonline.com/news/veteran-ghanaian-actress-grace-nortey-dies-at-89.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Samuel-Okudzeto-Ablakwa-Foreign-Minister.jpg" alt="Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Government of Ghana has respectfully declined a GH¢20 million support offer from MTN Ghana intended to assist Ghanaians affected by recent xenophobic attac…</p>
-        <a href="https://getinfoonline.com/news/government-declines-mtn-s-gh-20-million-offer-for-ghanaian-victims-of-south-afri.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/Dolly Patron.jfif" alt="Legendary Country Music Icon Dolly Parton Dies at 80" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Legendary Country Music Icon Dolly Parton Dies at 80</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Legendary American country music singer, songwriter, actress and philanthropist Dolly Parton has died at the age of 80.</p>
-        <a href="https://getinfoonline.com/news/legendary-country-music-icon-dolly-parton-dies-at-80.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,12 +126,12 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/SHS-placement.jpg" alt="THE TOLL ON GHANAIAN PARENTS: WORRIED ABOUT THE OPENING OF THE PORTAL FOR SHS PLACEMENT." width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/SHS-placement.jpg" alt="The Toll On Ghanaian Parents: Worried About The Opening Of The Portal For Shs Placement." width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE TOLL ON GHANAIAN PARENTS: WORRIED ABOUT THE OPENING OF THE PORTAL FOR SHS PLACEMENT.</p>
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">The Toll On Ghanaian Parents: Worried About The Opening Of The Portal For Shs Placement.</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The surprising anxiety of Ghanaian parents and Ghanaian wards...</p>
         <a href="https://getinfoonline.com/articles/the-toll-on-ghanaian-parents-worried-about-the-opening-of-the-portal-for-shs-pla.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">

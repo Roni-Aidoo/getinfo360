@@ -2,36 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://getinfoonline.com/news/veteran-ghanaian-actress-grace-nortey-dies-at-89.html</loc>
+    <loc>https://getinfoonline.com/news/nepal-tibet-flash-floods-leave-hundreds-dead-and-thousands-missing.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-26T00:00:00.000Z</news:publication_date>
-      <news:title>Veteran Ghanaian Actress Grace Nortey Dies at 89</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/government-declines-mtn-s-gh-20-million-offer-for-ghanaian-victims-of-south-afri.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26T00:00:00.000Z</news:publication_date>
-      <news:title>Government Declines MTN’s GH¢20 Million Offer for Ghanaian Victims of South African Xenophobic Attacks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/the-toll-on-ghanaian-parents-worried-about-the-opening-of-the-portal-for-shs-pla.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26T00:00:00.000Z</news:publication_date>
-      <news:title>THE TOLL ON GHANAIAN PARENTS: WORRIED ABOUT THE OPENING OF THE PORTAL FOR SHS PLACEMENT.</news:title>
+      <news:publication_date>2026-08-28T00:00:00.000Z</news:publication_date>
+      <news:title>Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing</news:title>
     </news:news>
   </url>
 </urlset>

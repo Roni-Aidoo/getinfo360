@@ -9,6 +9,26 @@
 
 const TRENDING = [
     {
+    slug: "nepal-tibet-flash-floods-leave-hundreds-dead-and-thousands-missing",
+    title: "Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing",
+    category: "International",
+    author: "Info Desk",
+    date: "August 28, 2026",
+    readTime: "1 min read",
+    image: "/Assets/nepal.jfif",
+    imageCaption: "Photos of the disaster",
+    excerpt: "A catastrophic flash flood disaster along the Nepal-Tibet border has killed hundreds of people and left more than a thousand others missing, as rescue teams continue a desperate search for survivors.",
+    tags: ["Nepal-Tibet", "flash flood"],
+    body: [
+      "<b>A catastrophic flash flood disaster along the Nepal-Tibet border has killed hundreds of people and left more than a thousand others missing, as rescue teams continue a desperate search for survivors.</b>",
+      "The disaster struck on Wednesday after a massive glacial collapse triggered a surge of water, ice, rocks and mud through valleys in the Himalayan region. Entire communities were devastated, while roads, bridges and other critical infrastructure were swept away.",
+      "By Friday, reports put the death toll at more than 500, while more than 1,500 people remained missing across Nepal and Tibet. More than 90,000 people have reportedly been affected by the disaster.",
+      "The destruction has severely complicated rescue operations. Large sections of roads have been destroyed, forcing rescuers to rely heavily on helicopters to reach isolated communities and transport injured survivors.\nRescue operations were also temporarily suspended in some areas after a barrier lake formed by debris began overflowing, raising fears of another surge of water and putting rescue workers at risk. Authorities are closely monitoring the situation for possible secondary flooding.",
+      "The disaster has also affected foreign nationals, including tourists and religious pilgrims travelling through the region. Families continue to wait anxiously for information about loved ones who remain unaccounted for.\nHumanitarian organisations have warned that the crisis is likely to worsen as rescuers reach previously inaccessible areas. The International Federation of Red Cross and Red Crescent Societies estimates that at least 93,000 people are in great need of assistance, while thousands of homes have been destroyed or severely damaged.",
+      "Authorities and rescue teams are racing against time to locate survivors, recover victims and deliver food, shelter and medical assistance to communities cut off by the destruction."
+    ]
+  },
+    {
     slug: "veteran-ghanaian-actress-grace-nortey-dies-at-89",
     title: "Veteran Ghanaian Actress Grace Nortey Dies at 89",
     category: "National",

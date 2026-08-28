@@ -81,7 +81,7 @@ const NEWSLETTER = {
   enabled: true,
   outputDir: 'scripts',
   outputFile: 'send-emails.js',
-  trendLimit: 3,
+  trendLimit: 2,
   articleLimit: 2,
 };
 
