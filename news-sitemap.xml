@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/fda-arrests-traders-over-sale-of-cigarette-shaped-toffees-at-makola.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-29T00:00:00.000Z</news:publication_date>
+      <news:title>FDA Arrests Traders Over Sale of Cigarette-Shaped Toffees at Makola</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/nepal-tibet-flash-floods-leave-hundreds-dead-and-thousands-missing.html</loc>
     <news:news>
       <news:publication>

@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "fda-arrests-traders-over-sale-of-cigarette-shaped-toffees-at-makola",
+    title: "FDA Arrests Traders Over Sale of Cigarette-Shaped Toffees at Makola",
+    category: "National",
+    author: "Info Desk",
+    date: "August 29, 2026",
+    readTime: "1 min read",
+    image: "/Assets/cig.jfif",
+    imageCaption: "Image of the toffe in package",
+    excerpt: "The Food and Drugs Authority (FDA) has arrested some traders at the Makola Market in Accra over the alleged sale of cigarette-shaped toffees.",
+    tags: ["Food and Drugs Authority (FDA)", "Makola Market", "cigarette-shaped toffees"],
+    body: [
+     "<b>The Food and Drugs Authority (FDA) has arrested some traders at the Makola Market in Accra over the alleged sale of cigarette-shaped toffees.</b>",
+      "The enforcement exercise, conducted on Saturday, August 29, 2026, forms part of efforts by the FDA to prevent the sale and distribution of food products considered inappropriate, particularly those that may influence children’s behaviour.",
+      "The cigarette-shaped toffees have attracted public concern because of their resemblance to actual cigarettes. Critics fear that the products could make smoking appear attractive or normal to children, especially when marketed as sweets.\n\nDuring the operation at Makola, FDA officials reportedly identified traders dealing in the products and took some of them into custody for further investigation. The Authority is also expected to trace the source and distribution channels of the confectionery.",
+      "The development has sparked discussions about the responsibility of traders, importers and manufacturers in ensuring that products placed on the Ghanaian market comply with the country’s food safety and regulatory requirements.\n\nThe FDA has consistently urged members of the public to report suspicious or potentially unsafe food products to the Authority.\n\nThe latest enforcement action at Makola underscores the regulator’s efforts to protect consumers and ensure that products sold on the Ghanaian market meet the required safety standards.",
+      "Further details on the investigation and possible action against those involved are expected to be provided by the FDA."
+    ]
+  },
+    {
     slug: "nepal-tibet-flash-floods-leave-hundreds-dead-and-thousands-missing",
     title: "Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing",
     category: "International",
