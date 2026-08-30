@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/cig.jfif" alt="FDA Arrests Traders Over Sale of Cigarette-Shaped Toffees at Makola" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-30 at 16.52.48.jpeg" alt="Why is Twitter Back — But Elon Musk Isn’t Behind It. ?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">FDA Arrests Traders Over Sale of Cigarette-Shaped Toffees at Makola</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Food and Drugs Authority (FDA) has arrested some traders at the Makola Market in Accra over the alleged sale of cigarette-shaped toffees.</p>
-        <a href="https://getinfoonline.com/news/fda-arrests-traders-over-sale-of-cigarette-shaped-toffees-at-makola.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Why is Twitter Back — But Elon Musk Isn’t Behind It. ?</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Twitter is making an unexpected comeback, but this time, Elon Musk is not the person behind it.</p>
+        <a href="https://getinfoonline.com/news/why-is-twitter-back-but-elon-musk-isn-t-behind-it.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/nepal.jfif" alt="Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/gtec.jfif" alt="GTEC Warns Public Against 100 Unrecognised Tertiary Institutions. See Full List" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Nepal-Tibet Flash Floods Leave Hundreds Dead and Thousands Missing</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A catastrophic flash flood disaster along the Nepal-Tibet border has killed hundreds of people and left more than a thousand others missing, as rescue teams co…</p>
-        <a href="https://getinfoonline.com/news/nepal-tibet-flash-floods-leave-hundreds-dead-and-thousands-missing.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GTEC Warns Public Against 100 Unrecognised Tertiary Institutions. See Full List</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Tertiary Education Commission (GTEC) has cautioned the public against enrolling in programmes or accepting certificates from 100 institutions it says…</p>
+        <a href="https://getinfoonline.com/news/gtec-warns-public-against-100-unrecognised-tertiary-institutions-see-full-list.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
