@@ -9,6 +9,48 @@
 
 const ARTICLES = [
   {
+    slug: "npp-chairmanship-race-can-the-party-rebuild-its-political-strength",
+    title: "NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?",
+    category: "Politics",
+    author: "Mensah Bismark Donkor",
+    date: "August 31, 2026",
+    readTime: "2 min read",
+    image: "/Assets/npp asp.jfif",
+    imageCaption: "Three of the Aspirants",
+    excerpt: "Can the NPP's next chairman unite the party, rebuild its strength and put it back on a winning path for 2028?",
+    tags: ["NPP CHAIRMANSHIP RACE"],
+    body: [
+      "<b> The New Patriotic Party (NPP) is entering a crucial period as it prepares for its national executive elections scheduled for October 3, 2026. At the centre of attention is the race for National Chairman, a contest that could have a major influence on the party’s efforts to recover from its 2024 electoral defeat.</b>",
+      "\nThe NPP lost the 2024 presidential election to the National Democratic Congress (NDC), with the Electoral Commission declaring John Dramani Mahama president-elect. The result ended the NPP’s eight-year period in government and left the party facing the difficult task of rebuilding its electoral strength.",
+      "\nThe chairmanship contest has attracted experienced figures including John Boadu, Boakye Kyeremateng Agyarko, Paul Afoko and Sammy Crabbe. Bernard Antwi Boasiako, popularly known as Chairman Wontumi, was also involved in the contest but has since withdrawn.\nJohn Boadu, a former NPP General Secretary, is among the leading contenders. A recent Global InfoAnalytics survey placed him ahead of Boakye Agyarko and Paul Afoko among surveyed NPP voters, although a large number of respondents remained undecided. This suggests that the contest is still open and that no candidate can assume victory.\nBut beyond personalities, the real issue is whether the next chairman can help the NPP address the weaknesses exposed by the 2024 election. ",
+      "The party will need to rebuild its grassroots structures, strengthen internal unity, reconnect with voters and develop a convincing political message ahead of 2028.\nThe biggest challenge will be turning the chairmanship election into more than a change of leadership. The NPP needs organisational renewal, stronger grassroots engagement and a serious effort to restore public confidence.\nUltimately, the October election will not only determine who becomes National Chairman. It could also help determine whether the NPP uses its time in opposition to genuinely rebuild—or simply changes its leaders without changing its political approach.\nThe question, therefore, is simple but significant: Can the NPP's next chairman unite the party, rebuild its strength and put it back on a winning path for 2028?"
+    ]
+  },
+    {
+    slug: "thousands-of-virgins-attend-mswatis-festival-hoping-to-be-picked-as-wife",
+    title: "Thousands of Virgins attend Mswati's Festival hoping to be picked as wife",
+    category: "International",
+    author: "Jennifer Agyei",
+    date: "August 31, 2026",
+    readTime: "1 min read",
+    image: "/Assets/eswatini.jpg",
+    imageCaption: "",
+    excerpt: "Historically, the Umhlanga festival is also the venue where the absolute monarch has the option to select a new wife from among the dancing maidens to foster",
+    tags: ["Eswatini", "King Mswati III", "Virgin Maiden"],
+    body: [
+      "## The Virgin Maidens (Umhlanga Reed Dance)",
+      "<b>The mention of \"virgin girls\" refers to the annual Umhlanga Reed Dance Ceremony. This is a massive, eight-day cultural festival where tens of thousands of young, unmarried Swati women gather at the Ludzidzini Royal Village.</b>",
+      "The maidens cut reeds for the Queen Mother and perform traditional dances to publicly celebrate their chastity, discipline, and Swati heritage.",
+      "## The Royal Marriage Tradition:",
+      "Historically, the Umhlanga festival is also the venue where the absolute monarch has the option to select a new wife from among the dancing maidens to foster national unity across different clans.",
+      "King Mswati III currently has 16 wives, having most recently married Nomcebo Zuma in September 2024.",
+      "## Cultural Purpose",
+      "The official stance of the monarchy is that the Reed Dance promotes solidarity, self-respect, and moral values among young women.",
+      "The DW Journalist Thuso Khumalo interviewed an elderly Eswatini woman who spoke in their local dialect about the cultural practices and she said that they are proud of the culture of the Eswatini people and they are encouraging people from Nationalities to be respectful and also respect their leaders. She also said here in the Kingdom of Eswatini they don’t speak ill of the King and respect him as the leader.",
+      "The DW Journalist went on further to explain what the elderly Eswatini woman said that the reason behind this culture is that there are a lot of diseases affecting young people and through this culture, they are kept away to prevent them from contracting the HIV and other Sexually Transmitted Diseases."
+    ]
+  },
+  {
     slug: "the-toll-on-ghanaian-parents-worried-about-the-opening-of-the-portal-for-shs-pla",
     title: "The Toll On Ghanaian Parents: Worried About The Opening Of The Portal For Shs Placement.",
     category: "Article",

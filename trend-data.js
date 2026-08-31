@@ -9,6 +9,27 @@
 
 const TRENDING = [
     {
+    slug: "krobohene-leads-community-to-god-after-ancestral-deity-is-reportedly-stolen",
+    title: "Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen",
+    category: "Religion",
+    author: "Info Desk",
+    date: "August 31, 2026",
+    readTime: "1 min read",
+    image: "/Assets/nana.jfif",
+    imageCaption: "The Krobohene, Nana Asa Akonpanin",
+    excerpt: "The Krobohene, Nana Asa Akonpanin, has commended members of his community for embracing Christianity following the reported disappearance of an ancestral deity believed to have protected the town.",
+    tags: ["Krobohene", "Nana Asa Akonpanin", "Christianity", "ancestral deity"],
+    body: [
+      "<b>The Krobohene, Nana Asa Akonpanin, has commended members of his community for embracing Christianity following the reported disappearance of an ancestral deity believed to have protected the town.\n</b>",
+      "The deity, known as Ani Koko Bosom, was reportedly stolen, leaving the community questioning how it could continue to rely on the traditional god for protection after its disappearance.\n\nAccording to Nana Asa Akonpanin, he consulted the elders of the community following the incident and proposed that the people turn to God and seek divine protection through prayer.",
+      "He said the elders accepted the proposal, leading to a collective decision to dedicate the town to God and encourage residents to seek His protection.",
+      "The chief explained that prayers were subsequently organised for the community, with residents seeking forgiveness, cleansing and divine intervention.",
+      "Nana Asa Akonpanin expressed his appreciation to the people for accepting the decision and supporting the move towards Christianity.\n\nHe said the development had brought a renewed sense of faith among residents, who now look to God for protection and guidance.",
+      "The reported disappearance of Ani Koko Bosom has therefore resulted in what the chief described as a significant spiritual shift within the community, from reliance on the traditional deity to placing their faith in God.",
+      "However, reports available so far do not independently establish who allegedly stole the deity or the circumstances surrounding its disappearance. The claim remains based primarily on the account given by the Krobohene."
+    ]
+  },
+    {
     slug: "why-is-twitter-back-but-elon-musk-isn-t-behind-it",
     title: "Why is Twitter Back — But Elon Musk Isn’t Behind It. ?",
     category: "Technology",
