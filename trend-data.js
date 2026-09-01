@@ -8,6 +8,25 @@
    ============================================================ */
 
 const TRENDING = [
+    {
+    slug: "three-dead-15-injured-after-violent-clash-breaks-out-in-new-winneba",
+    title: "Three Dead, 15 Injured After Violent Clash Breaks Out in New Winneba",
+    category: "Crime",
+    author: "Info Desk",
+    date: "September 1, 2026",
+    readTime: "1 min read",
+    image: "/Assets/cr1.jfif",
+    imageCaption: "Credit: Channel 1 tv",
+    excerpt: "Three people have been killed and at least 15 others injured following a violent clash at New Winneba in the Central Region.",
+    tags: ["Three people", "violent clash at New Winneba", "entral Region."],
+    body: [
+      "<b>Three people have been killed and at least 15 others injured following a violent clash at New Winneba in the Central Region.\nThe incident, which occurred on Tuesday, September 1, 2026, reportedly stemmed from a dispute over a land litigation matter.\nReports indicate that a large group of people, some allegedly armed with guns, cutlasses, stones and sticks, attacked residents in parts of the community, resulting in the deaths and injuries.</b>",
+      "Several properties, including shops and residential buildings, were also reportedly damaged during the violence.\nThe injured victims have since been transported to the Winneba Trauma and Specialist Hospital for medical attention. A police officer is also reported to be among those injured.",
+      "Following the outbreak of violence, the Central Regional Police Command, together with personnel from the Winneba Divisional Police Headquarters and Agona Swedru District, was deployed to the area to restore calm and protect lives and property.\nAdditional security personnel from the national headquarters have also been dispatched to reinforce the operation, with two armoured vehicles reportedly deployed to the area.",
+      "The police say the situation has been brought under control, although security personnel remain on the ground to prevent further disturbances.",
+      "Investigations have since commenced to establish the circumstances surrounding the clash, identify those responsible and determine the extent of damage caused.\nResidents have been urged to remain calm and cooperate with the security agencies as authorities work to restore lasting peace in the community."
+    ]
+  },
   {
     slug: "nagrat-to-government-don-t-keep-teachers-in-the-dark-if-deadline-will-fail",
     title: "NAGRAT To Government: Don’t Keep Teachers In The Dark If Deadline Will Fail",

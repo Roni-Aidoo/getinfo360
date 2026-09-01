@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/three-dead-15-injured-after-violent-clash-breaks-out-in-new-winneba.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01T00:00:00.000Z</news:publication_date>
+      <news:title>Three Dead, 15 Injured After Violent Clash Breaks Out in New Winneba</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/nagrat-to-government-don-t-keep-teachers-in-the-dark-if-deadline-will-fail.html</loc>
     <news:news>
       <news:publication>
@@ -9,7 +20,7 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-09-01T00:00:00.000Z</news:publication_date>
-      <news:title>NAGRAT TO GOVERNMENT: DON’T KEEP TEACHERS IN THE DARK IF DEADLINE WILL FAIL</news:title>
+      <news:title>NAGRAT To Government: Don’t Keep Teachers In The Dark If Deadline Will Fail</news:title>
     </news:news>
   </url>
   <url>
@@ -31,7 +42,7 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-09-01T00:00:00.000Z</news:publication_date>
-      <news:title>WHEN INVESTMENT EARNS A STOOL: ZHENG XIANGMING’S ENSTOOLMENT AND THE NEW DEBATE OVER FOREIGNERS, JOBS AND GHANA’S TRADITIONAL AUTHORITY</news:title>
+      <news:title>When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority</news:title>
     </news:news>
   </url>
   <url>
