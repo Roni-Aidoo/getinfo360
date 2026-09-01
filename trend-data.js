@@ -8,6 +8,27 @@
    ============================================================ */
 
 const TRENDING = [
+  {
+    slug: "nagrat-to-government-don-t-keep-teachers-in-the-dark-if-deadline-will-fail",
+    title: "NAGRAT To Government: Don’t Keep Teachers In The Dark If Deadline Will Fail",
+    category: "National",
+    author: "Mensah Bismark Donkor",
+    date: "September 1, 2026",
+    readTime: "2 min read",
+    image: "/Assets/nagrat.jfif",
+    imageCaption: "Web",
+    excerpt: "The National Association of Graduate Teachers (NAGRAT) has urged the government to communicate early with teachers if it becomes clear that the September 2026 deadline for resolving outstanding promotion and salary-placement issues cannot be met.",
+    tags: ["NAGRAT"],
+    body: [
+      "The National Association of Graduate Teachers (NAGRAT) has urged the government to communicate early with teachers if it becomes clear that the September 2026 deadline for resolving outstanding promotion and salary-placement issues cannot be met.",
+      "The call comes as thousands of teachers continue to await the completion of their placement following successful promotion processes.\nThe issue reportedly affects about 80,000 teachers, making it one of the major concerns currently facing Ghana’s pre-tertiary education sector.",
+      " Government has given assurances that the outstanding placement process will be completed in September, providing hope to teachers who have been waiting for their promotions to translate into the appropriate salary placement.",
+      "## NAGRAT SEEKS TRANSPARENCY FROM GOVERNMENT",
+      "NAGRAT President Jacob Anaba has expressed cautious confidence in the government’s commitment following discussions involving key stakeholders, including the Ministry of Education, the Ghana Education Service and the Controller and Accountant-General’s Department.",
+      " The involvement of senior officials has provided some reassurance that efforts are being made to resolve the matter.\nHowever, NAGRAT wants transparency if challenges arise. The union’s position is that teachers should not be left waiting until the deadline has passed before being informed that implementation may be delayed.",
+      "Early communication would enable union leaders to properly explain the situation to affected teachers and prevent unnecessary uncertainty and frustration.\nThe development follows the suspension of planned industrial action by teacher unions after government provided assurances on the outstanding issues. The suspension has given government an opportunity to fulfil its commitments and prevent the dispute from escalating. The coming weeks will therefore be important as teachers and their unions monitor whether the September promise is translated into actual salary placement.\nAt its core, the matter is about trust, accountability and respect for teachers’ professional advancement. Teachers who have earned promotions expect those promotions to be properly recognised through the appropriate salary placement. Government now faces a clear responsibility: deliver within the promised timeframe, or communicate honestly and early if difficulties make that impossible. Ghana’s teachers deserve not to be kept in the dark"
+    ]
+  },
     {
     slug: "krobohene-leads-community-to-god-after-ancestral-deity-is-reportedly-stolen",
     title: "Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen",

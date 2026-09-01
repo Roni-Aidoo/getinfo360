@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/nana.jfif" alt="Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/nagrat.jfif" alt="NAGRAT TO GOVERNMENT: DON’T KEEP TEACHERS IN THE DARK IF DEADLINE WILL FAIL" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Krobohene, Nana Asa Akonpanin, has commended members of his community for embracing Christianity following the reported disappearance of an ancestral deity…</p>
-        <a href="https://getinfoonline.com/news/krobohene-leads-community-to-god-after-ancestral-deity-is-reportedly-stolen.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NAGRAT TO GOVERNMENT: DON’T KEEP TEACHERS IN THE DARK IF DEADLINE WILL FAIL</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The National Association of Graduate Teachers (NAGRAT) has urged the government to communicate early with teachers if it becomes clear that the September 2026…</p>
+        <a href="https://getinfoonline.com/news/nagrat-to-government-don-t-keep-teachers-in-the-dark-if-deadline-will-fail.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-08-30 at 16.52.48.jpeg" alt="Why is Twitter Back — But Elon Musk Isn’t Behind It. ?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/nana.jfif" alt="Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Why is Twitter Back — But Elon Musk Isn’t Behind It. ?</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Twitter is making an unexpected comeback, but this time, Elon Musk is not the person behind it.</p>
-        <a href="https://getinfoonline.com/news/why-is-twitter-back-but-elon-musk-isn-t-behind-it.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Krobohene, Nana Asa Akonpanin, has commended members of his community for embracing Christianity following the reported disappearance of an ancestral deity…</p>
+        <a href="https://getinfoonline.com/news/krobohene-leads-community-to-god-after-ancestral-deity-is-reportedly-stolen.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/npp asp.jfif" alt="NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/ch.jpg" alt="WHEN INVESTMENT EARNS A STOOL: ZHENG XIANGMING’S ENSTOOLMENT AND THE NEW DEBATE OVER FOREIGNERS, JOBS AND GHANA’S TRADITIONAL AUTHORITY" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Can the NPP&apos;s next chairman unite the party, rebuild its strength and put it back on a winning path for 2028?</p>
-        <a href="https://getinfoonline.com/articles/npp-chairmanship-race-can-the-party-rebuild-its-political-strength.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">WHEN INVESTMENT EARNS A STOOL: ZHENG XIANGMING’S ENSTOOLMENT AND THE NEW DEBATE OVER FOREIGNERS, JOBS AND GHANA’S TRADITIONAL AUTHORITY</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The enstoolment of Chinese businessman Zheng Xiangming, Chairman of Greenhouse International Development Group Ghana Limited, has generated widespread attentio…</p>
+        <a href="https://getinfoonline.com/articles/when-investment-earns-a-stool-zheng-xiangming-s-enstoolment-and-the-new-debate-o.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/eswatini.jpg" alt="Thousands of Virgins attend Mswati&apos;s Festival hoping to be picked as wife" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/npp asp.jfif" alt="NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Thousands of Virgins attend Mswati&apos;s Festival hoping to be picked as wife</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Historically, the Umhlanga festival is also the venue where the absolute monarch has the option to select a new wife from among the dancing maidens to foster</p>
-        <a href="https://getinfoonline.com/articles/thousands-of-virgins-attend-mswatis-festival-hoping-to-be-picked-as-wife.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Can the NPP&apos;s next chairman unite the party, rebuild its strength and put it back on a winning path for 2028?</p>
+        <a href="https://getinfoonline.com/articles/npp-chairmanship-race-can-the-party-rebuild-its-political-strength.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

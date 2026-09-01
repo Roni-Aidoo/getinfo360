@@ -9,6 +9,35 @@
 
 const ARTICLES = [
   {
+    slug: "when-investment-earns-a-stool-zheng-xiangming-s-enstoolment-and-the-new-debate-o",
+    title: "When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority",
+    category: "Traditional",
+    author: "Mensah Bismark Donkor",
+    date: "September 1, 2026",
+    readTime: "3 min read",
+    image: "/Assets/ch.jpg",
+    imageCaption: "Zheng Xiangming,Chairman",
+    excerpt: "The enstoolment of Chinese businessman Zheng Xiangming, Chairman of Greenhouse International Development Group Ghana Limited, has generated widespread attention in Ghana and beyond.",
+    tags: ["Zheng Xiangming, Chairman of Greenhouse International Development Group Ghana Limited"],
+    body: [
+      "## A CHINESE BUSINESSMAN RECEIVES A GHANAIAN TRADITIONAL TITLE.",
+      "The enstoolment of Chinese businessman Zheng Xiangming, Chairman of Greenhouse International Development Group Ghana Limited, has generated widespread attention in Ghana and beyond. Zheng was reportedly enstooled on August 29, 2026, and received the stool name Hiowe Golaka Noryam Matse Nene Asumahtsu I. The ceremony has triggered both celebration and debate over the place of foreign investors within Ghana's traditional institutions.",
+      "## BEYOND THE VIRAL PHOTOGRAPH",
+      "The photograph circulating online tells only part of the story. The popular description that Zheng has simply been made a \"traditional chief in Ghana\" requires context. Recent reports describe the honour as connected to development and economic contribution, rather than evidence that Zheng has become a paramount ruler or acquired governmental authority. This distinction is important when reporting the story accurately.",
+      "Zheng is associated with Greenhouse International Development Group, a Chinese-owned business group involved in industrial and other development activities in Ghana. The company has established the Bright International Industrial Park and has expanded its operations into areas including manufacturing, agriculture, real estate and other sectors. The Ghana Free Zones Authority has also publicly identified Zheng as chairman of the Greenhouse Group.",
+      "One of the strongest reasons being associated with the recognition is employment creation. At a 2025 groundbreaking ceremony, President John Mahama commended Greenhouse's investment in Ghana and said the Bright International Industrial Park had created approximately 10,000 local jobs. Government officials have also highlighted the company's expansion and its contribution to Ghana's industrial ambitions.",
+      "Greenhouse's activities extend beyond employment alone. The company has been involved in a major industrial development around Afienya, while its plans have included a large amusement and leisure project. The proposed Bright International Amusement Park includes facilities such as a hotel, conference centre, water park, villas and other tourism infrastructure.",
+      "## WHY TRADITIONAL RECOGNITION MATTERS?",
+      "Ghana's traditional institutions carry enormous cultural importance. A traditional title is therefore more than an ordinary award or business honour. When an investor is welcomed into a traditional structure, it can symbolise a strong relationship between the investor and the community. It can also communicate that the person's contribution is considered important enough to receive public cultural recognition.",
+      "The idea of recognising foreigners for development contributions is not entirely new in Ghana. Development titles such as Nkosuohene have historically been used to honour individuals who contribute significantly to communities, including people who are not originally from those communities. Therefore, Zheng's case should be considered within the wider history of development-oriented traditional recognition in Ghana.",
+      "## INVESTMENT VERSUS CULTURAL IDENTITY.",
+      "The Zheng case therefore raises a much bigger question about Ghana's future. Ghana needs foreign investment, businesses and employment opportunities, but it also has a responsibility to protect its cultural institutions. The challenge is finding a balance where foreign investors are welcomed and appreciated without allowing money or investment to become the primary measure of traditional legitimacy.",
+      "There is also a diplomatic and economic dimension to the story. Zheng's company has described its projects as part of the relationship between Ghana and China, while Ghanaian officials have welcomed Chinese investment in industrial development. His traditional recognition could therefore be interpreted not only as a community honour but also as another symbol of the growing economic relationship between Ghana and Chinese businesses.",
+      "## THE QUESTION GHANA MUST NOW ASK.",
+      "Ultimately, the most important question is not simply \"Why was a Chinese businessman made a chief?\" The deeper question is: What should qualify someone for traditional recognition in modern Ghana? If the answer is development, employment and genuine community contribution, then such honours may represent a way of encouraging investment. But if traditional titles are to retain their cultural authority, transparency, customary legitimacy and respect for Ghanaian traditions must remain central.Zheng Xiangming's enstoolment has brought together three powerful forces: money, development and tradition. His company's reported contribution to employment and industrial development provides a reason for the recognition, while the decision itself has opened a wider national conversation about foreigners receiving Ghanaian traditional titles. The story should therefore not be reduced to a viral photograph. It is a conversation about what Ghana values, how Ghana rewards development, and how traditional authority should evolve in an increasingly globalised society."
+    ]
+  },
+  {
     slug: "npp-chairmanship-race-can-the-party-rebuild-its-political-strength",
     title: "NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?",
     category: "Politics",

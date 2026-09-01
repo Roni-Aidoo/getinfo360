@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/nagrat-to-government-don-t-keep-teachers-in-the-dark-if-deadline-will-fail.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01T00:00:00.000Z</news:publication_date>
+      <news:title>NAGRAT TO GOVERNMENT: DON’T KEEP TEACHERS IN THE DARK IF DEADLINE WILL FAIL</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/krobohene-leads-community-to-god-after-ancestral-deity-is-reportedly-stolen.html</loc>
     <news:news>
       <news:publication>
@@ -13,25 +24,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://getinfoonline.com/news/why-is-twitter-back-but-elon-musk-isn-t-behind-it.html</loc>
+    <loc>https://getinfoonline.com/articles/when-investment-earns-a-stool-zheng-xiangming-s-enstoolment-and-the-new-debate-o.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-30T00:00:00.000Z</news:publication_date>
-      <news:title>Why is Twitter Back — But Elon Musk Isn’t Behind It. ?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/gtec-warns-public-against-100-unrecognised-tertiary-institutions-see-full-list.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T00:00:00.000Z</news:publication_date>
-      <news:title>GTEC Warns Public Against 100 Unrecognised Tertiary Institutions. See Full List</news:title>
+      <news:publication_date>2026-09-01T00:00:00.000Z</news:publication_date>
+      <news:title>WHEN INVESTMENT EARNS A STOOL: ZHENG XIANGMING’S ENSTOOLMENT AND THE NEW DEBATE OVER FOREIGNERS, JOBS AND GHANA’S TRADITIONAL AUTHORITY</news:title>
     </news:news>
   </url>
   <url>
