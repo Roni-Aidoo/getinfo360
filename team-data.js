@@ -63,6 +63,13 @@ const TEAM = [
     image: "",
     bio: " Miss Jennifer is an expert storyteller and poet with great works. contact:  agyeiakos22@gmail.com "
   },
+  {
+    name: "Mensah Bismark Donkor",
+    role: "Team Writer",
+    category: "Reporters",
+    image: "",
+    bio: "  "
+  },
  
 
   // ---------------- Contributors ----------------

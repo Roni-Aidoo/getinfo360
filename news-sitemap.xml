@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
+      <news:title>Mahama Dissolves Boards of Nine State Institutions With Immediate Effect</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/13-dead-5-critically-injured-in-sege-ada-highway-crash.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
+      <news:title>13 Dead, 5 Critically Injured in Sege–Ada Highway Crash</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/three-dead-15-injured-after-violent-clash-breaks-out-in-new-winneba.html</loc>
     <news:news>
       <news:publication>
@@ -24,14 +46,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://getinfoonline.com/news/krobohene-leads-community-to-god-after-ancestral-deity-is-reportedly-stolen.html</loc>
+    <loc>https://getinfoonline.com/articles/the-ghanaian-youth-fading-ability-to-innovate.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T00:00:00.000Z</news:publication_date>
-      <news:title>Krobohene Leads Community to God After Ancestral Deity Is Reportedly Stolen</news:title>
+      <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
+      <news:title>THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE</news:title>
     </news:news>
   </url>
   <url>
@@ -43,28 +65,6 @@
       </news:publication>
       <news:publication_date>2026-09-01T00:00:00.000Z</news:publication_date>
       <news:title>When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/npp-chairmanship-race-can-the-party-rebuild-its-political-strength.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T00:00:00.000Z</news:publication_date>
-      <news:title>NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/thousands-of-virgins-attend-mswatis-festival-hoping-to-be-picked-as-wife.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T00:00:00.000Z</news:publication_date>
-      <news:title>Thousands of Virgins attend Mswati&apos;s Festival hoping to be picked as wife</news:title>
     </news:news>
   </url>
 </urlset>

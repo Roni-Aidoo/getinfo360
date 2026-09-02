@@ -9,6 +9,31 @@
 
 const ARTICLES = [
   {
+    slug: "the-ghanaian-youth-fading-ability-to-innovate",
+    title: "THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE",
+    category: "Youth & National",
+    author: "Jesse Mabery",
+    date: "September 2, 2026",
+    readTime: "3 min read",
+    image: "/Assets/61.webp",
+    imageCaption: "Ali Issaka,beneficiary of the One Million Coders Programme",
+    excerpt: "The inspiration still lingers no matter an individual's age; so it seems when a 61 - year old man becomes the beneficiary of One million from a Coders Programme. This 61 - year old man had the inspiration to change his life by taking on a new skill aside he being a construction worker. It worked out and now pursuing his dream of acquiring digital skills. This new skill - Coding, his inspiration, changed his life.",
+    tags: ["Ghana", "Ghanaian Youth", "Innovation", "Digital skills", "Technology", "Alexander Kofi-Mensah Mould", "CEO of Millennium Development Authority (MiDA)", "Ghana Youth Spotlight Awards", "This Is Ghana Exhibitions", "Entrepreneurial skills", "Risk-taking"],
+    body: [
+      "The inspiration still lingers no matter an individual's age; so it seems when a 61 - year old man becomes the beneficiary of One million from a Coders Programme. This 61 - year old man had the inspiration to change his life by taking on a new skill aside he being a construction worker. It worked out and now pursuing his dream of acquiring digital skills. This new skill - Coding, his inspiration, changed his life.",
+      "The majority of the Ghanaian Youth, now lack the ability to innovate, to construct things on their own, make up something from imagination and work with raw talent. The zeal to do this is almost absent. Ghana, in the sight of faithful citizens, see that Ghana can indeed become a Euthopia if the people would begin to live, act, and be the way they dream of a nation to be. The very dream is an inspiration. Technology, Clothing, Construction, all done uniquely through our imagination will indeed bring a shift in the lives of many and in the long run, a rise of the name of the Country in highly esteemed good faith. There are unlimited opportunities for the Ghanaian Youth which they could pursue if they just added some uniqueness; seems be the arguement. But the Notion reigning in the majority of the Ghanaian Youth, is - those in power to give those opportunities decline the potential to innovate or improve what they are offering in a unique way, instead, they want it to be done as strictly as taught or commanded. And so, the space to try out new ideas are shut.",
+      "This perception among the Ghanaian youth is highly debated and so the majority cling to the order of the day without any inspiration to veiw that opportunity or veer it in a different way. The majority of the Ghanaian youth shut their ability to innovate because they fear being called ignorant by the one in power giving that opportunity. Rather than being called ignorant or ungrateful and losing the opportunity being presented by the one in power, they would rather stick to the order of the day with all its continuous merits and demerits.",
+      "Alexander Kofi-Mensah Mould, acting CEO of the Millennium Development Authority, (MiDA), gave a speech on youth engagement and nation-building. He laid out a message concerning innovation among the Ghanaian youth.",
+      "He emphasized that relying solely on natural resources without building human capability and problem-solving skills leaves a nation stagnant and that failing to innovate weakens the country. He cautioned against relying on past formulas or falling into \"entitlement and blame.\" He argued that if the young generation does not intentionally learn to create value and execute ideas, national prosperity simply will not happen.",
+      "He also argued, that harnessing innovation saves the nation; that true development is \"a nation’s ability to solve its own problems\", through disciplined execution, adaptability, and value creation. He challenged youth to shift their mindset from “Where can I find a job?\"  to “What problem can I learn to solve?” The capability and local innovation are what ultimately build new industries and sustain economic growth.",
+      "Similarly, figures in Ghana's tech and creative ecosystems like High-profile entrepreneurs, creative directors, and industry icons frequently featured at events of the Ghana Youth Spotlight Awards and This Is Ghana Exhibitions—have consistently emphasized that without a shift toward modern technology, digital skills, and entrepreneurial risk-taking, the youth will be left behind in the global economy.",
+       "## Follow the Social of the Writer for inspiring Stories:",
+      "YouTube:\n<a href=\"https://youtube.com/@jessemabery?si=anlMKW-Gn5phvJmA\"> https://youtube.com/@jessemabery?si=anlMKW-Gn5phvJmA</a>",
+      "Tiktok: <a href=\"tiktok.com/@mabery898\">tiktok.com/@mabery898</a>",
+      
+    ]
+  },
+  {
     slug: "when-investment-earns-a-stool-zheng-xiangming-s-enstoolment-and-the-new-debate-o",
     title: "When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority",
     category: "Traditional",
@@ -550,7 +575,7 @@ const ARTICLES = [
     slug: "beyond-the-headlines",
     title: "Beyond The Headlines: The Untold Story Of The Late Yaa Naa Abubakari Mahamma II",
     category: "Biographical Article",
-    author: "Bismark Donkor Mensah",
+    author: "Mensah Bismark Donkor",
     date: "July 12, 2026",
     readTime: "4 min read",
     image: "/Assets/YA.jpg",
@@ -594,7 +619,7 @@ const ARTICLES = [
     slug: "a-new-era-about-nana-yaa-akyaa-ii-the-new-asantehemaa",
     title: "A New Era: About Nana Yaa Akyaa II, the new Asantehemaa",
     category: "Biographical Article",
-    author: "Bismark Donkor Mensah",
+    author: "Mensah Bismark Donkor",
     date: "July 13, 2026",
     readTime: "2 mins",
     image: "/Assets/ASH.jpg",

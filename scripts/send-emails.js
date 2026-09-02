@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/cr1.jfif" alt="Three Dead, 15 Injured After Violent Clash Breaks Out in New Winneba" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/JM1.jfif" alt="Mahama Dissolves Boards of Nine State Institutions With Immediate Effect" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Three Dead, 15 Injured After Violent Clash Breaks Out in New Winneba</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Three people have been killed and at least 15 others injured following a violent clash at New Winneba in the Central Region.</p>
-        <a href="https://getinfoonline.com/news/three-dead-15-injured-after-violent-clash-breaks-out-in-new-winneba.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama Dissolves Boards of Nine State Institutions With Immediate Effect</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has dissolved the governing boards of nine state institutions with immediate effect.</p>
+        <a href="https://getinfoonline.com/news/mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/nagrat.jfif" alt="NAGRAT To Government: Don’t Keep Teachers In The Dark If Deadline Will Fail" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-09-02 at 10.12.32.jpeg" alt="13 Dead, 5 Critically Injured in Sege–Ada Highway Crash" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NAGRAT To Government: Don’t Keep Teachers In The Dark If Deadline Will Fail</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The National Association of Graduate Teachers (NAGRAT) has urged the government to communicate early with teachers if it becomes clear that the September 2026…</p>
-        <a href="https://getinfoonline.com/news/nagrat-to-government-don-t-keep-teachers-in-the-dark-if-deadline-will-fail.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">13 Dead, 5 Critically Injured in Sege–Ada Highway Crash</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Thirteen people have died, while five others are in critical condition following a fatal road accident on the Sege–Ada Highway in the Greater Accra Region.</p>
+        <a href="https://getinfoonline.com/news/13-dead-5-critically-injured-in-sege-ada-highway-crash.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/ch.jpg" alt="When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/ch.jpg" alt="THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The enstoolment of Chinese businessman Zheng Xiangming, Chairman of Greenhouse International Development Group Ghana Limited, has generated widespread attentio…</p>
-        <a href="https://getinfoonline.com/articles/when-investment-earns-a-stool-zheng-xiangming-s-enstoolment-and-the-new-debate-o.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The inspiration still lingers no matter an individual&apos;s age; so it seems when a 61 - year old man becomes the beneficiary of One million from a Coders Programm…</p>
+        <a href="https://getinfoonline.com/articles/the-ghanaian-youth-fading-ability-to-innovate.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/npp asp.jfif" alt="NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/ch.jpg" alt="When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP CHAIRMANSHIP RACE: CAN THE PARTY REBUILD ITS POLITICAL STRENGTH?</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Can the NPP&apos;s next chairman unite the party, rebuild its strength and put it back on a winning path for 2028?</p>
-        <a href="https://getinfoonline.com/articles/npp-chairmanship-race-can-the-party-rebuild-its-political-strength.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">When Investment Earns A Stool: Zheng Xiangming’s Enstoolment And The New Debate Over Foreigners, Jobs And Ghana’s Traditional Authority</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The enstoolment of Chinese businessman Zheng Xiangming, Chairman of Greenhouse International Development Group Ghana Limited, has generated widespread attentio…</p>
+        <a href="https://getinfoonline.com/articles/when-investment-earns-a-stool-zheng-xiangming-s-enstoolment-and-the-new-debate-o.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

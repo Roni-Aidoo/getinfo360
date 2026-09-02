@@ -9,6 +9,44 @@
 
 const TRENDING = [
     {
+    slug: "mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect",
+    title: "Mahama Dissolves Boards of Nine State Institutions With Immediate Effect",
+    category: "National",
+    author: "Info Desk",
+    date: "September 2, 2026",
+    readTime: "1 min read",
+    image: "/Assets/JM1.jfif",
+    imageCaption: "H.E John Dramani Mahamma",
+    excerpt: "President John Dramani Mahama has dissolved the governing boards of nine state institutions with immediate effect.",
+    tags: ["President John Dramani Mahama", "governing boards of nine state institutions"],
+    body: [
+      "<b>President John Dramani Mahama has dissolved the governing boards of nine state institutions with immediate effect.\n\nThe directive forms part of measures by the government to reorganise the leadership and governance structures of key state-owned institutions.</b>",
+      "Among the institutions affected are the Ghana National Petroleum Corporation (GNPC), Bulk Oil Storage and Transportation Company Limited (BOST), Volta Aluminium Company Limited (VALCO), Ghana Post Company Limited and Consolidated Bank Ghana Limited (CBG).\n\nThe others are Prestea Sankofa Gold Limited, TDC Ghana Limited, the Road Maintenance Trust Fund and the National Sports Authority (NSA).",
+       "<div class=\"EV\"><img src=\"/Assets/Ep.jfif\" alt=\"letter1\" ></div><br><br><br>",
+      "A communication from the Office of the President directed the affected institutions to take the necessary steps to formally notify members of the dissolved boards of the decision.\n\nDespite the dissolution, the institutions are expected to continue their normal operations under their respective management teams until new governing boards are appointed.",
+      "The management of the affected institutions has also been directed to refrain from taking major policy, financial or contractual decisions that require board approval without obtaining the necessary authorisation.\n\nThe Presidency is expected to reconstitute the boards in due course.",
+      "President Mahama has meanwhile expressed appreciation to members of the dissolved boards for their service and contributions during their respective tenures."
+    ]
+  },
+    {
+    slug: "13-dead-5-critically-injured-in-sege-ada-highway-crash",
+    title: "13 Dead, 5 Critically Injured in Sege–Ada Highway Crash",
+    category: "National",
+    author: "Info Desk",
+    date: "September 2, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-09-02 at 10.12.32.jpeg",
+    imageCaption: "Scene of Accident",
+    excerpt: "Thirteen people have died, while five others are in critical condition following a fatal road accident on the Sege–Ada Highway in the Greater Accra Region.",
+    tags: ["Sege–Ada Highway", "Greater Accra Region."],
+    body: [
+      "<b>Thirteen people have died, while five others are in critical condition following a fatal road accident on the Sege–Ada Highway in the Greater Accra Region.\n\nThe accident involved a Ford Transit and a Toyota Hiace and occurred while the two vehicles were travelling along the highway.\n</b>",
+      "The crash reportedly left several occupants trapped and seriously injured, with emergency responders and residents assisting in efforts to rescue victims.\n\nThe five survivors were subsequently rushed to the Sege Polyclinic for medical attention, where they are receiving treatment for various degrees of injuries.",
+      "The identities of the deceased have not yet been officially disclosed.\n\nThe cause of the accident remains unclear, although investigations are expected to be conducted by the relevant authorities to determine what led to the collision.\n\nThe incident has once again raised concerns about road safety and the need for motorists to exercise maximum caution, particularly on major highways where speeding, reckless overtaking and other dangerous driving practices have contributed to fatal crashes.",
+      "Authorities are expected to provide further updates as investigations into the accident continue."
+    ]
+  },
+    {
     slug: "three-dead-15-injured-after-violent-clash-breaks-out-in-new-winneba",
     title: "Three Dead, 15 Injured After Violent Clash Breaks Out in New Winneba",
     category: "Crime",
