@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/JM1.jfif" alt="Mahama Dissolves Boards of Nine State Institutions With Immediate Effect" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/FB_IMG_1788424445054.jpg" alt="US Launches $1 Coin Featuring Donald Trump’s Face" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama Dissolves Boards of Nine State Institutions With Immediate Effect</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has dissolved the governing boards of nine state institutions with immediate effect.</p>
-        <a href="https://getinfoonline.com/news/mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">US Launches $1 Coin Featuring Donald Trump’s Face</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The United States has officially released a new $1 coin featuring the image of President Donald Trump, marking a</p>
+        <a href="https://getinfoonline.com/news/us-launches-1-coin-featuring-donald-trump-s-face.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-09-02 at 10.12.32.jpeg" alt="13 Dead, 5 Critically Injured in Sege–Ada Highway Crash" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/JM1.jfif" alt="Mahama Dissolves Boards of Nine State Institutions With Immediate Effect" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">13 Dead, 5 Critically Injured in Sege–Ada Highway Crash</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Thirteen people have died, while five others are in critical condition following a fatal road accident on the Sege–Ada Highway in the Greater Accra Region.</p>
-        <a href="https://getinfoonline.com/news/13-dead-5-critically-injured-in-sege-ada-highway-crash.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama Dissolves Boards of Nine State Institutions With Immediate Effect</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has dissolved the governing boards of nine state institutions with immediate effect.</p>
+        <a href="https://getinfoonline.com/news/mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

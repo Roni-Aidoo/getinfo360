@@ -8,6 +8,29 @@
    ============================================================ */
 
 const TRENDING = [
+   {
+    slug: "us-launches-1-coin-featuring-donald-trump-s-face",
+    title: "US Launches $1 Coin Featuring Donald Trump’s Face",
+    category: "International",
+    author: "Info Desk",
+    date: "September 3, 2026",
+    readTime: "2 min read",
+    image: "/Assets/FB_IMG_1788424445054.jpg",
+    imageCaption: "Image of the Coun",
+    excerpt: "The United States has officially released a new $1 coin featuring the image of President Donald Trump, marking a",
+    tags: ["US", "Donald Trump", "New Coin"],
+    body: [
+      "<b>The United States has officially released a new $1 coin featuring the image of President Donald Trump, marking a historic moment in the country’s coinage and generating debate over the use of a sitting president’s portrait on American currency.</b>",
+      "The 2026 Semiquincentennial President Donald J. Trump $1 Coin was released on Wednesday, September 2, as part of celebrations marking the 250th anniversary of the United States. The US Mint says the coin is intended to enter circulation and can also be purchased by collectors in rolls and bags.",
+      "The front of the coin features Trump’s portrait, accompanied by the inscriptions “LIBERTY,” “IN GOD WE TRUST” and “1776 ~ 2026.” The reverse displays the Presidential Seal, including an eagle holding an olive branch and arrows, while the number “250” appears on the shield to commemorate America’s 250th anniversary.",
+      "Although the coin has a gold-coloured appearance, it is not made of gold. According to the Mint, it consists primarily of copper, along with zinc, manganese and nickel. It weighs 8.10 grams and has a circulating finish.",
+      "The Mint is selling the coins in 25-coin rolls for $61 and 100-coin bags for $154.50, meaning buyers are paying considerably more than the coins’ $1 face value when purchasing them directly from the Mint.",
+      "Adding to the collector interest, 250,000 coins were struck on July 4, 2026, and carry a special “July 4th” privy mark. These coins have been randomly placed among the rolls and bags sold by the Mint.",
+      "The release has also attracted controversy because US law has traditionally restricted the appearance of living people on American currency. The Mint, however, says the coin is authorised under legislation connected to the 2026 Semiquincentennial celebrations, which allows a special $1 coin to be issued during the anniversary year.",
+      "Trump’s appearance on the coin is particularly significant because it makes him the first sitting US president in a century to appear on a circulating coin. The development has sparked renewed debate over presidential traditions, the separation between political figures and national symbols, and the limits of presidential imagery on US currency.",
+      "The US Mint is encouraging Americans and collectors to look out for the new coins as they begin appearing in circulation."
+    ]
+  },
     {
     slug: "mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect",
     title: "Mahama Dissolves Boards of Nine State Institutions With Immediate Effect",
