@@ -54,8 +54,8 @@ const TRENDING = [
     ]
   },
    {
-    slug: "would-you-drive-in-a-self-driving-car",
-    title: "Would You Drive In a Self-Driving Car?",
+    slug: "would-you-Travel-in-a-self-driving-car",
+    title: "Would You Travel In a Self-Driving Car?",
     category: "International",
     author: "Info Desk",
     date: "September 3, 2026",
