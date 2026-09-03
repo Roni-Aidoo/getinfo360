@@ -9,6 +9,74 @@
 
 const TRENDING = [
    {
+    slug: "police-arrest-six-over-violence-at-mount-sinai-okwapeman-shs",
+    title: "Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS",
+    category: "Education",
+    author: "Info Desk",
+    date: "September 3, 2026",
+    readTime: "1 min read",
+    image: "/Assets/image-228-565x424.png",
+    imageCaption: "Scene",
+    excerpt: "The Ghana Police Service has arrested six persons, including a teacher, in connection with the violent clashes involving students of Mount Sinai Senior High School and Okwapeman Senior High School in the Eastern Region.",
+    tags: ["Mount Sinai SHS", "Okwapeman SHS", "Eastern"],
+    body: [
+      "<b>The Ghana Police Service has arrested six persons, including a teacher, in connection with the violent clashes involving students of Mount Sinai Senior High School and Okwapeman Senior High School in the Eastern Region.</b>",
+      "The arrests form part of investigations into the unrest, which reportedly resulted in injuries to students and significant damage to school property.\nAccording to reports, the two schools have been embroiled in a long-standing rivalry, which escalated into violent confrontations. The clashes led to the destruction of classrooms and other facilities, while six Okwapeman SHS students sustained injuries during a reprisal attack. Four of the injured students have since been discharged, while two remain under medical care.",
+      "The Eastern Regional Security Council has condemned the violence and warned that individuals found to have participated in the disturbances will face prosecution.\nEastern Regional Police Commander, DCOP Joseph Owusu Bempah, cautioned students against taking the law into their own hands, stressing that the police would identify and arrest those responsible for the violence.\nHe warned that students involved in mob attacks, stone-throwing and other acts of disorder would be held accountable, while gang leaders and other instigators would be pursued.",
+      "In response to the unrest, authorities directed students of both Mount Sinai SHS and Okwapeman SHS to proceed on an early vacation to prevent further clashes and allow tensions to subside. Students were instructed to leave the campuses after completing their examinations",
+      "The incident has renewed concerns about student indiscipline, school rivalries and the need for stronger measures to prevent violence in senior high schools.\nAuthorities say investigations are ongoing, with the police expected to identify and prosecute other persons found to have played a role in the disturbances."
+    ]
+  },
+  {
+    slug: "54-985-bece-candidates-miss-2026-shs-placement-authorities-outline-options",
+    title: "54,985 BECE Candidates Miss 2026 SHS Placement; Authorities Outline Options",
+    category: "Education",
+    author: "Info Desk",
+    date: "September 3, 2026",
+    readTime: "2 min read",
+    image: "/Assets/BECE.png",
+    imageCaption: "",
+    excerpt: "A total of 54,985 candidates who sat for the 2026 Basic Education Certificate Examination (BECE) will not qualify for placement into Senior High Schools (SHSs) and Senior High Technical Schools (SHTSs), according to the Computerised School Selection and Placement System (CSSPS) Secretariat.",
+    tags: ["CSSPS", "SHS", "BECE", "GHANA"],
+    body: [
+      "<b>A total of 54,985 candidates who sat for the 2026 Basic Education Certificate Examination (BECE) will not qualify for placement into Senior High Schools (SHSs) and Senior High Technical Schools (SHTSs), according to the Computerised School Selection and Placement System (CSSPS) Secretariat.</b>",
+      "The disclosure was made by CSSPS Coordinator Sherif Sulemana during an interview on Joy FM’s Super Morning Show on Thursday, September 3, 2026.\nNearly 620,000 candidates sat for the 2026 BECE, with about 565,000 candidates qualifying to participate in the placement exercise.",
+      "## Why some candidates did not qualify",
+      "Mr Sulemana explained that one of the key requirements for placement is that candidates must pass both English Language and Mathematics.",
+      "Candidates who fail either of the two subjects are disqualified from the CSSPS placement exercise, regardless of their performance in other subjects or their overall aggregate.",
+      "The CSSPS Secretariat said the analysis showed that some candidates recorded very low marks in the two subjects, resulting in their failure to meet the minimum placement requirements.",
+      "## What happens to candidates who are not placed?",
+      "For candidates who qualify for placement but are not automatically assigned to one of their selected schools, the CSSPS has a Self-Placement option. Through this system, an unplaced candidate can select a school, programme and residential option from institutions with available vacancies.",
+      "However, the situation is different for the 54,985 candidates who failed to meet the basic qualification requirement. Their exclusion is linked to their performance in English Language and/or Mathematics, rather than simply a lack of vacancies.",
+      "Meanwhile, the Ghana National Council of Private Schools (GNACOPS) says 85 private senior high schools have vacancies that could accommodate the affected candidates. The Council has called on the Ministry of Education to activate an existing arrangement under which some private schools participate in the Free SHS programme.",
+      "The development comes as authorities prepare to release the 2026/2027 SHS, SHTS and TVET placement results on Friday, September 4, 2026. The Ministry of Education previously extended the placement process to ensure that qualified candidates whose school-choice information had not been uploaded were not left out.",
+      "The CSSPS has also urged parents and candidates to rely on official channels for placement information and avoid individuals who claim they can influence the placement process for money."
+    ]
+  },
+   {
+    slug: "would-you-drive-in-a-self-driving-car",
+    title: "Would You Drive In a Self-Driving Car?",
+    category: "International",
+    author: "Info Desk",
+    date: "September 3, 2026",
+    readTime: "2 min read",
+    image: "/Assets/20260903_111630.jpg",
+    imageCaption: "",
+    excerpt: "Uber has launched the United Kingdom’s first commercial robotaxi service in London, marking a major milestone in the country’s move towards autonomous transportation.",
+    tags: ["Uber", "UK", "Robotaxi", "London"],
+    body: [
+      "<b>Uber has launched the United Kingdom’s first commercial robotaxi service in London, marking a major milestone in the country’s move towards autonomous transportation.\n</b>",
+      "The initial rollout features 15 all-electric Ford Mustang Mach-E vehicles equipped with autonomous-driving technology developed by British technology company Wayve. The vehicles are being made available through the Uber app, with passengers able to use the service at no additional cost.",
+      "Despite the vehicles being capable of driving autonomously, each robotaxi will have a trained, Transport for London-licensed human safety driver on board. The driver will monitor the journey and can take control of the vehicle or apply the brakes if necessary. This arrangement is part of the UK's cautious regulatory approach to autonomous passenger services.",
+      "Passengers cannot specifically request a robotaxi. Instead, customers booking an UberX, Uber Electric or Uber Comfort ride may be matched with one of the autonomous vehicles and will have the option to accept the ride or switch to a conventional Uber.",
+      "The vehicles can initially operate across London, excluding airports, while Uber and Wayve plan to gradually expand the fleet based on passenger demand, regulatory approval and the technology’s readiness. More than 140,000 Londoners have already opted in for the opportunity to experience an autonomous Uber ride.",
+      "The launch is significant because London presents a particularly challenging environment for self-driving technology, with busy roads, cyclists, pedestrians, buses and complex traffic patterns. Wayve says its AI Driver has been developed and trained on London's roads since 2018 and is designed to learn from experience rather than depend entirely on traditional high-definition maps.",
+      "The move also puts Uber at the forefront of the growing robotaxi competition in London. Other companies, including Waymo and Baidu, are preparing to enter the city's autonomous-vehicle market.",
+      "For Uber and Wayve, the London launch represents an important step towards a future where autonomous vehicles and human drivers operate alongside each other. However, fully driverless taxi services will require further regulatory approval in the UK."
+    ]
+  },
+
+   {
     slug: "us-launches-1-coin-featuring-donald-trump-s-face",
     title: "US Launches $1 Coin Featuring Donald Trump’s Face",
     category: "International",
@@ -16,7 +84,7 @@ const TRENDING = [
     date: "September 3, 2026",
     readTime: "2 min read",
     image: "/Assets/FB_IMG_1788424445054.jpg",
-    imageCaption: "Image of the Coun",
+    imageCaption: "Image of the Coin",
     excerpt: "The United States has officially released a new $1 coin featuring the image of President Donald Trump, marking a",
     tags: ["US", "Donald Trump", "New Coin"],
     body: [

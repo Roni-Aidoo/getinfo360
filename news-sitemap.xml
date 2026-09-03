@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/police-arrest-six-over-violence-at-mount-sinai-okwapeman-shs.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03T00:00:00.000Z</news:publication_date>
+      <news:title>Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/54-985-bece-candidates-miss-2026-shs-placement-authorities-outline-options.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03T00:00:00.000Z</news:publication_date>
+      <news:title>54,985 BECE Candidates Miss 2026 SHS Placement; Authorities Outline Options</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/would-you-drive-in-a-self-driving-car.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03T00:00:00.000Z</news:publication_date>
+      <news:title>Would You Drive In a Self-Driving Car?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/us-launches-1-coin-featuring-donald-trump-s-face.html</loc>
     <news:news>
       <news:publication>
