@@ -8,6 +8,27 @@
    ============================================================ */
 
 const TRENDING = [
+    {
+    slug: "ghana-immigration-service-apprehends-1-055-people-rescues-662-children-in-crackd",
+    title: "Ghana Immigration Service apprehends 1,055 people, rescues 662 children in crackdown on street begging networks",
+    category: "National",
+    author: "Info Desk",
+    date: "September 4, 2026",
+    readTime: "1 min read",
+    image: "/Assets/GIS-rescues-662-Some-of-the-children-rescued-during-the-operation.jpg",
+    imageCaption: "Credit: Ghana Immigration Service",
+    excerpt: "The Ghana Immigration Service (GIS) has apprehended 1,055 West African nationals, including 662 children, in an intelligence-led operation targeting suspected human trafficking and organised street-begging networks in the Greater Accra and Ashanti regions.",
+    tags: ["Street-begging", "Ghana Immigration Service"],
+    body: [
+      "<b>The Ghana Immigration Service (GIS) has apprehended 1,055 West African nationals, including 662 children, in an intelligence-led operation targeting suspected human trafficking and organised street-begging networks in the Greater Accra and Ashanti regions.</b>",
+      "The operation, conducted in the early hours of Saturday, August 29, 2026, also involved the apprehension of 248 women and 145 men. According to the GIS, the exercise was aimed at disrupting criminal networks allegedly trafficking and exploiting vulnerable foreign nationals, particularly women and children.",
+      "The operation covered several identified hotspots in Greater Accra, including Abossey Okai, Sabon Zongo, Madina Zongo Junction, Madina, Ashaiman and Tema. In the Ashanti Region, officers conducted operations in parts of the Kumasi Metropolis, including Asawase, Alabar, Akwatia Line, Dagomba Line, Sabon Zongo, Airport Junction and Aboabo.",
+      "The GIS said the intelligence-led approach was designed not only to enforce immigration laws but also to identify and protect persons who may have been victims of human trafficking and other forms of exploitation.\nSome Ghanaian nationals were also apprehended on suspicion of acting as local agents for the alleged exploitative begging networks.",
+      "The Service is collaborating with the Ministry of Gender, Children and Social Protection and other relevant stakeholders to ensure that rescued victims, particularly children, receive appropriate care, protection and support.",
+      "The GIS has also urged members of the public to avoid giving alms directly to migrant beggars, especially children, warning that such donations could inadvertently sustain organised begging networks. Instead, the public is encouraged to channel support through the Department of Social Welfare, recognised children’s homes and credible NGOs.",
+      "The latest operation forms part of broader efforts by the Ghana Immigration Service to dismantle organised human-trafficking networks and protect vulnerable people from exploitation."
+    ]
+  },
   {
     slug: "patricia-appiagyei-returns-gh-70-000-over-concerns-about-source-of-funds",
     title: "Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds",
