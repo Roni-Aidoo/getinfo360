@@ -8,6 +8,27 @@
    ============================================================ */
 
 const TRENDING = [
+  {
+    slug: "patricia-appiagyei-returns-gh-70-000-over-concerns-about-source-of-funds",
+    title: "Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds",
+    category: "Politics",
+    author: "Info Desk",
+    date: "September 4, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Patricia.jpg",
+    imageCaption: "Hon. Patricia Appiagyei",
+    excerpt: "Deputy Minority Leader and Member of Parliament for Asokwa, Patricia Appiagyei, has returned GH¢70,000 allocated to her in connection with the work of Parliament’s Appointments Committee.",
+    tags: ["Deputy Minority Leader", "Asokwa Mp", "Patricia Appiagyei", "NPP"],
+    body: [
+      "<b>Deputy Minority Leader and Member of Parliament for Asokwa, Patricia Appiagyei, has returned GH¢70,000 allocated to her in connection with the work of Parliament’s Appointments Committee.</b>",
+      "Mrs Appiagyei said she decided to return the money because she was not aware of its original source and was uncomfortable accepting funds under circumstances she considered unclear.",
+      "In a memorandum dated September 2, 2026, and addressed to the Minority Chief Whip, Frank Annoh-Dompreh, the Asokwa MP explained that the amount had been presented to her as an advance from the Majority Chief Whip.\nAccording to her, however, she had not been informed about where the money originated.",
+      "She also cited ethical and political concerns, saying she did not want to personally benefit financially from the vetting of members of the Majority leadership, particularly Majority Leader Mahama Ayariga and Dr Zanetor Agyeman-Rawlings",
+      "Mrs Appiagyei further linked her decision to the Minority Caucus’ protest against the procedure adopted during the vetting of three Supreme Court nominees.\nThe Minority staged a walkout from the Appointments Committee on August 27, objecting to what it described as insufficient notice for the vetting of the nominees—Justice Sophia Rosetta Oduokuwa Bernasko Essah, Justice Edward Amoako Asante and Justice Anthony Forson Jnr.",
+      "The MP said accepting a financial benefit connected to a process in which the Minority had taken a principled position would be inconsistent with her stance.\nShe therefore instructed that the GH¢70,000 be returned to the Majority Chief Whip, while explaining her reasons for rejecting the allocation.\nHer decision follows a similar move by Minority Leader Alexander Afenyo-Markin, who has also indicated that he would return his share of the money.",
+      "The development has renewed attention on the purpose, source and circumstances surrounding the GH¢70,000 allocation to members involved in the parliamentary vetting process."
+    ]
+  },
    {
     slug: "police-arrest-six-over-violence-at-mount-sinai-okwapeman-shs",
     title: "Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS",

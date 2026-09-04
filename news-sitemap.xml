@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/patricia-appiagyei-returns-gh-70-000-over-concerns-about-source-of-funds.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-04T00:00:00.000Z</news:publication_date>
+      <news:title>Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/police-arrest-six-over-violence-at-mount-sinai-okwapeman-shs.html</loc>
     <news:news>
       <news:publication>
@@ -43,39 +54,6 @@
       </news:publication>
       <news:publication_date>2026-09-03T00:00:00.000Z</news:publication_date>
       <news:title>US Launches $1 Coin Featuring Donald Trump’s Face</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/mahama-dissolves-boards-of-nine-state-institutions-with-immediate-effect.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
-      <news:title>Mahama Dissolves Boards of Nine State Institutions With Immediate Effect</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/13-dead-5-critically-injured-in-sege-ada-highway-crash.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
-      <news:title>13 Dead, 5 Critically Injured in Sege–Ada Highway Crash</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/the-ghanaian-youth-fading-ability-to-innovate.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
-      <news:title>THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE</news:title>
     </news:news>
   </url>
 </urlset>

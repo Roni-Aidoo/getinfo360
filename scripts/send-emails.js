@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/image-228-565x424.png" alt="Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Patricia.jpg" alt="Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service has arrested six persons, including a teacher, in connection with the violent clashes involving students of Mount Sinai Senior High Sc…</p>
-        <a href="https://getinfoonline.com/news/police-arrest-six-over-violence-at-mount-sinai-okwapeman-shs.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Deputy Minority Leader and Member of Parliament for Asokwa, Patricia Appiagyei, has returned GH¢70,000 allocated to her in connection with the work of Parliame…</p>
+        <a href="https://getinfoonline.com/news/patricia-appiagyei-returns-gh-70-000-over-concerns-about-source-of-funds.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/BECE.png" alt="54,985 BECE Candidates Miss 2026 SHS Placement; Authorities Outline Options" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/image-228-565x424.png" alt="Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">54,985 BECE Candidates Miss 2026 SHS Placement; Authorities Outline Options</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A total of 54,985 candidates who sat for the 2026 Basic Education Certificate Examination (BECE) will not qualify for placement into Senior High Schools (SHSs)…</p>
-        <a href="https://getinfoonline.com/news/54-985-bece-candidates-miss-2026-shs-placement-authorities-outline-options.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Police Arrest Six Over Violence at Mount Sinai-Okwapeman SHS</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service has arrested six persons, including a teacher, in connection with the violent clashes involving students of Mount Sinai Senior High Sc…</p>
+        <a href="https://getinfoonline.com/news/police-arrest-six-over-violence-at-mount-sinai-okwapeman-shs.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
