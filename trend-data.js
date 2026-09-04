@@ -8,6 +8,26 @@
    ============================================================ */
 
 const TRENDING = [
+  {
+    slug: "jerry-ahmed-shaib-denies-gh-70-000-gift-claims-involving-patricia-appiagyei",
+    title: "Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei",
+    category: "Politics",
+    author: "Info Desk",
+    date: "September 4, 2026",
+    readTime: "2 min read",
+    image: "/Assets/20260904_140135.jpg",
+    imageCaption: "Hon. Jerry Ahmed Shaib & Hon. Patricia Appiagyei",
+    excerpt: "Second Deputy Minority Whip, Jerry Ahmed Shaib, has strongly dismissed reports alleging that Deputy Minority Leader and Asokwa MP, Patricia Appiagyei, received and subsequently returned a GH¢70,000 “gift” linked to the recent vetting of ministerial and Supreme Court nominees.",
+    tags: ["Jerry Ahmed Shaib", "Hon. Patricia Appiagyei", "Minority leaders", "NPP"],
+    body: [
+      "<b>Second Deputy Minority Whip, Jerry Ahmed Shaib, has strongly dismissed reports alleging that Deputy Minority Leader and Asokwa MP, Patricia Appiagyei, received and subsequently returned a GH¢70,000 “gift” linked to the recent vetting of ministerial and Supreme Court nominees.</b>",
+      "According to Shaib, the reports are completely untrue, insisting that neither he nor Appiagyei received money in connection with the vetting exercise. He described the memorandum circulating on social media and attributed to Appiagyei as fake.",
+      "Speaking on TV3 on Friday, September 4, Shaib said he had spoken directly with Appiagyei, who was reportedly upset by the circulation of the document and questioned its source.\nHe maintained that Appiagyei had not received any money and did not authorise the purported memorandum bearing her name and signature.",
+      "The controversy follows the circulation of a document claiming that Appiagyei had returned GH¢70,000 allegedly given to her as an advance in connection with the work of Parliament’s Appointments Committee.\nThe alleged document further suggested that she rejected the money because she did not want to personally benefit financially from the vetting of members of the Majority leadership and Supreme Court nominees.\nHowever, Shaib has urged the public to disregard the claims, stressing that there is “no truth whatsoever” in the report.",
+      "The matter has nevertheless attracted the attention of the Office of the Special Prosecutor (OSP), which has commenced preliminary investigations into the alleged GH¢70,000 payment. The OSP is seeking to establish whether the purported memorandum is genuine, the source of the alleged funds and their intended purpose",
+      "The investigation is expected to provide clarity on the conflicting accounts surrounding the alleged payment and the authenticity of the document attributed to Appiagyei.\nFor now, Shaib’s denial puts the authenticity of the circulating memorandum at the centre of the controversy, while the OSP’s inquiry could determine the facts behind the allegations."
+    ]
+  },
     {
     slug: "ghana-immigration-service-apprehends-1-055-people-rescues-662-children-in-crackd",
     title: "Ghana Immigration Service apprehends 1,055 people, rescues 662 children in crackdown on street begging networks",

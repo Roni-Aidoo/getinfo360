@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/GIS-rescues-662-Some-of-the-children-rescued-during-the-operation.jpg" alt="Ghana Immigration Service apprehends 1,055 people, rescues 662 children in crackdown on street begging networks" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/20260904_140135.jpg" alt="Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Immigration Service apprehends 1,055 people, rescues 662 children in crackdown on street begging networks</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Immigration Service (GIS) has apprehended 1,055 West African nationals, including 662 children, in an intelligence-led operation targeting suspected…</p>
-        <a href="https://getinfoonline.com/news/ghana-immigration-service-apprehends-1-055-people-rescues-662-children-in-crackd.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Second Deputy Minority Whip, Jerry Ahmed Shaib, has strongly dismissed reports alleging that Deputy Minority Leader and Asokwa MP, Patricia Appiagyei, received…</p>
+        <a href="https://getinfoonline.com/news/jerry-ahmed-shaib-denies-gh-70-000-gift-claims-involving-patricia-appiagyei.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Patricia.jpg" alt="Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/GIS-rescues-662-Some-of-the-children-rescued-during-the-operation.jpg" alt="Ghana Immigration Service apprehends 1,055 people, rescues 662 children in crackdown on street begging networks" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Patricia Appiagyei Returns GH¢70,000 Over Concerns About Source of Funds</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Deputy Minority Leader and Member of Parliament for Asokwa, Patricia Appiagyei, has returned GH¢70,000 allocated to her in connection with the work of Parliame…</p>
-        <a href="https://getinfoonline.com/news/patricia-appiagyei-returns-gh-70-000-over-concerns-about-source-of-funds.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Immigration Service apprehends 1,055 people, rescues 662 children in crackdown on street begging networks</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Immigration Service (GIS) has apprehended 1,055 West African nationals, including 662 children, in an intelligence-led operation targeting suspected…</p>
+        <a href="https://getinfoonline.com/news/ghana-immigration-service-apprehends-1-055-people-rescues-662-children-in-crackd.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
