@@ -9,6 +9,27 @@
 
 const TRENDING = [
   {
+    slug: "un-votes-to-adopt-new-world-map-showing-africa-s-true-scale",
+    title: "UN Votes to Adopt New World Map Showing Africa’s True Scale",
+    category: "International",
+    author: "Info Desk",
+    date: "September 4, 2026",
+    readTime: "1 min read",
+    image: "/Assets/0024f520-500 (1).jpg",
+    imageCaption: "",
+    excerpt: "The United Nations General Assembly has voted overwhelmingly in favour of a resolution calling for greater use of world maps that more accurately represent the true size of continents, particularly Africa.",
+    tags: ["New African Map", "UN"],
+    body: [
+      "<b>The United Nations General Assembly has voted overwhelmingly in favour of a resolution calling for greater use of world maps that more accurately represent the true size of continents, particularly Africa.</b>",
+      "The resolution, known as the “Correct the Map” initiative, was sponsored by Togo and backed by the African Union. It received 164 votes in favour, while the United States voted against and six countries abstained.",
+      "The initiative seeks to move away from the centuries-old Mercator projection, which is widely used around the world but significantly distorts the relative size of countries and continents. Regions close to the equator, including Africa, appear much smaller, while areas closer to the poles appear disproportionately large.",
+      "Under the Mercator projection, Africa can appear roughly comparable in size to Greenland, despite Africa being about 14 times larger than Greenland in reality. The distortion has therefore sparked concerns that conventional maps have contributed to inaccurate perceptions of Africa's geographical importance and scale.",
+      "The resolution promotes the Equal Earth projection, developed in 2018, as one alternative that provides a more proportionally accurate representation of the world's land areas. The campaign argues that maps are not merely geographical tools but can also influence how people understand different regions and their importance in the world.",
+      "However, the UN resolution is non-binding. It does not completely ban the Mercator projection, particularly where it remains useful for navigation. Instead, it encourages governments, schools, international organisations and technology companies to use more accurate equal-area maps where the relative size of countries and continents is important.",
+      "The vote represents a significant diplomatic victory for African countries and the wider #CorrectTheMap campaign, which has sought to challenge what advocates describe as the long-standing underrepresentation of Africa on commonly used world maps."
+    ]
+  },
+  {
     slug: "jerry-ahmed-shaib-denies-gh-70-000-gift-claims-involving-patricia-appiagyei",
     title: "Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei",
     category: "Politics",
