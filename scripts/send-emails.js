@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1788705260646.jpg" alt="THE EXPRESSWAY: A ROAD TO DEVELOPMENT OR ANOTHER MISSED OPPORTUNITY?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/0024f520-500 (1).jpg" alt="UN Votes to Adopt New World Map Showing Africa’s True Scale" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE EXPRESSWAY: A ROAD TO DEVELOPMENT OR ANOTHER MISSED OPPORTUNITY?</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">It is Sunday, 6th September 2026. After church, while taking a little rest, I began to reflect on the progress of our nation, especially in light of the much t…</p>
-        <a href="https://getinfoonline.com/news/the-expressway-a-road-to-development-or-another-missed-opportunity.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">UN Votes to Adopt New World Map Showing Africa’s True Scale</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The United Nations General Assembly has voted overwhelmingly in favour of a resolution calling for greater use of world maps that more accurately represent the…</p>
+        <a href="https://getinfoonline.com/news/un-votes-to-adopt-new-world-map-showing-africa-s-true-scale.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/0024f520-500 (1).jpg" alt="UN Votes to Adopt New World Map Showing Africa’s True Scale" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/20260904_140135.jpg" alt="Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">UN Votes to Adopt New World Map Showing Africa’s True Scale</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The United Nations General Assembly has voted overwhelmingly in favour of a resolution calling for greater use of world maps that more accurately represent the…</p>
-        <a href="https://getinfoonline.com/news/un-votes-to-adopt-new-world-map-showing-africa-s-true-scale.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Second Deputy Minority Whip, Jerry Ahmed Shaib, has strongly dismissed reports alleging that Deputy Minority Leader and Asokwa MP, Patricia Appiagyei, received…</p>
+        <a href="https://getinfoonline.com/news/jerry-ahmed-shaib-denies-gh-70-000-gift-claims-involving-patricia-appiagyei.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
