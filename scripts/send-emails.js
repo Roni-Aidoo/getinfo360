@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1788705260646.jpg" alt="THE EXPRESSWAY: A ROAD TO DEVELOPMENT OR ANOTHER MISSED OPPORTUNITY?" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp-Image-2025-05-09-at-6.23.15-PM-480x600.jpeg" alt="Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science &amp; Maths Quiz" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE EXPRESSWAY: A ROAD TO DEVELOPMENT OR ANOTHER MISSED OPPORTUNITY?</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">It is Sunday, 6th September 2026. After church, while taking a little rest, I began to reflect on the progress of our nation, especially in light of the much t…</p>
-        <a href="https://getinfoonline.com/articles/the-expressway-a-road-to-development-or-another-missed-opportunity.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science &amp; Maths Quiz</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">His story is one of curiosity, communication, entrepreneurship and a sustained commitment to education.</p>
+        <a href="https://getinfoonline.com/articles/dr-kwaku-mensa-bonsu-the-visionary-behind-ghana-s-national-science-maths-quiz.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/61.webp" alt="THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Screenshot_20260910-172448.jpg" alt="The Fading Moral Code Of Teachers And Students In Our Ghanaian Schools" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE GHANAIAN YOUTH FADING ABILITY TO INNOVATE</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The inspiration still lingers no matter an individual&apos;s age; so it seems when a 61 - year old man becomes the beneficiary of One million from a Coders Programm…</p>
-        <a href="https://getinfoonline.com/articles/the-ghanaian-youth-fading-ability-to-innovate.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">The Fading Moral Code Of Teachers And Students In Our Ghanaian Schools</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Teachers and Students usually do not see eye to eye, or seem to agree on the same things, why?</p>
+        <a href="https://getinfoonline.com/articles/the-fading-moral-code-of-teachers-and-students-in-our-ghanaian-schools.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

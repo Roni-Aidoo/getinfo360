@@ -23,4 +23,26 @@
       <news:title>Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/dr-kwaku-mensa-bonsu-the-visionary-behind-ghana-s-national-science-maths-quiz.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
+      <news:title>Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science &amp; Maths Quiz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/the-fading-moral-code-of-teachers-and-students-in-our-ghanaian-schools.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
+      <news:title>The Fading Moral Code Of Teachers And Students In Our Ghanaian Schools</news:title>
+    </news:news>
+  </url>
 </urlset>
