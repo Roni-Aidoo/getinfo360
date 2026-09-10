@@ -8,6 +8,47 @@
    ============================================================ */
 
 const TRENDING = [
+   {
+    slug: "missing-bece-mathematics-scripts-leave-parents-and-students-in-despair-in-bindur",
+    title: "Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri",
+    category: "Educational",
+    author: "Info Desk",
+    date: "September 10, 2026",
+    readTime: "1 min read",
+    image: "/Assets/BECE.png",
+    imageCaption: "Credit:Web",
+    excerpt: "Despair has gripped parents, students and school authorities in the Binduri District of the Upper East Region following reports that the Mathematics objective answer scripts of 165 candidates who sat for the 2026 Basic Education Certificate Examination (BECE) have gone missing.",
+    tags: ["BECE", "WAEC", "GES", "Ghana"],
+    body: [
+      "<b>Despair has gripped parents, students and school authorities in the Binduri District of the Upper East Region following reports that the Mathematics objective answer scripts of 165 candidates who sat for the 2026 Basic Education Certificate Examination (BECE) have gone missing.</b>",
+      "The affected candidates are reportedly from six schools within the district, raising concerns about the possible impact of the incident on their examination results and subsequent placement into senior high schools.\nThe Mathematics paper is an important component of the BECE, which is used to determine candidates’ eligibility and placement into second-cycle institutions. The reported disappearance of the objective scripts has therefore generated anxiety among affected families, particularly students who worked hard in preparation for the examination.",
+      "Parents are seeking clarity from the relevant authorities on how the situation occurred and, most importantly, what measures will be taken to ensure that the affected candidates are not unfairly disadvantaged.\nThe incident also raises questions about the security and handling of examination materials before, during and after the BECE. Examination scripts are expected to be carefully accounted for throughout the process to protect the integrity of the examination.",
+      "Authorities responsible for the conduct of the BECE are expected to investigate the circumstances surrounding the missing scripts and communicate a clear resolution to the affected candidates and their parents.\nFor the 165 students, the immediate concern remains whether their performance in Mathematics can be properly assessed and whether their future academic placement will be protected.",
+      "Further updates from the examination authorities and education officials are expected as efforts are made to establish what happened to the missing scripts and determine the appropriate course of action."
+    ]
+  },
+{
+    slug: "trump-promises-5-000-trump-dividend-to-americans-if-republicans-win-midterms",
+    title: "Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms",
+    category: "International",
+    author: "Info Desk",
+    date: "September 10, 2026",
+    readTime: "2 min read",
+    image: "/Assets/TRUMP.jpg",
+    imageCaption: "President Donald Trump",
+    excerpt: "U.S. President Donald Trump has promised to pay every American adult a $5,000 “Trump dividend” if Republicans retain control of Congress in the upcoming November midterm elections.",
+    tags: ["President Donald Trump", "$5000 dividend"],
+    body: [
+      "<b>U.S. President Donald Trump has promised to pay every American adult a $5,000 “Trump dividend” if Republicans retain control of Congress in the upcoming November midterm elections.</b>",
+      "Trump made the pledge on Wednesday, September 9, during the Republican Party’s first-ever midterm convention in Dallas, Texas, as he sought to rally support for Republican candidates ahead of the November 3 elections.",
+      "The proposed payment would represent a major financial commitment. With roughly 270 million adults in the United States, the total cost could reach about $1.35 trillion if every adult were eligible. However, Trump did not provide clear details on how the programme would be funded or how the payments would be administered.",
+      "Vice President JD Vance later suggested that wealthy Americans could potentially be excluded from the payments and indicated that tariff revenues could be considered as a source of funding. However, analysts have questioned whether tariff revenues would be sufficient to finance a programme of this scale.",
+      "The proposal would also require approval from Congress, meaning Trump could not simply order the payments to be made without legislative action. Critics have therefore raised questions about the feasibility and fiscal impact of the proposal, particularly given the United States’ large budget deficit and national debt.",
+      "Trump's announcement comes at a politically important moment for Republicans. The president has made himself a central figure in the midterm campaign and urged voters to view the election as a choice between his administration and the Democratic Party. He has also warned that a Democratic victory would threaten the progress he says his administration has made.\nThe $5,000 proposal is therefore being viewed not only as an economic promise but also as a significant campaign strategy to motivate voters to support Republican candidates. Reuters described the pledge as an extraordinary attempt to persuade Americans to back the party in November.",
+      "For now, the proposed “Trump dividend” remains a campaign promise rather than an approved government payment. Its actual implementation would depend on congressional approval, the final eligibility rules and a clear source of funding."
+    ]
+  },
+ 
  
   {
     slug: "un-votes-to-adopt-new-world-map-showing-africa-s-true-scale",

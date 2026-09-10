@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/0024f520-500 (1).jpg" alt="UN Votes to Adopt New World Map Showing Africa’s True Scale" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/BECE.png" alt="Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">UN Votes to Adopt New World Map Showing Africa’s True Scale</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The United Nations General Assembly has voted overwhelmingly in favour of a resolution calling for greater use of world maps that more accurately represent the…</p>
-        <a href="https://getinfoonline.com/news/un-votes-to-adopt-new-world-map-showing-africa-s-true-scale.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Despair has gripped parents, students and school authorities in the Binduri District of the Upper East Region following reports that the Mathematics objective…</p>
+        <a href="https://getinfoonline.com/news/missing-bece-mathematics-scripts-leave-parents-and-students-in-despair-in-bindur.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/20260904_140135.jpg" alt="Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/TRUMP.jpg" alt="Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Jerry Ahmed Shaib Denies GH¢70,000 Gift Claims Involving Patricia Appiagyei</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Second Deputy Minority Whip, Jerry Ahmed Shaib, has strongly dismissed reports alleging that Deputy Minority Leader and Asokwa MP, Patricia Appiagyei, received…</p>
-        <a href="https://getinfoonline.com/news/jerry-ahmed-shaib-denies-gh-70-000-gift-claims-involving-patricia-appiagyei.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">U.S. President Donald Trump has promised to pay every American adult a $5,000 “Trump dividend” if Republicans retain control of Congress in the upcoming Novemb…</p>
+        <a href="https://getinfoonline.com/news/trump-promises-5-000-trump-dividend-to-americans-if-republicans-win-midterms.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

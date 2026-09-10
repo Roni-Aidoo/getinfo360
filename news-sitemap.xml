@@ -2,14 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://getinfoonline.com/articles/the-expressway-a-road-to-development-or-another-missed-opportunity.html</loc>
+    <loc>https://getinfoonline.com/news/missing-bece-mathematics-scripts-leave-parents-and-students-in-despair-in-bindur.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-06T00:00:00.000Z</news:publication_date>
-      <news:title>THE EXPRESSWAY: A ROAD TO DEVELOPMENT OR ANOTHER MISSED OPPORTUNITY?</news:title>
+      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
+      <news:title>Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/trump-promises-5-000-trump-dividend-to-americans-if-republicans-win-midterms.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
+      <news:title>Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms</news:title>
     </news:news>
   </url>
 </urlset>

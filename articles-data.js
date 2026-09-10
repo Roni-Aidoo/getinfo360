@@ -233,7 +233,7 @@ const ARTICLES = [
       "Patriotism is equally reflected in personal discipline and respect for public spaces. It means REFRAINING from INDECENT ACTS SUCH AS URINATING BY THE ROADSIDE. It also involves maintaining CLEANLINESS by AVOIDING LITTERING and properly disposing of waste, rather than THROWING REFUSE into GUTTERS and POLLUTING THE ENVIRONMENT.",
       "<b>Wise </b>citizens understand that their actions today shape the future of the next generation. Therefore, they act responsibly, knowing that a clean, safe, and orderly environment benefits everyone.",
       "Patriotism, in this sense, becomes a legacy we build for those who will come after us.\n\nEach day, let us ask ourselves what we can contribute to make Ghana a better nation. Our focus should not be on advancing political interests, but on promoting national development and unity.",
-      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fff; \">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <img src=\"/Assets/ppad.png\" al=\"img\">\n        </a>\n      </td>\n    </tr>\n  </table>",
+       "<a href=\"https://wa.me/233599037800\" target=\"_blank\"><table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"       style=\"margin:28px 0;background:#fff; \">    <tr>      <td style=\"padding:20px;text-align:center;\">        <img src=\"/Assets/ppad.png\" al=\"img\">        </a>      </td>   </tr> </table></a>",
       "When every citizen embraces this mindset, the nation will undoubtedly move forward."
     ]
   },
