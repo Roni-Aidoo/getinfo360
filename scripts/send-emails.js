@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/BECE.png" alt="Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/COCAINE.jpg" alt="French Customs Seize Nearly 3.9 Tonnes of Cocaine Worth €225 Million" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Despair has gripped parents, students and school authorities in the Binduri District of the Upper East Region following reports that the Mathematics objective…</p>
-        <a href="https://getinfoonline.com/news/missing-bece-mathematics-scripts-leave-parents-and-students-in-despair-in-bindur.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">French Customs Seize Nearly 3.9 Tonnes of Cocaine Worth €225 Million</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">French customs officers have seized nearly 3.9 metric tonnes of cocaine at the northern port of Dunkirk, in one of the country’s major recent drug seizures.</p>
+        <a href="https://getinfoonline.com/news/french-customs-seize-nearly-3-9-tonnes-of-cocaine-worth-225-million.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/TRUMP.jpg" alt="Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp-Image-2026-09-11-at-12.36.49-1-750x460.jpg" alt="Ghana Moves to Secure Geographical Indication Protection for Akpeteshie" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">U.S. President Donald Trump has promised to pay every American adult a $5,000 “Trump dividend” if Republicans retain control of Congress in the upcoming Novemb…</p>
-        <a href="https://getinfoonline.com/news/trump-promises-5-000-trump-dividend-to-americans-if-republicans-win-midterms.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Moves to Secure Geographical Indication Protection for Akpeteshie</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Industrial Property Office (GHIPO) is intensifying efforts to secure Geographical Indication (GI) protection for Akpeteshie, Ghana’s traditional dist…</p>
+        <a href="https://getinfoonline.com/news/ghana-moves-to-secure-geographical-indication-protection-for-akpeteshie.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

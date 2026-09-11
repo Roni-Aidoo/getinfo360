@@ -9,6 +9,45 @@
 
 const TRENDING = [
    {
+    slug: "french-customs-seize-nearly-3-9-tonnes-of-cocaine-worth-225-million",
+    title: "French Customs Seize Nearly 3.9 Tonnes of Cocaine Worth €225 Million",
+    category: "Crime",
+    author: "Info Desk",
+    date: "September 11, 2026",
+    readTime: "1 min read",
+    image: "/Assets/COCAINE.jpg",
+    imageCaption: "Credit: Web",
+    excerpt: "French customs officers have seized nearly 3.9 metric tonnes of cocaine at the northern port of Dunkirk, in one of the country’s major recent drug seizures.",
+    tags: ["French customs officers", "cocaine"],
+    body: [
+      "<b>French customs officers have seized nearly 3.9 metric tonnes of cocaine at the northern port of Dunkirk, in one of the country’s major recent drug seizures.\n\nThe cocaine, which has an estimated street value of approximately €225 million ($261.45 million), was intercepted on Thursday, according to France’s organised crime prosecutor’s office.</b>",
+      "Authorities said the seizure was made at the Port of Dunkirk, a major commercial gateway in northern France. The discovery forms part of ongoing efforts by French law enforcement agencies to disrupt international drug trafficking networks operating through the country’s ports.\n\nThe huge quantity of cocaine represents a significant blow to criminal organisations involved in the transportation and distribution of illegal drugs.",
+      "French authorities have intensified surveillance and customs checks at major ports amid growing concerns over the movement of cocaine and other narcotics through European trade routes.",
+      "Investigations into the shipment are continuing as authorities work to establish its origin, intended destination and the individuals or organised criminal network behind the attempted trafficking.\n\nOfficials are expected to provide further details as the investigation progresses."
+    ]
+  },
+
+  {
+    slug: "ghana-moves-to-secure-geographical-indication-protection-for-akpeteshie",
+    title: "Ghana Moves to Secure Geographical Indication Protection for Akpeteshie",
+    category: "Business",
+    author: "Info Desk",
+    date: "September 11, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp-Image-2026-09-11-at-12.36.49-1-750x460.jpg",
+    imageCaption: "Scene from the launch",
+    excerpt: "The Ghana Industrial Property Office (GHIPO) is intensifying efforts to secure Geographical Indication (GI) protection for Akpeteshie, Ghana’s traditional distilled spirit.",
+    tags: ["GHIPO", "Akpeteshie", "Ghana"],
+    body: [
+      "<b>The Ghana Industrial Property Office (GHIPO) is intensifying efforts to secure Geographical Indication (GI) protection for Akpeteshie, Ghana’s traditional distilled spirit.</b>",
+      "The move is aimed at protecting the identity and reputation of Akpeteshie while creating opportunities for the locally produced beverage to compete more effectively in international markets.\n\nA Geographical Indication is a form of intellectual property protection used to identify products whose quality, reputation or characteristics are linked to a particular geographical area. Securing such protection could help prevent unauthorised producers outside Ghana from marketing products under the Akpeteshie name.",
+      "Akpeteshie has a long history in Ghana and is traditionally produced through the distillation of fermented palm wine or other locally sourced materials. It has become an important part of Ghanaian cultural and commercial life, with production taking place in several parts of the country.",
+      "GHIPO’s initiative could also provide greater recognition for local producers and encourage improved standards in the production, packaging and marketing of Akpeteshie.\n\nIndustry stakeholders believe GI protection could strengthen the value of the product by linking its name and reputation more firmly to Ghana, while opening doors to premium markets and supporting local livelihoods.",
+      "If successfully protected, Akpeteshie could join other internationally recognised products whose names are protected because of their geographical and cultural origins, giving Ghana a stronger platform to promote its traditional products on the global market.",
+      "The initiative forms part of broader efforts to use intellectual property protection to preserve Ghanaian heritage, promote local enterprises and increase the commercial value of indigenous products."
+    ]
+  },
+   {
     slug: "missing-bece-mathematics-scripts-leave-parents-and-students-in-despair-in-bindur",
     title: "Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri",
     category: "Educational",
