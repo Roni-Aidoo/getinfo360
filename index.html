@@ -53,6 +53,7 @@
   --radius: 18px;
   --radius-sm: 12px;
   --header-h: 64px;
+ --brando:#1f0c70;
   --tabbar-h: 66px;
   --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
@@ -68,6 +69,7 @@
   --brand-light:#122019;
   --gold:#E8BE5C;
  --ember:#f88b0f;
+ --brando:#fff;
   --line:#23262E;
   --shadow: 0 10px 30px -12px rgba(0,0,0,0.5);
   --shadow-lg: 0 24px 60px -20px rgba(0,0,0,0.6);
@@ -225,7 +227,7 @@ main{ padding-top:26px; padding-bottom:60px; }
   font-family:var(--font-display); font-size:1.4rem; font-weight:700; letter-spacing:-0.01em;
 }
 .see-all{
-  font-size:0.85rem; font-weight:600; color:var(--brand);
+  font-size:0.85rem; font-weight:600; color:var(--brando);
   display:flex; align-items:center; gap:6px; white-space:nowrap;
 }
 .see-all i{ font-size:0.75rem; transition:transform .2s ease; }
@@ -320,7 +322,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 .card-body{ padding:18px 18px 20px; display:flex; flex-direction:column; gap:8px; flex:1; }
 .card-cat{
   font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase;
-  letter-spacing:0.08em; color:var(--brand); font-weight:600;
+  letter-spacing:0.08em; color:var(--brando); font-weight:600;
 }
 .card-title{
   font-family:var(--font-display); font-size:1.08rem; font-weight:600; line-height:1.35;
@@ -494,7 +496,7 @@ footer.footer{
 .drawer .drawer-sub{ padding-left:14px; }
 .drawer .drawer-sub li a{ font-weight:500; font-size:0.92rem; color:var(--ink-soft); border-bottom:none; padding:10px 4px; }
 .drawer-social{ display:flex; gap:10px; margin-top:24px; }
-.drawer-social a{ width:38px; height:38px; border-radius:10px; background:var(--brand-light); color:var(--brand); display:flex; align-items:center; justify-content:center; }
+.drawer-social a{ width:38px; height:38px; border-radius:10px; background:var(--brand-light); color:var(--brando); display:flex; align-items:center; justify-content:center; }
 
 /* ================= SEARCH OVERLAY ================= */
 .search-overlay{
@@ -522,7 +524,7 @@ footer.footer{
 .search-result-item img{ width:56px; height:56px; border-radius:8px; object-fit:cover; flex-shrink:0; background:var(--brand-light); }
 .search-result-cat{
   font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase;
-  letter-spacing:0.08em; color:var(--brand); font-weight:600;
+  letter-spacing:0.08em; color:var(--brando); font-weight:600;
 }
 .search-result-title{ font-size:0.95rem; font-weight:600; margin-top:4px; }
 .search-empty{ padding:40px 20px; text-align:center; color:var(--ink-soft); }
@@ -822,14 +824,14 @@ footer.footer{
 <aside class="drawer" id="drawer">
   <div class="drawer-close"><button class="icon-btn" onclick="toggleDrawer()"><i class="fas fa-xmark"></i></button></div>
   <ul>
-    <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brand)"></i>Home</span></a></li>
-    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brand)"></i>Opinions</span><i class="fas fa-chevron-down"></i></a>
+    <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brando)"></i>Home</span></a></li>
+    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brando)"></i>Opinions</span><i class="fas fa-chevron-down"></i></a>
       <ul class="drawer-sub" id="drawer-sub" style="display:none;">
         <li><a href="360.html">All Articles</a></li>
       </ul>
     </li>
-    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brand)"></i>Trending News</span></a></li>
-    <li><a href="Signin.html"><span><i class="fa-solid fa-envelope" style="margin-right:10px;color:var(--brand)"></i>Subscribe</span></a></li>
+    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brando)"></i>Trending News</span></a></li>
+    <li><a href="Signin.html"><span><i class="fa-solid fa-envelope" style="margin-right:10px;color:var(--brando)"></i>Subscribe</span></a></li>
   </ul>
   <div class="drawer-social">
     <a href="#"><i class="fab fa-facebook-f"></i></a>

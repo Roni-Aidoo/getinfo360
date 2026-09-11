@@ -30,6 +30,7 @@
   --radius-sm: 12px;
   --header-h: 64px;
   --tabbar-h: 66px;
+   --brando:#1f0c70;
   --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
   --font-mono:'IBM Plex Mono', monospace;
@@ -41,6 +42,7 @@
   --paper:#0B0D11;
   --surface:#14171D;
    --brand:#1f0c70;
+    --brando:#fff;
   --brand-light:#122019;
   --gold:#E8BE5C;
    --ember:#f88b0f;
@@ -194,7 +196,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 .card-body{ padding:18px 18px 20px; display:flex; flex-direction:column; gap:8px; flex:1; }
 .card-cat{
   font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase;
-  letter-spacing:0.08em; color:var(--brand); font-weight:600;
+  letter-spacing:0.08em; color:var(--brando); font-weight:600;
 }
 .card-title{ font-family:var(--font-display); font-size:1.08rem; font-weight:600; line-height:1.35; }
 .card-foot{ margin-top:auto; padding-top:10px; display:flex; align-items:center; gap:10px; font-size:0.78rem; color:var(--ink-soft); font-family:var(--font-mono); }
@@ -258,7 +260,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 .tabbar li{ flex:1; }
 .tabbar a{ height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px; color:var(--ink-soft); font-size:0.68rem; font-weight:600; transition:color .2s ease; }
 .tabbar a i{ font-size:1.1rem; }
-.tabbar a.active{ color:var(--brand); }
+.tabbar a.active{ color:var(--brando); }
 .tabbar a .fab-circle{ width:44px; height:44px; border-radius:50%; background:var(--brand); color:#fff; display:flex; align-items:center; justify-content:center; margin-top:-22px; box-shadow:0 6px 16px rgba(15,61,46,0.4); }
 
 .drawer{
@@ -275,18 +277,39 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 .drawer .drawer-sub{ padding-left:14px; }
 .drawer .drawer-sub li a{ font-weight:500; font-size:0.92rem; color:var(--ink-soft); border-bottom:none; padding:10px 4px; }
 .drawer-social{ display:flex; gap:10px; margin-top:24px; }
-.drawer-social a{ width:38px; height:38px; border-radius:10px; background:var(--brand-light); color:var(--brand); display:flex; align-items:center; justify-content:center; }
+.drawer-social a{ width:38px; height:38px; border-radius:10px; background:var(--brand-light); color:var(--brando); display:flex; align-items:center; justify-content:center; }
 
+/* ================= SEARCH OVERLAY ================= */
 .search-overlay{
-  position:fixed; inset:0; background:var(--paper); z-index:1300; height: 100px;
+  position:fixed; inset:0; background:var(--paper); z-index:1300;
   display:flex; flex-direction:column; padding:24px;
-  opacity:0; visibility:hidden; transform:translateY(-12px); transition:all .25s ease;
+  opacity:0; visibility:hidden; transform:translateY(-12px);
+  transition:all .25s ease;
 }
 .search-overlay.show{ opacity:1; visibility:visible; transform:translateY(0); }
 .search-overlay .search-top{ display:flex; gap:12px; align-items:center; }
-.search-overlay input{ flex:1; padding:16px 18px; border-radius:14px; border:1px solid var(--line); background:var(--surface); font-size:1.05rem; outline:none; color:var(--ink); }
+.search-overlay input{
+  flex:1; padding:16px 18px; border-radius:14px; border:1px solid var(--line);
+  background:var(--surface); font-size:1.05rem; outline:none; color:var(--ink);
+}
 .search-overlay input:focus{ border-color:var(--brand); }
 .search-hint{ margin-top:20px; color:var(--ink-soft); font-size:0.9rem; }
+.search-hint.hidden{ display:none; }
+.search-results{ flex:1; overflow-y:auto; margin-top:16px; }
+.search-result-item{
+  display:flex; align-items:center; gap:14px; padding:14px 16px;
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm);
+  margin-bottom:10px; transition:all .2s ease;
+}
+.search-result-item:hover{ border-color:var(--brand); transform:translateY(-2px); box-shadow:var(--shadow); }
+.search-result-item img{ width:56px; height:56px; border-radius:8px; object-fit:cover; flex-shrink:0; background:var(--brand-light); }
+.search-result-cat{
+  font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase;
+  letter-spacing:0.08em; color:var(--brando); font-weight:600;
+}
+.search-result-title{ font-size:0.95rem; font-weight:600; margin-top:4px; }
+.search-empty{ padding:40px 20px; text-align:center; color:var(--ink-soft); }
+
 
 @media (max-width:992px){
   nav.desktop-nav{ display:none; }
@@ -431,7 +454,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
         <li><a href="team.html">Our team</a></li>
         <li><a href="#">Careers</a></li>
         <li><a href="#">Press</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="mailto:info@getinfoonline.com">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -455,14 +478,14 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 <aside class="drawer" id="drawer">
   <div class="drawer-close"><button class="icon-btn" onclick="toggleDrawer()"><i class="fas fa-xmark"></i></button></div>
   <ul>
-    <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brand)"></i>Home</span></a></li>
-    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brand)"></i>Opinions</span><i class="fas fa-chevron-down"></i></a>
+    <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brando)"></i>Home</span></a></li>
+    <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brando)"></i>Opinions</span><i class="fas fa-chevron-down"></i></a>
       <ul class="drawer-sub" id="drawer-sub" style="display:none;">
         <li><a href="360.html">360 Echoes</a></li>
       </ul>
     </li>
-    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brand)"></i>Trending News</span></a></li>
-    <li><a href="Signin.html"><span><i class="fa-solid fa-envelope" style="margin-right:10px;color:var(--brand)"></i>Subscribe</span></a></li>
+    <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brando)"></i>Trending News</span></a></li>
+    <li><a href="Signin.html"><span><i class="fa-solid fa-envelope" style="margin-right:10px;color:var(--brando)"></i>Subscribe</span></a></li>
   </ul>
   <div class="drawer-social">
     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -473,15 +496,20 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
   </div>
 </aside>
 
+<!-- ================= SEARCH OVERLAY ================= -->
 <div class="search-overlay" id="search-overlay">
   <div class="search-top">
     <button class="icon-btn" onclick="toggleSearch()"><i class="fas fa-arrow-left"></i></button>
     <input type="text" placeholder="Search articles, topics, people…" id="search-input">
-    <p class="search-hint"><a href="#trending-panel-reveal">Click me</a></p>
   </div>
+  <div class="search-results" id="search-results"></div>
+  <p class="search-hint">Try "Abutrica", "Asantehemaa", or "Kumasi cleanup"</p>
 </div>
+
 <!-- Article data: defines the global TRENDING array used to populate the hero, feed and trending panel -->
   <script src="trend-data.js"></script>
+  <script src="articles-data.js"></script>
+  <script src="Stories-data.js"></script>
 <script>
   /* ============================================================
    RENDER: hero feature — first article in TRENDING
@@ -618,42 +646,80 @@ renderHero();
 renderListingFeed();
 renderTrendingPanel(1);
 
-   const searchInput = document.getElementById('search-input');
+   /* ---------- search overlay ---------- */
+function toggleSearch(){
+  const ov = document.getElementById('search-overlay');
+  ov.classList.toggle('show');
+  if(ov.classList.contains('show')){
+    const input = document.getElementById('search-input');
+    if(input){
+      setTimeout(()=>input.focus(), 200);
+      input.value = '';
+      const resultsWrap = document.getElementById('search-results');
+      if(resultsWrap) resultsWrap.innerHTML = '';
+      const hint = document.querySelector('.search-hint');
+      if(hint) hint.classList.remove('hidden');
+    }
+  }
+}
 
-    searchInput.addEventListener('input', () => {
-      const searchTerm = searchInput.value.toLowerCase().trim();
-      const pagWrap = document.getElementById('trend-pagination');
-      const wrap = document.getElementById('trend-rows');
+function performSearch(term){
+  const resultsWrap = document.getElementById('search-results');
+  const hint = document.querySelector('.search-hint');
+  if(!resultsWrap) return;
 
-      // Empty search box: go back to the normal paginated view
-      if(searchTerm === ''){
-        renderTrendingPanel(trendCurrentPage);
-        return;
-      }
+  if(!term || term.trim() === ''){
+    resultsWrap.innerHTML = '';
+    if(hint) hint.classList.remove('hidden');
+    return;
+  }
 
-      // While searching, match against the FULL list (not just the current
-      // page) and hide pagination, since results aren't paginated.
-      if(pagWrap) pagWrap.innerHTML = '';
+  if(hint) hint.classList.add('hidden');
 
-      const matches = TRENDING
-        .map((article, idx) => ({ article, idx }))
-        .filter(({ article }) => article.title.toLowerCase().includes(searchTerm));
+  const q = term.toLowerCase().trim();
+  const results = [];
 
-      if(matches.length === 0){
-        wrap.innerHTML = `<div class="trend-empty">No matching articles found.</div>`;
-        return;
-      }
+  
 
-      wrap.innerHTML = matches.map(({ article, idx }) => `
-        <a class="trend-row" href="/news/${encodeURIComponent(article.slug)}.html">
-          <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
-          <div class="trend-info">
-            <h4 class="name">${escapeHtml(article.title)}</h4>
-            <div class="trend-date">${escapeHtml(article.date)}</div>
-          </div>
-        </a>
-      `).join('');
+  if(typeof TRENDING !== 'undefined'){
+    TRENDING.forEach(t => {
+      const match = t.title.toLowerCase().includes(q) ||
+                    t.category.toLowerCase().includes(q);
+      if(match) results.push({...t, _source: 'trend'});
     });
+  }
+
+ 
+
+  if(results.length === 0){
+    resultsWrap.innerHTML = '<div class="search-empty">No results found.</div>';
+    return;
+  }
+
+  resultsWrap.innerHTML = results.map(r => {
+    let href = '';
+    if(r._source === 'trend') href = `/news/${encodeURIComponent(r.slug)}.html`;
+   
+   
+
+    return `
+      <a class="search-result-item" href="${href}">
+        <img src="${r.image}" alt="">
+        <div>
+          <span class="search-result-cat">${escapeHtml(r.category)}</span>
+          <div class="search-result-title">${escapeHtml(r.title)}</div>
+        </div>
+      </a>
+    `;
+  }).join('');
+}
+
+const searchInput = document.getElementById('search-input');
+if(searchInput){
+  searchInput.addEventListener('input', () => {
+    performSearch(searchInput.value);
+  });
+}
 
 const themeToggle = document.getElementById('theme-toggle');
 function applyTheme(t){
