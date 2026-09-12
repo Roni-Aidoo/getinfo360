@@ -8,6 +8,24 @@
    ============================================================ */
 
 const TRENDING = [
+  {
+    slug: "gospel-music-legend-bernice-offei-reportedly-dies-at-63",
+    title: "Gospel Music Legend Bernice Offei Reportedly Dies at 63",
+    category: "Entertainment",
+    author: "Info Desk",
+    date: "September 12, 2026",
+    readTime: "1 min read",
+    image: "/Assets/FB_IMG_1788389911833.jpg",
+    imageCaption: "Mrs. Bernice Offei",
+    excerpt: "Ghana’s gospel music community has been plunged into mourning following reports of the death of veteran gospel musician Bernice Offei at the age of 63.",
+    tags: ["Bernice Offei", "gospel musician"],
+    body: [
+      "<b>Ghana’s gospel music community has been plunged into mourning following reports of the death of veteran gospel musician Bernice Offei at the age of 63.</b>",
+      "The celebrated gospel artist is reported to have passed away on the morning of Saturday, September 12, 2026. News of her death has sparked sadness among gospel music lovers and admirers of her longstanding contribution to Christian music in Ghana.\n\nBernice Offei was known for her dedication to gospel music and her role in promoting Christian values through her songs and ministry. Over the years, she earned recognition as one of Ghana’s respected gospel music figures.",
+      "Her passing is expected to leave a significant void in Ghana’s gospel music landscape, particularly among those who have followed and appreciated her musical journey.\n\nTributes are expected to pour in from fellow musicians, church leaders, family members, and fans as the nation remembers her life and contribution to gospel music.\n\nFurther details regarding the circumstances of her death and funeral arrangements are yet to be confirmed.",
+      "GetInfo Online extends its condolences to the family, friends, colleagues, and loved ones of Bernice Offei during this difficult time."
+    ]
+  },
    {
     slug: "french-customs-seize-nearly-3-9-tonnes-of-cocaine-worth-225-million",
     title: "French Customs Seize Nearly 3.9 Tonnes of Cocaine Worth €225 Million",

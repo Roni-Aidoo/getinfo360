@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/gospel-music-legend-bernice-offei-reportedly-dies-at-63.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12T00:00:00.000Z</news:publication_date>
+      <news:title>Gospel Music Legend Bernice Offei Reportedly Dies at 63</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/french-customs-seize-nearly-3-9-tonnes-of-cocaine-worth-225-million.html</loc>
     <news:news>
       <news:publication>
@@ -21,50 +32,6 @@
       </news:publication>
       <news:publication_date>2026-09-11T00:00:00.000Z</news:publication_date>
       <news:title>Ghana Moves to Secure Geographical Indication Protection for Akpeteshie</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/missing-bece-mathematics-scripts-leave-parents-and-students-in-despair-in-bindur.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
-      <news:title>Missing BECE Mathematics Scripts Leave Parents and Students in Despair in Binduri</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/news/trump-promises-5-000-trump-dividend-to-americans-if-republicans-win-midterms.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
-      <news:title>Trump Promises $5,000 ‘Trump Dividend’ to Americans if Republicans Win Midterms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/dr-kwaku-mensa-bonsu-the-visionary-behind-ghana-s-national-science-maths-quiz.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
-      <news:title>Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science &amp; Maths Quiz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/the-fading-moral-code-of-teachers-and-students-in-our-ghanaian-schools.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T00:00:00.000Z</news:publication_date>
-      <news:title>The Fading Moral Code Of Teachers And Students In Our Ghanaian Schools</news:title>
     </news:news>
   </url>
 </urlset>
