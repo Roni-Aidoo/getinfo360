@@ -8,6 +8,44 @@
    ============================================================ */
 
 const ARTICLES = [
+    {
+    slug: "bernice-offei-the-gospel-music-veteran-who-combined-faith-education-and-professi",
+    title: "Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence",
+    category: "Biography",
+    author: "Jennifer Agyei",
+    date: "September 12, 2026",
+    readTime: "3 min read",
+    image: "/Assets/71538003.jpg",
+    imageCaption: "The late Bernice Offei",
+    excerpt: "Her journey is one of faith, academic achievement, professional discipline and a passion for spreading the Christian message through song.",
+    tags: ["Bernice Offei", "Gospel Musician", "Hold on fast", "Ghana Music"],
+    body: [
+      "<b>Bernice Offei is a celebrated Ghanaian gospel musician and songwriter whose decades-long contribution to Christian music has earned her recognition among Ghana’s respected gospel ministers. Known for her inspirational songs, powerful vocals and commitment to gospel ministry, Offei has built a legacy that extends beyond music.\n</b>",
+      "Her journey is one of faith, academic achievement, professional discipline and a passion for spreading the Christian message through song.",
+      "## Early Life and Education",
+      "Bernice Offei was born in Accra, Ghana. She received her secondary education at Achimota School, one of the country's prominent educational institutions.\n\nFollowing the completion of her O-Level education in 1979, she taught herself how to play the acoustic guitar. At a time when playing musical instruments was not a common pursuit among female gospel ministers in Ghana, her decision demonstrated her determination to develop her musical abilities.",
+      "Her commitment to education also saw her pursue advanced academic qualifications. She holds a Master of Philosophy in Crop Science from the University of Ghana and a Master of Science in Information Technology from the United Kingdom.\n\nHer academic background reflects her diverse interests and accomplishments beyond the entertainment industry.",
+      "## Banking Career and Call to Full-Time Ministry",
+      "Before dedicating herself entirely to gospel music, Bernice Offei worked as a professional banker at Standard Chartered Bank.\n\nShe combined her banking career with her passion for gospel music for several years. However, in 2016, she reportedly resigned from banking to devote herself",
+      "The decision marked an important turning point in her life, allowing her to concentrate on her calling as a gospel singer, songwriter and minister.\n\nHer story has often been cited as an example of how professional success and spiritual purpose can exist alongside each other.",
+      "## Music Career and Notable Songs",
+      "Bernice Offei has made a lasting contribution to Ghana's gospel music scene through songs that emphasise faith, perseverance, gratitude and God's grace.",
+      "Some of her well-known songs include:",
+      "<li>We Are Victors</li>\n<li>Hold On Fast</li>\n<li>Life Is Short</li>\n<li>It's by Grace</li>\n<li>Kaa Shei Gbeyei</li>\nAnd Others",
+      "She has also been associated with songs and albums such as Me Ko So, Grateful and Life. Her album Life, released in 2007, became particularly significant in her career and was associated with major award recognition.",
+      "Through her music, Offei has encouraged listeners to remain steadfast in their faith and trust in God despite life's challenges.",
+      "## Awards and Recognition",
+      "Bernice Offei's contribution to gospel music has earned her prestigious recognition in Ghana's music industry.",
+      "At the 2009 Vodafone Ghana Music Awards, she won awards in the<b> Best Female Vocal Performance and Songwriter of the Year </b>categories.",
+      "These honours reflected her vocal ability, songwriting talent and influence within the Ghanaian gospel music community.\n\nHer achievements have helped establish her as one of the notable female voices in Ghanaian gospel music.",
+      "## Family and Personal Life",
+      "Bernice Offei is married to Professor Samuel Kwame Offei, a distinguished academic and former Pro-Vice-Chancellor for Academic and Student Affairs at the University of Ghana.\n\nThe couple have two children.",
+      "Professor Samuel K. Offei is a renowned plant virologist and scholar who has held several academic and leadership positions at the University of Ghana. His university profile confirms his distinguished career in biotechnology and agricultural research.",
+      "## A Continuing Gospel Legacy",
+      "Bernice Offei's life and career illustrate the impact of dedication, education and faith. From teaching herself to play the acoustic guitar to building a successful career in banking and later devoting herself to gospel ministry, she has followed a distinctive path.",
+      "Her music continues to be associated with messages of hope, perseverance and Christian devotion. Her achievements in gospel music, together with her academic and professional background, make her a noteworthy figure in Ghana's cultural and religious landscape."
+    ]
+  },
   {
     slug: "dr-kwaku-mensa-bonsu-the-visionary-behind-ghana-s-national-science-maths-quiz",
     title: "Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science & Maths Quiz",

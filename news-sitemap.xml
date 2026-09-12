@@ -45,4 +45,15 @@
       <news:title>Ghana Moves to Secure Geographical Indication Protection for Akpeteshie</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/bernice-offei-the-gospel-music-veteran-who-combined-faith-education-and-professi.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12T00:00:00.000Z</news:publication_date>
+      <news:title>Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence</news:title>
+    </news:news>
+  </url>
 </urlset>
