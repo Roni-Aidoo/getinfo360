@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1788389911833.jpg" alt="Gospel Music Legend Bernice Offei Reportedly Dies at 63" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/10608674.295.jpg" alt="Policeman Identified and Interdicted Over Death of Central University Student Ivan Baidoo" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Gospel Music Legend Bernice Offei Reportedly Dies at 63</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s gospel music community has been plunged into mourning following reports of the death of veteran gospel musician Bernice Offei at the age of 63.</p>
-        <a href="https://getinfoonline.com/news/gospel-music-legend-bernice-offei-reportedly-dies-at-63.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Policeman Identified and Interdicted Over Death of Central University Student Ivan Baidoo</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A police officer allegedly involved in the circumstances surrounding the death of Central University law student, Ivan Apprey Baidoo, has reportedly been ident…</p>
+        <a href="https://getinfoonline.com/news/policeman-identified-and-interdicted-over-death-of-central-university-student-iv.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/COCAINE.jpg" alt="French Customs Seize Nearly 3.9 Tonnes of Cocaine Worth €225 Million" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/FB_IMG_1788389911833.jpg" alt="Gospel Music Legend Bernice Offei Reportedly Dies at 63" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">French Customs Seize Nearly 3.9 Tonnes of Cocaine Worth €225 Million</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">French customs officers have seized nearly 3.9 metric tonnes of cocaine at the northern port of Dunkirk, in one of the country’s major recent drug seizures.</p>
-        <a href="https://getinfoonline.com/news/french-customs-seize-nearly-3-9-tonnes-of-cocaine-worth-225-million.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Gospel Music Legend Bernice Offei Reportedly Dies at 63</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s gospel music community has been plunged into mourning following reports of the death of veteran gospel musician Bernice Offei at the age of 63.</p>
+        <a href="https://getinfoonline.com/news/gospel-music-legend-bernice-offei-reportedly-dies-at-63.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

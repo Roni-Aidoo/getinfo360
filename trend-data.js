@@ -9,6 +9,27 @@
 
 const TRENDING = [
   {
+    slug: "policeman-identified-and-interdicted-over-death-of-central-university-student-iv",
+    title: "Policeman Identified and Interdicted Over Death of Central University Student Ivan Baidoo",
+    category: "Crime",
+    author: "Info Desk",
+    date: "September 12, 2026",
+    readTime: "2 min read",
+    image: "/Assets/10608674.295.jpg",
+    imageCaption: "The late Ivan Baidoo",
+    excerpt: "A police officer allegedly involved in the circumstances surrounding the death of Central University law student, Ivan Apprey Baidoo, has reportedly been identified and interdicted pending further investigations.",
+    tags: ["Ivan Baidoo", "Ghana Police", "Justice for Ivan"],
+    body: [
+      "<b>A police officer allegedly involved in the circumstances surrounding the death of Central University law student, Ivan Apprey Baidoo, has reportedly been identified and interdicted pending further investigations.</b>",
+      "The development follows growing public concern over the death of the 20-year-old student, who died after a motorcycle accident on the Accra–Tema Motorway on Thursday, August 27, 2026.",
+      "Ivan, a second-year law student, was reportedly travelling as a passenger on a YANGO-operated motorcycle when the incident occurred. According to an account contained in a petition submitted by his family to the Criminal Investigations Department (CID) of the Ghana Police Service, a police patrol officer riding another motorcycle allegedly pursued the YANGO rider from the UPSA–Legon junction towards the motorway.",
+      "The rider, Samuel Arthur Wesley, reportedly told investigators that the police officer caught up with them and struck the motorcycle from behind, causing both him and Ivan to fall. Ivan subsequently died from injuries sustained in the incident.",
+      "The exact circumstances surrounding the crash remain subject to investigation, and the allegations against the police officer have not yet been conclusively established.\n\nIvan’s family has raised several concerns about the handling of the case, including the whereabouts of the deceased’s mobile phone, the identities of the officers involved in the alleged pursuit and the availability of road-camera footage that could help establish what happened.",
+      "The family, through its lawyers, Nyamekye & Partners, petitioned the CID on September 7, 2026, calling for a full-scale investigation into the circumstances leading to Ivan’s death.\n\nThe reported identification and interdiction of the police officer are expected to support efforts to establish the facts surrounding the incident and determine whether any wrongdoing occurred.",
+      "The family has consistently called for transparency, accountability and justice, while urging the authorities to ensure that all individuals connected to the incident are properly investigated.\n\nThe case continues to attract public attention as the family awaits further clarity on the events that led to the tragic death of the young law student."
+    ]
+  },
+  {
     slug: "gospel-music-legend-bernice-offei-reportedly-dies-at-63",
     title: "Gospel Music Legend Bernice Offei Reportedly Dies at 63",
     category: "Entertainment",
