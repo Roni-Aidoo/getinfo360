@@ -1266,9 +1266,9 @@ function performSearch(term){
 
   resultsWrap.innerHTML = results.map(r => {
     let href = '';
-    if(r._source === 'article') href = `/articles/${encodeURIComponent(item.slug)}.html`;
-    else if(r._source === 'trend') href = `/news/${encodeURIComponent(item.slug)}.html`;
-    else if(r._source === 'story') href = `/stories/${encodeURIComponent(item.slug)}.html`;
+    if(r._source === 'article') href = `/articles/${encodeURIComponent(r.slug)}.html`;
+    else if(r._source === 'trend') href = `/news/${encodeURIComponent(r.slug)}.html`;
+    else if(r._source === 'story') href = `/stories/${encodeURIComponent(r.slug)}.html`;
 
     return `
       <a class="search-result-item" href="${href}">
