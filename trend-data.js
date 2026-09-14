@@ -9,6 +9,26 @@
 
 const TRENDING = [
   {
+    slug: "the-school-has-not-been-demolished-and-will-not-be-demolished",
+    title: "The School Has Not Been Demolished And Will Not Be Demolished.",
+    category: "National",
+    author: "Dr Frank Amoakohene",
+    date: "September 14, 2026",
+    readTime: "1 min read",
+    image: "/Assets/451051.jpg",
+    imageCaption: "The Ashanti Regional Minister, Dr. Frank Amoakohene",
+    excerpt: "The Ashanti Regional Minister, Dr. Frank Amoakohene clears claims of the demolition of a school structure at Mankranso for the construction of 24hr Economy.",
+    tags: ["Dr Frank Amoakohene", "Ashanti Regional Minister", "24hr Economy", "Ghana’s"],
+    body: [
+      "<b>My attention has been drawn to a viral video circulating on social media concerning alleged plans to demolish a school facility in the Ahafo Ano South West District for the construction of a 24-hour market.</b>",
+      "In response, I have directed the District Assembly to immediately halt all related activities. I have also summoned the relevant stakeholders to my office for a full review of the matter.",
+      "> I wish to assure the general public that the school has not been demolished and will not be demolished.",
+      "I therefore urge all citizens to remain calm and disregard any claims or speculation until the review is completed and the facts are clearly established.",
+      "As Regional Minister, my priority remains the protection of public interest and the orderly implementation of development projects in the region.",
+      "Source: @Dr Frank Amoakohene (Facebook)"
+    ]
+  },
+  {
     slug: "policeman-identified-and-interdicted-over-death-of-central-university-student-iv",
     title: "Policeman Identified and Interdicted Over Death of Central University Student Ivan Baidoo",
     category: "Crime",
