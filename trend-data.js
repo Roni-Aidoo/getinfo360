@@ -9,6 +9,78 @@
 
 const TRENDING = [
   {
+    slug: "ghana-city-of-columbus-sign-mou-to-strengthen-nursing-education-and-employment-o",
+    title: "Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities",
+    category: "Health",
+    author: "Info Desk",
+    date: "September 15, 2026",
+    readTime: "1 min read",
+    image: "/Assets/safeimagekit-Ghana Colombus nursing agreement 2-1200x675.webp",
+    imageCaption: "Scene from the Programme",
+    excerpt: "Ghana and the City of Columbus in Ohio, United States, have signed a Memorandum of Understanding (MoU) to establish the Ghana-Columbus Nursing Partnership Programme",
+    tags: ["Ghana", "Ministry of Health", "Memorandum of Understanding (MoU)", "Ghana-Columbus Nursing Partnership"],
+    body: [
+      "<b>Ghana and the City of Columbus in Ohio, United States, have signed a Memorandum of Understanding (MoU) to establish the Ghana-Columbus Nursing Partnership Programme, a collaboration aimed at strengthening nursing education, workforce development and legal employment pathways for Ghanaian nurses in Ohio.</b>",
+      "The initiative will focus on improving nursing education and skills development while promoting cooperation between Ghanaian institutions and healthcare stakeholders in Columbus.",
+      "Through the programme, participating nurses could benefit from structured professional development opportunities and clearer pathways towards employment, subject to applicable licensing, immigration and professional requirements in the United States.\n\nThe partnership also represents an effort to deepen cooperation between Ghana and the City of Columbus in the healthcare sector, particularly in addressing nursing workforce needs and supporting the development of skilled healthcare professionals.",
+      "For Ghana, the initiative could provide nurses with opportunities to gain international experience and improve their professional prospects. At the same time, it highlights the importance of ensuring that international recruitment is conducted responsibly and does not undermine the country’s own healthcare workforce needs.\n\nThe Ghana-Columbus Nursing Partnership Programme is therefore expected to serve as a platform for collaboration in nursing education, workforce development and lawful international employment.",
+      "Further details on the implementation of the agreement, participating institutions and the specific requirements for nurses are expected to clarify how the programme will operate."
+    ]
+  },
+{
+    slug: "accra-kumasi-expressway-funds-to-be-ready-by-december-ato-forson-assures",
+    title: "Accra-Kumasi Expressway: Funds to Be Ready by December, Ato Forson Assures",
+    category: "National",
+    author: "Info Desk",
+    date: "September 15, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Ato-road.png",
+    imageCaption: "Finance Minister Dr Cassiel Ato Forson",
+    excerpt: "Finance Minister Dr Cassiel Ato Forson has assured Ghanaians that the funds needed for the construction of the Accra-Kumasi Expressway will be fully available by December 2026.",
+    tags: ["Finance Minister", "Dr Cassiel Ato Forson", "Accra-Kumasi Expressway December 2026"],
+    body: [
+      "<b>Finance Minister Dr Cassiel Ato Forson has assured Ghanaians that the funds needed for the construction of the Accra-Kumasi Expressway will be fully available by December 2026.\n</b>",
+      "According to the Minister, the government is committed to ensuring that the major road project receives the necessary financial backing to facilitate its construction.",
+      "Dr Ato Forson stressed that the government would <b> not borrow to finance the project,</b> signalling its intention to rely on available financial resources rather than contracting new loans.",
+      "The Accra-Kumasi Expressway is expected to play a significant role in improving transportation between the Greater Accra and Ashanti regions. The project could help reduce travel times, ease congestion and support the movement of people and goods along one of Ghana’s busiest road corridors.",
+      "The Finance Minister’s assurance comes amid growing public interest in the progress of major infrastructure projects and the government’s approach to financing them.",
+      "If the required funds become available as projected, attention will turn to the commencement and implementation of the project, as well as measures to ensure value for money and timely completion.",
+      "The government’s decision not to borrow for the expressway is also expected to attract public attention, particularly as authorities seek to balance infrastructure development with responsible management of the country’s finances.",
+      "Dr Ato Forson’s statement therefore provides a positive outlook for the proposed expressway, although further details on the funding arrangements, construction timeline and implementation plans will be important in assessing the project’s progress."
+    ]
+  },
+
+  {
+    slug: "nacoc-dutch-drug-lord-boelle-jos-has-not-entered-ghana",
+    title: "NACOC: Dutch ‘Drug Lord’ Boelle Jos Has Not Entered Ghana",
+    category: "National",
+    author: "Info Desk",
+    date: "September 15, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Bolle-Jos_2026_Thumbnail_final.jpg",
+    imageCaption: "Bolle Jos",
+    excerpt: "The Narcotics Control Commission (NACOC) has disclosed that intelligence available to Ghanaian authorities indicates that wanted Dutch drug trafficker Jos Leijdekkers, popularly known as “Bolle Jos,” has not entered Ghana.",
+    tags: ["The Narcotics Control Commission (NACOC)", "Dutch drug trafficker", "Jos Leijdekkers", "Bolle Jos"],
+    body: [
+      "<b>The Narcotics Control Commission (NACOC) has disclosed that intelligence available to Ghanaian authorities indicates that wanted Dutch drug trafficker Jos Leijdekkers, popularly known as “Bolle Jos,” has not entered Ghana.</b>",
+      "The disclosure follows the seizure of a cocaine shipment worth an estimated €225 million by French customs authorities at the port of Dunkirk. The consignment, reportedly originating from Ghana, contained nearly 3.9 tonnes of cocaine concealed in a container carrying plastic waste. Part of the shipment was allegedly destined for Antwerp, Belgium.",
+      "Speaking on TV3’s Ghana Tonight on Monday, September 14, 2026, Acting Director of Public Affairs and International Relations at NACOC, PNCO Francis Opoku Amoah, said information gathered by the Commission did not suggest that Bolle Jos had visited Ghana.",
+      "According to him, intelligence sources indicate that the fugitive may currently be residing in Sierra Leone, although authorities have not established why he is allegedly being protected there.",
+      "> We haven’t seen him [Bolle Jos] been into Ghana yet,” PNCO Amoah stated",
+      "while discussing the Commission’s investigations into the alleged drug-trafficking network.",
+      "## Three Suspects Arrested",
+      "NACOC has arrested three suspects believed to have represented or facilitated the activities of Bolle Jos in Ghana. The suspects are currently assisting investigators as authorities work to establish their alleged roles in the trafficking operation.",
+      "The Commission has also indicated that further arrests could be made in Ghana and other countries as investigations continue and cooperation with international law-enforcement agencies deepens.\n\nPNCO Amoah explained that Bolle Jos first came to the attention of Ghanaian authorities through engagements with Dutch officials, who identified him as a wanted individual suspected of involvement in international drug trafficking.",
+      "He said Ghanaian authorities had been working with international partners to monitor the activities of individuals allegedly connected to the fugitive.",
+      "## Ghana Intensifies Fight Against Drug Trafficking",
+      "NACOC has reaffirmed its determination to prevent Ghana from becoming a safe haven, transit point or operational base for international drug-trafficking organisations.\n\nThe Commission said it would continue collaborating with local and international law-enforcement agencies to disrupt the people, finances and infrastructure supporting the illicit drug trade.",
+      "It also stressed that the rights and legal protections of all persons under investigation would be respected.",
+      "Investigations into the cocaine shipment and the alleged network linked to Bolle Jos remain ongoing."
+    ]
+  },
+
+  
+  {
     slug: "the-school-has-not-been-demolished-and-will-not-be-demolished",
     title: "The School Has Not Been Demolished And Will Not Be Demolished.",
     category: "National",
@@ -17,7 +89,7 @@ const TRENDING = [
     readTime: "1 min read",
     image: "/Assets/451051.jpg",
     imageCaption: "The Ashanti Regional Minister, Dr. Frank Amoakohene",
-    excerpt: "The Ashanti Regional Minister, Dr. Frank Amoakohene clears claims of the demolition of a school structure at Mankranso for the construction of 24hr Economy.",
+    excerpt: "The Ashanti Regional Minister, Dr. Frank Amoakohene clears claims of the demolition of a school structure at Mankranso for the construction of 24hr Economy Market.",
     tags: ["Dr Frank Amoakohene", "Ashanti Regional Minister", "24hr Economy", "Ghana’s"],
     body: [
       "<b>My attention has been drawn to a viral video circulating on social media concerning alleged plans to demolish a school facility in the Ahafo Ano South West District for the construction of a 24-hour market.</b>",
