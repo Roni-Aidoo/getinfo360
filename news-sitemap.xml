@@ -34,15 +34,4 @@
       <news:title>NACOC: Dutch ‘Drug Lord’ Boelle Jos Has Not Entered Ghana</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://getinfoonline.com/news/the-school-has-not-been-demolished-and-will-not-be-demolished.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T00:00:00.000Z</news:publication_date>
-      <news:title>The School Has Not Been Demolished And Will Not Be Demolished.</news:title>
-    </news:news>
-  </url>
 </urlset>

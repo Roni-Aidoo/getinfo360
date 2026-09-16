@@ -8,6 +8,33 @@
    ============================================================ */
 
 const STORIES = [
+  {
+    slug: "the-maze",
+    title: "THE MAZE",
+    category: "Poem",
+    author: "Jennifer Agyei",
+    date: "September 16, 2026",
+    readTime: "1 min read",
+    image: "/Assets/4320.jpg",
+    imageCaption: "",
+    excerpt: "Read \"The Maze\" , a poem by Miss Jennifer Agyei.",
+    tags: ["Maze", "Jennifer Agyei", "Life"],
+    body: [
+      "Looking on and on toward my destination,",
+      "with my head lifted high.",
+      "I only see a glimpse.",
+      "As l draw closer, it fades away.",
+      "I turn and walk,",
+      "side by side, like kids on the street.",
+      "The more steps l take toward my destination,",
+      "the deeper l’m led through a maze of paths",
+      "As l try to choose between the paths,",
+      "behold - a guide appears from the end of the maze.",
+      "I thank the heavens",
+      "for a way out of this difficult path.",
+      "Indeed, there is always a light at the end of the tunnel."
+    ]
+  },
     {
     slug: "a-license-to-date",
     title: "A LICENSE TO DATE",
