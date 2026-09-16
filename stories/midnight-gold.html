@@ -166,7 +166,7 @@ nav.desktop-nav a.top-link:hover, nav.desktop-nav a.top-link.active{
   transition:all .2s ease;
 }
 .chip:hover{ border-color:var(--brand); color:var(--brand); }
-.chip.active{ background:var(--brand); color:#fff; border-color:var(--brand); }
+.chip.active{ background:var(--brandi); color:#fff; border-color:var(--brand); }
 
 /* ================= LAYOUT ================= */
 main{ padding-top:26px; padding-bottom:60px; }
@@ -585,7 +585,7 @@ maker.innerHTML = `<a href="../profile.html?name=${encodeURIComponent(article.au
        <div class="trend-thumb"><img src="${a.image}" alt="${escapeHTML(a.title)}"></div>
       <div class="trend-info">
         <h4><a href="/stories/${encodeURIComponent(a.slug)}.html">${escapeHTML(a.title)}</a></h4>
-        <div class="trend-date">${a.date}</div>
+        <div class="trend-date">${a.author}</div>
       </div>
     </div>
   `).join('');

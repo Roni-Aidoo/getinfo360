@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/safeimagekit-Ghana Colombus nursing agreement 2-1200x675.webp" alt="Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/traffitech-gh-camera-enforcement-featured.png" alt="Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana and the City of Columbus in Ohio, United States, have signed a Memorandum of Understanding (MoU) to establish the Ghana-Columbus Nursing Partnership Prog…</p>
-        <a href="https://getinfoonline.com/news/ghana-city-of-columbus-sign-mou-to-strengthen-nursing-education-and-employment-o.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service is set to begin the full implementation of its automated traffic law enforcement programme</p>
+        <a href="https://getinfoonline.com/news/ghana-police-to-begin-full-implementation-of-traffitech-gh-on-october-1.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Ato-road.png" alt="Accra-Kumasi Expressway: Funds to Be Ready by December, Ato Forson Assures" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/safeimagekit-Ghana Colombus nursing agreement 2-1200x675.webp" alt="Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Accra-Kumasi Expressway: Funds to Be Ready by December, Ato Forson Assures</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Finance Minister Dr Cassiel Ato Forson has assured Ghanaians that the funds needed for the construction of the Accra-Kumasi Expressway will be fully available…</p>
-        <a href="https://getinfoonline.com/news/accra-kumasi-expressway-funds-to-be-ready-by-december-ato-forson-assures.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana and the City of Columbus in Ohio, United States, have signed a Memorandum of Understanding (MoU) to establish the Ghana-Columbus Nursing Partnership Prog…</p>
+        <a href="https://getinfoonline.com/news/ghana-city-of-columbus-sign-mou-to-strengthen-nursing-education-and-employment-o.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

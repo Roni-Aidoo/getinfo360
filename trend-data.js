@@ -8,6 +8,27 @@
    ============================================================ */
 
 const TRENDING = [
+    {
+    slug: "ghana-police-to-begin-full-implementation-of-traffitech-gh-on-october-1",
+    title: "Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1",
+    category: "National",
+    author: "Info Desk",
+    date: "September 16, 2026",
+    readTime: "1 min read",
+    image: "/Assets/traffitech-gh-camera-enforcement-featured.png",
+    imageCaption: "Credit: Web",
+    excerpt: "The Ghana Police Service is set to begin the full implementation of its automated traffic law enforcement programme",
+    tags: ["TRAFFITECH-GH", "October 1", "Ghana Police Service", "Road Safety"],
+    body: [
+      "<b>The Ghana Police Service is set to begin the full implementation of its automated traffic law enforcement programme, TRAFFITECH-GH, from October 1, 2026, as part of efforts to improve road safety and strengthen enforcement of traffic regulations.</b>",
+      "The programme is designed to use technology to detect and document traffic violations, reducing reliance on manual enforcement and supporting more efficient monitoring of road users.",
+      "Under the automated system, motorists who violate traffic regulations may be identified through technology-enabled enforcement mechanisms, with relevant evidence captured for further action in accordance with the law.",
+      "The initiative is expected to support the Police Service in addressing road traffic offences and promoting greater compliance with traffic regulations.",
+      "The introduction of TRAFFITECH-GH also forms part of broader efforts to modernise policing through the use of digital technology and data-driven enforcement.",
+      "Motorists are therefore expected to exercise greater caution on the roads and comply with traffic rules as the full \n\nimplementation date approaches.\n\nThe Ghana Police Service is expected to provide further information on the operation of the system, including the offences covered, enforcement procedures and how motorists will be notified of violations.",
+      "With the commencement of full implementation scheduled for<b> October 1, 2026, </b> road users will need to familiarise themselves with traffic regulations and ensure that they observe them at all times."
+    ]
+  },
   {
     slug: "ghana-city-of-columbus-sign-mou-to-strengthen-nursing-education-and-employment-o",
     title: "Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities",

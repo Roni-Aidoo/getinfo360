@@ -671,7 +671,7 @@ function renderListingFeed(){
       <div class="card-body">
         <span class="card-cat">${escapeHtml(article.category)}</span>
         <h3 class="card-title">${escapeHtml(article.title)}</h3>
-        <div class="card-foot"><i class="far fa-calendar-alt"></i> ${escapeHtml(article.date)}</div>
+        
       </div>
     </a>
   `).join('');
@@ -705,7 +705,7 @@ function renderTrendingPanel(page){
       <div class="trend-thumb"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="trend-info">
         <h4 class="name">${escapeHtml(article.title)}</h4>
-        <div class="trend-date">${escapeHtml(article.date)}</div>
+        <div class="trend-date">${escapeHtml(article.author)}</div>
       </div>
     </a>
   `).join('');
