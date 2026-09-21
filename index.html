@@ -230,7 +230,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 }
 .see-all{
   font-size:0.85rem; font-weight:600; color:var(--brando);
-  display:flex; align-items:center; gap:6px; white-space:nowrap;
+  display:flex; align-items:center; gap:6px; white-space:nowrap; font-family: arial; margin-bottom: 2px; margin-right: 20px;
 }
 .see-all i{ font-size:0.75rem; transition:transform .2s ease; }
 .see-all:hover i{ transform:translateX(3px); }
@@ -547,6 +547,9 @@ footer.footer{
   .footer-container{ grid-template-columns:1fr; }
   .footer-bottom{ flex-direction:column; align-items:flex-start; }
   .hero-slideshow{ aspect-ratio:4/5; height:auto; }
+  .ASP1{
+    display: block;
+  }
 }
 .scroll{
   width: 350px;
@@ -650,9 +653,9 @@ footer.footer{
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Fresh off the desk</span>
-        <h2>Latest News & Opinions</h2>
+        
       </div>
-      <a href="Opinions.html" class="see-all">See all <i class="fas fa-arrow-right"></i></a>
+      
     </div>
 
     <!-- Filled by JS: 2 from articles-data.js, 1 from trend-data.js, 1 from stories-data.js -->
@@ -676,19 +679,21 @@ footer.footer{
   </section>
 
   <!-- ================= ART SPEAKS RAIL ================= -->
+   <div class="ASP">
   <section class="rail-section">
     <div class="scroll">
-    <div class="section-head reveal">
+    <div class="section-head reveal" style="gap: 5px; border-bottom: var(--brando) 1px solid; border-top: var(--ink-soft) 1px solid; padding: 5px 5px;">
       <div>
         <span class="eyebrow">Daily cartoon</span>
-        <h2>Art Speaks</h2>
+        
       </div>
-      <a href="arts.html" class="see-all">More <i class="fas fa-arrow-right"></i></a>
+      <a href="arts.html" class="see-all">View All</a>
     </div>
     <!-- Filled by JS from ARTS in quote-art-data.js -->
     <div class="hscroll reveal" id="art-rail"></div>
     </div>
   </section>
+  </div>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
          style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
     <tr>
@@ -710,21 +715,23 @@ footer.footer{
    
     <aside>
    <!-- ================= TRENDING NOW (ranked list) ================= -->
-   
+   <br><br>
   <section class="rail-section">
-    <div class="section-head reveal">
-      <div>
-        <br><br>
+    <div class="section-head reveal" style="gap: 5px; border-bottom: var(--brando) 1px solid; border-top: var(--ink-soft) 1px solid; padding: 5px 5px;">
+      <div >
         
-        <h2>Trending News</h2>
+        
+        <h2  style="margin-left: 20px; font-size: 17px;">Latest News</h2>
       </div>
-      <a href="Treanding.html" class="see-all">More <i class="fas fa-arrow-right"></i></a>
+      <a href="Treanding.html" class="see-all" >View All</i></a>
     </div>
 
     <div class="trending-panel1">
       <div id="trend-rows"></div>
     </div>
   </section>
+
+  
    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
          style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
     <tr>
@@ -737,19 +744,22 @@ footer.footer{
       </td>
     </tr>
   </table>
-   <div class="section-head reveal">
+
+  
+   <div class="section-head reveal"  style="gap: 5px; border-bottom: var(--brando) 1px solid; border-top: var(--ink-soft) 1px solid; padding: 5px 5px;">
       <div>
-        <br><br>
+       
         
-        <h2>OPINIONS</h2>
+        <h2 style="margin-left: 20px; font-size: 17px;">OPINIONS</h2>
       </div>
-      <a href="Opinions.html" class="see-all">More <i class="fas fa-arrow-right"></i></a>
+      <a href="Opinions.html" class="see-all">View All</a>
     </div>
    <div class="trending-panel1 reveal">
       <div id="trend-rowso"></div>
     </div>
 
     </aside>
+     
 
   <!-- ================= NEWSLETTER ================= -->
   <!--section class="newsletter reveal">
