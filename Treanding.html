@@ -19,6 +19,7 @@
   --ink-soft:#5B6472;
   --paper:#F1F2EC;
   --surface:#FFFFFF;
+   --paper1:#FFFFFF;
   --brand:#1f0c70;
   --brand-light:#E7F0EA;
   --gold:#D6A339;
@@ -33,7 +34,7 @@
    --brando:#1f0c70;
   --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
-  --font-mono:'IBM Plex Mono', monospace;
+  --font-mono:'Public Sans', sans-serif;
 }
 
 [data-theme="dark"]{
@@ -41,6 +42,7 @@
   --ink-soft:#A9B0BC;
   --paper:#0B0D11;
   --surface:#14171D;
+  --paper1:#14171D;
    --brand:#1f0c70;
     --brando:#fff;
   --brand-light:#122019;
@@ -55,7 +57,7 @@
 html{scroll-behavior:smooth;}
 body{
   font-family:var(--font-body);
-  background:var(--paper);
+  background:var(--paper1);
   color:var(--ink);
   line-height:1.55;
   -webkit-font-smoothing:antialiased;
@@ -183,6 +185,17 @@ main{ padding-top:26px; padding-bottom:60px; }
 .hero-meta span{ display:flex; align-items:center; gap:6px; }
 
 .feed-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:18px; margin-bottom:44px; }
+.trend-row1{
+  display:flex; align-items:center; gap:16px; padding:14px 0;
+  border-bottom:1px solid var(--line);
+}
+.trend-row1:last-child{ border-bottom:none; padding-bottom:0; }
+.trend-row1:first-child{ padding-top:0; }
+.trend-thumb1{ width:72px; height:72px; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
+.trend-thumb1 img{ width:100%; height:100%; object-fit:cover; }
+.trend-info1 h4{ font-size:0.95rem; font-weight:600; line-height:1.35; }
+.trend-info1 .trend1-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
+
 .card{
   background:var(--surface); border-radius:var(--radius); overflow:hidden;
   border:1px solid var(--line); box-shadow:var(--shadow);
@@ -355,7 +368,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
         <li class="dropdown">
           <a href="javascript:void(0)" class="top-link" onclick="toggleDropdown(event,'about-dropdown')">Opinions<i class="fas fa-chevron-down"></i></a>
           <ul class="dropdown-menu" id="about-dropdown">
-            <li><a href="360.html">360 Echoes</a></li>
+            <li><a href="Opinions.html">360 Echoes</a></li>
           </ul>
         </li>
         <li><a href="Treanding.html" class="top-link active">Trending News</a></li>
@@ -365,7 +378,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <div class="appbar-actions">
       <button class="icon-btn" onclick="toggleSearch()" aria-label="Search"><i class="fas fa-search"></i></button>
       <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" id="theme-toggle"><i class="fas fa-moon"></i></button>
-      <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="ffa-solid fa-envelope"></i></a>
+      <a href="Signin.html" class="icon-btn" aria-label="Sign in"><i class="fa-solid fa-envelope"></i></a>
       <button class="icon-btn mobile-menu" onclick="toggleDrawer()" aria-label="Menu"><i class="fas fa-bars"></i></button>
     </div>
   </div>
@@ -375,7 +388,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
   <div class="container">
     <div class="chip-rail">
       <a class="chip" href="index.html">Home</a>
-      <a class="chip" href="360.html">Opinions</a>
+      <a class="chip" href="Opinions.html">Opinions</a>
       <a class="chip active" href="Treanding.html">Trending News</a>
       <a class="chip" href="Stories.html">Stories</a>
       <a class="chip" href="arts.html">Art Speaks</a>
@@ -406,7 +419,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <aside>
       <div class="trending-panel reveal" style="margin-bottom:0;" id="trending-panel-reveal">
         <div class="section-head" style="margin-bottom:14px;">
-          <h2 style="font-size:1.2rem;">Trending</h2>
+          <h2 style="font-size:1.2rem;"> More Trending News</h2>
         </div>
 
         <!-- Populated dynamically from TRENDING by renderTrendingPanel() -->
@@ -438,14 +451,14 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Treanding.html">Trending</a></li>
-        <li><a href="360.html">Articles</a></li>
+        <li><a href="Opinions.html">Articles</a></li>
         <li><a href="Stories.html">Stories</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h4>Articles</h4>
       <ul>
-        <li><a href="360.html">360 Echoes</a></li>
+        <li><a href="Opinions.html">360 Echoes</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -469,7 +482,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
      <li><a href="Treanding.html" class="active" onclick="setTab(this)"><i class="fas fa-fire"></i> Trending</a></li>
     <li><a href="Stories.html"  onclick="setTab(this)"><i class="fas fa-book"></i> Stories</a></li>
     <li><a href="index.html"><span class="fab-circle"><i class="fas fa-house"></i></span></a></li>
-    <li><a href="360.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i>Opinions</a></li>
+    <li><a href="Opinions.html" onclick="setTab(this)"><i class="fas fa-newspaper"></i>Opinions</a></li>
     <li><a href="Signin.html" onclick="setTab(this)"><i class="fa-solid fa-envelope"></i>Subscribe</a></li>
   </ul>
 </nav>
@@ -481,7 +494,7 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
     <li><a href="index.html"><span><i class="fas fa-house" style="margin-right:10px;color:var(--brando)"></i>Home</span></a></li>
     <li><a href="javascript:void(0)" onclick="toggleDrawerSub(event)"><span><i class="fas fa-newspaper" style="margin-right:10px;color:var(--brando)"></i>Opinions</span><i class="fas fa-chevron-down"></i></a>
       <ul class="drawer-sub" id="drawer-sub" style="display:none;">
-        <li><a href="360.html">360 Echoes</a></li>
+        <li><a href="Opinions.html">360 Echoes</a></li>
       </ul>
     </li>
     <li><a href="Treanding.html"><span><i class="fas fa-fire" style="margin-right:10px;color:var(--brando)"></i>Trending News</span></a></li>
@@ -526,7 +539,7 @@ function renderHero(){
       <div class="hero-content">
         <span class="hero-badge"><i class="fa-solid fa-fire"></i> ${escapeHtml(article.category)}</span>
         <h1>${escapeHtml(article.title)}</h1>
-        <div class="hero-meta"><span><i class="far fa-calendar-alt"></i> ${escapeHtml(article.date)}</span></div>
+        <div class="hero-meta"><span> ${escapeHtml(article.date)}</span></div>
       </div>
     </a>
   `;
@@ -539,15 +552,14 @@ function renderListingFeed(){
   const grid = document.getElementById('feed-grid');
   if(!grid || typeof TRENDING === 'undefined') return;
 
-  const items = TRENDING.slice(1, 5);
+  const items = TRENDING.slice(1, 11);
 
   grid.innerHTML = items.map(article => `
-    <a class="card" href="/news/${encodeURIComponent(article.slug)}.html">
-      <div class="card-img"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
-      <div class="card-body">
-        <span class="card-cat">${escapeHtml(article.category)}</span>
-        <h3 class="card-title">${escapeHtml(article.title)}</h3>
-        <div class="card-foot"><i class="far fa-calendar-alt"></i> ${escapeHtml(article.date)}</div>
+    <a class="trend-row1" href="/news/${encodeURIComponent(article.slug)}.html">
+      <div class="trend-thumb1"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
+      <div class="trend-info1">
+        <h4 class="name">${escapeHtml(article.title)}</h4>
+        <div class="trend1-date">${escapeHtml(article.date)}</div>
       </div>
     </a>
   `).join('');
@@ -573,7 +585,7 @@ function renderTrendingPanel(page){
   const totalPages = Math.max(1, Math.ceil(TRENDING.length / TREND_PAGE_SIZE));
   trendCurrentPage = Math.min(Math.max(1, page || trendCurrentPage), totalPages);
 
-  const start = (trendCurrentPage - 1) * TREND_PAGE_SIZE;
+  const start = (trendCurrentPage + 1) * TREND_PAGE_SIZE;
   const items = TRENDING.slice(start, start + TREND_PAGE_SIZE);
 
   wrap.innerHTML = items.map((article, i) => `

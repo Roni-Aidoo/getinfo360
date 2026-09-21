@@ -11,7 +11,7 @@ const QUOTES = [
    {
     text: "What they did to you, what they said about you, Doesn't Change who God called you to be! STAY FOCUSED!",
     image: "Assets/LOG.jpg",
-    name: "Stacy Mawusi"
+    name: "Stacy Mawuse"
   },
   {
     text: "Sometimes the will of God hurts, so that when you succeed, you will realize that your success is never your making.",
