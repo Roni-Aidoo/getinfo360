@@ -54,11 +54,9 @@ async function main() {
                   </td>
                 </tr>
 
-                
-    
-  <tr>
+            <tr>
     <td style="padding:0 0 10px 0;">
-      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Trending Now</p>
+      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
     </td>
   </tr>
     <tr>
@@ -67,40 +65,21 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/traffitech-gh-camera-enforcement-featured.png" alt="Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/pico.jpg" alt="THE MASSIVE USE OF TIKTOK BY GHANAIANS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service is set to begin the full implementation of its automated traffic law enforcement programme</p>
-        <a href="https://getinfoonline.com/news/ghana-police-to-begin-full-implementation-of-traffitech-gh-on-october-1.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE MASSIVE USE OF TIKTOK BY GHANAIANS</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Tiktok, the app widely used by Ghanaians for nearly a decade. TikTok was launched in China under the name Douyin on September 20, 2016. A globally released app…</p>
+        <a href="https://getinfoonline.com/articles/the-massive-use-of-tiktok-by-ghanaians.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
       </td>
     </tr>
   </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/safeimagekit-Ghana Colombus nursing agreement 2-1200x675.webp" alt="Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana, City of Columbus Sign MoU to Strengthen Nursing Education and Employment Opportunities</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana and the City of Columbus in Ohio, United States, have signed a Memorandum of Understanding (MoU) to establish the Ghana-Columbus Nursing Partnership Prog…</p>
-        <a href="https://getinfoonline.com/news/ghana-city-of-columbus-sign-mou-to-strengthen-nursing-education-and-employment-o.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-      </td>
-    </tr>
-                <tr><td>
+  <tr><td>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
          style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
     <tr>
@@ -113,50 +92,7 @@ async function main() {
       </td>
     </tr>
   </table></td></tr>
-                
-    
-  <tr>
-    <td style="padding:0 0 10px 0;">
-      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
-    </td>
-  </tr>
-    <tr>
-      <td>
-        
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/71538003.jpg" alt="Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Her journey is one of faith, academic achievement, professional discipline and a passion for spreading the Christian message through song.</p>
-        <a href="https://getinfoonline.com/articles/bernice-offei-the-gospel-music-veteran-who-combined-faith-education-and-professi.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp-Image-2025-05-09-at-6.23.15-PM-480x600.jpeg" alt="Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science &amp; Maths Quiz" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Dr Kwaku Mensa-Bonsu: The Visionary Behind Ghana’s National Science &amp; Maths Quiz</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">His story is one of curiosity, communication, entrepreneurship and a sustained commitment to education.</p>
-        <a href="https://getinfoonline.com/articles/dr-kwaku-mensa-bonsu-the-visionary-behind-ghana-s-national-science-maths-quiz.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
+
       </td>
     </tr>
 
@@ -183,7 +119,7 @@ async function main() {
     resend.emails.send({
       from: 'GetInfo <GetInfo@getinfoonline.com>',
       to: sub.email,
-      subject: "This Week's Update - Get Info Online",
+      subject: "Today's Update - Get Info Online",
       html: emailHtml,
     })
   );

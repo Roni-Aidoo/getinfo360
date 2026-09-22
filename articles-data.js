@@ -8,6 +8,26 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "the-massive-use-of-tiktok-by-ghanaians",
+    title: "THE MASSIVE USE OF TIKTOK BY GHANAIANS",
+    category: "Social",
+    author: "Jesse Mabery",
+    date: "September 22, 2026",
+    readTime: "2mins",
+    image: "/Assets/pico.jpg",
+    imageCaption: "Credit: Web",
+    excerpt: "Tiktok, the app widely used by Ghanaians for nearly a decade. TikTok was launched in China under the name Douyin on September 20, 2016. A globally released application following its international rollout in September 2017. It became available for download in Ghana via the Google Play Store and Apple App Store at that same time. In 2026, Tiktok (it's global name) is a social media widely used by Ghanaians.",
+    tags: ["Ghana", "Tiktok", "Government of Ghana", "Authorities in Ghana", "Ghana Jollof"],
+    body: [
+      "<b>Tiktok, the app widely used by Ghanaians for nearly a decade. TikTok was launched in China under the name Douyin on September 20, 2016. A globally released application following its international rollout in September 2017. It became available for download in Ghana via the Google Play Store and Apple App Store at that same time. In 2026, Tiktok (it's global name) is a social media widely used by Ghanaians.\n</b>",
+       "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "Concerning Tiktok in Ghana, concerns have been raised amongst the Ghanaians that before Tiktok, unpleasant words were not easily exchanged amongst Ghanaians, or even to their authorities. Citizens like Ghana Jollof use this app to make fear and threats towards the President of Ghana. This citizen - Ghana Jollof, has been charged with the spread of false information; spreading news of the extermination of the Ghana President, which was not taken lightly by Ghanaian citizens. It did not stop there, it continued with the wide spread of the extermination of the Ghana President together with his wife, and because Tiktok is widely used by Ghanaians, it spread like wild fire.",
+      "Ghanaians are surprised as to how it got this far using this specific social media; Tiktok, to cause fear and alarm to the public and to make such statements before the world. Ghanaians used to believe Tiktok was just another social media along the line, but now, Ghanaians are puzzled as to how it has been used as a tool to make mockery, threats or insults to the authorities of Ghana.",
+       "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "Some Ghanaians also make videos themselves to advice citizens not to use Tiktok for such verbal negative actions towards the Government and its authorities. Some would say Life was not gloomier but it was Okay before Tiktok. Today, some Adults and Youth have made Tiktok a tool to disrespect how things are carried out in the country; decisions taken by the Authorities. This has begged the question; were there adversaries to Authority who aimed to use this application due to its massive use by the country's citizens to channel the perception of Authorities to negativity?"
+    ]
+  },
     {
     slug: "bernice-offei-the-gospel-music-veteran-who-combined-faith-education-and-professi",
     title: "Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence",
@@ -107,7 +127,7 @@ const ARTICLES = [
 {
     slug: "the-fading-moral-code-of-teachers-and-students-in-our-ghanaian-schools",
     title: "The Fading Moral Code Of Teachers And Students In Our Ghanaian Schools",
-    category: "Article",
+    category: "Education",
     author: "Jesse Mabery",
     date: "September 10, 2026",
     readTime: "3 min read",

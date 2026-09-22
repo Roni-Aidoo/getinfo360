@@ -556,6 +556,7 @@ footer.footer{
 }
 .qu{
   width: 330px;
+  margin-top: -18px;
 }
 
 </style>
@@ -668,8 +669,8 @@ footer.footer{
   <section class="rail-section">
     <div class="section-head reveal">
       <div>
-        <span class="eyebrow">Words worth carrying</span>
-        <h2>Daily Quote</h2>
+        <span class="eyebrow">QUOTE WORTH CARRYING</span>
+        
       </div>
     </div>
     <div class="qu">
@@ -778,7 +779,7 @@ footer.footer{
 <footer class="footer">
   <div class="container footer-container">
     <div class="footer-brand">
-      <div class="logo"><span class="mark">G</span><span>Getinfo<em>Online</em></span></div>
+      <div class="logo"><span>Getinfo<em>Online</em></span></div>
       <p class="tagline">Real-time news, deep analysis, and stories that matter — from every corner of the world.</p>
       <div class="footer-social">
         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -1016,7 +1017,7 @@ function buildCard(href, image, alt, category, title, date){
       <div class="card-body">
         <span class="card-cat">${escapeHtml(category)}</span>
         <h3 class="card-title">${escapeHtml(title)}</h3>
-        
+         <div class="card-date">${escapeHtml(date)}</div>
       </div>
     </a>
   `;
@@ -1032,16 +1033,16 @@ function renderFeedGrid(){
     ARTICLES.slice(1, 3).forEach(a => {
       cards.push(buildCard(
         `articles/${encodeURIComponent(a.slug)}.html`,
-        a.image, a.title, a.category, a.title
+        a.image, a.title, a.category, a.title, a.date
       ));
     });
   }
 
   if(typeof TRENDING !== 'undefined'){
-    TRENDING.slice(1, 3).forEach(t => {
+    TRENDING.slice(1, 4).forEach(t => {
       cards.push(buildCard(
         `/news/${encodeURIComponent(t.slug)}.html`,
-        t.image, t.title, t.category, t.title
+        t.image, t.title, t.category, t.title, t.date
       ));
     });
   }
@@ -1050,7 +1051,7 @@ function renderFeedGrid(){
     STORIES.slice(1, 2).forEach(s => {
       cards.push(buildCard(
         `Stories.html`,
-        s.image, s.title, s.category, s.title
+        s.image, s.title, s.category, s.title, s.author
       ));
     });
   }
@@ -1065,7 +1066,7 @@ function renderTrendingPanel(){
   const wrap = document.getElementById('trend-rows');
   if(!wrap || typeof TRENDING === 'undefined') return;
 
-  const items = TRENDING.slice(3, 11);
+  const items = TRENDING.slice(4, 12);
 
   if(items.length === 0){
     wrap.innerHTML = `<div class="trend-empty">No trending stories yet.</div>`;
