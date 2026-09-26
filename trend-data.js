@@ -9,6 +9,36 @@
 
 const TRENDING = [
     {
+    slug: "mahama-if-you-insult-me-i-don-t-mind-as-debate-over-social-media-arrests-grows",
+    title: "Mahama: ‘If you insult me, I don’t mind’ as debate over social media arrests grows",
+    category: "National",
+    author: "Info Desk",
+    date: "September 26, 2026",
+    readTime: "2 min read",
+    image: "/Assets/UN-PIC.jpg",
+    imageCaption: "H.E John Dramani Mahamma",
+    excerpt: "President John Dramani Mahama has said he personally has no problem with people insulting him on social media",
+    tags: ["President John Dramani Mahama", "Social Media", "Insults", "Ghana Jollof", "Kevin Taylor"],
+    body: [
+      "<b>President John Dramani Mahama has said he personally has no problem with people insulting him on social media, as he addressed growing concerns over the arrest of individuals over comments made on digital platforms.\n\n</b>",
+      "Speaking on the sidelines of the 81st United Nations General Assembly in New York on September 25, 2026, President Mahama said he had been insulted and vilified throughout his political career and had developed a thick skin to such criticism.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "> If you insult me, I don’t mind,” President Mahama said, adding that he would continue to do what he believes is right for Ghana and Africa.",
+      "His comments come amid public debate over the arrest of some social media users whose posts have been described as insulting, threatening or otherwise unlawful.",
+      "President Mahama acknowledged that the issue of regulating platforms such as TikTok presents a wider challenge, noting that similar debates are taking place in countries around the world over information integrity and the spread of content online.",
+      "He said social media algorithms can amplify content by repeatedly presenting \n\nusers with similar material, while expressing concern about individuals who hide their identities while publishing offensive material.",
+      "However, the President also raised concerns about the possibility of excessive police involvement in dealing with social media activity.\n\nHe said he sometimes learns about arrests through the media and is concerned when people are arrested simply because they allegedly insulted him.",
+      "> Sometimes the police can go to the extreme and you never know. Once you start arresting, you don't know where to stop,” he said.",
+      "Rather than leaving the matter solely to \n\nlaw enforcement, President Mahama proposed a broader national discussion involving key stakeholders.",
+      "He suggested that the Ghana Journalists Association (GJA), the Media Foundation for West Africa (MFWA) and other stakeholders should come together to discuss how Ghana should approach regulation of social media and emerging digital platforms.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "The President said the discussion should consider whether the police should intervene in certain cases and where the line should be drawn between legitimate expression and unlawful conduct.",
+      "His position follows an earlier call for stakeholder engagement on hate speech, abusive language and harmful content \n\nonline. In that communication, the Presidency indicated that while threats, incitement, hate speech and other unlawful conduct should be addressed, legitimate criticism, political commentary, satire and dissent should not be criminalised.",
+      "President Mahama also used an example involving threats against a political leader to distinguish between ordinary criticism and statements that could constitute a serious security threat.",
+      "The discussion highlights the continuing challenge of balancing freedom of expression with concerns about threats, harmful content and information integrity as social media becomes an increasingly influential part of public discourse in Ghana."
+    ]
+  },
+    {
     slug: "ghana-police-to-begin-full-implementation-of-traffitech-gh-on-october-1",
     title: "Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1",
     category: "National",

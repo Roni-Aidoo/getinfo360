@@ -15,7 +15,7 @@ const ARTICLES = [
     author: "Jesse Mabery",
     date: "September 22, 2026",
     readTime: "2mins",
-    image: "/Assets/pico.jpg",
+    image: "/Assets/Pico.jpg",
     imageCaption: "Credit: Web",
     excerpt: "Tiktok, the app widely used by Ghanaians for nearly a decade. TikTok was launched in China under the name Douyin on September 20, 2016. A globally released application following its international rollout in September 2017. It became available for download in Ghana via the Google Play Store and Apple App Store at that same time. In 2026, Tiktok (it's global name) is a social media widely used by Ghanaians.",
     tags: ["Ghana", "Tiktok", "Government of Ghana", "Authorities in Ghana", "Ghana Jollof"],

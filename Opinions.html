@@ -34,7 +34,7 @@
   --tabbar-h: 66px;
   --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
-  --font-mono:'IBM Plex Mono', monospace;
+  --font-mono:'IBM Plex Mono', sans-serif;
 }
 
 [data-theme="dark"]{
@@ -552,13 +552,15 @@ function renderListingFeed(){
   if(!grid || typeof ARTICLES === 'undefined') return;
 
   const items = ARTICLES.slice(1, 11);
-
+ 
   grid.innerHTML = items.map(article => `
+ 
      <a class="trend-row1" href="/articles/${encodeURIComponent(article.slug)}.html">
       <div class="trend-thumb1"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
       <div class="trend-info1">
+         <span class="card-cat" style=" display: flex; justify-content: space-between;">${escapeHtml(article.category)}  <div class="card-date" style="gap:5px; display:flex; color:var(--ink1);">${escapeHtml(article.date)}</div></span>
         <h4 class="name">${escapeHtml(article.title)}</h4>
-        <div class="trend1-date">${escapeHtml(article.date)}</div>
+      
       </div>
     </a>
   `).join('');

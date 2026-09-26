@@ -41,6 +41,7 @@
 :root{
   --ink:#0E1116;
   --ink-soft:#5B6472;
+  --ink1:#23262E;
   --paper:#F1F2EC;
   --surface:#FFFFFF;
   --paper1:#FFFFFF;
@@ -63,6 +64,7 @@
 
 [data-theme="dark"]{
   --ink:#F1F2EC;
+  --ink1:#fff;
   --ink-soft:#A9B0BC;
   --paper:#0B0D11;
   --surface:#14171D;
@@ -350,7 +352,7 @@ main{ padding-top:26px; padding-bottom:60px; }
 }
 
 .trend-row{
-  display:flex; flex-direction:column; gap:10px;
+  display:flex; flex-direction:column; gap:10px; 
 }
 .trend-thumb{ width:100%; aspect-ratio:4/3; border-radius:10px; overflow:hidden; flex-shrink:0; background:var(--brand-light); }
 .trend-thumb img{ width:100%; height:100%; object-fit:cover; }
@@ -1015,9 +1017,9 @@ function buildCard(href, image, alt, category, title, date){
     <a class="card" href="${href}">
       <div class="card-img"><img src="${image}" alt="${escapeHtml(alt)}"></div>
       <div class="card-body">
-        <span class="card-cat">${escapeHtml(category)}</span>
+        <span class="card-cat" style=" display: flex; justify-content: space-between;">${escapeHtml(category)}  <div class="card-date" style="gap:5px; display:flex; color:var(--ink1);">${escapeHtml(date)}</div></span>
         <h3 class="card-title">${escapeHtml(title)}</h3>
-         <div class="card-date">${escapeHtml(date)}</div>
+        
       </div>
     </a>
   `;

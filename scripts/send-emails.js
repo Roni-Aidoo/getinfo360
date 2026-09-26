@@ -54,7 +54,68 @@ async function main() {
                   </td>
                 </tr>
 
-            <tr>
+                
+    
+  <tr>
+    <td style="padding:0 0 10px 0;">
+      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Trending Now</p>
+    </td>
+  </tr>
+    <tr>
+      <td>
+        
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/UN-PIC.jpg" alt="Mahama: ‘If you insult me, I don’t mind’ as debate over social media arrests grows" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama: ‘If you insult me, I don’t mind’ as debate over social media arrests grows</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has said he personally has no problem with people insulting him on social media</p>
+        <a href="https://getinfoonline.com/news/mahama-if-you-insult-me-i-don-t-mind-as-debate-over-social-media-arrests-grows.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
+        <img src="https://getinfoonline.com/Assets/traffitech-gh-camera-enforcement-featured.png" alt="Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Ghana Police to Begin Full Implementation of TRAFFITECH-GH on October 1</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Police Service is set to begin the full implementation of its automated traffic law enforcement programme</p>
+        <a href="https://getinfoonline.com/news/ghana-police-to-begin-full-implementation-of-traffitech-gh-on-october-1.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+                <tr><td>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+         style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
+    <tr>
+      <td style="padding:20px;text-align:center;">
+        <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
+        <a href="mailto:advertise@getinfoonline.com" style="text-decoration:none;">
+          <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
+          <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
+        </a>
+      </td>
+    </tr>
+  </table></td></tr>
+                
+    
+  <tr>
     <td style="padding:0 0 10px 0;">
       <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#999999;border-bottom:2px solid #111111;display:inline-block;padding-bottom:4px;">Latest Articles</p>
     </td>
@@ -79,20 +140,23 @@ async function main() {
       </td>
     </tr>
   </table>
-  <tr><td>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
-         style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
-      <td style="padding:20px;text-align:center;">
-        <p style="margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;">Advertisement</p>
-        <a href="mailto:advertise@getinfoonline.com" style="text-decoration:none;">
-          <p style="margin:0;font-size:13px;color:#999999;">Your ad could be here.</p>
-          <p style="margin:4px 0 0 0;font-size:12px;color:#bbbbbb;">Learn about advertising with us →</p>
+      <td>
+        <img src="https://getinfoonline.com/Assets/71538003.jpg" alt="Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Her journey is one of faith, academic achievement, professional discipline and a passion for spreading the Christian message through song.</p>
+        <a href="https://getinfoonline.com/articles/bernice-offei-the-gospel-music-veteran-who-combined-faith-education-and-professi.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
         </a>
       </td>
     </tr>
-  </table></td></tr>
-
+  </table>
       </td>
     </tr>
 
@@ -119,7 +183,7 @@ async function main() {
     resend.emails.send({
       from: 'GetInfo <GetInfo@getinfoonline.com>',
       to: sub.email,
-      subject: "Today's Update - Get Info Online",
+      subject: "This Week's Update - Get Info Online",
       html: emailHtml,
     })
   );
