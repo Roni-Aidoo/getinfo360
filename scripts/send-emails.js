@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/pico.jpg" alt="THE MASSIVE USE OF TIKTOK BY GHANAIANS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/black-african-churches-e1616162084142.jpg" alt="Roni&apos;s folder: This “Only Sunday Christianity” Must Stop" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE MASSIVE USE OF TIKTOK BY GHANAIANS</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Tiktok, the app widely used by Ghanaians for nearly a decade. TikTok was launched in China under the name Douyin on September 20, 2016. A globally released app…</p>
-        <a href="https://getinfoonline.com/articles/the-massive-use-of-tiktok-by-ghanaians.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Roni&apos;s folder: This “Only Sunday Christianity” Must Stop</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Christianity is not a Sunday activity. It is a way of life. We must be prepared to live out our faith every day</p>
+        <a href="https://getinfoonline.com/articles/ronis-folder-this-only-sunday-christianity-must-stop.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/71538003.jpg" alt="Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Pico.jpg" alt="THE MASSIVE USE OF TIKTOK BY GHANAIANS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Bernice Offei: The Gospel Music Veteran Who Combined Faith, Education and Professional Excellence</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Her journey is one of faith, academic achievement, professional discipline and a passion for spreading the Christian message through song.</p>
-        <a href="https://getinfoonline.com/articles/bernice-offei-the-gospel-music-veteran-who-combined-faith-education-and-professi.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE MASSIVE USE OF TIKTOK BY GHANAIANS</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Tiktok, the app widely used by Ghanaians for nearly a decade. TikTok was launched in China under the name Douyin on September 20, 2016. A globally released app…</p>
+        <a href="https://getinfoonline.com/articles/the-massive-use-of-tiktok-by-ghanaians.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
