@@ -36,6 +36,18 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/news/npp-approves-14-constitutional-amendments-at-national-delegates-conference.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/baffour-awuah-granted-gh-10-million-bail-with-two-sureties.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/mahama-if-you-insult-me-i-don-t-mind-as-debate-over-social-media-arrests-grows.html</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -614,6 +626,12 @@
   <url>
     <loc>https://getinfoonline.com/news/all-you-need-to-know-about-abutricas-extradition.html</loc>
     <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/the-rise-of-suicidal-cases-in-ghana.html</loc>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

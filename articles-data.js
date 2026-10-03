@@ -9,6 +9,30 @@
 
 const ARTICLES = [
     {
+    slug: "the-rise-of-suicidal-cases-in-ghana",
+    title: "THE RISE OF SUICIDAL CASES IN GHANA",
+    category: "Health",
+    author: "Jesse Mabery",
+    date: "October 3, 2026",
+    readTime: "1 min read",
+    image: "/Assets/Suicide.jpg",
+    imageCaption: "Credit: Web",
+    excerpt: "Reports from health authorities and international organizations in Ghana have highlighted a growing concern regarding suicide cases and mental health challenges among the Ghanaian citizens.",
+    tags: ["Ghana", "Suicide", "Mental Health Authority (MHA)", "World Health Organization (WHO)", "Substance Abuse", "Social Stigma", "Socioeconomic pressures"],
+    body: [
+      "Reports from health authorities and international organizations in Ghana have highlighted a growing concern regarding suicide cases and mental health challenges among the Ghanaian citizens.",
+      "Health officials of Mental Health Authority (MHA) have reported an increase in figures, noting that one hundred and seventy-five (175) deaths by suicide and over one thousand one hundred (1,100) attempts were recorded during the first half of a tracking period, up from previous years.",
+      "World Health Organization (WHO) indicate that roughly 3.8% of adults in Ghana have considered suicide, while 2.3% have attempted it, emphasizing the critical need for expanded public health and support systems.",
+       "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "Public health reports note that the issue disproportionately affects young people (particularly those aged 15 to 29) and men. What could be the cause of all this?",
+      "Firstly, there is Substance Abuse. The abuse of substances like alcohol, which can trigger or deepen depression and despair can make this dreadful idea more visible in their minds - the idea to take their own lives come to play which seems like the only choice and rational choice to the victims and so they take their own lives.",
+      "Secondly, there are Socioeconomic pressures such as Financial strain, unemployment, and everyday life stressors. All these combined which sinks in causing mental health challenges and eventually to commiting suicide.",
+       "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "Thirdly, there is Stigma. The historical social stigma surrounding mental health which has led to ignorance has often hindered individuals from seeking early medical intervention.",
+      "Measures such as the Ghana's free 24-hour mental health helpline at 0800678678 has been provided to citizens to speak with a trained professional."
+    ]
+  },
+    {
     slug: "ronis-folder-this-only-sunday-christianity-must-stop",
     title: "Roni's folder: This “Only Sunday Christianity” Must Stop",
     category: "Religion",
