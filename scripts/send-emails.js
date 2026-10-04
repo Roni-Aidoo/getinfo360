@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Suicide.jpg" alt="THE RISE OF SUICIDAL CASES IN GHANA" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/FB_IMG_1791122761612.jpg" alt="Mussa Dankwah: The Man Turning Polls into Reality" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE RISE OF SUICIDAL CASES IN GHANA</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Reports from health authorities and international organizations in Ghana have highlighted a growing concern regarding suicide cases and mental health challenge…</p>
-        <a href="https://getinfoonline.com/articles/the-rise-of-suicidal-cases-in-ghana.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mussa Dankwah: The Man Turning Polls into Reality</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dankwah has built a reputation as a political pollster whose work seeks to measure the mood of the Ghanaian electorate and provide insight into the issues shap…</p>
+        <a href="https://getinfoonline.com/articles/mussa-dankwah-the-man-turning-polls-into-reality.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/black-african-churches-e1616162084142.jpg" alt="Roni&apos;s folder: This “Only Sunday Christianity” Must Stop" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Suicide.jpg" alt="THE RISE OF SUICIDAL CASES IN GHANA" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Roni&apos;s folder: This “Only Sunday Christianity” Must Stop</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Christianity is not a Sunday activity. It is a way of life. We must be prepared to live out our faith every day</p>
-        <a href="https://getinfoonline.com/articles/ronis-folder-this-only-sunday-christianity-must-stop.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE RISE OF SUICIDAL CASES IN GHANA</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Reports from health authorities and international organizations in Ghana have highlighted a growing concern regarding suicide cases and mental health challenge…</p>
+        <a href="https://getinfoonline.com/articles/the-rise-of-suicidal-cases-in-ghana.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
