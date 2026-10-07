@@ -2,47 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://getinfoonline.com/news/npp-approves-14-constitutional-amendments-at-national-delegates-conference.html</loc>
+    <loc>https://getinfoonline.com/news/world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-03T00:00:00.000Z</news:publication_date>
-      <news:title>NPP Approves 14 Constitutional Amendments at National Delegates Conference</news:title>
+      <news:publication_date>2026-10-07T00:00:00.000Z</news:publication_date>
+      <news:title>World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://getinfoonline.com/news/baffour-awuah-granted-gh-10-million-bail-with-two-sureties.html</loc>
+    <loc>https://getinfoonline.com/articles/twins-with-the-same-fate-but-different-choices-the-two-abangas-on-opposite-sides.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-03T00:00:00.000Z</news:publication_date>
-      <news:title>Baffour Awuah Granted GH¢10 Million Bail with Two Sureties</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/mussa-dankwah-the-man-turning-polls-into-reality.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-04T00:00:00.000Z</news:publication_date>
-      <news:title>Mussa Dankwah: The Man Turning Polls into Reality</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/the-rise-of-suicidal-cases-in-ghana.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-03T00:00:00.000Z</news:publication_date>
-      <news:title>THE RISE OF SUICIDAL CASES IN GHANA</news:title>
+      <news:publication_date>2026-10-07T00:00:00.000Z</news:publication_date>
+      <news:title>Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide</news:title>
     </news:news>
   </url>
 </urlset>

@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/NPPF.jfif" alt="NPP Approves 14 Constitutional Amendments at National Delegates Conference" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/money.jfif" alt="World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP Approves 14 Constitutional Amendments at National Delegates Conference</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The New Patriotic Party (NPP) has approved 14 amendments to its constitution</p>
-        <a href="https://getinfoonline.com/news/npp-approves-14-constitutional-amendments-at-national-delegates-conference.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi recorded the steepest depreciation among African currencies monitored by the World Bank during the second quarter of 2026</p>
+        <a href="https://getinfoonline.com/news/world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Baffour-Awuah.jpg" alt="Baffour Awuah Granted GH¢10 Million Bail with Two Sureties" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/NPPF.jfif" alt="NPP Approves 14 Constitutional Amendments at National Delegates Conference" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Baffour Awuah Granted GH¢10 Million Bail with Two Sureties</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Accra High Court has granted the Member of Parliament for Manhyia South, Nana Agyei Baffour Awuah, bail of GH¢10 million with two sureties</p>
-        <a href="https://getinfoonline.com/news/baffour-awuah-granted-gh-10-million-bail-with-two-sureties.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP Approves 14 Constitutional Amendments at National Delegates Conference</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The New Patriotic Party (NPP) has approved 14 amendments to its constitution</p>
+        <a href="https://getinfoonline.com/news/npp-approves-14-constitutional-amendments-at-national-delegates-conference.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1791122761612.jpg" alt="Mussa Dankwah: The Man Turning Polls into Reality" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/1072026121138-osjvm8x432-tale-of-two-abangas.jpg" alt="Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mussa Dankwah: The Man Turning Polls into Reality</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dankwah has built a reputation as a political pollster whose work seeks to measure the mood of the Ghanaian electorate and provide insight into the issues shap…</p>
-        <a href="https://getinfoonline.com/articles/mussa-dankwah-the-man-turning-polls-into-reality.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The two brothers are twins, yet they have chosen to build their political careers on opposite sides of Ghana&apos;s two major political parties.</p>
+        <a href="https://getinfoonline.com/articles/twins-with-the-same-fate-but-different-choices-the-two-abangas-on-opposite-sides.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/Suicide.jpg" alt="THE RISE OF SUICIDAL CASES IN GHANA" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/FB_IMG_1791122761612.jpg" alt="Mussa Dankwah: The Man Turning Polls into Reality" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE RISE OF SUICIDAL CASES IN GHANA</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Reports from health authorities and international organizations in Ghana have highlighted a growing concern regarding suicide cases and mental health challenge…</p>
-        <a href="https://getinfoonline.com/articles/the-rise-of-suicidal-cases-in-ghana.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mussa Dankwah: The Man Turning Polls into Reality</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dankwah has built a reputation as a political pollster whose work seeks to measure the mood of the Ghanaian electorate and provide insight into the issues shap…</p>
+        <a href="https://getinfoonline.com/articles/mussa-dankwah-the-man-turning-polls-into-reality.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
