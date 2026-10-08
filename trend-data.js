@@ -9,6 +9,36 @@
 
 const TRENDING = [
     {
+    slug: "87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor",
+    title: "87-Year-Old Man Jailed 20 Years for Defiling 9-Year-Old Girl at Ofankor",
+    category: "National",
+    author: "Info Desk",
+    date: "October 8, 2026",
+    readTime: "2 min read",
+    image: "/Assets/IMG_87bddecf-2de5-4999-bde4-52e764e4e9c9.jpg",
+    imageCaption: "Credit: GettyImages, Doug Barry",
+    excerpt: "An 87-year-old man, identified as Yaw Gahornu, has been sentenced to 20 years in prison for repeatedly defiling a nine-year-old girl at Ofankor in Accra.",
+    tags: ["87-year-old man", "Yaw Gahornu", "Ofankor", "Accra", "Ghana News"],
+    body: [
+      "<b>An 87-year-old man, identified as Yaw Gahornu, has been sentenced to 20 years in prison for repeatedly defiling a nine-year-old girl at Ofankor in Accra.</b>",
+      "Gahornu was sentenced by the<b> Police Headquarters Gender-\n\nBased Violence Court </b>after pleading guilty to two counts of defilement. The court handed him 10 years on each count, with the sentences to run consecutively. He was discharged on a separate charge of unnatural carnal knowledge.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "The disturbing case came to light on August 29, 2026, when the girl's mother, a 42-year-old trader, returned home from work and noticed blood stains on her daughter's underwear.",
+      "After questioning the child, she reportedly \n\nidentified Gahornu, who lived in a wooden structure about 40 metres from their home, as the man who had been sexually abusing her whenever she went out to play.",
+      "According to the prosecution, the abuse occurred between July \n\nand August 31, 2026. The court further heard that Gahornu threatened to kill the child if she told her mother about the abuse.",
+      "The case was eventually exposed after Gahornu was allegedly caught in the act by his \n\ngranddaughter on August 31. She informed her uncle, who subsequently alerted the girl's mother. The matter was then reported to the police.",
+      "The child was referred for medical examination. Police said she was in stable \n\ncondition but had suffered serious physical symptoms, including lower abdominal pain, painful urination and faecal incontinence following the abuse.",
+      "Although Gahornu was a first-time offender and pleaded guilty, the \n\ncourt imposed the 20-year sentence, noting the increasing incidence of defilement and the need for the punishment to serve as a deterrent to others.",
+      "## Age is no shield from justice",
+      "The case sends a powerful message: <b>age does not place anyone above the law.</b>\n\nAt 87, Gahornu might have been among the oldest people to appear before the court for such an offence, but his age did not erase the seriousness of the \n\ncrime or prevent the justice system from imposing a substantial prison sentence.",
+      "More importantly, the case highlights the vulnerability of children within communities and the responsibility of adults to protect them.\n\nChildren often interact with neighbours, relatives and other adults without fully understanding the dangers they may face. This makes vigilance by parents, guardians and community members essential.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "The conviction also \n\ndemonstrates the importance of reporting suspected abuse. In this case, the discovery by family members and the subsequent report to the police brought the abuse to an end and led to the prosecution.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "The welfare and protection of children \n\nmust remain a shared responsibility. No child should have to live in fear, and no perpetrator should expect age, status or position to provide protection from accountability."
+    ]
+  },
+    {
     slug: "world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol",
     title: "World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil",
     category: "Business",

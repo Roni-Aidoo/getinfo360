@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/money.jfif" alt="World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG_87bddecf-2de5-4999-bde4-52e764e4e9c9.jpg" alt="87-Year-Old Man Jailed 20 Years for Defiling 9-Year-Old Girl at Ofankor" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi recorded the steepest depreciation among African currencies monitored by the World Bank during the second quarter of 2026</p>
-        <a href="https://getinfoonline.com/news/world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">87-Year-Old Man Jailed 20 Years for Defiling 9-Year-Old Girl at Ofankor</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">An 87-year-old man, identified as Yaw Gahornu, has been sentenced to 20 years in prison for repeatedly defiling a nine-year-old girl at Ofankor in Accra.</p>
+        <a href="https://getinfoonline.com/news/87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/NPPF.jfif" alt="NPP Approves 14 Constitutional Amendments at National Delegates Conference" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/money.jfif" alt="World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">NPP Approves 14 Constitutional Amendments at National Delegates Conference</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The New Patriotic Party (NPP) has approved 14 amendments to its constitution</p>
-        <a href="https://getinfoonline.com/news/npp-approves-14-constitutional-amendments-at-national-delegates-conference.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghanaian cedi recorded the steepest depreciation among African currencies monitored by the World Bank during the second quarter of 2026</p>
+        <a href="https://getinfoonline.com/news/world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/1072026121138-osjvm8x432-tale-of-two-abangas.jpg" alt="Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/jjr.jpg" alt="Rawlings’ “House Cleaning” and Why Students Carried Ghana’s Cocoa" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The two brothers are twins, yet they have chosen to build their political careers on opposite sides of Ghana&apos;s two major political parties.</p>
-        <a href="https://getinfoonline.com/articles/twins-with-the-same-fate-but-different-choices-the-two-abangas-on-opposite-sides.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Rawlings’ “House Cleaning” and Why Students Carried Ghana’s Cocoa</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">In Ghana’s turbulent political and economic history, few periods remain as controversial and memorable as the early years of Flight Lieutenant Jerry John Rawli…</p>
+        <a href="https://getinfoonline.com/articles/rawlings-house-cleaning-and-why-students-carried-ghana-s-cocoa.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1791122761612.jpg" alt="Mussa Dankwah: The Man Turning Polls into Reality" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/1072026121138-osjvm8x432-tale-of-two-abangas.jpg" alt="Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mussa Dankwah: The Man Turning Polls into Reality</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Dankwah has built a reputation as a political pollster whose work seeks to measure the mood of the Ghanaian electorate and provide insight into the issues shap…</p>
-        <a href="https://getinfoonline.com/articles/mussa-dankwah-the-man-turning-polls-into-reality.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The two brothers are twins, yet they have chosen to build their political careers on opposite sides of Ghana&apos;s two major political parties.</p>
+        <a href="https://getinfoonline.com/articles/twins-with-the-same-fate-but-different-choices-the-two-abangas-on-opposite-sides.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

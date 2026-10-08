@@ -36,6 +36,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/news/87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol.html</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -632,6 +638,12 @@
   <url>
     <loc>https://getinfoonline.com/news/all-you-need-to-know-about-abutricas-extradition.html</loc>
     <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/rawlings-house-cleaning-and-why-students-carried-ghana-s-cocoa.html</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
