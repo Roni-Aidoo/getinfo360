@@ -9,6 +9,43 @@
 
 const ARTICLES = [
     {
+    slug: "kakistocracy-the-face-of-modern-leadership",
+    title: "KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP",
+    category: "National",
+    author: "Rev. Dr. Patrick Owusu",
+    date: "October 9, 2026",
+    readTime: "3 min read",
+    image: "/Assets/FB_IMG_1791550356291.jpg",
+    imageCaption: "Rev. Dr. Patrick Owusu",
+    excerpt: "What happens when power falls into the hands of those least prepared to use it responsibly?That question lies at the heart of kakistocracy",
+    tags: ["kakistocracy", "Pastor Patrick Owusu", "Rev. Dr Opuni-Frimpong", "Ghana News"],
+    body: [
+      "<b>What happens when power falls into the hands of those least prepared to use it responsibly? That question lies at the heart of kakistocracy, the rule or influence of the least suitable, least \n\nqualified or most unfit people in positions of authority.</b>",
+      "Recently, I came across a leadership book authored by Rev. Dr Opuni-Frimpong, which appears to have emerged from the author's extensive engagements with \n\npublic officials, traditional rulers, clergy, politicians, corporate leaders and other influential people in society.",
+      "The book's discussion of kakistocracy offers a timely lens through which to examine how leadership choices, misplaced loyalty and \n\nweak accountability can undermine the common good.",
+       "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      
+      "This concept raises an important question: are we preparing and positioning the right people to lead, or are we rewarding political loyalty, personal relationships, wealth \n\nand influence?",
+      "Leadership is not merely the possession of power. It requires responsible decision-making, moral courage, accountability and a genuine commitment to improving people's lives.",
+      "> THESE PRINCIPLES MUST BEGIN WITH THOSE \n\nWHO LEAD FAMILIES, SCHOOLS, CHURCHES, TRADITIONAL INSTITUTIONS, BUSINESSES and public organisations, because their example shapes the values and conduct of those under their care.",
+      "The FAILURE of many \n\nCOMMUNITIES can be linked to leaders who place PERSONAL INTERESTS ABOVE THE COLLECTIVE GOOD. When parents neglect their responsibilities, educators abandon their duty to nurture character, church leaders misuse spiritual authority, traditional \n\nrulers ignore the welfare of their people, or public officials exploit public trust, development suffers, public confidence declines and ordinary people bear the consequences.",
+      "Leadership failure therefore begins not \n\nonly in government but also in the family, the educational system, religious institutions and every organisation entrusted with guiding others.",
+      "The PERSISTENT PROBLEM of ILLEGAL MINING, commonly known in Ghana as \n\nGALAMSEY, illustrates this concern. Traditional authorities, public officials, regulators, religious leaders, educators and other stakeholders must answer important questions.",
+      "WHO grants mining concessions? Who is \n\nresponsible for preventing illegal activities, and why do they continue despite the destruction they cause? Families, schools and churches also have a role in shaping citizens who respect the environment and reject corruption. These \n\nquestions require transparent answers, moral instruction and accountability at every level of society.",
+      "The effects of galamsey extend beyond immediate economic benefits. MERCURY and other hazardous substances \n\ncan pollute rivers and streams used for drinking water, farming and fishing. These contaminants may accumulate in aquatic organisms and expose people who consume contaminated fish to serious health risks.",
+      "Proper environmental \n\ntesting, effective regulation and responsible mining practices are therefore essential. Families must teach children to value creation, schools must provide environmental education, churches must promote stewardship, and \n\nleaders in public institutions must enforce the law without fear or favour.",
+      "The question is not only whether leaders can generate wealth or initiate development projects. We must also ask whether their decisions protect \n\nhuman life, preserve the environment and safeguard future generations.",
+      "Economic progress that destroys rivers, farmland and public health is neither sustainable nor responsible. Parents, teachers, pastors, \n\ntraditional rulers, corporate executives and political leaders must all measure success by the wellbeing of the people they influence, not merely by material achievements or public recognition.",
+      "KAKISTOCRACY thrives \n\nwhen GREED REPLACES SERVICE, pride replaces humility and personal interest overrides the common good. Its effects can damage families, communities, institutions and national development.",
+      "Addressing it requires \n\nmore than condemning individuals; we must improve how leaders are selected, trained, supervised and held accountable. Families should cultivate honesty and responsibility, schools should develop critical thinking and character, churches should model \n\nservant leadership, and public institutions should uphold competence, justice and transparency.",
+      "> Our FUTURE depends on cultivating leaders with competence, integrity, humility and courage.",
+      "Authority must be treated as a \n\nresponsibility, not a personal possession. The true test of leadership is not a person's title, wealth or influence, but the positive difference made in the lives of others.",
+       "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+     
+      "We must REJECT UNSUITABLE \n\nLEADERSHIP and PROMOTE COMPETENCE, ACCOUNTABILITY and SERVICE in our families, educational institutions, churches, traditional communities, workplaces and government if we want future generations to inherit a better society."
+    ]
+  },
+    {
     slug: "rawlings-house-cleaning-and-why-students-carried-ghana-s-cocoa",
     title: "Rawlings’ “House Cleaning” and Why Students Carried Ghana’s Cocoa",
     category: "National",

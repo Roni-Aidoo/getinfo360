@@ -9,6 +9,36 @@
 
 const TRENDING = [
     {
+    slug: "suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash",
+    title: "Suspends Ban On Preaching In Commercial Vehicles After Public Backlash",
+    category: "National",
+    author: "Info Desk",
+    date: "October 9, 2026",
+    readTime: "2 min read",
+    image: "/Assets/IMG_5d27aff2-b999-48f6-9e8f-68171c4c4cdd.jpg",
+    imageCaption: "Credit: Web",
+    excerpt: "The government has suspended the \n\nimplementation of a provision in Ghana’s Road Traffic Regulations, 2026, which prohibits preaching and hawking in moving public and commercial vehicles.",
+    tags: ["Road Traffic Regulations", "2026", "preaching and hawking", "commercial vehicles."],
+    body: [
+      "<b>The government has suspended the \n\nimplementation of a provision in Ghana’s Road Traffic Regulations, 2026, which prohibits preaching and hawking in moving public and commercial vehicles.</b>",
+      "The decision follows public debate over the regulation, particularly \n\nconcerns raised about its potential impact on religious expression and evangelism in commercial vehicles, where preaching has become a common practice among some Christian evangelists.",
+      "The provision is contained in Regulation 141 of the Road Traffic Regulations, 2026, also known as Legislative Instrument (L.I.) 2519.\n\n\nUnder the regulation, causing or permitting a nuisance, including preaching and hawking, in a public or commercial vehicle while it is in motion constitutes an offence.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "The regulation prescribes penalties \n\nranging from 10 to 50 penalty units, imprisonment for up to eight months, or both, for offenders.\n\nThe provision attracted attention because of its implications for people who use commercial buses and other public transport vehicles as \n\nplatforms for sharing religious messages and selling goods to passengers.",
+      "The restriction generated public \n\ndiscussion, with concerns focusing on whether prohibiting preaching in moving commercial vehicles could limit religious expression and the activities of evangelists who preach to passengers during their journeys.",
+      "In Ghana, some religious ministers and evangelists regularly use public transport as an opportunity to share their faith, encourage passengers and communicate religious teachings.",
+      "For those who engage in such activities, the \n\nregulation raised questions about how road safety requirements would be balanced with the freedom to practise and express religious beliefs.",
+      "At the same time, the regulation's inclusion of preaching alongside \n\nhawking under provisions addressing nuisance raises broader questions about passenger comfort, the responsibilities of drivers and the need to prevent activities that could distract drivers or inconvenience passengers.",
+      "The government's decision to suspend implementation of the provision means the controversial restriction has been put on hold, according to the 3News \n\nreport.\n\nHowever, details about the duration of the suspension, the precise arrangements for enforcement and whether the provision will be reviewed have not yet been clarified in the report.\n\nThe government is also yet to issue a public statement outlining the full details of the suspension, according to the report.",
+      "Consequently, further clarification will be important to establish how the authorities intend to address the \n\nconcerns raised by religious leaders, transport operators and other members of the public.",
+      "The controversy highlights the challenge of balancing constitutional freedoms with the need to maintain order and safety in public transport.\n\nWhile religious expression remains an \n\nimportant issue for many Ghanaians, public transport vehicles must also provide a safe and comfortable environment for drivers and passengers.",
+      "A clear explanation of the regulation's objectives, alongside consultation with \n\nreligious organisations, transport unions and other stakeholders, could help address misunderstandings and guide any future decisions on its implementation.",
+      "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"\n         style=\"margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;\">\n    <tr>\n      <td style=\"padding:20px;text-align:center;\">\n        <p style=\"margin:0 0 10px 0;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#aaaaaa;\">Advertisement</p>\n        <a href=\"mailto:advertise@getinfoonline.com\" style=\"text-decoration:none;\">\n          <p style=\"margin:0;font-size:13px;color:#999999;\">Your ad could be here.</p>\n          <p style=\"margin:4px 0 0 0;font-size:12px;color:#bbbbbb;\">Learn about advertising with us →</p>\n        </a>\n      </td>\n    </tr>\n  </table>",
+      "For now, the suspension offers a pause in the \n\nimplementation of the disputed provision while questions remain about its future.",
+      "GetInfo Online will continue to follow developments on the Road Traffic Regulations, 2026, and provide updates as further details emerge."
+    ]
+  },
+    {
     slug: "87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor",
     title: "87-Year-Old Man Jailed 20 Years for Defiling 9-Year-Old Girl at Ofankor",
     category: "National",

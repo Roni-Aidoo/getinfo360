@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://getinfoonline.com/news/suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-09T00:00:00.000Z</news:publication_date>
+      <news:title>Suspends Ban On Preaching In Commercial Vehicles After Public Backlash</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor.html</loc>
     <news:news>
       <news:publication>
@@ -13,14 +24,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://getinfoonline.com/news/world-bank-ranks-ghana-cedi-worst-african-currency-in-second-quarter-amid-geopol.html</loc>
+    <loc>https://getinfoonline.com/articles/kakistocracy-the-face-of-modern-leadership.html</loc>
     <news:news>
       <news:publication>
         <news:name>Getinfo Online</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-07T00:00:00.000Z</news:publication_date>
-      <news:title>World Bank Ranks Ghana Cedi Worst African Currency in Second Quarter Amid Geopolitical Turmoil</news:title>
+      <news:publication_date>2026-10-09T00:00:00.000Z</news:publication_date>
+      <news:title>KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP</news:title>
     </news:news>
   </url>
   <url>
@@ -32,17 +43,6 @@
       </news:publication>
       <news:publication_date>2026-10-08T00:00:00.000Z</news:publication_date>
       <news:title>Rawlings’ “House Cleaning” and Why Students Carried Ghana’s Cocoa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://getinfoonline.com/articles/twins-with-the-same-fate-but-different-choices-the-two-abangas-on-opposite-sides.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Getinfo Online</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-07T00:00:00.000Z</news:publication_date>
-      <news:title>Twins With the Same Fate, But Different Choices: The Two Abangas on Opposite Sides of Ghana&apos;s Political Divide</news:title>
     </news:news>
   </url>
 </urlset>

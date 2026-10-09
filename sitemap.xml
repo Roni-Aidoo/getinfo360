@@ -36,6 +36,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/news/suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -638,6 +644,12 @@
   <url>
     <loc>https://getinfoonline.com/news/all-you-need-to-know-about-abutricas-extradition.html</loc>
     <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/kakistocracy-the-face-of-modern-leadership.html</loc>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
