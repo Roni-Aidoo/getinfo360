@@ -8,6 +8,28 @@
    ============================================================ */
 
 const TRENDING = [
+  {
+    slug: "demonstrations-across-france",
+    title: "DEMONSTRATIONS ACROSS FRANCE",
+    category: "International",
+    author: "Jesse Mabery",
+    date: "October 12, 2026",
+    readTime: "2 min read",
+    image: "/Assets/IMG_fc71ae61-e3d5-4fbe-a492-c3ef3375d9d0.jpg",
+    imageCaption: "Scenes from the demonstration",
+    excerpt: "There are massive demonstrations going on in France. France has been experiencing a major wave of nationwide civil unrest and student demonstrations. The protests began on September 18, 2026, originating in Créteil in the southern suburbs of Paris.",
+    tags: ["France", "Education", "Demonstration", "La France Insoumise (LFI)"],
+    body: [
+      "There are massive demonstrations going on in France. France has been experiencing a major wave of nationwide civil unrest and student demonstrations. The protests began on September 18, 2026, originating in Créteil in the southern suburbs of Paris.",
+      "High school students and University students demonstrate for better conditions in their schools. Videos of their  unclean washrooms including broken taps and broken water closets, are being posted online to prove their cause for better conditions in their schools.",
+      "Boycotts and school blockcades have been made by the students to protest against deteriorating learning conditions. They argue that some school buildings are very old; their main grievances include overcrowded classrooms, staffing and teacher shortages.",
+      "These massive demonstrations caught the attention of the government when the State's own infrastructures were being destroyed by these students raging on the streets of France. The Police responded with tears gas and stun grenade where one student picked up and lost his fingers. Argument went on about not all these young looking people were students and that some may be truants who fight the police spiking the demonstration into violence.",
+      "Due to this, some parents decide to demonstrate with their children to keep their children safe away from the violence. Talks of resolving the issue and meeting the demands of the students have been put in place by the government. When it was finally done and put in front of the demonstrators, it still wasn't enough to satisfy their demands for better conditions.",
+      "Hundreds of schools have been forced to close or shift to remote learning due to widespread blockades; blocking campuses in cities like Paris, Lyon, Rennes, and Strasbourg.",
+      "As a French Culture, this demonstration is seen by some citizens as one. Demonstration being a key role in the way of life of the Youth of France; historical evidence where they can see their own parents demonstrate for similar reasons. And so rallies have drawn hundreds of thousands of demonstrators into the streets across France. The inevitable arrest of thousands and severe injuries on both sides - the riot police and the demonstrators, also including staff who have been hurt by projectiles and stun grenades. The government has accused radical-left political factions, particularly La France Insoumise (LFI), of fueling the unrest of the crisis for political gain. This accusation was strongly rejected by these political figures the government accused.",
+      "The Ministry of Education launched an online portal for students to voice complaints anonymously while officials find how to restore safety and order to the education system."
+    ]
+  },
     {
     slug: "government-suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash",
     title: "Government Suspends Ban On Preaching In Commercial Vehicles After Public Backlash",

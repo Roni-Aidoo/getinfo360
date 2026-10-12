@@ -8,6 +8,26 @@
    ============================================================ */
 
 const STORIES = [
+    {
+    slug: "the-other-side-of-happiness-episode-one-the-divorce-letter",
+    title: "The Other Side Of Happiness | Episode One: The Divorce Letter",
+    category: "Story",
+    author: "Jennifer Agyei",
+    date: "October 12, 2026",
+    readTime: "2 min read",
+    image: "/Assets/file_000000004cb48243b006f9bbd711682e.png",
+    imageCaption: "",
+    excerpt: "Mr. Quarshie and his wife Mrs. Jane have been married for 10 years now.",
+    tags: ["The other side of Happiness", "The Divorce letter", "Jennifer Agyei"],
+    body: [
+      "As he read the papers he insisted to speak to his wife. Mrs. Jane was so depressed with the issues she had with her husband yester night. Thinking about what brought up the whole divorce thing to her was unbearable. She had no choice but to ask for a divorce.",
+      "So she thought. Mr. Quarshie thought that when he jokingly made mention of the divorce to his wife, she will not take it likely. He called his wife several times to explain things to her but to no avail.",
+      "Mr. Quarshie and his wife Mrs. Jane have been married for 10 years now. Back on campus, they were known as the love birds and many of their course mates envied their relationship. They did almost everything together and their colleagues knew that they will end up marrying after graduation. Aside from being so close to each other, they never neglected their studies.",
+      "They excelled in most of their courses and their lecturers admired them. On the day of graduation, Quarshie was awarded the valedictorian award while Jane had a first class too. After the graduation ceremony, Quarshie and Jane introduced themselves to their families and made their relationship known to them. Both families agreed and asked to see Jane’s family in a week’s time. They decided that after their national service they would tie the knot. As soon as their national service was over, Quarshie’s family went to see Jane’s family as custom demands to perform the marriage rites for her.",
+      "The marriage ceremony between Quarshie and Jane was a spectacular one. Most of their colleagues witnessed their marriage and their lectures graced the wedding with their presence. The fathers of the couple paid for the honeymoon for them and right after the wedding ceremony, they flew to Dubai for their honeymoon.",
+      "In a month's time, they arrived back home. With much expectancy, Mr. Quarshie‘s  mother, Mrs. Mensah thought that Mrs. Jane was by now few weeks pregnant but she was disappointed when they informed her that she was not. Days, weeks, months and years passed by with no signs of pregnancy."
+    ]
+  },
   {
     slug: "the-maze",
     title: "THE MAZE",

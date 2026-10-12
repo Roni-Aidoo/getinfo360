@@ -67,6 +67,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/IMG_fc71ae61-e3d5-4fbe-a492-c3ef3375d9d0.jpg" alt="DEMONSTRATIONS ACROSS FRANCE" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">DEMONSTRATIONS ACROSS FRANCE</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">There are massive demonstrations going on in France. France has been experiencing a major wave of nationwide civil unrest and student demonstrations. The prote…</p>
+        <a href="https://getinfoonline.com/news/demonstrations-across-france.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/IMG_5d27aff2-b999-48f6-9e8f-68171c4c4cdd.jpg" alt="Government Suspends Ban On Preaching In Commercial Vehicles After Public Backlash" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -77,23 +94,6 @@ async function main() {
 
 implementation of a provision in Ghana’s Road Traffic Regulations, 2026, which prohibits preaching and hawking in moving pub…</p>
         <a href="https://getinfoonline.com/news/government-suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/IMG_87bddecf-2de5-4999-bde4-52e764e4e9c9.jpg" alt="87-Year-Old Man Jailed 20 Years for Defiling 9-Year-Old Girl at Ofankor" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">87-Year-Old Man Jailed 20 Years for Defiling 9-Year-Old Girl at Ofankor</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">An 87-year-old man, identified as Yaw Gahornu, has been sentenced to 20 years in prison for repeatedly defiling a nine-year-old girl at Ofankor in Accra.</p>
-        <a href="https://getinfoonline.com/news/87-year-old-man-jailed-20-years-for-defiling-9-year-old-girl-at-ofankor.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

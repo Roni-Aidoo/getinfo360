@@ -36,6 +36,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getinfoonline.com/news/demonstrations-across-france.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://getinfoonline.com/news/government-suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -868,6 +874,12 @@
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/stories/the-other-side-of-happiness-episode-one-the-divorce-letter.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://getinfoonline.com/stories/the-maze.html</loc>

@@ -389,7 +389,7 @@ function renderTicker(){
   const track = document.getElementById('ticker-track');
   if(!track || typeof TRENDING === 'undefined') return;
   track.innerHTML = TRENDING.slice(0,4).map(item =>
-    `<a href="/trends/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>`
+    `<a href="/news/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>`
   ).join('');
 }
 
