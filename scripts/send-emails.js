@@ -67,16 +67,16 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG_5d27aff2-b999-48f6-9e8f-68171c4c4cdd.jpg" alt="Suspends Ban On Preaching In Commercial Vehicles After Public Backlash" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG_5d27aff2-b999-48f6-9e8f-68171c4c4cdd.jpg" alt="Government Suspends Ban On Preaching In Commercial Vehicles After Public Backlash" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Suspends Ban On Preaching In Commercial Vehicles After Public Backlash</p>
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Government Suspends Ban On Preaching In Commercial Vehicles After Public Backlash</p>
         <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The government has suspended the 
 
 implementation of a provision in Ghana’s Road Traffic Regulations, 2026, which prohibits preaching and hawking in moving pub…</p>
-        <a href="https://getinfoonline.com/news/suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash.html"
+        <a href="https://getinfoonline.com/news/government-suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

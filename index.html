@@ -1052,7 +1052,7 @@ function renderFeedGrid(){
   if(typeof STORIES !== 'undefined'){
     STORIES.slice(1, 2).forEach(s => {
       cards.push(buildCard(
-        `Stories.html`,
+        `/stories/${encodeURIComponent(s.slug)}.html`,
         s.image, s.title, s.category, s.title, s.author
       ));
     });

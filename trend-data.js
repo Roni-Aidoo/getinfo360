@@ -9,8 +9,8 @@
 
 const TRENDING = [
     {
-    slug: "suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash",
-    title: "Suspends Ban On Preaching In Commercial Vehicles After Public Backlash",
+    slug: "government-suspends-ban-on-preaching-in-commercial-vehicles-after-public-backlash",
+    title: "Government Suspends Ban On Preaching In Commercial Vehicles After Public Backlash",
     category: "National",
     author: "Info Desk",
     date: "October 9, 2026",

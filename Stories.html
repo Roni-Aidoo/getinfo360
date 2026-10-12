@@ -641,12 +641,12 @@ function renderHero(){
     <a href="/stories/${encodeURIComponent(book.slug)}.html" style="display:contents;">
       <div class="head-book-cover" style="background-image:linear-gradient(180deg, rgba(10,15,14,0.05) 0%, rgba(6,9,8,0.35) 100%), url('${book.image}');"></div>
       <div class="head-book-info">
-        <span class="hb-badge"><i class="fa-solid fa-feather"></i> Book Of The Season</span>
+       
         <h1>${escapeHtml(book.title)}</h1>
         <div class="hb-author">By ${escapeHtml(book.author || '')}</div>
         <p class="hb-excerpt">${escapeHtml(book.excerpt || '')}</p>
         <div class="hb-meta">
-          <span><i class="far fa-calendar-alt"></i> ${escapeHtml(book.date)}</span>
+          
           ${book.readTime ? `<span><i class="far fa-clock"></i> ${escapeHtml(book.readTime)}</span>` : ''}
           <span><i class="fas fa-layer-group"></i> ${escapeHtml(book.category)}</span>
         </div>

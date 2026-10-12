@@ -401,8 +401,8 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
 <main class="container">
 
   <section class="page-hero reveal">
-    <span class="eyebrow">Trending News & Issues</span>
-    <h1>Trending</h1>
+    
+    <h1>Trending News</h1>
     <p>The stories Ghana and The World is talking about right now.</p>
   </section>
 
@@ -558,12 +558,13 @@ function renderListingFeed(){
 
   grid.innerHTML = items.map(article => `
     <a class="trend-row1" href="/news/${encodeURIComponent(article.slug)}.html">
-      <div class="trend-thumb1"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
+     
       <div class="trend-info1">
          <span class="card-cat" style=" display: flex; justify-content: space-between;">${escapeHtml(article.category)}  <div class="card-date" style="gap:5px; display:flex; color:var(--ink1);">${escapeHtml(article.date)}</div></span>
         <h4 class="name">${escapeHtml(article.title)}</h4>
         
       </div>
+       <div class="trend-thumb1"><img src="${article.image}" alt="${escapeHtml(article.title)}"></div>
     </a>
   `).join('');
 }
