@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG_7f1487a9-2e49-462b-a39a-337cc3f139a5.jpg" alt="Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG_d3713374-55ed-4cad-b8aa-5241ac0fa748.jpg" alt="Mahama Directs GH¢300 Million Allocation for 250 New Police Apartments in 2027 Budget" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama is expected to commission the 85-bed Christian Tetteh Yohonu Ward Complex at the Ghana Police Hospital in Accra</p>
-        <a href="https://getinfoonline.com/news/mahama-to-commission-85-bed-christian-tetteh-yohonu-ward-complex-at-police-hospi.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama Directs GH¢300 Million Allocation for 250 New Police Apartments in 2027 Budget</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has asked the Minister of Finance to make provision for GH¢300 million in the 2027 Budget to construct 250 new apartments for pol…</p>
+        <a href="https://getinfoonline.com/news/mahama-directs-gh-300-million-allocation-for-250-new-police-apartments-in-2027-b.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG_3d862dee-167e-466c-8187-63c786af4bb2.jpg" alt="IMF Projects Global Growth to Slow to 3.1% in 2026 as Inflation Rises" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG_7f1487a9-2e49-462b-a39a-337cc3f139a5.jpg" alt="Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">IMF Projects Global Growth to Slow to 3.1% in 2026 as Inflation Rises</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The International Monetary Fund (IMF) has projected a slowdown in global economic growth in 2026</p>
-        <a href="https://getinfoonline.com/news/imf-projects-global-growth-to-slow-to-3-1-in-2026-as-inflation-rises.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama is expected to commission the 85-bed Christian Tetteh Yohonu Ward Complex at the Ghana Police Hospital in Accra</p>
+        <a href="https://getinfoonline.com/news/mahama-to-commission-85-bed-christian-tetteh-yohonu-ward-complex-at-police-hospi.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

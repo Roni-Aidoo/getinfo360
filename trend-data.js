@@ -9,6 +9,27 @@
 
 const TRENDING = [
     {
+    slug: "mahama-directs-gh-300-million-allocation-for-250-new-police-apartments-in-2027-b",
+    title: "Mahama Directs GH¢300 Million Allocation for 250 New Police Apartments in 2027 Budget",
+    category: "National",
+    author: "Info Desk",
+    date: "October 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/IMG_d3713374-55ed-4cad-b8aa-5241ac0fa748.jpg",
+    imageCaption: "President John Dramani Mahama",
+    excerpt: "President John Dramani Mahama has asked the Minister of Finance to make provision for GH¢300 million in the 2027 Budget to construct 250 new apartments for police officers, as part of efforts to address overcrowding in police barracks and improve the welfare of personnel.",
+    tags: ["President John Dramani", "GH¢300 million in the 2027 Budget", "250 new apartments for police officers"],
+    body: [
+      "<b>President John Dramani Mahama has asked the Minister of Finance to make provision for GH¢300 million in the 2027 Budget to construct 250 new apartments for police officers, as part of efforts to address overcrowding in police barracks and improve the welfare of personnel.</b>",
+      "The proposed investment is expected to provide additional accommodation for officers and ease congestion in some existing police barracks across the country.",
+      "President Mahama announced the initiative on Tuesday, October 13, 2026, during the commissioning of the ultramodern 85-bed ward complex at the Ghana Police Hospital in Accra.",
+      "> “There is still more good news. I have requested the Minister of Finance to provide GH¢300 million in the 2027 Budget to construct 250 new apartments for the Police to ease congestion in some of your barracks,” he said.",
+      "The proposed housing project forms part of the government's stated efforts to improve the living conditions of security personnel and strengthen the operational capacity of the Ghana Police Service.\n\nOvercrowding in police accommodation remains a concern, \n\nmaking the provision of additional housing an important issue for officers and their families.\n\nIf implemented, the construction of the 250 apartments would increase the availability of accommodation for police personnel and potentially reduce pressure on existing barracks.",
+      "However, details regarding the specific locations of the proposed apartments, the officers who will benefit and the expected construction timeline have not yet been announced.\n\nThe GH¢300 million allocation is also a proposed provision for the 2027 Budget and will need to be reflected in the budgetary process before the project can proceed through the relevant implementation stages.",
+      "For police officers living in congested barracks, the key question will be how quickly the proposed funding can translate into completed apartments and improved accommodation."
+    ]
+  },
+    {
     slug: "mahama-to-commission-85-bed-christian-tetteh-yohonu-ward-complex-at-police-hospi",
     title: "Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital",
     category: "Health",
