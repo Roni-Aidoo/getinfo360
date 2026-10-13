@@ -45,4 +45,15 @@
       <news:title>DEMONSTRATIONS ACROSS FRANCE</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/an-open-letter-to-the-ministry-of-education-ghana-education-service-and-all-stak.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T00:00:00.000Z</news:publication_date>
+      <news:title>An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools</news:title>
+    </news:news>
+  </url>
 </urlset>

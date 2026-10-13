@@ -126,14 +126,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1791550356291.jpg" alt="KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG-20261013-WA0033.jpg" alt="An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">What happens when power falls into the hands of those least prepared to use it responsibly?That question lies at the heart of kakistocracy</p>
-        <a href="https://getinfoonline.com/articles/kakistocracy-the-face-of-modern-leadership.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">I write this letter not just as a teacher, but as a parent, as a guardian, and as a Ghanaian who was heartbroken after reading the press release from the Minis…</p>
+        <a href="https://getinfoonline.com/articles/an-open-letter-to-the-ministry-of-education-ghana-education-service-and-all-stak.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +143,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/jjr.jpg" alt="Rawlings’ “House Cleaning” and Why Students Carried Ghana’s Cocoa" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/FB_IMG_1791550356291.jpg" alt="KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Rawlings’ “House Cleaning” and Why Students Carried Ghana’s Cocoa</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">In Ghana’s turbulent political and economic history, few periods remain as controversial and memorable as the early years of Flight Lieutenant Jerry John Rawli…</p>
-        <a href="https://getinfoonline.com/articles/rawlings-house-cleaning-and-why-students-carried-ghana-s-cocoa.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">What happens when power falls into the hands of those least prepared to use it responsibly?That question lies at the heart of kakistocracy</p>
+        <a href="https://getinfoonline.com/articles/kakistocracy-the-face-of-modern-leadership.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
