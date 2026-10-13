@@ -8,6 +8,57 @@
    ============================================================ */
 
 const TRENDING = [
+    {
+    slug: "mahama-to-commission-85-bed-christian-tetteh-yohonu-ward-complex-at-police-hospi",
+    title: "Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital",
+    category: "Health",
+    author: "Info Desk",
+    date: "October 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/IMG_7f1487a9-2e49-462b-a39a-337cc3f139a5.jpg",
+    imageCaption: "Credit: Red Diamond GH",
+    excerpt: "President John Dramani Mahama is expected to commission the 85-bed Christian Tetteh Yohonu Ward Complex at the Ghana Police Hospital in Accra",
+    tags: ["President John Dramani Mahama", "85-bed Christian Tetteh Yohonu Ward Complex", "Ghana Police Hospital-Accra"],
+    body: [
+      "<b>President John Dramani Mahama is expected to commission the 85-bed Christian Tetteh Yohonu Ward Complex at the Ghana Police Hospital in Accra, marking a significant development in efforts to improve healthcare facilities for police personnel.</b>",
+      "The new ward complex is expected to provide additional bed capacity and improve access to medical care for beneficiaries of the Police Hospital.",
+      "The facility, named after Inspector-General of Police (IGP), Christian Tetteh Yohonu, reflects the importance of healthcare infrastructure in supporting the welfare of personnel who serve in the Ghana Police Service.",
+      "The commissioning of the facility is expected to strengthen the hospital's capacity to accommodate patients and support the delivery of healthcare services.\n\nAdequate hospital beds and modern healthcare infrastructure are essential for improving patient care, reducing pressure on existing facilities and creating a more conducive environment for medical professionals to work.",
+      "The development also comes as the Ghana Police Hospital marks its 50th anniversary in 2026, celebrating five decades of healthcare delivery and service to police personnel and other beneficiaries.",
+      "The hospital officially launched its Golden Jubilee celebrations in August 2026, outlining a renewed focus on strengthening its healthcare services and institutional development.",
+      "The commissioning of the 85-bed Christian Tetteh Yohonu Ward Complex is expected to represent an important addition to the Ghana Police Hospital's infrastructure.\n\nIts impact will ultimately depend on the availability of medical staff, equipment and other resources required to operate the facility effectively and sustain quality healthcare delivery."
+    ]
+  },
+    {
+    slug: "imf-projects-global-growth-to-slow-to-3-1-in-2026-as-inflation-rises",
+    title: "IMF Projects Global Growth to Slow to 3.1% in 2026 as Inflation Rises",
+    category: "Business",
+    author: "Info Desk",
+    date: "October 13, 2026",
+    readTime: "3 min read",
+    image: "/Assets/IMG_3d862dee-167e-466c-8187-63c786af4bb2.jpg",
+    imageCaption: "Credit: Web",
+    excerpt: "The International Monetary Fund (IMF) has projected a slowdown in global economic growth in 2026",
+    tags: ["The International Monetary Fund (IMF)", "Business", "Global economic growth 2026"],
+    body: [
+      "<b>The International Monetary Fund (IMF) has projected a slowdown in global economic growth in 2026, warning that rising inflation could put additional pressure on economies worldwide.</b>",
+      "According to the IMF, global economic growth is expected to slow to 3.1 per cent in 2026 before recovering slightly to 3.4 per cent in 2027.\n\nThe Fund noted that global economic activity has demonstrated resilience once again despite ongoing economic challenges and uncertainties. However, the projected slowdown suggests that the global economy continues to face significant headwinds.",
+      "## Global Inflation Expected to Rise in 2026",
+      "The IMF has also projected a notable increase in global headline inflation, which is expected to rise to 4.7 per cent in 2026 before declining to 4.1 per cent in 2027.\n\nThe anticipated increase could intensify the cost-of-living pressures facing households and businesses in different parts of the world.",
+      "Higher inflation generally reduces consumers' purchasing power, as households spend more on essential goods and services. Businesses may also face increased operating costs, potentially affecting investment, production and employment.\n\nAlthough inflation is projected to ease in 2027, the outlook suggests that price pressures could remain a concern for governments, central banks and consumers in the coming months.",
+      "## Energy-Importing Economies Face Difficult Outlook",
+      "The IMF identified energy-importing economies outside the technology value chain as facing some of the most difficult economic conditions.\n\nCountries that depend heavily on imported energy are particularly vulnerable to increases in global oil and gas prices. Higher energy import bills can raise transportation and production costs, put pressure on national currencies and increase the cost of goods and services.",
+      "These challenges can be especially difficult for developing economies, where households may already be struggling with high living costs and governments have limited resources to cushion the effects of external economic shocks.\n\nEconomies that are less connected to the technology sector may also miss out on some of the investment and productivity gains associated with technological expansion, potentially widening the differences in growth prospects across countries.",
+      "## What the Projections Mean for Ghana",
+      "For Ghana, the IMF's outlook highlights the importance of monitoring developments in global inflation, energy prices and \n\neconomic growth.\n\nAs an economy that imports petroleum products and other essential goods, Ghana can be affected by changes in international commodity prices, shipping costs and exchange rates.",
+      "An increase in global energy prices could raise transportation and production costs, potentially contributing to higher prices for goods and services. It could also increase pressure on the country's import bill and complicate efforts to maintain economic stability.\n\nSlower global economic growth could also affect international trade, investment flows and demand for commodities, depending on developments in Ghana's major trading markets.",
+      "However, the actual impact on Ghana will depend on several factors, including domestic economic policies, exchange-rate movements, energy prices and conditions in international markets.",
+      "## Outlook for 2027",
+      "The IMF's projections point to a modest improvement in global economic growth in 2027, with growth expected to increase from 3.1 per cent in 2026 to 3.4 per cent.\n\nGlobal headline inflation is also projected to decline from 4.7 per cent to 4.1 per cent over the same period.",
+      "Nevertheless, the outlook suggests that the global economy will continue to face challenges, particularly for countries exposed to \n\nhigh energy costs and persistent inflationary pressures.\n\nGovernments and policymakers will therefore need to remain alert to external risks while pursuing measures that support economic stability, protect vulnerable households and encourage sustainable growth.",
+      "The IMF's assessment underscores the resilience of the global economy, but its projections also highlight the need for continued efforts to address inflation and reduce the economic vulnerabilities facing countries around the world."
+    ]
+  },
   {
     slug: "demonstrations-across-france",
     title: "DEMONSTRATIONS ACROSS FRANCE",
