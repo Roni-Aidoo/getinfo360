@@ -9,6 +9,29 @@
 
 const STORIES = [
     {
+    slug: "the-other-side-of-happiness-episode-two-the-good-news",
+    title: "The Other Side Of Happiness | Episode Two: The Good News",
+    category: "Story",
+    author: "Jennifer Agyei",
+    date: "October 15, 2026",
+    readTime: "2 min read",
+    image: "/Assets/IMG_d3713374-55ed-4cad-b8aa-5241ac0fa742.jpg",
+    imageCaption: "",
+    excerpt: "Both got ready and went to see the family doctor and a friend, Dr. Johnson.",
+    tags: ["The Other Side of Happiness", "The Good News", "Jennifer Agyei"],
+    body: [
+      "<b>“It has been months now and I have not taken seed yet. The pressure is too much for me to bear.” She said to herself. While thinking of what to do, her husband came in and asked why she was so moody. She said nothing and he was worried.</b>",
+      "“The doctor called and asked to see us concerning the test results.” He said to his wife.",
+      "“I hope to hear good news today.” Mrs. Jane replied.",
+      "Both got ready and went to see the family doctor and a friend, Dr. Johnson. When they got to his office, he gave them a seat and started smiling. Mrs. Jane was very anxious to hear what the doctor had to say. He told the couple that the test results showed that they were both okay and could bear a child. He handed over the letter to them and Quarshie read it aloud. They hugged each other and afterwards thanked Dr. Johnson.",
+      "When they arrived home, they thanked God and prayed that this miracle would be permanent. Both sang “All things are possible”, a song by Women of Faith. Few weeks after, Mrs. Jane started experiencing signs of pregnancy. She rushed to the hospital to see Dr. Johnson who run some tests on her.",
+      "“I have good news for you dear Jane. I am very pleased to tell you that you are a week pregnant.” He told Mrs. Jane.\nMrs. Jane could not believe her ears. Thank you Jesus was all that she said.",
+      "She thanked Johnson and made her way to her husband’s office. When she arrived she was told by his secretary, Rosaline that he was in a meeting. She led her to her husband’s office and made her way back to her desk. Not long after, the meeting was over and Mr. Quarshie was informed that his wife was in his office. When he opened the door, his wife rose and came up to him and hugged him.",
+      "“God has done it again Honey. I am a week pregnant.” She said.",
+      "“I can’t believe this. Hallelujah!.” He said.\nBoth knelt down and thanked God."
+    ]
+  },
+    {
     slug: "the-other-side-of-happiness-episode-one-the-divorce-letter",
     title: "The Other Side Of Happiness | Episode One: The Divorce Letter",
     category: "Story",
