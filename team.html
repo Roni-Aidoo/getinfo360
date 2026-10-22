@@ -32,7 +32,7 @@
   --tabbar-h: 66px;
   --font-display:'Montserrat', sans-serif;
   --font-body:'Public Sans', sans-serif;
-  --font-mono:'IBM Plex Mono', monospace;
+  --font-mono:'Public Sans', sans-serif;;
 }
 [data-theme="dark"]{
   --ink:#F1F2EC; --ink-soft:#A9B0BC; --paper:#0B0D11; --surface:#14171D;
@@ -460,9 +460,9 @@ function performSearch(term){
   if(results.length === 0){ resultsWrap.innerHTML = '<div class="search-empty">No results found.</div>'; return; }
   resultsWrap.innerHTML = results.map(r => {
     let href = '';
-    if(r._source === 'article') href = `article.html?slug=${encodeURIComponent(r.slug)}`;
-    else if(r._source === 'trend') href = `trend.html?slug=${encodeURIComponent(r.slug)}`;
-    else if(r._source === 'story') href = `Stories.html`;
+    if(r._source === 'article') href = `/articles/${encodeURIComponent(r.slug)}.html`;
+    else if(r._source === 'trend') href = `/news/${encodeURIComponent(r.slug)}.html`;
+    else if(r._source === 'story') href = `/stories/${encodeURIComponent(r.slug)}.html`;
     return `<a class="search-result-item" href="${href}"><img src="${r.image}" alt=""><div><span class="search-result-cat">${escapeHtml(r.category)}</span><div class="search-result-title">${escapeHtml(r.title)}</div></div></a>`;
   }).join('');
 }

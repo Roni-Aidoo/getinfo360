@@ -17,7 +17,7 @@
   --brand:#1f0c70; --brand-light:#E7F0EA; --gold:#D6A339; --ember:#f88b0f; --line:#E1E1D6;
   --shadow: 0 10px 30px -12px rgba(14,17,22,0.18); --shadow-lg: 0 24px 60px -20px rgba(14,17,22,0.28);
   --radius: 18px; --radius-sm: 12px; --header-h: 64px; --tabbar-h: 66px;
-  --font-display:'Montserrat', sans-serif; --font-body:'Public Sans', sans-serif; --font-mono:'IBM Plex Mono', monospace;
+  --font-display:'Montserrat', sans-serif; --font-body:'Public Sans', sans-serif; --font-mono:'Public Sans', sans-serif;
 }
 [data-theme="dark"]{
   --ink:#F1F2EC; --ink-soft:#A9B0BC; --paper:#0B0D11; --surface:#14171D;
@@ -262,7 +262,7 @@ function renderProfile(){
 
   const trendCards = (typeof TRENDING !== 'undefined' ? TRENDING : [])
     .filter(t => norm(t.author) === target)
-    .map(t => buildCard(`/trends/${encodeURIComponent(t.slug)}.html`, t.image, t.title, t.category, t.date, t.readTime));
+    .map(t => buildCard(`news/${encodeURIComponent(t.slug)}.html`, t.image, t.title, t.category, t.date, t.readTime));
 
   const storyCards = (typeof STORIES !== 'undefined' ? STORIES : [])
     .filter(s => norm(s.author) === target)
@@ -310,7 +310,7 @@ function renderTicker(){
   const track = document.getElementById('ticker-track');
   if(!track || typeof TRENDING === 'undefined') return;
   track.innerHTML = TRENDING.slice(0,4).map(item =>
-    `<a href="/trends/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>`
+    `<a href="news/${encodeURIComponent(item.slug)}.html">${escapeHtml(item.title)}</a>`
   ).join('');
 }
 

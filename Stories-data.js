@@ -8,6 +8,28 @@
    ============================================================ */
 
 const STORIES = [
+  {
+    slug: "its-always-the-last-but-one",
+    title: "IT'S ALWAYS THE LAST BUT ONE",
+    category: "Story",
+    author: "Jesse Mabery",
+    date: "October 20, 2026",
+    readTime: "3 min read",
+    image: "/Assets/IMG_d3713374-55ed-4cad-b8aa-5241ac0fa748-Recovered2.jpg",
+    imageCaption: "",
+    excerpt: "In one world, two brothers, Win and Failure set out on a Journey. In every checkpoint of the journey, Failure always had reached there first. Caring less about how lonely, scared and the low level of knowledge his brother had to be an equipped traveler as him. Win cried...physically tired from the Journey. What was he to do?",
+    tags: ["WIN", "FAILURE", "TWO BROTHERS", "ADVICE"],
+    body: [
+      "In one world, two brothers, Win and Failure set out on a Journey. In every checkpoint of the journey, Failure always had reached there first. Caring less about how lonely, scared and the low level of knowledge his brother had to be an equipped traveler as him. Win cried...physically tired from the Journey. What was he to do?",
+      "Yet again, Failure reached another Checkpoint earlier than him. This then breaks Win down; both emotionally and physically, lying on the ground sobbing harder than before. But who was to get him? How he felt, what was going on with him?",
+      "Win in his agony, rolled over to the other side of his body and saw this child just sitting on the ground observing him as he sobbed. Win was surprised this young child wasn't afraid or didn't seem surprised or didn't have any expression on his face but a portrait face (a state of a facial expression of a person where emotions cannot be truly detected). The child just uttered out  “it's always the last but one.\" The child got up and left. Win looked at the child leaving, as observation was ongoing, his mind played back these words uttered by the child: “it's always the last but one.” A new set of adrenaline kicked in, made a fist on the ground, got up and started to look for Help. Searched for an expert Traveller in that same Checkpoint and found some but one who was willing to understand his situation and help him right away. This expert Traveller taught him what he Needed to reach the final destination first before Failure did.",
+      "After some time to rest and regain strength, both brothers then set off again and this would be their final destination; where their journey ends. Now as Win had equipped what he needed to reach the final destination first, he undoubtedly reached there earlier than Failure. Win became so amazed, thrilled and his eyes filled with tears of Joy. Win went back to the Expert Traveller. The Expert traveller told him “Well Done\" and since the people of all the Checkpoints heard of Win's Victory, the people called him Won, honouring him by changing his name.",
+      "LESSON : IT'S ALWAYS THE LAST BUT ONE PERSON WHO GETS YOU TO THAT LAST DESTINATION AND IT'S ALWAYS THAT LAST BUT ONE MOMENT THAT MOST OF US GIVE UP. IN THIS JOURNEY WE HAVE SET ON (LIFE), FAILURE MOST AT TIMES TEND TO REACH WHERE WE WANT WINNING TO BE; BUT PUTTING IN THE RIGHT AMOUNT OF EFFORT TO THE SITUATION OR MATTER CAN FINALLY LET WINNING REACH WHERE YOU WANT WINNING TO BE IN YOUR LIFE.",
+      "It's always the last but one destination that Breakdown hits us the most but if one concentrates or holds on to the spark of hope of thought that cuts across one's mind in that very moment. The Final destination is a Go.",
+      "There is always that last but one(who has what you need) person who gives you a hand to your Final Destination filled with Glory awaiting to shower you to change the way people see you, for good. To beat Failure, we need to put in the right amount of effort required to winning that situation.",
+      "A Lesson to the teacher(Generally speaking): You are supposed to teach what your child needs to reach a targeted destination, not sidetrack lessons."
+    ]
+  },
     {
     slug: "the-other-side-of-happiness-episode-two-the-good-news",
     title: "The Other Side Of Happiness | Episode Two: The Good News",
