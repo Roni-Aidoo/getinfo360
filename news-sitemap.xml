@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+  <url>
+    <loc>https://getinfoonline.com/news/what-happened-to-kwame-dzokoto-causing-his-death.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T00:00:00.000Z</news:publication_date>
+      <news:title>What happened to Kwame Dzokoto, Causing his death</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/news/two-arrested-over-murder-of-11-year-old-girl-at-gomoa-buduburam.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T00:00:00.000Z</news:publication_date>
+      <news:title>Two Arrested Over Murder of 11-Year-Old Girl at Gomoa Buduburam</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://getinfoonline.com/articles/the-world-is-coming-to-an-end-biblical-analysis.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Getinfo Online</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T00:00:00.000Z</news:publication_date>
+      <news:title>THE WORLD IS COMING TO AN END; BIBLICAL ANALYSIS</news:title>
+    </news:news>
+  </url>
 </urlset>

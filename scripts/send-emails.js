@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG_d3713374-55ed-4cad-b8aa-5241ac0fa748.jpg" alt="Mahama Directs GH¢300 Million Allocation for 250 New Police Apartments in 2027 Budget" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG_1c732d8e-1381-4ef2-9c51-572f025e0e08.jpg" alt="What happened to Kwame Dzokoto, Causing his death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama Directs GH¢300 Million Allocation for 250 New Police Apartments in 2027 Budget</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama has asked the Minister of Finance to make provision for GH¢300 million in the 2027 Budget to construct 250 new apartments for pol…</p>
-        <a href="https://getinfoonline.com/news/mahama-directs-gh-300-million-allocation-for-250-new-police-apartments-in-2027-b.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">What happened to Kwame Dzokoto, Causing his death</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s entertainment and media industry has been thrown into mourning following the death of veteran actor, comedian, broadcaster and politician Seth Kwame Dz…</p>
+        <a href="https://getinfoonline.com/news/what-happened-to-kwame-dzokoto-causing-his-death.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG_7f1487a9-2e49-462b-a39a-337cc3f139a5.jpg" alt="Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/images1.jfif" alt="Two Arrested Over Murder of 11-Year-Old Girl at Gomoa Buduburam" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Mahama to Commission 85-Bed Christian Tetteh Yohonu Ward Complex at Police Hospital</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">President John Dramani Mahama is expected to commission the 85-bed Christian Tetteh Yohonu Ward Complex at the Ghana Police Hospital in Accra</p>
-        <a href="https://getinfoonline.com/news/mahama-to-commission-85-bed-christian-tetteh-yohonu-ward-complex-at-police-hospi.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Two Arrested Over Murder of 11-Year-Old Girl at Gomoa Buduburam</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Police in the Central Region have arrested two suspects in connection with the suspected sexual assault and murder of an 11-year-old girl, Blessing Innocent, a…</p>
+        <a href="https://getinfoonline.com/news/two-arrested-over-murder-of-11-year-old-girl-at-gomoa-buduburam.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -126,14 +126,16 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG-20261013-WA0033.jpg" alt="An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/Bible Show Background.jpg" alt="THE WORLD IS COMING TO AN END; BIBLICAL ANALYSIS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">I write this letter not just as a teacher, but as a parent, as a guardian, and as a Ghanaian who was heartbroken after reading the press release from the Minis…</p>
-        <a href="https://getinfoonline.com/articles/an-open-letter-to-the-ministry-of-education-ghana-education-service-and-all-stak.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">THE WORLD IS COMING TO AN END; BIBLICAL ANALYSIS</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Rev. 16:8-9
+El Niño 
+World Meteorological Organization (WMO) and NOAA’s Climate Prediction Center (CPC), confirm that ocean and atmospheric conditions remain a…</p>
+        <a href="https://getinfoonline.com/articles/the-world-is-coming-to-an-end-biblical-analysis.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -143,14 +145,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/FB_IMG_1791550356291.jpg" alt="KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG-20261013-WA0033.jpg" alt="An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">KAKISTOCRACY: THE FACE OF MODERN LEADERSHIP</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">What happens when power falls into the hands of those least prepared to use it responsibly?That question lies at the heart of kakistocracy</p>
-        <a href="https://getinfoonline.com/articles/kakistocracy-the-face-of-modern-leadership.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">I write this letter not just as a teacher, but as a parent, as a guardian, and as a Ghanaian who was heartbroken after reading the press release from the Minis…</p>
+        <a href="https://getinfoonline.com/articles/an-open-letter-to-the-ministry-of-education-ghana-education-service-and-all-stak.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

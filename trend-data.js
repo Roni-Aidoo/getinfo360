@@ -9,6 +9,47 @@
 
 const TRENDING = [
     {
+    slug: "what-happened-to-kwame-dzokoto-causing-his-death",
+    title: "What happened to Kwame Dzokoto, Causing his death",
+    category: "Entertainment",
+    author: "Info Desk",
+    date: "October 24, 2026",
+    readTime: "1 min read",
+    image: "/Assets/IMG_1c732d8e-1381-4ef2-9c51-572f025e0e08.jpg",
+    imageCaption: "Picture of Kwame Dzokoto",
+    excerpt: "Ghana’s entertainment and media industry has been thrown into mourning following the death of veteran actor, comedian, broadcaster and politician Seth Kwame Dzokoto",
+    tags: ["Seth Kwame Dzokoto", "Ezibanaa", "Radio Discussion", "Owass FM", "Ghana News"],
+    body: [
+      "<b>Ghana’s entertainment and media industry has been thrown into mourning following the death of veteran actor, comedian, broadcaster and politician Seth Kwame Dzokoto, who reportedly collapsed while participating in a morning radio discussion in Tarkwa in the Western Region.</b>",
+      "Dzokoto died on Thursday, October 22, 2026, after he was rushed to a hospital following the incident at Owass FM, where he was appearing as a panellist on the station’s morning programme, Oman Nkosuo. He was pronounced dead on arrival at the hospital, according to media reports.",
+      "## What happened at the radio station?",
+      "According to Prince Kwaw Gyimah, the host of the morning programme, Dzokoto arrived at the station on his own and joined the panel discussion, which began at approximately 8:45 a.m.",
+      "Mr Gyimah recounted that the discussion had barely started when the actor began experiencing difficulties. The programme was suspended as the team arranged to \n\ntake him to the hospital for medical attention.",
+      "However, he was pronounced dead upon arrival at the medical facility.",
+      "The incident has sparked sadness among his colleagues, fans and members of the public, many of whom knew him through his longstanding contributions to Ghanaian television and broadcasting.",
+      "According to reports, he disclosed that he was managing high blood pressure and diabetes. He had also undergone surgery abroad with financial support from businessman Ibrahim Mahama and other well-wishers.",
+      "However, the specific medical cause of his \n\ndeath has not been established in the reports cited here. His collapse during the radio programme should not, on its own, be taken as confirmation that any previously disclosed health condition caused his death."
+    ]
+  },
+    {
+    slug: "two-arrested-over-murder-of-11-year-old-girl-at-gomoa-buduburam",
+    title: "Two Arrested Over Murder of 11-Year-Old Girl at Gomoa Buduburam",
+    category: "Crime",
+    author: "Info Desk",
+    date: "October 24, 2026",
+    readTime: "1 min read",
+    image: "/Assets/images1.jfif",
+    imageCaption: "A Suspect",
+    excerpt: "Police in the Central Region have arrested two suspects in connection with the suspected sexual assault and murder of an 11-year-old girl, Blessing Innocent, at Gomoa Buduburam.",
+    tags: ["Crime", "Ghana Police Service", "Central Region"],
+    body: [
+      "<b>Police in the Central Region have arrested two suspects in connection with the suspected sexual assault and murder of an 11-year-old girl, Blessing Innocent, at Gomoa Buduburam.</b>",
+      "The suspects have been identified as Kingsley Ozor, 40, an autobody sprayer, and his 19-year-old apprentice, Jeffery Otaigbe. Their arrests followed a missing-person report filed by the victim’s mother on October 19, after the girl had reportedly gone missing since October 17.",
+      "Police said the suspects admitted during interrogation that the child had been with them on the day she went missing. The younger suspect allegedly led investigators to a location where the girl's body had been concealed beneath shrubs.\n\nThe body was subsequently retrieved and conveyed to the morgue at St Gregory Catholic Hospital. Police said arrangements were being made for an autopsy as investigations continued.",
+      "Both suspects remain in police custody. The case has renewed concerns about child protection and the need for communities to remain vigilant against abuse and violence involving children.\n\nThe police have assured the public that investigations will continue and that those found culpable will face the full rigours of the law."
+    ]
+  },
+    {
     slug: "mahama-directs-gh-300-million-allocation-for-250-new-police-apartments-in-2027-b",
     title: "Mahama Directs GH¢300 Million Allocation for 250 New Police Apartments in 2027 Budget",
     category: "National",

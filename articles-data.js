@@ -8,6 +8,27 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "the-world-is-coming-to-an-end-biblical-analysis",
+    title: "THE WORLD IS COMING TO AN END; BIBLICAL ANALYSIS",
+    category: "Religion",
+    author: "Jesse Mabery",
+    date: "October 24, 2026",
+    readTime: "2 min read",
+    image: "/Assets/Bible Show Background.jpg",
+    imageCaption: "Credit: Rankofsoft_designs",
+    excerpt: "Rev. 16:8-9\nEl Niño \nWorld Meteorological Organization (WMO) and NOAA’s Climate Prediction Center (CPC), confirm that ocean and atmospheric conditions remain a major warm phase expected to peak between late 2026 and early 2027. Central equatorial Pacific sea surface temperatures crossed a unprecedented threshold of 30°C, with regional weekly temperature anomalies running +3.0°C to +3.3°C above average. Scientists are measuring intensity levels approaching or EXCEEDING historic \"Super El Niño\" events recorded in 1997–98 and 2015–16. Forecast has been made that maximum intensity hits between November 2026 and January 2027. Forecasters expect El Niño conditions to persist through March–May 2027.",
+    tags: ["Bible", "Revelation", "El Niño", "End times", "God"],
+    body: [
+      "<b>Rev. 16:8-9\nEl Niño \nWorld Meteorological Organization (WMO) and NOAA’s Climate Prediction Center (CPC), confirm that ocean and atmospheric conditions remain a major warm phase expected to peak between late 2026 and early 2027. Central equatorial Pacific sea surface temperatures crossed an unprecedented threshold of 30°C, with regional weekly temperature anomalies running +3.0°C to +3.3°C above average. Scientists are measuring intensity levels approaching or EXCEEDING historic \"Super El Niño\" events recorded in 1997–98 and 2015–16. Forecast has been made that maximum intensity hits between November 2026 and January 2027. Forecasters expect El Niño conditions to persist through \nMarch–May 2027.</b>",
+      "Rev. 16:12\nEuphrates drying up. There has been unprecedented, historical drops in its water levels, with parts of the riverbed exposed entirely. While the river has not disappeared entirely, its drop in water levels and long stretches through Syria and Iraq have not been seen historically before.",
+      "Rev. 16:18\nLightning, Sounds and Thunders. Strong severe weather outbreaks across the U.S. South, Midwest, and Atlantic coasts have produced massive cloud-to-ground lightning events. There have been major strikes hitting power grids, natural gas tanks, and industrial transformers  triggering fireballs and explosions. Major commercial flights in both Europe and North America have had to execute emergency diversions or return to airports after mid-air lightning strikes during severe squall lines.",
+      "Rev. 16:18\nEarthquake like never before. The Valdivia Earthquake (also known as the Great Chilean Earthquake) occurred on Sunday, May 22, 1960. Registering at a magnitude of 9.5. It remains the most powerful earthquake ever recorded in human history. Several major earthquakes have struck around the world recently, including notable seismic events over magnitude of 7.0. Two separate magnitude 7.8 events hold the top rank for the year so far. The Mindanao Earthquake (Philippines) which happened at June 7, 2026 with magnitude 7.8 offshore strike near Sarangani. The Flores Sea Earthquake (Indonesia) which happened August 14, 2026; a magnitude of 7.8 strike offshore East Nusa Tenggara and many with severe intensity which happened this October; Vanuatu - October 24, 2026, Xizang / Tibet, China - October 22, 2026, Panama - October 9, 2026, Kamchatka Peninsula, Russia - October 16, 2026.",
+      "Biblically, islands and mountains are to disappear, and for a plague of hail to rain from the sky are yet to come.",
+      "A boy is captured on video recorded in France hanging on a Holy Mary Statue and making a sexual mockery of it. Biblically, in Revelation, people continuously blaspheme God.",
+      "Have you noticed how everything is happening verse by verse? \nAll these events are events where its massiveness have not been recorded in history before. Biblically, the world is coming to an end. James 5:8 - the coming of the Lord is at hand."
+    ]
+  },
     {
     slug: "an-open-letter-to-the-ministry-of-education-ghana-education-service-and-all-stak",
     title: "An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools",
