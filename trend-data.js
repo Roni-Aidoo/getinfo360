@@ -9,6 +9,33 @@
 
 const TRENDING = [
     {
+    slug: "william-kojo-agbeti-wins-best-cinematography-award-at-2026-los-angeles-reel-film",
+    title: "William Kojo Agbeti Wins Best Cinematography Award at 2026 Los Angeles Reel Film Festival",
+    category: "Entertainment",
+    author: "Info Desk",
+    date: "October 27, 2026",
+    readTime: "1 min read",
+    image: "/Assets/d73feedea86749ee8edf7214c6d26991.jpg",
+    imageCaption: "Mr. William Kojo Abgeti",
+    excerpt: "Ghanaian filmmaker William Kojo Agbeti has earned international recognition after his work on the film Drowning received the Best Cinematography award at the 2026 Los Angeles Reel Film Festival (Fall Edition) in the United States.",
+    tags: ["William Kojo Agbeti", "Cinematography", "2026 Los Angeles Reel Film Festival (Fall Edition", "Motion Revolutions", "Drowing", "Ghana News"],
+    body: [
+      "<b>Ghanaian filmmaker William Kojo Agbeti has earned international recognition after his work on the film Drowning received the Best Cinematography award at the 2026 Los Angeles Reel Film Festival (Fall Edition) in the United States.</b>",
+      "The achievement marks another milestone for the Ghanaian film industry, highlighting the growing presence of local filmmakers on the international stage.",
+      "William Kojo Agbeti, a director, cinematographer, producer and editor, contributed to \n\nDrowning, a Ghanaian film directed by Daniel Okpe Hooper and William Kojo Agbeti. The film secured multiple awards at the festival, including Best Cinematography, Best Director, Best Narrative Film, Best Actor and Best Original Score.",
+      "## A filmmaker with an impressive record",
+      "Agbeti has built a career around telling African stories through compelling visuals and culturally grounded narratives.",
+      "His previous work includes the film Azali \n\n(2018), for which he served as cinematographer and editor.",
+      "The film made history as Ghana's submission for consideration in the International Feature Film category at the 92nd Academy Awards.",
+      "His work on Azali also earned cinematography recognition at the Golden Movie Awards in 2019.",
+      "## Recognition for Ghanaian filmmaking",
+      "The latest award adds to Mr. Agbeti's growing list of achievements and brings further attention to the creative talent emerging from Ghana.",
+      "Recognition at an international festival provides an opportunity for Ghanaian films \n\nto reach wider audiences, attract industry interest and demonstrate the technical and artistic capabilities of local filmmakers.",
+      "Mr. Agbeti's achievement with Drowning is a reminder of the important role cinematography plays in filmmaking, using lighting, camera movement, composition and visual storytelling to communicate emotion and bring stories to life.",
+      "His success represents a proud moment for Ghana's creative industry and an encouragement to emerging filmmakers working to share Ghanaian and African stories with the world."
+    ]
+  },
+    {
     slug: "what-happened-to-kwame-dzokoto-causing-his-death",
     title: "What happened to Kwame Dzokoto, Causing his death",
     category: "Entertainment",

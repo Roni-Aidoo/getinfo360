@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/IMG_1c732d8e-1381-4ef2-9c51-572f025e0e08.jpg" alt="What happened to Kwame Dzokoto, Causing his death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/d73feedea86749ee8edf7214c6d26991.jpg" alt="William Kojo Agbeti Wins Best Cinematography Award at 2026 Los Angeles Reel Film Festival" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">What happened to Kwame Dzokoto, Causing his death</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s entertainment and media industry has been thrown into mourning following the death of veteran actor, comedian, broadcaster and politician Seth Kwame Dz…</p>
-        <a href="https://getinfoonline.com/news/what-happened-to-kwame-dzokoto-causing-his-death.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">William Kojo Agbeti Wins Best Cinematography Award at 2026 Los Angeles Reel Film Festival</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghanaian filmmaker William Kojo Agbeti has earned international recognition after his work on the film Drowning received the Best Cinematography award at the 2…</p>
+        <a href="https://getinfoonline.com/news/william-kojo-agbeti-wins-best-cinematography-award-at-2026-los-angeles-reel-film.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/images1.jfif" alt="Two Arrested Over Murder of 11-Year-Old Girl at Gomoa Buduburam" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/IMG_1c732d8e-1381-4ef2-9c51-572f025e0e08.jpg" alt="What happened to Kwame Dzokoto, Causing his death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Two Arrested Over Murder of 11-Year-Old Girl at Gomoa Buduburam</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Police in the Central Region have arrested two suspects in connection with the suspected sexual assault and murder of an 11-year-old girl, Blessing Innocent, a…</p>
-        <a href="https://getinfoonline.com/news/two-arrested-over-murder-of-11-year-old-girl-at-gomoa-buduburam.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">What happened to Kwame Dzokoto, Causing his death</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Ghana’s entertainment and media industry has been thrown into mourning following the death of veteran actor, comedian, broadcaster and politician Seth Kwame Dz…</p>
+        <a href="https://getinfoonline.com/news/what-happened-to-kwame-dzokoto-causing-his-death.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
