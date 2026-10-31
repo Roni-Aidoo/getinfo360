@@ -9,6 +9,27 @@
 
 const TRENDING = [
     {
+    slug: "40-year-old-man-arrested-with-91-parcels-of-suspected-indian-hemp-at-kwame-nkrum",
+    title: "40-Year-Old Man Arrested with 91 Parcels of Suspected Indian Hemp at Kwame Nkrumah Circle",
+    category: "Crime",
+    author: "Info Desk",
+    date: "October 31, 2026",
+    readTime: "",
+    image: "/Assets/FB_IMG_1793474416502.jpg",
+    imageCaption: "Scene",
+    excerpt: "A 40-year-old man, identified as Roger Borbobli, has been arrested at the VIP Bus Terminal at Kwame Nkrumah Circle in Accra for allegedly possessing 91 parcels of substances suspected to be Indian hemp.",
+    tags: ["Roger Borbobli", "91 parcels of substances", "NACOC", "Ghana News"],
+    body: [
+      "<b>A 40-year-old man, identified as Roger Borbobli, has been arrested at the VIP Bus Terminal at Kwame \n\nNkrumah Circle in Accra for allegedly possessing 91 parcels of substances suspected to be Indian hemp.</b>",
+      "The arrest was carried out by the Office of the Special Operations Assistant to the Inspector-General of Police (IGP).",
+      "According to information available, the suspected narcotic substances were \n\nconcealed in three suitcases, which were allegedly in the possession of the suspect at the time of his arrest.",
+      "The discovery has raised concerns about the possible transportation of illegal substances through major transport terminals, which serve as important links for travellers moving between Accra and other parts of the country.",
+      "Roger Borbobli, 40, was arrested to assist investigations into the suspected narcotics possession. Further details regarding the intended destination of the substances and the circumstances surrounding their transportation are yet to be established.",
+      "The arrest forms part of \n\nefforts by security agencies to clamp down on the possession and transportation of suspected illegal drugs in the country.",
+      "The suspect is presumed innocent until proven guilty by a court of competent jurisdiction."
+    ]
+  },
+    {
     slug: "william-kojo-agbeti-wins-best-cinematography-award-at-2026-los-angeles-reel-film",
     title: "William Kojo Agbeti Wins Best Cinematography Award at 2026 Los Angeles Reel Film Festival",
     category: "Entertainment",
