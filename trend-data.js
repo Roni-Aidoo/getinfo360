@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300-s",
+    title: "KNUST Shuts Down Swimming Pool as Nine-Member Committee Investigates Level 300 Student’s Death",
+    category: "News",
+    author: "Info Desk",
+    date: "November 9, 2026",
+    readTime: "2 min read",
+    image: "/Assets/pool-650x472.webp",
+    imageCaption: "Web",
+    excerpt: "The management of the Kwame Nkrumah University of Science and Technology (KNUST) has temporarily shut down its swimming pool following the tragic death of a Level 300 student, David Osei Agyapong.",
+    tags: ["KNUST", "Level 300 student", "David Osei Agyapong", "Ghana News"],
+    body: [
+      "The management of the Kwame Nkrumah University of Science and Technology (KNUST) has temporarily shut down its swimming pool following the tragic death of a Level 300 student, David Osei Agyapong.\n\nThe deceased, a third-year Chemical Engineering student, reportedly died on Saturday, November 7, 2026, after jumping into the university's swimming pool from one of its upper diving platforms but failing to resurface.",
+      "According to reports, the incident occurred at approximately 5:10 p.m. Pool attendants retrieved the student from the water after a few minutes and immediately rushed him to the KNUST Hospital for emergency medical attention. Unfortunately, attempts to resuscitate him were unsuccessful.\n\nFollowing the incident, the university has constituted a nine-member committee to investigate the circumstances surrounding the student's death. The committee's work will run alongside investigations by the KNUST Police to establish exactly what happened.",
+      "Speaking about the incident, the University's Relations Officer, Dr Daniel Norris Bekoe, indicated that the investigation was necessary to establish the actual cause of death, particularly as no visible marks or cuts were reportedly found on the student's body.\n\nThe student's body has since been deposited at the School of Medical Sciences morgue pending an autopsy to determine the cause of death.\n\nMeanwhile, management has suspended all activities at the swimming pool until further notice as investigations continue. The university has also extended its condolences to the bereaved family, friends, teammates and colleagues of the deceased.",
+      "The incident has raised concerns about safety measures at recreational facilities within tertiary institutions. It has also highlighted the importance of adequate emergency response systems, trained lifeguards and effective safety supervision at swimming facilities.\n\nAs the KNUST community mourns this painful loss, students and members of the public are encouraged to avoid spreading unverified information and allow the ongoing investigations to establish the facts.",
+      "The university is expected to take appropriate steps based on the findings of the committee and police investigations."
+    ]
+  },
+    {
     slug: "40-year-old-man-arrested-with-91-parcels-of-suspected-indian-hemp-at-kwame-nkrum",
     title: "40-Year-Old Man Arrested with 91 Parcels of Suspected Indian Hemp at Kwame Nkrumah Circle",
     category: "Crime",
