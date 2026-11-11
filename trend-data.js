@@ -9,6 +9,25 @@
 
 const TRENDING = [
     {
+    slug: "bog-cautions-ghanaians-against-spraying-crumpling-heritage-cedi-notes-and-using-",
+    title: "BoG cautions Ghanaians against spraying, crumpling Heritage cedi notes and using them for money bouquets",
+    category: "Business",
+    author: "Info Desk",
+    date: "November 10, 2026",
+    readTime: "1 min read",
+    image: "/Assets/money copy.jpg",
+    imageCaption: "Web",
+    excerpt: "Bank of Ghana cautions Ghanaians against spraying, crumpling, writing on or using the new Heritage Series cedi notes for money bouquets ahead of the November 12 launch.",
+    tags: ["Bank of Ghana", "Heritage Series cedi notes", "Money", "Ghana News"],
+    body: [
+      "<b>The Bank of Ghana (BoG) has cautioned the public against \n\nspraying, crumpling, writing on or using the newly introduced Ghana Cedi Heritage Series banknotes to create money bouquets and \n\nother decorative items.\n\nThe warning comes as the Central Bank prepares to officially launch the new Heritage \n\nSeries banknotes, urging Ghanaians to handle the national currency responsibly and avoid practices that could damage its quality and shorten its lifespan.\n</b>",
+      "According to the Bank, improper handling of banknotes increases the rate at which damaged currency must be replaced, \n\nconsequently raising the cost of currency management.\n\nThe prohibited practices include spraying or showering money \n\nat social gatherings, folding and crumpling notes, writing on or stapling them, and using banknotes for decorative purposes such as money bouquets.\n\n\nThe Bank of Ghana has explained that the new Heritage Series is being introduced with enhanced security features, improved durability and \n\nredesigned features reflecting Ghana's history, culture and national identity.",
+      "The official launch is scheduled for Thursday, \n\nNovember 12, 2026, at the Bank Square in Accra, with President John Dramani Mahama expected to lead the ceremony.\n\nMeanwhile, the Central Bank has assured the public that the introduction of the Heritage Series will not invalidate the existing Ghana cedi banknotes. \n\nBoth the old and new banknotes will circulate together, and existing notes will continue to be accepted as legal tender.",
+      "The public has \n\ntherefore been advised not to rush to exchange or withdraw their existing banknotes following the introduction of the new series.",
+      "The Bank is encouraging individuals, traders, businesses and financial institutions to support efforts to preserve the integrity of the \n\nGhana cedi by handling all banknotes with care.\n\nThe advisory forms part of broader efforts to improve currency \n\nmanagement, reduce the cost of replacing damaged notes and maintain public confidence in the national currency."
+    ]
+  },
+    {
     slug: "knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300-s",
     title: "KNUST Shuts Down Swimming Pool as Nine-Member Committee Investigates Level 300 Student’s Death",
     category: "News",

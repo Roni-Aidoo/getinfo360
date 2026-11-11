@@ -9,6 +9,22 @@
 
 const STORIES = [
   {
+    slug: "if-a-house-could-speak-what-would-it-say",
+    title: "IF A HOUSE COULD SPEAK, WHAT WOULD IT SAY...",
+    category: "Life",
+    author: "Jesse Mabery",
+    date: "November 5, 2026",
+    readTime: "1 min read",
+    image: "/Assets/download.webp",
+    imageCaption: "Credit: vatmh.org",
+    excerpt: "Many people have me, but not many people know the advise I can give. ",
+    tags: ["House", "Wind", "Lightning", "Life", "Death", "Stand Still", "People"],
+    body: [
+      "Many people have me, but not many people know the advise I can give. I take rain, I take dust, I take wind, sometimes I even take lightening, but I stand. I shelter you, I watch your teary nights, I watch your happy days and when you're ready to move on, you destroy me and I become part of the ground from which I was made. Some also sell me off to someone to become their next guardian. I saw your changes, I saw your growth, I saw your pain and struggles and the attempts you made to soothe that pain; but only ended up in adding more pain. I hear your screams, the things you throw to me... me.... who is not your enemy, yet I bear it all, just to prove a point to you.",
+      "Regardless I try my best to the ability I was given from the very day of my creation. A home accepts the pretty and the ugly, I just stand regardless. I have the best memories of you and the worst memories of you, yet, I do my job; I cover you in the best of my ability... always. Regardless, I do my job. Many people have me, but not many people know the advise I can give. Stand still, for the lashes of the wind and rain are all causes and effects, regardless of the causes and effects, stand firm and do your job. Affection or not, stand, and do your job. Then again, I'm only a house... the one who will still cover you today. A house is the one who died for us; Christ - Who can be likened to the character of a house."
+    ]
+  },
+  {
     slug: "cannibal",
     title: "CANNIBAL",
     category: "Story",
