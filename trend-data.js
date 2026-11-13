@@ -9,6 +9,47 @@
 
 const TRENDING = [
     {
+    slug: "ges-interdicts-two-aduman-shs-teachers-over-alleged-sexual-misconduct-against-ma",
+    title: "GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student",
+    category: "Education",
+    author: "Info Desk",
+    date: "November 12, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-11-12 at 07.46.05.jpeg",
+    imageCaption: "Entrance of the School",
+    excerpt: "The Ghana Education Service (GES) has interdicted two teachers of Aduman Senior High School in the Ashanti Region following allegations of sexual misconduct involving a male final-year student.",
+    tags: ["Ghana Education Service (GES)", "Aduman Senior High School", "Ashanti Region", "Ghana News"],
+    body: [
+      "<b>The Ghana Education Service (GES) has interdicted two teachers of Aduman Senior High School in the Ashanti Region following allegations of sexual misconduct involving a male final-year student.\n\nThe teachers have been identified as Isaac Yankey and Palance Kwakye. Both have reportedly been arrested by the Ghana Police Service in connection with the allegations.</b>",
+      "## How the Issue Came to Light",
+      "The matter attracted public attention after the student's mother reportedly spoke on Lawson TV and Lawson 96.3 FM, appealing for justice for her son.\n\nAccording to media reports, the student made allegations against the two teachers, who were said to have been involved in separate incidents. One of the alleged incidents reportedly occurred in the school's ICT laboratory.",
+      "The mother called on the relevant authorities to investigate the matter thoroughly and ensure that anyone found responsible is held accountable.",
+      "## GES and Police Intervention",
+      "In a statement issued on Thursday, November 12, 2026, the Head of Public Relations at GES, Daniel Fenyi, confirmed that the Service had received reports of the alleged misconduct and referred the matter to the police for investigation.",
+      "GES subsequently interdicted the two teachers, meaning they have been temporarily removed from their official duties while investigations continue.\n\nThe Service also disclosed that the alleged victim had been provided with psychosocial support to protect his emotional and psychological well-being.",
+      "The incident has raised concerns about student protection, teacher professionalism and the responsibility of educational authorities to provide safe learning environments.\n\nParents and stakeholders are expected to look to the ongoing police investigations for answers and accountability.",
+      "It is important to emphasise that the allegations against the two teachers have not yet been established in court. The outcome of the investigations will determine the next course of action."
+    ]
+  },
+    {
+    slug: "akufo-addo-appointed-head-of-ecowas-observer-mission-for-nigeria-s-2027-election",
+    title: "Akufo-Addo Appointed Head of ECOWAS Observer Mission for Nigeria’s 2027 Elections",
+    category: "News",
+    author: "Info Desk",
+    date: "November 12, 2026",
+    readTime: "1 min read",
+    image: "/Assets/WhatsApp Image 2026-11-12 at 07.25.40.jpeg",
+    imageCaption: "Nana Addo Dankwa Akuffo Addo",
+    excerpt: "Former Ghanaian President Nana Addo Dankwa Akufo-Addo has been appointed to lead the Economic Community of West African States (ECOWAS) Election Observation Mission for Nigeria’s 2027 general elections.",
+    tags: ["Nana Addo Dankwa Akufo-Addo", "ECOWAS", "Nigeria’s 2027 general elections", "News"],
+    body: [
+      "<b>Former Ghanaian President Nana Addo Dankwa Akufo-Addo has been appointed to lead the Economic Community of West African States (ECOWAS) Election Observation Mission for Nigeria’s 2027 general elections.</b>",
+      "The appointment makes him responsible for leading observers who will monitor the electoral process to promote transparency, fairness and peaceful elections.",
+      "The mission is expected to assess the activities before, during and after voting, ensuring that the elections meet democratic standards.\n\nNigeria’s 2027 elections are scheduled to take place amid efforts to strengthen democratic governance and public confidence in the country's electoral system.",
+      "Akufo-Addo’s appointment highlights Ghana’s continued involvement in promoting democracy and regional stability across West Africa."
+    ]
+  },
+    {
     slug: "bog-cautions-ghanaians-against-spraying-crumpling-heritage-cedi-notes-and-using-",
     title: "BoG cautions Ghanaians against spraying, crumpling Heritage cedi notes and using them for money bouquets",
     category: "Business",

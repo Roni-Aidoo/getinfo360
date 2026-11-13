@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/money copy.jpg" alt="BoG cautions Ghanaians against spraying, crumpling Heritage cedi notes and using them for money bouquets" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-11-12 at 07.46.05.jpeg" alt="GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">BoG cautions Ghanaians against spraying, crumpling Heritage cedi notes and using them for money bouquets</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Bank of Ghana cautions Ghanaians against spraying, crumpling, writing on or using the new Heritage Series cedi notes for money bouquets ahead of the November 1…</p>
-        <a href="https://getinfoonline.com/news/bog-cautions-ghanaians-against-spraying-crumpling-heritage-cedi-notes-and-using-.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Education Service (GES) has interdicted two teachers of Aduman Senior High School in the Ashanti Region following allegations of sexual misconduct in…</p>
+        <a href="https://getinfoonline.com/news/ges-interdicts-two-aduman-shs-teachers-over-alleged-sexual-misconduct-against-ma.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/pool-650x472.webp" alt="KNUST Shuts Down Swimming Pool as Nine-Member Committee Investigates Level 300 Student’s Death" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-11-12 at 07.25.40.jpeg" alt="Akufo-Addo Appointed Head of ECOWAS Observer Mission for Nigeria’s 2027 Elections" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">KNUST Shuts Down Swimming Pool as Nine-Member Committee Investigates Level 300 Student’s Death</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The management of the Kwame Nkrumah University of Science and Technology (KNUST) has temporarily shut down its swimming pool following the tragic death of a Le…</p>
-        <a href="https://getinfoonline.com/news/knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300-s.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Akufo-Addo Appointed Head of ECOWAS Observer Mission for Nigeria’s 2027 Elections</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Former Ghanaian President Nana Addo Dankwa Akufo-Addo has been appointed to lead the Economic Community of West African States (ECOWAS) Election Observation Mi…</p>
+        <a href="https://getinfoonline.com/news/akufo-addo-appointed-head-of-ecowas-observer-mission-for-nigeria-s-2027-election.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
