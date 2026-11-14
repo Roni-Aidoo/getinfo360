@@ -9,6 +9,24 @@
 
 const TRENDING = [
     {
+    slug: "aduman-shs-chaplain-ict-teacher-remanded-over-alleged-sexual-abuse-of-two-minors",
+    title: "Aduman SHS Chaplain, ICT Teacher Remanded Over Alleged Sexual Abuse of Two Minors",
+    category: "Education",
+    author: "Info Desk",
+    date: "November 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/download (1).webp",
+    imageCaption: "Pictures of the them",
+    excerpt: "Two teachers of Aduman Senior High School in the Ashanti Region have been remanded into police custody by the Nsuta Circuit Court over allegations of sodomy involving two minor students.",
+    tags: ["Aduman SHS", "Ghana News"],
+    body: [
+      "<b>Two teachers of Aduman Senior High School in the Ashanti Region have been remanded into police custody by the Nsuta Circuit Court over allegations of sodomy involving two minor students.</b>",
+      "The suspects have been identified as 39-year-old Isaac Yankey, the school's chaplain, and 37-year-old Kwabena Kwakye Palance, an Information and Communications Technology (ICT) teacher. They were arraigned before the court on Thursday, November 12, 2026.\n\nThe case follows reports of alleged sexual misconduct involving students of the school, which attracted public attention after a parent appealed for justice for her son. The allegations prompted the Ghana Education Service (GES) to refer the matter to the police and interdict both teachers pending investigations.",
+      "The GES has also confirmed that the alleged victim has been provided with psychosocial support to protect his well-being. Meanwhile, the Ashanti North Regional Police Command has assured the public that investigations are ongoing and that the matter is being handled professionally.",
+      "The development has raised serious concerns about student safety, teacher professionalism and the responsibility of school authorities to protect students from abuse.\n\nThe two teachers remain suspects, and the allegations are yet to be proven in court."
+    ]
+  },
+    {
     slug: "controversy-erupts-over-theodosia-okoh-s-portrait-on-new-gh-50-note",
     title: "Controversy Erupts Over Theodosia Okoh’s Portrait on New GH¢50 Note",
     category: "National",
