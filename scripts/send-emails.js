@@ -67,14 +67,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-11-12 at 07.46.05.jpeg" alt="GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/FB_IMG_1794494966391.jpg" alt="Controversy Erupts Over Theodosia Okoh’s Portrait on New GH¢50 Note" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Education Service (GES) has interdicted two teachers of Aduman Senior High School in the Ashanti Region following allegations of sexual misconduct in…</p>
-        <a href="https://getinfoonline.com/news/ges-interdicts-two-aduman-shs-teachers-over-alleged-sexual-misconduct-against-ma.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Controversy Erupts Over Theodosia Okoh’s Portrait on New GH¢50 Note</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">A controversy has emerged over the portrait of Ghana’s national flag designer, Theodosia Salome Okoh, featured on the newly unveiled GH¢50 Heritage Series bank…</p>
+        <a href="https://getinfoonline.com/news/controversy-erupts-over-theodosia-okoh-s-portrait-on-new-gh-50-note.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>
@@ -84,14 +84,14 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
-        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-11-12 at 07.25.40.jpeg" alt="Akufo-Addo Appointed Head of ECOWAS Observer Mission for Nigeria’s 2027 Elections" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+        <img src="https://getinfoonline.com/Assets/WhatsApp Image 2026-11-12 at 07.46.05.jpeg" alt="GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
     <tr>
       <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Akufo-Addo Appointed Head of ECOWAS Observer Mission for Nigeria’s 2027 Elections</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">Former Ghanaian President Nana Addo Dankwa Akufo-Addo has been appointed to lead the Economic Community of West African States (ECOWAS) Election Observation Mi…</p>
-        <a href="https://getinfoonline.com/news/akufo-addo-appointed-head-of-ecowas-observer-mission-for-nigeria-s-2027-election.html"
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">The Ghana Education Service (GES) has interdicted two teachers of Aduman Senior High School in the Ashanti Region following allegations of sexual misconduct in…</p>
+        <a href="https://getinfoonline.com/news/ges-interdicts-two-aduman-shs-teachers-over-alleged-sexual-misconduct-against-ma.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

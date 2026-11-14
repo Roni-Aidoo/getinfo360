@@ -9,6 +9,26 @@
 
 const TRENDING = [
     {
+    slug: "controversy-erupts-over-theodosia-okoh-s-portrait-on-new-gh-50-note",
+    title: "Controversy Erupts Over Theodosia Okoh’s Portrait on New GH¢50 Note",
+    category: "National",
+    author: "Info Desk",
+    date: "November 13, 2026",
+    readTime: "1 min read",
+    image: "/Assets/FB_IMG_1794494966391.jpg",
+    imageCaption: "The New 50 cedis Note",
+    excerpt: "A controversy has emerged over the portrait of Ghana’s national flag designer, Theodosia Salome Okoh, featured on the newly unveiled GH¢50 Heritage Series banknote.",
+    tags: ["Theodosia Salome Okoh", "GH¢50 Heritage Series", "Ghana News"],
+    body: [
+      "<b>A controversy has emerged over the portrait of Ghana’s national flag designer, Theodosia Salome Okoh, featured on the newly unveiled GH¢50 Heritage Series banknote.</b>",
+      "The controversy began after Professor Eddie Obeng, a nephew of the late Theodosia Okoh, raised concerns that the woman depicted on the banknote was not his aunt but rather his mother, Dr Letitia Obeng, a renowned Ghanaian zoologist and the first Ghanaian woman to obtain a doctorate.",
+      "Professor Obeng expressed surprise in a LinkedIn post, explaining that he initially felt proud when he heard his aunt had been honoured on the new currency. However, after examining the note, he claimed the portrait closely resembled his mother instead.",
+      "The Bank of Ghana has responded to the allegations through its board member, Beatrice Annan, who defended the portrait. She explained that the image was developed using three authentic photographs of Theodosia Okoh, two from her younger years and one from later life. The photographs were combined to create a mature portrait suitable for banknote printing.",
+      "She further explained that adjustments were made to the hairstyle and other details to meet the technical requirements of currency engraving. The Bank has also indicated that it is engaging the Okoh family to address their concerns.\n\nThe issue has attracted widespread public attention, with Minority Leader Alexander Afenyo-Markin also criticising the government over what he described as a lack of diligence in selecting the portrait.",
+      "The new GH¢50 note was unveiled on November 12, 2026, as part of Ghana's Heritage Series and is expected to enter circulation on December 1, 2026.\n\nThe controversy has raised questions about the accuracy of historical representations on Ghana's currency and the importance of properly honouring national heroes."
+    ]
+  },
+    {
     slug: "ges-interdicts-two-aduman-shs-teachers-over-alleged-sexual-misconduct-against-ma",
     title: "GES Interdicts Two Aduman SHS Teachers Over Alleged Sexual Misconduct Against Male Student",
     category: "Education",
