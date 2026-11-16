@@ -126,6 +126,23 @@ async function main() {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
     <tr>
       <td>
+        <img src="https://getinfoonline.com/Assets/IMG_da1ef2b8-f455-4fc8-92d2-43a14d44b4e2.jpg" alt="Roni&apos;s Folder: Why We Must Uphold Personal Responsibility and Digital Security In the Use of the Internet." width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 18px;">
+        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">Roni&apos;s Folder: Why We Must Uphold Personal Responsibility and Digital Security In the Use of the Internet.</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">My concern today is how freely we feed the internet with personal information, including details that are extremely private</p>
+        <a href="https://getinfoonline.com/articles/ronis-folder-why-we-must-uphold-personal-responsibility-and-digital-security-in-.html"
+           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
+          Continue Reading &#8594;
+        </a>
+      </td>
+    </tr>
+  </table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
+    <tr>
+      <td>
         <img src="https://getinfoonline.com/Assets/Bible Show Background.jpg" alt="THE WORLD IS COMING TO AN END; BIBLICAL ANALYSIS" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
       </td>
     </tr>
@@ -136,23 +153,6 @@ async function main() {
 El Niño 
 World Meteorological Organization (WMO) and NOAA’s Climate Prediction Center (CPC), confirm that ocean and atmospheric conditions remain a…</p>
         <a href="https://getinfoonline.com/articles/the-world-is-coming-to-an-end-biblical-analysis.html"
-           style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
-          Continue Reading &#8594;
-        </a>
-      </td>
-    </tr>
-  </table>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:22px;border:1px solid #eee;border-radius:8px;overflow:hidden;">
-    <tr>
-      <td>
-        <img src="https://getinfoonline.com/Assets/IMG-20261013-WA0033.jpg" alt="An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools" width="100%" style="display:block;width:100%;max-height:220px;object-fit:cover;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:16px 18px;">
-        <p style="margin:0 0 8px 0;font-size:17px;font-weight:700;color:#111111;line-height:1.35;">An Open Letter To The Ministry Of Education, Ghana Education Service And All Stakeholders: Let Us Use Technology To End Sexual Abuse In Our Schools</p>
-        <p style="margin:0 0 12px 0;font-size:14px;color:#444444;line-height:1.55;">I write this letter not just as a teacher, but as a parent, as a guardian, and as a Ghanaian who was heartbroken after reading the press release from the Minis…</p>
-        <a href="https://getinfoonline.com/articles/an-open-letter-to-the-ministry-of-education-ghana-education-service-and-all-stak.html"
            style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;background:#111111;padding:9px 16px;border-radius:5px;text-decoration:none;">
           Continue Reading &#8594;
         </a>

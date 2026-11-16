@@ -8,6 +8,35 @@
    ============================================================ */
 
 const ARTICLES = [
+    {
+    slug: "ronis-folder-why-we-must-uphold-personal-responsibility-and-digital-security-in-",
+    title: "Roni's Folder: Why We Must Uphold Personal Responsibility and Digital Security In the Use of the Internet.",
+    category: "Technology",
+    author: "Roni Aidoo",
+    date: "November 15, 2026",
+    readTime: "2 min read",
+    image: "/Assets/IMG_da1ef2b8-f455-4fc8-92d2-43a14d44b4e2.jpg",
+    imageCaption: "Web Image",
+    excerpt: "My concern today is how freely we feed the internet with personal information, including details that are extremely private",
+    tags: ["Technology", "Internet Security", "World News"],
+    body: [
+      "<b>In an era where technological advancement continues to reshape \n\nour lives, I come forward today with a message worth \n\nreflecting on. Speaking from an analytical perspective, \n\nwith experience and interest in the field of technology, I \n\nwish to draw attention to one of the growing concerns surrounding \n\nour use of the internet.\n</b>",
+      "I will not approach this subject \n\nwith excessive optimism, because in this rapidly evolving \n\ntechnological era, almost anything is possible.\n\nOver the years, numerous educational programmes, campaigns and \n\nworkshops have been organised to promote the responsible use of \n\ntechnology, particularly the internet. Yet, despite these efforts, \n\nmany people continue to be carried away by the excitement \n\nand convenience that technological advancement offers. In the process, they overlook the potential dangers \n\nassociated with their online activities.",
+      "My concern today is how freely we feed the internet with personal information, \n\nincluding details that are extremely private and should \n\nnever be carelessly shared or exposed.\n\nEven more \n\nworrying is the confidence with which some people \n\nshare sensitive information and intimate content with others, \n\nsimply because they believe certain digital features \n\noffer complete protection.",
+      "Features such as View Once, \n\ndisappearing messages and temporary chats have created a \n\nfalse sense of security among many users.\n\nBut here is \n\nsomething we must understand: What disappears from your \n\nscreen does not necessarily disappear from the digital world.",
+      "Information shared, uploaded or entered online can \n\npotentially be captured, stored, copied, retrieved or redistributed.\n\n A message that is designed to disappear after a few seconds \n\ndoes not guarantee that the recipient has not taken a \n\nscreenshot, recorded the screen or preserved its contents through \n\nanother means.",
+      "The consequences can be devastating.",
+      "It is important to recognise that not every incident involving leaked intimate images or \n\nprivate content results from sophisticated hacking or unauthorised\n\n access to someone's device. In some cases, the individuals \n\naffected initially shared the content themselves with people \n\nthey trusted, only for that trust to be betrayed.",
+      "This should remind us that the greatest threat to our digital privacy is \n\nnot always a hacker. Sometimes, it is the person on the other \n\nside of the conversation.",
+      "My message is simple: Let us use the applications and digital platforms available to \n\nus for their intended purposes, while exercising caution over \n\nwhat we share and with whom we share it.",
+      "Technology is meant to make life easier, not expose us to unnecessary embarrassment, exploitation or danger. We must not allow the convenience \n\nof modern applications to blind us to the importance of personal \n\nresponsibility and digital security.",
+      "Your personal dignity, privacy and protection on the internet should \n\nmatter to you just as much as they matter offline.",
+      "Think before you upload. Think before you share. Think before you trust.",
+      "Do not place absolute trust in the internet. One day, the \n\nvery platform you trusted may become the reason you regret what \n\nyou shared.",
+      "Stay informed. Stay protected. \n\nStay responsible."
+    ]
+  },
+
   {
     slug: "the-world-is-coming-to-an-end-biblical-analysis",
     title: "THE WORLD IS COMING TO AN END; BIBLICAL ANALYSIS",
