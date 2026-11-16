@@ -8,6 +8,27 @@
    ============================================================ */
 
 const ARTICLES = [
+  {
+    slug: "the-strategic-implication-of-the-new-economy-on-indigenous-businesses-in-ghana-m",
+    title: "The Strategic Implication Of The New Economy On Indigenous Businesses In Ghana; Hon. Ato Forson's Visit To Knust School Of Business",
+    category: "National",
+    author: "Jesse Mabery",
+    date: "November 16, 2026",
+    readTime: "2 min read",
+    image: "/Assets/download (2).webp",
+    imageCaption: "Hon. Ato Forson",
+    excerpt: "The complain of Ghana's indigenous businesses products of food produce not being purchased by the Ghanaian citizens led to this decision; a strategic implication of the new economy. This will lead to local farms produce to be purchased in large sum bringing in income, which will be used to develop the Agric. Sector of the economy.",
+    tags: ["Hon. Ato Forson", "KNUST SCHOOL OF BUSINESS (KSB)", "New Economy", "Creation of jobs", "Expressway", "National AI Centre", "Commercial farms", "Palm Oil", "Ghana News"],
+    body: [
+      "Commercial farms will be collaborating with local farms so that their goods can be purchased. The complain of Ghana's indigenous businesses products of food produce not being purchased by the Ghanaian citizens led to this decision; a strategic implication of the new economy. This will lead to local farms produce to be purchased in large sum bringing in income, which will be used to develop the Agric. Sector of the economy.",
+      "The roads of Ghana are full of pot holes, especially the road from Kumasi to Accra. An Express Way will be built to smoothen the journey. This strategy will lead to domestic tourism. The Minister of Finance, Hon. Ato Forson, made a comment of arriving in one of Kumasi's hotels and finding it so quiet. He asked the manager and the manager responded \"there aren't too many visits\". Hon. Ato Forson, the Minister of Finance, commented he was shocked, even more so, that in Kumasi there are not more than three 5-Star hotels and that is a disappointment to him since \"Kumasi is the second largest city in Ghana\" he said.",
+      "The establishment of domestic tourism, will allow foreigners to come sight-seeing in the second largest city in Ghana, bringing in income to develop the Services sector, the Tourism, Culture and Creative Arts Sector.",
+      "A National Artificial Intelligence Centre will be built and its services will be given to the people of Ghana. The Strategic implication is this will advance, modernise the indigenous businesses in the country to create more jobs. Hon. Ato Forson said Ghana's population has increased to 33 million. Today, the country has more mouths to feed and so this National Artificial Intelligence Centre and its services is to reduce the unemployment rate in Ghana, to feed the mouths we have created, more than five times the population of 6 million we were years ago when we achieved our Independence.",
+      "Additionally, Commercial Agriculture, eg. Poultry, Sugar, Palm Oil will no longer be imported into the country Ghana. These products, especially Palm Oil, its local produce will create more jobs for the economy.",
+      "The Texile and many Embroidery Sewing indigenous businesses in Ghana have caught the attention of the Government. To create more jobs, this new economy to be established will become one of the most prominent jobs in the country since many citizens have the requisite skills in this field. Our many mothers who sew cloths as a business, brothers and sisters in this field of business will be invited into this new economy to create more jobs for the growing population.",
+      "All these and many more to achieve the new economy and its job creation for indigenous businesses in Ghana."
+    ]
+  },
     {
     slug: "ronis-folder-why-we-must-uphold-personal-responsibility-and-digital-security-in-",
     title: "Roni's Folder: Why We Must Uphold Personal Responsibility and Digital Security In the Use of the Internet.",
