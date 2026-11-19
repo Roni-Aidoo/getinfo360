@@ -45,6 +45,7 @@
   --paper:#F1F2EC;
   --surface:#FFFFFF;
   --paper1:#FFFFFF;
+  --ink2:#5B6472;
   --brand:#1f0c70;
   --brand-light:#E7F0EA;
   --gold:#D6A339;
@@ -552,6 +553,11 @@ footer.footer{
   .ASP1{
     display: block;
   }
+  aside{
+  
+  margin-top:-110px;
+
+}
 }
 .scroll{
   width: 350px;
@@ -560,6 +566,25 @@ footer.footer{
   width: 330px;
   margin-top: -18px;
 }
+
+
+.trend-row2{
+  display:flex; align-items:center; gap:16px; padding:14px 0;
+   border-top:1px solid var(--line);
+}
+.trend-row2:last-child{ border-bottom:none; padding-bottom:0; }
+.trend-row2:first-child{ padding-top:0; }
+.trend-thumb2{ width:90px; height:90px;  overflow:hidden; flex-shrink:0; background:var(--brand-light); }
+.trend-thumb2 img{ width:100%; height:100%; object-fit:cover; }
+.trend-info2 h4{ font-size:0.95rem; font-weight:600; line-height:1.35; }
+.trend-info2 .trend1-date{ font-size:0.75rem; color:var(--ink-soft); margin-top:4px; font-family:var(--font-mono); }
+
+.card-date{
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+
 
 </style>
 </head>
@@ -681,7 +706,7 @@ footer.footer{
     </div>
   </section>
 
-  <!-- ================= ART SPEAKS RAIL ================= -->
+  <!-- ================= ART SPEAKS RAIL ================= 
    <div class="ASP">
   <section class="rail-section">
     <div class="scroll">
@@ -692,11 +717,11 @@ footer.footer{
       </div>
       <a href="arts.html" class="see-all">View All</a>
     </div>
-    <!-- Filled by JS from ARTS in quote-art-data.js -->
+    <!-- Filled by JS from ARTS in quote-art-data.js 
     <div class="hscroll reveal" id="art-rail"></div>
     </div>
   </section>
-  </div>
+  </div>-->
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
          style="margin:28px 0;background:#fafafa;border:1px dashed #dddddd;border-radius:8px;">
     <tr>
@@ -709,7 +734,9 @@ footer.footer{
       </td>
     </tr>
   </table>
+  
   </div>
+ 
   </div>
   
   <!-- Sidebar -->
@@ -719,7 +746,7 @@ footer.footer{
     <aside>
    <!-- ================= TRENDING NOW (ranked list) ================= -->
    <br><br>
-  <section class="rail-section">
+  <section class="rail-section" >
     <div class="section-head reveal" style="gap: 5px; border-bottom:1px solid var(--line); border-top: var(--ink-soft) 1px solid; padding: 5px 5px;">
       <div >
         
@@ -1014,16 +1041,19 @@ function wireHeroSlideshow(total){
    ============================================================ */
 function buildCard(href, image, alt, category, title, date){
   return `
-    <a class="card" href="${href}">
-      <div class="card-img"><img src="${image}" alt="${escapeHtml(alt)}"></div>
-      <div class="card-body">
-        <span class="card-cat" style=" display: flex; justify-content: space-between;">${escapeHtml(category)}  <div class="card-date" style="gap:5px; display:flex; color:var(--ink1);">${escapeHtml(date)}</div></span>
-        <h3 class="card-title">${escapeHtml(title)}</h3>
-        
+
+  <a class="trend-row2" href="${href}">
+      
+      <div class="trend-info2">
+         <span class="card-cat" style=" display: flex; justify-content: space-between; margin-bottom:10px; margin-top:3px;"><b>${escapeHtml(category)} </b> </span>
+        <h4 class="name" style="font-family:var(--font-display);">${escapeHtml(title)}</h4>
+      <span class="card-cat" style=""> <div class="card-date" style="gap:5px; display:flex; color:var(--ink2); margin-bottom:-10px;">${escapeHtml(date)}</div></span>
       </div>
+      <div class="trend-thumb2"><img src="${image}" alt="${escapeHtml(title)}"></div>
     </a>
-  `;
+     `;
 }
+
 
 function renderFeedGrid(){
   const grid = document.getElementById('feed-grid');

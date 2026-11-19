@@ -185,11 +185,17 @@ main{ padding-top:26px; padding-bottom:60px; }
   padding:6px 14px; border-radius:999px;
 }
 .article-header h1{ font-family:var(--font-display); font-size:clamp(1.6rem,4vw,2.3rem); font-weight:700; line-height:1.2; letter-spacing:-0.01em; margin:14px 0 16px; }
-.article-meta{  color:var(--ink-soft); font-size:0.75rem; font-family:var(--font-mono); padding-bottom:20px; border-bottom:1px solid var(--line); }
+.article-meta{  color:var(--ink-soft); font-size:0.75rem; font-family:var(--font-mono); padding-bottom:20px; border-bottom:1px solid var(--line); border-top:var(--brand) 1px solid; margin-top: 10px; }
 .metas{ display:flex; flex-wrap:wrap; gap:5px; }
 .article-meta span{ display:flex; align-items:center; gap:3px; }
 .article-meta i{ color:var(--ember); }
 .article-meta .author{ color:var(--ink); font-weight:700; font-family:var(--font-body); }
+
+#art-des{
+  color:var(--ink-soft);
+  font-size: 14px;
+  
+}
 
 .article-featured-img{ margin:24px 0 30px; overflow:hidden;   }
 .article-featured-img img{ width:100%; aspect-ratio:16/9; object-fit:cover;   }
@@ -394,8 +400,10 @@ footer.footer{ background:var(--ink); color:#EEF3FC; padding:52px 0 26px; margin
       <div class="article-header reveal">
         <span class="category-badge" id="art-category">Category</span>
         <h1 id="art-title">Loading…</h1>
+         <span><span id="art-des">—</span></span>
+         <br>
         <div class="article-meta">
-          <span class="author">By:<span id="art-author">—</span></span>
+          <span class="author" style="margin-top: 13px;">By:<span id="art-author">—</span></span>
           <div class="metas">
                       <span><i class="far fa-clock"></i> <span id="art-date">—</span></span>
           <span>|<span id="art-readtime">—</span></span>
@@ -636,7 +644,7 @@ const slug = getSlugFromURL();
   document.getElementById('art-category').textContent = article.category;
   
   document.getElementById('art-title').textContent = article.title;
-  
+  document.getElementById('art-des').textContent = article.excerpt;
   document.getElementById('art-date').textContent = article.date;
   document.getElementById('art-readtime').textContent = article.readTime;
   document.getElementById('art-image').src = article.image;

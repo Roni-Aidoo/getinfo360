@@ -9,6 +9,33 @@
 
 const TRENDING = [
     {
+    slug: "brace-for-heat-dust-and-flash-floods-ghana-prepares-for-a-strong-el-ni-o-in-2026",
+    title: "Brace for Heat, Dust, and Flash Floods: Ghana Prepares for a Strong El Niño  in 2026–2027",
+    category: "National",
+    author: "Ronald Aidoo (Source: GMet)",
+    date: "November 19, 2026",
+    readTime: "3 min read",
+    image: "/Assets/IMG-20261118-WA0046.jpg",
+    imageCaption: "Credit Ghana Meteorological Agency",
+    excerpt: "Forecasts indicate that the phenomenon\n\n will continue strengthening through January to March 2027, \n\ncarrying an 83% probability of reaching strong to very strong \n\nintensity before gradually weakening in the first half of 2027.",
+    tags: ["GMet", "El Nino", "Ghana News"],
+    body: [
+      "<b>The Ghana Meteorological Agency (GMet) has confirmed that a very strong El Niño event is developing in the Pacific Ocean and is expected to shape Ghana’s weather into the first half of 2027. </b>",
+      "In a public brief issued on October 29, 2026, the agency urged citizens, farmers, and key sectors to prepare early for a harsher dry season alongside the lingering threat of localized flooding.",
+      "## What Is Happening?",
+      "El Niño is a natural warming of the central and eastern Pacific Ocean that \n\ndisrupts global rainfall and temperature patterns, including \n\nacross West Africa. According to GMet and international climate \n\nmonitoring centers—including NOAA, the International Research \n\nInstitute for Climate and Society (IRI), and the World Meteorological Organization (WMO)—the current event is actively \n\nintensifying.",
+      "Forecasts indicate that the phenomenon\n\n will continue strengthening through January to March 2027, \n\ncarrying an 83% probability of reaching strong to very strong \n\nintensity before gradually weakening in the first half of 2027.",
+      "## What It Means for Ghana",
+      "Ghana has historically proven vulnerable to El Niño-driven \n\nrainfall variability, with past major episodes in 1982/83, \n\n1997/98, 2015/16, and 2023/24 significantly impacting \n\nagriculture, water resources, hydroelectric power generation, \n\nand public health.",
+      "For the 2026–2027 cycle, GMet \n\noutlines three primary risks for the country:",
+      "1	A hotter, drier, and dustier dry season starting from late November.\n<br>\n      2    Prolonged dry spells across many areas.\n<br>\n\n\n      3  Sudden heavy rainfall and flooding remaining a risk in parts of southern Ghana.\n\nOutlook Through \n<br>\n\nDecember 2026:\n<br>\n\n	Rainfall: While below-\n\nnormal rainfall is forecast across most of the country, \n\nabove-normal rainfall is still expected in inland \n\nparts of Greater Accra and Central, south-western \n\nparts of Volta and Eastern, parts of Bono and Savannah, \n\nand north-western Upper West.\n<br>\n\n	Temperature: Warmer-\n\nthan-average conditions are projected for most \n\nareas, though cooler-than-average temperatures are \n\nexpected in the south-west and parts of Volta between \n\nHo and Kete Krachi.\n\nAhead of the \n\nHarmattan: Key Risks for Early 2027\n\n\nFrom late November 2026 through March 2027, \n\nGMet anticipates drier and dustier conditions than usual \n\nacross many parts of Ghana. These conditions heighten the \n\ndanger of bushfires, water shortages, and severe stress on \n\ncrops and livestock. Furthermore, the hot, dry, and dusty weather may \n\nelevate the seasonal risk of meningitis in the northern regions.\n\n<br>",
+      "Heat stress is expected to peak between February \n\nand April 2027, particularly in Northern Ghana. Because the \n\nstart and performance of the 2027 rainy seasons remain \n\nuncertain, GMet noted it will continue issuing updated \n\nseasonal forecasts.",
+      "Recommended \n\nPreparedness Measures\n\nTo mitigate \n\nthe impacts of the developing El Niño, GMet advises the \n\nfollowing actions:",
+      "1. Farmers: Monitor advisories \n\nfrom GMet and the Ministry of Food and Agriculture before \n\nplanting or replanting. Adopt climate-smart agricultural \n\npractices, choose early-maturing and drought-\n\ntolerant crop varieties where suitable, and strictly \n\navoid bush burning.\n<br>\n	Residents of Northern Regions: \n\nMinimize exposure to dust wherever possible and seek \n\nimmediate medical attention if symptoms like fever, severe \n\nheadache, or a stiff neck occur.\n\n<br>\n\n	Communities Along the \n\nVolta and Low-Lying Urban Areas: Stay alert to advisories \n\nfrom NADMO and the Volta River Authority, as short, \n\nheavy downpours and localized flooding can still \n\nstrike even where overall seasonal rainfall is below \n\nnormal.\n\n<br>\n\n	General Public: Stay hydrated, avoid \n\nstrenuous outdoor labor during peak heat hours, conserve \n\nwater, check on vulnerable groups (the elderly, young \n\nchildren, and the unwell), and rely on official weather \n\nupdates.",
+      "GMet’s Response\n\nGMet is tracking the El Niño event daily and will release \n\nupdated outlooks as conditions evolve, alongside its regular ten-\n\nday agricultural bulletins. The agency is also collaborating\n\n with stakeholders across Disaster Risk Management\n\n, Energy, Agriculture, Water Resources, Health, Local \n\nAuthorities, Transport, Minerals, and Maritime sectors to \n\ntranslate these forecasts into timely, location-specific \n\naction."
+    ]
+  },
+    {
     slug: "aduman-shs-chaplain-ict-teacher-remanded-over-alleged-sexual-abuse-of-two-minors",
     title: "Aduman SHS Chaplain, ICT Teacher Remanded Over Alleged Sexual Abuse of Two Minors",
     category: "Education",
